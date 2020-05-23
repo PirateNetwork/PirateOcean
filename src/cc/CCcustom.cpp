@@ -35,11 +35,11 @@
 
 /*
  CCcustom has most of the functions that need to be extended to create a new CC contract.
- 
+
  A CC scriptPubKey can only be spent if it is properly signed and validated. By constraining the vins and vouts, it is possible to implement a variety of functionality. CC vouts have an otherwise non-standard form, but it is properly supported by the enhanced bitcoin protocol code as a "cryptoconditions" output and the same pubkey will create a different address.
- 
+
  This allows creation of a special address(es) for each contract type, which has the privkey public. That allows anybody to properly sign and spend it, but with the constraints on what is allowed in the validation code, the contract functionality can be implemented.
- 
+
  what needs to be done to add a new contract:
  1. add EVAL_CODE to eval.h
  2. initialize the variables in the CCinit function below
@@ -47,11 +47,11 @@
  4. make helper functions to create rawtx for RPC functions
  5. add rpc calls to rpcserver.cpp and rpcserver.h and in one of the rpc.cpp files
  6. add the new .cpp files to src/Makefile.am
- 
+
  IMPORTANT: make sure that all CC inputs and CC outputs are properly accounted for and reconcile to the satoshi. The built in utxo management will enforce overall vin/vout constraints but it wont know anything about the CC constraints. That is what your Validate function needs to do.
- 
+
  Generally speaking, there will be normal coins that change into CC outputs, CC outputs that go back to being normal coins, CC outputs that are spent to new CC outputs.
- 
+
  Make sure both the CC coins and normal coins are preserved and follow the rules that make sense. It is a good idea to define specific roles for specific vins and vouts to reduce the complexity of validation.
  */
 
@@ -228,7 +228,7 @@ uint8_t GatewaysCCpriv[32] = { 0xf7, 0x4b, 0x5b, 0xa2, 0x7a, 0x5e, 0x9c, 0xda, 0
 #define FUNCNAME IsTokensInput
 #define EVALCODE EVAL_TOKENS
 const char *TokensCCaddr = "RAMvUfoyURBRxAdVeTMHxn3giJZCFWeha2";
-const char *TokensNormaladdr = "RCNgAngYAdrfzujYyPgfbjCGNVQZzCgTad"; 
+const char *TokensNormaladdr = "RCNgAngYAdrfzujYyPgfbjCGNVQZzCgTad";
 char TokensCChexstr[67] = { "03e6191c70c9c9a28f9fd87089b9488d0e6c02fb629df64979c9cdb6b2b4a68d95" };
 uint8_t TokensCCpriv[32] = { 0x1d, 0x0d, 0x0d, 0xce, 0x2d, 0xd2, 0xe1, 0x9d, 0xf5, 0xb6, 0x26, 0xd5, 0xad, 0xa0, 0xf0, 0x0a, 0xdd, 0x7a, 0x72, 0x7d, 0x17, 0x35, 0xb5, 0xe3, 0x2c, 0x6c, 0xa9, 0xa2, 0x03, 0x16, 0x4b, 0xcf };
 #include "CCcustom.inc"
@@ -248,7 +248,7 @@ uint8_t CClibCCpriv[32] = { 0x57, 0xcf, 0x49, 0x71, 0x7d, 0xb4, 0x15, 0x1b, 0x4f
 #define FUNCNAME IsImportGatewayInput
 #define EVALCODE EVAL_IMPORTGATEWAY
 const char *ImportGatewayCCaddr = "RXJT6CRAXHFuQ2UjqdxMj7EfrayF6UJpzZ";
-const char *ImportGatewayNormaladdr = "RNFRho63Ddz1Rh2eGPETykrU4fA8r67S4Y"; 
+const char *ImportGatewayNormaladdr = "RNFRho63Ddz1Rh2eGPETykrU4fA8r67S4Y";
 char ImportGatewayCChexstr[67] = { "0397231cfe04ea32d5fafb2206773ec9fba6e15c5a4e86064468bca195f7542714" };
 uint8_t ImportGatewayCCpriv[32] = { 0x65, 0xef, 0x27, 0xeb, 0x3d, 0xb0, 0xb4, 0xae, 0x0f, 0xbc, 0x77, 0xdb, 0xf8, 0x40, 0x48, 0x90, 0x52, 0x20, 0x9e, 0x45, 0x3b, 0x49, 0xd8, 0x97, 0x60, 0x8c, 0x27, 0x4c, 0x59, 0x46, 0xe1, 0xdf };
 #include "CCcustom.inc"

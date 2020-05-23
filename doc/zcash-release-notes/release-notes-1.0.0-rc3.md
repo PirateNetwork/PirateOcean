@@ -1,4 +1,4 @@
-Chirag Davé (1):
+Chirag DavÃ© (1):
       fReopenDebugLog and fRequestShutdown should be type sig_atomic_t
 
 Daira Hopwood (9):

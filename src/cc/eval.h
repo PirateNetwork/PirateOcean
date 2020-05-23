@@ -140,7 +140,7 @@ bool RunCCEval(const CC *cond, const CTransaction &tx, unsigned int nIn);
  * Virtual machine to use in the case of on-chain app evaluation
  */
 class AppVM
-{ 
+{
 public:
     /*
      * in:  header   - paramters agreed upon by all players
@@ -200,7 +200,7 @@ public:
             READWRITE(MoMoMDepth);
         }
     }
-    
+
     template <typename Stream>
     void SerSymbol(Stream& s, CSerActionSerialize act)
     {
@@ -227,7 +227,7 @@ public:
         }
         return 0;
     }
-    
+
     template <typename Stream>
     bool DetectBackNotarisation(Stream& s, CSerActionSerialize act)
     {
@@ -274,7 +274,7 @@ public:
     }
 
     ADD_SERIALIZE_METHODS;
-    
+
     template <typename Stream, typename Operation>
     inline void SerializationOp(Stream& s, Operation ser_action) {
         READWRITE(VARINT(nIndex));

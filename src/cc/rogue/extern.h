@@ -110,7 +110,7 @@
 #ifdef _WIN32
 #ifdef _MSC_VER
 #include <stdint.h>
-#endif 
+#endif
 #endif
 
 #undef SIGTSTP

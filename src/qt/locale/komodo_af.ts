@@ -181,7 +181,7 @@
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>BELANGRIK:  Alle vorige kopieë en rugsteun-weergawes wat u tevore van die gemaak het, moet vervang word met die jongste weergawe van u nuutste gekodifiseerde beursie.  Alle vorige weergawes en rugsteun-kopieë van u beursie sal nutteloos raak die oomblik wat u die nuut-gekodifiseerde beursie begin gebruik.</translation>
+        <translation>BELANGRIK:  Alle vorige kopieÃ« en rugsteun-weergawes wat u tevore van die gemaak het, moet vervang word met die jongste weergawe van u nuutste gekodifiseerde beursie.  Alle vorige weergawes en rugsteun-kopieÃ« van u beursie sal nutteloos raak die oomblik wat u die nuut-gekodifiseerde beursie begin gebruik.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Maak 'n rugsteun-kopié van beursie na 'n ander stoorplek</translation>
+        <translation>Maak 'n rugsteun-kopiÃ© van beursie na 'n ander stoorplek</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -383,11 +383,11 @@
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Pirate adresse</translation>
+        <translation>VerifieÃ«r boodskappe om seker te maak dat dit met die gespesifiseerde Pirate adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Leër</translation>
+        <translation>&amp;LeÃ«r</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -415,7 +415,7 @@
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>Blokke op skyf word geïndekseer...</translation>
+        <translation>Blokke op skyf word geÃ¯ndekseer...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
@@ -598,7 +598,7 @@
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Fout: Gespesifiseerde dataleêr "%1" kon nie geskep word nie.</translation>
+        <translation>Fout: Gespesifiseerde dataleÃªr "%1" kon nie geskep word nie.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -635,7 +635,7 @@
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Alle kliëntopsies na verstek terugstel.</translation>
+        <translation>Alle kliÃ«ntopsies na verstek terugstel.</translation>
     </message>
     <message>
         <source>&amp;Network</source>
@@ -691,13 +691,13 @@
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Kliënt moet herbegin word om veranderinge te aktiveer.</translation>
+        <translation>KliÃ«nt moet herbegin word om veranderinge te aktiveer.</translation>
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>Available:</source>
+        <source>Transparent:</source>
         <translation>Beskikbaar:</translation>
     </message>
     <message>
@@ -788,7 +788,7 @@
     </message>
     <message>
         <source>Client version</source>
-        <translation>Kliëntweergawe</translation>
+        <translation>KliÃ«ntweergawe</translation>
     </message>
     <message>
         <source>General</source>
@@ -1010,10 +1010,10 @@
     </message>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Pirate Core</source>
-        <translation>Pirate Kern</translation>
+        <translation>Komodo Kern</translation>
     </message>
     <message>
         <source>Information</source>

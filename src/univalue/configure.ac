@@ -2,7 +2,7 @@ m4_define([libunivalue_major_version], [1])
 m4_define([libunivalue_minor_version], [1])
 m4_define([libunivalue_micro_version], [3])
 m4_define([libunivalue_interface_age], [3])
-# If you need a modifier for the version number. 
+# If you need a modifier for the version number.
 # Normally empty, but can be used to make "fixup" releases.
 m4_define([libunivalue_extraversion], [])
 

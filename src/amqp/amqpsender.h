@@ -14,7 +14,7 @@
 
 class AMQPSender : public proton::messaging_handler {
   private:
-    std::deque<proton::message> messages_; 
+    std::deque<proton::message> messages_;
     proton::url url_;
     proton::connection conn_;
     proton::sender sender_;
@@ -33,7 +33,7 @@ class AMQPSender : public proton::messaging_handler {
         sender_ = conn_.open_sender(url_.path());
     }
 
-    // Remote end signals when the local end can send (i.e. has credit) 
+    // Remote end signals when the local end can send (i.e. has credit)
     void on_sendable(proton::sender &s) override {
         dispatch();
     }

@@ -24,7 +24,7 @@
 // encoding from one context will be rejected in the other.  We know that the set of valid
 // transaction versions is currently ({1..INT32_MAX}) so we will use a negative value for
 // payment disclosure of -10328976 which in hex is 0xFF626470.  Serialization is in little endian
-// format, so a payment disclosure hex string begins 706462FF, which in ISO-8859-1 is "pdbÿ".
+// format, so a payment disclosure hex string begins 706462FF, which in ISO-8859-1 is "pdbÃ¿".
 #define PAYMENT_DISCLOSURE_PAYLOAD_MAGIC_BYTES    -10328976
 
 #define PAYMENT_DISCLOSURE_VERSION_EXPERIMENTAL 0

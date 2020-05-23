@@ -83,7 +83,7 @@ public:
         // We need a constant "zero" variable in some contexts. In theory
         // it should never be necessary, but libsnark does not synthesize
         // optimal circuits.
-        // 
+        //
         // The first variable of our constraint system is constrained
         // to be one automatically for us, and is known as `ONE`.
         ZERO.allocate(pb);
@@ -290,7 +290,7 @@ public:
 
         insert_uint256(verify_inputs, rt);
         insert_uint256(verify_inputs, h_sig);
-        
+
         for (size_t i = 0; i < NumInputs; i++) {
             insert_uint256(verify_inputs, nullifiers[i]);
             insert_uint256(verify_inputs, macs[i]);

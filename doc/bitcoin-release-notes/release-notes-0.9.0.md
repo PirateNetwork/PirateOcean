@@ -348,7 +348,7 @@ Thanks to everyone who contributed to this release:
 - Gavin Andresen
 - Gregory Maxwell
 - gubatron
-- Guillermo Céspedes Tabárez
+- Guillermo CÃ©spedes TabÃ¡rez
 - Haakon Nilsen
 - HaltingState
 - Han Lin Yap
@@ -402,7 +402,7 @@ Thanks to everyone who contributed to this release:
 - Timon Rapp
 - Timothy Stranex
 - Tom Geller
-- Torstein Husebø
+- Torstein HusebÃ¸
 - Vaclav Vobornik
 - vhf / victor felder
 - Vinnie Falco

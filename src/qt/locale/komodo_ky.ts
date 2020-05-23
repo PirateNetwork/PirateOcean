@@ -3,22 +3,22 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation>Жаң даректи жасоо</translation>
+        <translation>ÐÐ°Ò£ Ð´Ð°ÑÐµÐºÑÐ¸ Ð¶Ð°ÑÐ¾Ð¾</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>Ө&amp;чүрүү</translation>
+        <translation>Ó¨&amp;ÑÒ¯ÑÒ¯Ò¯</translation>
     </message>
     </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Address</source>
-        <translation>Дарек</translation>
+        <translation>ÐÐ°ÑÐµÐº</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(аты жок)</translation>
+        <translation>(Ð°ÑÑ Ð¶Ð¾Ðº)</translation>
     </message>
 </context>
 <context>
@@ -31,11 +31,11 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Транзакциялар</translation>
+        <translation>&amp;Ð¢ÑÐ°Ð½Ð·Ð°ÐºÑÐ¸ÑÐ»Ð°Ñ</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>Билдирүүнү &amp;текшерүү...</translation>
+        <translation>ÐÐ¸Ð»Ð´Ð¸ÑÒ¯Ò¯Ð½Ò¯ &amp;ÑÐµÐºÑÐµÑÒ¯Ò¯...</translation>
     </message>
     <message>
         <source>Pirate</source>
@@ -43,49 +43,49 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Капчык</translation>
+        <translation>ÐÐ°Ð¿ÑÑÐº</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Файл</translation>
+        <translation>&amp;Ð¤Ð°Ð¹Ð»</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Жардам</translation>
+        <translation>&amp;ÐÐ°ÑÐ´Ð°Ð¼</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Ката</translation>
+        <translation>ÐÐ°ÑÐ°</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Эскертүү</translation>
+        <translation>Ð­ÑÐºÐµÑÑÒ¯Ò¯</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Маалымат</translation>
+        <translation>ÐÐ°Ð°Ð»ÑÐ¼Ð°Ñ</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Жаңыланган</translation>
+        <translation>ÐÐ°Ò£ÑÐ»Ð°Ð½Ð³Ð°Ð½</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>ÐÐ°ÑÐ°</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(аты жок)</translation>
+        <translation>(Ð°ÑÑ Ð¶Ð¾Ðº)</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Дарек</translation>
+        <translation>&amp;ÐÐ°ÑÐµÐº</translation>
     </message>
     </context>
 <context>
@@ -95,14 +95,14 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>версия</translation>
+        <translation>Ð²ÐµÑÑÐ¸Ñ</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Error</source>
-        <translation>Ката</translation>
+        <translation>ÐÐ°ÑÐ°</translation>
     </message>
     </context>
 <context>
@@ -115,39 +115,39 @@
     <name>OptionsDialog</name>
     <message>
         <source>MB</source>
-        <translation>МБ</translation>
+        <translation>ÐÐ</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Тармак</translation>
+        <translation>&amp;Ð¢Ð°ÑÐ¼Ð°Ðº</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>Капчык</translation>
+        <translation>ÐÐ°Ð¿ÑÑÐº</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Порт:</translation>
+        <translation>&amp;ÐÐ¾ÑÑ:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Терезе</translation>
+        <translation>&amp;Ð¢ÐµÑÐµÐ·Ðµ</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;Жарайт</translation>
+        <translation>&amp;ÐÐ°ÑÐ°Ð¹Ñ</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Жокко чыгаруу</translation>
+        <translation>&amp;ÐÐ¾ÐºÐºÐ¾ ÑÑÐ³Ð°ÑÑÑ</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>жарыяланбаган</translation>
+        <translation>Ð¶Ð°ÑÑÑÐ»Ð°Ð½Ð±Ð°Ð³Ð°Ð½</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>жок</translation>
+        <translation>Ð¶Ð¾Ðº</translation>
     </message>
     </context>
 <context>
@@ -172,90 +172,90 @@
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation>Маалымат</translation>
+        <translation>ÐÐ°Ð°Ð»ÑÐ¼Ð°Ñ</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Жалпы</translation>
+        <translation>ÐÐ°Ð»Ð¿Ñ</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>&amp;Тармак</translation>
+        <translation>&amp;Ð¢Ð°ÑÐ¼Ð°Ðº</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Аты</translation>
+        <translation>ÐÑÑ</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Ачуу</translation>
+        <translation>&amp;ÐÑÑÑ</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Консоль</translation>
+        <translation>&amp;ÐÐ¾Ð½ÑÐ¾Ð»Ñ</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Консолду тазалоо</translation>
+        <translation>ÐÐ¾Ð½ÑÐ¾Ð»Ð´Ñ ÑÐ°Ð·Ð°Ð»Ð¾Ð¾</translation>
     </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Message:</source>
-        <translation>Билдирүү:</translation>
+        <translation>ÐÐ¸Ð»Ð´Ð¸ÑÒ¯Ò¯:</translation>
     </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>Дарек</translation>
+        <translation>ÐÐ°ÑÐµÐº</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Билдирүү</translation>
+        <translation>ÐÐ¸Ð»Ð´Ð¸ÑÒ¯Ò¯</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>ÐÐ°ÑÐ°</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Билдирүү</translation>
+        <translation>ÐÐ¸Ð»Ð´Ð¸ÑÒ¯Ò¯</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(аты жок)</translation>
+        <translation>(Ð°ÑÑ Ð¶Ð¾Ðº)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;Бардыгын тазалоо</translation>
+        <translation>&amp;ÐÐ°ÑÐ´ÑÐ³ÑÐ½ ÑÐ°Ð·Ð°Ð»Ð¾Ð¾</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;Жөнөтүү</translation>
+        <translation>&amp;ÐÓ©Ð½Ó©ÑÒ¯Ò¯</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(аты жок)</translation>
+        <translation>(Ð°ÑÑ Ð¶Ð¾Ðº)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Даректи алмашуу буферинен коюу</translation>
+        <translation>ÐÐ°ÑÐµÐºÑÐ¸ Ð°Ð»Ð¼Ð°ÑÑÑ Ð±ÑÑÐµÑÐ¸Ð½ÐµÐ½ ÐºÐ¾ÑÑ</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Билдирүү:</translation>
+        <translation>ÐÐ¸Ð»Ð´Ð¸ÑÒ¯Ò¯:</translation>
     </message>
     </context>
 <context>
@@ -268,11 +268,11 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Даректи алмашуу буферинен коюу</translation>
+        <translation>ÐÐ°ÑÐµÐºÑÐ¸ Ð°Ð»Ð¼Ð°ÑÑÑ Ð±ÑÑÐµÑÐ¸Ð½ÐµÐ½ ÐºÐ¾ÑÑ</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;Бардыгын тазалоо</translation>
+        <translation>&amp;ÐÐ°ÑÐ´ÑÐ³ÑÐ½ ÑÐ°Ð·Ð°Ð»Ð¾Ð¾</translation>
     </message>
     </context>
 <context>
@@ -285,15 +285,15 @@
     <name>TransactionDesc</name>
     <message>
         <source>%1/offline</source>
-        <translation>%1/тармакта эмес</translation>
+        <translation>%1/ÑÐ°ÑÐ¼Ð°ÐºÑÐ° ÑÐ¼ÐµÑ</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>ÐÐ°ÑÐ°</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Билдирүү</translation>
+        <translation>ÐÐ¸Ð»Ð´Ð¸ÑÒ¯Ò¯</translation>
     </message>
     </context>
 <context>
@@ -303,22 +303,22 @@
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>ÐÐ°ÑÐ°</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(аты жок)</translation>
+        <translation>(Ð°ÑÑ Ð¶Ð¾Ðº)</translation>
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>ÐÐ°ÑÐ°</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Дарек</translation>
+        <translation>ÐÐ°ÑÐµÐº</translation>
     </message>
     </context>
 <context>
@@ -334,18 +334,18 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Information</source>
-        <translation>Маалымат</translation>
+        <translation>ÐÐ°Ð°Ð»ÑÐ¼Ð°Ñ</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Эскертүү</translation>
+        <translation>Ð­ÑÐºÐµÑÑÒ¯Ò¯</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Ката</translation>
+        <translation>ÐÐ°ÑÐ°</translation>
     </message>
 </context>
 </TS>

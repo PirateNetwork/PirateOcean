@@ -16,9 +16,9 @@
 namespace libzcash {
 
 static constexpr size_t GROTH_PROOF_SIZE = (
-    48 + // π_A
-    96 + // π_B
-    48); // π_C
+    48 + // Ï_A
+    96 + // Ï_B
+    48); // Ï_C
 
 typedef std::array<unsigned char, GROTH_PROOF_SIZE> GrothProof;
 typedef boost::variant<PHGRProof, GrothProof> SproutProof;

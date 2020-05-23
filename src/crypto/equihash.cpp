@@ -9,7 +9,7 @@
 // =========
 // Alex Biryukov and Dmitry Khovratovich
 // Equihash: Asymmetric Proof-of-Work Based on the Generalized Birthday Problem
-// NDSS ’16, 21-24 February 2016, San Diego, CA, USA
+// NDSS â16, 21-24 February 2016, San Diego, CA, USA
 // https://www.internetsociety.org/sites/default/files/blogs-media/equihash-asymmetric-proof-of-work-based-generalized-birthday-problem.pdf
 
 #if defined(HAVE_CONFIG_H)
@@ -83,7 +83,7 @@ int Equihash<N,K>::InitialiseState(eh_HashState& base_state)
     unsigned char personalization[crypto_generichash_blake2b_PERSONALBYTES] = {};
     if ( ASSETCHAINS_NK[0] == 0 && ASSETCHAINS_NK[1] == 0 )
         memcpy(personalization, "ZcashPoW", 8);
-    else 
+    else
         memcpy(personalization, "NandKPoW", 8);
     memcpy(personalization+8,  &le_N, 4);
     memcpy(personalization+12, &le_K, 4);
@@ -110,20 +110,20 @@ void GenerateHash(const eh_HashState& base_state, eh_index g,
                                           sizeof(eh_index));
         crypto_generichash_blake2b_final(&state, hash, hLen);
     }
-    else 
+    else
     {
         uint32_t myHash[16] = {0};
         uint32_t startIndex = g & 0xFFFFFFF0;
 
         for (uint32_t g2 = startIndex; g2 <= g; g2++) {
     	    uint32_t tmpHash[16] = {0};
-    	 
-    	    eh_HashState state;	
+
+    	    eh_HashState state;
     	    state = base_state;
     	    eh_index lei = htole32(g2);
     	    crypto_generichash_blake2b_update(&state, (const unsigned char*) &lei,
     		                              sizeof(eh_index));
-    	    
+
     	    crypto_generichash_blake2b_final(&state, (unsigned char*)&tmpHash[0], static_cast<uint8_t>(hLen));
 
     	    for (uint32_t idx = 0; idx < 16; idx++) myHash[idx] += tmpHash[idx];
@@ -864,7 +864,7 @@ template bool Equihash<200,9>::OptimisedSolve(const eh_HashState& base_state,
                                               const std::function<bool(EhSolverCancelCheck)> cancelled);
 #endif
 template bool Equihash<200,9>::IsValidSolution(const eh_HashState& base_state, std::vector<unsigned char> soln);
-                                              
+
 // Explicit instantiations for Equihash<96,3>
 template int Equihash<150,5>::InitialiseState(eh_HashState& base_state);
 #ifdef ENABLE_MINING

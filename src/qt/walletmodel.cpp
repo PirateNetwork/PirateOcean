@@ -241,7 +241,7 @@ void WalletModel::updateWatchOnlyFlag(bool fHaveWatchonly)
 bool WalletModel::validateAddress(const QString &address, bool allowZAddresses)
 {
     bool validTAddress = IsValidDestinationString(address.toStdString());
-    
+
     if (validTAddress) return true;
 
     if (allowZAddresses) return IsValidPaymentAddressString(address.toStdString(), CurrentEpochBranchId(chainActive.Height(), Params().GetConsensus()));
@@ -384,13 +384,13 @@ WalletModel::SendCoinsReturn WalletModel::prepareZTransaction(WalletModelZTransa
     fromTaddr = IsValidDestination(taddr);
     if (!fromTaddr) {
         auto res = DecodePaymentAddress(fromaddress.toStdString());
-        if (!IsValidPaymentAddress(res, branchId)) 
+        if (!IsValidPaymentAddress(res, branchId))
         {
             return InvalidFromAddress;
         }
 
         // Check that we have the spending key
-        if (!boost::apply_visitor(HaveSpendingKeyForPaymentAddress(wallet), res)) 
+        if (!boost::apply_visitor(HaveSpendingKeyForPaymentAddress(wallet), res))
         {
             return HaveNotSpendingKey;
         }
@@ -436,7 +436,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareZTransaction(WalletModelZTransa
                 containsSaplingOutput |= toSapling;
 
                 // Sending to both Sprout and Sapling is currently unsupported using z_sendmany
-                if (containsSproutOutput && containsSaplingOutput) 
+                if (containsSproutOutput && containsSaplingOutput)
                 {
                     return SendingBothSproutAndSapling;
                 }
@@ -450,7 +450,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareZTransaction(WalletModelZTransa
 
                 // If we are sending from a shielded address, all recipient
                 // shielded addresses must be of the same type.
-                if ((fromSprout && toSapling) || (fromSapling && toSprout)) 
+                if ((fromSprout && toSapling) || (fromSapling && toSprout))
                 {
                     return SendBetweenSproutAndSapling;
                 }
@@ -509,7 +509,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareZTransaction(WalletModelZTransa
         max_tx_size = MAX_TX_SIZE_BEFORE_SAPLING;
 
         // Check the number of zaddr outputs does not exceed the limit.
-        if (zaddrRecipients.size() > Z_SENDMANY_MAX_ZADDR_OUTPUTS_BEFORE_SAPLING)  
+        if (zaddrRecipients.size() > Z_SENDMANY_MAX_ZADDR_OUTPUTS_BEFORE_SAPLING)
         {
             return TooManyZaddrs;
         }
@@ -517,7 +517,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareZTransaction(WalletModelZTransa
 
     // If Sapling is not active, do not allow sending from or sending to Sapling addresses.
     if (!NetworkUpgradeActive(nextBlockHeight, Params().GetConsensus(), Consensus::UPGRADE_SAPLING)) {
-        if (fromSapling || containsSaplingOutput) 
+        if (fromSapling || containsSaplingOutput)
         {
             return SaplingHasNotActivated;
         }
@@ -548,7 +548,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareZTransaction(WalletModelZTransa
         txsize += CTXOUT_REGULAR_SIZE;      // There will probably be taddr change
     }
     txsize += CTXOUT_REGULAR_SIZE * taddrRecipients.size();
-    if (txsize > max_tx_size) 
+    if (txsize > max_tx_size)
     {
         return LargeTransactionSize;
     }
@@ -566,7 +566,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareZTransaction(WalletModelZTransa
     // This allows amount=0 (and all amount < nDefaultFee) transactions to use the default network fee
     // or anything less than nDefaultFee instead of being forced to use a custom fee and leak metadata
     if (total < nDefaultFee) {
-        if (nFee > nDefaultFee) 
+        if (nFee > nDefaultFee)
             return TooLargeFeeForSmallTrans;
     } else {
         // Check that the user specified fee is not absurd.
@@ -645,7 +645,7 @@ WalletModel::SendCoinsReturn WalletModel::sendCoins(WalletModelTransaction &tran
                 newTx->vOrderForm.push_back(make_pair(key, value));
             }
             else
-            #endif 
+            #endif
                 if (!rcp.message.isEmpty()) // Message from normal komodo:URI (komodo:123...?message=example)
                     newTx->vOrderForm.push_back(make_pair("Message", rcp.message.toStdString()));
         }
@@ -700,13 +700,13 @@ WalletModel::SendCoinsReturn WalletModel::zsendCoins(WalletModelZTransaction &tr
 {
     // Create operation and add to global queue
     std::shared_ptr<AsyncRPCQueue> q = getAsyncRPCQueue();
-    std::shared_ptr<AsyncRPCOperation> operation( new AsyncRPCOperation_sendmany(transaction.getBuilder(), 
-                                                                                 transaction.getContextualTx(), 
+    std::shared_ptr<AsyncRPCOperation> operation( new AsyncRPCOperation_sendmany(transaction.getBuilder(),
+                                                                                 transaction.getContextualTx(),
                                                                                  transaction.getFromAddress().toStdString(),
-                                                                                 transaction.getTaddrRecipients(), 
-                                                                                 transaction.getZaddrRecipients(), 
-                                                                                 1, 
-                                                                                 transaction.getTransactionFee(), 
+                                                                                 transaction.getTaddrRecipients(),
+                                                                                 transaction.getZaddrRecipients(),
+                                                                                 1,
+                                                                                 transaction.getTransactionFee(),
                                                                                  transaction.getContextInfo()) );
     q->addOperation(operation);
     AsyncRPCOperationId operationId = operation->getId();
@@ -1070,11 +1070,11 @@ std::map<CTxDestination, CAmount> WalletModel::getTAddressBalances()
 
     {
         LOCK2(cs_main, wallet->cs_wallet);
-    
+
         std::vector<COutput> vecOutputs;
         wallet->AvailableCoins(vecOutputs, false, NULL, true);
 
-        BOOST_FOREACH(const COutput& out, vecOutputs) 
+        BOOST_FOREACH(const COutput& out, vecOutputs)
         {
             if (out.nDepth < 1 || out.nDepth > 9999999)
                 continue;
@@ -1108,20 +1108,20 @@ std::map<libzcash::PaymentAddress, CAmount> WalletModel::getZAddressBalances()
 
         std::set<libzcash::SproutPaymentAddress> sproutzaddrs = {};
         wallet->GetSproutPaymentAddresses(sproutzaddrs);
-        
+
         std::set<libzcash::SaplingPaymentAddress> saplingzaddrs = {};
         wallet->GetSaplingPaymentAddresses(saplingzaddrs);
-        
+
         zaddrs.insert(sproutzaddrs.begin(), sproutzaddrs.end());
         zaddrs.insert(saplingzaddrs.begin(), saplingzaddrs.end());
 
-        if (zaddrs.size() > 0) 
+        if (zaddrs.size() > 0)
         {
             std::vector<CSproutNotePlaintextEntry> sproutEntries;
             std::vector<SaplingNoteEntry> saplingEntries;
             wallet->GetFilteredNotes(sproutEntries, saplingEntries, zaddrs, 1, 9999999, true, true, false);
 
-            for (auto & entry : sproutEntries) 
+            for (auto & entry : sproutEntries)
             {
                 bool hasSproutSpendingKey = wallet->HaveSproutSpendingKey(boost::get<libzcash::SproutPaymentAddress>(entry.address));
                 if (!hasSproutSpendingKey) continue;
@@ -1131,7 +1131,7 @@ std::map<libzcash::PaymentAddress, CAmount> WalletModel::getZAddressBalances()
                 balances[entry.address] += CAmount(entry.plaintext.value());
             }
 
-            for (auto & entry : saplingEntries) 
+            for (auto & entry : saplingEntries)
             {
                 libzcash::SaplingIncomingViewingKey ivk;
                 libzcash::SaplingFullViewingKey fvk;
@@ -1146,7 +1146,7 @@ std::map<libzcash::PaymentAddress, CAmount> WalletModel::getZAddressBalances()
             }
         }
     }
-    
+
     return balances;
 }
 

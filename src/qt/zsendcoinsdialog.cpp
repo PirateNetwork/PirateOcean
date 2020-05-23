@@ -145,7 +145,7 @@ void ZSendCoinsDialog::on_sendButton_clicked()
         return;
     }
 
-    QString fromaddress;   
+    QString fromaddress;
     if (!ui->payFromAddress->currentText().split(' ').isEmpty()) fromaddress = ui->payFromAddress->currentText().split(' ').at(1);
 
     if (fromaddress.isEmpty()) return;
@@ -522,7 +522,7 @@ void ZSendCoinsDialog::useAvailableBalance(SendCoinsEntry* entry)
         return;
     }
 
-    QString address;   
+    QString address;
     if (!ui->payFromAddress->currentText().split(' ').isEmpty()) address = ui->payFromAddress->currentText().split(' ').at(1);
 
     // Calculate available amount to send.

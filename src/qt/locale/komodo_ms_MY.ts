@@ -324,7 +324,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Menghantar koin kepada alamat Pirate</translation>
+        <translation>Menghantar koin kepada alamat Komodo</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -500,6 +500,6 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     </context>
 </TS>

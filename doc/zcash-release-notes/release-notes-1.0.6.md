@@ -87,7 +87,7 @@ Jonas Schnelli (24):
       [Univalue] add univalue over subtree
       remove $(@F) and subdirs from univalue make
 
-João Barbosa (2):
+JoÃ£o Barbosa (2):
       Add UpdatedBlockTip signal to CMainSignals and CValidationInterface
       Fix ZMQ Notification initialization and shutdown
 

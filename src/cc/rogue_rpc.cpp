@@ -32,91 +32,91 @@ std::string Rogue_pname = "";
  Roguelander - using highlander competition between rogue players
 
  anybody can create a game by specifying maxplayers and buyin. Buyin of 0.00 ROGUE is for newbies and a good way to get experience. All players will start in the identical level, but each level after that will be unique to each player.
- 
+
  There are two different modes that is based on the maxplayers. If maxplayers is one, then it is basically a practice/farming game where there are no time limits. Also, the gold -> ROGUE conversion rate is cut in half. You can start a single player game as soon as the newgame tx is confirmed.
- 
+
  If maxplayers is more than one, then it goes into highlander mode. There can only be one winner. Additionally, multiplayer mode adds a timelimit of ROGUE_MAXKEYSTROKESGAP (60) blocks between keystrokes updates. That is approx. one hour and every level it does an automatic update, so as long as you are actively playing, it wont be a problem. The is ROGUE_REGISTRATION blocks waiting period before any of the players can start. The random seed for the game is based on the future blockhash so that way, nobody is able to start before the others.
- 
+
  rogue is not an easy game to win, so it could be that the winner for a specific group is simply the last one standing. If you bailout of a game you cant win, but you can convert all the ingame gold you gathered at 0.001 ROGUE each. [In the event that there arent enough globally locked funds to payout the ROGUE, you will have to wait until there is. Since 10% of all economic activity creates more globally locked funds, it is just a matter of time before there will be enough funds to payout. Also, you can help speed this up by encouraging others to transact in ROGUE]
- 
+
  Of course, the most direct way to win, is to get the amulet and come back out of the dungeon. The winner will get all of the buyins from all the players in addition to 0.01 ROGUE for every ingame gold.
- 
+
  The above alone is enough to make the timeless classic solitaire game into a captivating multiplayer game, where real coins are at stake. However, there is an even better aspect to ROGUE! Whenever your player survives a game, even when you bailout, the entire player and his pack is preserved on the blockchain and becomes a nonfungible asset that you can trade for ROGUE.
- 
+
  Additionally, instead of just being a collectors item with unique characteristics, the rogue playerdata can be used in any ROGUE game. Just specify the txid that created your character when you register and your character is restored. The better your characteristics your playerdata has, the more likely you are to win in multiplayer mode to win all the buyins. So there is definite economic value to a strong playerdata.
- 
+
  You can farm characters in single player mode to earn ROGUE or to make competitive playerdata sets. You can purchase existing playerdata for collecting, or for using in battle.
- 
+
  Here is how to play:
- 
+
  ./komodo-cli -ac_name=ROGUE cclib newgame 17 \"[3,10]\" -> this will create a hex transaction that when broadcast with sendrawtransaction will get a gametxid onto the blockchain. This specific command was for 3 players and a buyin of 10 ROGUE. Lets assume the gametxid is 4fd6f5cad0fac455e5989ca6eef111b00292845447075a802e9335879146ad5a, most all the other commands will need the gametxid.
- 
+
  you can always find all the existing games with:
- 
+
   ./komodo-cli -ac_name=ROGUE cclib pending 17
- 
+
  and info about a specific game with:
- 
+
   ./komodo-cli -ac_name=ROGUE cclib gameinfo 17 \"[%224fd6f5cad0fac455e5989ca6eef111b00292845447075a802e9335879146ad5a%22]\"
 
  due to quirks of various parsing at the shell, rpc and internal level, the above convention is used where %22 is added where " should be. also all fields are separated by , without any space.
- 
+
  When you do a gameinfo command it will show a "run" field and that will tell you if you are registered for the game or not. If not, the "run" field shows the register syntax you need to do, if you are registered, it will show the command line to start the rogue game that is playing the registered game.
- 
+
 ./komodo-cli -ac_name=ROGUE cclib register 17 \"[%224fd6f5cad0fac455e5989ca6eef111b00292845447075a802e9335879146ad5a%22,%22playerdata_txid%22]\"
 
  If you want to cash in your ingame gold and preserve your character for another battle, do the bailout:
- 
+
 ./komodo-cli -ac_name=ROGUE cclib bailout 17 \"[%224fd6f5cad0fac455e5989ca6eef111b00292845447075a802e9335879146ad5a%22]\"
 
  If you won your game before anybody else did or if you are the last one left who didnt bailout, you can claim the prize:
- 
+
  ./komodo-cli -ac_name=ROGUE cclib highlander 17 \"[%224fd6f5cad0fac455e5989ca6eef111b00292845447075a802e9335879146ad5a%22]\"
 
  The txid you get from the bailout or highlander transactions is the "playerdata_txid" that you can use in future games.
- 
+
 
  Transaction details
  creategame
  vout0 -> txfee highlander vout TCBOO creation
  vout1 to vout.maxplayers+1 -> 1of2 registration ROGUE_REGISTRATIONSIZE batons
  vout2+maxplayers to vout.2*maxplayers+1 -> 1of2 registration txfee batons for game completion
- 
+
  register
  vin0 -> ROGUE_REGISTRATIONSIZE 1of2 registration baton from creategame
  vin1 -> optional nonfungible character vout @
  vin2 -> original creation TCBOO playerdata used
  vin3+ -> buyin
  vout0 -> keystrokes/completion baton
- 
+
  keystrokes
  vin0 -> txfee 1of2 baton from registration or previous keystrokes
  opret -> user input chars
- 
+
  bailout: must be within ROGUE_MAXKEYSTROKESGAP blocks of last keystrokes
  vin0 -> keystrokes baton of completed game with Q
  vout0 -> 1% ingame gold
- 
+
  highlander
  vin0 -> txfee highlander vout from creategame TCBOO creation
  vin1 -> keystrokes baton of completed game, must be last to quit or first to win, only spent registration batons matter. If more than ROGUE_MAXKEYSTROKESGAP blocks since last keystrokes, it is forfeit
  vins -> rest of unspent registration utxo so all newgame vouts are spent
  vout0 -> nonfungible character with pack @
  vout1 -> 1% ingame gold and all the buyins
- 
- 
+
+
  then to register you need to spend one of the vouts and also provide the buyin
  once you register the gui mode is making automatic keystrokes tx with the raw chars in opreturn.
  if during the registration, you provide a character as an input, your gameplay starts with that character instead of the default
- 
+
  each keystrokes tx spends a baton vout that you had in your register tx
- 
+
  so from the creategame tx, you can trace the maxplayers vouts to find all the registrations and all the keystrokes to get the keyboard events
- 
+
  If you quit out of the game, then the in game gold that you earned can be converted to ROGUE coins, but unless you are the last one remaining, any character you input, is permanently spent
- 
+
  so you can win a multiplayer by being the last player to quit or the first one to win. In either case, you would need to spend a special highlander vout in the original creategame tx. having this as an input allows to create a tx that has the character as the nonfungible token, collect all the buyin and of course the ingame gold
- 
+
  once you have a non-fungible token, ownership of it can be transferred or traded or spent in a game
  */
 
@@ -962,7 +962,8 @@ UniValue rogue_keystrokes(uint64_t txfee,struct CCcontract_info *cp,cJSON *param
                     Myprivkey(mypriv);
                     CCaddr1of2set(cp,roguepk,mypk,mypriv,destaddr);
                     rawtx = FinalizeCCTx(0,cp,mtx,mypk,txfee,rogue_keystrokesopret(gametxid,batontxid,mypk,keystrokes));
-                    //LogPrintf("KEYSTROKES.(%s)\n",rawtx.c_str());
+                    //fprintf(stderr,"KEYSTROKES.(%s)\n",rawtx.c_str());
+                    memset(mypriv,0,32);
                     return(rogue_rawtxresult(result,rawtx,1));
                 } else return(cclib_error(result,"keystrokes tx was too late"));
             } else return(cclib_error(result,"couldnt find batontxid"));
@@ -1330,6 +1331,7 @@ UniValue rogue_finishgame(uint64_t txfee,struct CCcontract_info *cp,cJSON *param
                         GetOpReturnData(opret, vopretNonfungible);
                         rawtx = FinalizeCCTx(0, cp, mtx, mypk, txfee, EncodeTokenCreateOpRet('c', Mypubkey(), std::string(seedstr), gametxid.GetHex(), vopretNonfungible));
                     }
+                    memset(mypriv,0,32);
                     return(rogue_rawtxresult(result,rawtx,1));
                 }
                 result.push_back(Pair("result","success"));
@@ -1450,15 +1452,15 @@ UniValue rogue_players(uint64_t txfee,struct CCcontract_info *cp,cJSON *params)
 UniValue rogue_games(uint64_t txfee,struct CCcontract_info *cp,cJSON *params)
 {
     UniValue result(UniValue::VOBJ),a(UniValue::VARR),b(UniValue::VARR); uint256 txid,hashBlock,gametxid,tokenid,playertxid; int32_t vout,maxplayers,gameheight,numvouts; CPubKey roguepk,mypk; char coinaddr[64]; CTransaction tx,gametx; int64_t buyin;
-    std::vector<std::pair<CAddressIndexKey, CAmount> > addressIndex;
+    std::vector<uint256> txids;
     //std::vector<std::pair<CAddressUnspentKey, CAddressUnspentValue> > unspentOutputs;
     roguepk = GetUnspendable(cp,0);
     mypk = pubkey2pk(Mypubkey());
     GetCCaddress1of2(cp,coinaddr,roguepk,mypk);
     //SetCCunspents(unspentOutputs,coinaddr);
-    SetCCtxids(addressIndex,coinaddr,true);
+    SetCCtxids(txids,coinaddr,true,cp->evalcode,zeroid,'R');
     rogue_univalue(result,"games",-1,-1);
-    for (std::vector<std::pair<CAddressIndexKey, CAmount> >::const_iterator it=addressIndex.begin(); it!=addressIndex.end(); it++)
+    for (std::vector<uint256>::const_iterator it=txids.begin(); it!=txids.end(); it++)
     //for (std::vector<std::pair<CAddressUnspentKey, CAddressUnspentValue> >::const_iterator it=unspentOutputs.begin(); it!=unspentOutputs.end(); it++)
     {
         txid = it->first.txhash;

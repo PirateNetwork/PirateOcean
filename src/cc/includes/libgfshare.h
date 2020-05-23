@@ -75,7 +75,7 @@ void gfshare_ctx_free(gfshare_ctx* /* ctx */);
 void gfshare_ctx_enc_setsecret(gfshare_ctx* /* ctx */,
                                unsigned char* /* secret */);
 
-/* Extract a share from the context. 
+/* Extract a share from the context.
  * 'share' must be preallocated and at least 'size' bytes long.
  * 'sharenr' is the index into the 'sharenrs' array of the share you want.
  */

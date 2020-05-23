@@ -474,7 +474,7 @@ void externs_clear()
     max_level = 0;				/* Deepest player has gone */
     mpos = 0;				/* Where cursor is on top line */
     no_food = 0;			/* Number of levels without food */
-    
+
     count = 0;				/* Number of times to repeat command */
     if ( scoreboard != NULL )
     {
@@ -488,8 +488,8 @@ void externs_clear()
     purse = 0;				/* How much gold he has */
     quiet = 0;				/* Number of quiet turns */
     vf_hit = 0;				/* Number of time flytrap has hit */
-    
-    
+
+
     memset(&delta,0,sizeof(delta));
     memset(&oldpos,0,sizeof(oldpos));
     memset(&stairs,0,sizeof(stairs));
@@ -504,12 +504,12 @@ void externs_clear()
     mlist = NULL;			/* List of monsters on the level */
     memset(&player,0,sizeof(player));				/* His stats */
     /* restart of game */
-    
+
     max_stats = orig_max_stats;	/* The maximum for the player */
-    
+
     oldrp = 0;			/* Roomin(&oldpos) */
     memset(rooms,0,sizeof(rooms));		/* One for each room -- A level */
-    
+
     between = 0;
     group = 0;
     memset(&nh,0,sizeof(nh));

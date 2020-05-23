@@ -83,7 +83,7 @@ extern char ASSETCHAINS_SYMBOL[65];
 
 bool fDiscover = true;
 bool fListen = true;
-uint64_t nLocalServices = NODE_NETWORK;
+uint64_t nLocalServices = NODE_NETWORK | NODE_NSPV;
 CCriticalSection cs_mapLocalHost;
 map<CNetAddr, LocalServiceInfo> mapLocalHost;
 static bool vfLimited[NET_MAX] = {};
@@ -201,7 +201,7 @@ CAddress GetLocalAddress(const CNetAddr *paddrPeer)
         ret = CAddress(addr);
     }
     ret.nServices = nLocalServices;
-    ret.nTime = GetAdjustedTime();
+    ret.nTime = GetTime();
     return ret;
 }
 
@@ -401,7 +401,7 @@ CNode* ConnectNode(CAddress addrConnect, const char *pszDest)
     /// debug print
     LogPrint("net", "trying connection %s lastseen=%.1fhrs\n",
         pszDest ? pszDest : addrConnect.ToString(),
-        pszDest ? 0.0 : (double)(GetAdjustedTime() - addrConnect.nTime)/3600.0);
+        pszDest ? 0.0 : (double)(GetTime() - addrConnect.nTime)/3600.0);
 
     // Connect
     SOCKET hSocket;
@@ -453,11 +453,20 @@ void CNode::CloseSocketDisconnect()
         vRecvMsg.clear();
 }
 
+extern int32_t KOMODO_NSPV;
+#ifndef KOMODO_NSPV_FULLNODE
+#define KOMODO_NSPV_FULLNODE (KOMODO_NSPV <= 0)
+#endif // !KOMODO_NSPV_FULLNODE
+
+#ifndef KOMODO_NSPV_SUPERLITE
+#define KOMODO_NSPV_SUPERLITE (KOMODO_NSPV > 0)
+#endif // !KOMODO_NSPV_SUPERLITE
+
 void CNode::PushVersion()
 {
     int nBestHeight = g_signals.GetHeight().get_value_or(0);
 
-    int64_t nTime = (fInbound ? GetAdjustedTime() : GetTime());
+    int64_t nTime = (fInbound ? GetTime() : GetTime());
     CAddress addrYou = (addr.IsRoutable() && !IsProxy(addr) ? addr : CAddress(CService("0.0.0.0",0)));
     CAddress addrMe = GetLocalAddress(&addr);
     GetRandBytes((unsigned char*)&nLocalHostNonce, sizeof(nLocalHostNonce));
@@ -1512,7 +1521,7 @@ void ThreadOpenConnections()
             }
         }
 
-        int64_t nANow = GetAdjustedTime();
+        int64_t nANow = GetTime();
 
         int nTries = 0;
         while (true)
@@ -1960,7 +1969,7 @@ bool StopNode()
         for (int i=0; i<MAX_OUTBOUND_CONNECTIONS; i++)
             semOutbound->post();
 
-    if (fAddressesInitialized)
+    if (KOMODO_NSPV_FULLNODE && fAddressesInitialized)
     {
         DumpAddresses();
         fAddressesInitialized = false;
@@ -2040,8 +2049,7 @@ void RelayTransaction(const CTransaction& tx, const CDataStream& ss)
         {
             if (pnode->pfilter->IsRelevantAndUpdate(tx))
                 pnode->PushInventory(inv);
-        } else
-            pnode->PushInventory(inv);
+        } else pnode->PushInventory(inv);
     }
 }
 

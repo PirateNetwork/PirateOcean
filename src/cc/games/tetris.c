@@ -3,7 +3,7 @@
 
 /*
  In order to port a game into gamesCC, the RNG needs to be seeded with the gametxid seed, also events needs to be broadcast using issue_games_events. Also the game engine needs to be daemonized, preferably by putting all globals into a single data structure.
- 
+
  also, the standalone game needs to support argv of seed gametxid, along with replay args
  */
 
@@ -212,7 +212,7 @@ static void tg_do_gravity_tick(struct games_state *rs,tetris_game *obj)
         } else {
             obj->falling.loc.row--;
             tg_put(obj, obj->falling);
-            
+
             tg_new_falling(rs,obj);
         }
         tg_put(obj, obj->falling);
@@ -252,30 +252,30 @@ static void tg_down(struct games_state *rs,tetris_game *obj)
 static void tg_rotate(tetris_game *obj, int direction)
 {
     tg_remove(obj, obj->falling);
-    
+
     while (true) {
         obj->falling.ori = (obj->falling.ori + direction) % NUM_ORIENTATIONS;
-        
+
         // If the new orientation fits, we're done.
         if (tg_fits(obj, obj->falling))
             break;
-        
+
         // Otherwise, try moving left to make it fit.
         obj->falling.loc.col--;
         if (tg_fits(obj, obj->falling))
             break;
-        
+
         // Finally, try moving right to make it fit.
         obj->falling.loc.col += 2;
         if (tg_fits(obj, obj->falling))
             break;
-        
+
         // Put it back in its original location and try the next orientation.
         obj->falling.loc.col--;
         // Worst case, we come back to the original orientation and it fits, so this
         // loop will terminate.
     }
-    
+
     tg_put(obj, obj->falling);
 }
 
@@ -376,7 +376,7 @@ static int tg_check_lines(tetris_game *obj)
 {
     int i, nlines = 0;
     tg_remove(obj, obj->falling); // don't want to mess up falling block
-    
+
     for (i = obj->rows-1; i >= 0; i--) {
         if (tg_line_full(obj, i)) {
             tg_shift_lines(obj, i);
@@ -384,7 +384,7 @@ static int tg_check_lines(tetris_game *obj)
             nlines++;
         }
     }
-    
+
     tg_put(obj, obj->falling); // replace
     return nlines;
 }
@@ -437,15 +437,15 @@ bool tg_tick(struct games_state *rs,tetris_game *obj, tetris_move move)
     int lines_cleared;
     // Handle gravity.
     tg_do_gravity_tick(rs,obj);
-    
+
     // Handle input.
     tg_handle_move(rs,obj, move);
-    
+
     // Check for cleared lines
     lines_cleared = tg_check_lines(obj);
-    
+
     tg_adjust_score(obj, lines_cleared);
-    
+
     // Return whether the game will continue (NOT whether it's over)
     return !tg_game_over(obj);
 }
@@ -491,7 +491,7 @@ void tg_delete(tetris_game *obj) {
 
 /*
  Load a game from a file.
- 
+
 tetris_game *tg_load(FILE *f)
 {
     tetris_game *obj = (tetris_game *)malloc(sizeof(tetris_game));
@@ -517,7 +517,7 @@ tetris_game *tg_load(FILE *f)
 
 /*
  Save a game to a file.
- 
+
 void tg_save(tetris_game *obj, FILE *f)
 {
     if (fwrite(obj, sizeof(tetris_game), 1, f) != 1 )
@@ -610,11 +610,11 @@ void display_score(WINDOW *w, tetris_game *tg)
 
 /*
  Save and exit the game.
- 
+
 void save(tetris_game *game, WINDOW *w)
 {
     FILE *f;
-    
+
     wclear(w);
     box(w, 0, 0); // return the border
     wmove(w, 1, 1);
@@ -894,7 +894,7 @@ int tetris(int argc, char **argv)
     // Output ending message.
     printf("Game over!\n");
     printf("You finished with %d points on level %d.\n", tg->points, tg->level);
-    
+
     // Deinitialize Tetris
     tg_delete(tg);
     return 0;

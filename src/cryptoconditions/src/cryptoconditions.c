@@ -72,7 +72,7 @@ char *cc_conditionUri(const CC *cond) {
 
     unsigned char *out = calloc(1, 1000);
     sprintf(out, "ni:///sha-256;%s?fpt=%s&cost=%lu",encoded, cc_typeName(cond), cc_getCost(cond));
-    
+
     if (cond->type->getSubtypes) {
         appendUriSubtypes(cond->type->getSubtypes(cond), out);
     }
@@ -86,6 +86,7 @@ char *cc_conditionUri(const CC *cond) {
 
 ConditionTypes_t asnSubtypes(uint32_t mask) {
     ConditionTypes_t types;
+    memset(&types,0,sizeof(types));
     uint8_t buf[4] = {0,0,0,0};
     int maxId = 0;
 
@@ -95,7 +96,7 @@ ConditionTypes_t asnSubtypes(uint32_t mask) {
             buf[i >> 3] |= 1 << (7 - i % 8);
         }
     }
-    
+
     types.size = 1 + (maxId >> 3);
     types.buf = calloc(1, types.size);
     memcpy(types.buf, &buf, types.size);
@@ -142,7 +143,7 @@ size_t cc_fulfillmentBinary(const CC *cond, unsigned char *buf, size_t length) {
 
 void asnCondition(const CC *cond, Condition_t *asn) {
     asn->present = cc_isAnon(cond) ? cond->conditionType->asnType : cond->type->asnType;
-    
+
     // This may look a little weird - we dont have a reference here to the correct
     // union choice for the condition type, so we just assign everything to the threshold
     // type. This works out nicely since the union choices have the same binary interface.
@@ -208,7 +209,7 @@ CC *cc_readFulfillmentBinary(const unsigned char *ffill_bin, size_t ffill_bin_le
     if (rc.encoded != ffill_bin_len || 0 != memcmp(ffill_bin, buf, rc.encoded)) {
         goto end;
     }
-    
+
     cond = fulfillmentToCC(ffill);
 end:
     free(buf);
@@ -237,7 +238,7 @@ int cc_readFulfillmentBinaryExt(const unsigned char *ffill_bin, size_t ffill_bin
         error = (rc.encoded == ffill_bin_len) ? -3 : -2;
         goto end;
     }
-    
+
     *ppcc = fulfillmentToCC(ffill);
 end:
     free(buf);

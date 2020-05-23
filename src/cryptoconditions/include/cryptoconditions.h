@@ -66,7 +66,7 @@ typedef struct CC {
         // eval
         struct { uint8_t *code; size_t codeLength; };
         // anon
-        struct { uint8_t fingerprint[32]; uint32_t subtypes; unsigned long cost; 
+        struct { uint8_t fingerprint[32]; uint32_t subtypes; unsigned long cost;
                  struct CCType *conditionType; };
     };
 } CC;

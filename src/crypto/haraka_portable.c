@@ -81,7 +81,7 @@ static const unsigned char sbox[256] =
 #define XT(x) (((x) << 1) ^ ((((x) >> 7) & 1) * 0x1b))
 
 // Simulate _mm_aesenc_si128 instructions from AESNI
-void aesenc(unsigned char *s, const unsigned char *rk) 
+void aesenc(unsigned char *s, const unsigned char *rk)
 {
     unsigned char i, t, u, v[4][4];
     for (i = 0; i < 16; ++i) {
@@ -101,7 +101,7 @@ void aesenc(unsigned char *s, const unsigned char *rk)
 }
 
 // Simulate _mm_unpacklo_epi32
-void unpacklo32(unsigned char *t, unsigned char *a, unsigned char *b) 
+void unpacklo32(unsigned char *t, unsigned char *a, unsigned char *b)
 {
     unsigned char tmp[16];
     memcpy(tmp, a, 4);
@@ -112,7 +112,7 @@ void unpacklo32(unsigned char *t, unsigned char *a, unsigned char *b)
 }
 
 // Simulate _mm_unpackhi_epi32
-void unpackhi32(unsigned char *t, unsigned char *a, unsigned char *b) 
+void unpackhi32(unsigned char *t, unsigned char *a, unsigned char *b)
 {
     unsigned char tmp[16];
     memcpy(tmp, a + 8, 4);
@@ -144,7 +144,7 @@ void tweak_constants(const unsigned char *pk_seed, const unsigned char *sk_seed,
 
     /* Constants for pk.seed */
     haraka_S(buf, 40*16, pk_seed, seed_length);
-    memcpy(rc, buf, 40*16);    
+    memcpy(rc, buf, 40*16);
 }
 
 static void haraka_S_absorb(unsigned char *s, unsigned int r,
@@ -212,7 +212,7 @@ void haraka_S(unsigned char *out, unsigned long long outlen,
     }
 }
 
-void haraka512_perm(unsigned char *out, const unsigned char *in) 
+void haraka512_perm(unsigned char *out, const unsigned char *in)
 {
     int i, j;
 
@@ -265,7 +265,7 @@ void haraka512_port(unsigned char *out, const unsigned char *in)
     memcpy(out + 24, buf + 48, 8);
 }
 
-void haraka512_perm_zero(unsigned char *out, const unsigned char *in) 
+void haraka512_perm_zero(unsigned char *out, const unsigned char *in)
 {
     int i, j;
 
@@ -318,7 +318,7 @@ void haraka512_port_zero(unsigned char *out, const unsigned char *in)
     memcpy(out + 24, buf + 48, 8);
 }
 
-void haraka256_port(unsigned char *out, const unsigned char *in) 
+void haraka256_port(unsigned char *out, const unsigned char *in)
 {
     int i, j;
 

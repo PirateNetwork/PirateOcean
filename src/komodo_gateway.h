@@ -103,7 +103,7 @@ struct pax_transaction *komodo_paxmark(int32_t height,uint256 txid,uint16_t vout
         pax->marked = mark;
         //if ( height > 214700 || pax->height > 214700 )
         //    LogPrintf("mark ht.%d %.8f %.8f\n",pax->height,dstr(pax->komodoshis),dstr(pax->fiatoshis));
-        
+
     }
     pthread_mutex_unlock(&komodo_mutex);
     return(pax);
@@ -656,6 +656,9 @@ const char *banned_txids[] =
     //"01d8c839463bda2f2f6400ede4611357913684927a767422a8560ead1b22557c",
     //"6e4980a9e1bd669f4df04732dc6f11b7773b6de88d1abcf89a6b9007d72ef9ac",
     //"6cc1d0495170bc0e11fd3925297623562e529ea1336b66ea61f8a1159041aed2",
+    //"250875424cece9bcd98cb226b09da7671625633d6958589e3a462bad89ad87cc", // missed
+    //"ea8659011de52f4dac42cda12326064b7b5013b8492f88e33159884ca299aa05", // missed
+    //"ce567928b5490a17244167af161b1d8dd6ff753fef222fe6855d95b2278a35b3", // missed
 };
 
 int32_t komodo_checkvout(int32_t vout,int32_t k,int32_t indallvouts)
@@ -728,7 +731,6 @@ int32_t komodo_check_deposit(int32_t height,const CBlock& block,uint32_t prevtim
                             notmatched = 1;
                         }
                 }
-
             }
             n = block.vtx[i].vin.size();
             for (j=0; j<n; j++)
@@ -1787,9 +1789,9 @@ CScript komodo_mineropret(int32_t nHeight)
 /*
  komodo_opretvalidate() is the entire price validation!
  it prints out some useful info for debugging, like the lag from current time and prev block and the prices encoded in the opreturn.
- 
+
  The only way komodo_opretvalidate() doesnt return an error is if maxflag is set or it is within tolerance of both the prior block and the local data. The local data validation only happens if it is a recent block and not a block from the past as the local node is only getting the current price data.
- 
+
  */
 
 
@@ -2348,7 +2350,7 @@ void komodo_cbopretupdate(int32_t forceflag)
             }
             // high volatility still strands nodes so we need to check new prices to approve a stuck block
             // scan list of stuck blocks (one?) and auto reconsiderblock if it changed state
-            
+
             //int32_t i; for (i=0; i<Mineropret.size(); i++)
             //    LogPrintf("%02x",Mineropret[i]);
             //LogPrintf(" <- set Mineropret[%d] size.%d %ld\n",(int32_t)Mineropret.size(),size,sizeof(PriceCache[0]));

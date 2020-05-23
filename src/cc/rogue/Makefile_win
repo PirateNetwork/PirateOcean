@@ -5,11 +5,11 @@
 # Rogue: Exploring the Dungeons of Doom
 # Copyright (C) 1980-1983, 1985, 1999 Michael Toy, Ken Arnold and Glenn Wichman
 # All rights reserved.
-#       
+#
 # See the file LICENSE.TXT for full copyright and licensing information.
 #
 ###############################################################################
-        
+
 ###############################################################################
 # Site configuration occurs beneath this comment
 # Typically ./configure (autoconf tools) configures this section
@@ -56,10 +56,10 @@ SCOREFILE = rogue.scr
 LOCKFILE = rogue.lck
 
 #GROUPOWNER=games
-GROUPOWNER = 
+GROUPOWNER =
 
 #CPPFLAGS=-DHAVE_CONFIG_H
-CPPFLAGS =-DHAVE_CONFIG_H 
+CPPFLAGS =-DHAVE_CONFIG_H
 
 #DISTFILE = $(PROGRAM)
 DISTFILE = $(DISTNAME)-x86_64-w64-mingw32
@@ -95,13 +95,13 @@ man6dir = $(mandir)/man6
 ###############################################################################
 # Site configuration occurs above this comment
 # It should not be necessary to change anything below this comment
-############################################################################### 
+###############################################################################
 
 HDRS     = rogue.h extern.h score.h
 OBJS1    = vers.$(O) extern.$(O) armor.$(O) chase.$(O) command.$(O) \
            daemon.$(O) daemons.$(O) fight.$(O) init.$(O) io.$(O) list.$(O) \
            mach_dep.$(O) rogue.$(O) mdport.$(O) misc.$(O) monsters.$(O) \
-           move.$(O) new_level.$(O) 
+           move.$(O) new_level.$(O)
 OBJS2    = options.$(O) pack.$(O) passages.$(O) potions.$(O) rings.$(O) \
            rip.$(O) rooms.$(O) save.$(O) scrolls.$(O) state.$(O) sticks.$(O) \
            things.$(O) weapons.$(O) wizard.$(O) xcrypt.$(O)
@@ -125,7 +125,7 @@ MISC     = Makefile.std LICENSE.TXT rogue54.sln rogue54.vcproj rogue.spec \
 
 .c.obj:
 	$(CC) $(CFLAGS) $(CPPFLAGS) /c $*.c
-    
+
 .c.o:
 	$(CC) $(CFLAGS) $(CPPFLAGS) -c $*.c
 
@@ -138,10 +138,10 @@ clean:
 	$(RM) $(OBJS1); $(RM) main.$(O) ; $(RM) rogue.so
 	$(RM) $(OBJS2)
 	$(RM) core a.exe a.out a.exe.stackdump $(PROGRAM) $(PROGRAM).exe
-	$(RM) $(PROGRAM).tar $(PROGRAM).tar.gz $(PROGRAM).zip 
+	$(RM) $(PROGRAM).tar $(PROGRAM).tar.gz $(PROGRAM).zip
 	$(RM) $(DISTNAME)/*
 	-rmdir $(DISTNAME)
-    
+
 maintainer-clean:
 	$(RM) config.h
 	$(RM) Makefile
@@ -212,11 +212,11 @@ install: $(PROGRAM)
 	-if test ! -f $(DESTDIR)$(LOCKFILE)  ; then $(INSTALL) -m 0666 test $(DESTDIR)$(LOCKFILE)  ; $(RM) $(DESTDIR)$(LOCKFILE) ; fi
 	-$(RM) test
 
-uninstall:	
+uninstall:
 	-$(RM) $(DESTDIR)$(bindir)/$(PROGRAM)
 	-$(RM) $(DESTDIR)$(man6dir)/$(PROGRAM).6
 	-$(RM) $(DESTDIR)$(docdir)$(PROGRAM)/$(PROGRAM).doc
 	-$(RM) $(DESTDIR)$(LOCKFILE)
 	-$(RMDIR) $(DESTDIR)$(docdir)$(PROGRAM)
-    
+
 reinstall: uninstall install

@@ -1,25 +1,25 @@
-﻿<TS language="vi" version="2.1">
+<TS language="vi" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation>Tạo một địa chỉ mới</translation>
+        <translation>Táº¡o má»t Äá»a chá» má»i</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>Tạo mới</translation>
+        <translation>Táº¡o má»i</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Sao chép các địa chỉ đã được chọn vào bộ nhớ tạm thời của hệ thống</translation>
+        <translation>Sao chÃ©p cÃ¡c Äá»a chá» ÄÃ£ ÄÆ°á»£c chá»n vÃ o bá» nhá» táº¡m thá»i cá»§a há» thá»ng</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>Sao chép</translation>
+        <translation>Sao chÃ©p</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Xóa</translation>
+        <translation>&amp;XÃ³a</translation>
     </message>
     </context>
 <context>
@@ -38,22 +38,22 @@
     <name>CoinControlDialog</name>
     <message>
         <source>Amount:</source>
-        <translation>Số lượng:</translation>
+        <translation>Sá» lÆ°á»£ng:</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Số lượng</translation>
+        <translation>Sá» lÆ°á»£ng</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>&amp;Label</source>
-        <translation>Nhãn dữ liệu</translation>
+        <translation>NhÃ£n dá»¯ liá»u</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>Địa chỉ</translation>
+        <translation>Äá»a chá»</translation>
     </message>
     </context>
 <context>
@@ -87,7 +87,7 @@
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Số lượng</translation>
+        <translation>Sá» lÆ°á»£ng</translation>
     </message>
     </context>
 <context>
@@ -106,7 +106,7 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Sao chép địa chỉ</translation>
+        <translation>Sao chÃ©p Äá»a chá»</translation>
     </message>
     </context>
 <context>
@@ -116,7 +116,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Amount:</source>
-        <translation>Số lượng:</translation>
+        <translation>Sá» lÆ°á»£ng:</translation>
     </message>
     </context>
 <context>
@@ -162,6 +162,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     </context>
 </TS>

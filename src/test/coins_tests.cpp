@@ -228,7 +228,7 @@ public:
         JSDescription jsd;
         jsd.nullifiers[0] = sproutNullifier;
         mutableTx.vjoinsplit.emplace_back(jsd);
-        
+
         saplingNullifier = GetRandHash();
         SpendDescription sd;
         sd.nullifier = saplingNullifier;
@@ -570,7 +570,7 @@ template<typename Tree> void anchorsFlushImpl(ShieldedType type)
         cache.PushAnchor(tree);
         cache.Flush();
     }
-    
+
     {
         CCoinsViewCacheTest cache(&base);
         Tree tree;
@@ -728,7 +728,7 @@ template<typename Tree> void anchorsTestImpl(ShieldedType type)
         {
             Tree test_tree2;
             GetAnchorAt(cache, newrt, test_tree2);
-            
+
             BOOST_CHECK(test_tree2.root() == newrt);
         }
 

@@ -1,57 +1,57 @@
-﻿<TS language="th_TH" version="2.1">
+<TS language="th_TH" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>คลิกขวาเพื่อแก้ไขที่อยู่ หรือป้ายชื่อ</translation>
+        <translation>à¸à¸¥à¸´à¸à¸à¸§à¸²à¹à¸à¸·à¹à¸­à¹à¸à¹à¹à¸à¸à¸µà¹à¸­à¸¢à¸¹à¹ à¸«à¸£à¸·à¸­à¸à¹à¸²à¸¢à¸à¸·à¹à¸­</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>สร้างที่อยู่ใหม่</translation>
+        <translation>à¸ªà¸£à¹à¸²à¸à¸à¸µà¹à¸­à¸¢à¸¹à¹à¹à¸«à¸¡à¹</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;สร้างใหม่</translation>
+        <translation>&amp;à¸ªà¸£à¹à¸²à¸à¹à¸«à¸¡à¹</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>คัดลอกที่อยู่ที่ถูกเลือกไปยัง คลิปบอร์ดของระบบ</translation>
+        <translation>à¸à¸±à¸à¸¥à¸­à¸à¸à¸µà¹à¸­à¸¢à¸¹à¹à¸à¸µà¹à¸à¸¹à¸à¹à¸¥à¸·à¸­à¸à¹à¸à¸¢à¸±à¸ à¸à¸¥à¸´à¸à¸à¸­à¸£à¹à¸à¸à¸­à¸à¸£à¸°à¸à¸</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;คัดลอก</translation>
+        <translation>&amp;à¸à¸±à¸à¸¥à¸­à¸</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;ปิด</translation>
+        <translation>&amp;à¸à¸´à¸</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>ลบที่อยู่ที่เลือกไว้ในขณะนี้จากรายการ</translation>
+        <translation>à¸¥à¸à¸à¸µà¹à¸­à¸¢à¸¹à¹à¸à¸µà¹à¹à¸¥à¸·à¸­à¸à¹à¸§à¹à¹à¸à¸à¸à¸°à¸à¸µà¹à¸à¸²à¸à¸£à¸²à¸¢à¸à¸²à¸£</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>ส่งออกข้อมูลที่อยู่ในแท็บไปที่ไฟล์</translation>
+        <translation>à¸ªà¹à¸à¸­à¸­à¸à¸à¹à¸­à¸¡à¸¹à¸¥à¸à¸µà¹à¸­à¸¢à¸¹à¹à¹à¸à¹à¸à¹à¸à¹à¸à¸à¸µà¹à¹à¸à¸¥à¹</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;ส่งออก</translation>
+        <translation>&amp;à¸ªà¹à¸à¸­à¸­à¸</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;ลบ</translation>
+        <translation>&amp;à¸¥à¸</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>เลือกที่อยู่เพื่อส่งเหรียญไปไว้</translation>
+        <translation>à¹à¸¥à¸·à¸­à¸à¸à¸µà¹à¸­à¸¢à¸¹à¹à¹à¸à¸·à¹à¸­à¸ªà¹à¸à¹à¸«à¸£à¸µà¸¢à¸à¹à¸à¹à¸§à¹</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>เลือกที่อยู่เพื่อส่งเหรียญไปไว้</translation>
+        <translation>à¹à¸¥à¸·à¸­à¸à¸à¸µà¹à¸­à¸¢à¸¹à¹à¹à¸à¸·à¹à¸­à¸ªà¹à¸à¹à¸«à¸£à¸µà¸¢à¸à¹à¸à¹à¸§à¹</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>ส่งที่อยู่</translation>
+        <translation>à¸ªà¹à¸à¸à¸µà¹à¸­à¸¢à¸¹à¹</translation>
     </message>
     </context>
 <context>
@@ -61,145 +61,145 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>ช่องสำหรับ รหัสผ่าน</translation>
+        <translation>à¸à¹à¸­à¸à¸ªà¸³à¸«à¸£à¸±à¸ à¸£à¸«à¸±à¸ªà¸à¹à¸²à¸</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>ใส่รหัสผ่าน</translation>
+        <translation>à¹à¸ªà¹à¸£à¸«à¸±à¸ªà¸à¹à¸²à¸</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>รหัสผา่นใหม่</translation>
+        <translation>à¸£à¸«à¸±à¸ªà¸à¸²à¹à¸à¹à¸«à¸¡à¹</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>กรุณากรอกรหัสผ่านใหม่อีกครั้งหนึ่ง</translation>
+        <translation>à¸à¸£à¸¸à¸à¸²à¸à¸£à¸­à¸à¸£à¸«à¸±à¸ªà¸à¹à¸²à¸à¹à¸«à¸¡à¹à¸­à¸µà¸à¸à¸£à¸±à¹à¸à¸«à¸à¸¶à¹à¸</translation>
     </message>
     </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/Netmask (ตัวกรอง IP)</translation>
+        <translation>IP/Netmask (à¸à¸±à¸§à¸à¸£à¸­à¸ IP)</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>ห้าม จนถึง</translation>
+        <translation>à¸«à¹à¸²à¸¡ à¸à¸à¸à¸¶à¸</translation>
     </message>
 </context>
 <context>
     <name>PirateOceanGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>เซ็นต์ชื่อด้วย &amp;ข้อความ...</translation>
+        <translation>à¹à¸à¹à¸à¸à¹à¸à¸·à¹à¸­à¸à¹à¸§à¸¢ &amp;à¸à¹à¸­à¸à¸§à¸²à¸¡...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>กำลังทำข้อมูลให้ตรงกันกับเครือข่าย ...</translation>
+        <translation>à¸à¸³à¸¥à¸±à¸à¸à¸³à¸à¹à¸­à¸¡à¸¹à¸¥à¹à¸«à¹à¸à¸£à¸à¸à¸±à¸à¸à¸±à¸à¹à¸à¸£à¸·à¸­à¸à¹à¸²à¸¢ ...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;ภาพรวม</translation>
+        <translation>&amp;à¸ à¸²à¸à¸£à¸§à¸¡</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Node/โหนด</translation>
+        <translation>Node/à¹à¸«à¸à¸</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>แสดงภาพรวมทั่วไปของกระเป๋าเงิน</translation>
+        <translation>à¹à¸ªà¸à¸à¸ à¸²à¸à¸£à¸§à¸¡à¸à¸±à¹à¸§à¹à¸à¸à¸­à¸à¸à¸£à¸°à¹à¸à¹à¸²à¹à¸à¸´à¸</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;การทำรายการ</translation>
+        <translation>&amp;à¸à¸²à¸£à¸à¸³à¸£à¸²à¸¢à¸à¸²à¸£</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>เรียกดูประวัติการทำธุรกรรม</translation>
+        <translation>à¹à¸£à¸µà¸¢à¸à¸à¸¹à¸à¸£à¸°à¸§à¸±à¸à¸´à¸à¸²à¸£à¸à¸³à¸à¸¸à¸£à¸à¸£à¸£à¸¡</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;ออก</translation>
+        <translation>&amp;à¸­à¸­à¸</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>ออกจากโปรแกรม</translation>
+        <translation>à¸­à¸­à¸à¸à¸²à¸à¹à¸à¸£à¹à¸à¸£à¸¡</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>&amp;เกี่ยวกับ %1</translation>
+        <translation>&amp;à¹à¸à¸µà¹à¸¢à¸§à¸à¸±à¸ %1</translation>
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>แสดงข้อมูล เกี่ยวกับ %1</translation>
+        <translation>à¹à¸ªà¸à¸à¸à¹à¸­à¸¡à¸¹à¸¥ à¹à¸à¸µà¹à¸¢à¸§à¸à¸±à¸ %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>เกี่ยวกับ &amp;Qt</translation>
+        <translation>à¹à¸à¸µà¹à¸¢à¸§à¸à¸±à¸ &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>แสดงข้อมูล เกี่ยวกับ Qt</translation>
+        <translation>à¹à¸ªà¸à¸à¸à¹à¸­à¸¡à¸¹à¸¥ à¹à¸à¸µà¹à¸¢à¸§à¸à¸±à¸ Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;ตัวเลือก...</translation>
+        <translation>&amp;à¸à¸±à¸§à¹à¸¥à¸·à¸­à¸...</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>ปรับปรุง ข้อมูลการตั้งค่าตัวเลือก สำหรับ %1</translation>
+        <translation>à¸à¸£à¸±à¸à¸à¸£à¸¸à¸ à¸à¹à¸­à¸¡à¸¹à¸¥à¸à¸²à¸£à¸à¸±à¹à¸à¸à¹à¸²à¸à¸±à¸§à¹à¸¥à¸·à¸­à¸ à¸ªà¸³à¸«à¸£à¸±à¸ %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;กระเป๋าเงินเข้ารหัส</translation>
+        <translation>&amp;à¸à¸£à¸°à¹à¸à¹à¸²à¹à¸à¸´à¸à¹à¸à¹à¸²à¸£à¸«à¸±à¸ª</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;สำรองกระเป๋าเงิน...</translation>
+        <translation>&amp;à¸ªà¸³à¸£à¸­à¸à¸à¸£à¸°à¹à¸à¹à¸²à¹à¸à¸´à¸...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;เปลี่ยนรหัสผ่าน...</translation>
+        <translation>&amp;à¹à¸à¸¥à¸µà¹à¸¢à¸à¸£à¸«à¸±à¸ªà¸à¹à¸²à¸...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;ที่เก็บเงิน ที่จะส่ง Pirate</translation>
+        <translation>&amp;à¸à¸µà¹à¹à¸à¹à¸à¹à¸à¸´à¸ à¸à¸µà¹à¸à¸°à¸ªà¹à¸ komodo</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;ที่เก็บเงิน ที่จะรับ Pirate</translation>
+        <translation>&amp;à¸à¸µà¹à¹à¸à¹à¸à¹à¸à¸´à¸ à¸à¸µà¹à¸à¸°à¸£à¸±à¸ komodo</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>เปิด &amp;URI</translation>
+        <translation>à¹à¸à¸´à¸ &amp;URI</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>กำลังทำดัชนี ที่เก็บบล็อก ใหม่ ในดิสก์...</translation>
+        <translation>à¸à¸³à¸¥à¸±à¸à¸à¸³à¸à¸±à¸à¸à¸µ à¸à¸µà¹à¹à¸à¹à¸à¸à¸¥à¹à¸­à¸ à¹à¸«à¸¡à¹ à¹à¸à¸à¸´à¸ªà¸à¹...</translation>
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>ส่ง coins ไปยัง ที่เก็บ Pirate</translation>
+        <translation>à¸ªà¹à¸ coins à¹à¸à¸¢à¸±à¸ à¸à¸µà¹à¹à¸à¹à¸ Komodo</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>สำรอง กระเป๋าเงินไปยัง ที่เก็บอื่น</translation>
+        <translation>à¸ªà¸³à¸£à¸­à¸ à¸à¸£à¸°à¹à¸à¹à¸²à¹à¸à¸´à¸à¹à¸à¸¢à¸±à¸ à¸à¸µà¹à¹à¸à¹à¸à¸­à¸·à¹à¸</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>เปลี่ยนรหัสผ่านที่ใช้สำหรับการเข้ารหัสกระเป๋าเงิน</translation>
+        <translation>à¹à¸à¸¥à¸µà¹à¸¢à¸à¸£à¸«à¸±à¸ªà¸à¹à¸²à¸à¸à¸µà¹à¹à¸à¹à¸ªà¸³à¸«à¸£à¸±à¸à¸à¸²à¸£à¹à¸à¹à¸²à¸£à¸«à¸±à¸ªà¸à¸£à¸°à¹à¸à¹à¸²à¹à¸à¸´à¸</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;หน้าต่าง Debug</translation>
+        <translation>&amp;à¸«à¸à¹à¸²à¸à¹à¸²à¸ Debug</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>เปิด แผลงควบคุม debugging และ diagnostic</translation>
+        <translation>à¹à¸à¸´à¸ à¹à¸à¸¥à¸à¸à¸§à¸à¸à¸¸à¸¡ debugging à¹à¸¥à¸° diagnostic</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;ยืนยันข้อความ...</translation>
+        <translation>&amp;à¸¢à¸·à¸à¸¢à¸±à¸à¸à¹à¸­à¸à¸§à¸²à¸¡...</translation>
     </message>
     <message>
         <source>Pirate</source>
@@ -207,406 +207,406 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>กระเป๋าเงิน</translation>
+        <translation>à¸à¸£à¸°à¹à¸à¹à¸²à¹à¸à¸´à¸</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;ส่ง</translation>
+        <translation>&amp;à¸ªà¹à¸</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;รับ</translation>
+        <translation>&amp;à¸£à¸±à¸</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;แสดง / ซ่อน</translation>
+        <translation>&amp;à¹à¸ªà¸à¸ / à¸à¹à¸­à¸</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>แสดง หรือ ซ่อน หน้าหลัก</translation>
+        <translation>à¹à¸ªà¸à¸ à¸«à¸£à¸·à¸­ à¸à¹à¸­à¸ à¸«à¸à¹à¸²à¸«à¸¥à¸±à¸</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>เข้ารหัส private keys/ รหัสส่วนตัว สำหรับกระเป๋าเงินของท่าน</translation>
+        <translation>à¹à¸à¹à¸²à¸£à¸«à¸±à¸ª private keys/ à¸£à¸«à¸±à¸ªà¸ªà¹à¸§à¸à¸à¸±à¸§ à¸ªà¸³à¸«à¸£à¸±à¸à¸à¸£à¸°à¹à¸à¹à¸²à¹à¸à¸´à¸à¸à¸­à¸à¸à¹à¸²à¸</translation>
     </message>
     <message>
         <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>เซ็นชื่อด้วยข้อความ ที่เก็บ Pirate เพื่อแสดงว่าท่านเป็นเจ้าของ Pirate นี้จริง</translation>
+        <translation>à¹à¸à¹à¸à¸à¸·à¹à¸­à¸à¹à¸§à¸¢à¸à¹à¸­à¸à¸§à¸²à¸¡ à¸à¸µà¹à¹à¸à¹à¸ Pirate à¹à¸à¸·à¹à¸­à¹à¸ªà¸à¸à¸§à¹à¸²à¸à¹à¸²à¸à¹à¸à¹à¸à¹à¸à¹à¸²à¸à¸­à¸ komodo à¸à¸µà¹à¸à¸£à¸´à¸</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>ตรวจสอบ ข้อความ เพื่อให้แน่ใจว่า การเซ็นต์ชื่อ ด้วยที่เก็บ Pirate แล้ว</translation>
+        <translation>à¸à¸£à¸§à¸à¸ªà¸­à¸ à¸à¹à¸­à¸à¸§à¸²à¸¡ à¹à¸à¸·à¹à¸­à¹à¸«à¹à¹à¸à¹à¹à¸à¸§à¹à¸² à¸à¸²à¸£à¹à¸à¹à¸à¸à¹à¸à¸·à¹à¸­ à¸à¹à¸§à¸¢à¸à¸µà¹à¹à¸à¹à¸ Pirate à¹à¸¥à¹à¸§</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;ไฟล์</translation>
+        <translation>&amp;à¹à¸à¸¥à¹</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;การตั้งค่า</translation>
+        <translation>&amp;à¸à¸²à¸£à¸à¸±à¹à¸à¸à¹à¸²</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;ช่วยเหลือ</translation>
+        <translation>&amp;à¸à¹à¸§à¸¢à¹à¸«à¸¥à¸·à¸­</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>แถบเครื่องมือ</translation>
+        <translation>à¹à¸à¸à¹à¸à¸£à¸·à¹à¸­à¸à¸¡à¸·à¸­</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>เรียกเก็บ การชำระเงิน (สร้าง QR codes และ Pirate: URIs)</translation>
+        <translation>à¹à¸£à¸µà¸¢à¸à¹à¸à¹à¸ à¸à¸²à¸£à¸à¸³à¸£à¸°à¹à¸à¸´à¸ (à¸ªà¸£à¹à¸²à¸ QR codes à¹à¸¥à¸° Pirate: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>แสดงรายการ ที่เก็บเงินที่จะส่ง Pirate ออก และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
+        <translation>à¹à¸ªà¸à¸à¸£à¸²à¸¢à¸à¸²à¸£ à¸à¸µà¹à¹à¸à¹à¸à¹à¸à¸´à¸à¸à¸µà¹à¸à¸°à¸ªà¹à¸ Pirate à¸­à¸­à¸ à¹à¸¥à¸°à¸à¹à¸²à¸¢à¸à¸·à¹à¸­ à¸à¸µà¹à¹à¸à¹à¹à¸à¹à¸¥à¹à¸§</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>แสดงรายการ ที่เก็บเงินที่จะรับ Pirate เข้า และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
+        <translation>à¹à¸ªà¸à¸à¸£à¸²à¸¢à¸à¸²à¸£ à¸à¸µà¹à¹à¸à¹à¸à¹à¸à¸´à¸à¸à¸µà¹à¸à¸°à¸£à¸±à¸ Pirate à¹à¸à¹à¸² à¹à¸¥à¸°à¸à¹à¸²à¸¢à¸à¸·à¹à¸­ à¸à¸µà¹à¹à¸à¹à¹à¸à¹à¸¥à¹à¸§</translation>
     </message>
     <message>
         <source>Open a Pirate: URI or payment request</source>
-        <translation>เปิด Pirate: URI หรือ การเรียกเก็บเงิน (การเรียกให้ชำระเงิน)</translation>
+        <translation>à¹à¸à¸´à¸ Pirate: URI à¸«à¸£à¸·à¸­ à¸à¸²à¸£à¹à¸£à¸µà¸¢à¸à¹à¸à¹à¸à¹à¸à¸´à¸ (à¸à¸²à¸£à¹à¸£à¸µà¸¢à¸à¹à¸«à¹à¸à¸³à¸£à¸°à¹à¸à¸´à¸)</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;ตัวเลือก Command-line</translation>
+        <translation>&amp;à¸à¸±à¸§à¹à¸¥à¸·à¸­à¸ Command-line</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Pirate network</source>
-        <translation><numerusform>%n ช่องการเชื่อมต่อที่ใช้งานได้ เพื่อเชื่อมกับเครือข่าย Pirate</numerusform></translation>
+        <translation><numerusform>%n à¸à¹à¸­à¸à¸à¸²à¸£à¹à¸à¸·à¹à¸­à¸¡à¸à¹à¸­à¸à¸µà¹à¹à¸à¹à¸à¸²à¸à¹à¸à¹ à¹à¸à¸·à¹à¸­à¹à¸à¸·à¹à¸­à¸¡à¸à¸±à¸à¹à¸à¸£à¸·à¸­à¸à¹à¸²à¸¢ Pirate</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>การกำลังสร้างดัชนีของบล็อก ในดิสก์...</translation>
+        <translation>à¸à¸²à¸£à¸à¸³à¸¥à¸±à¸à¸ªà¸£à¹à¸²à¸à¸à¸±à¸à¸à¸µà¸à¸­à¸à¸à¸¥à¹à¸­à¸ à¹à¸à¸à¸´à¸ªà¸à¹...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>กำลังดำเนินการกับบล็อกในดิสก์...</translation>
+        <translation>à¸à¸³à¸¥à¸±à¸à¸à¸³à¹à¸à¸´à¸à¸à¸²à¸£à¸à¸±à¸à¸à¸¥à¹à¸­à¸à¹à¸à¸à¸´à¸ªà¸à¹...</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>%n บล็อกในประวัติรายการ ได้รับการดำเนินการเรียบร้อยแล้ว</numerusform></translation>
+        <translation><numerusform>%n à¸à¸¥à¹à¸­à¸à¹à¸à¸à¸£à¸°à¸§à¸±à¸à¸´à¸£à¸²à¸¢à¸à¸²à¸£ à¹à¸à¹à¸£à¸±à¸à¸à¸²à¸£à¸à¸³à¹à¸à¸´à¸à¸à¸²à¸£à¹à¸£à¸µà¸¢à¸à¸£à¹à¸­à¸¢à¹à¸¥à¹à¸§</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 ตามหลัง</translation>
+        <translation>%1 à¸à¸²à¸¡à¸«à¸¥à¸±à¸</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>บล็อกสุดท้ายที่ได้รับ สร้างขึ้นเมื่อ %1 มาแล้ว</translation>
+        <translation>à¸à¸¥à¹à¸­à¸à¸ªà¸¸à¸à¸à¹à¸²à¸¢à¸à¸µà¹à¹à¸à¹à¸£à¸±à¸ à¸ªà¸£à¹à¸²à¸à¸à¸¶à¹à¸à¹à¸¡à¸·à¹à¸­ %1 à¸¡à¸²à¹à¸¥à¹à¸§</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>รายการหลังจากนี้ จะไม่แสดงให้เห็น</translation>
+        <translation>à¸£à¸²à¸¢à¸à¸²à¸£à¸«à¸¥à¸±à¸à¸à¸²à¸à¸à¸µà¹ à¸à¸°à¹à¸¡à¹à¹à¸ªà¸à¸à¹à¸«à¹à¹à¸«à¹à¸</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>ข้อผิดพลาด</translation>
+        <translation>à¸à¹à¸­à¸à¸´à¸à¸à¸¥à¸²à¸</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>คำเตือน</translation>
+        <translation>à¸à¸³à¹à¸à¸·à¸­à¸</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>ข้อมูล</translation>
+        <translation>à¸à¹à¸­à¸¡à¸¹à¸¥</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>ทันสมัย</translation>
+        <translation>à¸à¸±à¸à¸ªà¸¡à¸±à¸¢</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Pirate command-line options</source>
-        <translation>แสดง %1 ข้อความช่วยเหลือ เพื่อแสดงรายการ ตัวเลือกที่เป็นไปได้สำหรับ Pirate command-line</translation>
+        <translation>à¹à¸ªà¸à¸ %1 à¸à¹à¸­à¸à¸§à¸²à¸¡à¸à¹à¸§à¸¢à¹à¸«à¸¥à¸·à¸­ à¹à¸à¸·à¹à¸­à¹à¸ªà¸à¸à¸£à¸²à¸¢à¸à¸²à¸£ à¸à¸±à¸§à¹à¸¥à¸·à¸­à¸à¸à¸µà¹à¹à¸à¹à¸à¹à¸à¹à¸à¹à¸ªà¸³à¸«à¸£à¸±à¸ Pirate command-line</translation>
     </message>
     <message>
         <source>%1 client</source>
-        <translation>%1 ลูกค้า</translation>
+        <translation>%1 à¸¥à¸¹à¸à¸à¹à¸²</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>กำลังตามให้ทัน...</translation>
+        <translation>à¸à¸³à¸¥à¸±à¸à¸à¸²à¸¡à¹à¸«à¹à¸à¸±à¸...</translation>
     </message>
     <message>
         <source>Date: %1
 </source>
-        <translation>วันที่: %1
+        <translation>à¸§à¸±à¸à¸à¸µà¹: %1
 </translation>
     </message>
     <message>
         <source>Amount: %1
 </source>
-        <translation>จำนวน: %1
+        <translation>à¸à¸³à¸à¸§à¸: %1
 </translation>
     </message>
     <message>
         <source>Type: %1
 </source>
-        <translation>ชนิด: %1
+        <translation>à¸à¸à¸´à¸: %1
 </translation>
     </message>
     <message>
         <source>Label: %1
 </source>
-        <translation>ป้ายชื่อ: %1
+        <translation>à¸à¹à¸²à¸¢à¸à¸·à¹à¸­: %1
 </translation>
     </message>
     <message>
         <source>Address: %1
 </source>
-        <translation>ที่อยู่: %1
+        <translation>à¸à¸µà¹à¸­à¸¢à¸¹à¹: %1
 </translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>รายการที่ส่ง</translation>
+        <translation>à¸£à¸²à¸¢à¸à¸²à¸£à¸à¸µà¹à¸ªà¹à¸</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>การทำรายการขาเข้า</translation>
+        <translation>à¸à¸²à¸£à¸à¸³à¸£à¸²à¸¢à¸à¸²à¸£à¸à¸²à¹à¸à¹à¸²</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>ระเป๋าเงินถูก &lt;b&gt;เข้ารหัส&lt;/b&gt; และในขณะนี้ &lt;b&gt;ปลดล็อคแล้ว&lt;/b&gt;</translation>
+        <translation>à¸£à¸°à¹à¸à¹à¸²à¹à¸à¸´à¸à¸à¸¹à¸ &lt;b&gt;à¹à¸à¹à¸²à¸£à¸«à¸±à¸ª&lt;/b&gt; à¹à¸¥à¸°à¹à¸à¸à¸à¸°à¸à¸µà¹ &lt;b&gt;à¸à¸¥à¸à¸¥à¹à¸­à¸à¹à¸¥à¹à¸§&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>กระเป๋าเงินถูก &lt;b&gt;เข้ารหัส&lt;/b&gt; และในปัจจุบัน &lt;b&gt;ล็อค &lt;/b&gt;</translation>
+        <translation>à¸à¸£à¸°à¹à¸à¹à¸²à¹à¸à¸´à¸à¸à¸¹à¸ &lt;b&gt;à¹à¸à¹à¸²à¸£à¸«à¸±à¸ª&lt;/b&gt; à¹à¸¥à¸°à¹à¸à¸à¸±à¸à¸à¸¸à¸à¸±à¸ &lt;b&gt;à¸¥à¹à¸­à¸ &lt;/b&gt;</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>การเลือก Coin</translation>
+        <translation>à¸à¸²à¸£à¹à¸¥à¸·à¸­à¸ Coin</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>จำนวน:</translation>
+        <translation>à¸à¸³à¸à¸§à¸:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>ไบต์:</translation>
+        <translation>à¹à¸à¸à¹:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>จำนวน:</translation>
+        <translation>à¸à¸³à¸à¸§à¸:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>ค่าธรรมเนียม:</translation>
+        <translation>à¸à¹à¸²à¸à¸£à¸£à¸¡à¹à¸à¸µà¸¢à¸¡:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>เศษ:</translation>
+        <translation>à¹à¸¨à¸©:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>ส่วนที่เหลือจากค่าธรรมเนียม:</translation>
+        <translation>à¸ªà¹à¸§à¸à¸à¸µà¹à¹à¸«à¸¥à¸·à¸­à¸à¸²à¸à¸à¹à¸²à¸à¸£à¸£à¸¡à¹à¸à¸µà¸¢à¸¡:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>เงินทอน:</translation>
+        <translation>à¹à¸à¸´à¸à¸à¸­à¸:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(ไม่)เลือกทั้งหมด</translation>
+        <translation>(à¹à¸¡à¹)à¹à¸¥à¸·à¸­à¸à¸à¸±à¹à¸à¸«à¸¡à¸</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>โหมดแบบต้นไม้</translation>
+        <translation>à¹à¸«à¸¡à¸à¹à¸à¸à¸à¹à¸à¹à¸¡à¹</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>โหมดแบบรายการ</translation>
+        <translation>à¹à¸«à¸¡à¸à¹à¸à¸à¸£à¸²à¸¢à¸à¸²à¸£</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>จำนวน</translation>
+        <translation>à¸à¸³à¸à¸§à¸</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>รับโดยป้ายชื่อ (label)</translation>
+        <translation>à¸£à¸±à¸à¹à¸à¸¢à¸à¹à¸²à¸¢à¸à¸·à¹à¸­ (label)</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>รับโดยที่เก็บ</translation>
+        <translation>à¸£à¸±à¸à¹à¸à¸¢à¸à¸µà¹à¹à¸à¹à¸</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>วันที่</translation>
+        <translation>à¸§à¸±à¸à¸à¸µà¹</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>การยืนยัน</translation>
+        <translation>à¸à¸²à¸£à¸¢à¸·à¸à¸¢à¸±à¸</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>ยืนยันแล้ว</translation>
+        <translation>à¸¢à¸·à¸à¸¢à¸±à¸à¹à¸¥à¹à¸§</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>แก้ไขที่อยู่</translation>
+        <translation>à¹à¸à¹à¹à¸à¸à¸µà¹à¸­à¸¢à¸¹à¹</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;ป้ายชื่อ</translation>
+        <translation>&amp;à¸à¹à¸²à¸¢à¸à¸·à¹à¸­</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>รายการแสดง ป้ายชื่อที่เกี่ยวข้องกับที่เก็บนี้</translation>
+        <translation>à¸£à¸²à¸¢à¸à¸²à¸£à¹à¸ªà¸à¸ à¸à¹à¸²à¸¢à¸à¸·à¹à¸­à¸à¸µà¹à¹à¸à¸µà¹à¸¢à¸§à¸à¹à¸­à¸à¸à¸±à¸à¸à¸µà¹à¹à¸à¹à¸à¸à¸µà¹</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>ที่เก็บที่เกี่ยวข้องกับ ที่เก็บที่แสดงรายการนี้ การปรับปรุงนี้ทำได้สำหรับ ที่เก็บเงินที่จะใช่ส่งเงิน เท่านั้น</translation>
+        <translation>à¸à¸µà¹à¹à¸à¹à¸à¸à¸µà¹à¹à¸à¸µà¹à¸¢à¸§à¸à¹à¸­à¸à¸à¸±à¸ à¸à¸µà¹à¹à¸à¹à¸à¸à¸µà¹à¹à¸ªà¸à¸à¸£à¸²à¸¢à¸à¸²à¸£à¸à¸µà¹ à¸à¸²à¸£à¸à¸£à¸±à¸à¸à¸£à¸¸à¸à¸à¸µà¹à¸à¸³à¹à¸à¹à¸ªà¸³à¸«à¸£à¸±à¸ à¸à¸µà¹à¹à¸à¹à¸à¹à¸à¸´à¸à¸à¸µà¹à¸à¸°à¹à¸à¹à¸ªà¹à¸à¹à¸à¸´à¸ à¹à¸à¹à¸²à¸à¸±à¹à¸</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;ที่เก็บ</translation>
+        <translation>&amp;à¸à¸µà¹à¹à¸à¹à¸</translation>
     </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>ไดเร็กทอรี่ใหม่ที่ใช้เก็บข้อมูลจะถูกสร้างขึ้นมา</translation>
+        <translation>à¹à¸à¹à¸£à¹à¸à¸à¸­à¸£à¸µà¹à¹à¸«à¸¡à¹à¸à¸µà¹à¹à¸à¹à¹à¸à¹à¸à¸à¹à¸­à¸¡à¸¹à¸¥à¸à¸°à¸à¸¹à¸à¸ªà¸£à¹à¸²à¸à¸à¸¶à¹à¸à¸¡à¸²</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>ชื่อ</translation>
+        <translation>à¸à¸·à¹à¸­</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>ไดเร็กทอรี่มีอยู่แล้ว ใส่เพิ่ม %1 หากท่านต้องการสร้างไดเร็กทอรี่ใหม่ที่นี่</translation>
+        <translation>à¹à¸à¹à¸£à¹à¸à¸à¸­à¸£à¸µà¹à¸¡à¸µà¸­à¸¢à¸¹à¹à¹à¸¥à¹à¸§ à¹à¸ªà¹à¹à¸à¸´à¹à¸¡ %1 à¸«à¸²à¸à¸à¹à¸²à¸à¸à¹à¸­à¸à¸à¸²à¸£à¸ªà¸£à¹à¸²à¸à¹à¸à¹à¸£à¹à¸à¸à¸­à¸£à¸µà¹à¹à¸«à¸¡à¹à¸à¸µà¹à¸à¸µà¹</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>พาธ มีอยู่แล้ว พาธนี่ไม่ใช่ไดเร็กทอรี่</translation>
+        <translation>à¸à¸²à¸ à¸¡à¸µà¸­à¸¢à¸¹à¹à¹à¸¥à¹à¸§ à¸à¸²à¸à¸à¸µà¹à¹à¸¡à¹à¹à¸à¹à¹à¸à¹à¸£à¹à¸à¸à¸­à¸£à¸µà¹</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>ไม่สามารถสร้างไดเร็กทอรี่ข้อมูลที่นี่</translation>
+        <translation>à¹à¸¡à¹à¸ªà¸²à¸¡à¸²à¸£à¸à¸ªà¸£à¹à¸²à¸à¹à¸à¹à¸£à¹à¸à¸à¸­à¸£à¸µà¹à¸à¹à¸­à¸¡à¸¹à¸¥à¸à¸µà¹à¸à¸µà¹</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>เวอร์ชั่น</translation>
+        <translation>à¹à¸§à¸­à¸£à¹à¸à¸±à¹à¸</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
-        <translation>(%1-บิท)</translation>
+        <translation>(%1-à¸à¸´à¸)</translation>
     </message>
     <message>
         <source>About %1</source>
-        <translation>เกี่ยวกับ %1</translation>
+        <translation>à¹à¸à¸µà¹à¸¢à¸§à¸à¸±à¸ %1</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>ตัวเลือก Command-line</translation>
+        <translation>à¸à¸±à¸§à¹à¸¥à¸·à¸­à¸ Command-line</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>วิธีใช้งาน:</translation>
+        <translation>à¸§à¸´à¸à¸µà¹à¸à¹à¸à¸²à¸:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>ตัวเลือก command-line</translation>
+        <translation>à¸à¸±à¸§à¹à¸¥à¸·à¸­à¸ command-line</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>ตัวเลือก UI:</translation>
+        <translation>à¸à¸±à¸§à¹à¸¥à¸·à¸­à¸ UI:</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>เลือกไดเร็กทอรี่ข้อมูลตั้งแต่เริ่มต้นสตาร์ทอัพ (ค่าเริ่มต้น: %u)</translation>
+        <translation>à¹à¸¥à¸·à¸­à¸à¹à¸à¹à¸£à¹à¸à¸à¸­à¸£à¸µà¹à¸à¹à¸­à¸¡à¸¹à¸¥à¸à¸±à¹à¸à¹à¸à¹à¹à¸£à¸´à¹à¸¡à¸à¹à¸à¸ªà¸à¸²à¸£à¹à¸à¸­à¸±à¸ (à¸à¹à¸²à¹à¸£à¸´à¹à¸¡à¸à¹à¸: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>ตั้งค่าภาษา ยกตัวอย่าง "de_DE" (ค่าเริ่มต้น: ภาษาท้องถิ่นของระบบ)</translation>
+        <translation>à¸à¸±à¹à¸à¸à¹à¸²à¸ à¸²à¸©à¸² à¸¢à¸à¸à¸±à¸§à¸­à¸¢à¹à¸²à¸ "de_DE" (à¸à¹à¸²à¹à¸£à¸´à¹à¸¡à¸à¹à¸: à¸ à¸²à¸©à¸²à¸à¹à¸­à¸à¸à¸´à¹à¸à¸à¸­à¸à¸£à¸°à¸à¸)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>เริ่มต้นมินิไมซ์</translation>
+        <translation>à¹à¸£à¸´à¹à¸¡à¸à¹à¸à¸¡à¸´à¸à¸´à¹à¸¡à¸à¹</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>ตั้งค่า SSL root certificates สำหรับเรียกการชำระเงิน (ค่าเริ่มต้น: -system-)</translation>
+        <translation>à¸à¸±à¹à¸à¸à¹à¸² SSL root certificates à¸ªà¸³à¸«à¸£à¸±à¸à¹à¸£à¸µà¸¢à¸à¸à¸²à¸£à¸à¸³à¸£à¸°à¹à¸à¸´à¸ (à¸à¹à¸²à¹à¸£à¸´à¹à¸¡à¸à¹à¸: -system-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>แสดง splash screen ตอนเริ่มต้น (ค่าเริ่มต้น: %u)</translation>
+        <translation>à¹à¸ªà¸à¸ splash screen à¸à¸­à¸à¹à¸£à¸´à¹à¸¡à¸à¹à¸ (à¸à¹à¸²à¹à¸£à¸´à¹à¸¡à¸à¹à¸: %u)</translation>
     </message>
     <message>
         <source>Reset all settings changed in the GUI</source>
-        <translation>รีเซตการเปลี่ยนการตั้งค่าทั้งหมดใน GUI</translation>
+        <translation>à¸£à¸µà¹à¸à¸à¸à¸²à¸£à¹à¸à¸¥à¸µà¹à¸¢à¸à¸à¸²à¸£à¸à¸±à¹à¸à¸à¹à¸²à¸à¸±à¹à¸à¸«à¸¡à¸à¹à¸ GUI</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>ยินดีต้อนรับ</translation>
+        <translation>à¸¢à¸´à¸à¸à¸µà¸à¹à¸­à¸à¸£à¸±à¸</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
-        <translation>ยินดีต้องรับสู่ %1</translation>
+        <translation>à¸¢à¸´à¸à¸à¸µà¸à¹à¸­à¸à¸£à¸±à¸à¸ªà¸¹à¹ %1</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>นี่เป็นการรันโปรแกรมครั้งแรก ท่านสามารถเลือก ว่าจะเก็บข้อมูลไว้ที่ %1</translation>
+        <translation>à¸à¸µà¹à¹à¸à¹à¸à¸à¸²à¸£à¸£à¸±à¸à¹à¸à¸£à¹à¸à¸£à¸¡à¸à¸£à¸±à¹à¸à¹à¸£à¸ à¸à¹à¸²à¸à¸ªà¸²à¸¡à¸²à¸£à¸à¹à¸¥à¸·à¸­à¸ à¸§à¹à¸²à¸à¸°à¹à¸à¹à¸à¸à¹à¸­à¸¡à¸¹à¸¥à¹à¸§à¹à¸à¸µà¹ %1</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Pirate block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 จะดาวน์โหลดและเก็บกอปปี้ชุดหนึ่งของ บล็อกเชน Pirate ไว้ ข้อมูลขนานอย่างน้อย %2GB จะเก็บไว้ในไดเร็กทอรี่นี้ และข้อมูลจะมีขนาดใหญ่ขึ้นเรื่อยๆ กระเป๋าเงิน จะเก็บไว้ในไดเร็กทอรี่นี้ด้วย</translation>
+        <translation>%1 à¸à¸°à¸à¸²à¸§à¸à¹à¹à¸«à¸¥à¸à¹à¸¥à¸°à¹à¸à¹à¸à¸à¸­à¸à¸à¸µà¹à¸à¸¸à¸à¸«à¸à¸¶à¹à¸à¸à¸­à¸ à¸à¸¥à¹à¸­à¸à¹à¸à¸ Pirate à¹à¸§à¹ à¸à¹à¸­à¸¡à¸¹à¸¥à¸à¸à¸²à¸à¸­à¸¢à¹à¸²à¸à¸à¹à¸­à¸¢ %2GB à¸à¸°à¹à¸à¹à¸à¹à¸§à¹à¹à¸à¹à¸à¹à¸£à¹à¸à¸à¸­à¸£à¸µà¹à¸à¸µà¹ à¹à¸¥à¸°à¸à¹à¸­à¸¡à¸¹à¸¥à¸à¸°à¸¡à¸µà¸à¸à¸²à¸à¹à¸«à¸à¹à¸à¸¶à¹à¸à¹à¸£à¸·à¹à¸­à¸¢à¹ à¸à¸£à¸°à¹à¸à¹à¸²à¹à¸à¸´à¸ à¸à¸°à¹à¸à¹à¸à¹à¸§à¹à¹à¸à¹à¸à¹à¸£à¹à¸à¸à¸­à¸£à¸µà¹à¸à¸µà¹à¸à¹à¸§à¸¢</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>ใช้ไดเร็กทอรี่ข้อมูล ที่เป็นค่าเริ่มต้น</translation>
+        <translation>à¹à¸à¹à¹à¸à¹à¸£à¹à¸à¸à¸­à¸£à¸µà¹à¸à¹à¸­à¸¡à¸¹à¸¥ à¸à¸µà¹à¹à¸à¹à¸à¸à¹à¸²à¹à¸£à¸´à¹à¸¡à¸à¹à¸</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>ใช้ไดเร็กทอรี่ข้อมูลที่ตั้งค่าเอง:</translation>
+        <translation>à¹à¸à¹à¹à¸à¹à¸£à¹à¸à¸à¸­à¸£à¸µà¹à¸à¹à¸­à¸¡à¸¹à¸¥à¸à¸µà¹à¸à¸±à¹à¸à¸à¹à¸²à¹à¸­à¸:</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>ข้อผิดพลาด: ไดเร็กทอรี่ข้อมูลที่ต้องการ "%1" ไม่สามารถสร้างได้</translation>
+        <translation>à¸à¹à¸­à¸à¸´à¸à¸à¸¥à¸²à¸: à¹à¸à¹à¸£à¹à¸à¸à¸­à¸£à¸µà¹à¸à¹à¸­à¸¡à¸¹à¸¥à¸à¸µà¹à¸à¹à¸­à¸à¸à¸²à¸£ "%1" à¹à¸¡à¹à¸ªà¸²à¸¡à¸²à¸£à¸à¸ªà¸£à¹à¸²à¸à¹à¸à¹</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>ข้อผิดพลาด</translation>
+        <translation>à¸à¹à¸­à¸à¸´à¸à¸à¸¥à¸²à¸</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB พื้นที่ว่างบนดิสก์ที่ใช้ได้</numerusform></translation>
+        <translation><numerusform>%n GB à¸à¸·à¹à¸à¸à¸µà¹à¸§à¹à¸²à¸à¸à¸à¸à¸´à¸ªà¸à¹à¸à¸µà¹à¹à¸à¹à¹à¸à¹</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(ต้องการพื้นที่ %n GB)</numerusform></translation>
+        <translation><numerusform>(à¸à¹à¸­à¸à¸à¸²à¸£à¸à¸·à¹à¸à¸à¸µà¹ %n GB)</numerusform></translation>
     </message>
 </context>
 <context>
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>รูป</translation>
+        <translation>à¸£à¸¹à¸</translation>
     </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>เปิด URI</translation>
+        <translation>à¹à¸à¸´à¸ URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>เปิด การเรียกการชำระเงิน จาก URI หรือ ไฟล์</translation>
+        <translation>à¹à¸à¸´à¸ à¸à¸²à¸£à¹à¸£à¸µà¸¢à¸à¸à¸²à¸£à¸à¸³à¸£à¸°à¹à¸à¸´à¸ à¸à¸²à¸ URI à¸«à¸£à¸·à¸­ à¹à¸à¸¥à¹</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -614,30 +614,30 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>เลือก ไฟล์การเรียกการชำระเงิน</translation>
+        <translation>à¹à¸¥à¸·à¸­à¸ à¹à¸à¸¥à¹à¸à¸²à¸£à¹à¸£à¸µà¸¢à¸à¸à¸²à¸£à¸à¸³à¸£à¸°à¹à¸à¸´à¸</translation>
     </message>
     </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>ตัวเลือก</translation>
+        <translation>à¸à¸±à¸§à¹à¸¥à¸·à¸­à¸</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;หลัก</translation>
+        <translation>&amp;à¸«à¸¥à¸±à¸</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
-        <translation>เริ่มต้นอัตโนมัติ %1 หลังจาก ล็อกอิน เข้าสู่ระบบแล้ว</translation>
+        <translation>à¹à¸£à¸´à¹à¸¡à¸à¹à¸à¸­à¸±à¸à¹à¸à¸¡à¸±à¸à¸´ %1 à¸«à¸¥à¸±à¸à¸à¸²à¸ à¸¥à¹à¸­à¸à¸­à¸´à¸ à¹à¸à¹à¸²à¸ªà¸¹à¹à¸£à¸°à¸à¸à¹à¸¥à¹à¸§</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
-        <translation>&amp;เริ่ม %1 ในการล็อกอินระบบ</translation>
+        <translation>&amp;à¹à¸£à¸´à¹à¸¡ %1 à¹à¸à¸à¸²à¸£à¸¥à¹à¸­à¸à¸­à¸´à¸à¸£à¸°à¸à¸</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>ขนาดของ &amp;database cache</translation>
+        <translation>à¸à¸à¸²à¸à¸à¸­à¸ &amp;database cache</translation>
     </message>
     <message>
         <source>MB</source>
@@ -645,107 +645,107 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>จำนวนของสคริปท์ &amp;verification threads</translation>
+        <translation>à¸à¸³à¸à¸§à¸à¸à¸­à¸à¸ªà¸à¸£à¸´à¸à¸à¹ &amp;verification threads</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>ยอมรับ การเชื่อมต่อจากภายนอก</translation>
+        <translation>à¸¢à¸­à¸¡à¸£à¸±à¸ à¸à¸²à¸£à¹à¸à¸·à¹à¸­à¸¡à¸à¹à¸­à¸à¸²à¸à¸ à¸²à¸¢à¸à¸­à¸</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>ยอมให้เชื่อมต่อจากภายนอกได้</translation>
+        <translation>à¸¢à¸­à¸¡à¹à¸«à¹à¹à¸à¸·à¹à¸­à¸¡à¸à¹à¸­à¸à¸²à¸à¸ à¸²à¸¢à¸à¸­à¸à¹à¸à¹</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP แอดเดส ของ proxy (เช่น IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>IP à¹à¸­à¸à¹à¸à¸ª à¸à¸­à¸ proxy (à¹à¸à¹à¸ IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>มินิไมซ์แอพ แทนการออกจากแอพพลิเคชั่น เมื่อวินโดว์ได้รับการปิด เมื่อเลือกตัวเลือกนี้ แอพพลิเคชั่น จะถูกปิด ก็ต่อเมื่อ มีการเลือกเมนู Exit/ออกจากระบบ เท่านั้น</translation>
+        <translation>à¸¡à¸´à¸à¸´à¹à¸¡à¸à¹à¹à¸­à¸ à¹à¸à¸à¸à¸²à¸£à¸­à¸­à¸à¸à¸²à¸à¹à¸­à¸à¸à¸¥à¸´à¹à¸à¸à¸±à¹à¸ à¹à¸¡à¸·à¹à¸­à¸§à¸´à¸à¹à¸à¸§à¹à¹à¸à¹à¸£à¸±à¸à¸à¸²à¸£à¸à¸´à¸ à¹à¸¡à¸·à¹à¸­à¹à¸¥à¸·à¸­à¸à¸à¸±à¸§à¹à¸¥à¸·à¸­à¸à¸à¸µà¹ à¹à¸­à¸à¸à¸¥à¸´à¹à¸à¸à¸±à¹à¸ à¸à¸°à¸à¸¹à¸à¸à¸´à¸ à¸à¹à¸à¹à¸­à¹à¸¡à¸·à¹à¸­ à¸¡à¸µà¸à¸²à¸£à¹à¸¥à¸·à¸­à¸à¹à¸¡à¸à¸¹ Exit/à¸­à¸­à¸à¸à¸²à¸à¸£à¸°à¸à¸ à¹à¸à¹à¸²à¸à¸±à¹à¸</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL แบบอื่น (ยกตัวอย่าง เอ็กพลอเลอร์บล็อก) ที่อยู่ใน เมนูรายการ ลำดับ %s ใน URL จะถูกเปลี่ยนด้วย รายการแฮช URL ที่เป็นแบบหลายๆอัน จะถูกแยก โดย เครื่องหมายเส้นบาร์ตั้ง |</translation>
+        <translation>URL à¹à¸à¸à¸­à¸·à¹à¸ (à¸¢à¸à¸à¸±à¸§à¸­à¸¢à¹à¸²à¸ à¹à¸­à¹à¸à¸à¸¥à¸­à¹à¸¥à¸­à¸£à¹à¸à¸¥à¹à¸­à¸) à¸à¸µà¹à¸­à¸¢à¸¹à¹à¹à¸ à¹à¸¡à¸à¸¹à¸£à¸²à¸¢à¸à¸²à¸£ à¸¥à¸³à¸à¸±à¸ %s à¹à¸ URL à¸à¸°à¸à¸¹à¸à¹à¸à¸¥à¸µà¹à¸¢à¸à¸à¹à¸§à¸¢ à¸£à¸²à¸¢à¸à¸²à¸£à¹à¸®à¸ URL à¸à¸µà¹à¹à¸à¹à¸à¹à¸à¸à¸«à¸¥à¸²à¸¢à¹à¸­à¸±à¸ à¸à¸°à¸à¸¹à¸à¹à¸¢à¸ à¹à¸à¸¢ à¹à¸à¸£à¸·à¹à¸­à¸à¸«à¸¡à¸²à¸¢à¹à¸ªà¹à¸à¸à¸²à¸£à¹à¸à¸±à¹à¸ |</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>URI รายการ แบบของเจ้าอื่นๆ</translation>
+        <translation>URI à¸£à¸²à¸¢à¸à¸²à¸£ à¹à¸à¸à¸à¸­à¸à¹à¸à¹à¸²à¸­à¸·à¹à¸à¹</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>ตัวเลือก command-line แอกทีฟอยู่นี้ จะแทนที่ ตัวเลือกด้านบนนี้:</translation>
+        <translation>à¸à¸±à¸§à¹à¸¥à¸·à¸­à¸ command-line à¹à¸­à¸à¸à¸µà¸à¸­à¸¢à¸¹à¹à¸à¸µà¹ à¸à¸°à¹à¸à¸à¸à¸µà¹ à¸à¸±à¸§à¹à¸¥à¸·à¸­à¸à¸à¹à¸²à¸à¸à¸à¸à¸µà¹:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>รีเซต ไคลเอ็นออพชั่น กลับไปเป็นค่าเริ่มต้น</translation>
+        <translation>à¸£à¸µà¹à¸à¸ à¹à¸à¸¥à¹à¸­à¹à¸à¸­à¸­à¸à¸à¸±à¹à¸ à¸à¸¥à¸±à¸à¹à¸à¹à¸à¹à¸à¸à¹à¸²à¹à¸£à¸´à¹à¸¡à¸à¹à¸</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;รีเซต ออพชั่น</translation>
+        <translation>&amp;à¸£à¸µà¹à¸à¸ à¸­à¸­à¸à¸à¸±à¹à¸</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;เน็ตเวิร์ก</translation>
+        <translation>&amp;à¹à¸à¹à¸à¹à¸§à¸´à¸£à¹à¸</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = อัตโนมัติ, &lt;0 = ปล่อย คอร์ อิสระ)</translation>
+        <translation>(0 = à¸­à¸±à¸à¹à¸à¸¡à¸±à¸à¸´, &lt;0 = à¸à¸¥à¹à¸­à¸¢ à¸à¸­à¸£à¹ à¸­à¸´à¸ªà¸£à¸°)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>กระเ&amp;ป๋าเงิน</translation>
+        <translation>à¸à¸£à¸°à¹&amp;à¸à¹à¸²à¹à¸à¸´à¸</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>ผู้เชี่ยวชาญ</translation>
+        <translation>à¸à¸¹à¹à¹à¸à¸µà¹à¸¢à¸§à¸à¸²à¸</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>เปิดใช้ coin &amp; รูปแบบการควบคุม</translation>
+        <translation>à¹à¸à¸´à¸à¹à¸à¹ coin &amp; à¸£à¸¹à¸à¹à¸à¸à¸à¸²à¸£à¸à¸§à¸à¸à¸¸à¸¡</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>หากท่านไม่เปิดใช้ การใช้เงินทอนที่ยังไม่ยืนยัน เงินทอนจากการทำรายการจะไม่สามารถใช้ได้ จนกว่ารายการที่ทำการ จะได้รับการยืนยันหนึ่งครั้ง และจะกระทบการคำนวณยอดคงเหลือของท่านด้วย</translation>
+        <translation>à¸«à¸²à¸à¸à¹à¸²à¸à¹à¸¡à¹à¹à¸à¸´à¸à¹à¸à¹ à¸à¸²à¸£à¹à¸à¹à¹à¸à¸´à¸à¸à¸­à¸à¸à¸µà¹à¸¢à¸±à¸à¹à¸¡à¹à¸¢à¸·à¸à¸¢à¸±à¸ à¹à¸à¸´à¸à¸à¸­à¸à¸à¸²à¸à¸à¸²à¸£à¸à¸³à¸£à¸²à¸¢à¸à¸²à¸£à¸à¸°à¹à¸¡à¹à¸ªà¸²à¸¡à¸²à¸£à¸à¹à¸à¹à¹à¸à¹ à¸à¸à¸à¸§à¹à¸²à¸£à¸²à¸¢à¸à¸²à¸£à¸à¸µà¹à¸à¸³à¸à¸²à¸£ à¸à¸°à¹à¸à¹à¸£à¸±à¸à¸à¸²à¸£à¸¢à¸·à¸à¸¢à¸±à¸à¸«à¸à¸¶à¹à¸à¸à¸£à¸±à¹à¸ à¹à¸¥à¸°à¸à¸°à¸à¸£à¸°à¸à¸à¸à¸²à¸£à¸à¸³à¸à¸§à¸à¸¢à¸­à¸à¸à¸à¹à¸«à¸¥à¸·à¸­à¸à¸­à¸à¸à¹à¸²à¸à¸à¹à¸§à¸¢</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;ใช้เงินทอนที่ยังไม่ยืนยัน</translation>
+        <translation>&amp;à¹à¸à¹à¹à¸à¸´à¸à¸à¸­à¸à¸à¸µà¹à¸¢à¸±à¸à¹à¸¡à¹à¸¢à¸·à¸à¸¢à¸±à¸</translation>
     </message>
     <message>
         <source>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>เปิด Pirate ไคล์เอ็นท์พอร์ต/client port บน router โดยอัตโนมัติ วิธีนี้ใช้ได้เมื่อ router สนับสนุน UPnP และสถานะเปิดใช้งาน</translation>
+        <translation>à¹à¸à¸´à¸ Pirate à¹à¸à¸¥à¹à¹à¸­à¹à¸à¸à¹à¸à¸­à¸£à¹à¸/client port à¸à¸ router à¹à¸à¸¢à¸­à¸±à¸à¹à¸à¸¡à¸±à¸à¸´ à¸§à¸´à¸à¸µà¸à¸µà¹à¹à¸à¹à¹à¸à¹à¹à¸¡à¸·à¹à¸­ router à¸ªà¸à¸±à¸à¸ªà¸à¸¸à¸ UPnP à¹à¸¥à¸°à¸ªà¸à¸²à¸à¸°à¹à¸à¸´à¸à¹à¸à¹à¸à¸²à¸</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>จองพอร์ต โดยใช้ &amp;UPnP</translation>
+        <translation>à¸à¸­à¸à¸à¸­à¸£à¹à¸ à¹à¸à¸¢à¹à¸à¹ &amp;UPnP</translation>
     </message>
     <message>
         <source>Connect to the Pirate network through a SOCKS5 proxy.</source>
-        <translation>เชื่อมต่อกับ Pirate เน็ตเวิร์ก ผ่านพร็อกซี่แบบ SOCKS5</translation>
+        <translation>à¹à¸à¸·à¹à¸­à¸¡à¸à¹à¸­à¸à¸±à¸ Pirate à¹à¸à¹à¸à¹à¸§à¸´à¸£à¹à¸ à¸à¹à¸²à¸à¸à¸£à¹à¸­à¸à¸à¸µà¹à¹à¸à¸ SOCKS5</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;เชื่อมต่อผ่าน พร็อกซี่ SOCKS5 (พร็อกซี่เริ่มต้น):</translation>
+        <translation>&amp;à¹à¸à¸·à¹à¸­à¸¡à¸à¹à¸­à¸à¹à¸²à¸ à¸à¸£à¹à¸­à¸à¸à¸µà¹ SOCKS5 (à¸à¸£à¹à¸­à¸à¸à¸µà¹à¹à¸£à¸´à¹à¸¡à¸à¹à¸):</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>พร็อกซี่ &amp;IP:</translation>
+        <translation>à¸à¸£à¹à¸­à¸à¸à¸µà¹ &amp;IP:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;พอร์ต</translation>
+        <translation>&amp;à¸à¸­à¸£à¹à¸</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>พอร์ตของพร็อกซี่ (ตัวอย่าง 9050)</translation>
+        <translation>à¸à¸­à¸£à¹à¸à¸à¸­à¸à¸à¸£à¹à¸­à¸à¸à¸µà¹ (à¸à¸±à¸§à¸­à¸¢à¹à¸²à¸ 9050)</translation>
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>ใช้ในการเข้าถึงอีกฝ่ายหนึ่ง peer โดย:</translation>
+        <translation>à¹à¸à¹à¹à¸à¸à¸²à¸£à¹à¸à¹à¸²à¸à¸¶à¸à¸­à¸µà¸à¸à¹à¸²à¸¢à¸«à¸à¸¶à¹à¸ peer à¹à¸à¸¢:</translation>
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>แสดง หากใช้พร็อกซี่ SOCKS5 ที่เป็นค่าเริ่มต้น เพื่อเข้าถึง peer อีกฝ่าย ผ่านทางเน็ตเวิร์กชนิดนี้</translation>
+        <translation>à¹à¸ªà¸à¸ à¸«à¸²à¸à¹à¸à¹à¸à¸£à¹à¸­à¸à¸à¸µà¹ SOCKS5 à¸à¸µà¹à¹à¸à¹à¸à¸à¹à¸²à¹à¸£à¸´à¹à¸¡à¸à¹à¸ à¹à¸à¸·à¹à¸­à¹à¸à¹à¸²à¸à¸¶à¸ peer à¸­à¸µà¸à¸à¹à¸²à¸¢ à¸à¹à¸²à¸à¸à¸²à¸à¹à¸à¹à¸à¹à¸§à¸´à¸£à¹à¸à¸à¸à¸´à¸à¸à¸µà¹</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -761,34 +761,34 @@
     </message>
     <message>
         <source>Connect to the Pirate network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>เชื่อมต่อกับ เครือข่าย Pirate ผ่านทาง พร้อกซี่ SOCKS5 แยกต่างหาก สำหรับ Tor เซอร์วิส</translation>
+        <translation>à¹à¸à¸·à¹à¸­à¸¡à¸à¹à¸­à¸à¸±à¸ à¹à¸à¸£à¸·à¸­à¸à¹à¸²à¸¢ Pirate à¸à¹à¸²à¸à¸à¸²à¸ à¸à¸£à¹à¸­à¸à¸à¸µà¹ SOCKS5 à¹à¸¢à¸à¸à¹à¸²à¸à¸«à¸²à¸ à¸ªà¸³à¸«à¸£à¸±à¸ Tor à¹à¸à¸­à¸£à¹à¸§à¸´à¸ª</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>ใช้ พร็อกซี่ SOCKS5 แยก เพื่อเข้าถึง peers ผ่าน Tor เซอร์วิสซ่อน:</translation>
+        <translation>à¹à¸à¹ à¸à¸£à¹à¸­à¸à¸à¸µà¹ SOCKS5 à¹à¸¢à¸ à¹à¸à¸·à¹à¸­à¹à¸à¹à¸²à¸à¸¶à¸ peers à¸à¹à¸²à¸ Tor à¹à¸à¸­à¸£à¹à¸§à¸´à¸ªà¸à¹à¸­à¸:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;วันโดว์</translation>
+        <translation>&amp;à¸§à¸±à¸à¹à¸à¸§à¹</translation>
     </message>
     <message>
         <source>&amp;Hide the icon from the system tray.</source>
-        <translation>&amp;ซ่อนไอคอน จากเทรย์ระบบ</translation>
+        <translation>&amp;à¸à¹à¸­à¸à¹à¸­à¸à¸­à¸ à¸à¸²à¸à¹à¸à¸£à¸¢à¹à¸£à¸°à¸à¸</translation>
     </message>
     <message>
         <source>Hide tray icon</source>
-        <translation>ซ่อนไอคอนเทรย์</translation>
+        <translation>à¸à¹à¸­à¸à¹à¸­à¸à¸­à¸à¹à¸à¸£à¸¢à¹</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>แสดงเทรย์ไอคอน หลังมืนิไมส์วินโดว์ เท่านั้น</translation>
+        <translation>à¹à¸ªà¸à¸à¹à¸à¸£à¸¢à¹à¹à¸­à¸à¸­à¸ à¸«à¸¥à¸±à¸à¸¡à¸·à¸à¸´à¹à¸¡à¸ªà¹à¸§à¸´à¸à¹à¸à¸§à¹ à¹à¸à¹à¸²à¸à¸±à¹à¸</translation>
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>รูป</translation>
+        <translation>à¸£à¸¹à¸</translation>
     </message>
     </context>
 <context>
@@ -801,11 +801,11 @@
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>จำนวน</translation>
+        <translation>à¸à¸³à¸à¸§à¸</translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 และ %2</translation>
+        <translation>%1 à¹à¸¥à¸° %2</translation>
     </message>
     </context>
 <context>
@@ -821,7 +821,7 @@
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;ชื่อ:</translation>
+        <translation>&amp;à¸à¸·à¹à¸­:</translation>
     </message>
     </context>
 <context>
@@ -834,42 +834,42 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>ส่งเหรียญ</translation>
+        <translation>à¸ªà¹à¸à¹à¸«à¸£à¸µà¸¢à¸</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>จำนวน:</translation>
+        <translation>à¸à¸³à¸à¸§à¸:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>ไบต์:</translation>
+        <translation>à¹à¸à¸à¹:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>จำนวน:</translation>
+        <translation>à¸à¸³à¸à¸§à¸:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>ค่าธรรมเนียม:</translation>
+        <translation>à¸à¹à¸²à¸à¸£à¸£à¸¡à¹à¸à¸µà¸¢à¸¡:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>ส่วนที่เหลือจากค่าธรรมเนียม:</translation>
+        <translation>à¸ªà¹à¸§à¸à¸à¸µà¹à¹à¸«à¸¥à¸·à¸­à¸à¸²à¸à¸à¹à¸²à¸à¸£à¸£à¸¡à¹à¸à¸µà¸¢à¸¡:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>เงินทอน:</translation>
+        <translation>à¹à¸à¸´à¸à¸à¸­à¸:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>เศษ:</translation>
+        <translation>à¹à¸¨à¸©:</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;ชื่อ:</translation>
+        <translation>&amp;à¸à¸·à¹à¸­:</translation>
     </message>
     </context>
 <context>
@@ -916,22 +916,22 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
-        <translation>ตัวเลือก:</translation>
+        <translation>à¸à¸±à¸§à¹à¸¥à¸·à¸­à¸:</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>ข้อมูล</translation>
+        <translation>à¸à¹à¸­à¸¡à¸¹à¸¥</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>คำเตือน</translation>
+        <translation>à¸à¸³à¹à¸à¸·à¸­à¸</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>ข้อผิดพลาด</translation>
+        <translation>à¸à¹à¸­à¸à¸´à¸à¸à¸¥à¸²à¸</translation>
     </message>
 </context>
 </TS>

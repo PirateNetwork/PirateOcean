@@ -1,3 +1,4 @@
+![Downloads](https://img.shields.io/github/downloads/PirateNetwork/PirateOcean/total)
 # PirateOcean (pirate-qt) #
 
 Pirate-Qt (PirateOcean) is a world's first Qt native wallet for ARRR ([Pirate](https://pirate.black/)). It's available for three OS platforms - Windows, Linux, MacOS.
@@ -25,9 +26,10 @@ sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoco
 ```shell
 git clone https://github.com/PirateNetwork/PirateOcean --branch master --single-branch
 cd PirateOcean
-./zcutil/build-linux.sh -j8
+./zcutil/fetch-params.sh
 # -j8 = using 8 threads for the compilation - replace 8 with number of threads you want to use
-#This can take some time and you'll need to run zcutil/fetch-params.sh on the nix system.
+./zcutil/build-linux.sh -j8
+#This can take some time.
 ```
 
 
@@ -39,16 +41,21 @@ Ensure you have [brew](https://brew.sh) and Command Line Tools installed.
 # Install Xcode, opens a pop-up window to install CLT without installing the entire Xcode package
 xcode-select --install
 # Update brew and install dependencies
-brew update && brew upgrade
-brew tap discoteq/discoteq
-brew install flock autoconf autogen automake gcc@6 binutils wget coreutils
+brew update
+brew upgrade
+brew tap discoteq/discoteq; brew install flock
+brew install autoconf autogen automake
+brew install gcc@6
+brew install binutils
+brew install wget
 # Clone the Pirate repo
 git clone https://github.com/PirateNetwork/PirateOcean --branch master --single-branch
-# Change master branch to other branch you wish to compile
+# Change static branch to other branch you wish to compile
 cd PirateOcean
-./zcutil/build-mac.sh -j8
+./zcutil/fetch-params.sh
 # -j8 = using 8 threads for the compilation - replace 8 with number of threads you want to use
-#This can take some time and you'll need to run zcutil/fetch-params./sh on the Mac system.
+./zcutil/build-mac.sh -j8
+# This can take some time.
 ```
 
 #### Windows
@@ -76,5 +83,5 @@ cd PirateOcean
 
 ## Developers of Qt wallet ##
 - Pirate developer: [@ComputerGenie](https://github.com/TheComputerGenie)
-- Main developer: [@Ocean](https://pirate-platform.slack.com/team/U8BRG09EV)
-- IT Expert / Sysengineer: [@Decker](https://pirate-platform.slack.com/messages/D5UHJMCJ3)
+- Main developer: **Ocean**
+- IT Expert / Sysengineer: **Decker**

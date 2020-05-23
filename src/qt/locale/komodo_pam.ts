@@ -726,7 +726,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
         <translation>Pipamilian:</translation>
@@ -753,7 +753,7 @@
     </message>
     <message>
         <source>Pirate Core</source>
-        <translation>Kapilubluban ning Pirate</translation>
+        <translation>Kapilubluban ning Komodo</translation>
     </message>
     <message>
         <source>Block creation options:</source>

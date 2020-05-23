@@ -58,7 +58,7 @@ protected:
     virtual void SetUp() {
         ASSETCHAINS_CC = 1;
         EVAL_TEST = this;
-        
+
         std::vector<uint8_t> fakepk;
         fakepk.resize(33);
         fakepk.begin()[0] = testNum++;
@@ -79,14 +79,14 @@ protected:
 };
 
 
-TEST_F(TestCoinImport, testProcessImportThroughPipeline)
+TEST_F(TestCoinImport, DISABLED_testProcessImportThroughPipeline)
 {
     CValidationState mainstate;
     CTransaction tx(importTx);
 
     // first should work
     acceptTxFail(tx);
-    
+
     // should fail in mempool
     ASSERT_FALSE(acceptTx(tx, mainstate));
     EXPECT_EQ("already in mempool", mainstate.GetRejectReason());
@@ -110,7 +110,7 @@ TEST_F(TestCoinImport, testProcessImportThroughPipeline)
 }
 
 
-TEST_F(TestCoinImport, testImportTombstone)
+TEST_F(TestCoinImport, DISABLED_testImportTombstone)
 {
     CValidationState mainstate;
     // By setting an unspendable output, there will be no addition to UTXO
@@ -188,7 +188,7 @@ TEST_F(TestCoinImport, testInvalidBurnParams)
 }
 
 
-TEST_F(TestCoinImport, testWrongChainId)
+TEST_F(TestCoinImport, DISABLED_testWrongChainId)
 {
     testCcid = 0;
     TestRunCCEval(importTx);
@@ -206,7 +206,7 @@ TEST_F(TestCoinImport, testInvalidBurnAmount)
 }
 
 
-TEST_F(TestCoinImport, testPayoutTooHigh)
+TEST_F(TestCoinImport, DISABLED_testPayoutTooHigh)
 {
     importTx.vout[1].nValue = 101;
     TestRunCCEval(importTx);
@@ -214,7 +214,7 @@ TEST_F(TestCoinImport, testPayoutTooHigh)
 }
 
 
-TEST_F(TestCoinImport, testAmountInOpret)
+TEST_F(TestCoinImport, DISABLED_testAmountInOpret)
 {
     importTx.vout[0].nValue = 1;
     TestRunCCEval(importTx);
@@ -223,7 +223,7 @@ TEST_F(TestCoinImport, testAmountInOpret)
 
 
 
-TEST_F(TestCoinImport, testInvalidPayouts)
+TEST_F(TestCoinImport, DISABLED_testInvalidPayouts)
 {
     importTx.vout[1].nValue = 40;
     importTx.vout.push_back(importTx.vout[0]);
@@ -232,7 +232,7 @@ TEST_F(TestCoinImport, testInvalidPayouts)
 }
 
 
-TEST_F(TestCoinImport, testCouldntLoadMomom)
+TEST_F(TestCoinImport, DISABLED_testCouldntLoadMomom)
 {
     MoMoM.SetNull();
     TestRunCCEval(importTx);
@@ -240,7 +240,7 @@ TEST_F(TestCoinImport, testCouldntLoadMomom)
 }
 
 
-TEST_F(TestCoinImport, testMomomCheckFail)
+TEST_F(TestCoinImport, DISABLED_testMomomCheckFail)
 {
     MoMoM.SetNull();
     MoMoM.begin()[0] = 1;

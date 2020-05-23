@@ -63,9 +63,14 @@ void komodo_currentheight_set(int32_t height)
         sp->CURRENT_HEIGHT = height;
 }
 
+extern struct NSPV_inforesp NSPV_inforesult;
 int32_t komodo_currentheight()
 {
     char symbol[KOMODO_ASSETCHAIN_MAXLEN],dest[KOMODO_ASSETCHAIN_MAXLEN]; struct komodo_state *sp;
+    if ( KOMODO_NSPV_SUPERLITE )
+    {
+        return (NSPV_inforesult.height);
+    }
     if ( (sp= komodo_stateptr(symbol,dest)) != 0 )
         return(sp->CURRENT_HEIGHT);
     else return(0);
@@ -709,12 +714,9 @@ int32_t komodo_voutupdate(bool fJustCheck,int32_t *isratificationp,int32_t notar
                         sp->MoMdepth = MoMdepth;
                     }
                     komodo_stateupdate(height,0,0,0,zero,0,0,0,0,0,0,0,0,0,0,sp->MoM,sp->MoMdepth);
-                    if ( ASSETCHAINS_SYMBOL[0] != 0 )
+                    //if ( ASSETCHAINS_SYMBOL[0] != 0 )
                         LogPrintf("[%s] ht.%d NOTARIZED.%d %s.%s %sTXID.%s lens.(%d %d) MoM.%s %d\n",ASSETCHAINS_SYMBOL,height,sp->NOTARIZED_HEIGHT,ASSETCHAINS_SYMBOL[0]==0?"KMD":ASSETCHAINS_SYMBOL,srchash.ToString().c_str(),ASSETCHAINS_SYMBOL[0]==0?"BTC":"KMD",desttxid.ToString().c_str(),opretlen,len,sp->MoM.ToString().c_str(),sp->MoMdepth);
-                    if ( 0 && RemoveOrphanedBlocks(*notarizedheightp))
-                    {
-                        fprintf(stderr, "Sucessfully removed all known orphaned blocks before height %d\n",*notarizedheightp);
-                    }
+
                     if ( ASSETCHAINS_SYMBOL[0] == 0 )
                     {
                         if ( signedfp == 0 )

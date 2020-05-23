@@ -26,6 +26,7 @@
 #include "chain.h"
 #include "core_io.h"
 #include "crosschain.h"
+#include "consensus/merkle.h"
 
 bool CClib_Dispatch(const CC *cond,Eval *eval,std::vector<uint8_t> paramsNull,const CTransaction &txTo,unsigned int nIn);
 char *CClib_name();
@@ -53,10 +54,10 @@ bool RunCCEval(const CC *cond, const CTransaction &tx, unsigned int nIn)
             eval->state.GetRejectReason().data(),
             tx.vin[nIn].prevout.hash.GetHex().data());
     if (eval->state.IsError()) LogPrintf( "Culprit: %s\n", EncodeHexTx(tx).data());
-    CTransaction tmp; 
+    CTransaction tmp;
     if (mempool.lookup(tx.GetHash(), tmp))
     {
-        // This is to remove a payments airdrop if it gets stuck in the mempool. 
+        // This is to remove a payments airdrop if it gets stuck in the mempool.
         // Miner will mine 1 invalid block, but doesnt stop them mining until a restart.
         // This would almost never happen in normal use.
         std::list<CTransaction> dummy;
@@ -78,7 +79,7 @@ bool Eval::Dispatch(const CC *cond, const CTransaction &txTo, unsigned int nIn)
     uint8_t ecode = cond->code[0];
     if ( ASSETCHAINS_CCDISABLES[ecode] != 0 )
     {
-        // check if a height activation has been set. 
+        // check if a height activation has been set.
         if ( mapHeightEvalActivate[ecode] == 0 || this->GetCurrentHeight() == 0 || mapHeightEvalActivate[ecode] > this->GetCurrentHeight() )
         {
             LogPrintf("%s evalcode.%d %02x\n",txTo.GetHash().GetHex().c_str(),ecode,ecode);
@@ -129,7 +130,7 @@ bool Eval::GetTxUnconfirmed(const uint256 &hash, CTransaction &txOut, uint256 &h
 {
     return(myGetTransaction(hash, txOut,hashBlock));
     /*if (!myGetTransaction(hash, txOut,hashBlock)) {
-        return(GetTransaction(hash, txOut,hashBlock));
+        return(myGetTransaction(hash, txOut,hashBlock));
     } else return(true);*/
 }
 
@@ -256,6 +257,7 @@ uint256 SafeCheckMerkleBranch(uint256 hash, const std::vector<uint256>& vMerkleB
 uint256 GetMerkleRoot(const std::vector<uint256>& vLeaves)
 {
     bool fMutated;
-    std::vector<uint256> vMerkleTree;
-    return BuildMerkleTree(&fMutated, vLeaves, vMerkleTree);
+    /* std::vector<uint256> vMerkleTree;
+    return BuildMerkleTree(&fMutated, vLeaves, vMerkleTree); */
+    return ComputeMerkleRoot(vLeaves, &fMutated);
 }

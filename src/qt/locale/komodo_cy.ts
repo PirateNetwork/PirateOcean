@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Copïo</translation>
+        <translation>&amp;CopÃ¯o</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
@@ -55,7 +55,7 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Cysoni â'r rhwydwaith...</translation>
+        <translation>Cysoni Ã¢'r rhwydwaith...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -478,14 +478,14 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
         <translation>Opsiynau:</translation>
     </message>
     <message>
         <source>Pirate Core</source>
-        <translation>Craidd Pirate</translation>
+        <translation>Craidd Komodo</translation>
     </message>
     <message>
         <source>Information</source>

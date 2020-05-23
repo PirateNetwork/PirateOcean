@@ -129,7 +129,7 @@
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Masukan kata sandi baru ke dompet.&lt;br/&gt;Mohon gunakan kata sandi &lt;b&gt;sepuluh karakter acak atau lebih&lt;/b&gt;, atau &lt;b&gt; delapan atau lebih beberapa kata &lt;/​​b&gt;.</translation>
+        <translation>Masukan kata sandi baru ke dompet.&lt;br/&gt;Mohon gunakan kata sandi &lt;b&gt;sepuluh karakter acak atau lebih&lt;/b&gt;, atau &lt;b&gt; delapan atau lebih beberapa kata &lt;/ââb&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Kirim koin ke alamat Pirate</translation>
+        <translation>Kirim koin ke alamat Komodo</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -1091,7 +1091,7 @@
         <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Pirate ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
-        <source>Available:</source>
+        <source>Transparent:</source>
         <translation>Tersedia:</translation>
     </message>
     <message>
@@ -1794,7 +1794,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
         <translation>Pilihan:</translation>

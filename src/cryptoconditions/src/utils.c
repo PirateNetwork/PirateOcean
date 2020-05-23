@@ -172,7 +172,7 @@ int checkString(const cJSON *value, char *key, char *err) {
 int checkDecodeBase64(const cJSON *value, char *key, char *err, unsigned char **data, size_t *size) {
     if (!checkString(value, key, err))
         return 0;
-    
+
 
     *data = base64_decode(value->valuestring, size);
     if (!*data) {
@@ -212,7 +212,6 @@ void jsonAddBase64(cJSON *params, char *key, unsigned char *bin, size_t size) {
 
 unsigned char *hashFingerprintContents(asn_TYPE_descriptor_t *asnType, void *fp) {
     unsigned char buf[BUF_SIZE];
-    memset(buf,0,sizeof(buf));
     asn_enc_rval_t rc = der_encode_to_buffer(asnType, fp, buf, BUF_SIZE);
     ASN_STRUCT_FREE(*asnType, fp);
 
@@ -247,14 +246,14 @@ uint8_t* cc_hex_decode(const char* hex)
     if (len % 2 == 1) return NULL;
 
     uint8_t* bin = calloc(1, len/2);
-    
+
     for (int i=0; i<len; i++) {
         char c = hex[i];
         if      (c <= 57) c -= 48;
         else if (c <= 70) c -= 55;
         else if (c <= 102) c -= 87;
         if (c < 0 || c > 15) goto ERR;
-        
+
         bin[i/2] += c << (i%2 ? 0 : 4);
     }
     return bin;

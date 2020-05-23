@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation>Crear una nueva dirección</translation>
+        <translation>Crear una nueva direcciÃ³n</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -11,7 +11,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copiar la dirección seleccionada al portapapeles del sistema</translation>
+        <translation>Copiar la direcciÃ³n seleccionada al portapapeles del sistema</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -23,11 +23,11 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Borrar de la lista la dirección seleccionada</translation>
+        <translation>Borrar de la lista la direcciÃ³n seleccionada</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportar a un archivo los datos de esta pestaña</translation>
+        <translation>Exportar a un archivo los datos de esta pestaÃ±a</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -45,19 +45,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Diálogo de contraseña</translation>
+        <translation>DiÃ¡logo de contraseÃ±a</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Introducir contraseña</translation>
+        <translation>Introducir contraseÃ±a</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nueva contraseña</translation>
+        <translation>Nueva contraseÃ±a</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Repita la nueva contraseña</translation>
+        <translation>Repita la nueva contraseÃ±a</translation>
     </message>
     </context>
 <context>
@@ -71,7 +71,7 @@
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Sincronizando con la red…</translation>
+        <translation>Sincronizando con la redâ¦</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -99,7 +99,7 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Salir de la aplicación</translation>
+        <translation>Salir de la aplicaciÃ³n</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -107,7 +107,7 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Mostrar información acerca de Qt</translation>
+        <translation>Mostrar informaciÃ³n acerca de Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -115,7 +115,7 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Cifrar monedero…</translation>
+        <translation>&amp;Cifrar monederoâ¦</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
@@ -123,15 +123,15 @@
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Cambiar la contraseña…</translation>
+        <translation>&amp;Cambiar la contraseÃ±aâ¦</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>$Enviando dirección...</translation>
+        <translation>$Enviando direcciÃ³n...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Recibiendo dirección</translation>
+        <translation>&amp;Recibiendo direcciÃ³n</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -143,23 +143,23 @@
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Enviar monedas a una dirección Pirate</translation>
+        <translation>Enviar monedas a una direcciÃ³n Komodo</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Copia de seguridad del monedero en otra ubicación</translation>
+        <translation>Copia de seguridad del monedero en otra ubicaciÃ³n</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Cambiar la contraseña utilizada para el cifrado del monedero</translation>
+        <translation>Cambiar la contraseÃ±a utilizada para el cifrado del monedero</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>Ventana de &amp;depuración</translation>
+        <translation>Ventana de &amp;depuraciÃ³n</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Abrir la consola de depuración y diagnóstico</translation>
+        <translation>Abrir la consola de depuraciÃ³n y diagnÃ³stico</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -199,7 +199,7 @@
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones Pirate concretas</translation>
+        <translation>Verificar mensajes comprobando que estÃ¡n firmados con direcciones Pirate concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -207,7 +207,7 @@
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Configuración</translation>
+        <translation>&amp;ConfiguraciÃ³n</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -215,7 +215,7 @@
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Barra de pestañas</translation>
+        <translation>Barra de pestaÃ±as</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and Pirate: URIs)</source>
@@ -223,15 +223,15 @@
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Mostrar la lista de direcciones de envío y etiquetas</translation>
+        <translation>Mostrar la lista de direcciones de envÃ­o y etiquetas</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
+        <translation>Muestra la lista de direcciones de recepciÃ³n y etiquetas</translation>
     </message>
     <message>
         <source>Open a Pirate: URI or payment request</source>
-        <translation>Abrir un Pirate: URI o petición de pago</translation>
+        <translation>Abrir un Pirate: URI o peticiÃ³n de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -239,15 +239,15 @@
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 atrás</translation>
+        <translation>%1 atrÃ¡s</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>El último bloque recibido fue generado hace %1.</translation>
+        <translation>El Ãºltimo bloque recibido fue generado hace %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Las transacciones posteriores aún no están visibles.</translation>
+        <translation>Las transacciones posteriores aÃºn no estÃ¡n visibles.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -259,7 +259,7 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>Información</translation>
+        <translation>InformaciÃ³n</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -271,19 +271,19 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Transacción enviada</translation>
+        <translation>TransacciÃ³n enviada</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Transacción entrante</translation>
+        <translation>TransacciÃ³n entrante</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>El monedero está &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;desbloqueado&lt;/b&gt;</translation>
+        <translation>El monedero estÃ¡ &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;desbloqueado&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>El monedero está &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
+        <translation>El monedero estÃ¡ &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -298,7 +298,7 @@
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Cuantía:</translation>
+        <translation>CuantÃ­a:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -306,7 +306,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Después de tasas:</translation>
+        <translation>DespuÃ©s de tasas:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -345,7 +345,7 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Editar Dirección</translation>
+        <translation>Editar DirecciÃ³n</translation>
     </message>
     <message>
         <source>&amp;Label</source>
@@ -357,18 +357,18 @@
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>La dirección asociada con esta entrada de la lista de direcciones. Solo puede ser modificada para direcciones de envío.</translation>
+        <translation>La direcciÃ³n asociada con esta entrada de la lista de direcciones. Solo puede ser modificada para direcciones de envÃ­o.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Dirección</translation>
+        <translation>&amp;DirecciÃ³n</translation>
     </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Se creará un nuevo directorio de datos.</translation>
+        <translation>Se crearÃ¡ un nuevo directorio de datos.</translation>
     </message>
     <message>
         <source>name</source>
@@ -376,7 +376,7 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>El directorio ya existe. Añada %1 si pretende crear aquí un directorio nuevo.</translation>
+        <translation>El directorio ya existe. AÃ±ada %1 si pretende crear aquÃ­ un directorio nuevo.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
@@ -384,18 +384,18 @@
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>No se puede crear un directorio de datos aquí.</translation>
+        <translation>No se puede crear un directorio de datos aquÃ­.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>versión</translation>
+        <translation>versiÃ³n</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Opciones de la línea de órdenes</translation>
+        <translation>Opciones de la lÃ­nea de Ã³rdenes</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -403,7 +403,7 @@
     </message>
     <message>
         <source>command-line options</source>
-        <translation>opciones de la línea de órdenes</translation>
+        <translation>opciones de la lÃ­nea de Ã³rdenes</translation>
     </message>
     </context>
 <context>
@@ -433,7 +433,7 @@
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Hora del último bloque</translation>
+        <translation>Hora del Ãºltimo bloque</translation>
     </message>
     </context>
 <context>
@@ -471,7 +471,7 @@
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>Dirección IP del proxy (ej. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>DirecciÃ³n IP del proxy (ej. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -495,7 +495,7 @@
     </message>
     <message>
         <source>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Pirate en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <translation>Abrir automÃ¡ticamente el puerto del cliente Pirate en el router. Esta opciÃ³n solo funciona si el router admite UPnP y estÃ¡ activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -503,7 +503,7 @@
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Dirección &amp;IP del proxy:</translation>
+        <translation>DirecciÃ³n &amp;IP del proxy:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
@@ -543,11 +543,11 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían monedas.</translation>
+        <translation>Elegir la subdivisiÃ³n predeterminada para mostrar cantidades en la interfaz y cuando se envÃ­an monedas.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Mostrar o no características de control de moneda</translation>
+        <translation>Mostrar o no caracterÃ­sticas de control de moneda</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -579,7 +579,7 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>La dirección proxy indicada es inválida.</translation>
+        <translation>La direcciÃ³n proxy indicada es invÃ¡lida.</translation>
     </message>
 </context>
 <context>
@@ -590,7 +590,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pirate network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Pirate después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <translation>La informaciÃ³n mostrada puede estar desactualizada. Su monedero se sincroniza automÃ¡ticamente con la red Pirate despuÃ©s de que se haya establecido una conexiÃ³n, pero este proceso aÃºn no se ha completado.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -606,7 +606,7 @@
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Saldo recién minado que aún no está disponible.</translation>
+        <translation>Saldo reciÃ©n minado que aÃºn no estÃ¡ disponible.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -656,15 +656,15 @@
     </message>
     <message>
         <source>Client version</source>
-        <translation>Versión del cliente</translation>
+        <translation>VersiÃ³n del cliente</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>Información</translation>
+        <translation>InformaciÃ³n</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation>Ventana de depuración</translation>
+        <translation>Ventana de depuraciÃ³n</translation>
     </message>
     <message>
         <source>General</source>
@@ -684,7 +684,7 @@
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Número de conexiones</translation>
+        <translation>NÃºmero de conexiones</translation>
     </message>
     <message>
         <source>Block chain</source>
@@ -692,11 +692,11 @@
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Número actual de bloques</translation>
+        <translation>NÃºmero actual de bloques</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Hora del último bloque</translation>
+        <translation>Hora del Ãºltimo bloque</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -708,7 +708,7 @@
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Tráfico de Red</translation>
+        <translation>&amp;TrÃ¡fico de Red</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
@@ -728,7 +728,7 @@
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Archivo de registro de depuración</translation>
+        <translation>Archivo de registro de depuraciÃ³n</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -779,7 +779,7 @@
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>R&amp;eutilizar una dirección existente para recibir (no recomendado)</translation>
+        <translation>R&amp;eutilizar una direcciÃ³n existente para recibir (no recomendado)</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -795,7 +795,7 @@
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Muestra la petición seleccionada (También doble clic)</translation>
+        <translation>Muestra la peticiÃ³n seleccionada (TambiÃ©n doble clic)</translation>
     </message>
     <message>
         <source>Show</source>
@@ -803,7 +803,7 @@
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Borrar de la lista las direcciónes actualmente seleccionadas</translation>
+        <translation>Borrar de la lista las direcciÃ³nes actualmente seleccionadas</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -814,7 +814,7 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>Código QR</translation>
+        <translation>CÃ³digo QR</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
@@ -822,7 +822,7 @@
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Copiar &amp;Dirección</translation>
+        <translation>Copiar &amp;DirecciÃ³n</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
@@ -840,7 +840,7 @@
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Características de control de la moneda</translation>
+        <translation>CaracterÃ­sticas de control de la moneda</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -864,7 +864,7 @@
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Cuantía:</translation>
+        <translation>CuantÃ­a:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -872,7 +872,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Después de tasas:</translation>
+        <translation>DespuÃ©s de tasas:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -880,23 +880,23 @@
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Al activarse, si la dirección esta vacía o es inválida, las monedas serán enviadas a una nueva dirección generada.</translation>
+        <translation>Al activarse, si la direcciÃ³n esta vacÃ­a o es invÃ¡lida, las monedas serÃ¡n enviadas a una nueva direcciÃ³n generada.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Dirección propia</translation>
+        <translation>DirecciÃ³n propia</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Comisión de transacción:</translation>
+        <translation>ComisiÃ³n de transacciÃ³n:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Enviar a múltiples destinatarios de una vez</translation>
+        <translation>Enviar a mÃºltiples destinatarios de una vez</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Añadir &amp;destinatario</translation>
+        <translation>AÃ±adir &amp;destinatario</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -912,7 +912,7 @@
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Confirmar el envío</translation>
+        <translation>Confirmar el envÃ­o</translation>
     </message>
     <message>
         <source>S&amp;end</source>
@@ -935,7 +935,7 @@
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Escoger dirección previamente usada</translation>
+        <translation>Escoger direcciÃ³n previamente usada</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
@@ -947,7 +947,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Pegar dirección desde portapapeles</translation>
+        <translation>Pegar direcciÃ³n desde portapapeles</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -955,7 +955,7 @@
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Eliminar esta transacción</translation>
+        <translation>Eliminar esta transacciÃ³n</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -963,7 +963,7 @@
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Introduce una etiqueta para esta dirección para añadirla a la lista de direcciones utilizadas</translation>
+        <translation>Introduce una etiqueta para esta direcciÃ³n para aÃ±adirla a la lista de direcciones utilizadas</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -992,7 +992,7 @@
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Escoger dirección previamente usada</translation>
+        <translation>Escoger direcciÃ³n previamente usada</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1000,7 +1000,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Pegar dirección desde portapapeles</translation>
+        <translation>Pegar direcciÃ³n desde portapapeles</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1008,7 +1008,7 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Introduzca el mensaje que desea firmar aquí</translation>
+        <translation>Introduzca el mensaje que desea firmar aquÃ­</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -1020,7 +1020,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Pirate address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección Pirate</translation>
+        <translation>Firmar el mensaje para demostrar que se posee esta direcciÃ³n Komodo</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1040,7 +1040,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Pirate address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Pirate indicada</translation>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la direcciÃ³n Pirate indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1048,7 +1048,7 @@
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Limpiar todos los campos de la verificación de mensaje</translation>
+        <translation>Limpiar todos los campos de la verificaciÃ³n de mensaje</translation>
     </message>
     </context>
 <context>
@@ -1072,7 +1072,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Esta ventana muestra información detallada sobre la transacción</translation>
+        <translation>Esta ventana muestra informaciÃ³n detallada sobre la transacciÃ³n</translation>
     </message>
     </context>
 <context>
@@ -1094,7 +1094,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
         <translation>Opciones:
@@ -1110,7 +1110,7 @@
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Especifique su propia dirección pública</translation>
+        <translation>Especifique su propia direcciÃ³n pÃºblica</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -1124,15 +1124,15 @@
     </message>
     <message>
         <source>Pirate Core</source>
-        <translation>Núcleo de Pirate</translation>
+        <translation>NÃºcleo de Komodo</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Vincular a la dirección dada y escuchar siempre en ella. Utilice la notación [host]:port para IPv6</translation>
+        <translation>Vincular a la direcciÃ³n dada y escuchar siempre en ella. Utilice la notaciÃ³n [host]:port para IPv6</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Ejecutar comando cuando una transacción del monedero cambia (%s en cmd se remplazará por TxID)</translation>
+        <translation>Ejecutar comando cuando una transacciÃ³n del monedero cambia (%s en cmd se remplazarÃ¡ por TxID)</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -1140,11 +1140,11 @@
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Opciones de creación de bloques:</translation>
+        <translation>Opciones de creaciÃ³n de bloques:</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Corrupción de base de datos de bloques detectada.</translation>
+        <translation>CorrupciÃ³n de base de datos de bloques detectada.</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
@@ -1176,11 +1176,11 @@
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Incorrecto o bloque de génesis no encontrado. Datadir equivocada para la red?</translation>
+        <translation>Incorrecto o bloque de gÃ©nesis no encontrado. Datadir equivocada para la red?</translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
-        <translation>Dirección -onion inválida: '%s'</translation>
+        <translation>DirecciÃ³n -onion invÃ¡lida: '%s'</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
@@ -1188,7 +1188,7 @@
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Establecer tamaño máximo de bloque en bytes (por defecto: %d)</translation>
+        <translation>Establecer tamaÃ±o mÃ¡ximo de bloque en bytes (por defecto: %d)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
@@ -1208,15 +1208,15 @@
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Ejecutar un comando cuando se reciba una alerta importante o cuando veamos un fork demasiado largo (%s en cmd se reemplazará por el mensaje)</translation>
+        <translation>Ejecutar un comando cuando se reciba una alerta importante o cuando veamos un fork demasiado largo (%s en cmd se reemplazarÃ¡ por el mensaje)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Establecer tamaño máximo de las transacciones de alta prioridad/comisión baja en bytes (por defecto: %d)</translation>
+        <translation>Establecer tamaÃ±o mÃ¡ximo de las transacciones de alta prioridad/comisiÃ³n baja en bytes (por defecto: %d)</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Información</translation>
+        <translation>InformaciÃ³n</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -1224,11 +1224,11 @@
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Enviar información de trazas/depuración a la consola en lugar de al archivo debug.log</translation>
+        <translation>Enviar informaciÃ³n de trazas/depuraciÃ³n a la consola en lugar de al archivo debug.log</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Mostrar todas las opciones de depuración (uso: --help -help-debug)</translation>
+        <translation>Mostrar todas las opciones de depuraciÃ³n (uso: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
@@ -1236,15 +1236,15 @@
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Transacción falló</translation>
+        <translation>TransacciÃ³n fallÃ³</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Monto de la transacción muy pequeño</translation>
+        <translation>Monto de la transacciÃ³n muy pequeÃ±o</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transacción demasiado grande</translation>
+        <translation>TransacciÃ³n demasiado grande</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -1257,7 +1257,7 @@
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Contraseña para las conexiones JSON-RPC
+        <translation>ContraseÃ±a para las conexiones JSON-RPC
 </translation>
     </message>
     <message>
@@ -1266,7 +1266,7 @@
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Permitir búsquedas DNS para -addnode, -seednode y -connect</translation>
+        <translation>Permitir bÃºsquedas DNS para -addnode, -seednode y -connect</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
@@ -1274,7 +1274,7 @@
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>Dirección -proxy inválida: '%s'</translation>
+        <translation>DirecciÃ³n -proxy invÃ¡lida: '%s'</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
@@ -1286,11 +1286,11 @@
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Cargando el índice de bloques...</translation>
+        <translation>Cargando el Ã­ndice de bloques...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Añadir un nodo al que conectarse y tratar de mantener la conexión abierta</translation>
+        <translation>AÃ±adir un nodo al que conectarse y tratar de mantener la conexiÃ³n abierta</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
@@ -1302,7 +1302,7 @@
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>No se puede escribir la dirección predeterminada</translation>
+        <translation>No se puede escribir la direcciÃ³n predeterminada</translation>
     </message>
     <message>
         <source>Rescanning...</source>

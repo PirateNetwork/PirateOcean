@@ -52,20 +52,20 @@ EXE      =
 
 .c.obj:
 	$(CC) $(CFLAGS) $(CPPFLAGS) $(FEATURES) /c $*.c
-    
+
 .c.o:
 	$(CC) $(CFLAGS) $(CPPFLAGS) $(FEATURES) -c $*.c
-    
+
 $(PROGRAM): $(HDRS) $(OBJS) fixdocs
 	$(CC) $(LDFLAGS) $(OBJS) $(LIBS) $(OUTFLAG)$@$(EXE)
- 
+
 clean:
 	$(RM) $(OBJS1)
 	$(RM) $(OBJS2)
 	$(RM) core a.exe a.out a.exe.stackdump $(PROGRAM) $(PROGRAM).exe $(PROGRAM).lck
-	$(RM) $(PROGRAM).tar $(PROGRAM).tar.gz $(PROGRAM).zip 
+	$(RM) $(PROGRAM).tar $(PROGRAM).tar.gz $(PROGRAM).zip
 	$(RM) $(DISTNAME)/*
-    
+
 dist.src:
 	$(MAKE) $(MAKEFILE) clean
 	mkdir $(DISTNAME)
@@ -115,13 +115,13 @@ dist.linux:
 	$(MAKE) $(MAKEFILE) $(PROGRAM)
 	tar cf $(DISTNAME)-linux.tar $(PROGRAM) LICENSE.TXT $(DOCS)
 	gzip -f $(DISTNAME)-linux.tar
-	
+
 dist.interix:
 	@$(MAKE) $(MAKEFILE) clean
 	@$(MAKE) $(MAKEFILE) CFLAGS="-ansi" $(PROGRAM)
 	tar cf $(DISTNAME)-interix.tar $(PROGRAM) LICENSE.TXT $(DOCS)
 	gzip -f $(DISTNAME)-interix.tar
-	
+
 dist.cygwin:
 	@$(MAKE) $(MAKEFILE) --no-print-directory clean
 	@$(MAKE) $(MAKEFILE) CPPFLAGS="-I/usr/include/ncurses" --no-print-directory $(PROGRAM)
@@ -136,7 +136,7 @@ dist.mingw32:
 	@$(MAKE) $(MAKEFILE) --no-print-directory CPPFLAGS="-I../pdcurses" LIBS="../pdcurses/pdcurses.a" $(PROGRAM)
 	cmd /c del $(DISTNAME)-mingw32.zip
 	zip $(DISTNAME)-mingw32.zip $(PROGRAM).exe LICENSE.TXT $(DOCS)
-	
+
 dist.djgpp:
 	@$(MAKE) $(MAKEFILE) --no-print-directory clean
 	@$(MAKE) $(MAKEFILE) --no-print-directory LDFLAGS="-L$(DJDIR)/LIB" \

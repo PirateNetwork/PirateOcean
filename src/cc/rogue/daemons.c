@@ -193,12 +193,12 @@ stomach(struct rogue_state *rs,int arg)
 			       "you are starting to get hungry"));
 	}
     }
-    if (hungry_state != orig_hungry) { 
-        player.t_flags &= ~ISRUN; 
-        running = FALSE; 
-        to_death = FALSE; 
-        count = 0; 
-    } 
+    if (hungry_state != orig_hungry) {
+        player.t_flags &= ~ISRUN;
+        running = FALSE;
+        to_death = FALSE;
+        count = 0;
+    }
 }
 
 /*
@@ -210,25 +210,25 @@ come_down(struct rogue_state *rs,int arg)
 {
     register THING *tp;
     register bool seemonst;
-    
+
     if ( rs->logfp != 0 )
         fprintf(rs->logfp,"come_down\n");
     if (!on(player, ISHALU))
         return;
-    
+
     kill_daemon(visuals);
     player.t_flags &= ~ISHALU;
-    
+
     if (on(player, ISBLIND))
         return;
-    
+
     /*
      * undo the things
      */
     for (tp = lvl_obj; tp != NULL; tp = next(tp))
         if (cansee(rs,tp->o_pos.y, tp->o_pos.x))
             mvaddch(tp->o_pos.y, tp->o_pos.x, tp->o_type);
-    
+
     /*
      * undo the monsters
      */
@@ -260,7 +260,7 @@ visuals(struct rogue_state *rs,int arg)
 {
     register THING *tp;
     register bool seemonst;
-    
+
     if (!after || (running && jump))
         return;
     if ( rs->logfp != 0 )
@@ -271,13 +271,13 @@ visuals(struct rogue_state *rs,int arg)
     for (tp = lvl_obj; tp != NULL; tp = next(tp))
         if (cansee(rs,tp->o_pos.y, tp->o_pos.x))
             mvaddch(tp->o_pos.y, tp->o_pos.x, rnd_thing());
-    
+
     /*
      * change the stairs
      */
     if (!seenstairs && cansee(rs,stairs.y, stairs.x))
         mvaddch(stairs.y, stairs.x, rnd_thing());
-    
+
     /*
      * change the monsters
      */
@@ -326,7 +326,7 @@ turn_see(struct rogue_state *rs,bool turn_off)
     bool can_see, add_new;
     if ( rs->logfp != 0 )
         fprintf(rs->logfp,"turn_see\n");
-    
+
     add_new = FALSE;
     for (mp = mlist; mp != NULL; mp = next(mp))
     {

@@ -12,9 +12,8 @@
 #include "key_io.h"
 
 #include <stdint.h>
-#include <QFile>
-#include <QTextStream>
-#include <string>
+
+
 /* Return positive answer if transaction should be shown in list.
  */
 bool TransactionRecord::showTransaction(const CWalletTx &wtx)
@@ -37,9 +36,6 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
     uint256 hash = wtx.GetHash();
     std::map<std::string, std::string> mapValue = wtx.mapValue;
 
-    QString filename = "Data.txt";
-    QFile file(filename);
-
     if (nNet > 0 || wtx.IsCoinBase())
     {
         //
@@ -48,7 +44,6 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
         for(unsigned int i = 0; i < wtx.vout.size(); i++)
         {
             const CTxOut& txout = wtx.vout[i];
-
             isminetype mine = wallet->IsMine(txout);
             if(mine)
             {
@@ -81,15 +76,6 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
     }
     else
     {
-    if (file.open(QIODevice::ReadWrite | QIODevice::Text)) {
-		file.seek(file.size());
-		QTextStream stream(&file);
-		stream << QString::fromStdString(wtx.ToString())<<" notcb"<< endl;
-		file.close();
-     }
-
-
-
         bool involvesWatchAddress = false;
         isminetype fAllFromMe = ISMINE_SPENDABLE;
         for (const CTxIn& txin : wtx.vin)
@@ -222,7 +208,7 @@ void TransactionRecord::updateStatus(const CWalletTx &wtx)
                 status.matures_in = wtx.GetBlocksToMaturity();
 
                 // Check if the block was requested by anyone
-                if (GetAdjustedTime() - wtx.nTimeReceived > 2 * 60 && wtx.GetRequestCount() == 0)
+                if (GetTime() - wtx.nTimeReceived > 2 * 60 && wtx.GetRequestCount() == 0)
                     status.status = TransactionStatus::MaturesWarning;
             }
             else
@@ -241,7 +227,7 @@ void TransactionRecord::updateStatus(const CWalletTx &wtx)
         {
             status.status = TransactionStatus::Conflicted;
         }
-        else if (GetAdjustedTime() - wtx.nTimeReceived > 2 * 60 && wtx.GetRequestCount() == 0)
+        else if (GetTime() - wtx.nTimeReceived > 2 * 60 && wtx.GetRequestCount() == 0)
         {
             status.status = TransactionStatus::Offline;
         }
@@ -271,15 +257,6 @@ bool TransactionRecord::statusUpdateNeeded() const
 
 QString TransactionRecord::getTxID() const
 {
-    QString filename = "Data.txt";
-    QFile file(filename);
-
-    if (file.open(QIODevice::ReadWrite | QIODevice::Text)) {
-		file.seek(file.size());
-		QTextStream stream(&file);
-		stream << QString::fromStdString(hash.ToString())<<" getTxID"<< endl;
-		file.close();
-     }
     return QString::fromStdString(hash.ToString());
 }
 

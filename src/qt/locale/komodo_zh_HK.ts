@@ -1,337 +1,337 @@
-﻿<TS language="zh_HK" version="2.1">
+<TS language="zh_HK" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>按右擊修改位址或標記</translation>
+        <translation>æå³æä¿®æ¹ä½åææ¨è¨</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>新增一個位址</translation>
+        <translation>æ°å¢ä¸åä½å</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>新增 &amp;N</translation>
+        <translation>æ°å¢ &amp;N</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>複製目前選擇的位址到系統剪貼簿</translation>
+        <translation>è¤è£½ç®åé¸æçä½åå°ç³»çµ±åªè²¼ç°¿</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>複製 &amp;C</translation>
+        <translation>è¤è£½ &amp;C</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>關閉 &amp;l</translation>
+        <translation>éé &amp;l</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>把目前選擇的位址從列表中刪除</translation>
+        <translation>æç®åé¸æçä½åå¾åè¡¨ä¸­åªé¤</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>把目前分頁的資料匯出至檔案</translation>
+        <translation>æç®ååé çè³æå¯åºè³æªæ¡</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>匯出 &amp;E</translation>
+        <translation>å¯åº &amp;E</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>刪除 &amp;D</translation>
+        <translation>åªé¤ &amp;D</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要付錢過去的地址</translation>
+        <translation>é¸æè¦ä»é¢éå»çå°å</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要收錢的地址</translation>
+        <translation>é¸æè¦æ¶é¢çå°å</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>選擇 &amp;h</translation>
+        <translation>é¸æ &amp;h</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>付款地址</translation>
+        <translation>ä»æ¬¾å°å</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>收款地址</translation>
+        <translation>æ¶æ¬¾å°å</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>複製地址 &amp;C</translation>
+        <translation>è¤è£½å°å &amp;C</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>複製標記 &amp;L</translation>
+        <translation>è¤è£½æ¨è¨ &amp;L</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>編輯 &amp;E</translation>
+        <translation>ç·¨è¼¯ &amp;E</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>匯出地址清單</translation>
+        <translation>å¯åºå°åæ¸å®</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>逗號分隔檔 (*.csv)</translation>
+        <translation>éèåéæª (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>匯出失敗</translation>
+        <translation>å¯åºå¤±æ</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>儲存地址列表到 %1 時發生錯誤。請再試一次。</translation>
+        <translation>å²å­å°ååè¡¨å° %1 æç¼çé¯èª¤ãè«åè©¦ä¸æ¬¡ã</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>標記</translation>
+        <translation>æ¨è¨</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>地址</translation>
+        <translation>å°å</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(無標記)</translation>
+        <translation>(ç¡æ¨è¨)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>複雜密碼對話方塊</translation>
+        <translation>è¤éå¯ç¢¼å°è©±æ¹å¡</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>請輸入密碼</translation>
+        <translation>è«è¼¸å¥å¯ç¢¼</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>新密碼</translation>
+        <translation>æ°å¯ç¢¼</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>重複新密碼</translation>
+        <translation>éè¤æ°å¯ç¢¼</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>加密錢包</translation>
+        <translation>å å¯é¢å</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>這個動作需要你的錢包密碼來將錢包解鎖。</translation>
+        <translation>éååä½éè¦ä½ çé¢åå¯ç¢¼ä¾å°é¢åè§£éã</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>解鎖錢包</translation>
+        <translation>è§£éé¢å</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>這個動作需要你的錢包密碼來將錢包解密。</translation>
+        <translation>éååä½éè¦ä½ çé¢åå¯ç¢¼ä¾å°é¢åè§£å¯ã</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>解密錢包</translation>
+        <translation>è§£å¯é¢å</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>更改密碼</translation>
+        <translation>æ´æ¹å¯ç¢¼</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>輸入舊密碼和新密碼至錢包。</translation>
+        <translation>è¼¸å¥èå¯ç¢¼åæ°å¯ç¢¼è³é¢åã</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>確認錢包加密</translation>
+        <translation>ç¢ºèªé¢åå å¯</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Pirate 了&lt;/b&gt;！</translation>
+        <translation>è­¦å: å¦æä½ å°é¢åå å¯å¾åå¿è¨å¯ç¢¼ï¼ä½ å°±æ&lt;b&gt;å¤±å»ææ Pirate äº&lt;/b&gt;ï¼</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>你確定要把錢包加密嗎？</translation>
+        <translation>ä½ ç¢ºå®è¦æé¢åå å¯åï¼</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>錢包已加密</translation>
+        <translation>é¢åå·²å å¯</translation>
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>%1 現在要關閉來完成加密程序。請記得將錢包加密不能完全防止你的 coins 經被入侵電腦的惡意程式偷取。</translation>
+        <translation>%1 ç¾å¨è¦ééä¾å®æå å¯ç¨åºãè«è¨å¾å°é¢åå å¯ä¸è½å®å¨é²æ­¢ä½ ç coins ç¶è¢«å¥ä¾µé»è¦çæ¡æç¨å¼å·åã</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>重要: 請改用新產生的加密錢包檔，來取代所以舊錢包檔的備份。為安全計，當你開始使用新的加密錢包檔後，舊錢包檔的備份就不能再使用了。</translation>
+        <translation>éè¦: è«æ¹ç¨æ°ç¢ççå å¯é¢åæªï¼ä¾åä»£æä»¥èé¢åæªçåä»½ãçºå®å¨è¨ï¼ç¶ä½ éå§ä½¿ç¨æ°çå å¯é¢åæªå¾ï¼èé¢åæªçåä»½å°±ä¸è½åä½¿ç¨äºã</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>錢包加密失敗</translation>
+        <translation>é¢åå å¯å¤±æ</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>因內部錯誤導致錢包加密失敗，你的錢包尚未加密。</translation>
+        <translation>å å§é¨é¯èª¤å°è´é¢åå å¯å¤±æï¼ä½ çé¢åå°æªå å¯ã</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>提供的密碼不一致。</translation>
+        <translation>æä¾çå¯ç¢¼ä¸ä¸è´ã</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>錢包解鎖失敗</translation>
+        <translation>é¢åè§£éå¤±æ</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>用來解密錢包的密碼不對。</translation>
+        <translation>ç¨ä¾è§£å¯é¢åçå¯ç¢¼ä¸å°ã</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>錢包解密失敗</translation>
+        <translation>é¢åè§£å¯å¤±æ</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>錢包密碼已成功更改。</translation>
+        <translation>é¢åå¯ç¢¼å·²æåæ´æ¹ã</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>警告: Caps Lock 已啟用！</translation>
+        <translation>è­¦å: Caps Lock å·²åç¨ï¼</translation>
     </message>
 </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP位址/遮罩</translation>
+        <translation>IPä½å/é®ç½©</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>封鎖至</translation>
+        <translation>å°éè³</translation>
     </message>
 </context>
 <context>
     <name>PirateOceanGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>簽署訊息... &amp;m</translation>
+        <translation>ç°½ç½²è¨æ¯... &amp;m</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>與網絡同步中...</translation>
+        <translation>èç¶²çµ¡åæ­¥ä¸­...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>總覽 &amp;O</translation>
+        <translation>ç¸½è¦½ &amp;O</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>節點</translation>
+        <translation>ç¯é»</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>顯示錢包一般總覽</translation>
+        <translation>é¡¯ç¤ºé¢åä¸è¬ç¸½è¦½</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>交易 &amp;T</translation>
+        <translation>äº¤æ &amp;T</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>瀏覽交易紀錄</translation>
+        <translation>çè¦½äº¤æç´é</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>結束 &amp;x</translation>
+        <translation>çµæ &amp;x</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>結束應用程式</translation>
+        <translation>çµææç¨ç¨å¼</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>關於 %1 &amp;A</translation>
+        <translation>éæ¼ %1 &amp;A</translation>
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>顯示 %1 的相關資訊</translation>
+        <translation>é¡¯ç¤º %1 çç¸éè³è¨</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>關於 Qt &amp;Q</translation>
+        <translation>éæ¼ Qt &amp;Q</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>顯示 Qt 相關資訊</translation>
+        <translation>é¡¯ç¤º Qt ç¸éè³è¨</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>選項... &amp;O</translation>
+        <translation>é¸é ... &amp;O</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>修正 %1 的設定選項</translation>
+        <translation>ä¿®æ­£ %1 çè¨­å®é¸é </translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>加密錢包... &amp;E</translation>
+        <translation>å å¯é¢å... &amp;E</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>備份錢包... &amp;B</translation>
+        <translation>åä»½é¢å... &amp;B</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>改變密碼... &amp;C</translation>
+        <translation>æ¹è®å¯ç¢¼... &amp;C</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>付款位址... &amp;S</translation>
+        <translation>ä»æ¬¾ä½å... &amp;S</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>收款位址... &amp;R</translation>
+        <translation>æ¶æ¬¾ä½å... &amp;R</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>開啓網址... &amp;U</translation>
+        <translation>éåç¶²å... &amp;U</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>正在為磁碟區塊重建索引...</translation>
+        <translation>æ­£å¨çºç£ç¢åå¡éå»ºç´¢å¼...</translation>
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>付款至一個 Pirate 位址</translation>
+        <translation>ä»æ¬¾è³ä¸å Pirate ä½å</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>把錢包備份到其它地方</translation>
+        <translation>æé¢ååä»½å°å¶å®å°æ¹</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>改變錢包加密用的密碼</translation>
+        <translation>æ¹è®é¢åå å¯ç¨çå¯ç¢¼</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>除錯視窗 &amp;D</translation>
+        <translation>é¤é¯è¦çª &amp;D</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>開啓除錯和診斷主控台</translation>
+        <translation>éåé¤é¯åè¨ºæ·ä¸»æ§å°</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>驗證訊息... &amp;V</translation>
+        <translation>é©è­è¨æ¯... &amp;V</translation>
     </message>
     <message>
         <source>Pirate</source>
@@ -339,60 +339,60 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>錢包</translation>
+        <translation>é¢å</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>付款 &amp;S</translation>
+        <translation>ä»æ¬¾ &amp;S</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>收款 &amp;R</translation>
+        <translation>æ¶æ¬¾ &amp;R</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>顯示 / 隱藏 &amp;S</translation>
+        <translation>é¡¯ç¤º / é±è &amp;S</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>顯示或隱藏主視窗</translation>
+        <translation>é¡¯ç¤ºæé±èä¸»è¦çª</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>檔案 &amp;F</translation>
+        <translation>æªæ¡ &amp;F</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>設定 &amp;S</translation>
+        <translation>è¨­å® &amp;S</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>說明 &amp;H</translation>
+        <translation>èªªæ &amp;H</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>要求付款 (產生QR碼 Pirate: URIs)</translation>
+        <translation>è¦æ±ä»æ¬¾ (ç¢çQRç¢¼ Pirate: URIs)</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>正在為磁碟區塊建立索引...</translation>
+        <translation>æ­£å¨çºç£ç¢åå¡å»ºç«ç´¢å¼...</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>錯誤</translation>
+        <translation>é¯èª¤</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation>è­¦å</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>資訊</translation>
+        <translation>è³è¨</translation>
     </message>
     <message>
         <source>Date: %1
 </source>
-        <translation>日期: %1
+        <translation>æ¥æ: %1
 </translation>
     </message>
     </context>
@@ -400,7 +400,7 @@
     <name>CoinControlDialog</name>
     <message>
         <source>(no label)</source>
-        <translation>(無標記)</translation>
+        <translation>(ç¡æ¨è¨)</translation>
     </message>
     </context>
 <context>
@@ -416,7 +416,7 @@
     <name>Intro</name>
     <message>
         <source>Error</source>
-        <translation>錯誤</translation>
+        <translation>é¯èª¤</translation>
     </message>
     </context>
 <context>
@@ -441,27 +441,27 @@
     <name>QObject</name>
     <message>
         <source>Enter a Pirate address (e.g. %1)</source>
-        <translation>輸入一個 Pirate 位址 (例如 %1)</translation>
+        <translation>è¼¸å¥ä¸å Pirate ä½å (ä¾å¦ %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
-        <translation>%1 日</translation>
+        <translation>%1 æ¥</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 小時</translation>
+        <translation>%1 å°æ</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 分</translation>
+        <translation>%1 å</translation>
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1 秒</translation>
+        <translation>%1 ç§</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>沒有</translation>
+        <translation>æ²æ</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -469,35 +469,35 @@
     </message>
     <message>
         <source>%1 ms</source>
-        <translation>%1 亳秒</translation>
+        <translation>%1 äº³ç§</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>%n 秒</numerusform></translation>
+        <translation><numerusform>%n ç§</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n 分鐘</numerusform></translation>
+        <translation><numerusform>%n åé</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n 小時</numerusform></translation>
+        <translation><numerusform>%n å°æ</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n 日</numerusform></translation>
+        <translation><numerusform>%n æ¥</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n 星期</numerusform></translation>
+        <translation><numerusform>%n ææ</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 和 %2</translation>
+        <translation>%1 å %2</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n 年</numerusform></translation>
+        <translation><numerusform>%n å¹´</numerusform></translation>
     </message>
     </context>
 <context>
@@ -507,11 +507,11 @@
     <name>QRImageWidget</name>
     <message>
         <source>Save QR Code</source>
-        <translation>儲存 QR 碼</translation>
+        <translation>å²å­ QR ç¢¼</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>PNG 影像(*.png)</translation>
+        <translation>PNG å½±å(*.png)</translation>
     </message>
 </context>
 <context>
@@ -522,27 +522,27 @@
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>資訊 &amp;I</translation>
+        <translation>è³è¨ &amp;I</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation>除錯視窗</translation>
+        <translation>é¤é¯è¦çª</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>一般</translation>
+        <translation>ä¸è¬</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>已接收</translation>
+        <translation>å·²æ¥æ¶</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>已送出</translation>
+        <translation>å·²éåº</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>版本</translation>
+        <translation>çæ¬</translation>
     </message>
     </context>
 <context>
@@ -552,29 +552,29 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>地址</translation>
+        <translation>å°å</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>標記</translation>
+        <translation>æ¨è¨</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Label</source>
-        <translation>標記</translation>
+        <translation>æ¨è¨</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(無標記)</translation>
+        <translation>(ç¡æ¨è¨)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>(no label)</source>
-        <translation>(無標記)</translation>
+        <translation>(ç¡æ¨è¨)</translation>
     </message>
 </context>
 <context>
@@ -599,7 +599,7 @@
     <name>TransactionDesc</name>
     <message>
         <source>Open until %1</source>
-        <translation>開放至 %1</translation>
+        <translation>éæ¾è³ %1</translation>
     </message>
     </context>
 <context>
@@ -609,34 +609,34 @@
     <name>TransactionTableModel</name>
     <message>
         <source>Label</source>
-        <translation>標記</translation>
+        <translation>æ¨è¨</translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>開放至 %1</translation>
+        <translation>éæ¾è³ %1</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(無標記)</translation>
+        <translation>(ç¡æ¨è¨)</translation>
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>逗號分隔檔 (*.csv)</translation>
+        <translation>éèåéæª (*.csv)</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>標記</translation>
+        <translation>æ¨è¨</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>地址</translation>
+        <translation>å°å</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>匯出失敗</translation>
+        <translation>å¯åºå¤±æ</translation>
     </message>
     </context>
 <context>
@@ -652,26 +652,26 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>匯出 &amp;E</translation>
+        <translation>å¯åº &amp;E</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>把目前分頁的資料匯出至檔案</translation>
+        <translation>æç®ååé çè³æå¯åºè³æªæ¡</translation>
     </message>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Information</source>
-        <translation>資訊</translation>
+        <translation>è³è¨</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation>è­¦å</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>錯誤</translation>
+        <translation>é¯èª¤</translation>
     </message>
 </context>
 </TS>

@@ -106,7 +106,7 @@ Thanks to everybody who contributed to the 0.8.2 release!
 APerson241
 Andrew Poelstra
 Calvin Owens
-Chuck LeDuc Díaz
+Chuck LeDuc DÃ­az
 Colin Dean
 David Griffith
 David Serrano

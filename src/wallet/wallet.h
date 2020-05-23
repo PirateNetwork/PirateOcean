@@ -20,6 +20,7 @@
 
 #ifndef BITCOIN_WALLET_WALLET_H
 #define BITCOIN_WALLET_WALLET_H
+
 #include "asyncrpcoperation.h"
 #include "amount.h"
 #include "coins.h"
@@ -95,6 +96,7 @@ extern unsigned int WITNESS_CACHE_SIZE;
 
 //! Size of HD seed in bytes
 static const size_t HD_WALLET_SEED_LENGTH = 32;
+
 //Default Transaction Rentention N-BLOCKS
 static const int DEFAULT_TX_DELETE_INTERVAL = 1000;
 
@@ -106,7 +108,7 @@ static const unsigned int DEFAULT_TX_RETENTION_LASTTX = 200;
 
 //Amount of transactions to delete per run while syncing
 static const int MAX_DELETE_TX_SIZE = 50000;
-
+ 
 class CBlockIndex;
 class CCoinControl;
 class COutput;
@@ -603,8 +605,8 @@ public:
     void SetSaplingNoteData(mapSaplingNoteData_t &noteData);
 
     std::pair<libzcash::SproutNotePlaintext, libzcash::SproutPaymentAddress> DecryptSproutNote(JSOutPoint jsop) const;
-    boost::optional<std::pair<libzcash::SaplingNotePlaintext, libzcash::SaplingPaymentAddress>> DecryptSaplingNote(SaplingOutPoint op) const;
-    boost::optional<std::pair<libzcash::SaplingNotePlaintext, libzcash::SaplingPaymentAddress>> RecoverSaplingNote(SaplingOutPoint op, std::set<uint256>& ovks) const;
+    boost::optional<std::pair< libzcash::SaplingNotePlaintext, libzcash::SaplingPaymentAddress>> DecryptSaplingNote(SaplingOutPoint op) const;
+    boost::optional<std::pair< libzcash::SaplingNotePlaintext, libzcash::SaplingPaymentAddress>> RecoverSaplingNote(SaplingOutPoint op, std::set<uint256>& ovks) const;
 
     //! filter decides which addresses will count towards the debit
     CAmount GetDebit(const isminefilter& filter) const;
@@ -808,7 +810,7 @@ private:
     typedef TxSpendMap<uint256> TxNullifiers;
     TxNullifiers mapTxSproutNullifiers;
     TxNullifiers mapTxSaplingNullifiers;
-
+ 
     std::vector<CTransaction> pendingSaplingConsolidationTxs;
     AsyncRPCOperationId saplingConsolidationOperationId;
 
@@ -828,19 +830,18 @@ public:
     bool fSaplingConsolidationEnabled = false;
     void ClearNoteWitnessCache();
 
- protected:
+protected:
 
     int SproutWitnessMinimumHeight(const uint256& nullifier, int nWitnessHeight, int nMinimumHeight);
     int SaplingWitnessMinimumHeight(const uint256& nullifier, int nWitnessHeight, int nMinimumHeight);
-
-     /**
-      * pindex is the new tip being connected.
-      */
+    /**
+     * pindex is the new tip being connected.
+     */
      int VerifyAndSetInitialWitness(const CBlockIndex* pindex, bool witnessOnly);
      void BuildWitnessCache(const CBlockIndex* pindex, bool witnessOnly);
-     /**
-      * pindex is the old tip being disconnected.
-      */
+    /**
+     * pindex is the old tip being disconnected.
+     */
     void DecrementNoteWitnesses(const CBlockIndex* pindex);
 
     template <typename WalletDB>
@@ -1284,7 +1285,7 @@ public:
     void ChainTip(const CBlockIndex *pindex, const CBlock *pblock, SproutMerkleTree sproutTree, SaplingMerkleTree saplingTree, bool added);
     void RunSaplingConsolidation(int blockHeight);
     void CommitConsolidationTx(const CTransaction& tx);
-    /** Saves witness caches and best block locator to disk. */
+     /** Saves witness caches and best block locator to disk. */
     void SetBestChain(const CBlockLocator& loc);
     std::set<std::pair<libzcash::PaymentAddress, uint256>> GetNullifiersForAddresses(const std::set<libzcash::PaymentAddress> & addresses);
     bool IsNoteSproutChange(const std::set<std::pair<libzcash::PaymentAddress, uint256>> & nullifierSet, const libzcash::PaymentAddress & address, const JSOutPoint & entry);

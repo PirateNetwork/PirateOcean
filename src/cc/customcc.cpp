@@ -1,17 +1,17 @@
 /*
  simple stub custom cc
- 
+
  Just update the functions in this file, then from ~/komodo/src/cc
- 
+
  ../komodo-cli -ac_name=CUSTOM stop
  ./makecustom
  ../komodod -ac_name=CUSTOM -ac_cclib=custom -ac_cc=2 ...
- 
+
  The above will rebuild komodod and get it running again
  */
 
 CScript custom_opret(uint8_t funcid,CPubKey pk)
-{    
+{
     CScript opret; uint8_t evalcode = EVAL_CUSTOM;
     opret << OP_RETURN << E_MARSHAL(ss << evalcode << funcid << pk);
     return(opret);
@@ -62,9 +62,9 @@ UniValue custom_func1(uint64_t txfee,struct CCcontract_info *cp,cJSON *params)
     if ( txfee == 0 )
         txfee = CUSTOM_TXFEE;
     mypk = pubkey2pk(Mypubkey());
-    if ( AddNormalinputs(mtx,mypk,COIN+txfee,64) >= COIN+txfee ) // add utxo to mtx
+    if ( AddNormalinputs2(mtx,COIN+txfee,64) >= COIN+txfee ) // add utxo to mtx
     {
-        // make op_return payload as normal. 
+        // make op_return payload as normal.
         CScript opret = custom_opret('1',mypk);
         std::vector<std::vector<unsigned char>> vData = std::vector<std::vector<unsigned char>>();
         if ( makeCCopret(opret, vData) )
@@ -89,7 +89,7 @@ bool custom_validate(struct CCcontract_info *cp,int32_t height,Eval *eval,const 
         if ( getCCopret(tx.vout[0].scriptPubKey,opret) )
             numvout = 1;
     }
-    else 
+    else
     {
         opret = tx.vout[1].scriptPubKey;
         numvout = 2;

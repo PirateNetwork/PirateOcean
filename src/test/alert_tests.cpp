@@ -165,12 +165,12 @@ void GenerateAlertTests()
     SignAndSerialize(alert, sBuffer);
 
     // More tests go here ...
-    alert.setSubVer.insert(std::string("/OceanChest:0.1.0/"));
-    alert.strStatusBar  = "Alert 1 for OceanChest 0.1.0";
+    alert.setSubVer.insert(std::string("/OceanChest:3.0.0/"));
+    alert.strStatusBar  = "Alert 1 for OceanChest 3.0.0";
     SignAndSerialize(alert, sBuffer);
 
-    alert.setSubVer.insert(std::string("/OceanChest:0.2.0/"));
-    alert.strStatusBar  = "Alert 1 for OceanChest 0.1.0, 0.2.0";
+    alert.setSubVer.insert(std::string("/BlueGlaucus:4.4.0/"));
+    alert.strStatusBar  = "Alert 1 for BlueGlaucus 3.0.0, 4.0.0";
     SignAndSerialize(alert, sBuffer);
 
     alert.setSubVer.clear();
@@ -203,8 +203,8 @@ void GenerateAlertTests()
     SignAndSerialize(alert, sBuffer);
 
     ++alert.nID;
-    alert.strStatusBar  = "Alert 2 for OceanChest 0.1.0";
-    alert.setSubVer.insert(std::string("/OceanChest:0.1.0/"));
+    alert.strStatusBar  = "Alert 2 for BlueGlaucus 4.0.0";
+    alert.setSubVer.insert(std::string("/BlueGlaucus:4.0.0/"));
     SignAndSerialize(alert, sBuffer);
 
     ++alert.nID;
@@ -295,27 +295,27 @@ BOOST_AUTO_TEST_CASE(AlertApplies)
     // Matches:
     BOOST_CHECK(alerts[0].AppliesTo(1, ""));
     BOOST_CHECK(alerts[0].AppliesTo(999001, ""));
-    BOOST_CHECK(alerts[0].AppliesTo(1, "/OceanChest:11.11.11/"));
+    BOOST_CHECK(alerts[0].AppliesTo(1, "/BlueGlaucus:11.11.11/"));
 
-    BOOST_CHECK(alerts[1].AppliesTo(1, "/OceanChest:0.1.0/"));
-    BOOST_CHECK(alerts[1].AppliesTo(999001, "/OceanChest:0.1.0/"));
+    BOOST_CHECK(alerts[1].AppliesTo(1, "/OceanChest:3.0.0/"));
+    BOOST_CHECK(alerts[1].AppliesTo(999001, "/OceanChest:3.0.0/"));
 
-    BOOST_CHECK(alerts[2].AppliesTo(1, "/OceanChest:0.1.0/"));
-    BOOST_CHECK(alerts[2].AppliesTo(1, "/OceanChest:0.2.0/"));
+    BOOST_CHECK(alerts[2].AppliesTo(1, "/OceanChest:3.0.0/"));
+    BOOST_CHECK(alerts[2].AppliesTo(1, "/BlueGlaucus:4.0.0/"));
 
     // Don't match:
     BOOST_CHECK(!alerts[0].AppliesTo(-1, ""));
     BOOST_CHECK(!alerts[0].AppliesTo(999002, ""));
 
     BOOST_CHECK(!alerts[1].AppliesTo(1, ""));
-    BOOST_CHECK(!alerts[1].AppliesTo(1, "OceanChest:0.1.0"));
-    BOOST_CHECK(!alerts[1].AppliesTo(1, "/OceanChest:0.1.0"));
-    BOOST_CHECK(!alerts[1].AppliesTo(1, "OceanChest:0.1.0/"));
-    BOOST_CHECK(!alerts[1].AppliesTo(-1, "/OceanChest:0.1.0/"));
-    BOOST_CHECK(!alerts[1].AppliesTo(999002, "/OceanChest:0.1.0/"));
-    BOOST_CHECK(!alerts[1].AppliesTo(1, "/OceanChest:0.2.0/"));
+    BOOST_CHECK(!alerts[1].AppliesTo(1, "OceanChest:3.0.0"));
+    BOOST_CHECK(!alerts[1].AppliesTo(1, "/OceanChest:3.0.0"));
+    BOOST_CHECK(!alerts[1].AppliesTo(1, "OceanChest:3.0.0/"));
+    BOOST_CHECK(!alerts[1].AppliesTo(-1, "/OceanChest:3.0.0/"));
+    BOOST_CHECK(!alerts[1].AppliesTo(999002, "/OceanChest:3.0.0/"));
+    BOOST_CHECK(!alerts[1].AppliesTo(1, "/BlueGlaucus:4.0.0/"));
 
-    BOOST_CHECK(!alerts[2].AppliesTo(1, "/OceanChest:0.3.0/"));
+    BOOST_CHECK(!alerts[2].AppliesTo(1, "/BlueGlaucus:0.3.0/"));
 
     SetMockTime(0);
 }

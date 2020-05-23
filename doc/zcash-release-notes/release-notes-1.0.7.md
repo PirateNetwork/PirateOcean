@@ -74,7 +74,7 @@ Jonas Schnelli (23):
       extend bip32 tests to cover Base58c/CExtKey decode
       don't try to decode invalid encoded ext keys
 
-Jorge Timón (1):
+Jorge TimÃ³n (1):
       Consensus: Refactor: Separate Consensus::CheckTxInputs and GetSpendHeight in CheckInputs
 
 Leo Arias (1):

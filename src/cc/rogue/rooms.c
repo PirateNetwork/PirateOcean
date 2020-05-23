@@ -37,7 +37,7 @@ do_rooms(struct rogue_state *rs)
     static coord top;
     coord bsze;				/* maximum room size */
     coord mp;
-    
+
     bsze.x = NUMCOLS / 3;
     bsze.y = NUMLINES / 3;
     /*
@@ -119,7 +119,7 @@ do_rooms(struct rogue_state *rs)
         if (rnd(2) == 0 && (!amulet || level >= max_level))
         {
             THING *gold;
-            
+
             gold = new_item();
             gold->o_goldval = rp->r_goldval = GOLDCALC;
             find_floor(rs,rp, &rp->r_gold, FALSE, FALSE);

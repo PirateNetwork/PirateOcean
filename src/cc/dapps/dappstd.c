@@ -51,16 +51,16 @@ int gettimeofday(struct timeval * tp, struct timezone * tzp)
 {
     // Note: some broken versions only have 8 trailing zero's, the correct epoch has 9 trailing zero's
     static const uint64_t EPOCH = ((uint64_t)116444736000000000ULL);
-    
+
     SYSTEMTIME  system_time;
     FILETIME    file_time;
     uint64_t    time;
-    
+
     GetSystemTime(&system_time);
     SystemTimeToFileTime(&system_time, &file_time);
     time = ((uint64_t)file_time.dwLowDateTime);
     time += ((uint64_t)file_time.dwHighDateTime) << 32;
-    
+
     tp->tv_sec = (long)((time - EPOCH) / 10000000L);
     tp->tv_usec = (long)(system_time.wMilliseconds * 1000);
     return 0;
@@ -444,7 +444,7 @@ try_again:
     curl_handle = curl_easy_init();
     init_string(&s);
     headers = curl_slist_append(0,"Expect:");
-    
+
     curl_easy_setopt(curl_handle,CURLOPT_USERAGENT,"mozilla/4.0");//"Mozilla/4.0 (compatible; )");
     curl_easy_setopt(curl_handle,CURLOPT_HTTPHEADER,	headers);
     curl_easy_setopt(curl_handle,CURLOPT_URL,		url);
@@ -473,7 +473,7 @@ try_again:
                 bracket0 = (char *)"[";
                 bracket1 = (char *)"]";
             }
-            
+
             databuf = (char *)malloc(256 + strlen(command) + strlen(params));
             sprintf(databuf,"{\"id\":\"jl777\",\"method\":\"%s\",\"params\":%s%s%s}",command,bracket0,params,bracket1);
             //printf("url.(%s) userpass.(%s) databuf.(%s)\n",url,userpass,databuf);
@@ -513,7 +513,7 @@ try_again:
         free(s.ptr);
         sleep((1<<numretries));
         goto try_again;
-        
+
     }
     else
     {
@@ -718,9 +718,9 @@ int32_t games_sendrawtransaction(char *rawtx)
             }
             free_json(retjson);
         }
-        
+
         /* log sendrawtx result in file */
-        
+
         /*
          FILE *debug_file;
          debug_file = fopen("tx_debug.log", "a");
@@ -728,7 +728,7 @@ int32_t games_sendrawtransaction(char *rawtx)
          fflush(debug_file);
          fclose(debug_file);
          */
-        
+
         free(retstr);
     }
     free(params);
@@ -1057,7 +1057,7 @@ int main(int argc, char **argv)
     printf("    Built with VC++ %d (%ld) %s\n\n", msver(), _MSC_FULL_VER, arch);
 #endif
 #endif
-    
+
     for (i=j=0; argv[0][i]!=0&&j<sizeof(ASSETCHAINS_SYMBOL); i++)
     {
         c = argv[0][i];
@@ -1069,7 +1069,7 @@ int main(int argc, char **argv)
         ASSETCHAINS_SYMBOL[j++] = toupper(c);
     }
     ASSETCHAINS_SYMBOL[j++] = 0;
-    
+
 #ifdef _WIN32
 #ifdef _MSC_VER
     char cmpa[64],cmpb[64];
@@ -1081,14 +1081,14 @@ int main(int argc, char **argv)
 #endif
 #endif
     strcpy(ASSETCHAINS_SYMBOL,CHAINNAME);
-    
+
     GAMES_PORT = komodo_userpass(userpass,ASSETCHAINS_SYMBOL);
     if ( IPADDRESS[0] == 0 )
         strcpy(IPADDRESS,"127.0.0.1");
     printf("ASSETCHAINS_SYMBOL.(%s) port.%u (%s) IPADDRESS.%s \n",ASSETCHAINS_SYMBOL,GAMES_PORT,USERPASS,IPADDRESS); sleep(1);
     if ( argc == 2 && (fp=fopen(argv[1],"rb")) == 0 )
     {
-        
+
 #ifdef _WIN32
 #ifdef _MSC_VER
         seed = _strtoui64(argv[1], NULL, 10);
@@ -1100,7 +1100,7 @@ int main(int argc, char **argv)
 #else
         seed = atol(argv[1]); // non-windows
 #endif // _WIN32
-        
+
         fprintf(stderr,"replay %llu\n",(long long)seed);
         return(games_replay(seed,3));
     }

@@ -30,26 +30,27 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     QWidget(0, f), curAlignment(0)
 {
     // set reference point, paddings
-    int paddingRight = 190;
-    int paddingTop = 50;
-    int titleVersionVSpace = 47; // version down from title
-    int titleCopyrightVSpace = 60; // down from title
+    int paddingRight            = 190;
+    int paddingTop              = 50;
+    int titleVersionVSpace      = 47; // version down from title
+    int titleCopyrightVSpace    = 60; // down from title
 
-    float fontFactor = 1.0;
-    float devicePixelRatio = 0.75;
+    float fontFactor            = 1.0;
+    float devicePixelRatio      = 0.75;
 #if QT_VERSION > 0x050100
-    devicePixelRatio = ((QGuiApplication *)QCoreApplication::instance())->devicePixelRatio();
+    devicePixelRatio = ((QGuiApplication*)QCoreApplication::instance())->devicePixelRatio();
 #endif
 
     // define text to place
     QString titleText       = tr(PACKAGE_NAME);
     QString versionText     = QString("Version %1").arg(QString::fromStdString(FormatFullVersion()));
-    QString copyrightText   = QString::fromUtf8(CopyrightHolders(strprintf("\xc2\xA9 %u-%u ", 2019, COPYRIGHT_YEAR)).c_str());
+    QString copyrightText   = QString::fromUtf8(CopyrightHolders(strprintf("\xc2\xA9 %u-%u ", 2018, COPYRIGHT_YEAR)).c_str());
     QString titleAddText    = networkStyle->getTitleAddText();
+
     QString font            = QApplication::font().toString();
 
     // create a bitmap according to device pixelratio
-    QSize splashSize(510 * devicePixelRatio, 260 * devicePixelRatio);
+    QSize splashSize(480*devicePixelRatio,260*devicePixelRatio);
     pixmap = QPixmap(splashSize);
 
 #if QT_VERSION > 0x050100
@@ -67,10 +68,10 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     QRect rGradient(QPoint(0, 0), splashSize);
     pixPaint.fillRect(rGradient, gradient);
 
-    // draw the Pirate icon, expected size of PNG: 1024x1024
+    // draw the pirate.icon, expected size of PNG: 1024x1024
     QRect rectIcon(QPoint(20,40), QSize(160,160));
 
-    const QSize requiredSize(1024, 1024);
+    const QSize requiredSize(1024,1024);
     QPixmap icon(networkStyle->getAppIcon().pixmap(requiredSize));
 
     pixPaint.drawPixmap(rectIcon, icon);

@@ -10,7 +10,7 @@
 #include "ui_addressbookpage.h"
 
 #include "addresstablemodel.h"
-#include "komodooceangui.h"
+#include "pirateoceangui.h"
 #include "csvmodelwriter.h"
 #include "editaddressdialog.h"
 #include "guiutil.h"

@@ -1,7 +1,7 @@
 // This file contains source that originates from:
 // http://code.google.com/p/leveldbwin/source/browse/trunk/win32_impl_src/env_win32.h
 // http://code.google.com/p/leveldbwin/source/browse/trunk/win32_impl_src/port_win32.cc
-// Those files dont' have any explict license headers but the 
+// Those files dont' have any explict license headers but the
 // project (http://code.google.com/p/leveldbwin/) lists the 'New BSD License'
 // as the license.
 #if defined(LEVELDB_PLATFORM_WINDOWS)
@@ -136,7 +136,7 @@ private:
 
 class Win32Logger : public Logger
 {
-public: 
+public:
     friend class Win32Env;
     virtual ~Win32Logger();
     virtual void Logv(const char* format, va_list ap);
@@ -246,19 +246,19 @@ std::wstring& ModifyPath(std::wstring& path)
 std::string GetLastErrSz()
 {
     LPWSTR lpMsgBuf;
-    FormatMessageW( 
-        FORMAT_MESSAGE_ALLOCATE_BUFFER | 
-        FORMAT_MESSAGE_FROM_SYSTEM | 
+    FormatMessageW(
+        FORMAT_MESSAGE_ALLOCATE_BUFFER |
+        FORMAT_MESSAGE_FROM_SYSTEM |
         FORMAT_MESSAGE_IGNORE_INSERTS,
         NULL,
         GetLastError(),
         0, // Default language
         (LPWSTR) &lpMsgBuf,
         0,
-        NULL 
+        NULL
         );
     std::string Err;
-	ToNarrowPath(lpMsgBuf, Err); 
+	ToNarrowPath(lpMsgBuf, Err);
     LocalFree( lpMsgBuf );
     return Err;
 }
@@ -266,16 +266,16 @@ std::string GetLastErrSz()
 std::wstring GetLastErrSzW()
 {
     LPVOID lpMsgBuf;
-    FormatMessageW( 
-        FORMAT_MESSAGE_ALLOCATE_BUFFER | 
-        FORMAT_MESSAGE_FROM_SYSTEM | 
+    FormatMessageW(
+        FORMAT_MESSAGE_ALLOCATE_BUFFER |
+        FORMAT_MESSAGE_FROM_SYSTEM |
         FORMAT_MESSAGE_IGNORE_INSERTS,
         NULL,
         GetLastError(),
         0, // Default language
         (LPWSTR) &lpMsgBuf,
         0,
-        NULL 
+        NULL
         );
     std::wstring Err = (LPCWSTR)lpMsgBuf;
     LocalFree(lpMsgBuf);
@@ -621,7 +621,7 @@ Status Win32Env::GetChildren(const std::string& dir, std::vector<std::string>* r
         BOOL hasNext = TRUE;
         std::string child;
         while(hasNext){
-            ToNarrowPath(wfd.cFileName, child); 
+            ToNarrowPath(wfd.cFileName, child);
             if(child != ".." && child != ".")  {
                 result->push_back(child);
             }
@@ -688,7 +688,7 @@ Status Win32Env::RenameFile( const std::string& src, const std::string& target )
                 sRet = Status::IOError(src, "Could not rename file.");
 			else if(!::MoveFileW(wsrc_path.c_str(),
                                  wtarget_path.c_str() ) )
-                sRet = Status::IOError(src, "Could not rename file.");    
+                sRet = Status::IOError(src, "Could not rename file.");
         }
     }
     return sRet;

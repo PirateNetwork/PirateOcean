@@ -234,7 +234,7 @@ restore(struct rogue_state *rs,char *file, char **envp)
     STAT sbuf2;
     if ( rs->guiflag == 0 )
         return(0);
-    
+
     if (strcmp(file, "-r") == 0)
 	file = file_name;
 
@@ -355,7 +355,7 @@ encwrite(char *start, size_t size, FILE *outf)
         {
             if (putc(*start++ ^ *e1 ^ *e2 ^ fb, outf) == EOF)
                 break;
-            
+
             temp = *e1++;
             fb = fb + ((char) (temp * *e2++));
             if (*e1 == '\0')
@@ -418,7 +418,7 @@ rd_score(SCORE *top_ten)
 	if (scoreboard == NULL)
 		return;
 
-	rewind(scoreboard); 
+	rewind(scoreboard);
 
 	for(i = 0; i < numscores; i++)
     {
@@ -430,7 +430,7 @@ rd_score(SCORE *top_ten)
             &top_ten[i].sc_level, &top_ten[i].sc_time);
     }
 
-	rewind(scoreboard); 
+	rewind(scoreboard);
 }
 
 /*
@@ -458,5 +458,5 @@ wr_score(SCORE *top_ten)
           encwrite(scoreline,100,scoreboard);
     }
 
-	rewind(scoreboard); 
+	rewind(scoreboard);
 }

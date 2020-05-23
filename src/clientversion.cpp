@@ -32,10 +32,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both pirate and pirate-core, to make it harder for attackers to
+ * for both komodod and pirate-core, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME = GetArg("-clientname", "OceanChest");
+const std::string CLIENT_NAME = GetArg("-clientname", "BlueGlaucus");
 
 /**
  * Client version number
@@ -67,8 +67,8 @@ const std::string CLIENT_NAME = GetArg("-clientname", "OceanChest");
 //! git will put "#define GIT_ARCHIVE 1" on the next line inside archives.
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
-#define GIT_COMMIT_ID "7bfdeb2"
-#define GIT_COMMIT_DATE "Sun Feb 24 11:14:11 2019 -0600"
+#define GIT_COMMIT_ID "b840e2a"
+#define GIT_COMMIT_DATE "Thur Dec 19 18:06:00 2019 -0600"
 #endif
 
 #define RENDER_ALPHA_STRING(num) "-alpha" DO_STRINGIZE(num)

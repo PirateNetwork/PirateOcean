@@ -62,7 +62,7 @@ void rogueiterate(struct rogue_state *rs)
     memcpy(passages,origpassages,sizeof(passages));
     memcpy(monsters,origmonsters,sizeof(monsters));
     memcpy(things,origthings,sizeof(things));
-    
+
     memcpy(ring_info,origring_info,sizeof(ring_info));
     memcpy(pot_info,origpot_info,sizeof(pot_info));
     memcpy(arm_info,origarm_info,sizeof(arm_info));
@@ -78,7 +78,7 @@ void rogueiterate(struct rogue_state *rs)
     init_stones();			/* Set up stone settings of rings */
     init_materials();		/* Set up materials of wands */
     setup();
-    
+
     /*
      * The screen must be at least NUMLINES x NUMCOLS
      */
@@ -89,7 +89,7 @@ void rogueiterate(struct rogue_state *rs)
         my_exit(1);
     }
     //fprintf(stderr,"LINES %d, COLS %d\n",LINES,COLS);
-    
+
     // Set up windows
     if ( hw == NULL )
     {
@@ -225,12 +225,12 @@ int32_t rogue_replay2(uint8_t *newdata,uint64_t seed,char *keystrokes,int32_t nu
 	fflush(stdout);
 	if (fgets(prbuf, 10, stdin) != 0);
 	*/
-	
+
     if ( 0 )
     {
         fprintf(stderr,"elapsed %d seconds\n",(uint32_t)time(NULL) - starttime);
         sleep(2);
-        
+
         starttime = (uint32_t)time(NULL);
         for (i=0; i<10000; i++)
         {
@@ -397,12 +397,12 @@ int rogue(int argc, char **argv, char **envp)
         seed = rs->seed;
     else seed = 777;
     //dnum = (int)seed;
-    
+
     open_score();
 
-	/* 
-     * Drop setuid/setgid after opening the scoreboard file. 
-     */ 
+	/*
+     * Drop setuid/setgid after opening the scoreboard file.
+     */
 
     md_normaluser();
 
@@ -490,7 +490,7 @@ rnd(int range)
  * roll:
  *	Roll a number of dice
  */
-int 
+int
 roll(int number, int sides)
 {
     int dtotal = 0;
@@ -679,7 +679,7 @@ void quit(int sig)
     if ( rs->guiflag != 0 )
     {
         NOOP(sig);
-        
+
         /*
          * Reset the signal in case we got here via an interrupt
          */
@@ -738,7 +738,7 @@ shell(struct rogue_state *rs)
          * Fork and do a shell
          */
         md_shellescape();
-        
+
         printf("\n[Press return to continue]");
         fflush(stdout);
         noecho();

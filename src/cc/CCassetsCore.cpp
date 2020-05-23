@@ -17,9 +17,9 @@
 
 /*
  The SetAssetFillamounts() and ValidateAssetRemainder() work in tandem to calculate the vouts for a fill and to validate the vouts, respectively.
- 
+
  This pair of functions are critical to make sure the trading is correct and is the trickiest part of the assets contract.
- 
+
  //vin.0: normal input
  //vin.1: unspendable.(vout.0 from buyoffer) buyTx.vout[0]
  //vin.2+: valid CC output satisfies buyoffer (*tx.vin[2])->nValue
@@ -30,11 +30,11 @@
  //vout.4: normal output for change (if any)
  //vout.n-1: opreturn [EVAL_ASSETS] ['B'] [assetid] [remaining asset required] [origpubkey]
     ValidateAssetRemainder(remaining_price,tx.vout[0].nValue,nValue,tx.vout[1].nValue,tx.vout[2].nValue,totalunits);
- 
+
  Yes, this is quite confusing...
- 
+
  In ValidateAssetRemainder the naming convention is nValue is the coin/asset with the offer on the books and "units" is what it is being paid in. The high level check is to make sure we didnt lose any coins or assets, the harder to validate is the actual price paid as the "orderbook" is in terms of the combined nValue for the combined totalunits.
- 
+
  We assume that the effective unit cost in the orderbook is valid and that that amount was paid and also that any remainder will be close enough in effective unit cost to not matter. At the edge cases, this will probably be not true and maybe some orders wont be practically fillable when reduced to fractional state. However, the original pubkey that created the offer can always reclaim it.
 */
 
@@ -241,7 +241,7 @@ CScript EncodeAssetCreateOpRet(uint8_t funcid,std::vector<uint8_t> origpubkey,st
 
 vscript_t EncodeAssetOpRet(uint8_t assetFuncId, uint256 assetid2, int64_t price, std::vector<uint8_t> origpubkey)
 {
-    vscript_t vopret; 
+    vscript_t vopret;
 	uint8_t evalcode = EVAL_ASSETS;
 
     switch ( assetFuncId )
@@ -361,18 +361,18 @@ bool SetAssetOrigpubkey(std::vector<uint8_t> &origpubkey,int64_t &price,const CT
 
     if ( tx.vout.size() > 0 && DecodeAssetTokenOpRet(tx.vout[tx.vout.size()-1].scriptPubKey, evalCode, assetid, assetid2, price, origpubkey) != 0 )
         return(true);
-    else 
+    else
 		return(false);
 }
 
 // Calculate seller/buyer's dest cc address from ask/bid tx funcid
 bool GetAssetorigaddrs(struct CCcontract_info *cp, char *origCCaddr, char *origNormalAddr, const CTransaction& vintx)
 {
-    uint256 assetid, assetid2; 
-    int64_t price,nValue=0; 
-    int32_t n; 
-    uint8_t vintxFuncId; 
-	std::vector<uint8_t> origpubkey; 
+    uint256 assetid, assetid2;
+    int64_t price,nValue=0;
+    int32_t n;
+    uint8_t vintxFuncId;
+	std::vector<uint8_t> origpubkey;
 	CScript script;
 	uint8_t evalCode;
 
@@ -385,7 +385,7 @@ bool GetAssetorigaddrs(struct CCcontract_info *cp, char *origCCaddr, char *origN
     cpTokens = CCinit(&tokensC, EVAL_TOKENS);
 
 	if (vintxFuncId == 's' || vintxFuncId == 'S') {
-		// bGetCCaddr = GetCCaddress(cpTokens, origCCaddr, pubkey2pk(origpubkey));  
+		// bGetCCaddr = GetCCaddress(cpTokens, origCCaddr, pubkey2pk(origpubkey));
         cpTokens->additionalTokensEvalcode2 = cp->additionalTokensEvalcode2;  // add non-fungible if present
         bGetCCaddr = GetTokensCCaddress(cpTokens, origCCaddr, pubkey2pk(origpubkey));  // tokens to single-eval token or token+nonfungible
 	}
@@ -399,7 +399,7 @@ bool GetAssetorigaddrs(struct CCcontract_info *cp, char *origCCaddr, char *origN
 	}
     if( bGetCCaddr && Getscriptaddress(origNormalAddr, CScript() << origpubkey << OP_CHECKSIG))
         return(true);
-    else 
+    else
 		return(false);
 }
 
@@ -437,16 +437,16 @@ int64_t AssetValidateCCvin(struct CCcontract_info *cp,Eval* eval,char *origCCadd
     }
     // check source cc unspendable cc address:
 	// if fillSell or cancelSell --> should spend tokens from dual-eval token-assets unspendable addr
-    else if( (funcid == 'S' || funcid == 'x') && 
-		(Getscriptaddress(destaddr, vinTx.vout[tx.vin[vini].prevout.n].scriptPubKey) == 0 || 
-		!GetTokensCCaddress(cp, unspendableAddr, GetUnspendable(cp, NULL)) || 
+    else if( (funcid == 'S' || funcid == 'x') &&
+		(Getscriptaddress(destaddr, vinTx.vout[tx.vin[vini].prevout.n].scriptPubKey) == 0 ||
+		!GetTokensCCaddress(cp, unspendableAddr, GetUnspendable(cp, NULL)) ||
 		strcmp(destaddr, unspendableAddr) != 0))
     {
         LogPrintf("AssetValidateCCvin() cc addr %s is not dual token-evalcode=0x%02x asset unspendable addr %s\n", destaddr, (int)cp->evalcode, unspendableAddr);
         return eval->Invalid("invalid vin assets CCaddr");
     }
 	// if fillBuy or cancelBuy --> should spend coins from asset unspendable addr
-	else if ((funcid == 'B' || funcid == 'o') && 
+	else if ((funcid == 'B' || funcid == 'o') &&
 		(Getscriptaddress(destaddr, vinTx.vout[tx.vin[vini].prevout.n].scriptPubKey) == 0 ||
 		!GetCCaddress(cp, unspendableAddr, GetUnspendable(cp, NULL)) ||
 		strcmp(destaddr, unspendableAddr) != 0))
@@ -458,11 +458,11 @@ int64_t AssetValidateCCvin(struct CCcontract_info *cp,Eval* eval,char *origCCadd
     //else if ( vinTx.vout[0].nValue < 10000 )
     //    return eval->Invalid("invalid dust for buyvin");
     // get user dest cc and normal addresses:
-    else if( GetAssetorigaddrs(cp, origCCaddr, origaddr, vinTx) == 0 )  
+    else if( GetAssetorigaddrs(cp, origCCaddr, origaddr, vinTx) == 0 )
         return eval->Invalid("couldnt get origaddr for buyvin");
 
     //LogPrintf("AssetValidateCCvin() got %.8f to origaddr.(%s)\n", (double)vinTx.vout[tx.vin[vini].prevout.n].nValue/COIN,origaddr);
-    
+
     if ( vinTx.vout[0].nValue == 0 )
         return eval->Invalid("null value CCvin");
     return(vinTx.vout[0].nValue);
@@ -476,7 +476,7 @@ int64_t AssetValidateBuyvin(struct CCcontract_info *cp,Eval* eval,int64_t &tmppr
 
 	// validate locked coins on Assets vin[1]
     if ( (nValue= AssetValidateCCvin(cp, eval, CCaddr, origaddr, tx, 1, vinTx)) == 0 )
-        return(0);  
+        return(0);
     else if ( vinTx.vout[0].scriptPubKey.IsPayToCryptoCondition() == 0 )
         return eval->Invalid("invalid normal vout0 for buyvin");
     else if ((funcid = DecodeAssetTokenOpRet(vinTx.vout[vinTx.vout.size() - 1].scriptPubKey, evalCode, assetid, assetid2, tmpprice, tmporigpubkey)) == 'b' &&
@@ -504,7 +504,7 @@ int64_t AssetValidateSellvin(struct CCcontract_info *cp,Eval* eval,int64_t &tmpp
         return(0);
     if ( (assetoshis= IsAssetvout(cp, tmpprice, tmporigpubkey, vinTx, 0, assetid)) == 0 )
         return eval->Invalid("invalid missing CC vout0 for sellvin");
-    else 
+    else
 		return(assetoshis);
 }
 
@@ -531,7 +531,7 @@ bool ValidateAssetOpret(CTransaction tx, int32_t v, uint256 assetid, int64_t &pr
 			return(true);
 		}
 	}
-	else if (funcid == 't')  // TODO: check if this new block does not influence IsAssetVout 
+	else if (funcid == 't')  // TODO: check if this new block does not influence IsAssetVout
 	{
 		//std::cerr  << "ValidateAssetOpret() assetid=" << assetid.GetHex() << " assetIdOpret=" << assetidOpret.GetHex() << " txid=" << tx.GetHash().GetHex() << std::endl;
 		if (assetid != zeroid && assetid == assetidOpret) {
@@ -559,7 +559,7 @@ bool ValidateAssetOpret(CTransaction tx, int32_t v, uint256 assetid, int64_t &pr
 
 	//std::cerr  << "ValidateAssetOpret() return false funcid=" << (char)funcid << " assetid=" << assetid.GetHex() << " assetIdOpret=" << assetidOpret.GetHex() << " txid=" << tx.GetHash().GetHex() << std::endl;
 	return false;
-}  
+}
 
 // Checks if the vout is a really Asset CC vout
 int64_t IsAssetvout(struct CCcontract_info *cp, int64_t &price, std::vector<uint8_t> &origpubkey, const CTransaction& tx, int32_t v, uint256 refassetid)
@@ -588,7 +588,7 @@ int64_t IsAssetvout(struct CCcontract_info *cp, int64_t &price, std::vector<uint
 	}
 	//LogPrintf("IsAssetvout() normal output v.%d %.8f\n",v,(double)tx.vout[v].nValue/COIN);
 	return(0);
-} 
+}
 
 // sets cc inputs vs cc outputs and ensures they are equal:
 bool AssetCalcAmounts(struct CCcontract_info *cpAssets, int64_t &inputs, int64_t &outputs, Eval* eval, const CTransaction &tx, uint256 assetid)
@@ -614,7 +614,7 @@ bool AssetCalcAmounts(struct CCcontract_info *cpAssets, int64_t &inputs, int64_t
 				return (!eval) ? false : eval->Invalid("always should find vin tx, but didnt");
 			}
 			else {
-				// validate vouts of vintx  
+				// validate vouts of vintx
 				//std::cerr << indentStr << "AssetExactAmounts() check vin i=" << i << " nValue=" << vinTx.vout[tx.vin[i].prevout.n].nValue << std::endl;
 				//assetoshis = IsAssetvout(cpAssets, tmpprice, tmporigpubkey, vinTx, tx.vin[i].prevout.n, assetid);
 				std::vector<uint8_t> vopretExtra;
@@ -631,7 +631,7 @@ bool AssetCalcAmounts(struct CCcontract_info *cpAssets, int64_t &inputs, int64_t
 		}
 	}
 
-	for (int32_t i = 0; i < numvouts-1; i++) 
+	for (int32_t i = 0; i < numvouts-1; i++)
 	{
 		assetoshis = IsAssetvout(cpAssets, tmpprice, tmporigpubkey, tx, i, assetid);
 		if (assetoshis != 0)
@@ -643,7 +643,7 @@ bool AssetCalcAmounts(struct CCcontract_info *cpAssets, int64_t &inputs, int64_t
 
 	//std::cerr << "AssetCalcAmounts() inputs=" << inputs << " outputs=" << outputs << " for txid=" << tx.GetHash().GetHex() << std::endl;
 
-	/*	we do not verify inputs == outputs here, 
+	/*	we do not verify inputs == outputs here,
 		it's now done in Tokens  */
 	return(true);
 }

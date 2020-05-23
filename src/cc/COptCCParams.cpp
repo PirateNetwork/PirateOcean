@@ -1,14 +1,14 @@
 /*Descriptson and examples of COptCCParams class found in:
-    script/standard.h/cpp 
+    script/standard.h/cpp
     class COptCCParams
-    
-structure of data in vData payload attached to end of CCvout: 
-    param 
-    OP_1 
+
+structure of data in vData payload attached to end of CCvout:
+    param
+    OP_1
     param
     OP_2 ... etc until OP_16
-    OP_PUSHDATA4 is the last OP code to tell things its at the end. 
-    
+    OP_PUSHDATA4 is the last OP code to tell things its at the end.
+
     taken from standard.cpp line 22: COptCCParams::COptCCParams(std::vector<unsigned char> &vch)
 
 EXAMPLE taken from Verus how to create scriptPubKey from COptCCParams class:
@@ -22,14 +22,14 @@ bool MakeGuardedOutput(CAmount value, CPubKey &dest, CTransaction &stakeTx, CTxO
 
     CPubKey ccAddress = CPubKey(ParseHex(cp->CChexstr));
 
-    // return an output that is bound to the stake transaction and can be spent by presenting either a signed condition by the original 
+    // return an output that is bound to the stake transaction and can be spent by presenting either a signed condition by the original
     // destination address or a properly signed stake transaction of the same utxo on a fork
     vout = MakeCC1of2vout(EVAL_STAKEGUARD, value, dest, ccAddress);
 
     std::vector<CPubKey> vPubKeys = std::vector<CPubKey>();
     vPubKeys.push_back(dest);
     vPubKeys.push_back(ccAddress);
-        
+
     std::vector<std::vector<unsigned char>> vData = std::vector<std::vector<unsigned char>>();
 
     CVerusHashWriter hw = CVerusHashWriter(SER_GETHASH, PROTOCOL_VERSION);
@@ -38,7 +38,7 @@ bool MakeGuardedOutput(CAmount value, CPubKey &dest, CTransaction &stakeTx, CTxO
     hw << stakeTx.vin[0].prevout.n;
 
     uint256 utxo = hw.GetHash();
-    vData.push_back(std::vector<unsigned char>(utxo.begin(), utxo.end())); // Can we use any data here to construct vector? 
+    vData.push_back(std::vector<unsigned char>(utxo.begin(), utxo.end())); // Can we use any data here to construct vector?
 
     CStakeParams p;
     if (GetStakeParams(stakeTx, p))
@@ -105,7 +105,7 @@ bool ValidateMatchingStake(const CTransaction &ccTx, uint32_t voutNum, const CTr
                         // if block height is equal and we are at the else, prevHash must have been equal
                         else if (p.blkHeight == height)
                         {
-                            return true;                            
+                            return true;
                         }
                     }
                 }

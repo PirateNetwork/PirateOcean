@@ -4,7 +4,7 @@
 
 #include "walletframe.h"
 
-#include "komodooceangui.h"
+#include "pirateoceangui.h"
 #include "walletview.h"
 
 #include <cassert>
@@ -13,7 +13,7 @@
 #include <QHBoxLayout>
 #include <QLabel>
 
-WalletFrame::WalletFrame(const PlatformStyle *_platformStyle, KomodoOceanGUI *_gui) :
+WalletFrame::WalletFrame(const PlatformStyle *_platformStyle, PirateOceanGUI *_gui) :
     QFrame(_gui),
     gui(_gui),
     platformStyle(_platformStyle)
@@ -45,7 +45,7 @@ bool WalletFrame::addWallet(const QString& name, WalletModel *walletModel)
         return false;
 
     WalletView *walletView = new WalletView(platformStyle, this);
-    walletView->setKomodoOceanGUI(gui);
+    walletView->setPirateOceanGUI(gui);
     walletView->setClientModel(clientModel);
     walletView->setWalletModel(walletModel);
     walletView->showOutOfSyncWarning(bOutOfSync);

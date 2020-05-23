@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 mydir="$PWD"
 
-rm -f pirate-qt-linux
-make clean
-zcutil/build.sh -j8
-cp src/qt/komodo-qt "$mydir"/pirate-qt-linux
+zcutil/build.sh ${1}
+cp src/qt/komodo-qt "$mydir"/pirate-qt
 rm src/qt/komodo-qt
 
-./pirate-qt-linux
+#./pirate-qt

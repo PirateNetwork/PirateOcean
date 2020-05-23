@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Desni klik za uređivanje adresa i oznaka</translation>
+        <translation>Desni klik za ureÄivanje adresa i oznaka</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopiraj trenutno odabranu adresu u međuspremnik</translation>
+        <translation>Kopiraj trenutno odabranu adresu u meÄuspremnik</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -39,15 +39,15 @@
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>Iz&amp;briši</translation>
+        <translation>Iz&amp;briÅ¡i</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Odaberi adresu na koju šalješ novac</translation>
+        <translation>Odaberi adresu na koju Å¡aljeÅ¡ novac</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Odaberi adresu na koju primaš novac</translation>
+        <translation>Odaberi adresu na koju primaÅ¡ novac</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -55,7 +55,7 @@
     </message>
     <message>
         <source>These are your Pirate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su vaše Pirate adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <translation>Ovo su vaÅ¡e Pirate adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -63,7 +63,7 @@
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Izvoz neuspješan</translation>
+        <translation>Izvoz neuspjeÅ¡an</translation>
     </message>
     </context>
 <context>
@@ -95,11 +95,11 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>P&amp;otpišite poruku...</translation>
+        <translation>P&amp;otpiÅ¡ite poruku...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Usklađivanje s mrežom ...</translation>
+        <translation>UsklaÄivanje s mreÅ¾om ...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -107,11 +107,11 @@
     </message>
     <message>
         <source>Node</source>
-        <translation>Čvor</translation>
+        <translation>Ävor</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Prikaži opći pregled novčanika</translation>
+        <translation>PrikaÅ¾i opÄi pregled novÄanika</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -119,7 +119,7 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Pretraži povijest transakcija</translation>
+        <translation>PretraÅ¾i povijest transakcija</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -131,15 +131,15 @@
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>&amp;Više o %1</translation>
+        <translation>&amp;ViÅ¡e o %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Više o &amp;Qt</translation>
+        <translation>ViÅ¡e o &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Prikaži informacije o Qt</translation>
+        <translation>PrikaÅ¾i informacije o Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -147,11 +147,11 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Ši&amp;friraj novčanik...</translation>
+        <translation>Å i&amp;friraj novÄanik...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Spremi &amp;kopiju novčanika...</translation>
+        <translation>Spremi &amp;kopiju novÄanika...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -179,11 +179,11 @@
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Napravite sigurnosnu kopiju novčanika na drugoj lokaciji</translation>
+        <translation>Napravite sigurnosnu kopiju novÄanika na drugoj lokaciji</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Promijenite lozinku za šifriranje novčanika</translation>
+        <translation>Promijenite lozinku za Å¡ifriranje novÄanika</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -203,11 +203,11 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Novčanik</translation>
+        <translation>NovÄanik</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Pošalji</translation>
+        <translation>&amp;PoÅ¡alji</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -215,19 +215,19 @@
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>Po&amp;kaži / Sakrij</translation>
+        <translation>Po&amp;kaÅ¾i / Sakrij</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Prikaži ili sakrij glavni prozor</translation>
+        <translation>PrikaÅ¾i ili sakrij glavni prozor</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Šifriranje privatnih ključeva koji u novčaniku</translation>
+        <translation>Å ifriranje privatnih kljuÄeva koji u novÄaniku</translation>
     </message>
     <message>
         <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>Poruku potpišemo s Pirate adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <translation>Poruku potpiÅ¡emo s Pirate adresom, kako bi dokazali vlasniÅ¡tvo nad tom adresom</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
@@ -243,7 +243,7 @@
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Pomoć</translation>
+        <translation>&amp;PomoÄ</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
@@ -251,15 +251,15 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>Zatraži uplatu (stvara QR kod i Pirate: URI adresu)</translation>
+        <translation>ZatraÅ¾i uplatu (stvara QR kod i Pirate: URI adresu)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Prikaži popis korištenih adresa i oznaka za slanje novca</translation>
+        <translation>PrikaÅ¾i popis koriÅ¡tenih adresa i oznaka za slanje novca</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Prikaži popis korištenih adresa i oznaka za primanje novca</translation>
+        <translation>PrikaÅ¾i popis koriÅ¡tenih adresa i oznaka za primanje novca</translation>
     </message>
     <message>
         <source>Open a Pirate: URI or payment request</source>
@@ -271,11 +271,11 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Pirate network</source>
-        <translation><numerusform>%n aktivna veza na Pirate mrežu</numerusform><numerusform>%n aktivnih veza na Pirate mrežu</numerusform><numerusform>%n aktivnih veza na Pirate mrežu</numerusform></translation>
+        <translation><numerusform>%n aktivna veza na Pirate mreÅ¾u</numerusform><numerusform>%n aktivnih veza na Komodo mreÅ¾u</numerusform><numerusform>%n aktivnih veza na Komodo mreÅ¾u</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Obrađen %n blok povijesti transakcije.</numerusform><numerusform>Obrađeno %n bloka povijesti transakcije.</numerusform><numerusform>Obrađeno %n blokova povijesti transakcije.</numerusform></translation>
+        <translation><numerusform>ObraÄen %n blok povijesti transakcije.</numerusform><numerusform>ObraÄeno %n bloka povijesti transakcije.</numerusform><numerusform>ObraÄeno %n blokova povijesti transakcije.</numerusform></translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
@@ -283,11 +283,11 @@
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transakcije izvršene za tim blokom nisu još prikazane.</translation>
+        <translation>Transakcije izvrÅ¡ene za tim blokom nisu joÅ¡ prikazane.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Greška</translation>
+        <translation>GreÅ¡ka</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -299,11 +299,11 @@
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Ažurno</translation>
+        <translation>AÅ¾urno</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Ažuriranje...</translation>
+        <translation>AÅ¾uriranje...</translation>
     </message>
     <message>
         <source>Date: %1
@@ -345,11 +345,11 @@
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Novčanik je &lt;b&gt;šifriran&lt;/b&gt; i trenutno &lt;b&gt;otključan&lt;/b&gt;</translation>
+        <translation>NovÄanik je &lt;b&gt;Å¡ifriran&lt;/b&gt; i trenutno &lt;b&gt;otkljuÄan&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Novčanik je &lt;b&gt;šifriran&lt;/b&gt; i trenutno &lt;b&gt;zaključan&lt;/b&gt;</translation>
+        <translation>NovÄanik je &lt;b&gt;Å¡ifriran&lt;/b&gt; i trenutno &lt;b&gt;zakljuÄan&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Količina:</translation>
+        <translation>KoliÄina:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -380,11 +380,11 @@
     </message>
     <message>
         <source>Change:</source>
-        <translation>Vraćeno:</translation>
+        <translation>VraÄeno:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>Izaberi sve/ništa</translation>
+        <translation>Izaberi sve/niÅ¡ta</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -408,7 +408,7 @@
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Potvrđeno</translation>
+        <translation>PotvrÄeno</translation>
     </message>
     </context>
 <context>
@@ -427,7 +427,7 @@
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Pirate adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
+        <translation>Komodo adresa. Izmjene adrese su moguÄe samo za adrese za slanje.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -438,7 +438,7 @@
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Stvoren će biti novi direktorij za podatke.</translation>
+        <translation>Stvoren Äe biti novi direktorij za podatke.</translation>
     </message>
     <message>
         <source>name</source>
@@ -446,7 +446,7 @@
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Nije moguće stvoriti direktorij za podatke na tom mjestu.</translation>
+        <translation>Nije moguÄe stvoriti direktorij za podatke na tom mjestu.</translation>
     </message>
 </context>
 <context>
@@ -476,11 +476,11 @@
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Dobrodošli</translation>
+        <translation>DobrodoÅ¡li</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Greška</translation>
+        <translation>GreÅ¡ka</translation>
     </message>
     </context>
 <context>
@@ -502,7 +502,7 @@
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Otvori zahtjev za plaćanje iz URI adrese ili datoteke</translation>
+        <translation>Otvori zahtjev za plaÄanje iz URI adrese ili datoteke</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -510,7 +510,7 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Izaberi datoteku zahtjeva za plaćanje</translation>
+        <translation>Izaberi datoteku zahtjeva za plaÄanje</translation>
     </message>
     </context>
 <context>
@@ -525,7 +525,7 @@
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Veličina predmemorije baze podataka</translation>
+        <translation>VeliÄina predmemorije baze podataka</translation>
     </message>
     <message>
         <source>MB</source>
@@ -545,11 +545,11 @@
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimizirati aplikaciju umjesto zatvoriti, kada se zatvori prozor. Kada je ova opcija omogućena, aplikacija će biti zatvorena tek nakon odabira naredbe Izlaz u izborniku.</translation>
+        <translation>Minimizirati aplikaciju umjesto zatvoriti, kada se zatvori prozor. Kada je ova opcija omoguÄena, aplikacija Äe biti zatvorena tek nakon odabira naredbe Izlaz u izborniku.</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Nastavi sve postavke programa na početne vrijednosti.</translation>
+        <translation>Nastavi sve postavke programa na poÄetne vrijednosti.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -557,23 +557,23 @@
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Mreža</translation>
+        <translation>&amp;MreÅ¾a</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>&amp;Novčanik</translation>
+        <translation>&amp;NovÄanik</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Trošenje nepotvrđenih vraćenih iznosa</translation>
+        <translation>&amp;TroÅ¡enje nepotvrÄenih vraÄenih iznosa</translation>
     </message>
     <message>
         <source>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port Pirate klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <translation>Automatski otvori port Pirate klijenta na ruteru. To radi samo ako ruter podrÅ¾ava UPnP i ako je omoguÄen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Mapiraj port koristeći &amp;UPnP</translation>
+        <translation>Mapiraj port koristeÄi &amp;UPnP</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -593,7 +593,7 @@
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Prikaži samo ikonu u sistemskoj traci nakon minimiziranja prozora</translation>
+        <translation>PrikaÅ¾i samo ikonu u sistemskoj traci nakon minimiziranja prozora</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
@@ -609,7 +609,7 @@
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Jezi&amp;k sučelja:</translation>
+        <translation>Jezi&amp;k suÄelja:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -617,7 +617,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio Piratea koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite Å¾eljeni najmanji dio Piratea koji Äe biti prikazan u suÄelju i koji Äe se koristiti za plaÄanje.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -633,7 +633,7 @@
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Priložena proxy adresa je nevažeća.</translation>
+        <translation>PriloÅ¾ena proxy adresa je nevaÅ¾eÄa.</translation>
     </message>
 </context>
 <context>
@@ -644,7 +644,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pirate network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Pirate mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
+        <translation>Prikazani podatci mogu biti zastarjeli. VaÅ¡ novÄanik se automatski sinkronizira s Pirate mreÅ¾om kada je veza uspostavljena, ali taj proces joÅ¡ nije zavrÅ¡en.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -698,7 +698,7 @@
     </message>
     <message>
         <source>Network</source>
-        <translation>Mreža</translation>
+        <translation>MreÅ¾a</translation>
     </message>
     <message>
         <source>Name</source>
@@ -750,7 +750,7 @@
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Mrežni promet</translation>
+        <translation>&amp;MreÅ¾ni promet</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -758,11 +758,11 @@
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Očisti konzolu</translation>
+        <translation>OÄisti konzolu</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Koristite tipke gore i dolje za izbor već korištenih naredbi. &lt;b&gt;Ctrl-L&lt;/b&gt; kako bi očistili ekran i povijest naredbi.</translation>
+        <translation>Koristite tipke gore i dolje za izbor veÄ koriÅ¡tenih naredbi. &lt;b&gt;Ctrl-L&lt;/b&gt; kako bi oÄistili ekran i povijest naredbi.</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -785,22 +785,22 @@
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Obriši sva polja</translation>
+        <translation>ObriÅ¡i sva polja</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Zatraži plaćanje</translation>
+        <translation>&amp;ZatraÅ¾i plaÄanje</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Pokaži</translation>
+        <translation>PokaÅ¾i</translation>
     </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR kôd</translation>
+        <translation>QR kÃ´d</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
@@ -830,7 +830,7 @@
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Količina:</translation>
+        <translation>KoliÄina:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -846,7 +846,7 @@
     </message>
     <message>
         <source>Change:</source>
-        <translation>Vraćeno:</translation>
+        <translation>VraÄeno:</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -854,7 +854,7 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Pošalji novce većem broju primatelja u jednoj transakciji</translation>
+        <translation>PoÅ¡alji novce veÄem broju primatelja u jednoj transakciji</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
@@ -862,7 +862,7 @@
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Obriši sva polja</translation>
+        <translation>ObriÅ¡i sva polja</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -870,7 +870,7 @@
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Obriši &amp;sve</translation>
+        <translation>ObriÅ¡i &amp;sve</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -882,7 +882,7 @@
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;Pošalji</translation>
+        <translation>&amp;PoÅ¡alji</translation>
     </message>
     </context>
 <context>
@@ -893,7 +893,7 @@
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>&amp;Primatelj plaćanja:</translation>
+        <translation>&amp;Primatelj plaÄanja:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -905,7 +905,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Zalijepi adresu iz međuspremnika</translation>
+        <translation>Zalijepi adresu iz meÄuspremnika</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -917,7 +917,7 @@
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Primatelj plaćanja:</translation>
+        <translation>Primatelj plaÄanja:</translation>
     </message>
     </context>
 <context>
@@ -930,7 +930,7 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Potpišite poruku</translation>
+        <translation>&amp;PotpiÅ¡ite poruku</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -938,7 +938,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Zalijepi adresu iz međuspremnika</translation>
+        <translation>Zalijepi adresu iz meÄuspremnika</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -946,7 +946,7 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Upišite poruku koju želite potpisati ovdje</translation>
+        <translation>UpiÅ¡ite poruku koju Å¾elite potpisati ovdje</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -954,11 +954,11 @@
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>&amp;Potpišite poruku</translation>
+        <translation>&amp;PotpiÅ¡ite poruku</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Obriši &amp;sve</translation>
+        <translation>ObriÅ¡i &amp;sve</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
@@ -996,7 +996,7 @@
     <name>TransactionView</name>
     <message>
         <source>Exporting Failed</source>
-        <translation>Izvoz neuspješan</translation>
+        <translation>Izvoz neuspjeÅ¡an</translation>
     </message>
     </context>
 <context>
@@ -1012,7 +1012,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
         <translation>Postavke:</translation>
@@ -1031,7 +1031,7 @@
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Izvršavaj u pozadini kao uslužnik i prihvaćaj komande</translation>
+        <translation>IzvrÅ¡avaj u pozadini kao usluÅ¾nik i prihvaÄaj komande</translation>
     </message>
     <message>
         <source>Pirate Core</source>
@@ -1043,7 +1043,7 @@
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Pogreška: Nema dovoljno prostora na disku!</translation>
+        <translation>PogreÅ¡ka: Nema dovoljno prostora na disku!</translation>
     </message>
     <message>
         <source>Information</source>
@@ -1051,11 +1051,11 @@
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Šalji trace/debug informacije na konzolu umjesto u debug.log datoteku</translation>
+        <translation>Å alji trace/debug informacije na konzolu umjesto u debug.log datoteku</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Korisničko ime za JSON-RPC veze</translation>
+        <translation>KorisniÄko ime za JSON-RPC veze</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -1067,7 +1067,7 @@
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Izvršite naredbu kada se najbolji blok promjeni (%s u cmd je zamjenjen sa block hash)</translation>
+        <translation>IzvrÅ¡ite naredbu kada se najbolji blok promjeni (%s u cmd je zamjenjen sa block hash)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
@@ -1075,7 +1075,7 @@
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Učitavanje adresa...</translation>
+        <translation>UÄitavanje adresa...</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
@@ -1087,35 +1087,35 @@
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Učitavanje indeksa blokova...</translation>
+        <translation>UÄitavanje indeksa blokova...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Doda čvor s kojim se želite povezati i nastoji održati vezu otvorenu</translation>
+        <translation>Doda Ävor s kojim se Å¾elite povezati i nastoji odrÅ¾ati vezu otvorenu</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Učitavanje novčanika...</translation>
+        <translation>UÄitavanje novÄanika...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Nije moguće novčanik vratiti na prijašnju verziju.</translation>
+        <translation>Nije moguÄe novÄanik vratiti na prijaÅ¡nju verziju.</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Nije moguće upisati zadanu adresu.</translation>
+        <translation>Nije moguÄe upisati zadanu adresu.</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Ponovno pretraživanje...</translation>
+        <translation>Ponovno pretraÅ¾ivanje...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Učitavanje gotovo</translation>
+        <translation>UÄitavanje gotovo</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Greška</translation>
+        <translation>GreÅ¡ka</translation>
     </message>
 </context>
 </TS>

@@ -25,7 +25,6 @@
 #include "netbase.h"
 #include "protocol.h"
 #include "sync.h"
-#include "timedata.h"
 #include "util.h"
 #include "version.h"
 #include "deprecation.h"
@@ -36,7 +35,7 @@
 
 using namespace std;
 
-UniValue getconnectioncount(const UniValue& params, bool fHelp)
+UniValue getconnectioncount(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() != 0)
         throw runtime_error(
@@ -54,7 +53,7 @@ UniValue getconnectioncount(const UniValue& params, bool fHelp)
     return (int)vNodes.size();
 }
 
-UniValue ping(const UniValue& params, bool fHelp)
+UniValue ping(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() != 0)
         throw runtime_error(
@@ -77,7 +76,7 @@ UniValue ping(const UniValue& params, bool fHelp)
     return NullUniValue;
 }
 
-UniValue getpeerinfo(const UniValue& params, bool fHelp)
+UniValue getpeerinfo(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() != 0)
         throw runtime_error(
@@ -95,11 +94,11 @@ UniValue getpeerinfo(const UniValue& params, bool fHelp)
             "    \"bytessent\": n,            (numeric) The total bytes sent\n"
             "    \"bytesrecv\": n,            (numeric) The total bytes received\n"
             "    \"conntime\": ttt,           (numeric) The connection time in seconds since epoch (Jan 1 1970 GMT)\n"
-            "    \"timeoffset\": ttt,         (numeric) The time offset in seconds\n"
+            "  \"timeoffset\": xxxxx,         (numeric) the time offset (deprecated; always 0)\n"
             "    \"pingtime\": n,             (numeric) ping time\n"
             "    \"pingwait\": n,             (numeric) ping wait\n"
             "    \"version\": v,              (numeric) The peer version, such as 170002\n"
-            "    \"subver\": \"/OceanChest:x.y.z[-v]/\",  (string) The string version\n"
+            "    \"subver\": \"/BlueGlaucus:x.y.z[-v]/\",  (string) The string version\n"
             "    \"inbound\": true|false,     (boolean) Inbound (true) or Outbound (false)\n"
             "    \"startingheight\": n,       (numeric) The starting height (block) of the peer\n"
             "    \"banscore\": n,             (numeric) The ban score\n"
@@ -138,7 +137,7 @@ UniValue getpeerinfo(const UniValue& params, bool fHelp)
         obj.push_back(Pair("bytessent", stats.nSendBytes));
         obj.push_back(Pair("bytesrecv", stats.nRecvBytes));
         obj.push_back(Pair("conntime", stats.nTimeConnected));
-        obj.push_back(Pair("timeoffset", stats.nTimeOffset));
+        obj.push_back(Pair("timeoffset",    0));
         obj.push_back(Pair("pingtime", stats.dPingTime));
         if (stats.dPingWait > 0.0)
             obj.push_back(Pair("pingwait", stats.dPingWait));
@@ -216,7 +215,7 @@ int32_t komodo_longestchain()
     return(KOMODO_LONGESTCHAIN);
 }
 
-UniValue addnode(const UniValue& params, bool fHelp)
+UniValue addnode(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     string strCommand;
     if (params.size() == 2)
@@ -266,7 +265,7 @@ UniValue addnode(const UniValue& params, bool fHelp)
     return NullUniValue;
 }
 
-UniValue disconnectnode(const UniValue& params, bool fHelp)
+UniValue disconnectnode(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
@@ -288,7 +287,7 @@ UniValue disconnectnode(const UniValue& params, bool fHelp)
     return NullUniValue;
 }
 
-UniValue getaddednodeinfo(const UniValue& params, bool fHelp)
+UniValue getaddednodeinfo(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
@@ -404,7 +403,7 @@ UniValue getaddednodeinfo(const UniValue& params, bool fHelp)
     return ret;
 }
 
-UniValue getnettotals(const UniValue& params, bool fHelp)
+UniValue getnettotals(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() > 0)
         throw runtime_error(
@@ -450,7 +449,7 @@ static UniValue GetNetworksInfo()
     return networks;
 }
 
-UniValue getdeprecationinfo(const UniValue& params, bool fHelp)
+UniValue getdeprecationinfo(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     const CChainParams& chainparams = Params();
     if (fHelp || params.size() != 0 || chainparams.NetworkIDString() != "main")
@@ -460,7 +459,7 @@ UniValue getdeprecationinfo(const UniValue& params, bool fHelp)
             "\nResult:\n"
             "{\n"
             "  \"version\": xxxxx,                      (numeric) the server version\n"
-            "  \"subversion\": \"/OceanChest:x.y.z[-v]/\",     (string) the server subversion string\n"
+            "  \"subversion\": \"/BlueGlaucus:x.y.z[-v]/\",     (string) the server subversion string\n"
             "  \"deprecationheight\": xxxxx,            (numeric) the block height at which this version will deprecate and shut down\n"
             "}\n"
             "\nExamples:\n"
@@ -477,7 +476,7 @@ UniValue getdeprecationinfo(const UniValue& params, bool fHelp)
     return obj;
 }
 
-UniValue getnetworkinfo(const UniValue& params, bool fHelp)
+UniValue getnetworkinfo(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() != 0)
         throw runtime_error(
@@ -486,7 +485,7 @@ UniValue getnetworkinfo(const UniValue& params, bool fHelp)
             "\nResult:\n"
             "{\n"
             "  \"version\": xxxxx,                      (numeric) the server version\n"
-            "  \"subversion\": \"/OceanChest:x.y.z[-v]/\",     (string) the server subversion string\n"
+            "  \"subversion\": \"/BlueGlaucus:x.y.z[-v]/\",     (string) the server subversion string\n"
             "  \"protocolversion\": xxxxx,              (numeric) the protocol version\n"
             "  \"localservices\": \"xxxxxxxxxxxxxxxx\", (string) the services we offer to the network\n"
             "  \"timeoffset\": xxxxx,                   (numeric) the time offset\n"
@@ -523,7 +522,7 @@ UniValue getnetworkinfo(const UniValue& params, bool fHelp)
     obj.push_back(Pair("subversion",    strSubVersion));
     obj.push_back(Pair("protocolversion",PROTOCOL_VERSION));
     obj.push_back(Pair("localservices",       strprintf("%016x", nLocalServices)));
-    obj.push_back(Pair("timeoffset",    GetTimeOffset()));
+    obj.push_back(Pair("timeoffset",    0));
     obj.push_back(Pair("connections",   (int)vNodes.size()));
     obj.push_back(Pair("networks",      GetNetworksInfo()));
     obj.push_back(Pair("relayfee",      ValueFromAmount(::minRelayTxFee.GetFeePerK())));
@@ -544,7 +543,7 @@ UniValue getnetworkinfo(const UniValue& params, bool fHelp)
     return obj;
 }
 
-UniValue setban(const UniValue& params, bool fHelp)
+UniValue setban(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     string strCommand;
     if (params.size() >= 2)
@@ -608,7 +607,7 @@ UniValue setban(const UniValue& params, bool fHelp)
     return NullUniValue;
 }
 
-UniValue listbanned(const UniValue& params, bool fHelp)
+UniValue listbanned(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() != 0)
         throw runtime_error(
@@ -637,7 +636,7 @@ UniValue listbanned(const UniValue& params, bool fHelp)
     return bannedAddresses;
 }
 
-UniValue clearbanned(const UniValue& params, bool fHelp)
+UniValue clearbanned(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() != 0)
         throw runtime_error(

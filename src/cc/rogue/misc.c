@@ -82,7 +82,7 @@ look(struct rogue_state *rs,bool wakeup)
 	    if (pch != DOOR && ch != DOOR)
 		if ((pfl & F_PASS) != (*fp & F_PASS))
 		    continue;
-	    if (((*fp & F_PASS) || ch == DOOR) && 
+	    if (((*fp & F_PASS) || ch == DOOR) &&
 		 ((pfl & F_PASS) || pch == DOOR))
 	    {
 		if (hero.x != x && hero.y != y &&
@@ -350,7 +350,7 @@ chg_str(int amt)
 {
     //auto jl777: strange compiler error
     uint32_t comp;
-    
+
     if (amt == 0)
         return;
     //add_str(&pstats.s_str, amt);
@@ -454,7 +454,7 @@ vowelstr(char *str)
     }
 }
 
-/* 
+/*
  * is_current:
  *	See if the object is one of the currently used items
  */

@@ -347,7 +347,7 @@ int secp256k1_nonce_function_bipschnorr(unsigned char *nonce32, const unsigned c
     (void) data;
     (void) counter;
     VERIFY_CHECK(counter == 0);
-    
+
     /* Hash x||msg as per the spec */
     secp256k1_sha256_initialize(&sha);
     secp256k1_sha256_write(&sha, key32, 32);

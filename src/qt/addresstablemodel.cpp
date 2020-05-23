@@ -355,11 +355,11 @@ QVariant AddressTableModel::headerData(int section, Qt::Orientation orientation,
         if(role == Qt::DisplayRole && section < columns.size())
         {
             return columns[section];
-        } 
+        }
         else if (role == Qt::TextAlignmentRole)
         {
             return column_alignments[section];
-        } 
+        }
     }
     return QVariant();
 }

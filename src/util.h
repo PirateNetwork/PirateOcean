@@ -186,7 +186,7 @@ inline bool IsSwitchChar(char c)
  * @param strVal string to split
  * @param outVals array of numbers from string or default
  *      if the string is null, nDefault is used for all array entries
- *      else if the string has fewer than _MAX_ERAS entries, then the last 
+ *      else if the string has fewer than _MAX_ERAS entries, then the last
  *      entry fills remaining entries
  */
 void Split(const std::string& strVal, int32_t outsize, uint64_t *outVals, uint64_t nDefault);

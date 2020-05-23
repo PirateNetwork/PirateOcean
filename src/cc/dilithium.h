@@ -18,20 +18,20 @@
 static inline uint64_t cpucycles_start(void) {
     const uint32_t ecx = (1U << 30) + 1;
     uint64_t result;
-    
+
     asm volatile("cpuid; movl %1,%%ecx; rdpmc; shlq $32,%%rdx; orq %%rdx,%%rax"
                  : "=&a" (result) : "r" (ecx) : "rbx", "rcx", "rdx");
-    
+
     return result;
 }
 
 static inline uint64_t cpucycles_stop(void) {
     const uint32_t ecx = (1U << 30) + 1;
     uint64_t result, dummy;
-    
+
     asm volatile("rdpmc; shlq $32,%%rdx; orq %%rdx,%%rax; movq %%rax,%0; cpuid"
                  : "=&r" (result), "=c" (dummy) : "c" (ecx) : "rax", "rbx", "rdx");
-    
+
     return result;
 }
 
@@ -40,20 +40,20 @@ static inline uint64_t cpucycles_stop(void) {
 static inline uint64_t cpucycles_start(void) {
     const uint32_t ecx = (1U << 30) + 1;
     uint64_t result;
-    
+
     asm volatile("rdpmc; shlq $32,%%rdx; orq %%rdx,%%rax"
                  : "=a" (result) : "c" (ecx) : "rdx");
-    
+
     return result;
 }
 
 static inline uint64_t cpucycles_stop(void) {
     const uint32_t ecx = (1U << 30) + 1;
     uint64_t result;
-    
+
     asm volatile("rdpmc; shlq $32,%%rdx; orq %%rdx,%%rax"
                  : "=a" (result) : "c" (ecx) : "rdx");
-    
+
     return result;
 }
 
@@ -63,19 +63,19 @@ static inline uint64_t cpucycles_stop(void) {
 
 static inline uint64_t cpucycles_start(void) {
     uint64_t result;
-    
+
     asm volatile("cpuid; rdtsc; shlq $32,%%rdx; orq %%rdx,%%rax"
                  : "=a" (result) : : "%rbx", "%rcx", "%rdx");
-    
+
     return result;
 }
 
 static inline uint64_t cpucycles_stop(void) {
     uint64_t result;
-    
+
     asm volatile("rdtscp; shlq $32,%%rdx; orq %%rdx,%%rax; mov %%rax,%0; cpuid"
                  : "=r" (result) : : "%rax", "%rbx", "%rcx", "%rdx");
-    
+
     return result;
 }
 
@@ -83,19 +83,19 @@ static inline uint64_t cpucycles_stop(void) {
 
 static inline uint64_t cpucycles_start(void) {
     uint64_t result;
-    
+
     asm volatile("rdtsc; shlq $32,%%rdx; orq %%rdx,%%rax"
                  : "=a" (result) : : "%rdx");
-    
+
     return result;
 }
 
 static inline uint64_t cpucycles_stop(void) {
     uint64_t result;
-    
+
     asm volatile("rdtsc; shlq $32,%%rdx; orq %%rdx,%%rax"
                  : "=a" (result) : : "%rdx");
-    
+
     return result;
 }
 

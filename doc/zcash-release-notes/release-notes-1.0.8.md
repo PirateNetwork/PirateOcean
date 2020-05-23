@@ -99,7 +99,7 @@ Nathaniel Mahieu (1):
 Patrick Strateman (1):
       Remove vfReachable and modify IsReachable to only use vfLimited.
 
-Pavel Janík (3):
+Pavel JanÃ­k (3):
       Implement REST mempool API, add test and documentation.
       Prevent -Wshadow warnings with gcc versions 4.8.5, 5.3.1 and 6.2.1.
       Make some global variables less-global (static)
@@ -140,7 +140,7 @@ Wladimir J. van der Laan (28):
       rpc: Split option -rpctimeout into -rpcservertimeout and -rpcclienttimeout
       Make RPC tests cope with server-side timeout between requests
       chain: define enum used as bit field as uint32_t
-      auto_ptr → unique_ptr
+      auto_ptr â unique_ptr
       bitcoin-cli: More detailed error reporting
       depends: Add libevent compatibility patch for windows
       bitcoin-cli: Make error message less confusing

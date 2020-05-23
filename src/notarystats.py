@@ -48,7 +48,7 @@ def def_credentials(chain):
             print("check " + coin_config_file)
             exit(1)
     return (Proxy("http://%s:%s@127.0.0.1:%d" % (rpcuser, rpcpassword, int(rpcport))))
-    
+
 
 rpc = def_credentials('KMD')
 pp = pprint.PrettyPrinter(indent=2)
@@ -71,10 +71,10 @@ for i in range(startheight,stopheight):
                 notaries[notary] = notaries[notary] + 1
 
 i = 0
-SH = [] 
-AR = [] 
-EU = [] 
-NA = [] 
+SH = []
+AR = []
+EU = []
+NA = []
 for notary in notaries:
     tmpnotary = {}
     tmpnotary['node'] = notarynames[i]

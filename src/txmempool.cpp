@@ -124,7 +124,10 @@ bool CTxMemPool::addUnchecked(const uint256& hash, const CTxMemPoolEntry &entry,
     nRecentlyAddedSequence += 1;
     if (!tx.IsCoinImport()) {
         for (unsigned int i = 0; i < tx.vin.size(); i++)
+        {
+            if (tx.IsPegsImport() && i==0) continue;
             mapNextTx[tx.vin[i].prevout] = CInPoint(&tx, i);
+        }
     }
     BOOST_FOREACH(const JSDescription &joinsplit, tx.vjoinsplit) {
         BOOST_FOREACH(const uint256 &nf, joinsplit.nullifiers) {
@@ -150,6 +153,7 @@ void CTxMemPool::addAddressIndex(const CTxMemPoolEntry &entry, const CCoinsViewC
 
     uint256 txhash = tx.GetHash();
     for (unsigned int j = 0; j < tx.vin.size(); j++) {
+        if (tx.IsPegsImport() && j==0) continue;
         const CTxIn input = tx.vin[j];
         const CTxOut &prevout = view.GetOutputFor(input);
 
@@ -255,6 +259,7 @@ void CTxMemPool::addSpentIndex(const CTxMemPoolEntry &entry, const CCoinsViewCac
 
     uint256 txhash = tx.GetHash();
     for (unsigned int j = 0; j < tx.vin.size(); j++) {
+        if (tx.IsPegsImport() && j==0) continue;
         const CTxIn input = tx.vin[j];
         const CTxOut &prevout = view.GetOutputFor(input);
 
@@ -516,8 +521,20 @@ void CTxMemPool::removeExpired(unsigned int nBlockHeight)
     {
         const CTransaction& tx = it->GetTx();
         tipindex = chainActive.LastTip();
-        if (IsExpiredTx(tx, nBlockHeight) || (ASSETCHAINS_SYMBOL[0] == 0 && tipindex != 0 && komodo_validate_interest(tx,tipindex->GetHeight()+1,tipindex->GetMedianTimePast() + 777,0)) < 0)
+
+        /* cmptime = chainActive.LastTip()->GetMedianTimePast() + 777 - here for interest validation, inside
+        CTxMemPool::removeExpired. need to test, may be here better to validate against pindexNew->nTime.
+        In ConnectBlock we have a condition for each tx like komodo_validate_interest(..., block.nTime), so
+        blocks mined with such txes will be valid. Mean, may be chainActive.LastTip()->GetMedianTimePast() + 777
+        is "too earlier" condition. [nBlockHeight should be equal tipindex->GetHeight()+1 here]
+        */
+
+        // if (IsExpiredTx(tx, nBlockHeight) || (ASSETCHAINS_SYMBOL[0] == 0 && tipindex != 0 && komodo_validate_interest(tx,tipindex->GetHeight()+1,tipindex->GetMedianTimePast() + 777,0)) < 0)
+        bool fInterestNotValidated = ASSETCHAINS_SYMBOL[0] == 0 && tipindex != 0 && komodo_validate_interest(tx,tipindex->GetHeight()+1,tipindex->GetMedianTimePast() + 777,0) < 0;
+        if (IsExpiredTx(tx, nBlockHeight) || fInterestNotValidated)
         {
+            if (fInterestNotValidated && tipindex != 0)
+                LogPrintf("Removing interest violate txid.%s nHeight.%d nTime.%u vs locktime.%u\n",tx.GetHash().ToString(),tipindex->GetHeight()+1,tipindex->GetMedianTimePast() + 777,tx.nLockTime);
             transactionsToRemove.push_back(tx);
         }
     }

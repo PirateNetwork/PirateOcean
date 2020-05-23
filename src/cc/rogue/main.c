@@ -454,7 +454,7 @@ try_again:
     curl_handle = curl_easy_init();
     init_string(&s);
     headers = curl_slist_append(0,"Expect:");
-    
+
     curl_easy_setopt(curl_handle,CURLOPT_USERAGENT,"mozilla/4.0");//"Mozilla/4.0 (compatible; )");
     curl_easy_setopt(curl_handle,CURLOPT_HTTPHEADER,	headers);
     curl_easy_setopt(curl_handle,CURLOPT_URL,		url);
@@ -483,7 +483,7 @@ try_again:
                 bracket0 = (char *)"[";
                 bracket1 = (char *)"]";
             }
-            
+
             databuf = (char *)malloc(256 + strlen(command) + strlen(params));
             sprintf(databuf,"{\"id\":\"jl777\",\"method\":\"%s\",\"params\":%s%s%s}",command,bracket0,params,bracket1);
             //printf("url.(%s) userpass.(%s) databuf.(%s)\n",url,userpass,databuf);
@@ -523,7 +523,7 @@ try_again:
         free(s.ptr);
         sleep((1<<numretries));
         goto try_again;
-        
+
     }
     else
     {
@@ -769,7 +769,7 @@ int32_t rogue_sendrawtransaction(char *rawtx)
         }
 
 		/* log sendrawtx result in file */
-		
+
 		/*
 		FILE *debug_file;
 		debug_file = fopen("tx_debug.log", "a");
@@ -997,7 +997,7 @@ int main(int argc, char **argv, char **envp)
         ASSETCHAINS_SYMBOL[j++] = toupper(c);
     }
     ASSETCHAINS_SYMBOL[j++] = 0;
-	
+
 	#ifdef _WIN32
 	#ifdef _MSC_VER
 	if (strncmp(ASSETCHAINS_SYMBOL, "ROGUE.EXE", sizeof(ASSETCHAINS_SYMBOL)) == 0 || strncmp(ASSETCHAINS_SYMBOL, "ROGUE54.EXE", sizeof(ASSETCHAINS_SYMBOL)) == 0) {
@@ -1012,7 +1012,7 @@ int main(int argc, char **argv, char **envp)
     printf("ASSETCHAINS_SYMBOL.(%s) port.%u (%s) IPADDRESS.%s \n",ASSETCHAINS_SYMBOL,ROGUE_PORT,USERPASS,IPADDRESS); sleep(1);
     if ( argc == 2 && (fp=fopen(argv[1],"rb")) == 0 )
     {
-        
+
 		#ifdef _WIN32
 			#ifdef _MSC_VER
 			seed = _strtoui64(argv[1], NULL, 10);

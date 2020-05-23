@@ -1610,7 +1610,7 @@ BOOST_AUTO_TEST_CASE(rpc_z_shieldcoinbase_internals)
     if (mtx.nVersion == 1) {
         mtx.nVersion = 2;
     }
-    
+
     // Test that option -mempooltxinputlimit is respected.
     mapArgs["-mempooltxinputlimit"] = "1";
 

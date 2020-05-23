@@ -11,7 +11,7 @@ static const int MODEL_UPDATE_DELAY = 250;
 /* AskPassphraseDialog -- Maximum passphrase length */
 static const int MAX_PASSPHRASE_SIZE = 1024;
 
-/* KomodoOceanGUI -- Size of icons in status bar */
+/* PirateOceanGUI -- Size of icons in status bar */
 static const int STATUSBAR_ICONSIZE = 16;
 
 static const bool DEFAULT_SPLASHSCREEN = true;
@@ -50,7 +50,7 @@ static const int MAX_URI_LENGTH = 255;
 
 #define QAPP_ORG_NAME "Komodo"
 #define QAPP_ORG_DOMAIN "komodo.org"
-#define QAPP_APP_NAME_DEFAULT "KomodoOceanGUI"
-#define QAPP_APP_NAME_TESTNET "KomodoOceanGUI-testnet"
+#define QAPP_APP_NAME_DEFAULT "PirateOceanGUI"
+#define QAPP_APP_NAME_TESTNET "PirateOceanGUI-testnet"
 
 #endif // KOMODO_QT_GUICONSTANTS_H

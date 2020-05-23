@@ -97,7 +97,7 @@ void ThreadShowMetricsScreen();
  *
  * Rendering options:
  * Zcash: img2txt -W 40 -H 20 -f utf8 -d none -g 0.7 Z-yellow.orange-logo.png
- * Heart: img2txt -W 40 -H 20 -f utf8 -d none 2000px-Heart_corazón.svg.png
+ * Heart: img2txt -W 40 -H 20 -f utf8 -d none 2000px-Heart_corazÃ³n.svg.png
  */
 const std::string METRICS_ART =
 "              [0;1;36;96;47m8[0;36;5;46;106mSSS%%%%tt[0;37;5;46;106m8[0;1;36;96;47m@[0m                                                      \n"

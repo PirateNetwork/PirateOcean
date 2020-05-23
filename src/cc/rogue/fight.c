@@ -291,7 +291,7 @@ attack(struct rogue_state *rs,THING *mp)
 		when 'N':
 		{
             THING *obj, *steal; int nobj;
-            
+
             /*
              * Nymph's steal a magic item, look through the pack
              * and pick out one we like.
@@ -488,7 +488,7 @@ prname(char *mname, bool upper)
 
     *tbuf = '\0';
     if (mname == 0)
-	strcpy(tbuf, "you"); 
+	strcpy(tbuf, "you");
     else
 	strcpy(tbuf, mname);
     if (upper)

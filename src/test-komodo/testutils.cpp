@@ -47,7 +47,7 @@ void setupChain()
     COINBASE_MATURITY = 1;
     // Global mock time
     nMockTime = GetTime();
-    
+
     // Unload
     UnloadBlockIndex();
 
@@ -76,7 +76,7 @@ void generateBlock(CBlock *block)
     SetMockTime(nMockTime+=100);  // CreateNewBlock can fail if not enough time passes
 
     try {
-        UniValue out = generate(params, false);
+        UniValue out = generate(params, false, CPubKey());
         blockId.SetHex(out[0].getValStr());
         if (block) ASSERT_TRUE(ReadBlockFromDisk(*block, mapBlockIndex[blockId], false));
     } catch (const UniValue& e) {

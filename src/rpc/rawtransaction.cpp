@@ -206,10 +206,10 @@ void TxToJSONExpanded(const CTransaction& tx, const uint256 hashBlock, UniValue&
         UniValue in(UniValue::VOBJ);
         if (tx.IsCoinBase())
             in.push_back(Pair("coinbase", HexStr(txin.scriptSig.begin(), txin.scriptSig.end())));
-        else if (tx.IsCoinImport()) {
+        else if (tx.IsCoinImport() && txin.prevout.n==10e8) {
             in.push_back(Pair("is_import", "1"));
             ImportProof proof; CTransaction burnTx; std::vector<CTxOut> payouts; CTxDestination importaddress;
-            if (UnmarshalImportTx(tx, proof, burnTx, payouts)) 
+            if (UnmarshalImportTx(tx, proof, burnTx, payouts))
             {
                 if (burnTx.vout.size() == 0)
                     continue;
@@ -222,7 +222,7 @@ void TxToJSONExpanded(const CTransaction& tx, const uint256 hashBlock, UniValue&
                 {
                     if (rawproof.size() > 0)
                     {
-                        std::string sourceSymbol; 
+                        std::string sourceSymbol;
                         E_UNMARSHAL(rawproof, ss >> sourceSymbol);
                         in.push_back(Pair("address", "IMP-" + sourceSymbol + "-" + burnTx.GetHash().ToString()));
                     }
@@ -285,7 +285,7 @@ void TxToJSONExpanded(const CTransaction& tx, const uint256 hashBlock, UniValue&
         if (txout.scriptPubKey.IsOpReturn() && txout.nValue != 0)
         {
             std::vector<uint8_t> burnOpret; std::string targetSymbol; uint32_t targetCCid; uint256 payoutsHash; std::vector<uint8_t>rawproof;
-            if (UnmarshalBurnTx(tx, targetSymbol, &targetCCid, payoutsHash, rawproof)) 
+            if (UnmarshalBurnTx(tx, targetSymbol, &targetCCid, payoutsHash, rawproof))
             {
                 out.push_back(Pair("target", "EXPORT->" +  targetSymbol));
             }
@@ -368,18 +368,18 @@ void TxToJSON(const CTransaction& tx, const uint256 hashBlock, UniValue& entry)
     entry.push_back(Pair("vin", vin));
     UniValue vout(UniValue::VARR);
     BlockMap::iterator it = mapBlockIndex.find(pcoinsTip->GetBestBlock());
-    CBlockIndex *tipindex,*pindex = it->second;
+    CBlockIndex *tipindex;//,*pindex = it->second;
     uint64_t interest;
     for (unsigned int i = 0; i < tx.vout.size(); i++) {
         const CTxOut& txout = tx.vout[i];
         UniValue out(UniValue::VOBJ);
         out.push_back(Pair("value", ValueFromAmount(txout.nValue)));
-        if ( ASSETCHAINS_SYMBOL[0] == 0 && pindex != 0 && tx.nLockTime >= 500000000 && (tipindex= chainActive.LastTip()) != 0 )
+        if ( KOMODO_NSPV_FULLNODE && ASSETCHAINS_SYMBOL[0] == 0 && tx.nLockTime >= 500000000 && (tipindex= chainActive.LastTip()) != 0 )
         {
             int64_t interest; int32_t txheight; uint32_t locktime;
             interest = komodo_accrued_interest(&txheight,&locktime,tx.GetHash(),i,0,txout.nValue,(int32_t)tipindex->GetHeight());
             out.push_back(Pair("interest", ValueFromAmount(interest)));
-        }        
+        }
         out.push_back(Pair("valueZat", txout.nValue));
         out.push_back(Pair("n", (int64_t)i));
         UniValue o(UniValue::VOBJ);
@@ -422,7 +422,7 @@ void TxToJSON(const CTransaction& tx, const uint256 hashBlock, UniValue& entry)
     }
 }
 
-UniValue getrawtransaction(const UniValue& params, bool fHelp)
+UniValue getrawtransaction(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
@@ -611,7 +611,7 @@ int32_t gettxout_scriptPubKey(uint8_t *scriptPubKey,int32_t maxsize,uint256 txid
     return(-1);
 }
 
-UniValue gettxoutproof(const UniValue& params, bool fHelp)
+UniValue gettxoutproof(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || (params.size() != 1 && params.size() != 2))
         throw runtime_error(
@@ -692,7 +692,7 @@ UniValue gettxoutproof(const UniValue& params, bool fHelp)
     return strHex;
 }
 
-UniValue verifytxoutproof(const UniValue& params, bool fHelp)
+UniValue verifytxoutproof(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
@@ -725,7 +725,7 @@ UniValue verifytxoutproof(const UniValue& params, bool fHelp)
     return res;
 }
 
-UniValue createrawtransaction(const UniValue& params, bool fHelp)
+UniValue createrawtransaction(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     string examplescriptPubKey = "21021ce1eac70455c3e6c52d67c133549b8aed4a588fba594372e8048e65c4f0fcb6ac";
 
@@ -786,7 +786,7 @@ UniValue createrawtransaction(const UniValue& params, bool fHelp)
             throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid parameter, locktime out of range");
         rawTx.nLockTime = nLockTime;
     }
-    
+
     if (params.size() > 3 && !params[3].isNull()) {
         if (NetworkUpgradeActive(nextBlockHeight, Params().GetConsensus(), Consensus::UPGRADE_OVERWINTER)) {
             int64_t nExpiryHeight = params[3].get_int64();
@@ -885,7 +885,7 @@ UniValue createrawtransaction(const UniValue& params, bool fHelp)
     return EncodeHexTx(rawTx);
 }
 
-UniValue decoderawtransaction(const UniValue& params, bool fHelp)
+UniValue decoderawtransaction(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
@@ -980,7 +980,7 @@ UniValue decoderawtransaction(const UniValue& params, bool fHelp)
     return result;
 }
 
-UniValue decodescript(const UniValue& params, bool fHelp)
+UniValue decodescript(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
@@ -1034,7 +1034,7 @@ static void TxInErrorToJSON(const CTxIn& txin, UniValue& vErrorsRet, const std::
     vErrorsRet.push_back(entry);
 }
 
-UniValue signrawtransaction(const UniValue& params, bool fHelp)
+UniValue signrawtransaction(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() < 1 || params.size() > 5)
         throw runtime_error(
@@ -1238,7 +1238,7 @@ UniValue signrawtransaction(const UniValue& params, bool fHelp)
     }
 
     bool fHashSingle = ((nHashType & ~SIGHASH_ANYONECANPAY) == SIGHASH_SINGLE);
-    // Use the approximate release height if it is greater so offline nodes 
+    // Use the approximate release height if it is greater so offline nodes
     // have a better estimation of the current height and will be more likely to
     // determine the correct consensus branch ID.  Regtest mode ignores release height.
     int chainHeight = chainActive.Height() + 1;
@@ -1251,8 +1251,8 @@ UniValue signrawtransaction(const UniValue& params, bool fHelp)
         if (!IsConsensusBranchId(consensusBranchId)) {
             throw runtime_error(params[4].get_str() + " is not a valid consensus branch id");
         }
-    } 
-    
+    }
+
     // Script verification errors
     UniValue vErrors(UniValue::VARR);
 
@@ -1288,19 +1288,19 @@ UniValue signrawtransaction(const UniValue& params, bool fHelp)
             }
             const CScript& prevPubKey = coins->vout[txin.prevout.n].scriptPubKey;
             const CAmount& amount = coins->vout[txin.prevout.n].nValue;
-            
+
             SignatureData sigdata;
             // Only sign SIGHASH_SINGLE if there's a corresponding output:
             if (!fHashSingle || (i < mergedTx.vout.size()))
                 ProduceSignature(MutableTransactionSignatureCreator(&keystore, &mergedTx, i, amount, nHashType), prevPubKey, sigdata, consensusBranchId);
-            
+
             // ... and merge in other signatures:
             BOOST_FOREACH(const CMutableTransaction& txv, txVariants) {
                 sigdata = CombineSignatures(prevPubKey, TransactionSignatureChecker(&txConst, i, amount), sigdata, DataFromTransaction(txv, i), consensusBranchId);
             }
-            
+
             UpdateTransaction(mergedTx, i, sigdata);
-            
+
             ScriptError serror = SCRIPT_ERR_OK;
             if (!VerifyScript(txin.scriptSig, prevPubKey, STANDARD_SCRIPT_VERIFY_FLAGS, TransactionSignatureChecker(&txConst, i, amount), consensusBranchId, &serror)) {
                 TxInErrorToJSON(txin, vErrors, ScriptErrorString(serror));
@@ -1329,7 +1329,9 @@ UniValue signrawtransaction(const UniValue& params, bool fHelp)
     return result;
 }
 
-UniValue sendrawtransaction(const UniValue& params, bool fHelp)
+extern UniValue NSPV_broadcast(char *hex);
+
+UniValue sendrawtransaction(const UniValue& params, bool fHelp, const CPubKey& mypk)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
@@ -1364,30 +1366,35 @@ UniValue sendrawtransaction(const UniValue& params, bool fHelp)
     bool fOverrideFees = false;
     if (params.size() > 1)
         fOverrideFees = params[1].get_bool();
-
-    CCoinsViewCache &view = *pcoinsTip;
-    const CCoins* existingCoins = view.AccessCoins(hashTx);
-    bool fHaveMempool = mempool.exists(hashTx);
-    bool fHaveChain = existingCoins && existingCoins->nHeight < 1000000000;
-    if (!fHaveMempool && !fHaveChain) {
-        // push to local node and sync with wallets
-        CValidationState state;
-        bool fMissingInputs;
-        if (!AcceptToMemoryPool(mempool, state, tx, false, &fMissingInputs, !fOverrideFees)) {
-            if (state.IsInvalid()) {
-                throw JSONRPCError(RPC_TRANSACTION_REJECTED, strprintf("%i: %s", state.GetRejectCode(), state.GetRejectReason()));
-            } else {
-                if (fMissingInputs) {
-                    throw JSONRPCError(RPC_TRANSACTION_ERROR, "Missing inputs");
+    if ( KOMODO_NSPV_FULLNODE )
+    {
+        CCoinsViewCache &view = *pcoinsTip;
+        const CCoins* existingCoins = view.AccessCoins(hashTx);
+        bool fHaveMempool = mempool.exists(hashTx);
+        bool fHaveChain = existingCoins && existingCoins->nHeight < 1000000000;
+        if (!fHaveMempool && !fHaveChain) {
+            // push to local node and sync with wallets
+            CValidationState state;
+            bool fMissingInputs;
+            if (!AcceptToMemoryPool(mempool, state, tx, false, &fMissingInputs, !fOverrideFees)) {
+                if (state.IsInvalid()) {
+                    throw JSONRPCError(RPC_TRANSACTION_REJECTED, strprintf("%i: %s", state.GetRejectCode(), state.GetRejectReason()));
+                } else {
+                    if (fMissingInputs) {
+                        throw JSONRPCError(RPC_TRANSACTION_ERROR, "Missing inputs");
+                    }
+                    throw JSONRPCError(RPC_TRANSACTION_ERROR, state.GetRejectReason());
                 }
-                throw JSONRPCError(RPC_TRANSACTION_ERROR, state.GetRejectReason());
             }
+        } else if (fHaveChain) {
+            throw JSONRPCError(RPC_TRANSACTION_ALREADY_IN_CHAIN, "transaction already in block chain");
         }
-    } else if (fHaveChain) {
-        throw JSONRPCError(RPC_TRANSACTION_ALREADY_IN_CHAIN, "transaction already in block chain");
+        RelayTransaction(tx);
     }
-    RelayTransaction(tx);
-
+    else
+    {
+        NSPV_broadcast((char *)params[0].get_str().c_str());
+    }
     return hashTx.GetHex();
 }
 

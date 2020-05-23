@@ -174,7 +174,7 @@ int32_t num_packitems(struct rogue_state *rs)
             total += rogue_total(list);
         }
     }
-    if ( rs->guiflag != 0 ) 
+    if ( rs->guiflag != 0 )
     {
         char str[MAXSTR];
         sprintf(str,"strength*2 %d vs total.%d vs %d inventory letters\n",ROGUE_MAXTOTAL,total,n);
@@ -224,7 +224,7 @@ THING *
 leave_pack(struct rogue_state *rs,THING *obj, bool newobj, bool all)
 {
     THING *nobj;
-    
+
     inpack--;
     nobj = obj;
     if (obj->o_count > 1 && !all)
@@ -350,7 +350,7 @@ pick_up(struct rogue_state *rs,char ch)
 	    case POTION:
 	    case FOOD:
 	    case WEAPON:
-	    case SCROLL:	
+	    case SCROLL:
 	    case AMULET:
 	    case RING:
 	    case STICK:
@@ -415,7 +415,7 @@ get_item(struct rogue_state *rs,char *purpose, int type)
 {
     THING *obj;
     char ch;
-    
+
     if (pack == NULL)
         msg(rs,"you aren't carrying anything");
     else if (again)

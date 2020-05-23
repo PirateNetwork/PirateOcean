@@ -93,7 +93,7 @@ need for wallet software to handle malleability sanely[1]. This
 only eliminates the cheap and irritating DOS attack.
 
 [1] On the Malleability of Bitcoin Transactions
-Marcin Andrychowicz, Stefan Dziembowski, Daniel Malinowski, Łukasz Mazurek
+Marcin Andrychowicz, Stefan Dziembowski, Daniel Malinowski, Åukasz Mazurek
 http://fc15.ifca.ai/preproceedings/bitcoin/paper_9.pdf
 
 Minimum relay fee default increase
@@ -152,7 +152,7 @@ Thanks to everyone who directly contributed to this release:
 - Pavel Vasin
 - Pieter Wuille
 - randy-waterhouse
-- ฿tcDrak
+- à¸¿tcDrak
 - Tom Harding
 - Veres Lajos
 - Wladimir J. van der Laan

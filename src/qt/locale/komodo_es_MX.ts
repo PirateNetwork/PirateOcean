@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Click derecho para editar dirección o etiqueta</translation>
+        <translation>Click derecho para editar direcciÃ³n o etiqueta</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Crear una dirección nueva</translation>
+        <translation>Crear una direcciÃ³n nueva</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copiar la dirección seleccionada al portapapeles del sistema</translation>
+        <translation>Copiar la direcciÃ³n seleccionada al portapapeles del sistema</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,11 +27,11 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Eliminar la dirección actualmente seleccionada de la lista</translation>
+        <translation>Eliminar la direcciÃ³n actualmente seleccionada de la lista</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportar la información en la pestaña actual a un archivo</translation>
+        <translation>Exportar la informaciÃ³n en la pestaÃ±a actual a un archivo</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -49,26 +49,26 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Dialogo de contraseña</translation>
+        <translation>Dialogo de contraseÃ±a</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Ingrese la contraseña</translation>
+        <translation>Ingrese la contraseÃ±a</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nueva contraseña</translation>
+        <translation>Nueva contraseÃ±a</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Repita la nueva contraseña</translation>
+        <translation>Repita la nueva contraseÃ±a</translation>
     </message>
     </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/Máscara de red</translation>
+        <translation>IP/MÃ¡scara de red</translation>
     </message>
     </context>
 <context>
@@ -107,7 +107,7 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Salir de la aplicación</translation>
+        <translation>Salir de la aplicaciÃ³n</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -115,7 +115,7 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Mostrar información acerca de Qt</translation>
+        <translation>Mostrar informaciÃ³n acerca de Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -131,15 +131,15 @@
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Cambiar contraseña...</translation>
+        <translation>&amp;Cambiar contraseÃ±a...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>Direcciones de &amp;envío...</translation>
+        <translation>Direcciones de &amp;envÃ­o...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Direcciones de &amp;recepción...</translation>
+        <translation>Direcciones de &amp;recepciÃ³n...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -151,15 +151,15 @@
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Enviar monedas a una dirección Pirate</translation>
+        <translation>Enviar monedas a una direcciÃ³n Komodo</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Respaldar cartera en otra ubicación</translation>
+        <translation>Respaldar cartera en otra ubicaciÃ³n</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Cambiar la contraseña usada para la encriptación de la cartera</translation>
+        <translation>Cambiar la contraseÃ±a usada para la encriptaciÃ³n de la cartera</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -167,7 +167,7 @@
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Abrir consola de depuración y diagnostico</translation>
+        <translation>Abrir consola de depuraciÃ³n y diagnostico</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -207,7 +207,7 @@
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Pestañas</translation>
+        <translation>PestaÃ±as</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -223,7 +223,7 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>Información </translation>
+        <translation>InformaciÃ³n </translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -235,11 +235,11 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Enviar Transacción</translation>
+        <translation>Enviar TransacciÃ³n</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Transacción entrante</translation>
+        <translation>TransacciÃ³n entrante</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -270,7 +270,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Después de los cargos por comisión. </translation>
+        <translation>DespuÃ©s de los cargos por comisiÃ³n. </translation>
     </message>
     <message>
         <source>Change:</source>
@@ -293,7 +293,7 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Editar dirección</translation>
+        <translation>Editar direcciÃ³n</translation>
     </message>
     <message>
         <source>&amp;Label</source>
@@ -301,7 +301,7 @@
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Dirección</translation>
+        <translation>&amp;DirecciÃ³n</translation>
     </message>
     </context>
 <context>
@@ -315,7 +315,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>versión</translation>
+        <translation>versiÃ³n</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -419,7 +419,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pirate network.</source>
-        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Pirate.</translation>
+        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual serÃ¡ mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travÃ©z de la red de Pirate.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -434,7 +434,7 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>&amp;Copiar dirección</translation>
+        <translation>&amp;Copiar direcciÃ³n</translation>
     </message>
     </context>
 <context>
@@ -464,7 +464,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Después de los cargos por comisión. </translation>
+        <translation>DespuÃ©s de los cargos por comisiÃ³n. </translation>
     </message>
     <message>
         <source>Change:</source>
@@ -472,11 +472,11 @@
     </message>
     <message>
         <source>fast</source>
-        <translation>rápido</translation>
+        <translation>rÃ¡pido</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Enviar a múltiples receptores a la vez</translation>
+        <translation>Enviar a mÃºltiples receptores a la vez</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -484,7 +484,7 @@
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Confirme la acción de enviar</translation>
+        <translation>Confirme la acciÃ³n de enviar</translation>
     </message>
     </context>
 <context>
@@ -511,7 +511,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Pegar dirección  del portapapeles</translation>
+        <translation>Pegar direcciÃ³n  del portapapeles</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -548,7 +548,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Pegar dirección  del portapapeles</translation>
+        <translation>Pegar direcciÃ³n  del portapapeles</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -572,7 +572,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Este panel muestras una descripción detallada de la transacción</translation>
+        <translation>Este panel muestras una descripciÃ³n detallada de la transacciÃ³n</translation>
     </message>
     </context>
 <context>
@@ -598,18 +598,18 @@
     <name>WalletView</name>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportar la información en la pestaña actual a un archivo</translation>
+        <translation>Exportar la informaciÃ³n en la pestaÃ±a actual a un archivo</translation>
     </message>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
         <translation>Opciones:</translation>
     </message>
     <message>
         <source>Pirate Core</source>
-        <translation>nucleo Pirate</translation>
+        <translation>nucleo Komodo</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -629,7 +629,7 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>Información </translation>
+        <translation>InformaciÃ³n </translation>
     </message>
     <message>
         <source>Warning</source>

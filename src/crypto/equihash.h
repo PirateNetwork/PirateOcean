@@ -245,11 +245,11 @@ inline bool EhBasicSolve(unsigned int n, unsigned int k, const eh_HashState& bas
         return Eh200_9.BasicSolve(base_state, validBlock, cancelled);
     } else if (n == 150 && k == 5) {
         return Eh150_5.BasicSolve(base_state, validBlock, cancelled);
-    } else if (n == 144 && k == 5) { 
+    } else if (n == 144 && k == 5) {
         return Eh144_5.BasicSolve(base_state, validBlock, cancelled);
-    } else if (n == ASSETCHAINS_N && k == ASSETCHAINS_K) { 
+    } else if (n == ASSETCHAINS_N && k == ASSETCHAINS_K) {
         return Eh96_5.BasicSolve(base_state, validBlock, cancelled);
-    } else if (n == 48 && k == 5) { 
+    } else if (n == 48 && k == 5) {
         return Eh48_5.BasicSolve(base_state, validBlock, cancelled);
     } else if (n == 210 && k == 9) {
         return Eh210_9.BasicSolve(base_state, validBlock, cancelled);
@@ -273,11 +273,11 @@ inline bool EhOptimisedSolve(unsigned int n, unsigned int k, const eh_HashState&
         return Eh200_9.OptimisedSolve(base_state, validBlock, cancelled);
     } else if (n == 150 && k == 5) {
         return Eh150_5.OptimisedSolve(base_state, validBlock, cancelled);
-    } else if (n == 144 && k == 5) { 
+    } else if (n == 144 && k == 5) {
         return Eh144_5.OptimisedSolve(base_state, validBlock, cancelled);
-    } else if (n == ASSETCHAINS_N && k == ASSETCHAINS_K) { 
+    } else if (n == ASSETCHAINS_N && k == ASSETCHAINS_K) {
         return Eh96_5.OptimisedSolve(base_state, validBlock, cancelled);
-    } else if (n == 48 && k == 5) { 
+    } else if (n == 48 && k == 5) {
         return Eh48_5.OptimisedSolve(base_state, validBlock, cancelled);
     } else if (n == 210 && k == 9) {
         return Eh210_9.OptimisedSolve(base_state, validBlock, cancelled);

@@ -46,7 +46,7 @@ QString KomodoUnits::name(int unit)
     {
     case ARRR: return QString("ARRR");
     case mARRR: return QString("mARRR");
-    case uARRR: return QString::fromUtf8("μARRR");
+    case uARRR: return QString("uARRR");
     default: return QString("???");
     }
 }
