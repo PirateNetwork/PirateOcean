@@ -9,11 +9,17 @@
 #include "timedata.h"
 #include "main.h"
 #include "wallet/wallet.h"
+#include <stdio.h>
+#include <pthread.h>
 #include "key_io.h"
 
 #include <stdint.h>
-
-
+#include <iostream>
+#include <utf8.h>
+#include "rpc/server.h"
+#include "wallet/rpcwallet.cpp"
+#include <univalue.h>
+#include "util.h"
 /* Return positive answer if transaction should be shown in list.
  */
 bool TransactionRecord::showTransaction(const CWalletTx &wtx)
@@ -35,6 +41,82 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
     CAmount nNet = nCredit - nDebit;
     uint256 hash = wtx.GetHash();
     std::map<std::string, std::string> mapValue = wtx.mapValue;
+extern CWallet* pwalletMain;
+    const CWalletTx& wtx2 = pwalletMain->mapWallet[wtx.GetHash()];
+    CAmount myvin;
+    CAmount myvout;
+    // Sapling spends
+    std::set<uint256> ovks;
+    for (size_t i = 0; i < wtx2.vShieldedSpend.size(); ++i) {
+        auto spend = wtx2.vShieldedSpend[i];
+
+        // Fetch teh note that is being spent
+        auto res = pwalletMain->mapSaplingNullifiersToNotes.find(spend.nullifier);
+        if (res == pwalletMain->mapSaplingNullifiersToNotes.end()) {
+            continue;
+        }
+        auto op = res->second;
+        auto wtx2Prev = pwalletMain->mapWallet.at(op.hash);
+
+        auto decrypted = wtx2Prev.DecryptSaplingNote(op).get();
+        auto notePt = decrypted.first;
+        auto pa = decrypted.second;
+
+        // Store the OutgoingViewingKey for recovering outputs
+        libzcash::SaplingFullViewingKey fvk;
+        assert(pwalletMain->GetSaplingFullViewingKey(wtx2Prev.mapSaplingNoteData.at(op).ivk, fvk));
+        ovks.insert(fvk.ovk);
+		myvout = notePt.value();
+		std::cout << "This tx is: " << wtx2.GetHash().ToString().c_str() << endl;
+        std::cout << "type " << ADDR_TYPE_SAPLING << endl;
+        std::cout << "spend " << (int)i << endl;
+        std::cout << "txidPrev " << op.hash.GetHex() << endl;
+        std::cout << "outputPrev " << (int)op.n << endl;
+        std::cout << "address " << EncodePaymentAddress(pa) << endl;
+        std::cout << "valueZat " << myvout << endl;
+    }
+    // Sapling outputs
+    for (uint32_t i = 0; i < wtx2.vShieldedOutput.size(); ++i) {
+        auto op = SaplingOutPoint(hash, i);
+
+        SaplingNotePlaintext notePt;
+        SaplingPaymentAddress pa;
+        bool isRecovered;
+
+        auto decrypted = wtx2.DecryptSaplingNote(op);
+        if (decrypted) {
+            notePt = decrypted->first;
+            pa = decrypted->second;
+            isRecovered = false;
+        } else {
+            // Try recovering the output
+            auto recovered = wtx2.RecoverSaplingNote(op, ovks);
+            if (recovered) {
+                notePt = recovered->first;
+                pa = recovered->second;
+                isRecovered = true;
+            } else {
+                // Unreadable
+                continue;
+            }
+        }
+        auto memo = notePt.memo();
+		myvin = notePt.value();
+        std::cout << "type " << ADDR_TYPE_SAPLING << endl;
+        std::cout << "output " << (int)op.n << endl;
+        std::cout << "recovered " << isRecovered << endl;
+        std::cout << "address " << EncodePaymentAddress(pa) << endl;
+        std::cout << "valueZat " << myvin << endl;
+		CAmount zmoved = (myvin - myvout)/100000000;
+        std::cout << "s " << zmoved << endl;
+        if (memo[0] <= 0xf4) {
+            auto end = std::find_if(memo.rbegin(), memo.rend(), [](unsigned char v) { return v != 0; });
+            std::string memoStr(memo.begin(), end.base());
+            if (utf8::is_valid(memoStr)) {
+                std::cout << "memoStr " << memoStr << endl;
+            }
+        }
+    }
 
     if (nNet > 0 || wtx.IsCoinBase())
     {
@@ -95,7 +177,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
 
         if (fAllFromMe && fAllToMe)
         {
-            // Payment to self
+           // Payment to self
             CAmount nChange = wtx.GetChange();
 
             parts.append(TransactionRecord(hash, nTime, TransactionRecord::SendToSelf, "",
