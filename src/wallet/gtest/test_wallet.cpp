@@ -53,7 +53,7 @@ public:
         return CCryptoKeyStore::Unlock(vMasterKeyIn);
     }
 
-    void BuildWitnessCache(const CBlockIndex* pindex, bool witnessOnly) {
+    void void BuildWitnessCache(const CBlockIndex* pindex, bool witnessOnly) {
         CWallet::BuildWitnessCache(pindex, witnessOnly);
     }
     void DecrementNoteWitnesses(const CBlockIndex* pindex) {
@@ -1350,7 +1350,7 @@ TEST(WalletTests, CachedWitnessesChainTip) {
         EXPECT_NE(anchors1.first, anchors3.first);
         EXPECT_NE(anchors1.second, anchors3.second);
 
-        // Re-incrementing with the same block should give the same result
+        // Re-building with the same block should give the same result
         wallet.BuildWitnessCache(&index2, false);
         auto anchors4 = GetWitnessesAndAnchors(wallet, sproutNotes, saplingNotes, sproutWitnesses, saplingWitnesses);
         EXPECT_NE(anchors4.first, anchors4.second);
@@ -1360,7 +1360,7 @@ TEST(WalletTests, CachedWitnessesChainTip) {
         EXPECT_EQ(anchors2.first, anchors4.first);
         EXPECT_EQ(anchors2.second, anchors4.second);
 
-        // Incrementing with the same block again should not change the cache
+        // Building with the same block again should not change the cache
         wallet.BuildWitnessCache(&index2, false);
         std::vector<boost::optional<SproutWitness>> sproutWitnesses5;
         std::vector<boost::optional<SaplingWitness>> saplingWitnesses5;
@@ -1884,7 +1884,7 @@ TEST(WalletTests, UpdatedSaplingNoteData) {
 
     // Simulate receiving new block and ChainTip signal
     wallet.BuildWitnessCache(&fakeIndex, false);
-    wallet.UpdateNullifierNoteMapForBlock(&block)
+    wallet.UpdateNullifierNoteMapForBlock(&block);
 
     // Retrieve the updated wtx from wallet
     uint256 hash = wtx.GetHash();

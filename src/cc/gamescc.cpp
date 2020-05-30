@@ -39,7 +39,7 @@ uint64_t _games_rngnext(uint64_t initseed)
 gamesevent games_revendian(gamesevent revx)
 {
     int32_t i; gamesevent x = 0;
-    //LogPrintf("%04x -> ",revx);
+    //fprintf(stderr,"%04x -> ",revx);
     for (i=0; i<sizeof(gamesevent); i++)
         ((uint8_t *)&x)[i] = ((uint8_t *)&revx)[sizeof(gamesevent)-1-i];
     //LogPrintf("%04x\n",x);
@@ -138,7 +138,7 @@ int32_t games_replay2(uint8_t *newdata,uint64_t seed,gamesevent *keystrokes,int3
         sleep(3);
     }
     // extract playerdata
-    
+
     /*if ( (fp= fopen("checkfile","wb")) != 0 )
      {
      //save_file(rs,fp,0);
@@ -190,17 +190,17 @@ void GAMEJSON(UniValue &obj,struct games_player *P);
  "rng": 4253087318999719449,
  "result": "success"
  }
- 
+
  The idea is for a game to start with a near future blockhash, so the lobby gets players signed up until just prior to the designated height. then that blockhash can be used to create a stream of rngs.
- 
+
  the same initial rng can be used for all players, if the identical starting condition is required. up to 255 different initial rng can be derived from a single blockhash. (Actually any number is possible, for simplicity rng rpc limits to 255).
- 
+
  you will notice maxrngs and lastrng, the lastrng is the rng value that will happen after maxrng iterations of calling rngnext with the current rng. This allows making time based multiplayer games where all the nodes can validate all the other nodes rng, even without realtime synchronization of all user input events.
- 
+
  Every time period, all players would set their rng value to the lastrng value. The only thing to be careful of is it not exceed the maxrng calls to rngnext in a single time period. otherwise the same set of rng numbers will be repeated.
- 
+
  events rpc is called after each user event and broadcasts to the network the tuple (gametxid, pk, eventid, payload). This allows the network to verify realtime user events from a specific pk/gametxid and also to make sure no user events were changed. In the event the events were changed, then the guilty pk will be blacklisted. If no realtime events, then the guilty pk would be penalized.
- 
+
  ./c cclib events 17 \"[%226c%22,%229433dc3749aece1bd568f374a45da3b0bc6856990d7da3cd175399577940a775%22,0]\"
  ./c cclib events 17 \"[%226d%22,%229433dc3749aece1bd568f374a45da3b0bc6856990d7da3cd175399577940a775%22,1]\"
 */
@@ -411,7 +411,7 @@ UniValue games_rng(uint64_t txfee,struct CCcontract_info *cp,cJSON *params)
 int32_t games_eventsign(uint32_t &timestamp,std::vector<uint8_t> &sig,std::vector<uint8_t> payload,CPubKey pk)
 {
     static secp256k1_context *ctx;
-    size_t siglen = 74; secp256k1_pubkey pubkey; secp256k1_ecdsa_signature signature; int32_t len,verifyflag = 1; uint8_t privkey[32]; uint256 hash; uint32_t t;
+    size_t siglen = 74; secp256k1_pubkey pubkey; secp256k1_ecdsa_signature signature; int32_t len,verifyflag = 1,retval=-100; uint8_t privkey[32]; uint256 hash; uint32_t t;
     if ( ctx == 0 )
         ctx = secp256k1_context_create(SECP256K1_CONTEXT_SIGN | SECP256K1_CONTEXT_VERIFY);
     if ( ctx != 0 )
@@ -439,10 +439,9 @@ int32_t games_eventsign(uint32_t &timestamp,std::vector<uint8_t> &sig,std::vecto
                 {
                     if ( siglen != sig.size() )
                         sig.resize(siglen);
-                    return(0);
-                }
-                else return(-3);
-            } else return(-2);
+                    retval = 0;
+                } else retval = -3;
+            } else retval = -2;
         }
         else
         {
@@ -451,12 +450,14 @@ int32_t games_eventsign(uint32_t &timestamp,std::vector<uint8_t> &sig,std::vecto
                 if ( secp256k1_ecdsa_signature_parse_der(ctx,&signature,&sig[0],sig.size()) > 0 )
                 {
                     if ( secp256k1_ecdsa_verify(ctx,&signature,(uint8_t *)&hash,&pubkey) > 0 )
-                        return(0);
-                    else return(-4);
-                } else return(-3);
-            } else return(-2);
+                        retval = 0;
+                    else retval = -4;
+                } else retval = -3;
+            } else retval = -2;
         }
-    } else return(-1);
+    } else retval = -1;
+    memset(privkey,0,sizeof(privkey));
+    return(retval);
 }
 
 int32_t games_event(uint32_t timestamp,uint256 gametxid,int32_t eventid,std::vector<uint8_t> payload)
@@ -1225,7 +1226,7 @@ UniValue games_register(uint64_t txfee,struct CCcontract_info *cp,cJSON *params)
     // vout0 -> keystrokes/completion baton
     CMutableTransaction mtx = CreateNewContextualCMutableTransaction(Params().GetConsensus(), komodo_nextheight());
     UniValue result(UniValue::VOBJ); char destaddr[64],coinaddr[64]; uint256 tokenid,gametxid,origplayergame,playertxid,hashBlock; int32_t err,maxplayers,gameheight,n,numvouts,vout=1; int64_t inputsum,buyin,CCchange=0; CPubKey pk,mypk,gamespk,burnpk; CTransaction tx,playertx; std::vector<uint8_t> playerdata; std::string rawtx,symbol,pname; bits256 t;
-    
+
     if ( txfee == 0 )
         txfee = 10000;
     mypk = pubkey2pk(Mypubkey());
@@ -1273,7 +1274,7 @@ UniValue games_register(uint64_t txfee,struct CCcontract_info *cp,cJSON *params)
                 GetCCaddress1of2(cp,destaddr,gamespk,gamespk);
                 CCaddr1of2set(cp,gamespk,gamespk,cp->CCpriv,destaddr);
                 mtx.vout.push_back(MakeTokensCC1vout(cp->evalcode, 1, burnpk));
-                
+
                 uint8_t e, funcid; uint256 tid; std::vector<CPubKey> voutPubkeys, voutPubkeysEmpty; int32_t didtx = 0;
                 CScript opretRegister = games_registeropret(gametxid, playertxid);
                 if ( playertxid != zeroid )
@@ -1296,7 +1297,7 @@ UniValue games_register(uint64_t txfee,struct CCcontract_info *cp,cJSON *params)
                 }
                 if ( didtx == 0 )
                     rawtx = FinalizeCCTx(0, cp, mtx, mypk, txfee, opretRegister);
-                
+
                 return(games_rawtxresult(result,rawtx,1));
             } else return(cclib_error(result,"invalid gametxid"));
         } else return(cclib_error(result,"no gametxid"));
@@ -1338,7 +1339,8 @@ UniValue games_keystrokes(uint64_t txfee,struct CCcontract_info *cp,cJSON *param
                     Myprivkey(mypriv);
                     CCaddr1of2set(cp,gamespk,mypk,mypriv,destaddr);
                     rawtx = FinalizeCCTx(0,cp,mtx,mypk,txfee,games_keystrokesopret(gametxid,batontxid,mypk,keystrokes));
-                    //LogPrintf("KEYSTROKES.(%s)\n",rawtx.c_str());
+                    //fprintf(stderr,"KEYSTROKES.(%s)\n",rawtx.c_str());
+                    memset(mypriv,0,sizeof(mypriv));
                     return(games_rawtxresult(result,rawtx,1));
                 } else return(cclib_error(result,"keystrokes tx was too late"));
             } else return(cclib_error(result,"couldnt find batontxid"));
@@ -1500,7 +1502,7 @@ UniValue games_finish(uint64_t txfee,struct CCcontract_info *cp,cJSON *params,ch
     //vins2+ -> rest of unspent registration utxo so all newgame vouts are spent
     //vout0 -> nonfungible character with pack @
     //vout1 -> 1% ingame gold and all the buyins
-    
+
     // detect if last to bailout
     // vin0 -> kestrokes baton of completed game with Q
     // vout0 -> playerdata marker
@@ -1509,7 +1511,7 @@ UniValue games_finish(uint64_t txfee,struct CCcontract_info *cp,cJSON *params,ch
     CMutableTransaction mtx = CreateNewContextualCMutableTransaction(Params().GetConsensus(), komodo_nextheight());
     UniValue result(UniValue::VOBJ); std::string rawtx,symbol,pname; CTransaction gametx; uint64_t seed; int64_t buyin,batonvalue,inputsum,cashout=0,CCchange=0; int32_t i,err,gameheight,tmp,numplayers,regslot,n,num,numkeys,maxplayers,batonht,batonvout; char mygamesaddr[64],str[512]; gamesevent *keystrokes = 0; std::vector<uint8_t> playerdata,newdata,nodata; uint256 batontxid,playertxid,gametxid; CPubKey mypk,gamespk; uint8_t player[10000],mypriv[32],funcid;
     struct CCcontract_info *cpTokens, tokensC;
-    
+
     if ( txfee == 0 )
         txfee = 10000;
     mypk = pubkey2pk(Mypubkey());
@@ -1612,6 +1614,7 @@ UniValue games_finish(uint64_t txfee,struct CCcontract_info *cp,cJSON *params,ch
                         GetOpReturnData(opret, vopretNonfungible);
                         rawtx = FinalizeCCTx(0, cp, mtx, mypk, txfee, EncodeTokenCreateOpRet('c', Mypubkey(), std::string(seedstr), gametxid.GetHex(), vopretNonfungible));
                     }
+                    memset(mypriv,0,sizeof(mypriv));
                     return(games_rawtxresult(result,rawtx,1));
                 }
                 result.push_back(Pair("result","success"));
@@ -1661,29 +1664,25 @@ UniValue games_players(uint64_t txfee,struct CCcontract_info *cp,cJSON *params)
 UniValue games_games(uint64_t txfee,struct CCcontract_info *cp,cJSON *params)
 {
     UniValue result(UniValue::VOBJ),a(UniValue::VARR),b(UniValue::VARR); uint256 txid,hashBlock,gametxid,tokenid,playertxid; int32_t vout,maxplayers,gameheight,numvouts; CPubKey gamespk,mypk; char coinaddr[64]; CTransaction tx,gametx; int64_t buyin;
-    std::vector<std::pair<CAddressIndexKey, CAmount> > addressIndex;
+    std::vector<uint256> txids;
     gamespk = GetUnspendable(cp,0);
     mypk = pubkey2pk(Mypubkey());
     GetCCaddress1of2(cp,coinaddr,gamespk,mypk);
-    SetCCtxids(addressIndex,coinaddr,true);
+    SetCCtxids(txids,coinaddr,true,cp->evalcode,zeroid,'R');
     games_univalue(result,"games",-1,-1);
-    for (std::vector<std::pair<CAddressIndexKey, CAmount> >::const_iterator it=addressIndex.begin(); it!=addressIndex.end(); it++)
+    for (std::vector<uint256>::const_iterator it=txids.begin(); it!=txids.end(); it++)
     {
-        txid = it->first.txhash;
-        vout = (int32_t)it->first.index;
-        //char str[65]; LogPrintf("%s check %s/v%d %.8f\n",coinaddr,uint256_str(str,txid),vout,(double)it->second.satoshis/COIN);
-        if ( vout == 0 )
+        txid = *it;
+        //char str[65]; fprintf(stderr,"%s check %s/v%d %.8f\n",coinaddr,uint256_str(str,txid),vout,(double)it->second.satoshis/COIN);
+        if ( myGetTransaction(txid,tx,hashBlock) != 0 && (numvouts= tx.vout.size()) > 1 )
         {
-            if ( myGetTransaction(txid,tx,hashBlock) != 0 && (numvouts= tx.vout.size()) > 1 )
+            if ( games_registeropretdecode(gametxid,tokenid,playertxid,tx.vout[numvouts-1].scriptPubKey) == 'R' )
             {
-                if ( games_registeropretdecode(gametxid,tokenid,playertxid,tx.vout[numvouts-1].scriptPubKey) == 'R' )
+                if ( games_isvalidgame(cp,gameheight,gametx,buyin,maxplayers,gametxid,0) == 0 )
                 {
-                    if ( games_isvalidgame(cp,gameheight,gametx,buyin,maxplayers,gametxid,0) == 0 )
-                    {
-                        if ( CCgettxout(txid,vout,1,0) < 0 )
-                            b.push_back(gametxid.GetHex());
-                        else a.push_back(gametxid.GetHex());
-                    }
+                    if ( CCgettxout(txid,vout,1,0) < 0 )
+                        b.push_back(gametxid.GetHex());
+                    else a.push_back(gametxid.GetHex());
                 }
             }
         }

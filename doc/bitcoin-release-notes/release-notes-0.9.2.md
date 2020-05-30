@@ -201,7 +201,7 @@ Thanks to everyone who contributed to this release:
 - super3
 - Telepatheic
 - Thomas Zander
-- Torstein Husebø
+- Torstein HusebÃ¸
 - Warren Togami
 - Wladimir J. van der Laan
 - Yoichi Hirai

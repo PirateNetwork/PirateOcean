@@ -48,7 +48,7 @@ command(struct rogue_state *rs)
          */
         if (on(player, ISSLOW|ISGREED|ISINVIS|ISREGEN|ISTARGET))
             exit(1);
-        
+
         look(rs,TRUE);
         if (!running)
             door_stop = FALSE;
@@ -286,15 +286,15 @@ over:
 		when 'R': ring_off(rs);
 		when 'o': option(rs); after = FALSE;
 		when 'c': call(rs); after = FALSE;
-                
+
         when '>': after = FALSE; d_level(rs);
                 if ( rs->guiflag != 0 && rs->needflush == 0 )
                     rs->needflush = (uint32_t)time(NULL);
-                
+
 		when '<': after = FALSE; u_level(rs);
                 if ( rs->guiflag != 0 && rs->needflush == 0 )
                     rs->needflush = (uint32_t)time(NULL);
-               
+
 		when '?': after = FALSE; help(rs);
 		when '/': after = FALSE; identify(rs);
 		when 's': search(rs);
@@ -312,7 +312,7 @@ over:
 		when 'v':
 		    after = FALSE;
 		    msg(rs,"version %s. (mctesq was here)", release);
-		when 'S': 
+		when 'S':
             after = FALSE;
 #ifdef STANDALONE
             save_game(rs);
@@ -350,7 +350,7 @@ over:
 		    else
 		    {
 			wizard = passwd();
-			if (wizard) 
+			if (wizard)
 			{
 			    noscore = TRUE;
 			    turn_see(rs,FALSE);
@@ -508,7 +508,7 @@ search(struct rogue_state *rs)
     probinc = (on(player, ISHALU) ? 3 : 0);
     probinc += (on(player, ISBLIND) ? 2 : 0);
     found = FALSE;
-    for (y = hero.y - 1; y <= ey; y++) 
+    for (y = hero.y - 1; y <= ey; y++)
 	for (x = hero.x - 1; x <= ex; x++)
 	{
 	    if (y == hero.y && x == hero.x)

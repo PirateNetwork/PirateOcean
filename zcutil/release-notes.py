@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import re, sys, os, os.path
 import subprocess
 import argparse
@@ -5,9 +7,7 @@ from itertools import islice
 from operator import itemgetter
 
 author_aliases = {
-    'Simon': 'Simon Liu',
-    'bitcartel': 'Simon Liu',
-    'EthanHeilman': 'Ethan Heilman',
+    'JoeSchmoe': 'Joe Schmoe'
 }
 
 def apply_author_aliases(name):
@@ -52,7 +52,7 @@ def document_authors():
     print "Writing contributors documented in release-notes directory to authors.md."
     authors_file = os.path.join(doc_dir, 'authors.md')
     with open(authors_file, 'w') as f:
-        f.write('Zcash Contributors\n==================\n\n')
+        f.write('PirateOcean Contributors\n==================\n\n')
         total_contrib = {}
         for notes in os.listdir(os.path.join(doc_dir, 'release-notes')):
             authors = authors_in_release_notes(notes)
@@ -72,14 +72,17 @@ def generate_release_note(version, filename):
     print "Automatically generating release notes for {0} from git shortlog. Should review {1} for accuracy.".format(version, filename)
     # fetches latest tags, so that latest_tag will be correct
     subprocess.Popen(['git fetch -t'], shell=True, stdout=subprocess.PIPE).communicate()[0]
-    latest_tag = subprocess.Popen(['git describe --abbrev=0'], shell=True, stdout=subprocess.PIPE).communicate()[0].strip()
+    latest_tag = subprocess.Popen(['git describe --abbrev=0 --tags `git rev-list --tags --skip=1 --max-count=1`'], shell=True, stdout=subprocess.PIPE).communicate()[0].strip()
     print "Previous release tag: ", latest_tag
-    notes = subprocess.Popen(['git shortlog --no-merges {0}..HEAD'.format(latest_tag)], shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE).communicate()[0]
+    notes = subprocess.Popen(['git shortlog --no-merges {0}..{1}'.format(latest_tag,version)], shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE).communicate()[0]
     lines = notes.split('\n')
     lines = [alias_authors_in_release_notes(line) for line in lines]
     release_note = os.path.join(doc_dir, 'release-notes', 'release-notes-{0}.md'.format(version))
-    with open(release_note, 'w') as f:
-        f.writelines('\n'.join(lines))
+    if not os.path.exists(release_note):
+        with open(release_note, 'w'): pass
+    with open(release_note, 'w') as fp: 
+        pass
+        fp.writelines('\n'.join(lines))
 
 def main(version, filename):
     if version != None:

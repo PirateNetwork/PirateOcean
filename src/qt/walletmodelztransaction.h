@@ -32,7 +32,7 @@ public:
     boost::optional<TransactionBuilder> getBuilder() const;
 
     void setContextualTx(const CMutableTransaction& newContextualTx);
-    CMutableTransaction getContextualTx() const;        
+    CMutableTransaction getContextualTx() const;
 
     void setTaddrRecipients(const std::vector<SendManyRecipient>& newTaddrRecipients);
     std::vector<SendManyRecipient> getTaddrRecipients() const;

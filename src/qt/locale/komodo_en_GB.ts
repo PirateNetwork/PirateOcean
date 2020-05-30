@@ -323,7 +323,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Pirate network</source>
-        <translation><numerusform>%n active connection to Pirate network</numerusform><numerusform>%n active connections to Pirate network</numerusform></translation>
+        <translation><numerusform>%n active connection to Pirate network</numerusform><numerusform>%n active connections to Komodo network</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -927,8 +927,8 @@
         <translation>Watch-only:</translation>
     </message>
     <message>
-        <source>Available:</source>
-        <translation>Available:</translation>
+        <source>Transparent:</source>
+        <translation>Transparent:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1652,8 +1652,8 @@
         <translation>Enter a label for this address to add it to the list of used addresses</translation>
     </message>
     <message>
-        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pirate network.</source>
-        <translation>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pirate network.</translation>
+        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Komodo network.</source>
+        <translation>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Komodo network.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1836,7 +1836,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
         <translation>Options:</translation>

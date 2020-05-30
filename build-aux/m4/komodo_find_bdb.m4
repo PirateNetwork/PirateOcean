@@ -51,7 +51,7 @@ AC_DEFUN([KOMODO_FIND_BDB62],[
     bdbpath="${bdb62path}"
   fi
   AC_SUBST(BDB_CPPFLAGS)
-
+  
   # TODO: Ideally this could find the library version and make sure it matches the headers being used
   for searchlib in db_cxx-6.2 db_cxx; do
     AC_CHECK_LIB([$searchlib],[main],[

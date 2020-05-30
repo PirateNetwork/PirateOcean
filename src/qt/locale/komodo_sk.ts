@@ -3,91 +3,91 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Kliknutím pravým tlačidlom upraviť adresu alebo popis</translation>
+        <translation>KliknutÃ­m pravÃ½m tlaÄidlom upraviÅ¥ adresu alebo popis</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Vytvoriť novú adresu</translation>
+        <translation>VytvoriÅ¥ novÃº adresu</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Nový</translation>
+        <translation>&amp;NovÃ½</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Zkopírovať práve zvolenú adresu</translation>
+        <translation>ZkopÃ­rovaÅ¥ prÃ¡ve zvolenÃº adresu</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopírovať</translation>
+        <translation>&amp;KopÃ­rovaÅ¥</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>Zatvoriť</translation>
+        <translation>ZatvoriÅ¥</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Vymaž vybranú adresu zo zoznamu</translation>
+        <translation>VymaÅ¾ vybranÃº adresu zo zoznamu</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportovať tento náhľad do súboru</translation>
+        <translation>ExportovaÅ¥ tento nÃ¡hÄ¾ad do sÃºboru</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Exportovať...</translation>
+        <translation>&amp;ExportovaÅ¥...</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Zmazať</translation>
+        <translation>&amp;ZmazaÅ¥</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Zvoľte adresu kam poslať mince</translation>
+        <translation>ZvoÄ¾te adresu kam poslaÅ¥ mince</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Zvoľte adresu na ktorú chcete prijať mince</translation>
+        <translation>ZvoÄ¾te adresu na ktorÃº chcete prijaÅ¥ mince</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>Vybrať</translation>
+        <translation>VybraÅ¥</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Odosielajúce adresy</translation>
+        <translation>OdosielajÃºce adresy</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Prijímajúce adresy</translation>
+        <translation>PrijÃ­majÃºce adresy</translation>
     </message>
     <message>
         <source>These are your Pirate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše Pirate adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
+        <translation>Toto sÃº VaÅ¡e Pirate adresy pre posielanie platieb. VÅ¾dy skontrolujte sumu a prijÃ­maciu adresu pred poslanÃ­m mincÃ­.</translation>
     </message>
     <message>
         <source>These are your Pirate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Pirate adresy pre prijímanie platieb. Odporúča sa použiť vždy novú prijímaciu adresu pre každú transakciu.</translation>
+        <translation>Toto sÃº vaÅ¡e Pirate adresy pre prijÃ­manie platieb. OdporÃºÄa sa pouÅ¾iÅ¥ vÅ¾dy novÃº prijÃ­maciu adresu pre kaÅ¾dÃº transakciu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopírovať adresu</translation>
+        <translation>&amp;KopÃ­rovaÅ¥ adresu</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Kopírovať &amp;popis</translation>
+        <translation>KopÃ­rovaÅ¥ &amp;popis</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Upraviť</translation>
+        <translation>&amp;UpraviÅ¥</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Exportovať zoznam adries</translation>
+        <translation>ExportovaÅ¥ zoznam adries</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Čiarkou oddelovaný súbor (*.csv)</translation>
+        <translation>Äiarkou oddelovanÃ½ sÃºbor (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Nastala chyba pri pokuse uložiť zoznam adries do %1. Skúste znovu.</translation>
+        <translation>Nastala chyba pri pokuse uloÅ¾iÅ¥ zoznam adries do %1. SkÃºste znovu.</translation>
     </message>
 </context>
 <context>
@@ -117,7 +117,7 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Dialóg hesla</translation>
+        <translation>DialÃ³g hesla</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
@@ -125,35 +125,35 @@
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nové heslo</translation>
+        <translation>NovÃ© heslo</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Zopakujte nové heslo</translation>
+        <translation>Zopakujte novÃ© heslo</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Zadajte nové heslo k peňaženke.&lt;br/&gt;Prosím použite heslo s dĺžkou &lt;b&gt;desať alebo viac náhodných znakov&lt;/b&gt;, prípadne &lt;b&gt;osem alebo viac slov&lt;/b&gt;.</translation>
+        <translation>Zadajte novÃ© heslo k peÅaÅ¾enke.&lt;br/&gt;ProsÃ­m pouÅ¾ite heslo s dÄºÅ¾kou &lt;b&gt;desaÅ¥ alebo viac nÃ¡hodnÃ½ch znakov&lt;/b&gt;, prÃ­padne &lt;b&gt;osem alebo viac slov&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Zašifrovať peňaženku</translation>
+        <translation>ZaÅ¡ifrovaÅ¥ peÅaÅ¾enku</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Táto operácia potrebuje heslo k vašej peňaženke aby ju mohla odomknúť.</translation>
+        <translation>TÃ¡to operÃ¡cia potrebuje heslo k vaÅ¡ej peÅaÅ¾enke aby ju mohla odomknÃºÅ¥.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Odomknúť peňaženku</translation>
+        <translation>OdomknÃºÅ¥ peÅaÅ¾enku</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Táto operácia potrebuje heslo k vašej peňaženke na dešifrovanie peňaženky.</translation>
+        <translation>TÃ¡to operÃ¡cia potrebuje heslo k vaÅ¡ej peÅaÅ¾enke na deÅ¡ifrovanie peÅaÅ¾enky.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Dešifrovať peňaženku</translation>
+        <translation>DeÅ¡ifrovaÅ¥ peÅaÅ¾enku</translation>
     </message>
     <message>
         <source>Change passphrase</source>
@@ -161,63 +161,63 @@
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Zadajte staré heslo a nové heslo k peňaženke.</translation>
+        <translation>Zadajte starÃ© heslo a novÃ© heslo k peÅaÅ¾enke.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Potvrďte zašifrovanie peňaženky</translation>
+        <translation>PotvrÄte zaÅ¡ifrovanie peÅaÅ¾enky</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE PirateY&lt;/b&gt;!</translation>
+        <translation>Varovanie: Ak zaÅ¡ifrujete peÅaÅ¾enku a stratÃ­te heslo, &lt;b&gt;STRATÃTE VÅ ETKY VAÅ E PirateY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Ste si istí, že si želáte zašifrovať peňaženku?</translation>
+        <translation>Ste si istÃ­, Å¾e si Å¾elÃ¡te zaÅ¡ifrovaÅ¥ peÅaÅ¾enku?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Peňaženka zašifrovaná</translation>
+        <translation>PeÅaÅ¾enka zaÅ¡ifrovanÃ¡</translation>
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>%1 sa teraz zavrie, aby sa ukončil proces šifrovania. Zašifrovanie peňaženky neochráni úplne pred krádežou Pirateov škodlivými programami, ktoré prenikli do vášho počítača.</translation>
+        <translation>%1 sa teraz zavrie, aby sa ukonÄil proces Å¡ifrovania. ZaÅ¡ifrovanie peÅaÅ¾enky neochrÃ¡ni Ãºplne pred krÃ¡deÅ¾ou Pirateov Å¡kodlivÃ½mi programami, ktorÃ© prenikli do vÃ¡Å¡ho poÄÃ­taÄa.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>DÔLEŽITÉ: Všetky predchádzajúce zálohy vašej peňaženky, ktoré ste vykonali by mali byť nahradené novo vytvorenou, zašifrovanou peňaženkou. Z bezpečnostných dôvodov bude predchádzajúca záloha nezašifrovanej peňaženky k ničomu, akonáhle začnete používať novú, zašifrovanú peňaženku.</translation>
+        <translation>DÃLEÅ½ITÃ: VÅ¡etky predchÃ¡dzajÃºce zÃ¡lohy vaÅ¡ej peÅaÅ¾enky, ktorÃ© ste vykonali by mali byÅ¥ nahradenÃ© novo vytvorenou, zaÅ¡ifrovanou peÅaÅ¾enkou. Z bezpeÄnostnÃ½ch dÃ´vodov bude predchÃ¡dzajÃºca zÃ¡loha nezaÅ¡ifrovanej peÅaÅ¾enky k niÄomu, akonÃ¡hle zaÄnete pouÅ¾Ã­vaÅ¥ novÃº, zaÅ¡ifrovanÃº peÅaÅ¾enku.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Šifrovanie peňaženky zlyhalo</translation>
+        <translation>Å ifrovanie peÅaÅ¾enky zlyhalo</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Šifrovanie peňaženky zlyhalo kôli internej chybe. Vaša peňaženka nebola zašifrovaná.</translation>
+        <translation>Å ifrovanie peÅaÅ¾enky zlyhalo kÃ´li internej chybe. VaÅ¡a peÅaÅ¾enka nebola zaÅ¡ifrovanÃ¡.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Zadané heslá nesúhlasia.</translation>
+        <translation>ZadanÃ© heslÃ¡ nesÃºhlasia.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Odomykanie peňaženky zlyhalo</translation>
+        <translation>Odomykanie peÅaÅ¾enky zlyhalo</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Zadané heslo pre dešifrovanie peňaženky bolo nesprávne.</translation>
+        <translation>ZadanÃ© heslo pre deÅ¡ifrovanie peÅaÅ¾enky bolo nesprÃ¡vne.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Zlyhalo šifrovanie peňaženky.</translation>
+        <translation>Zlyhalo Å¡ifrovanie peÅaÅ¾enky.</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Heslo k peňaženke bolo úspešne zmenené.</translation>
+        <translation>Heslo k peÅaÅ¾enke bolo ÃºspeÅ¡ne zmenenÃ©.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Upozornenie: Máte zapnutý Caps Lock!</translation>
+        <translation>Upozornenie: MÃ¡te zapnutÃ½ Caps Lock!</translation>
     </message>
 </context>
 <context>
@@ -228,22 +228,22 @@
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Blokovaný do</translation>
+        <translation>BlokovanÃ½ do</translation>
     </message>
 </context>
 <context>
     <name>PirateOceanGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Podpísať &amp;správu...</translation>
+        <translation>PodpÃ­saÅ¥ &amp;sprÃ¡vu...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synchronizácia so sieťou...</translation>
+        <translation>SynchronizÃ¡cia so sieÅ¥ou...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Prehľad</translation>
+        <translation>&amp;PrehÄ¾ad</translation>
     </message>
     <message>
         <source>Node</source>
@@ -251,7 +251,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Zobraziť celkový prehľad o peňaženke</translation>
+        <translation>ZobraziÅ¥ celkovÃ½ prehÄ¾ad o peÅaÅ¾enke</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -259,15 +259,15 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Prechádzať históriu transakcií</translation>
+        <translation>PrechÃ¡dzaÅ¥ histÃ³riu transakciÃ­</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>U&amp;končiť</translation>
+        <translation>U&amp;konÄiÅ¥</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Ukončiť program</translation>
+        <translation>UkonÄiÅ¥ program</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -275,7 +275,7 @@
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>Ukázať informácie o %1</translation>
+        <translation>UkÃ¡zaÅ¥ informÃ¡cie o %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -283,23 +283,23 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Zobrazit informácie o Qt</translation>
+        <translation>Zobrazit informÃ¡cie o Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Možnosti...</translation>
+        <translation>&amp;MoÅ¾nosti...</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>Upraviť nastavenia pre %1</translation>
+        <translation>UpraviÅ¥ nastavenia pre %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Zašifrovať Peňaženku...</translation>
+        <translation>&amp;ZaÅ¡ifrovaÅ¥ PeÅaÅ¾enku...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Zálohovať peňaženku...</translation>
+        <translation>&amp;ZÃ¡lohovaÅ¥ peÅaÅ¾enku...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -307,47 +307,47 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Odosielajúce adresy ...</translation>
+        <translation>&amp;OdosielajÃºce adresy ...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Prijímajúce adresy...</translation>
+        <translation>&amp;PrijÃ­majÃºce adresy...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Otvoriť &amp;URI...</translation>
+        <translation>OtvoriÅ¥ &amp;URI...</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>Kliknite pre zakázanie sieťovej aktivity.</translation>
+        <translation>Kliknite pre zakÃ¡zanie sieÅ¥ovej aktivity.</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>Sieťová aktivita zakázaná.</translation>
+        <translation>SieÅ¥ovÃ¡ aktivita zakÃ¡zanÃ¡.</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>Kliknite pre povolenie sieťovej aktivity.</translation>
+        <translation>Kliknite pre povolenie sieÅ¥ovej aktivity.</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>Synchronizujú sa hlavičky (%1%)...</translation>
+        <translation>SynchronizujÃº sa hlaviÄky (%1%)...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Preindexúvam bloky na disku...</translation>
+        <translation>PreindexÃºvam bloky na disku...</translation>
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Poslať Pirates na adresu</translation>
+        <translation>PoslaÅ¥ Pirates na adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Zálohovať peňaženku na iné miesto</translation>
+        <translation>ZÃ¡lohovaÅ¥ peÅaÅ¾enku na inÃ© miesto</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Zmeniť heslo použité na šifrovanie peňaženky</translation>
+        <translation>ZmeniÅ¥ heslo pouÅ¾itÃ© na Å¡ifrovanie peÅaÅ¾enky</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -359,7 +359,7 @@
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>O&amp;veriť správu...</translation>
+        <translation>O&amp;veriÅ¥ sprÃ¡vu...</translation>
     </message>
     <message>
         <source>Pirate</source>
@@ -367,39 +367,39 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Peňaženka</translation>
+        <translation>PeÅaÅ¾enka</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Odoslať</translation>
+        <translation>&amp;OdoslaÅ¥</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Prijať</translation>
+        <translation>&amp;PrijaÅ¥</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>Zobraziť / skryť</translation>
+        <translation>ZobraziÅ¥ / skryÅ¥</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Zobraziť alebo skryť hlavné okno</translation>
+        <translation>ZobraziÅ¥ alebo skryÅ¥ hlavnÃ© okno</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Zašifruj súkromné kľúče ktoré patria do vašej peňaženky</translation>
+        <translation>ZaÅ¡ifruj sÃºkromnÃ© kÄ¾ÃºÄe ktorÃ© patria do vaÅ¡ej peÅaÅ¾enky</translation>
     </message>
     <message>
         <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>Podpísať správu s vašou adresou Pirate aby ste preukázali že ju vlastníte</translation>
+        <translation>PodpÃ­saÅ¥ sprÃ¡vu s vaÅ¡ou adresou Pirate aby ste preukÃ¡zali Å¾e ju vlastnÃ­te</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>Overiť či správa bola podpísaná uvedenou Pirate adresou</translation>
+        <translation>OveriÅ¥ Äi sprÃ¡va bola podpÃ­sanÃ¡ uvedenou Pirate adresou</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Súbor</translation>
+        <translation>&amp;SÃºbor</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
@@ -411,31 +411,31 @@
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Lišta záložiek</translation>
+        <translation>LiÅ¡ta zÃ¡loÅ¾iek</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a Pirate: URI)</translation>
+        <translation>VyÅ¾iadaÅ¥ platby (vygeneruje QR kÃ³dy a Pirate: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Zobraziť zoznam použitých adries odosielateľa a ich popisy</translation>
+        <translation>ZobraziÅ¥ zoznam pouÅ¾itÃ½ch adries odosielateÄ¾a a ich popisy</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Zobraziť zoznam použitých prijímacích adries a ich popisov</translation>
+        <translation>ZobraziÅ¥ zoznam pouÅ¾itÃ½ch prijÃ­macÃ­ch adries a ich popisov</translation>
     </message>
     <message>
         <source>Open a Pirate: URI or payment request</source>
-        <translation>Otvoriť Pirate URI alebo výzvu k platbe</translation>
+        <translation>OtvoriÅ¥ Pirate URI alebo vÃ½zvu k platbe</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>Možnosti príkazového riadku</translation>
+        <translation>MoÅ¾nosti prÃ­kazovÃ©ho riadku</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Pirate network</source>
-        <translation><numerusform>%n aktívne pripojenie do siete Pirate</numerusform><numerusform>%n aktívne pripojenia do siete Pirate</numerusform><numerusform>%n aktívnych pripojení do siete Pirate</numerusform></translation>
+        <translation><numerusform>%n aktÃ­vne pripojenie do siete Pirate</numerusform><numerusform>%n aktÃ­vne pripojenia do siete Komodo</numerusform><numerusform>%n aktÃ­vnych pripojenÃ­ do siete Komodo</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -443,11 +443,11 @@
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>Spracovávam bloky na disku...</translation>
+        <translation>SpracovÃ¡vam bloky na disku...</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Spracovaných %n blok transakčnej histórie.</numerusform><numerusform>Spracovaných %n bloky transakčnej histórie.</numerusform><numerusform>Spracovaných %n blokov transakčnej histórie.</numerusform></translation>
+        <translation><numerusform>SpracovanÃ½ch %n blok transakÄnej histÃ³rie.</numerusform><numerusform>SpracovanÃ½ch %n bloky transakÄnej histÃ³rie.</numerusform><numerusform>SpracovanÃ½ch %n blokov transakÄnej histÃ³rie.</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -455,11 +455,11 @@
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Posledný prijatý blok bol vygenerovaný pred: %1.</translation>
+        <translation>PoslednÃ½ prijatÃ½ blok bol vygenerovanÃ½ pred: %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transakcie po tomto čase ešte nebudú viditeľné.</translation>
+        <translation>Transakcie po tomto Äase eÅ¡te nebudÃº viditeÄ¾nÃ©.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -471,15 +471,15 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>Informácia</translation>
+        <translation>InformÃ¡cia</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Aktualizovaný</translation>
+        <translation>AktualizovanÃ½</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Pirate command-line options</source>
-        <translation>Ukáž %1 zoznam možných nastavení Pirateu pomocou príkazového riadku</translation>
+        <translation>UkÃ¡Å¾ %1 zoznam moÅ¾nÃ½ch nastavenÃ­ Pirateu pomocou prÃ­kazovÃ©ho riadku</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -487,16 +487,16 @@
     </message>
     <message>
         <source>Connecting to peers...</source>
-        <translation>Pripája sa k partnerom...</translation>
+        <translation>PripÃ¡ja sa k partnerom...</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Sťahujem...</translation>
+        <translation>SÅ¥ahujem...</translation>
     </message>
     <message>
         <source>Date: %1
 </source>
-        <translation>Dátum: %1
+        <translation>DÃ¡tum: %1
 </translation>
     </message>
     <message>
@@ -525,42 +525,42 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Odoslané transakcie</translation>
+        <translation>OdoslanÃ© transakcie</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Prijatá transakcia</translation>
+        <translation>PrijatÃ¡ transakcia</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>Generovanie HD kľúčov je &lt;b&gt;zapnuté&lt;/b&gt;</translation>
+        <translation>Generovanie HD kÄ¾ÃºÄov je &lt;b&gt;zapnutÃ©&lt;/b&gt;</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>Generovanie HD kľúčov je &lt;b&gt;vypnuté&lt;/b&gt;</translation>
+        <translation>Generovanie HD kÄ¾ÃºÄov je &lt;b&gt;vypnutÃ©&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt;</translation>
+        <translation>PeÅaÅ¾enka je &lt;b&gt;zaÅ¡ifrovanÃ¡&lt;/b&gt; a momentÃ¡lne &lt;b&gt;odomknutÃ¡&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
+        <translation>PeÅaÅ¾enka je &lt;b&gt;zaÅ¡ifrovanÃ¡&lt;/b&gt; a momentÃ¡lne &lt;b&gt;zamknutÃ¡&lt;/b&gt;</translation>
     </message>
     <message>
         <source>A fatal error occurred. Pirate can no longer continue safely and will quit.</source>
-        <translation>Vyskytla sa kritická chyba. Pirate nemôže ďalej bezpečne pokračovať a ukončí sa.</translation>
+        <translation>Vyskytla sa kritickÃ¡ chyba. Pirate nemÃ´Å¾e Äalej bezpeÄne pokraÄovaÅ¥ a ukonÄÃ­ sa.</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>Výber mince</translation>
+        <translation>VÃ½ber mince</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Množstvo:</translation>
+        <translation>MnoÅ¾stvo:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -588,15 +588,15 @@
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(ne)vybrať všetko</translation>
+        <translation>(ne)vybraÅ¥ vÅ¡etko</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Stromový režim</translation>
+        <translation>StromovÃ½ reÅ¾im</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Zoznamový režim</translation>
+        <translation>ZoznamovÃ½ reÅ¾im</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -604,15 +604,15 @@
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Prijaté s označením</translation>
+        <translation>PrijatÃ© s oznaÄenÃ­m</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Prijaté s adresou</translation>
+        <translation>PrijatÃ© s adresou</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>DÃ¡tum</translation>
     </message>
     <message>
         <source>Confirmations</source>
@@ -620,63 +620,63 @@
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Potvrdené</translation>
+        <translation>PotvrdenÃ©</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopírovať adresu</translation>
+        <translation>KopÃ­rovaÅ¥ adresu</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopírovať popis</translation>
+        <translation>KopÃ­rovaÅ¥ popis</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopírovať sumu</translation>
+        <translation>KopÃ­rovaÅ¥ sumu</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopírovať ID transakcie</translation>
+        <translation>KopÃ­rovaÅ¥ ID transakcie</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Uzamknúť neminuté</translation>
+        <translation>UzamknÃºÅ¥ neminutÃ©</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Odomknúť neminuté</translation>
+        <translation>OdomknÃºÅ¥ neminutÃ©</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopírovať množstvo</translation>
+        <translation>KopÃ­rovaÅ¥ mnoÅ¾stvo</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Kopírovať poplatok</translation>
+        <translation>KopÃ­rovaÅ¥ poplatok</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Kopírovať po poplatkoch</translation>
+        <translation>KopÃ­rovaÅ¥ po poplatkoch</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Kopírovať bajty</translation>
+        <translation>KopÃ­rovaÅ¥ bajty</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopírovať prach</translation>
+        <translation>KopÃ­rovaÅ¥ prach</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopírovať zmenu</translation>
+        <translation>KopÃ­rovaÅ¥ zmenu</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 zamknutých)</translation>
+        <translation>(%1 zamknutÃ½ch)</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>áno</translation>
+        <translation>Ã¡no</translation>
     </message>
     <message>
         <source>no</source>
@@ -684,11 +684,11 @@
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Tento popis sčervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako súčasný limit pre "prach".</translation>
+        <translation>Tento popis sÄervenie ak ktorÃ½koÄ¾vek prÃ­jemca dostane sumu menÅ¡iu ako sÃºÄasnÃ½ limit pre "prach".</translation>
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Môže sa líšiť o +/- %1 satoshi pre každý vstup.</translation>
+        <translation>MÃ´Å¾e sa lÃ­Å¡iÅ¥ o +/- %1 satoshi pre kaÅ¾dÃ½ vstup.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -707,7 +707,7 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Upraviť adresu</translation>
+        <translation>UpraviÅ¥ adresu</translation>
     </message>
     <message>
         <source>&amp;Label</source>
@@ -715,11 +715,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Popis tejto položký v zozname adries je prázdny</translation>
+        <translation>Popis tejto poloÅ¾kÃ½ v zozname adries je prÃ¡zdny</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Adresa spojená s týmto záznamom v adresári. Možno upravovať len pre odosielajúce adresy.</translation>
+        <translation>Adresa spojenÃ¡ s tÃ½mto zÃ¡znamom v adresÃ¡ri. MoÅ¾no upravovaÅ¥ len pre odosielajÃºce adresy.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -727,58 +727,58 @@
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Nová adresa pre prijímanie</translation>
+        <translation>NovÃ¡ adresa pre prijÃ­manie</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Nová adresa pre odoslanie</translation>
+        <translation>NovÃ¡ adresa pre odoslanie</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Upraviť prijímajúcu adresu</translation>
+        <translation>UpraviÅ¥ prijÃ­majÃºcu adresu</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Upraviť odosielaciu adresu</translation>
+        <translation>UpraviÅ¥ odosielaciu adresu</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Pirate address.</source>
-        <translation>Vložená adresa "%1" nieje platnou adresou Pirate.</translation>
+        <translation>VloÅ¾enÃ¡ adresa "%1" nieje platnou adresou Pirate.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Vložená adresa "%1" sa už nachádza v adresári.</translation>
+        <translation>VloÅ¾enÃ¡ adresa "%1" sa uÅ¾ nachÃ¡dza v adresÃ¡ri.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Nepodarilo sa odomknúť peňaženku.</translation>
+        <translation>Nepodarilo sa odomknÃºÅ¥ peÅaÅ¾enku.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Generovanie nového kľúča zlyhalo.</translation>
+        <translation>Generovanie novÃ©ho kÄ¾ÃºÄa zlyhalo.</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Bude vytvorený nový dátový adresár.</translation>
+        <translation>Bude vytvorenÃ½ novÃ½ dÃ¡tovÃ½ adresÃ¡r.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>názov</translation>
+        <translation>nÃ¡zov</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Priečinok už existuje. Pridajte "%1" ak chcete vytvoriť nový priečinok tu.</translation>
+        <translation>PrieÄinok uÅ¾ existuje. Pridajte "%1" ak chcete vytvoriÅ¥ novÃ½ prieÄinok tu.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Cesta už existuje a nie je to adresár.</translation>
+        <translation>Cesta uÅ¾ existuje a nie je to adresÃ¡r.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Tu nemôžem vytvoriť dátový adresár.</translation>
+        <translation>Tu nemÃ´Å¾em vytvoriÅ¥ dÃ¡tovÃ½ adresÃ¡r.</translation>
     </message>
 </context>
 <context>
@@ -797,43 +797,43 @@
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Voľby príkazového riadku</translation>
+        <translation>VoÄ¾by prÃ­kazovÃ©ho riadku</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Použitie:</translation>
+        <translation>PouÅ¾itie:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>voľby príkazového riadku</translation>
+        <translation>voÄ¾by prÃ­kazovÃ©ho riadku</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>Možnosti používateľského rozhrania:</translation>
+        <translation>MoÅ¾nosti pouÅ¾Ã­vateÄ¾skÃ©ho rozhrania:</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>Vyberte dátový priečinok pri štarte (predvolené: %u)</translation>
+        <translation>Vyberte dÃ¡tovÃ½ prieÄinok pri Å¡tarte (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Nastavte jazyk, napríklad "de_DE" (predvolené: podľa systému)</translation>
+        <translation>Nastavte jazyk, naprÃ­klad "de_DE" (predvolenÃ©: podÄ¾a systÃ©mu)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Spustiť minimalizované</translation>
+        <translation>SpustiÅ¥ minimalizovanÃ©</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Nastaviť SSL root certifikáty pre vyžiadanie platby (predvolené: -system-)</translation>
+        <translation>NastaviÅ¥ SSL root certifikÃ¡ty pre vyÅ¾iadanie platby (predvolenÃ©: -system-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>Zobraziť uvítaciu obrazovku pri štarte (predvolené: %u)</translation>
+        <translation>ZobraziÅ¥ uvÃ­taciu obrazovku pri Å¡tarte (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Reset all settings changed in the GUI</source>
-        <translation>Zrušiť všetky zmeny v GUI</translation>
+        <translation>ZruÅ¡iÅ¥ vÅ¡etky zmeny v GUI</translation>
     </message>
 </context>
 <context>
@@ -848,23 +848,23 @@
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>Keďže toto je prvé spustenie programu, môžete si vybrať, kam %1 bude ukladať vaše údaje.</translation>
+        <translation>KeÄÅ¾e toto je prvÃ© spustenie programu, mÃ´Å¾ete si vybraÅ¥, kam %1 bude ukladaÅ¥ vaÅ¡e Ãºdaje.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Pirate block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 stiahne a uloží kópiu Pirate block chain. Minimálne %2GB dát bude uložených v tejto zložke, a bude sa zväčšovať postupom času. Peňaženka bude taktiež uložená v tejto zložke.</translation>
+        <translation>%1 stiahne a uloÅ¾Ã­ kÃ³piu Pirate block chain. MinimÃ¡lne %2GB dÃ¡t bude uloÅ¾enÃ½ch v tejto zloÅ¾ke, a bude sa zvÃ¤ÄÅ¡ovaÅ¥ postupom Äasu. PeÅaÅ¾enka bude taktieÅ¾ uloÅ¾enÃ¡ v tejto zloÅ¾ke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Použiť predvolený dátový adresár</translation>
+        <translation>PouÅ¾iÅ¥ predvolenÃ½ dÃ¡tovÃ½ adresÃ¡r</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Použiť vlastný dátový adresár:</translation>
+        <translation>PouÅ¾iÅ¥ vlastnÃ½ dÃ¡tovÃ½ adresÃ¡r:</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Chyba: Zadaný priečinok pre dáta "%1" nemôže byť vytvorený.</translation>
+        <translation>Chyba: ZadanÃ½ prieÄinok pre dÃ¡ta "%1" nemÃ´Å¾e byÅ¥ vytvorenÃ½.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -872,11 +872,11 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB voľného miesta</numerusform><numerusform>%n GB voľného miesta</numerusform><numerusform>%n GB voľného miesta</numerusform></translation>
+        <translation><numerusform>%n GB voÄ¾nÃ©ho miesta</numerusform><numerusform>%n GB voÄ¾nÃ©ho miesta</numerusform><numerusform>%n GB voÄ¾nÃ©ho miesta</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(z %n GB potrebného)</numerusform><numerusform>(z %n GB potrebných)</numerusform><numerusform>(z %n GB potrebných)</numerusform></translation>
+        <translation><numerusform>(z %n GB potrebnÃ©ho)</numerusform><numerusform>(z %n GB potrebnÃ½ch)</numerusform><numerusform>(z %n GB potrebnÃ½ch)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -887,58 +887,58 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Pirate network, as detailed below.</source>
-        <translation>Nedávne transakcie nemusia byť ešte viditeľné preto môže byť zostatok vo vašej peňaženke nesprávny. Táto informácia bude správna keď sa dokončí synchronizovanie peňaženky so sieťou Pirate, ako je rozpísané nižšie.</translation>
+        <translation>NedÃ¡vne transakcie nemusia byÅ¥ eÅ¡te viditeÄ¾nÃ© preto mÃ´Å¾e byÅ¥ zostatok vo vaÅ¡ej peÅaÅ¾enke nesprÃ¡vny. TÃ¡to informÃ¡cia bude sprÃ¡vna keÄ sa dokonÄÃ­ synchronizovanie peÅaÅ¾enky so sieÅ¥ou Pirate, ako je rozpÃ­sanÃ© niÅ¾Å¡ie.</translation>
     </message>
     <message>
         <source>Attempting to spend coins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Pokus o minutie Pirateov, ktoré sú ovplyvnené ešte nezobrazenými transakciami, nebude sieťou akceptovaný.</translation>
+        <translation>Pokus o minutie Pirateov, ktorÃ© sÃº ovplyvnenÃ© eÅ¡te nezobrazenÃ½mi transakciami, nebude sieÅ¥ou akceptovanÃ½.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
-        <translation>Počet zostávajúcich blokov</translation>
+        <translation>PoÄet zostÃ¡vajÃºcich blokov</translation>
     </message>
     <message>
         <source>Unknown...</source>
-        <translation>Neznáme...</translation>
+        <translation>NeznÃ¡me...</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Čas posledného bloku</translation>
+        <translation>Äas poslednÃ©ho bloku</translation>
     </message>
     <message>
         <source>Progress</source>
-        <translation>Postup synchronizácie</translation>
+        <translation>Postup synchronizÃ¡cie</translation>
     </message>
     <message>
         <source>Progress increase per hour</source>
-        <translation>Prírastok postupu za hodinu</translation>
+        <translation>PrÃ­rastok postupu za hodinu</translation>
     </message>
     <message>
         <source>calculating...</source>
-        <translation>počíta sa...</translation>
+        <translation>poÄÃ­ta sa...</translation>
     </message>
     <message>
         <source>Estimated time left until synced</source>
-        <translation>Odhadovaný čas do ukončenia synchronizácie</translation>
+        <translation>OdhadovanÃ½ Äas do ukonÄenia synchronizÃ¡cie</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Skryť</translation>
+        <translation>SkryÅ¥</translation>
     </message>
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Neznámy. Synchronizujú sa hlavičky (%1)...</translation>
+        <translation>NeznÃ¡my. SynchronizujÃº sa hlaviÄky (%1)...</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Otvoriť URI</translation>
+        <translation>OtvoriÅ¥ URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Otvoriť požiadavku na zaplatenie z URI alebo súboru</translation>
+        <translation>OtvoriÅ¥ poÅ¾iadavku na zaplatenie z URI alebo sÃºboru</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -946,34 +946,34 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Vyberte súbor s výzvou k platbe</translation>
+        <translation>Vyberte sÃºbor s vÃ½zvou k platbe</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Vyberte ktorý súbor s výzvou na platbu otvoriť</translation>
+        <translation>Vyberte ktorÃ½ sÃºbor s vÃ½zvou na platbu otvoriÅ¥</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Možnosti</translation>
+        <translation>MoÅ¾nosti</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Hlavné</translation>
+        <translation>&amp;HlavnÃ©</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
-        <translation>Automaticky spustiť %1 pri spustení systému.</translation>
+        <translation>Automaticky spustiÅ¥ %1 pri spustenÃ­ systÃ©mu.</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
-        <translation>&amp;Spustiť %1 pri prihlásení</translation>
+        <translation>&amp;SpustiÅ¥ %1 pri prihlÃ¡senÃ­</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Veľkosť vyrovnávacej pamäti &amp;databázy</translation>
+        <translation>VeÄ¾kosÅ¥ vyrovnÃ¡vacej pamÃ¤ti &amp;databÃ¡zy</translation>
     </message>
     <message>
         <source>MB</source>
@@ -981,15 +981,15 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Počet &amp;vlákien overujúcich skript</translation>
+        <translation>PoÄet &amp;vlÃ¡kien overujÃºcich skript</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Prijať spojenia zvonku</translation>
+        <translation>PrijaÅ¥ spojenia zvonku</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Povoliť prichádzajúce spojenia</translation>
+        <translation>PovoliÅ¥ prichÃ¡dzajÃºce spojenia</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -997,39 +997,39 @@
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimalizovať namiesto ukončenia aplikácie keď sa okno zavrie. Keď je zvolená táto možnosť, aplikácia sa zavrie len po zvolení Ukončiť v menu.</translation>
+        <translation>MinimalizovaÅ¥ namiesto ukonÄenia aplikÃ¡cie keÄ sa okno zavrie. KeÄ je zvolenÃ¡ tÃ¡to moÅ¾nosÅ¥, aplikÃ¡cia sa zavrie len po zvolenÃ­ UkonÄiÅ¥ v menu.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL tretích strán (napr. prehliadač blockchain) ktoré sa zobrazujú v záložke transakcií ako položky kontextového menu. %s v URL je nahradené hash-om transakcie. Viaceré URL sú oddelené zvislou čiarou |.</translation>
+        <translation>URL tretÃ­ch strÃ¡n (napr. prehliadaÄ blockchain) ktorÃ© sa zobrazujÃº v zÃ¡loÅ¾ke transakciÃ­ ako poloÅ¾ky kontextovÃ©ho menu. %s v URL je nahradenÃ© hash-om transakcie. ViacerÃ© URL sÃº oddelenÃ© zvislou Äiarou |.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>URL transakcií s tretími stranami</translation>
+        <translation>URL transakciÃ­ s tretÃ­mi stranami</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Aktívne možnosti príkazového riadku ktoré prepíšu možnosti vyššie:</translation>
+        <translation>AktÃ­vne moÅ¾nosti prÃ­kazovÃ©ho riadku ktorÃ© prepÃ­Å¡u moÅ¾nosti vyÅ¡Å¡ie:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Vynulovať všetky voľby klienta na predvolené.</translation>
+        <translation>VynulovaÅ¥ vÅ¡etky voÄ¾by klienta na predvolenÃ©.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>Vynulovať voľby</translation>
+        <translation>VynulovaÅ¥ voÄ¾by</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Sieť</translation>
+        <translation>&amp;SieÅ¥</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = auto, &lt;0 = nechať toľko jadier voľných)</translation>
+        <translation>(0 = auto, &lt;0 = nechaÅ¥ toÄ¾ko jadier voÄ¾nÃ½ch)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>&amp;Peňaženka</translation>
+        <translation>&amp;PeÅaÅ¾enka</translation>
     </message>
     <message>
         <source>Expert</source>
@@ -1037,31 +1037,31 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Povoliť možnosti "&amp;coin control"</translation>
+        <translation>PovoliÅ¥ moÅ¾nosti "&amp;coin control"</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Ak vypnete míňanie nepotvrdeného výdavku tak výdavok z transakcie bude možné použiť až keď daná transakcia bude mať aspoň jedno potvrdenie. Toto má vplyv aj na výpočet vášho zostatku.</translation>
+        <translation>Ak vypnete mÃ­Åanie nepotvrdenÃ©ho vÃ½davku tak vÃ½davok z transakcie bude moÅ¾nÃ© pouÅ¾iÅ¥ aÅ¾ keÄ danÃ¡ transakcia bude maÅ¥ aspoÅ jedno potvrdenie. Toto mÃ¡ vplyv aj na vÃ½poÄet vÃ¡Å¡ho zostatku.</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>Minúť nepotvrdený výdavok</translation>
+        <translation>MinÃºÅ¥ nepotvrdenÃ½ vÃ½davok</translation>
     </message>
     <message>
         <source>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre Pirate na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <translation>Automaticky otvorit port pre Pirate na routeri. Toto funguje len ak router podporuje UPnP a je tÃ¡to podpora aktivovanÃ¡.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Mapovať port pomocou &amp;UPnP</translation>
+        <translation>MapovaÅ¥ port pomocou &amp;UPnP</translation>
     </message>
     <message>
         <source>Connect to the Pirate network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť do siete Pirate cez proxy server SOCKS5.</translation>
+        <translation>PripojiÅ¥ do siete Pirate cez proxy server SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Pripojiť cez proxy server SOCKS5 (predvolený proxy).</translation>
+        <translation>&amp;PripojiÅ¥ cez proxy server SOCKS5 (predvolenÃ½ proxy).</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1077,11 +1077,11 @@
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>Použité pre získavanie peerov cez:</translation>
+        <translation>PouÅ¾itÃ© pre zÃ­skavanie peerov cez:</translation>
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Zobrazuje, či je poskytované predvolené SOCKS5 proxy používané pre získavanie peerov cez tento typ siete.</translation>
+        <translation>Zobrazuje, Äi je poskytovanÃ© predvolenÃ© SOCKS5 proxy pouÅ¾Ã­vanÃ© pre zÃ­skavanie peerov cez tento typ siete.</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1097,11 +1097,11 @@
     </message>
     <message>
         <source>Connect to the Pirate network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Pripojiť k Pirateovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
+        <translation>PripojiÅ¥ k Pirateovej sieti cez separovanÃ© SOCKS5 proxy pre skrytÃº sluÅ¾bu Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor:</translation>
+        <translation>PouÅ¾iÅ¥ samostatnÃ½ SOCKS5 proxy server na dosiahnutie poÄÃ­taÄov cez skrytÃ© sluÅ¾by Tor:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1109,23 +1109,23 @@
     </message>
     <message>
         <source>&amp;Hide the icon from the system tray.</source>
-        <translation>&amp;Skryť ikonu zo systémovej lišty.</translation>
+        <translation>&amp;SkryÅ¥ ikonu zo systÃ©movej liÅ¡ty.</translation>
     </message>
     <message>
         <source>Hide tray icon</source>
-        <translation>Skryť ikonu v oblasti oznámení</translation>
+        <translation>SkryÅ¥ ikonu v oblasti oznÃ¡menÃ­</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Zobraziť len ikonu na lište po minimalizovaní okna.</translation>
+        <translation>ZobraziÅ¥ len ikonu na liÅ¡te po minimalizovanÃ­ okna.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>Zobraziť len ikonu na lište po minimalizovaní okna.</translation>
+        <translation>ZobraziÅ¥ len ikonu na liÅ¡te po minimalizovanÃ­ okna.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimalizovať pri zavretí</translation>
+        <translation>M&amp;inimalizovaÅ¥ pri zavretÃ­</translation>
     </message>
     <message>
         <source>&amp;Display</source>
@@ -1133,23 +1133,23 @@
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Jazyk užívateľského rozhrania:</translation>
+        <translation>Jazyk uÅ¾Ã­vateÄ¾skÃ©ho rozhrania:</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>Jazyk uživateľského rozhrania sa dá nastaviť tu. Toto nastavenie sa uplatní až po reštarte %1.</translation>
+        <translation>Jazyk uÅ¾ivateÄ¾skÃ©ho rozhrania sa dÃ¡ nastaviÅ¥ tu. Toto nastavenie sa uplatnÃ­ aÅ¾ po reÅ¡tarte %1.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Zobrazovať hodnoty v jednotkách:</translation>
+        <translation>&amp;ZobrazovaÅ¥ hodnoty v jednotkÃ¡ch:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Zvoľte ako deliť Pirate pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
+        <translation>ZvoÄ¾te ako deliÅ¥ Pirate pri zobrazovanÃ­ pri platbÃ¡ch a uÅ¾Ã­vateÄ¾skom rozhranÃ­.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Či zobrazovať možnosti "Coin control" alebo nie.</translation>
+        <translation>Äi zobrazovaÅ¥ moÅ¾nosti "Coin control" alebo nie.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1157,35 +1157,35 @@
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>Zrušiť</translation>
+        <translation>ZruÅ¡iÅ¥</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>predvolené</translation>
+        <translation>predvolenÃ©</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>žiadne</translation>
+        <translation>Å¾iadne</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Potvrdiť obnovenie možností</translation>
+        <translation>PotvrdiÅ¥ obnovenie moÅ¾nostÃ­</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Reštart klienta potrebný pre aktivovanie zmien.</translation>
+        <translation>ReÅ¡tart klienta potrebnÃ½ pre aktivovanie zmien.</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Klient bude vypnutý, chcete pokračovať?</translation>
+        <translation>Klient bude vypnutÃ½, chcete pokraÄovaÅ¥?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Táto zmena by vyžadovala reštart klienta.</translation>
+        <translation>TÃ¡to zmena by vyÅ¾adovala reÅ¡tart klienta.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Zadaná proxy adresa je neplatná.</translation>
+        <translation>ZadanÃ¡ proxy adresa je neplatnÃ¡.</translation>
     </message>
 </context>
 <context>
@@ -1196,39 +1196,39 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pirate network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Pirate po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
+        <translation>ZobrazenÃ© informÃ¡cie mÃ´Å¾u byÅ¥ neaktuÃ¡lne. VaÅ¡a peÅaÅ¾enka sa automaticky synchronizuje so sieÅ¥ou Pirate po nadviazanÃ­ spojenia, ale tento proces eÅ¡te nie je ukonÄenÃ½.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Iba sledované:</translation>
+        <translation>Iba sledovanÃ©:</translation>
     </message>
     <message>
-        <source>Available:</source>
-        <translation>Disponibilné:</translation>
+        <source>Transparent:</source>
+        <translation>DisponibilnÃ©:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Váš aktuálny disponibilný zostatok</translation>
+        <translation>VÃ¡Å¡ aktuÃ¡lny disponibilnÃ½ zostatok</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>Čakajúce potvrdenie:</translation>
+        <translation>ÄakajÃºce potvrdenie:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Suma transakcií ktoré ešte neboli potvrdené a ešte sa nepočítajú do disponibilného zostatku</translation>
+        <translation>Suma transakciÃ­ ktorÃ© eÅ¡te neboli potvrdenÃ© a eÅ¡te sa nepoÄÃ­tajÃº do disponibilnÃ©ho zostatku</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Nezrelé:</translation>
+        <translation>NezrelÃ©:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Vytvorený zostatok ktorý ešte nedosiahol zrelosť</translation>
+        <translation>VytvorenÃ½ zostatok ktorÃ½ eÅ¡te nedosiahol zrelosÅ¥</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>Stav účtu</translation>
+        <translation>Stav ÃºÄtu</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1236,129 +1236,129 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Váš súčasný celkový zostatok</translation>
+        <translation>VÃ¡Å¡ sÃºÄasnÃ½ celkovÃ½ zostatok</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Váš celkový zostatok pre adresy ktoré sa iba sledujú</translation>
+        <translation>VÃ¡Å¡ celkovÃ½ zostatok pre adresy ktorÃ© sa iba sledujÃº</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Použiteľné:</translation>
+        <translation>PouÅ¾iteÄ¾nÃ©:</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Nedávne transakcie</translation>
+        <translation>NedÃ¡vne transakcie</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Nepotvrdené transakcie pre adresy ktoré sa iba sledujú</translation>
+        <translation>NepotvrdenÃ© transakcie pre adresy ktorÃ© sa iba sledujÃº</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Vyťažená suma pre adresy ktoré sa iba sledujú ale ešte nie je dozretá</translation>
+        <translation>VyÅ¥aÅ¾enÃ¡ suma pre adresy ktorÃ© sa iba sledujÃº ale eÅ¡te nie je dozretÃ¡</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Aktuálny celkový zostatok pre adries ktoré sa iba sledujú</translation>
+        <translation>AktuÃ¡lny celkovÃ½ zostatok pre adries ktorÃ© sa iba sledujÃº</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Chyba pri vyžiadaní platby</translation>
+        <translation>Chyba pri vyÅ¾iadanÃ­ platby</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>URI manipulácia</translation>
+        <translation>URI manipulÃ¡cia</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>URL pre stiahnutie výzvy na zaplatenie je neplatné: %1</translation>
+        <translation>URL pre stiahnutie vÃ½zvy na zaplatenie je neplatnÃ©: %1</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Neplatná adresa platby %1</translation>
+        <translation>NeplatnÃ¡ adresa platby %1</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Pirate address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Pirate adresou alebo zle nastavenými vlastnosťami URI.</translation>
+        <translation>URI sa nedÃ¡ analyzovaÅ¥! To mÃ´Å¾e byÅ¥ spÃ´sobenÃ© neplatnou Pirate adresou alebo zle nastavenÃ½mi vlastnosÅ¥ami URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Obsluha súboru s požiadavkou na platbu</translation>
+        <translation>Obsluha sÃºboru s poÅ¾iadavkou na platbu</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Súbor s výzvou na zaplatenie sa nedá čítať! To môže byť spôsobené aj neplatným súborom s výzvou.</translation>
+        <translation>SÃºbor s vÃ½zvou na zaplatenie sa nedÃ¡ ÄÃ­taÅ¥! To mÃ´Å¾e byÅ¥ spÃ´sobenÃ© aj neplatnÃ½m sÃºborom s vÃ½zvou.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Požiadavka na platbu zamietnutá</translation>
+        <translation>PoÅ¾iadavka na platbu zamietnutÃ¡</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>Sieť požiadavky na platbu nie je zhodná so sieťou klienta.</translation>
+        <translation>SieÅ¥ poÅ¾iadavky na platbu nie je zhodnÃ¡ so sieÅ¥ou klienta.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Vypršala platnosť požiadavky na platbu.</translation>
+        <translation>VyprÅ¡ala platnosÅ¥ poÅ¾iadavky na platbu.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Požiadavka na platbu nie je inicializovaná</translation>
+        <translation>PoÅ¾iadavka na platbu nie je inicializovanÃ¡</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Program nepodporuje neoverené platobné požiadavky na vlastné skripty.</translation>
+        <translation>Program nepodporuje neoverenÃ© platobnÃ© poÅ¾iadavky na vlastnÃ© skripty.</translation>
     </message>
     <message>
         <source>Invalid payment request.</source>
-        <translation>Chybná požiadavka na platbu.</translation>
+        <translation>ChybnÃ¡ poÅ¾iadavka na platbu.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Požadovaná suma platby %1 je príliš nízka (považovaná za prach).</translation>
+        <translation>PoÅ¾adovanÃ¡ suma platby %1 je prÃ­liÅ¡ nÃ­zka (povaÅ¾ovanÃ¡ za prach).</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Vrátenie z  %1</translation>
+        <translation>VrÃ¡tenie z  %1</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Požiadavka na platbu %1 je príliš veľká (%2 bajtov, povolené je %3 bajtov).</translation>
+        <translation>PoÅ¾iadavka na platbu %1 je prÃ­liÅ¡ veÄ¾kÃ¡ (%2 bajtov, povolenÃ© je %3 bajtov).</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Chyba komunikácie s %1: %2 </translation>
+        <translation>Chyba komunikÃ¡cie s %1: %2 </translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Požiadavka na platbu nemôže byť analyzovaná!</translation>
+        <translation>PoÅ¾iadavka na platbu nemÃ´Å¾e byÅ¥ analyzovanÃ¡!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Zlá odpoveď zo servera %1</translation>
+        <translation>ZlÃ¡ odpoveÄ zo servera %1</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Chyba požiadavky siete</translation>
+        <translation>Chyba poÅ¾iadavky siete</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Platba potvrdená</translation>
+        <translation>Platba potvrdenÃ¡</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>User Agent</source>
-        <translation>Aplikácia</translation>
+        <translation>AplikÃ¡cia</translation>
     </message>
     <message>
         <source>Node/Service</source>
-        <translation>Uzol/Služba</translation>
+        <translation>Uzol/SluÅ¾ba</translation>
     </message>
     <message>
         <source>NodeId</source>
@@ -1397,11 +1397,11 @@
     </message>
     <message>
         <source>None</source>
-        <translation>Žiadne</translation>
+        <translation>Å½iadne</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>nie je k dispozícii</translation>
+        <translation>nie je k dispozÃ­cii</translation>
     </message>
     <message>
         <source>%1 ms</source>
@@ -1409,23 +1409,23 @@
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekundy</numerusform><numerusform>%n sekúnd</numerusform></translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekundy</numerusform><numerusform>%n sekÃºnd</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minúta</numerusform><numerusform>%n minúty</numerusform><numerusform>%n minút</numerusform></translation>
+        <translation><numerusform>%n minÃºta</numerusform><numerusform>%n minÃºty</numerusform><numerusform>%n minÃºt</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n hodina</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodín</numerusform></translation>
+        <translation><numerusform>%n hodina</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodÃ­n</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n deň</numerusform><numerusform>%n dni</numerusform><numerusform>%n dní</numerusform></translation>
+        <translation><numerusform>%n deÅ</numerusform><numerusform>%n dni</numerusform><numerusform>%n dnÃ­</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n týždeň</numerusform><numerusform>%n týždne</numerusform><numerusform>%n týždňov</numerusform></translation>
+        <translation><numerusform>%n tÃ½Å¾deÅ</numerusform><numerusform>%n tÃ½Å¾dne</numerusform><numerusform>%n tÃ½Å¾dÅov</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -1437,7 +1437,7 @@
     </message>
     <message>
         <source>%1 didn't yet exit safely...</source>
-        <translation>%1 ešte nebol bezpečne ukončený...</translation>
+        <translation>%1 eÅ¡te nebol bezpeÄne ukonÄenÃ½...</translation>
     </message>
 </context>
 <context>
@@ -1451,26 +1451,26 @@
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>Uložiť obrázok...</translation>
+        <translation>UloÅ¾iÅ¥ obrÃ¡zok...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>Kopírovať obrázok</translation>
+        <translation>KopÃ­rovaÅ¥ obrÃ¡zok</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Uložiť QR Code</translation>
+        <translation>UloÅ¾iÅ¥ QR Code</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>PNG obrázok (*.png)</translation>
+        <translation>PNG obrÃ¡zok (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation>nie je k dispozícii</translation>
+        <translation>nie je k dispozÃ­cii</translation>
     </message>
     <message>
         <source>Client version</source>
@@ -1478,7 +1478,7 @@
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informácia</translation>
+        <translation>&amp;InformÃ¡cia</translation>
     </message>
     <message>
         <source>Debug window</source>
@@ -1486,59 +1486,59 @@
     </message>
     <message>
         <source>General</source>
-        <translation>Všeobecné</translation>
+        <translation>VÅ¡eobecnÃ©</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Používa verziu BerkeleyDB</translation>
+        <translation>PouÅ¾Ã­va verziu BerkeleyDB</translation>
     </message>
     <message>
         <source>Datadir</source>
-        <translation>Priečinok s dátami</translation>
+        <translation>PrieÄinok s dÃ¡tami</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Čas spustenia</translation>
+        <translation>Äas spustenia</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Sieť</translation>
+        <translation>SieÅ¥</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Názov</translation>
+        <translation>NÃ¡zov</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Počet pripojení</translation>
+        <translation>PoÄet pripojenÃ­</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Reťazec blokov</translation>
+        <translation>ReÅ¥azec blokov</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Aktuálny počet blokov</translation>
+        <translation>AktuÃ¡lny poÄet blokov</translation>
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>Pamäť Poolu</translation>
+        <translation>PamÃ¤Å¥ Poolu</translation>
     </message>
     <message>
         <source>Current number of transactions</source>
-        <translation>Aktuálny počet transakcií</translation>
+        <translation>AktuÃ¡lny poÄet transakciÃ­</translation>
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>Využitie pamäte</translation>
+        <translation>VyuÅ¾itie pamÃ¤te</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Prijaté</translation>
+        <translation>PrijatÃ©</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Odoslané</translation>
+        <translation>OdoslanÃ©</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
@@ -1546,15 +1546,15 @@
     </message>
     <message>
         <source>Banned peers</source>
-        <translation>Zablokované spojenia</translation>
+        <translation>ZablokovanÃ© spojenia</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Vyberte počítač pre zobrazenie podrobností.</translation>
+        <translation>Vyberte poÄÃ­taÄ pre zobrazenie podrobnostÃ­.</translation>
     </message>
     <message>
         <source>Whitelisted</source>
-        <translation>Povolené</translation>
+        <translation>PovolenÃ©</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -1566,80 +1566,80 @@
     </message>
     <message>
         <source>Starting Block</source>
-        <translation>Počiatočný blok</translation>
+        <translation>PoÄiatoÄnÃ½ blok</translation>
     </message>
     <message>
         <source>Synced Headers</source>
-        <translation>Synchronizované hlavičky
+        <translation>SynchronizovanÃ© hlaviÄky
 </translation>
     </message>
     <message>
         <source>Synced Blocks</source>
-        <translation>Synchronizované bloky</translation>
+        <translation>SynchronizovanÃ© bloky</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>Aplikácia</translation>
+        <translation>AplikÃ¡cia</translation>
     </message>
     <message>
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvoriť %1 ladiaci výpis z aktuálnej zložky. Pre veľké súbory to môže chvíľu trvať.</translation>
+        <translation>OtvoriÅ¥ %1 ladiaci vÃ½pis z aktuÃ¡lnej zloÅ¾ky. Pre veÄ¾kÃ© sÃºbory to mÃ´Å¾e chvÃ­Ä¾u trvaÅ¥.</translation>
     </message>
     <message>
         <source>Decrease font size</source>
-        <translation>Zmenšiť písmo</translation>
+        <translation>ZmenÅ¡iÅ¥ pÃ­smo</translation>
     </message>
     <message>
         <source>Increase font size</source>
-        <translation>Zväčšiť písmo</translation>
+        <translation>ZvÃ¤ÄÅ¡iÅ¥ pÃ­smo</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Služby</translation>
+        <translation>SluÅ¾by</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Skóre zákazu</translation>
+        <translation>SkÃ³re zÃ¡kazu</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Dĺžka spojenia</translation>
+        <translation>DÄºÅ¾ka spojenia</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Posledné odoslanie</translation>
+        <translation>PoslednÃ© odoslanie</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Posledné prijatie</translation>
+        <translation>PoslednÃ© prijatie</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Čas odozvy</translation>
+        <translation>Äas odozvy</translation>
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>Trvanie aktuálnej požiadavky na odozvu.</translation>
+        <translation>Trvanie aktuÃ¡lnej poÅ¾iadavky na odozvu.</translation>
     </message>
     <message>
         <source>Ping Wait</source>
-        <translation>Čakanie na odozvu</translation>
+        <translation>Äakanie na odozvu</translation>
     </message>
     <message>
         <source>Min Ping</source>
-        <translation>Minimálna odozva</translation>
+        <translation>MinimÃ¡lna odozva</translation>
     </message>
     <message>
         <source>Time Offset</source>
-        <translation>Časový posun</translation>
+        <translation>ÄasovÃ½ posun</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Čas posledného bloku</translation>
+        <translation>Äas poslednÃ©ho bloku</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Otvoriť</translation>
+        <translation>&amp;OtvoriÅ¥</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -1647,11 +1647,11 @@
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Sieťová prevádzka</translation>
+        <translation>&amp;SieÅ¥ovÃ¡ prevÃ¡dzka</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Vyčistiť</translation>
+        <translation>&amp;VyÄistiÅ¥</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1667,11 +1667,11 @@
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Súbor záznamu ladenia</translation>
+        <translation>SÃºbor zÃ¡znamu ladenia</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Vymazať konzolu</translation>
+        <translation>VymazaÅ¥ konzolu</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
@@ -1679,11 +1679,11 @@
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1 &amp;deň</translation>
+        <translation>1 &amp;deÅ</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 &amp;týždeň</translation>
+        <translation>1 &amp;tÃ½Å¾deÅ</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
@@ -1691,15 +1691,15 @@
     </message>
     <message>
         <source>&amp;Disconnect</source>
-        <translation>&amp;Odpojiť</translation>
+        <translation>&amp;OdpojiÅ¥</translation>
     </message>
     <message>
         <source>Ban for</source>
-        <translation>Zakázať na</translation>
+        <translation>ZakÃ¡zaÅ¥ na</translation>
     </message>
     <message>
         <source>&amp;Unban</source>
-        <translation>&amp;Zrušiť zákaz</translation>
+        <translation>&amp;ZruÅ¡iÅ¥ zÃ¡kaz</translation>
     </message>
     <message>
         <source>Welcome to the %1 RPC console.</source>
@@ -1707,19 +1707,19 @@
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Použi šípky hore a dolu pre navigáciu históriou a &lt;b&gt;Ctrl-L&lt;/b&gt; pre vyčistenie obrazovky.</translation>
+        <translation>PouÅ¾i Å¡Ã­pky hore a dolu pre navigÃ¡ciu histÃ³riou a &lt;b&gt;Ctrl-L&lt;/b&gt; pre vyÄistenie obrazovky.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Napíš &lt;b&gt;help&lt;/b&gt; pre prehľad dostupných príkazov.</translation>
+        <translation>NapÃ­Å¡ &lt;b&gt;help&lt;/b&gt; pre prehÄ¾ad dostupnÃ½ch prÃ­kazov.</translation>
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
-        <translation>VAROVANIE: Podvodníci sú aktívni a môžu nabádať používateľov napísať sem príkazy, pomocou ktorých ukradnú ich obsah peňaženky. Nepoužívajte túto konzolu ak nerozumiete presne účinkom príkazov.</translation>
+        <translation>VAROVANIE: PodvodnÃ­ci sÃº aktÃ­vni a mÃ´Å¾u nabÃ¡daÅ¥ pouÅ¾Ã­vateÄ¾ov napÃ­saÅ¥ sem prÃ­kazy, pomocou ktorÃ½ch ukradnÃº ich obsah peÅaÅ¾enky. NepouÅ¾Ã­vajte tÃºto konzolu ak nerozumiete presne ÃºÄinkom prÃ­kazov.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
-        <translation>Sieťová aktivita zakázaná</translation>
+        <translation>SieÅ¥ovÃ¡ aktivita zakÃ¡zanÃ¡</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1751,15 +1751,15 @@
     </message>
     <message>
         <source>Inbound</source>
-        <translation>Prichádzajúce</translation>
+        <translation>PrichÃ¡dzajÃºce</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Odchádzajúce</translation>
+        <translation>OdchÃ¡dzajÃºce</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Áno</translation>
+        <translation>Ãno</translation>
     </message>
     <message>
         <source>No</source>
@@ -1767,7 +1767,7 @@
     </message>
     <message>
         <source>Unknown</source>
-        <translation>neznámy</translation>
+        <translation>neznÃ¡my</translation>
     </message>
 </context>
 <context>
@@ -1782,106 +1782,106 @@
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Správa:</translation>
+        <translation>&amp;SprÃ¡va:</translation>
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation>Znovu použiť jednu z už použitých adries pre prijímanie. Znovu používanie adries je sporná otázka bezpečnosti aj súkromia. Používajte to len v prípade ak znovu generujete výzvu na zaplatenie ktorú ste už vyrobili v minulosti.</translation>
+        <translation>Znovu pouÅ¾iÅ¥ jednu z uÅ¾ pouÅ¾itÃ½ch adries pre prijÃ­manie. Znovu pouÅ¾Ã­vanie adries je spornÃ¡ otÃ¡zka bezpeÄnosti aj sÃºkromia. PouÅ¾Ã­vajte to len v prÃ­pade ak znovu generujete vÃ½zvu na zaplatenie ktorÃº ste uÅ¾ vyrobili v minulosti.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
+        <translation>Znovu pouÅ¾iÅ¥ jestvujÃºcu prijÃ­maciu adresu (neodporÃºÄa sa)</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pirate network.</source>
-        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Pirate.</translation>
+        <translation>PridaÅ¥ voliteÄ¾nÃº sprÃ¡vu k vÃ½zve na zaplatenie, ktorÃ¡ sa zobrazÃ­ keÄ bude vÃ½zva otvorenÃ¡. PoznÃ¡mka: SprÃ¡va nebude poslanÃ¡ s platbou cez sieÅ¥ Pirate.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
+        <translation>VoliteÄ¾nÃ½ popis ktorÃ½ sa pridÃ¡ k tejto novej prijÃ­majÃºcej adrese.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Použite tento formulár pre vyžiadanie platby. Všetky polia sú &lt;b&gt;voliteľné&lt;/b&gt;.</translation>
+        <translation>PouÅ¾ite tento formulÃ¡r pre vyÅ¾iadanie platby. VÅ¡etky polia sÃº &lt;b&gt;voliteÄ¾nÃ©&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Voliteľná požadovaná suma. Nechajte prázdne alebo nulu ak nepožadujete určitú sumu.</translation>
+        <translation>VoliteÄ¾nÃ¡ poÅ¾adovanÃ¡ suma. Nechajte prÃ¡zdne alebo nulu ak nepoÅ¾adujete urÄitÃº sumu.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Vyčistiť všetky polia formulára.</translation>
+        <translation>VyÄistiÅ¥ vÅ¡etky polia formulÃ¡ra.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Vyčistiť</translation>
+        <translation>VyÄistiÅ¥</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>História vyžiadaných platieb</translation>
+        <translation>HistÃ³ria vyÅ¾iadanÃ½ch platieb</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>Vyžiadať platbu</translation>
+        <translation>VyÅ¾iadaÅ¥ platbu</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Zobraz zvolenú požiadavku (urobí to isté ako dvoj-klik na záznam)</translation>
+        <translation>Zobraz zvolenÃº poÅ¾iadavku (urobÃ­ to istÃ© ako dvoj-klik na zÃ¡znam)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Zobraziť</translation>
+        <translation>ZobraziÅ¥</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Odstrániť zvolené záznamy zo zoznamu</translation>
+        <translation>OdstrÃ¡niÅ¥ zvolenÃ© zÃ¡znamy zo zoznamu</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Odstrániť</translation>
+        <translation>OdstrÃ¡niÅ¥</translation>
     </message>
     <message>
         <source>Copy URI</source>
-        <translation>Kopírovať URI</translation>
+        <translation>KopÃ­rovaÅ¥ URI</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopírovať popis</translation>
+        <translation>KopÃ­rovaÅ¥ popis</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Kopírovať správu</translation>
+        <translation>KopÃ­rovaÅ¥ sprÃ¡vu</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopírovať sumu</translation>
+        <translation>KopÃ­rovaÅ¥ sumu</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR kód</translation>
+        <translation>QR kÃ³d</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>Kopírovať &amp;URI</translation>
+        <translation>KopÃ­rovaÅ¥ &amp;URI</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Kopírovať adresu</translation>
+        <translation>KopÃ­rovaÅ¥ adresu</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>Uložiť obrázok...</translation>
+        <translation>UloÅ¾iÅ¥ obrÃ¡zok...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Vyžiadať platbu pre %1</translation>
+        <translation>VyÅ¾iadaÅ¥ platbu pre %1</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>Informácia o platbe</translation>
+        <translation>InformÃ¡cia o platbe</translation>
     </message>
     <message>
         <source>URI</source>
@@ -1901,22 +1901,22 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>Správa</translation>
+        <translation>SprÃ¡va</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Výsledné URI je príliš dlhé, skúste skrátiť text pre popis alebo správu.</translation>
+        <translation>VÃ½slednÃ© URI je prÃ­liÅ¡ dlhÃ©, skÃºste skrÃ¡tiÅ¥ text pre popis alebo sprÃ¡vu.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Chyba kódovania URI do QR Code.</translation>
+        <translation>Chyba kÃ³dovania URI do QR Code.</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>DÃ¡tum</translation>
     </message>
     <message>
         <source>Label</source>
@@ -1924,7 +1924,7 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>Správa</translation>
+        <translation>SprÃ¡va</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1932,26 +1932,26 @@
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(žiadna správa)</translation>
+        <translation>(Å¾iadna sprÃ¡va)</translation>
     </message>
     <message>
         <source>(no amount requested)</source>
-        <translation>(nepožadovaná žiadna suma)</translation>
+        <translation>(nepoÅ¾adovanÃ¡ Å¾iadna suma)</translation>
     </message>
     <message>
         <source>Requested</source>
-        <translation>Požadované</translation>
+        <translation>PoÅ¾adovanÃ©</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať Pirates</translation>
+        <translation>PoslaÅ¥ Pirates</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Možnosti "Coin Control"</translation>
+        <translation>MoÅ¾nosti "Coin Control"</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -1959,7 +1959,7 @@
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>automaticky vybrané</translation>
+        <translation>automaticky vybranÃ©</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
@@ -1967,7 +1967,7 @@
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Množstvo:</translation>
+        <translation>MnoÅ¾stvo:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -1991,11 +1991,11 @@
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Ak aktivované ale adresa pre výdavok je prázdna alebo neplatná, výdavok bude poslaný na novovytvorenú adresu.</translation>
+        <translation>Ak aktivovanÃ© ale adresa pre vÃ½davok je prÃ¡zdna alebo neplatnÃ¡, vÃ½davok bude poslanÃ½ na novovytvorenÃº adresu.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Vlastná adresa zmeny</translation>
+        <translation>VlastnÃ¡ adresa zmeny</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2003,11 +2003,11 @@
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Zvoliť...</translation>
+        <translation>ZvoliÅ¥...</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>zbaliť nastavenia poplatkov</translation>
+        <translation>zbaliÅ¥ nastavenia poplatkov</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2015,55 +2015,55 @@
     </message>
     <message>
         <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ak je poplatok nastavený na 1000 satoshi a transakcia je veľká len 250 bajtov, potom "za kilobajt" zaplatí poplatok 250 satoshi, ale "spolu aspoň" zaplatí 1000 satoshi. Pre transakcie väčšie ako kilobajt platia oba spôsoby za každý kilobajt.</translation>
+        <translation>Ak je poplatok nastavenÃ½ na 1000 satoshi a transakcia je veÄ¾kÃ¡ len 250 bajtov, potom "za kilobajt" zaplatÃ­ poplatok 250 satoshi, ale "spolu aspoÅ" zaplatÃ­ 1000 satoshi. Pre transakcie vÃ¤ÄÅ¡ie ako kilobajt platia oba spÃ´soby za kaÅ¾dÃ½ kilobajt.</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Skryť</translation>
+        <translation>SkryÅ¥</translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>spolu aspoň</translation>
+        <translation>spolu aspoÅ</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Pirate transactions than the network can process.</source>
-        <translation>Zaplatenie len minimálneho poplatku je v poriadku, pokiaľ existuje menej transakcií ako miesta v blokoch. Uvedomte si však, že ak bude vyšší dopyt po transakciách ako dokáže sieť spracovať, môže byť vaša transakcia odsúvaná a nepotvrdená donekonečna.</translation>
+        <translation>Zaplatenie len minimÃ¡lneho poplatku je v poriadku, pokiaÄ¾ existuje menej transakciÃ­ ako miesta v blokoch. Uvedomte si vÅ¡ak, Å¾e ak bude vyÅ¡Å¡Ã­ dopyt po transakciÃ¡ch ako dokÃ¡Å¾e sieÅ¥ spracovaÅ¥, mÃ´Å¾e byÅ¥ vaÅ¡a transakcia odsÃºvanÃ¡ a nepotvrdenÃ¡ donekoneÄna.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(prečítajte si nápovedu pod kurzorom)</translation>
+        <translation>(preÄÃ­tajte si nÃ¡povedu pod kurzorom)</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Odporúčaný:</translation>
+        <translation>OdporÃºÄanÃ½:</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Vlastný:</translation>
+        <translation>VlastnÃ½:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Automatický poplatok ešte nebol vypočítaný. Toto zvyčajne trvá niekoľko blokov...)</translation>
+        <translation>(AutomatickÃ½ poplatok eÅ¡te nebol vypoÄÃ­tanÃ½. Toto zvyÄajne trvÃ¡ niekoÄ¾ko blokov...)</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>normálne</translation>
+        <translation>normÃ¡lne</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>rýchle</translation>
+        <translation>rÃ½chle</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Poslať viacerým príjemcom naraz</translation>
+        <translation>PoslaÅ¥ viacerÃ½m prÃ­jemcom naraz</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;Pridať príjemcu</translation>
+        <translation>&amp;PridaÅ¥ prÃ­jemcu</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Vyčistiť všetky polia formulára.</translation>
+        <translation>VyÄistiÅ¥ vÅ¡etky polia formulÃ¡ra.</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -2071,11 +2071,11 @@
     </message>
     <message>
         <source>Confirmation time target:</source>
-        <translation>Cieľový čas potvrdenia:</translation>
+        <translation>CieÄ¾ovÃ½ Äas potvrdenia:</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;Zmazať všetko</translation>
+        <translation>&amp;ZmazaÅ¥ vÅ¡etko</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -2083,39 +2083,39 @@
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Potvrďte odoslanie</translation>
+        <translation>PotvrÄte odoslanie</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;Odoslať</translation>
+        <translation>&amp;OdoslaÅ¥</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopírovať množstvo</translation>
+        <translation>KopÃ­rovaÅ¥ mnoÅ¾stvo</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopírovať sumu</translation>
+        <translation>KopÃ­rovaÅ¥ sumu</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Kopírovať poplatok</translation>
+        <translation>KopÃ­rovaÅ¥ poplatok</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Kopírovať po poplatkoch</translation>
+        <translation>KopÃ­rovaÅ¥ po poplatkoch</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Kopírovať bajty</translation>
+        <translation>KopÃ­rovaÅ¥ bajty</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopírovať prach</translation>
+        <translation>KopÃ­rovaÅ¥ prach</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopírovať zmenu</translation>
+        <translation>KopÃ­rovaÅ¥ zmenu</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2123,15 +2123,15 @@
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Určite chcete odoslať transakciu?</translation>
+        <translation>UrÄite chcete odoslaÅ¥ transakciu?</translation>
     </message>
     <message>
         <source>added as transaction fee</source>
-        <translation>pridané ako poplatok za transakciu</translation>
+        <translation>pridanÃ© ako poplatok za transakciu</translation>
     </message>
     <message>
         <source>Total Amount %1</source>
-        <translation>Celková suma %1</translation>
+        <translation>CelkovÃ¡ suma %1</translation>
     </message>
     <message>
         <source>or</source>
@@ -2139,27 +2139,27 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Potvrďte odoslanie mincí</translation>
+        <translation>PotvrÄte odoslanie mincÃ­</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Adresa príjemcu je neplatná. Prosím, overte ju.</translation>
+        <translation>Adresa prÃ­jemcu je neplatnÃ¡. ProsÃ­m, overte ju.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Suma na úhradu musí byť väčšia ako 0.</translation>
+        <translation>Suma na Ãºhradu musÃ­ byÅ¥ vÃ¤ÄÅ¡ia ako 0.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Suma je vyššia ako Váš zostatok.</translation>
+        <translation>Suma je vyÅ¡Å¡ia ako VÃ¡Å¡ zostatok.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Celková suma prevyšuje Váš zostatok ak sú započítané aj transakčné poplatky %1.</translation>
+        <translation>CelkovÃ¡ suma prevyÅ¡uje VÃ¡Å¡ zostatok ak sÃº zapoÄÃ­tanÃ© aj transakÄnÃ© poplatky %1.</translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Našla sa duplicitná adresa: každá adresa by sa mala použiť len raz.</translation>
+        <translation>NaÅ¡la sa duplicitnÃ¡ adresa: kaÅ¾dÃ¡ adresa by sa mala pouÅ¾iÅ¥ len raz.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -2167,15 +2167,15 @@
     </message>
     <message>
         <source>The transaction was rejected with the following reason: %1</source>
-        <translation>Transakcia bola odmietnutá z nasledujúceho dôvodu: %1</translation>
+        <translation>Transakcia bola odmietnutÃ¡ z nasledujÃºceho dÃ´vodu: %1</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Poplatok vyšší ako %1 sa považuje za neprimerane vysoký.</translation>
+        <translation>Poplatok vyÅ¡Å¡Ã­ ako %1 sa povaÅ¾uje za neprimerane vysokÃ½.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Vypršala platnosť požiadavky na platbu.</translation>
+        <translation>VyprÅ¡ala platnosÅ¥ poÅ¾iadavky na platbu.</translation>
     </message>
     <message numerus="yes">
         <source>%n block(s)</source>
@@ -2183,27 +2183,27 @@
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
-        <translation>Zaplatiť iba požadovaný poplatok %1</translation>
+        <translation>ZaplatiÅ¥ iba poÅ¾adovanÃ½ poplatok %1</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Odhadovaný začiatok potvrdzovania po %n bloku.</numerusform><numerusform>Odhadovaný začiatok potvrdzovania po %n blokoch.</numerusform><numerusform>Odhadovaný začiatok potvrdzovania po %n blokoch.</numerusform></translation>
+        <translation><numerusform>OdhadovanÃ½ zaÄiatok potvrdzovania po %n bloku.</numerusform><numerusform>OdhadovanÃ½ zaÄiatok potvrdzovania po %n blokoch.</numerusform><numerusform>OdhadovanÃ½ zaÄiatok potvrdzovania po %n blokoch.</numerusform></translation>
     </message>
     <message>
         <source>Warning: Invalid Pirate address</source>
-        <translation>Varovanie: Neplatná Pirate adresa</translation>
+        <translation>Varovanie: NeplatnÃ¡ Pirate adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>UPOZORNENIE: Neznáma zmena adresy</translation>
+        <translation>UPOZORNENIE: NeznÃ¡ma zmena adresy</translation>
     </message>
     <message>
         <source>Confirm custom change address</source>
-        <translation>Potvrďte zmenu adresy</translation>
+        <translation>PotvrÄte zmenu adresy</translation>
     </message>
     <message>
         <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
-        <translation>Zadaná adresa nie je súčasťou tejto peňaženky. Časť alebo všetky peniaze z peňaženky môžu byť odoslané na túto adresu. Ste si istý?</translation>
+        <translation>ZadanÃ¡ adresa nie je sÃºÄasÅ¥ou tejto peÅaÅ¾enky. ÄasÅ¥ alebo vÅ¡etky peniaze z peÅaÅ¾enky mÃ´Å¾u byÅ¥ odoslanÃ© na tÃºto adresu. Ste si istÃ½?</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2218,7 +2218,7 @@
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Zapla&amp;tiť:</translation>
+        <translation>Zapla&amp;tiÅ¥:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -2226,15 +2226,15 @@
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Vybrať predtým použitú adresu</translation>
+        <translation>VybraÅ¥ predtÃ½m pouÅ¾itÃº adresu</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Toto je normálna platba.</translation>
+        <translation>Toto je normÃ¡lna platba.</translation>
     </message>
     <message>
         <source>The Pirate address to send the payment to</source>
-        <translation>Zvoľte adresu kam poslať platbu</translation>
+        <translation>ZvoÄ¾te adresu kam poslaÅ¥ platbu</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2242,7 +2242,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Vložiť adresu zo schránky</translation>
+        <translation>VloÅ¾iÅ¥ adresu zo schrÃ¡nky</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2250,35 +2250,35 @@
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Odstrániť túto položku</translation>
+        <translation>OdstrÃ¡niÅ¥ tÃºto poloÅ¾ku</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej Pirateov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
+        <translation>Poplatok sa odpoÄÃ­ta od Äiastky, ktorÃº odosielate. PrÃ­jemca dostane menej Pirateov ako zadÃ¡te. Ak je vybranÃ½ch viacero prÃ­jemcov, poplatok je rozdelenÃ½ rovnÃ½m dielom.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
-        <translation>Odpočítať poplatok od s&amp;umy</translation>
+        <translation>OdpoÄÃ­taÅ¥ poplatok od s&amp;umy</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Správa:</translation>
+        <translation>SprÃ¡va:</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
-        <translation>Toto je neoverená výzva k platbe.</translation>
+        <translation>Toto je neoverenÃ¡ vÃ½zva k platbe.</translation>
     </message>
     <message>
         <source>This is an authenticated payment request.</source>
-        <translation>Toto je overená výzva k platbe.</translation>
+        <translation>Toto je overenÃ¡ vÃ½zva k platbe.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
+        <translation>VloÅ¾te popis pre tÃºto adresu aby sa uloÅ¾ila do zoznamu pouÅ¾itÃ½ch adries</translation>
     </message>
     <message>
-        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pirate network.</source>
-        <translation>Správa ktorá bola pripojená k Pirate: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Pirate.</translation>
+        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Komodo network.</source>
+        <translation>SprÃ¡va ktorÃ¡ bola pripojenÃ¡ k Pirate: URI a ktorÃ¡ bude uloÅ¾enÃ¡ s transakcou pre VaÅ¡e potreby. PoznÃ¡mka: TÃ¡to sprÃ¡va nebude poslanÃ¡ cez sieÅ¥ Komodo.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2286,52 +2286,52 @@
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Poznámka:</translation>
+        <translation>PoznÃ¡mka:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Zadajte popis pre túto adresu pre pridanie do adresára</translation>
+        <translation>Zadajte popis pre tÃºto adresu pre pridanie do adresÃ¡ra</translation>
     </message>
 </context>
 <context>
     <name>SendConfirmationDialog</name>
     <message>
         <source>Yes</source>
-        <translation>áno</translation>
+        <translation>Ã¡no</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>%1 is shutting down...</source>
-        <translation>%1 sa vypína...</translation>
+        <translation>%1 sa vypÃ­na...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Nevypínajte počítač kým toto okno nezmizne.</translation>
+        <translation>NevypÃ­najte poÄÃ­taÄ kÃ½m toto okno nezmizne.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Podpisy - Podpísať / Overiť správu</translation>
+        <translation>Podpisy - PodpÃ­saÅ¥ / OveriÅ¥ sprÃ¡vu</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Podpísať Správu</translation>
+        <translation>&amp;PodpÃ­saÅ¥ SprÃ¡vu</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Môžete podpísať správy svojou adresou a dokázať, že viete prijímať mince zaslané na túto adresu. Buďte však opatrní a podpíšte len podrobné prehlásenia, s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k podpísaniu nejasných alebo príliš všeobecných tvrdení čím prevezmú vašu identitu.</translation>
+        <translation>MÃ´Å¾ete podpÃ­saÅ¥ sprÃ¡vy svojou adresou a dokÃ¡zaÅ¥, Å¾e viete prijÃ­maÅ¥ mince zaslanÃ© na tÃºto adresu. BuÄte vÅ¡ak opatrnÃ­ a podpÃ­Å¡te len podrobnÃ© prehlÃ¡senia, s ktorÃ½mi plne sÃºhlasÃ­te, nakoÄ¾ko Ãºtoky typu "phishing" VÃ¡s mÃ´Å¾u lÃ¡kaÅ¥ k podpÃ­saniu nejasnÃ½ch alebo prÃ­liÅ¡ vÅ¡eobecnÃ½ch tvrdenÃ­ ÄÃ­m prevezmÃº vaÅ¡u identitu.</translation>
     </message>
     <message>
         <source>The Pirate address to sign the message with</source>
-        <translation>Pirate adresa pre podpísanie správy s</translation>
+        <translation>Komodo adresa pre podpÃ­sanie sprÃ¡vy s</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Vybrať predtým použitú adresu</translation>
+        <translation>VybraÅ¥ predtÃ½m pouÅ¾itÃº adresu</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2339,7 +2339,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Vložiť adresu zo schránky</translation>
+        <translation>VloÅ¾iÅ¥ adresu zo schrÃ¡nky</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2347,7 +2347,7 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Sem vložte správu ktorú chcete podpísať</translation>
+        <translation>Sem vloÅ¾te sprÃ¡vu ktorÃº chcete podpÃ­saÅ¥</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -2355,106 +2355,106 @@
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopírovať tento podpis do systémovej schránky</translation>
+        <translation>KopÃ­rovaÅ¥ tento podpis do systÃ©movej schrÃ¡nky</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Pirate address</source>
-        <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
+        <translation>PodpÃ­Å¡te sprÃ¡vu aby ste dokÃ¡zali Å¾e vlastnÃ­te tÃºto adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Podpísať &amp;správu</translation>
+        <translation>PodpÃ­saÅ¥ &amp;sprÃ¡vu</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Vynulovať všetky polia podpisu správy</translation>
+        <translation>VynulovaÅ¥ vÅ¡etky polia podpisu sprÃ¡vy</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;Zmazať všetko</translation>
+        <translation>&amp;ZmazaÅ¥ vÅ¡etko</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>O&amp;veriť správu...</translation>
+        <translation>O&amp;veriÅ¥ sprÃ¡vu...</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Vložte adresu príjemcu, správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odrážky, atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu MITM útokom. Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
+        <translation>VloÅ¾te adresu prÃ­jemcu, sprÃ¡vu (uistite sa, Å¾e presne kopÃ­rujete ukonÄenia riadkov, medzery, odrÃ¡Å¾ky, atÄ.) a podpis pre potvrdenie sprÃ¡vy. BuÄte opatrnÃ­ a nedomÃ½Å¡Ä¾ajte si viac neÅ¾ je uvedenÃ© v samotnej podpÃ­sanej sprÃ¡ve a mÃ´Å¾ete sa tak vyhnÃºÅ¥ podvodu MITM Ãºtokom. Toto len potvrdzuje, Å¾e podpisujÃºca strana mÃ´Å¾e prijÃ­maÅ¥ na tejto adrese, nepotvrdzuje to vlastnÃ­ctvo Å¾iadnej transakcie!</translation>
     </message>
     <message>
         <source>The Pirate address the message was signed with</source>
-        <translation>Adresa Pirate, ktorou bola podpísaná správa</translation>
+        <translation>Adresa Pirate, ktorou bola podpÃ­sanÃ¡ sprÃ¡va</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Pirate address</source>
-        <translation>Overím správy sa uistiť že bola podpísaná označenou Pirate adresou</translation>
+        <translation>OverÃ­m sprÃ¡vy sa uistiÅ¥ Å¾e bola podpÃ­sanÃ¡ oznaÄenou Pirate adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>&amp;Overiť správu</translation>
+        <translation>&amp;OveriÅ¥ sprÃ¡vu</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Obnoviť všetky polia v overiť správu</translation>
+        <translation>ObnoviÅ¥ vÅ¡etky polia v overiÅ¥ sprÃ¡vu</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Kliknite "Podpísať správu" pre vytvorenie podpisu</translation>
+        <translation>Kliknite "PodpÃ­saÅ¥ sprÃ¡vu" pre vytvorenie podpisu</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Zadaná adresa je neplatná.</translation>
+        <translation>ZadanÃ¡ adresa je neplatnÃ¡.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Prosím skontrolujte adresu a skúste znova.</translation>
+        <translation>ProsÃ­m skontrolujte adresu a skÃºste znova.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Vložená adresa nezodpovedá žiadnemu kľúču.</translation>
+        <translation>VloÅ¾enÃ¡ adresa nezodpovedÃ¡ Å¾iadnemu kÄ¾ÃºÄu.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Odomknutie peňaženky bolo zrušené.</translation>
+        <translation>Odomknutie peÅaÅ¾enky bolo zruÅ¡enÃ©.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Súkromný kľúč pre zadanú adresu nieje k dispozícii.</translation>
+        <translation>SÃºkromnÃ½ kÄ¾ÃºÄ pre zadanÃº adresu nieje k dispozÃ­cii.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Podpísanie správy zlyhalo.</translation>
+        <translation>PodpÃ­sanie sprÃ¡vy zlyhalo.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Správa podpísaná.</translation>
+        <translation>SprÃ¡va podpÃ­sanÃ¡.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Podpis nie je možné dekódovať.</translation>
+        <translation>Podpis nie je moÅ¾nÃ© dekÃ³dovaÅ¥.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Prosím skontrolujte podpis a skúste znova.</translation>
+        <translation>ProsÃ­m skontrolujte podpis a skÃºste znova.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>Podpis sa nezhoduje so zhrnutím správy.</translation>
+        <translation>Podpis sa nezhoduje so zhrnutÃ­m sprÃ¡vy.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Overenie správy zlyhalo.</translation>
+        <translation>Overenie sprÃ¡vy zlyhalo.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Správa overená.</translation>
+        <translation>SprÃ¡va overenÃ¡.</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>[testnet]</source>
-        <translation>[testovacia sieť]</translation>
+        <translation>[testovacia sieÅ¥]</translation>
     </message>
 </context>
 <context>
@@ -2468,7 +2468,7 @@
     <name>TransactionDesc</name>
     <message>
         <source>Open until %1</source>
-        <translation>Otvorené do %1</translation>
+        <translation>OtvorenÃ© do %1</translation>
     </message>
     <message>
         <source>conflicted with a transaction with %1 confirmations</source>
@@ -2480,15 +2480,15 @@
     </message>
     <message>
         <source>0/unconfirmed, %1</source>
-        <translation>0/nepotvrdené, %1</translation>
+        <translation>0/nepotvrdenÃ©, %1</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/nepotvrdené</translation>
+        <translation>%1/nepotvrdenÃ©</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 potvrdení</translation>
+        <translation>%1 potvrdenÃ­</translation>
     </message>
     <message>
         <source>Status</source>
@@ -2496,11 +2496,11 @@
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, ešte nebola úspešne odoslaná</translation>
+        <translation>, eÅ¡te nebola ÃºspeÅ¡ne odoslanÃ¡</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>DÃ¡tum</translation>
     </message>
     <message>
         <source>Source</source>
@@ -2508,7 +2508,7 @@
     </message>
     <message>
         <source>Generated</source>
-        <translation>Vygenerované</translation>
+        <translation>VygenerovanÃ©</translation>
     </message>
     <message>
         <source>From</source>
@@ -2516,7 +2516,7 @@
     </message>
     <message>
         <source>unknown</source>
-        <translation>neznámy</translation>
+        <translation>neznÃ¡my</translation>
     </message>
     <message>
         <source>To</source>
@@ -2524,7 +2524,7 @@
     </message>
     <message>
         <source>own address</source>
-        <translation>vlastná adresa</translation>
+        <translation>vlastnÃ¡ adresa</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -2540,7 +2540,7 @@
     </message>
     <message>
         <source>not accepted</source>
-        <translation>neprijaté</translation>
+        <translation>neprijatÃ©</translation>
     </message>
     <message>
         <source>Debit</source>
@@ -2548,15 +2548,15 @@
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Celkový debet</translation>
+        <translation>CelkovÃ½ debet</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Celkový kredit</translation>
+        <translation>CelkovÃ½ kredit</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Transakčný poplatok</translation>
+        <translation>TransakÄnÃ½ poplatok</translation>
     </message>
     <message>
         <source>Net amount</source>
@@ -2564,11 +2564,11 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>Správa</translation>
+        <translation>SprÃ¡va</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Komentár</translation>
+        <translation>KomentÃ¡r</translation>
     </message>
     <message>
         <source>Transaction ID</source>
@@ -2576,7 +2576,7 @@
     </message>
     <message>
         <source>Transaction total size</source>
-        <translation>Celková veľkosť transakcie</translation>
+        <translation>CelkovÃ¡ veÄ¾kosÅ¥ transakcie</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -2584,11 +2584,11 @@
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Vytvorené coins musia dospieť %1 blokov kým môžu byť minuté. Keď vytvoríte tento blok, bude rozoslaný do siete aby bol akceptovaný do reťaze blokov. Ak sa nedostane reťaze, jeho stav sa zmení na "zamietnutý" a nebude sa dať minúť. Toto sa môže občas stať ak iná nóda vytvorí blok približne v tom istom čase.</translation>
+        <translation>VytvorenÃ© coins musia dospieÅ¥ %1 blokov kÃ½m mÃ´Å¾u byÅ¥ minutÃ©. KeÄ vytvorÃ­te tento blok, bude rozoslanÃ½ do siete aby bol akceptovanÃ½ do reÅ¥aze blokov. Ak sa nedostane reÅ¥aze, jeho stav sa zmenÃ­ na "zamietnutÃ½" a nebude sa daÅ¥ minÃºÅ¥. Toto sa mÃ´Å¾e obÄas staÅ¥ ak inÃ¡ nÃ³da vytvorÃ­ blok pribliÅ¾ne v tom istom Äase.</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Ladiace informácie</translation>
+        <translation>Ladiace informÃ¡cie</translation>
     </message>
     <message>
         <source>Transaction</source>
@@ -2615,7 +2615,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Táto časť obrazovky zobrazuje detailný popis transakcie</translation>
+        <translation>TÃ¡to ÄasÅ¥ obrazovky zobrazuje detailnÃ½ popis transakcie</translation>
     </message>
     <message>
         <source>Details for %1</source>
@@ -2626,7 +2626,7 @@
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>DÃ¡tum</translation>
     </message>
     <message>
         <source>Type</source>
@@ -2638,7 +2638,7 @@
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Otvorené do %1</translation>
+        <translation>OtvorenÃ© do %1</translation>
     </message>
     <message>
         <source>Offline</source>
@@ -2646,15 +2646,15 @@
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Nepotvrdené</translation>
+        <translation>NepotvrdenÃ©</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Potvrdzujem (%1 z %2 odporúčaných potvrdení)</translation>
+        <translation>Potvrdzujem (%1 z %2 odporÃºÄanÃ½ch potvrdenÃ­)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Potvrdené (%1 potvrdení)</translation>
+        <translation>PotvrdenÃ© (%1 potvrdenÃ­)</translation>
     </message>
     <message>
         <source>Conflicted</source>
@@ -2662,35 +2662,35 @@
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Nezrelé (%1 potvrdení, bude dostupné po %2)</translation>
+        <translation>NezrelÃ© (%1 potvrdenÃ­, bude dostupnÃ© po %2)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ten blok nebol prijatý žiadnym iným uzlom a pravdepodobne nebude akceptovaný!</translation>
+        <translation>Ten blok nebol prijatÃ½ Å¾iadnym inÃ½m uzlom a pravdepodobne nebude akceptovanÃ½!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>Vypočítané ale neakceptované</translation>
+        <translation>VypoÄÃ­tanÃ© ale neakceptovanÃ©</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Prijaté s</translation>
+        <translation>PrijatÃ© s</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Prijaté od</translation>
+        <translation>PrijatÃ© od</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Odoslané na</translation>
+        <translation>OdoslanÃ© na</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Platba sebe samému</translation>
+        <translation>Platba sebe samÃ©mu</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Vyťažené</translation>
+        <translation>VyÅ¥aÅ¾enÃ©</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -2706,11 +2706,11 @@
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Stav transakcie. Prejdite ponad toto pole pre zobrazenie počtu potvrdení.</translation>
+        <translation>Stav transakcie. Prejdite ponad toto pole pre zobrazenie poÄtu potvrdenÃ­.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Dátum a čas prijatia transakcie.</translation>
+        <translation>DÃ¡tum a Äas prijatia transakcie.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
@@ -2718,18 +2718,18 @@
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Či je v tejto transakcii adresy iba na sledovanie.</translation>
+        <translation>Äi je v tejto transakcii adresy iba na sledovanie.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Suma pridaná alebo odobraná k zostatku.</translation>
+        <translation>Suma pridanÃ¡ alebo odobranÃ¡ k zostatku.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Všetky</translation>
+        <translation>VÅ¡etky</translation>
     </message>
     <message>
         <source>Today</source>
@@ -2737,7 +2737,7 @@
     </message>
     <message>
         <source>This week</source>
-        <translation>Tento týždeň</translation>
+        <translation>Tento tÃ½Å¾deÅ</translation>
     </message>
     <message>
         <source>This month</source>
@@ -2745,7 +2745,7 @@
     </message>
     <message>
         <source>Last month</source>
-        <translation>Minulý mesiac</translation>
+        <translation>MinulÃ½ mesiac</translation>
     </message>
     <message>
         <source>This year</source>
@@ -2757,11 +2757,11 @@
     </message>
     <message>
         <source>Received with</source>
-        <translation>Prijaté s</translation>
+        <translation>PrijatÃ© s</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Odoslané na</translation>
+        <translation>OdoslanÃ© na</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -2769,63 +2769,63 @@
     </message>
     <message>
         <source>Mined</source>
-        <translation>Vyťažené</translation>
+        <translation>VyÅ¥aÅ¾enÃ©</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Iné</translation>
+        <translation>InÃ©</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>Zadajte adresu alebo popis pre hľadanie</translation>
+        <translation>Zadajte adresu alebo popis pre hÄ¾adanie</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Minimálna suma</translation>
+        <translation>MinimÃ¡lna suma</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopírovať adresu</translation>
+        <translation>KopÃ­rovaÅ¥ adresu</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopírovať popis</translation>
+        <translation>KopÃ­rovaÅ¥ popis</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopírovať sumu</translation>
+        <translation>KopÃ­rovaÅ¥ sumu</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopírovať ID transakcie</translation>
+        <translation>KopÃ­rovaÅ¥ ID transakcie</translation>
     </message>
     <message>
         <source>Copy raw transaction</source>
-        <translation>Skopírovať neupravenú transakciu</translation>
+        <translation>SkopÃ­rovaÅ¥ neupravenÃº transakciu</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
-        <translation>Kopírovať všetky podrobnosti o transakcii</translation>
+        <translation>KopÃ­rovaÅ¥ vÅ¡etky podrobnosti o transakcii</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Upraviť popis</translation>
+        <translation>UpraviÅ¥ popis</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Zobraziť podrobnosti transakcie</translation>
+        <translation>ZobraziÅ¥ podrobnosti transakcie</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Exportovať históriu transakcií</translation>
+        <translation>ExportovaÅ¥ histÃ³riu transakciÃ­</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Čiarkou oddelovaný súbor (*.csv)</translation>
+        <translation>Äiarkou oddelovanÃ½ sÃºbor (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Potvrdené</translation>
+        <translation>PotvrdenÃ©</translation>
     </message>
     <message>
         <source>Watch-only</source>
@@ -2833,7 +2833,7 @@
     </message>
     <message>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>DÃ¡tum</translation>
     </message>
     <message>
         <source>Type</source>
@@ -2857,15 +2857,15 @@
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Vyskytla sa chyba pri pokuse o uloženie histórie transakcií do %1.</translation>
+        <translation>Vyskytla sa chyba pri pokuse o uloÅ¾enie histÃ³rie transakciÃ­ do %1.</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>Export úspešný</translation>
+        <translation>Export ÃºspeÅ¡nÃ½</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>História transakciá bola úspešne uložená do %1.</translation>
+        <translation>HistÃ³ria transakciÃ¡ bola ÃºspeÅ¡ne uloÅ¾enÃ¡ do %1.</translation>
     </message>
     <message>
         <source>Range:</source>
@@ -2880,99 +2880,99 @@
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Jednotka pre zobrazovanie súm. Kliknite pre zvolenie inej jednotky.</translation>
+        <translation>Jednotka pre zobrazovanie sÃºm. Kliknite pre zvolenie inej jednotky.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Nie je načítaná peňaženka.</translation>
+        <translation>Nie je naÄÃ­tanÃ¡ peÅaÅ¾enka.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať mince</translation>
+        <translation>PoslaÅ¥ mince</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Exportovať...</translation>
+        <translation>&amp;ExportovaÅ¥...</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportovať dáta v aktuálnej karte do súboru</translation>
+        <translation>ExportovaÅ¥ dÃ¡ta v aktuÃ¡lnej karte do sÃºboru</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Zálohovanie peňaženky</translation>
+        <translation>ZÃ¡lohovanie peÅaÅ¾enky</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Dáta peňaženky (*.dat)</translation>
+        <translation>DÃ¡ta peÅaÅ¾enky (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Zálohovanie zlyhalo</translation>
+        <translation>ZÃ¡lohovanie zlyhalo</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Vyskytla sa chyba pri pokuse o uloženie dát peňaženky do %1.</translation>
+        <translation>Vyskytla sa chyba pri pokuse o uloÅ¾enie dÃ¡t peÅaÅ¾enky do %1.</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>Záloha úspešná</translation>
+        <translation>ZÃ¡loha ÃºspeÅ¡nÃ¡</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>Dáta peňaženky boli úspešne uložené do %1.</translation>
+        <translation>DÃ¡ta peÅaÅ¾enky boli ÃºspeÅ¡ne uloÅ¾enÃ© do %1.</translation>
     </message>
 </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
-        <translation>Možnosti:</translation>
+        <translation>MoÅ¾nosti:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Určiť priečinok s dátami</translation>
+        <translation>UrÄiÅ¥ prieÄinok s dÃ¡tami</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Pripojiť sa k uzlu, získať adresy ďalších počítačov v sieti a odpojiť sa</translation>
+        <translation>PripojiÅ¥ sa k uzlu, zÃ­skaÅ¥ adresy ÄalÅ¡Ã­ch poÄÃ­taÄov v sieti a odpojiÅ¥ sa</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Určite vašu vlastnú verejnú adresu</translation>
+        <translation>UrÄite vaÅ¡u vlastnÃº verejnÃº adresu</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Prijímať príkazy z príkazového riadku a JSON-RPC</translation>
+        <translation>PrijÃ­maÅ¥ prÃ­kazy z prÃ­kazovÃ©ho riadku a JSON-RPC</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>Distribuované pod softvérovou licenciou MIT, viď sprievodný súbor %s alebo %s</translation>
+        <translation>DistribuovanÃ© pod softvÃ©rovou licenciou MIT, viÄ sprievodnÃ½ sÃºbor %s alebo %s</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>Pokiaľ &lt;category&gt; nie je nastavená, alebo &lt;category&gt; = 1, vypíš všetky informácie pre ladenie.</translation>
+        <translation>PokiaÄ¾ &lt;category&gt; nie je nastavenÃ¡, alebo &lt;category&gt; = 1, vypÃ­Å¡ vÅ¡etky informÃ¡cie pre ladenie.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Redukcia nastavená pod minimálnu hodnotu %d MiB. Prosím použite vyššiu hodnotu.</translation>
+        <translation>Redukcia nastavenÃ¡ pod minimÃ¡lnu hodnotu %d MiB. ProsÃ­m pouÅ¾ite vyÅ¡Å¡iu hodnotu.</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Chyba: Vyskytla sa interná chyba, pre viac informácií zobrazte debug.log</translation>
+        <translation>Chyba: Vyskytla sa internÃ¡ chyba, pre viac informÃ¡ciÃ­ zobrazte debug.log</translation>
     </message>
     <message>
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
-        <translation>Poplatok (za %s/kB) pridaný do transakcie, ktorú posielate (predvolené: %s)</translation>
+        <translation>Poplatok (za %s/kB) pridanÃ½ do transakcie, ktorÃº posielate (predvolenÃ©: %s)</translation>
     </message>
     <message>
         <source>Pruning blockstore...</source>
@@ -2980,11 +2980,11 @@
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Bežať na pozadí ako démon a prijímať príkazy</translation>
+        <translation>BeÅ¾aÅ¥ na pozadÃ­ ako dÃ©mon a prijÃ­maÅ¥ prÃ­kazy</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Nepodarilo sa spustiť HTTP server. Pre viac detailov zobrazte debug log.</translation>
+        <translation>Nepodarilo sa spustiÅ¥ HTTP server. Pre viac detailov zobrazte debug log.</translation>
     </message>
     <message>
         <source>Pirate Core</source>
@@ -2992,95 +2992,95 @@
     </message>
     <message>
         <source>The %s developers</source>
-        <translation>Vývojári %s</translation>
+        <translation>VÃ½vojÃ¡ri %s</translation>
     </message>
     <message>
         <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>Akceptovať postúpené transakcie od povolených partnerov aj keď normálne nepostupujete transakcie (predvolené: %d)</translation>
+        <translation>AkceptovaÅ¥ postÃºpenÃ© transakcie od povolenÃ½ch partnerov aj keÄ normÃ¡lne nepostupujete transakcie (predvolenÃ©: %d)</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
+        <translation>SpojiÅ¥ s danou adresou a vÅ¾dy na nej poÄÃºvaÅ¥. PouÅ¾ite zÃ¡pis [host]:port pre IPv6</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>Nemožné uzamknúť zložku %s. %s pravdepodobne už beží.</translation>
+        <translation>NemoÅ¾nÃ© uzamknÃºÅ¥ zloÅ¾ku %s. %s pravdepodobne uÅ¾ beÅ¾Ã­.</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Vymazať všetky transakcie z peňaženky a pri spustení znova získať z reťazca blokov iba tie získané pomocou -rescan</translation>
+        <translation>VymazaÅ¥ vÅ¡etky transakcie z peÅaÅ¾enky a pri spustenÃ­ znova zÃ­skaÅ¥ z reÅ¥azca blokov iba tie zÃ­skanÃ© pomocou -rescan</translation>
     </message>
     <message>
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>Chyba počas načítavania %s: Nemôžete povoliť HD na už existujúcej non-HD peaženke</translation>
+        <translation>Chyba poÄas naÄÃ­tavania %s: NemÃ´Å¾ete povoliÅ¥ HD na uÅ¾ existujÃºcej non-HD peaÅ¾enke</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Vykonaj príkaz keď sa zmení transakcia peňaženky (%s v príkaze je nahradená TxID)</translation>
+        <translation>Vykonaj prÃ­kaz keÄ sa zmenÃ­ transakcia peÅaÅ¾enky (%s v prÃ­kaze je nahradenÃ¡ TxID)</translation>
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Prosím skontrolujte systémový čas a dátum. Keď je váš čas nesprávny, %s nebude fungovať správne.</translation>
+        <translation>ProsÃ­m skontrolujte systÃ©movÃ½ Äas a dÃ¡tum. KeÄ je vÃ¡Å¡ Äas nesprÃ¡vny, %s nebude fungovaÅ¥ sprÃ¡vne.</translation>
     </message>
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>Keď si myslíte, že %s je užitočný, podporte nás. Pre viac informácií o software navštívte %s.</translation>
+        <translation>KeÄ si myslÃ­te, Å¾e %s je uÅ¾itoÄnÃ½, podporte nÃ¡s. Pre viac informÃ¡ciÃ­ o software navÅ¡tÃ­vte %s.</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Nastaviť počeť vlákien overujúcich skripty (%u až %d, 0 = auto, &lt;0 = nechať toľkoto jadier voľných, prednastavené: %d)</translation>
+        <translation>NastaviÅ¥ poÄeÅ¥ vlÃ¡kien overujÃºcich skripty (%u aÅ¾ %d, 0 = auto, &lt;0 = nechaÅ¥ toÄ¾koto jadier voÄ¾nÃ½ch, prednastavenÃ©: %d)</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>Databáza blokov obsahuje blok, ktorý vyzerá byť z budúcnosti. Toto môže byť spôsobené nesprávnym systémovým časom vášho počítača. Obnovujte databázu blokov len keď ste si istý, že systémový čas je nastavený správne.</translation>
+        <translation>DatabÃ¡za blokov obsahuje blok, ktorÃ½ vyzerÃ¡ byÅ¥ z budÃºcnosti. Toto mÃ´Å¾e byÅ¥ spÃ´sobenÃ© nesprÃ¡vnym systÃ©movÃ½m Äasom vÃ¡Å¡ho poÄÃ­taÄa. Obnovujte databÃ¡zu blokov len keÄ ste si istÃ½, Å¾e systÃ©movÃ½ Äas je nastavenÃ½ sprÃ¡vne.</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
+        <translation>Toto je predbeÅ¾nÃ¡ testovacia zostava - pouÅ¾Ã­vate na vlastnÃ© riziko - nepouÅ¾Ã­vajte na Å¥aÅ¾enie alebo obchodnÃ© aplikÃ¡cie</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (predvolené: 1 počas počúvania a bez -proxy)</translation>
+        <translation>SkÃºsiÅ¥ pouÅ¾iÅ¥ UPnP pre mapovanie poÄÃºvajÃºceho portu (predvolenÃ©: 1 poÄas poÄÃºvania a bez -proxy)</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Varovanie: Javí sa že sieť sieť úplne nesúhlasí! Niektorí mineri zjavne majú ťažkosti.</translation>
+        <translation>Varovanie: JavÃ­ sa Å¾e sieÅ¥ sieÅ¥ Ãºplne nesÃºhlasÃ­! NiektorÃ­ mineri zjavne majÃº Å¥aÅ¾kosti.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Varovanie: Zjavne sa úplne nezhodujeme s našimi peer-mi! Možno potrebujete prejsť na novšiu verziu alebo ostatné uzly potrebujú vyššiu verziu.</translation>
+        <translation>Varovanie: Zjavne sa Ãºplne nezhodujeme s naÅ¡imi peer-mi! MoÅ¾no potrebujete prejsÅ¥ na novÅ¡iu verziu alebo ostatnÃ© uzly potrebujÃº vyÅ¡Å¡iu verziu.</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>Potrebujete prebudovať databázu použitím -reindex-chainstate pre zmenu -txindex</translation>
+        <translation>Potrebujete prebudovaÅ¥ databÃ¡zu pouÅ¾itÃ­m -reindex-chainstate pre zmenu -txindex</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
-        <translation>%s je poškodený, záchrana zlyhala</translation>
+        <translation>%s je poÅ¡kodenÃ½, zÃ¡chrana zlyhala</translation>
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool musí byť najmenej %d MB</translation>
+        <translation>-maxmempool musÃ­ byÅ¥ najmenej %d MB</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; môže byť:</translation>
+        <translation>&lt;category&gt; mÃ´Å¾e byÅ¥:</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet on startup</source>
-        <translation>Pokúsiť sa o obnovenie privátnych kľúčov z poškodenej peňaženky pri spustení</translation>
+        <translation>PokÃºsiÅ¥ sa o obnovenie privÃ¡tnych kÄ¾ÃºÄov z poÅ¡kodenej peÅaÅ¾enky pri spustenÃ­</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Voľby vytvorenia bloku:</translation>
+        <translation>VoÄ¾by vytvorenia bloku:</translation>
     </message>
     <message>
         <source>Change index out of range</source>
-        <translation>Menný index mimo rozsah</translation>
+        <translation>MennÃ½ index mimo rozsah</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Možnosti pripojenia:</translation>
+        <translation>MoÅ¾nosti pripojenia:</translation>
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>
@@ -3088,71 +3088,71 @@
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Zistená poškodená databáza blokov</translation>
+        <translation>ZistenÃ¡ poÅ¡kodenÃ¡ databÃ¡za blokov</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Možnosti ladenia/testovania:</translation>
+        <translation>MoÅ¾nosti ladenia/testovania:</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Nenahrat peňaženku a zablokovať volania RPC.</translation>
+        <translation>Nenahrat peÅaÅ¾enku a zablokovaÅ¥ volania RPC.</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Chcete znovu zostaviť databázu blokov?</translation>
+        <translation>Chcete znovu zostaviÅ¥ databÃ¡zu blokov?</translation>
     </message>
     <message>
         <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Povoliť zverejneneie hash blokov pre &lt;address&gt;</translation>
+        <translation>PovoliÅ¥ zverejneneie hash blokov pre &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Povoliť zverejnenie hash transakcií pre &lt;address&gt;</translation>
+        <translation>PovoliÅ¥ zverejnenie hash transakciÃ­ pre &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Povoliť zverejnenie raw bloku pre &lt;address&gt;</translation>
+        <translation>PovoliÅ¥ zverejnenie raw bloku pre &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Povoliť publikovať hrubý prevod v &lt;address&gt;</translation>
+        <translation>PovoliÅ¥ publikovaÅ¥ hrubÃ½ prevod v &lt;address&gt;</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Chyba inicializácie databázy blokov</translation>
+        <translation>Chyba inicializÃ¡cie databÃ¡zy blokov</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Chyba spustenia databázového prostredia peňaženky %s!</translation>
+        <translation>Chyba spustenia databÃ¡zovÃ©ho prostredia peÅaÅ¾enky %s!</translation>
     </message>
     <message>
         <source>Error loading %s</source>
-        <translation>Chyba načítania %s</translation>
+        <translation>Chyba naÄÃ­tania %s</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet corrupted</source>
-        <translation>Chyba načítania %s: Peňaženka je poškodená</translation>
+        <translation>Chyba naÄÃ­tania %s: PeÅaÅ¾enka je poÅ¡kodenÃ¡</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Chyba načítania %s: Peňaženka vyžaduje novšiu verziu %s</translation>
+        <translation>Chyba naÄÃ­tania %s: PeÅaÅ¾enka vyÅ¾aduje novÅ¡iu verziu %s</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Chyba načítania databázy blokov</translation>
+        <translation>Chyba naÄÃ­tania databÃ¡zy blokov</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Chyba otvárania databázy blokov</translation>
+        <translation>Chyba otvÃ¡rania databÃ¡zy blokov</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Chyba: Málo miesta na disku!</translation>
+        <translation>Chyba: MÃ¡lo miesta na disku!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Chyba počúvania na ktoromkoľvek porte. Použi -listen=0 ak toto chcete.</translation>
+        <translation>Chyba poÄÃºvania na ktoromkoÄ¾vek porte. PouÅ¾i -listen=0 ak toto chcete.</translation>
     </message>
     <message>
         <source>Importing...</source>
@@ -3160,103 +3160,103 @@
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Nesprávny alebo žiadny genesis blok nájdený. Nesprávny dátový priečinok alebo sieť?</translation>
+        <translation>NesprÃ¡vny alebo Å¾iadny genesis blok nÃ¡jdenÃ½. NesprÃ¡vny dÃ¡tovÃ½ prieÄinok alebo sieÅ¥?</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>Kontrola čistoty pri inicializácií zlyhala. %s sa vypína.</translation>
+        <translation>Kontrola Äistoty pri inicializÃ¡ciÃ­ zlyhala. %s sa vypÃ­na.</translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
-        <translation>Neplatná -onion adresa:  '%s'</translation>
+        <translation>NeplatnÃ¡ -onion adresa:  '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Neplatná suma pre -%s=&lt;amount&gt;: '%s'</translation>
+        <translation>NeplatnÃ¡ suma pre -%s=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>Neplatná suma pre -fallbackfee=&lt;amount&gt;: '%s'</translation>
+        <translation>NeplatnÃ¡ suma pre -fallbackfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Loading banlist...</source>
-        <translation>Načítavam banlist...</translation>
+        <translation>NaÄÃ­tavam banlist...</translation>
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Umiestnenie overovacieho cookie súboru (predvolená: Priečinok s dátami)</translation>
+        <translation>Umiestnenie overovacieho cookie sÃºboru (predvolenÃ¡: PrieÄinok s dÃ¡tami)</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Nedostatok kľúčových slov súboru.</translation>
+        <translation>Nedostatok kÄ¾ÃºÄovÃ½ch slov sÃºboru.</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Pripojiť iba k uzlom v sieti &lt;net&gt; (ipv4, ipv6, alebo onion)</translation>
+        <translation>PripojiÅ¥ iba k uzlom v sieti &lt;net&gt; (ipv4, ipv6, alebo onion)</translation>
     </message>
     <message>
         <source>Print this help message and exit</source>
-        <translation>Vytlačiť túto pomocnú správu a ukončiť</translation>
+        <translation>VytlaÄiÅ¥ tÃºto pomocnÃº sprÃ¡vu a ukonÄiÅ¥</translation>
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>Vytlačiť verziu a ukončiť</translation>
+        <translation>VytlaÄiÅ¥ verziu a ukonÄiÅ¥</translation>
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
-        <translation>Redukovanie nemôže byť nastavené na zápornú hodnotu.</translation>
+        <translation>Redukovanie nemÃ´Å¾e byÅ¥ nastavenÃ© na zÃ¡pornÃº hodnotu.</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Redukovanie je nekompatibilné s -txindex.</translation>
+        <translation>Redukovanie je nekompatibilnÃ© s -txindex.</translation>
     </message>
     <message>
         <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
-        <translation>Obnoviť stav reťazca a index blokov zo súborov blk*.dat na disku.</translation>
+        <translation>ObnoviÅ¥ stav reÅ¥azca a index blokov zo sÃºborov blk*.dat na disku.</translation>
     </message>
     <message>
         <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>Obnoviť stav reťazca z aktuálne indexovaných blokov.</translation>
+        <translation>ObnoviÅ¥ stav reÅ¥azca z aktuÃ¡lne indexovanÃ½ch blokov.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Nastaviť veľkosť pomocnej pamäti databázy v megabajtoch (%d do %d, prednastavené: %d)</translation>
+        <translation>NastaviÅ¥ veÄ¾kosÅ¥ pomocnej pamÃ¤ti databÃ¡zy v megabajtoch (%d do %d, prednastavenÃ©: %d)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Nastaviť najväčšiu veľkosť bloku v bytoch (predvolené: %d)</translation>
+        <translation>NastaviÅ¥ najvÃ¤ÄÅ¡iu veÄ¾kosÅ¥ bloku v bytoch (predvolenÃ©: %d)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Označ súbor peňaženky (v priečinku s dátami)</translation>
+        <translation>OznaÄ sÃºbor peÅaÅ¾enky (v prieÄinku s dÃ¡tami)</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
-        <translation>Zdrojový kód je dostupný z %s</translation>
+        <translation>ZdrojovÃ½ kÃ³d je dostupnÃ½ z %s</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>Nemožné pripojiť k %s na tomto počíťači. %s už pravdepodobne beží.</translation>
+        <translation>NemoÅ¾nÃ© pripojiÅ¥ k %s na tomto poÄÃ­Å¥aÄi. %s uÅ¾ pravdepodobne beÅ¾Ã­.</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Nepodporovaný parameter -benchmark bol ignorovaný, použite -debug=bench.</translation>
+        <translation>NepodporovanÃ½ parameter -benchmark bol ignorovanÃ½, pouÅ¾ite -debug=bench.</translation>
     </message>
     <message>
         <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Nepodporovaný argument -debugnet bol ignorovaný, použite -debug=net.</translation>
+        <translation>NepodporovanÃ½ argument -debugnet bol ignorovanÃ½, pouÅ¾ite -debug=net.</translation>
     </message>
     <message>
         <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>Nepodporovaný argument -tor, použite -onion.</translation>
+        <translation>NepodporovanÃ½ argument -tor, pouÅ¾ite -onion.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
+        <translation>PouÅ¾iÅ¥ UPnP pre mapovanie poÄÃºvajÃºceho portu (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Use the test chain</source>
-        <translation>Použiť testovaciu sieť</translation>
+        <translation>PouÅ¾iÅ¥ testovaciu sieÅ¥</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3264,191 +3264,191 @@
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Overujem peňaženku...</translation>
+        <translation>Overujem peÅaÅ¾enku...</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Peňaženka %s sa nachádza mimo dátového priečinka %s </translation>
+        <translation>PeÅaÅ¾enka %s sa nachÃ¡dza mimo dÃ¡tovÃ©ho prieÄinka %s </translation>
     </message>
     <message>
         <source>Wallet debugging/testing options:</source>
-        <translation>Ladiace / testovacie možnosti peňaženky.</translation>
+        <translation>Ladiace / testovacie moÅ¾nosti peÅaÅ¾enky.</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>Peňaženka musí byť prepísaná: pre dokončenie reštartujte %s</translation>
+        <translation>PeÅaÅ¾enka musÃ­ byÅ¥ prepÃ­sanÃ¡: pre dokonÄenie reÅ¡tartujte %s</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Voľby peňaženky:</translation>
+        <translation>VoÄ¾by peÅaÅ¾enky:</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Povoliť JSON-RPC pripojenia zo zadaného zdroja. Pre &lt;ip&gt; sú platné jednoduché IP (napr. 1.2.3.4), sieť/netmask (napr. 1.2.3.4/255.255.255.0) alebo sieť/CIDR (napr. 1.2.3.4/24). Táto možnosť môže byť zadaná niekoľko krát</translation>
+        <translation>PovoliÅ¥ JSON-RPC pripojenia zo zadanÃ©ho zdroja. Pre &lt;ip&gt; sÃº platnÃ© jednoduchÃ© IP (napr. 1.2.3.4), sieÅ¥/netmask (napr. 1.2.3.4/255.255.255.0) alebo sieÅ¥/CIDR (napr. 1.2.3.4/24). TÃ¡to moÅ¾nosÅ¥ mÃ´Å¾e byÅ¥ zadanÃ¡ niekoÄ¾ko krÃ¡t</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Spojiť s danou adresou a povolenými partnerskými zariadeniami ktoré sa tam pripájajú. Použite zápis [host]:port pre IPv6</translation>
+        <translation>SpojiÅ¥ s danou adresou a povolenÃ½mi partnerskÃ½mi zariadeniami ktorÃ© sa tam pripÃ¡jajÃº. PouÅ¾ite zÃ¡pis [host]:port pre IPv6</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Spojiť s danou adresou pre počúvanie JSON-RPC spojení. Použite zápis [host]:port pre IPv6. Táto možnosť môže byt zadaná niekoľko krát (predvolené: spojiť so všetkými rozhraniami)</translation>
+        <translation>SpojiÅ¥ s danou adresou pre poÄÃºvanie JSON-RPC spojenÃ­. PouÅ¾ite zÃ¡pis [host]:port pre IPv6. TÃ¡to moÅ¾nosÅ¥ mÃ´Å¾e byt zadanÃ¡ niekoÄ¾ko krÃ¡t (predvolenÃ©: spojiÅ¥ so vÅ¡etkÃ½mi rozhraniami)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Vytvoriť nové súbory z predvolenými systémovými právami, namiesto umask 077 (funguje iba z vypnutou funkcionalitou peňaženky)</translation>
+        <translation>VytvoriÅ¥ novÃ© sÃºbory z predvolenÃ½mi systÃ©movÃ½mi prÃ¡vami, namiesto umask 077 (funguje iba z vypnutou funkcionalitou peÅaÅ¾enky)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Zisti vlastnú IP adresu (predvolené: 1 pre listen a -externalip alebo -proxy)</translation>
+        <translation>Zisti vlastnÃº IP adresu (predvolenÃ©: 1 pre listen a -externalip alebo -proxy)</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Chyba: Počúvanie prichádzajúcich spojení zlyhalo (vrátená chyba je %s)</translation>
+        <translation>Chyba: PoÄÃºvanie prichÃ¡dzajÃºcich spojenÃ­ zlyhalo (vrÃ¡tenÃ¡ chyba je %s)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Vykonať príkaz po prijatí patričného varovania alebo uvidíme veľmi dlhé rozdvojenie siete (%s v cmd je nahradené správou)</translation>
+        <translation>VykonaÅ¥ prÃ­kaz po prijatÃ­ patriÄnÃ©ho varovania alebo uvidÃ­me veÄ¾mi dlhÃ© rozdvojenie siete (%s v cmd je nahradenÃ© sprÃ¡vou)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>Poplatky (v %s/kB) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
+        <translation>Poplatky (v %s/kB) menÅ¡ie ako toto, sÃº povaÅ¾ovanÃ© za nulovÃ½ transakÄnÃ½ poplatok (predvolenÃ©: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Ak nie je nastavené paytxfee, pridať dostatočný poplatok aby sa transakcia začala potvrdzovať priemerne v rámci bloku (predvolené: %u)</translation>
+        <translation>Ak nie je nastavenÃ© paytxfee, pridaÅ¥ dostatoÄnÃ½ poplatok aby sa transakcia zaÄala potvrdzovaÅ¥ priemerne v rÃ¡mci bloku (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Neplatná suma pre -maxtxfee=&lt;amount&gt;: '%s' (aby sa transakcia nezasekla, minimálny prenosový poplatok musí byť aspoň %s)</translation>
+        <translation>NeplatnÃ¡ suma pre -maxtxfee=&lt;amount&gt;: '%s' (aby sa transakcia nezasekla, minimÃ¡lny prenosovÃ½ poplatok musÃ­ byÅ¥ aspoÅ %s)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maximálna veľkosť dát v transakciách nosných dát, ktoré prenášame a ťažíme (predvolené: %u)</translation>
+        <translation>MaximÃ¡lna veÄ¾kosÅ¥ dÃ¡t v transakciÃ¡ch nosnÃ½ch dÃ¡t, ktorÃ© prenÃ¡Å¡ame a Å¥aÅ¾Ã­me (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Nastaviť najväčšiu veľkosť vysoká-dôležitosť/nízke-poplatky transakcií v bajtoch (prednastavené: %d)</translation>
+        <translation>NastaviÅ¥ najvÃ¤ÄÅ¡iu veÄ¾kosÅ¥ vysokÃ¡-dÃ´leÅ¾itosÅ¥/nÃ­zke-poplatky transakciÃ­ v bajtoch (prednastavenÃ©: %d)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Suma je príliš malá pre odoslanie transakcie</translation>
+        <translation>Suma je prÃ­liÅ¡ malÃ¡ pre odoslanie transakcie</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Uzle na zoznam povolených nemôžu byť DoS zakázané a ich transakcie vždy postúpené ďalej, aj v prípade, ak sú už pamäťovej fronte. Užitočné napr. pre brány</translation>
+        <translation>Uzle na zoznam povolenÃ½ch nemÃ´Å¾u byÅ¥ DoS zakÃ¡zanÃ© a ich transakcie vÅ¾dy postÃºpenÃ© Äalej, aj v prÃ­pade, ak sÃº uÅ¾ pamÃ¤Å¥ovej fronte. UÅ¾itoÄnÃ© napr. pre brÃ¡ny</translation>
     </message>
     <message>
         <source>(default: %u)</source>
-        <translation>(predvolené: %u)</translation>
+        <translation>(predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Akceptovať verejné REST žiadosti (predvolené: %u)</translation>
+        <translation>AkceptovaÅ¥ verejnÃ© REST Å¾iadosti (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Automaticky vytvoriť skrytú službu Tor (predvolené: %d)</translation>
+        <translation>Automaticky vytvoriÅ¥ skrytÃº sluÅ¾bu Tor (predvolenÃ©: %d)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Pripojiť cez proxy server SOCKS5</translation>
+        <translation>PripojiÅ¥ cez proxy server SOCKS5</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Chyba pri načítaní z databázy, ukončuje sa.</translation>
+        <translation>Chyba pri naÄÃ­tanÃ­ z databÃ¡zy, ukonÄuje sa.</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file on startup</source>
-        <translation>Importovať bloky z externého súboru blk000??.dat pri štarte</translation>
+        <translation>ImportovaÅ¥ bloky z externÃ©ho sÃºboru blk000??.dat pri Å¡tarte</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informácia</translation>
+        <translation>InformÃ¡cia</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: '%s' (musí byť aspoň %s)</translation>
+        <translation>NeplatnÃ¡ suma pre -paytxfee=&lt;amount&gt;: '%s' (musÃ­ byÅ¥ aspoÅ %s)</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Nadaná neplatná netmask vo -whitelist: '%s'</translation>
+        <translation>NadanÃ¡ neplatnÃ¡ netmask vo -whitelist: '%s'</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>V pamäti udržiavať najviac &lt;n&gt; nepotvrdených transakcií (predvolené: %u)</translation>
+        <translation>V pamÃ¤ti udrÅ¾iavaÅ¥ najviac &lt;n&gt; nepotvrdenÃ½ch transakciÃ­ (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Je potrebné zadať port s -whitebind: '%s'</translation>
+        <translation>Je potrebnÃ© zadaÅ¥ port s -whitebind: '%s'</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Prenosové možnosti uzla:</translation>
+        <translation>PrenosovÃ© moÅ¾nosti uzla:</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>Možnosti servra RPC:</translation>
+        <translation>MoÅ¾nosti servra RPC:</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
-        <translation>Pri spustení skontrolovať reťaz blokov pre chýbajúce transakcie peňaženky</translation>
+        <translation>Pri spustenÃ­ skontrolovaÅ¥ reÅ¥az blokov pre chÃ½bajÃºce transakcie peÅaÅ¾enky</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Odoslať trace/debug informácie na konzolu namiesto debug.info žurnálu</translation>
+        <translation>OdoslaÅ¥ trace/debug informÃ¡cie na konzolu namiesto debug.info Å¾urnÃ¡lu</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Poslať ako transakcie bez poplatku, ak je to možné (predvolené: %u)</translation>
+        <translation>PoslaÅ¥ ako transakcie bez poplatku, ak je to moÅ¾nÃ© (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Zobraziť všetky možnosti ladenia (použitie: --help --help-debug)</translation>
+        <translation>ZobraziÅ¥ vÅ¡etky moÅ¾nosti ladenia (pouÅ¾itie: --help --help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Zmenšiť debug.log pri spustení klienta (predvolené: 1 ak bez -debug)</translation>
+        <translation>ZmenÅ¡iÅ¥ debug.log pri spustenÃ­ klienta (predvolenÃ©: 1 ak bez -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Podpísanie správy zlyhalo</translation>
+        <translation>PodpÃ­sanie sprÃ¡vy zlyhalo</translation>
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
-        <translation>Suma transakcie je príliš malá na zaplatenie poplatku</translation>
+        <translation>Suma transakcie je prÃ­liÅ¡ malÃ¡ na zaplatenie poplatku</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Toto je experimentálny softvér.</translation>
+        <translation>Toto je experimentÃ¡lny softvÃ©r.</translation>
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
-        <translation>Heslo na kontrolu portu pre Tor (predvolené: žiadne)</translation>
+        <translation>Heslo na kontrolu portu pre Tor (predvolenÃ©: Å¾iadne)</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Suma transakcie príliš malá</translation>
+        <translation>Suma transakcie prÃ­liÅ¡ malÃ¡</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Transakcia je príliš veľká pre aktuálne podmienky poplatkov</translation>
+        <translation>Transakcia je prÃ­liÅ¡ veÄ¾kÃ¡ pre aktuÃ¡lne podmienky poplatkov</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transakcia príliš veľká</translation>
+        <translation>Transakcia prÃ­liÅ¡ veÄ¾kÃ¡</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Na tomto počítači sa nedá vytvoriť väzba %s (vytvorenie väzby vrátilo chybu %s)</translation>
+        <translation>Na tomto poÄÃ­taÄi sa nedÃ¡ vytvoriÅ¥ vÃ¤zba %s (vytvorenie vÃ¤zby vrÃ¡tilo chybu %s)</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup</source>
-        <translation>Aktualizovať peňaženku na posledný formát pri štarte</translation>
+        <translation>AktualizovaÅ¥ peÅaÅ¾enku na poslednÃ½ formÃ¡t pri Å¡tarte</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Užívateľské meno pre JSON-RPC spojenia</translation>
+        <translation>UÅ¾Ã­vateÄ¾skÃ© meno pre JSON-RPC spojenia</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -3456,11 +3456,11 @@
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Zmazať všetky transakcie z peňaženky...</translation>
+        <translation>ZmazaÅ¥ vÅ¡etky transakcie z peÅaÅ¾enky...</translation>
     </message>
     <message>
         <source>ZeroMQ notification options:</source>
-        <translation>Možnosti pripojenia ZeroMQ:</translation>
+        <translation>MoÅ¾nosti pripojenia ZeroMQ:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
@@ -3468,187 +3468,187 @@
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Vykonaj príkaz, ak zmeny v najlepšom bloku (%s v príkaze nahradí blok hash)</translation>
+        <translation>Vykonaj prÃ­kaz, ak zmeny v najlepÅ¡om bloku (%s v prÃ­kaze nahradÃ­ blok hash)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Povoliť vyhľadávanie DNS pre pridanie nódy a spojenie</translation>
+        <translation>PovoliÅ¥ vyhÄ¾adÃ¡vanie DNS pre pridanie nÃ³dy a spojenie</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Načítavanie adries...</translation>
+        <translation>NaÄÃ­tavanie adries...</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = zachovať metaúdaje tx napr. vlastníka účtu a informácie o platobných príkazoch, 2 = zahodiť metaúdaje tx)</translation>
+        <translation>(1 = zachovaÅ¥ metaÃºdaje tx napr. vlastnÃ­ka ÃºÄtu a informÃ¡cie o platobnÃ½ch prÃ­kazoch, 2 = zahodiÅ¥ metaÃºdaje tx)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Poplatky (v %s/kB) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
+        <translation>Poplatky (v %s/kB) menÅ¡ie ako toto, sÃº povaÅ¾ovanÃ© za nulovÃ½ transakÄnÃ½ poplatok (predvolenÃ©: %s)</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Ako dôkladné je -checkblocks overenie blokov (0-4, predvolené: %u)</translation>
+        <translation>Ako dÃ´kladnÃ© je -checkblocks overenie blokov (0-4, predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Udržiavať kompletný transakčný index, využíva getrawtransaction rpc volanie (predvolené: %u)</translation>
+        <translation>UdrÅ¾iavaÅ¥ kompletnÃ½ transakÄnÃ½ index, vyuÅ¾Ã­va getrawtransaction rpc volanie (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Počet sekúnd, počas ktorých nepripájať zle správajúce sa uzle (predvolené: %u)</translation>
+        <translation>PoÄet sekÃºnd, poÄas ktorÃ½ch nepripÃ¡jaÅ¥ zle sprÃ¡vajÃºce sa uzle (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Výstupné ladiace informácie (predvolené: %u, dodanie &lt;category&gt; je voliteľné)</translation>
+        <translation>VÃ½stupnÃ© ladiace informÃ¡cie (predvolenÃ©: %u, dodanie &lt;category&gt; je voliteÄ¾nÃ©)</translation>
     </message>
     <message>
         <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>Toto je poplatok za transakciu keď odhad poplatkov ešte nie je k dispozícii.</translation>
+        <translation>Toto je poplatok za transakciu keÄ odhad poplatkov eÅ¡te nie je k dispozÃ­cii.</translation>
     </message>
     <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Celková dĺžka verzie sieťového reťazca (%i) prekračuje maximálnu dĺžku (%i). Znížte počet a veľkosť komentárov.</translation>
+        <translation>CelkovÃ¡ dÄºÅ¾ka verzie sieÅ¥ovÃ©ho reÅ¥azca (%i) prekraÄuje maximÃ¡lnu dÄºÅ¾ku (%i). ZnÃ­Å¾te poÄet a veÄ¾kosÅ¥ komentÃ¡rov.</translation>
     </message>
     <message>
         <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>Sa snaží držať odchádzajúce prevádzku v rámci daného cieľa (v MB za 24h), 0 = žiadny limit (predvolený: %d)</translation>
+        <translation>Sa snaÅ¾Ã­ drÅ¾aÅ¥ odchÃ¡dzajÃºce prevÃ¡dzku v rÃ¡mci danÃ©ho cieÄ¾a (v MB za 24h), 0 = Å¾iadny limit (predvolenÃ½: %d)</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Nepodporovaný argument -socks nájdený. Nastavenie SOCKS verzie už nie je viac moźné, iba SOCKS5 proxies sú podporované.</translation>
+        <translation>NepodporovanÃ½ argument -socks nÃ¡jdenÃ½. Nastavenie SOCKS verzie uÅ¾ nie je viac moÅºnÃ©, iba SOCKS5 proxies sÃº podporovanÃ©.</translation>
     </message>
     <message>
         <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
-        <translation>Nepodporovaný argument -whitelistalwaysrelay ignorovaný, použite -whitelistrelay a/alebo -whitelistforcerelay.</translation>
+        <translation>NepodporovanÃ½ argument -whitelistalwaysrelay ignorovanÃ½, pouÅ¾ite -whitelistrelay a/alebo -whitelistforcerelay.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor (predvolené: %s)</translation>
+        <translation>PouÅ¾iÅ¥ samostatnÃ½ SOCKS5 proxy server na dosiahnutie poÄÃ­taÄov cez skrytÃ© sluÅ¾by Tor (predvolenÃ©: %s)</translation>
     </message>
     <message>
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
-        <translation>Varovanie: Neznáma verzia blokov sa doluje! Je možné, že neznáme pravidlá majú efekt</translation>
+        <translation>Varovanie: NeznÃ¡ma verzia blokov sa doluje! Je moÅ¾nÃ©, Å¾e neznÃ¡me pravidlÃ¡ majÃº efekt</translation>
     </message>
     <message>
         <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Varovanie: Peňaženka poškodená, dáta boli zachránené! Originálna %s ako %s v %s; ak váš zostatok alebo transakcie sú nesprávne, mali by ste obnoviť zálohu.</translation>
+        <translation>Varovanie: PeÅaÅ¾enka poÅ¡kodenÃ¡, dÃ¡ta boli zachrÃ¡nenÃ©! OriginÃ¡lna %s ako %s v %s; ak vÃ¡Å¡ zostatok alebo transakcie sÃº nesprÃ¡vne, mali by ste obnoviÅ¥ zÃ¡lohu.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
-        <translation>Povoliť partnerov pripájajúcich sa z danej IP adresy (napr. 1.2.3.4) alebo zo siete vo formáte CIDR (napr. 1.2.3.0/24). Môže byť zadané viackrát.</translation>
+        <translation>PovoliÅ¥ partnerov pripÃ¡jajÃºcich sa z danej IP adresy (napr. 1.2.3.4) alebo zo siete vo formÃ¡te CIDR (napr. 1.2.3.0/24). MÃ´Å¾e byÅ¥ zadanÃ© viackrÃ¡t.</translation>
     </message>
     <message>
         <source>%s is set very high!</source>
-        <translation>Hodnota %s je nastavená veľmi vysoko!</translation>
+        <translation>Hodnota %s je nastavenÃ¡ veÄ¾mi vysoko!</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(predvolené: %s)</translation>
+        <translation>(predvolenÃ©: %s)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Vždy sa dotazovať adresy partnerských uzlov cez vyhľadávanie DNS (predvolené: %u)</translation>
+        <translation>VÅ¾dy sa dotazovaÅ¥ adresy partnerskÃ½ch uzlov cez vyhÄ¾adÃ¡vanie DNS (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Koľko blokov overiť pri spustení (predvolené: %u, 0 = všetky)</translation>
+        <translation>KoÄ¾ko blokov overiÅ¥ pri spustenÃ­ (predvolenÃ©: %u, 0 = vÅ¡etky)</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Zahrnúť IP adresy v ladiacom výstupe (predvolené: %u)</translation>
+        <translation>ZahrnÃºÅ¥ IP adresy v ladiacom vÃ½stupe (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>Neplatná adresa proxy: '%s'</translation>
+        <translation>NeplatnÃ¡ adresa proxy: '%s'</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Počúvať JSON-RPC pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
+        <translation>PoÄÃºvaÅ¥ JSON-RPC pripojenia na &lt;port&gt; (predvolenÃ©: %u alebo testovacia sieÅ¥: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
+        <translation>PoÄÃºvaÅ¥ pripojenia na &lt;port&gt; (predvolenÃ©: %u alebo testovacia sieÅ¥: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Udržiavať najviac &lt;n&gt; spojení s inými počítačmi (predvolené: %u)</translation>
+        <translation>UdrÅ¾iavaÅ¥ najviac &lt;n&gt; spojenÃ­ s inÃ½mi poÄÃ­taÄmi (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maximálna prijímajúca medzipamäť pre pripojenie, &lt;n&gt;*1000 bajtov (predvolené: %u)</translation>
+        <translation>MaximÃ¡lna prijÃ­majÃºca medzipamÃ¤Å¥ pre pripojenie, &lt;n&gt;*1000 bajtov (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maximálna odosielajúca medzipamäť pre pripojenie, &lt;n&gt;*1000 bajtov (predvolené: %u)</translation>
+        <translation>MaximÃ¡lna odosielajÃºca medzipamÃ¤Å¥ pre pripojenie, &lt;n&gt;*1000 bajtov (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Na začiatok pripojiť časovú známku k ladiacemu výstupu (predvolené: %u)</translation>
+        <translation>Na zaÄiatok pripojiÅ¥ ÄasovÃº znÃ¡mku k ladiacemu vÃ½stupu (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Prenášať a ťažiť transakcie nosných dát (predvolené: %u)</translation>
+        <translation>PrenÃ¡Å¡aÅ¥ a Å¥aÅ¾iÅ¥ transakcie nosnÃ½ch dÃ¡t (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Prenášať non-P2SH multi-podpis (predvolené: %u)</translation>
+        <translation>PrenÃ¡Å¡aÅ¥ non-P2SH multi-podpis (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Nastaviť veľkosť kľúča fronty na &lt;n&gt; (predvolené: %u)</translation>
+        <translation>NastaviÅ¥ veÄ¾kosÅ¥ kÄ¾ÃºÄa fronty na &lt;n&gt; (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Nastaviť počet vlákien na obsluhu RPC volaní (predvolené: %d)</translation>
+        <translation>NastaviÅ¥ poÄet vlÃ¡kien na obsluhu RPC volanÃ­ (predvolenÃ©: %d)</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Zadať konfiguračný súbor (predvolené: %s)</translation>
+        <translation>ZadaÅ¥ konfiguraÄnÃ½ sÃºbor (predvolenÃ©: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Zadajte časový limit pripojenia v milisekundách (minimum: 1, predvolené: %d)</translation>
+        <translation>Zadajte ÄasovÃ½ limit pripojenia v milisekundÃ¡ch (minimum: 1, predvolenÃ©: %d)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Zadať pid súbor (predvolené: %s)</translation>
+        <translation>ZadaÅ¥ pid sÃºbor (predvolenÃ©: %s)</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Minúť nepotvrdené zmenu pri posielaní transakcií (predvolené: %u)</translation>
+        <translation>MinÃºÅ¥ nepotvrdenÃ© zmenu pri posielanÃ­ transakciÃ­ (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Starting network threads...</source>
-        <translation>Spúšťajú sa sieťové vlákna...</translation>
+        <translation>SpÃºÅ¡Å¥ajÃº sa sieÅ¥ovÃ© vlÃ¡kna...</translation>
     </message>
     <message>
         <source>The wallet will avoid paying less than the minimum relay fee.</source>
-        <translation>Peňaženka zabráni zaplateniu menšej sumy ako je minimálny poplatok.</translation>
+        <translation>PeÅaÅ¾enka zabrÃ¡ni zaplateniu menÅ¡ej sumy ako je minimÃ¡lny poplatok.</translation>
     </message>
     <message>
         <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>Toto je minimálny poplatok za transakciu pri každej transakcii.</translation>
+        <translation>Toto je minimÃ¡lny poplatok za transakciu pri kaÅ¾dej transakcii.</translation>
     </message>
     <message>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Toto je poplatok za transakciu pri odoslaní transakcie.</translation>
+        <translation>Toto je poplatok za transakciu pri odoslanÃ­ transakcie.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Hranica pre odpájanie zle sa správajúcim partnerským uzlom (predvolené: %u)</translation>
+        <translation>Hranica pre odpÃ¡janie zle sa sprÃ¡vajÃºcim partnerskÃ½m uzlom (predvolenÃ©: %u)</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
-        <translation>Sumy transakcií nesmú byť záporné</translation>
+        <translation>Sumy transakciÃ­ nesmÃº byÅ¥ zÃ¡pornÃ©</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
-        <translation>Transakcia musí mať aspoň jedného príjemcu</translation>
+        <translation>Transakcia musÃ­ maÅ¥ aspoÅ jednÃ©ho prÃ­jemcu</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Neznáma sieť upresnená v -onlynet: '%s'</translation>
+        <translation>NeznÃ¡ma sieÅ¥ upresnenÃ¡ v -onlynet: '%s'</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3656,31 +3656,31 @@
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Načítavanie zoznamu blokov...</translation>
+        <translation>NaÄÃ­tavanie zoznamu blokov...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Pridať nód na pripojenie a pokus o udržanie pripojenia otvoreného</translation>
+        <translation>PridaÅ¥ nÃ³d na pripojenie a pokus o udrÅ¾anie pripojenia otvorenÃ©ho</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Načítavam peňaženku...</translation>
+        <translation>NaÄÃ­tavam peÅaÅ¾enku...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Nie je možné prejsť na nižšiu verziu peňaženky</translation>
+        <translation>Nie je moÅ¾nÃ© prejsÅ¥ na niÅ¾Å¡iu verziu peÅaÅ¾enky</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Nie je možné zapísať predvolenú adresu.</translation>
+        <translation>Nie je moÅ¾nÃ© zapÃ­saÅ¥ predvolenÃº adresu.</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Nové prehľadávanie...</translation>
+        <translation>NovÃ© prehÄ¾adÃ¡vanie...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Dokončené načítavanie</translation>
+        <translation>DokonÄenÃ© naÄÃ­tavanie</translation>
     </message>
     <message>
         <source>Error</source>

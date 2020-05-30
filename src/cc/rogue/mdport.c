@@ -37,9 +37,9 @@
 #include <lmcons.h>
 #include <io.h>
 #include <conio.h>
-#pragma warning( disable: 4201 ) 
+#pragma warning( disable: 4201 )
 #include <shlobj.h>
-#pragma warning( default: 4201 ) 
+#pragma warning( default: 4201 )
 #include <shlwapi.h>
 #undef MOUSE_MOVED
 #endif
@@ -292,13 +292,13 @@ void
 md_raw_standout()
 {
 #ifdef _WIN32
-    CONSOLE_SCREEN_BUFFER_INFO csbiInfo; 
+    CONSOLE_SCREEN_BUFFER_INFO csbiInfo;
     HANDLE hStdout;
     WORD fgattr,bgattr;
 
     if (md_standout_mode == 0)
     {
-        hStdout = GetStdHandle(STD_OUTPUT_HANDLE); 
+        hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
         GetConsoleScreenBufferInfo(hStdout, &csbiInfo);
         fgattr = (csbiInfo.wAttributes & 0xF);
         bgattr = (csbiInfo.wAttributes & 0xF0);
@@ -315,13 +315,13 @@ void
 md_raw_standend()
 {
 #ifdef _WIN32
-    CONSOLE_SCREEN_BUFFER_INFO csbiInfo; 
+    CONSOLE_SCREEN_BUFFER_INFO csbiInfo;
     HANDLE hStdout;
     WORD fgattr,bgattr;
 
     if (md_standout_mode == 1)
     {
-        hStdout = GetStdHandle(STD_OUTPUT_HANDLE); 
+        hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
         GetConsoleScreenBufferInfo(hStdout, &csbiInfo);
         fgattr = (csbiInfo.wAttributes & 0xF);
         bgattr = (csbiInfo.wAttributes & 0xF0);
@@ -376,7 +376,7 @@ md_normaluser()
 
 #if defined(HAVE_SETRESGID)
     if (setresgid(-1, realgid, realgid) != 0) {
-#elif defined (HAVE_SETREGID) 
+#elif defined (HAVE_SETREGID)
     if (setregid(realgid, realgid) != 0) {
 #elif defined (HAVE_SETGID)
 	if (setgid(realgid) != 0) {
@@ -579,17 +579,17 @@ md_shellescape()
     	myend = signal(SIGINT, SIG_IGN);
 #ifdef SIGQUIT
         myquit = signal(SIGQUIT, SIG_IGN);
-#endif  
+#endif
         while (wait(&ret_status) != pid)
             continue;
-	    
+
         signal(SIGINT, myquit);
 #ifdef SIGQUIT
         signal(SIGQUIT, myend);
 #endif
     }
     return(ret_status);
-#elif defined(HAVE__SPAWNL) 
+#elif defined(HAVE__SPAWNL)
     return((int)_spawnl(_P_WAIT,md_getshell(),"shell",NULL,0));
 #elif defined(HAVE_SPAWNL)
     return ( spawnl(P_WAIT,md_getshell(),"shell",NULL,0) );
@@ -804,18 +804,18 @@ md_setsuspchar(int c)
     Cursor/Keypad Support
 
     Sadly Cursor/Keypad support is less straightforward than it should be.
-    
-    The various terminal emulators/consoles choose to differentiate the 
-    cursor and keypad keys (with modifiers) in different ways (if at all!). 
+
+    The various terminal emulators/consoles choose to differentiate the
+    cursor and keypad keys (with modifiers) in different ways (if at all!).
     Furthermore they use different code set sequences for each key only
     a subset of which the various curses libraries recognize. Partly due
-    to incomplete termcap/terminfo entries and partly due to inherent 
+    to incomplete termcap/terminfo entries and partly due to inherent
     limitations of those terminal capability databases.
 
     I give curses first crack at decoding the sequences. If it fails to decode
     it we check for common ESC-prefixed sequences.
 
-    All cursor/keypad results are translated into standard rogue movement 
+    All cursor/keypad results are translated into standard rogue movement
     commands.
 
     Unmodified keys are translated to walk commands: hjklyubn
@@ -1123,7 +1123,7 @@ md_readchar()
 	    break;
 	}
 
-	if (mode == M_ESC) 
+	if (mode == M_ESC)
 	{
 	    if (ch == 27)
 	    {
@@ -1327,7 +1327,7 @@ md_readchar()
     return(ch & 0x7F);
 }
 #endif
-        
+
 #if defined(LOADAV) && defined(HAVE_NLIST_H) && defined(HAVE_NLIST)
 /*
  * loadav:

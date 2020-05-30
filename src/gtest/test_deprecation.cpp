@@ -38,7 +38,7 @@ protected:
         uiInterface.ThreadSafeMessageBox.disconnect_all_slots();
         uiInterface.ThreadSafeMessageBox.connect(boost::bind(ThreadSafeMessageBox, &mock_, _1, _2, _3));
         SelectParams(CBaseChainParams::MAIN);
-        
+
     }
 
     virtual void TearDown() {

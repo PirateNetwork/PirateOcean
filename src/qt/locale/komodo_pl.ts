@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Kliknij prawy przycisk myszy, aby edytować adres lub etykietę</translation>
+        <translation>Kliknij prawy przycisk myszy, aby edytowaÄ adres lub etykietÄ</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Utwórz nowy adres</translation>
+        <translation>UtwÃ³rz nowy adres</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Usuń zaznaczony adres z listy</translation>
+        <translation>UsuÅ zaznaczony adres z listy</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -39,15 +39,15 @@
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Usuń</translation>
+        <translation>&amp;UsuÅ</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wybierz adres, na który chcesz wysłać monety</translation>
+        <translation>Wybierz adres, na ktÃ³ry chcesz wysÅaÄ monety</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wybierz adres, na który chcesz otrzymać monety</translation>
+        <translation>Wybierz adres, na ktÃ³ry chcesz otrzymaÄ monety</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -55,7 +55,7 @@
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Adresy wysyłania</translation>
+        <translation>Adresy wysyÅania</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Pirate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tutaj znajdują się adresy Pirate na które wysyłasz płatności. Zawsze sprawdzaj ilość i adres odbiorcy przed wysyłką monet.</translation>
+        <translation>Tutaj znajdujÄ siÄ adresy Pirate na ktÃ³re wysyÅasz pÅatnoÅci. Zawsze sprawdzaj iloÅÄ i adres odbiorcy przed wysyÅkÄ monet.</translation>
     </message>
     <message>
         <source>These are your Pirate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są twoje adresy Pirate do odbierania płatności. Zaleca się używanie nowych adresów odbiorczych dla każdej transakcji.</translation>
+        <translation>To sÄ twoje adresy Pirate do odbierania pÅatnoÅci. Zaleca siÄ uÅ¼ywanie nowych adresÃ³w odbiorczych dla kaÅ¼dej transakcji.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -75,7 +75,7 @@
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Kopiuj &amp;Etykietę</translation>
+        <translation>Kopiuj &amp;EtykietÄ</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -83,7 +83,7 @@
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Eksportuj listę adresów</translation>
+        <translation>Eksportuj listÄ adresÃ³w</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -91,11 +91,11 @@
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Eksportowanie nie powiodło się</translation>
+        <translation>Eksportowanie nie powiodÅo siÄ</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Wystąpił błąd podczas próby zapisu listy adresów do %1. Proszę spróbować ponownie.</translation>
+        <translation>WystÄpiÅ bÅÄd podczas prÃ³by zapisu listy adresÃ³w do %1. ProszÄ sprÃ³bowaÄ ponownie.</translation>
     </message>
 </context>
 <context>
@@ -117,23 +117,23 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Okienko Hasła</translation>
+        <translation>Okienko HasÅa</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Wpisz hasło</translation>
+        <translation>Wpisz hasÅo</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nowe hasło</translation>
+        <translation>Nowe hasÅo</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Powtórz nowe hasło</translation>
+        <translation>PowtÃ³rz nowe hasÅo</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Wprowadź nowe hasło do portfela.&lt;br/&gt;Proszę używać hasła złożonego z &lt;b&gt;10 lub więcej losowych znaków&lt;/b&gt; albo &lt;b&gt;8 lub więcej słów.&lt;/b&gt;</translation>
+        <translation>WprowadÅº nowe hasÅo do portfela.&lt;br/&gt;ProszÄ uÅ¼ywaÄ hasÅa zÅoÅ¼onego z &lt;b&gt;10 lub wiÄcej losowych znakÃ³w&lt;/b&gt; albo &lt;b&gt;8 lub wiÄcej sÅÃ³w.&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -141,7 +141,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ta operacja wymaga hasła do portfela aby odblokować portfel.</translation>
+        <translation>Ta operacja wymaga hasÅa do portfela aby odblokowaÄ portfel.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -149,7 +149,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ta operacja wymaga hasła portfela, aby go odszyfrować.</translation>
+        <translation>Ta operacja wymaga hasÅa portfela, aby go odszyfrowaÄ.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -157,23 +157,23 @@
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Zmień hasło</translation>
+        <translation>ZmieÅ hasÅo</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Podaj stare i nowe hasło do portfela.</translation>
+        <translation>Podaj stare i nowe hasÅo do portfela.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Potwierdź szyfrowanie portfela</translation>
+        <translation>PotwierdÅº szyfrowanie portfela</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Uwaga: jeśli zaszyfrujesz swój portfel i zgubisz hasło &lt;b&gt;STRACISZ WSZYSTKIE SWOJE PirateY&lt;/b&gt;!</translation>
+        <translation>Uwaga: jeÅli zaszyfrujesz swÃ³j portfel i zgubisz hasÅo &lt;b&gt;STRACISZ WSZYSTKIE SWOJE PirateY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Jesteś pewien, że chcesz zaszyfrować swój portfel?</translation>
+        <translation>JesteÅ pewien, Å¼e chcesz zaszyfrowaÄ swÃ³j portfel?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -181,43 +181,43 @@
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>%1 zamknie się aby dokończyć proces szyfrowania. Pamiętaj, że szyfrowanie portfela nie zabezpiecza w pełni Twoich Pirateów przed kradzieżą przez wirusy lub trojany mogące zainfekować Twój komputer.</translation>
+        <translation>%1 zamknie siÄ aby dokoÅczyÄ proces szyfrowania. PamiÄtaj, Å¼e szyfrowanie portfela nie zabezpiecza w peÅni Twoich PirateÃ³w przed kradzieÅ¼Ä przez wirusy lub trojany mogÄce zainfekowaÄ TwÃ³j komputer.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>WAŻNE: Wszystkie wykonane wcześniej kopie pliku portfela powinny być zamienione na nowe, szyfrowane pliki. Z powodów bezpieczeństwa, poprzednie kopie nieszyfrowanych plików portfela staną się bezużyteczne jak tylko zaczniesz korzystać z nowego, szyfrowanego portfela.</translation>
+        <translation>WAÅ»NE: Wszystkie wykonane wczeÅniej kopie pliku portfela powinny byÄ zamienione na nowe, szyfrowane pliki. Z powodÃ³w bezpieczeÅstwa, poprzednie kopie nieszyfrowanych plikÃ³w portfela stanÄ siÄ bezuÅ¼yteczne jak tylko zaczniesz korzystaÄ z nowego, szyfrowanego portfela.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Szyfrowanie portfela nie powiodło się</translation>
+        <translation>Szyfrowanie portfela nie powiodÅo siÄ</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Szyfrowanie portfela nie powiodło się z powodu wewnętrznego błędu. Twój portfel nie został zaszyfrowany.</translation>
+        <translation>Szyfrowanie portfela nie powiodÅo siÄ z powodu wewnÄtrznego bÅÄdu. TwÃ³j portfel nie zostaÅ zaszyfrowany.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Podane hasła nie są takie same.</translation>
+        <translation>Podane hasÅa nie sÄ takie same.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Odblokowanie portfela nie powiodło się</translation>
+        <translation>Odblokowanie portfela nie powiodÅo siÄ</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Wprowadzone hasło do odszyfrowania portfela jest niepoprawne.</translation>
+        <translation>Wprowadzone hasÅo do odszyfrowania portfela jest niepoprawne.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Odszyfrowanie portfela nie powiodło się</translation>
+        <translation>Odszyfrowanie portfela nie powiodÅo siÄ</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Hasło do portfela zostało pomyślnie zmienione.</translation>
+        <translation>HasÅo do portfela zostaÅo pomyÅlnie zmienione.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Ostrzeżenie: Caps Lock jest włączony!</translation>
+        <translation>OstrzeÅ¼enie: Caps Lock jest wÅÄczony!</translation>
     </message>
 </context>
 <context>
@@ -235,11 +235,11 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Podpisz wiado&amp;mość...</translation>
+        <translation>Podpisz wiado&amp;moÅÄ...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synchronizacja z siecią...</translation>
+        <translation>Synchronizacja z sieciÄ...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -247,11 +247,11 @@
     </message>
     <message>
         <source>Node</source>
-        <translation>Węzeł</translation>
+        <translation>WÄzeÅ</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Pokazuje ogólny widok portfela</translation>
+        <translation>Pokazuje ogÃ³lny widok portfela</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -259,11 +259,11 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Przeglądaj historię transakcji</translation>
+        <translation>PrzeglÄdaj historiÄ transakcji</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;Zakończ</translation>
+        <translation>&amp;ZakoÅcz</translation>
     </message>
     <message>
         <source>Quit application</source>
@@ -275,7 +275,7 @@
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>Pokaż informacje o %1</translation>
+        <translation>PokaÅ¼ informacje o %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -291,7 +291,7 @@
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>Zmień opcje konfiguracji dla %1</translation>
+        <translation>ZmieÅ opcje konfiguracji dla %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
@@ -299,15 +299,15 @@
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Wykonaj kopię zapasową...</translation>
+        <translation>Wykonaj kopiÄ zapasowÄ...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Zmień hasło...</translation>
+        <translation>&amp;ZmieÅ hasÅo...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>Adresy wysyłania...</translation>
+        <translation>Adresy wysyÅania...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
@@ -315,31 +315,31 @@
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Otwórz URI...</translation>
+        <translation>OtwÃ³rz URI...</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>Kliknij aby wyłączyć aktywność sieciową.</translation>
+        <translation>Kliknij aby wyÅÄczyÄ aktywnoÅÄ sieciowÄ.</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>Aktywność sieciowa została wyłączona.</translation>
+        <translation>AktywnoÅÄ sieciowa zostaÅa wyÅÄczona.</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>Kliknij, aby ponownie włączyć aktywności sieciową.</translation>
+        <translation>Kliknij, aby ponownie wÅÄczyÄ aktywnoÅci sieciowÄ.</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>Synchronizowanie headerów (%1%)...</translation>
+        <translation>Synchronizowanie headerÃ³w (%1%)...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Ponowne indeksowanie bloków na dysku...</translation>
+        <translation>Ponowne indeksowanie blokÃ³w na dysku...</translation>
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Wyślij monety na adres Pirateowy</translation>
+        <translation>WyÅlij monety na adres Pirateowy</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -347,7 +347,7 @@
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Zmień hasło użyte do szyfrowania portfela</translation>
+        <translation>ZmieÅ hasÅo uÅ¼yte do szyfrowania portfela</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -355,11 +355,11 @@
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Otwórz konsolę debugowania i diagnostyki</translation>
+        <translation>OtwÃ³rz konsolÄ debugowania i diagnostyki</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Zweryfikuj wiadomość...</translation>
+        <translation>&amp;Zweryfikuj wiadomoÅÄ...</translation>
     </message>
     <message>
         <source>Pirate</source>
@@ -371,7 +371,7 @@
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>Wyślij</translation>
+        <translation>WyÅlij</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -379,23 +379,23 @@
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Pokaż / Ukryj</translation>
+        <translation>&amp;PokaÅ¼ / Ukryj</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Pokazuje lub ukrywa główne okno</translation>
+        <translation>Pokazuje lub ukrywa gÅÃ³wne okno</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Szyfruj klucze prywatne, które są w twoim portfelu</translation>
+        <translation>Szyfruj klucze prywatne, ktÃ³re sÄ w twoim portfelu</translation>
     </message>
     <message>
         <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>Podpisz wiadomości swoim adresem aby udowodnić jego posiadanie</translation>
+        <translation>Podpisz wiadomoÅci swoim adresem aby udowodniÄ jego posiadanie</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>Zweryfikuj wiadomość,  aby upewnić się, że została podpisana podanym adresem Pirateowym.</translation>
+        <translation>Zweryfikuj wiadomoÅÄ,  aby upewniÄ siÄ, Å¼e zostaÅa podpisana podanym adresem Pirateowym.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -411,23 +411,23 @@
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Pasek zakładek</translation>
+        <translation>Pasek zakÅadek</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>Żądaj płatności (generuje kod QR oraz Pirateowe URI)</translation>
+        <translation>Å»Ädaj pÅatnoÅci (generuje kod QR oraz Pirateowe URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Pokaż listę adresów i etykiet użytych do wysyłania</translation>
+        <translation>PokaÅ¼ listÄ adresÃ³w i etykiet uÅ¼ytych do wysyÅania</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Pokaż listę adresów i etykiet użytych do odbierania</translation>
+        <translation>PokaÅ¼ listÄ adresÃ³w i etykiet uÅ¼ytych do odbierania</translation>
     </message>
     <message>
         <source>Open a Pirate: URI or payment request</source>
-        <translation>Otwórz URI Pirate: lub żądanie zapłaty</translation>
+        <translation>OtwÃ³rz URI Pirate: lub Å¼Ädanie zapÅaty</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -435,11 +435,11 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Pirate network</source>
-        <translation><numerusform>%n aktywnych połączeń do sieci Pirate</numerusform><numerusform>%n aktywnych połączeń do sieci Pirate</numerusform><numerusform>%n aktywnych połączeń do sieci Pirate</numerusform><numerusform>%n aktywnych połączeń do sieci Pirate</numerusform></translation>
+        <translation><numerusform>%n aktywnych poÅÄczeÅ do sieci Pirate</numerusform><numerusform>%n aktywnych poÅÄczeÅ do sieci Komodo</numerusform><numerusform>%n aktywnych poÅÄczeÅ do sieci Komodo</numerusform><numerusform>%n aktywnych poÅÄczeÅ do sieci Komodo</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>Indeksowanie bloków na dysku...</translation>
+        <translation>Indeksowanie blokÃ³w na dysku...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
@@ -447,7 +447,7 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Przetworzono %n bloków historii transakcji.</numerusform><numerusform>Przetworzono %n bloków historii transakcji.</numerusform><numerusform>Przetworzono %n bloków historii transakcji.</numerusform><numerusform>Przetworzono %n bloków historii transakcji.</numerusform></translation>
+        <translation><numerusform>Przetworzono %n blokÃ³w historii transakcji.</numerusform><numerusform>Przetworzono %n blokÃ³w historii transakcji.</numerusform><numerusform>Przetworzono %n blokÃ³w historii transakcji.</numerusform><numerusform>Przetworzono %n blokÃ³w historii transakcji.</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -455,19 +455,19 @@
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Ostatni otrzymany blok został wygenerowany %1 temu.</translation>
+        <translation>Ostatni otrzymany blok zostaÅ wygenerowany %1 temu.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transakcje po tym momencie nie będą jeszcze widoczne.</translation>
+        <translation>Transakcje po tym momencie nie bÄdÄ jeszcze widoczne.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>BÅÄd</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Ostrzeżenie</translation>
+        <translation>OstrzeÅ¼enie</translation>
     </message>
     <message>
         <source>Information</source>
@@ -479,7 +479,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Pirate command-line options</source>
-        <translation>Pokaż pomoc %1 aby zobaczyć listę wszystkich opcji lnii poleceń.</translation>
+        <translation>PokaÅ¼ pomoc %1 aby zobaczyÄ listÄ wszystkich opcji lnii poleceÅ.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -487,11 +487,11 @@
     </message>
     <message>
         <source>Connecting to peers...</source>
-        <translation>Łączenie z peerami...</translation>
+        <translation>ÅÄczenie z peerami...</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Trwa synchronizacja…</translation>
+        <translation>Trwa synchronizacjaâ¦</translation>
     </message>
     <message>
         <source>Date: %1
@@ -525,19 +525,19 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Transakcja wysłana</translation>
+        <translation>Transakcja wysÅana</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Transakcja przychodząca</translation>
+        <translation>Transakcja przychodzÄca</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>Generowanie kluczy HD jest &lt;b&gt;włączone&lt;/b&gt;</translation>
+        <translation>Generowanie kluczy HD jest &lt;b&gt;wÅÄczone&lt;/b&gt;</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>Generowanie kluczy HD jest &lt;b&gt;wyłączone&lt;/b&gt;</translation>
+        <translation>Generowanie kluczy HD jest &lt;b&gt;wyÅÄczone&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -549,22 +549,22 @@
     </message>
     <message>
         <source>A fatal error occurred. Pirate can no longer continue safely and will quit.</source>
-        <translation>Wystąpił krytyczny błąd. Pirate nie jest w stanie kontynuować bezpiecznie i zostanie zamknięty.</translation>
+        <translation>WystÄpiÅ krytyczny bÅÄd. Pirate nie jest w stanie kontynuowaÄ bezpiecznie i zostanie zamkniÄty.</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>Wybór monet</translation>
+        <translation>WybÃ³r monet</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Ilość:</translation>
+        <translation>IloÅÄ:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bajtów:</translation>
+        <translation>BajtÃ³w:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -572,15 +572,15 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Opłata:</translation>
+        <translation>OpÅata:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Pył:</translation>
+        <translation>PyÅ:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Po opłacie:</translation>
+        <translation>Po opÅacie:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -628,11 +628,11 @@
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiuj etykietę</translation>
+        <translation>Kopiuj etykietÄ</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
+        <translation>Kopiuj kwotÄ</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
@@ -648,27 +648,27 @@
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Skopiuj ilość</translation>
+        <translation>Skopiuj iloÅÄ</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Skopiuj prowizję</translation>
+        <translation>Skopiuj prowizjÄ</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Skopiuj ilość po opłacie</translation>
+        <translation>Skopiuj iloÅÄ po opÅacie</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Skopiuj ilość bajtów</translation>
+        <translation>Skopiuj iloÅÄ bajtÃ³w</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopiuj pył</translation>
+        <translation>Kopiuj pyÅ</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Skopiuj resztę</translation>
+        <translation>Skopiuj resztÄ</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
@@ -684,11 +684,11 @@
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Ta etykieta staje się czerwona jeżeli którykolwiek odbiorca otrzymuje kwotę mniejszą niż obecny próg pyłu.</translation>
+        <translation>Ta etykieta staje siÄ czerwona jeÅ¼eli ktÃ³rykolwiek odbiorca otrzymuje kwotÄ mniejszÄ niÅ¼ obecny prÃ³g pyÅu.</translation>
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Waha się +/- %1 satoshi na wejście.</translation>
+        <translation>Waha siÄ +/- %1 satoshi na wejÅcie.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -707,7 +707,7 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Zmień adres</translation>
+        <translation>ZmieÅ adres</translation>
     </message>
     <message>
         <source>&amp;Label</source>
@@ -715,11 +715,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Etykieta skojarzona z tym wpisem na liście adresów</translation>
+        <translation>Etykieta skojarzona z tym wpisem na liÅcie adresÃ³w</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Ten adres jest skojarzony z wpisem na liście adresów. Może być zmodyfikowany jedynie dla adresów wysyłających.</translation>
+        <translation>Ten adres jest skojarzony z wpisem na liÅcie adresÃ³w. MoÅ¼e byÄ zmodyfikowany jedynie dla adresÃ³w wysyÅajÄcych.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -731,38 +731,38 @@
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Nowy adres wysyłania</translation>
+        <translation>Nowy adres wysyÅania</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Zmień adres odbioru</translation>
+        <translation>ZmieÅ adres odbioru</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Zmień adres wysyłania</translation>
+        <translation>ZmieÅ adres wysyÅania</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Pirate address.</source>
-        <translation>Wprowadzony adres "%1" nie jest prawidłowym adresem Pirate.</translation>
+        <translation>Wprowadzony adres "%1" nie jest prawidÅowym adresem Pirate.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Wprowadzony adres "%1" znajduje się już w książce adresowej.</translation>
+        <translation>Wprowadzony adres "%1" znajduje siÄ juÅ¼ w ksiÄÅ¼ce adresowej.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Nie można było odblokować portfela.</translation>
+        <translation>Nie moÅ¼na byÅo odblokowaÄ portfela.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Generowanie nowego klucza nie powiodło się.</translation>
+        <translation>Generowanie nowego klucza nie powiodÅo siÄ.</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Będzie utworzony nowy folder danych.</translation>
+        <translation>BÄdzie utworzony nowy folder danych.</translation>
     </message>
     <message>
         <source>name</source>
@@ -770,15 +770,15 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Katalog już istnieje. Dodaj %1 jeśli masz zamiar utworzyć tutaj nowy katalog.</translation>
+        <translation>Katalog juÅ¼ istnieje. Dodaj %1 jeÅli masz zamiar utworzyÄ tutaj nowy katalog.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Ścieżka już istnieje i nie jest katalogiem.</translation>
+        <translation>ÅcieÅ¼ka juÅ¼ istnieje i nie jest katalogiem.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Nie można było tutaj utworzyć folderu.</translation>
+        <translation>Nie moÅ¼na byÅo tutaj utworzyÄ folderu.</translation>
     </message>
 </context>
 <context>
@@ -801,7 +801,7 @@
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Użycie:</translation>
+        <translation>UÅ¼ycie:</translation>
     </message>
     <message>
         <source>command-line options</source>
@@ -813,11 +813,11 @@
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>Katalog danych używany podczas uruchamiania programu (domyślny: %u)</translation>
+        <translation>Katalog danych uÅ¼ywany podczas uruchamiania programu (domyÅlny: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Wybierz język, na przykład «de_DE» (domyślnie: język systemowy)</translation>
+        <translation>Wybierz jÄzyk, na przykÅad «de_DE» (domyÅlnie: jÄzyk systemowy)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -825,11 +825,11 @@
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Ustaw certyfikaty główne SSL dla żądań płatności (domyślnie: -system-)</translation>
+        <translation>Ustaw certyfikaty gÅÃ³wne SSL dla Å¼ÄdaÅ pÅatnoÅci (domyÅlnie: -system-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>Wyświetl okno powitalne podczas uruchamiania (domyślnie: %u)</translation>
+        <translation>WyÅwietl okno powitalne podczas uruchamiania (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Reset all settings changed in the GUI</source>
@@ -848,31 +848,31 @@
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>Ponieważ jest to pierwsze uruchomienie programu, możesz wybrać gdzie %1 będzie przechowywał swoje dane.</translation>
+        <translation>PoniewaÅ¼ jest to pierwsze uruchomienie programu, moÅ¼esz wybraÄ gdzie %1 bÄdzie przechowywaÅ swoje dane.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Pirate block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 pobierze i będzie przechowywał kopię łańcucha bloków Pirate. W wybranym katalogu zostanie zapisanych %2GB danych, a z czasem ta ilość będzie rosła. Portfel będzie przechowywany w tym samym katalogu.</translation>
+        <translation>%1 pobierze i bÄdzie przechowywaÅ kopiÄ ÅaÅcucha blokÃ³w Pirate. W wybranym katalogu zostanie zapisanych %2GB danych, a z czasem ta iloÅÄ bÄdzie rosÅa. Portfel bÄdzie przechowywany w tym samym katalogu.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Użyj domyślnego folderu danych</translation>
+        <translation>UÅ¼yj domyÅlnego folderu danych</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Użyj wybranego folderu dla danych</translation>
+        <translation>UÅ¼yj wybranego folderu dla danych</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Błąd: podany folder danych «%1» nie mógł zostać utworzony.</translation>
+        <translation>BÅÄd: podany folder danych «%1» nie mÃ³gÅ zostaÄ utworzony.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>BÅÄd</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB dostępnego wolnego miejsca</numerusform><numerusform>%n GB dostępnego wolnego miejsca</numerusform><numerusform>%n GB dostępnego wolnego miejsca</numerusform><numerusform>%n GB dostępnego wolnego miejsca</numerusform></translation>
+        <translation><numerusform>%n GB dostÄpnego wolnego miejsca</numerusform><numerusform>%n GB dostÄpnego wolnego miejsca</numerusform><numerusform>%n GB dostÄpnego wolnego miejsca</numerusform><numerusform>%n GB dostÄpnego wolnego miejsca</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
@@ -887,11 +887,11 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Pirate network, as detailed below.</source>
-        <translation>Świeże transakcje mogą nie być jeszcze widoczne, a zatem saldo portfela może być nieprawidłowe. Te detale będą poprawne, gdy portfel zakończy synchronizację z siecią Pirate, zgodnie z poniższym opisem.</translation>
+        <translation>ÅwieÅ¼e transakcje mogÄ nie byÄ jeszcze widoczne, a zatem saldo portfela moÅ¼e byÄ nieprawidÅowe. Te detale bÄdÄ poprawne, gdy portfel zakoÅczy synchronizacjÄ z sieciÄ Pirate, zgodnie z poniÅ¼szym opisem.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
-        <translation>Pozostało bloków</translation>
+        <translation>PozostaÅo blokÃ³w</translation>
     </message>
     <message>
         <source>Unknown...</source>
@@ -903,11 +903,11 @@
     </message>
     <message>
         <source>Progress</source>
-        <translation>Postęp</translation>
+        <translation>PostÄp</translation>
     </message>
     <message>
         <source>Progress increase per hour</source>
-        <translation>Przyrost postępu na godzinę</translation>
+        <translation>Przyrost postÄpu na godzinÄ</translation>
     </message>
     <message>
         <source>calculating...</source>
@@ -915,7 +915,7 @@
     </message>
     <message>
         <source>Estimated time left until synced</source>
-        <translation>Przewidywany czas zakończenia synchronizacji</translation>
+        <translation>Przewidywany czas zakoÅczenia synchronizacji</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -923,18 +923,18 @@
     </message>
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Nieznane. Synchronizowanie nagłówków (%1)...</translation>
+        <translation>Nieznane. Synchronizowanie nagÅÃ³wkÃ³w (%1)...</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Otwórz URI</translation>
+        <translation>OtwÃ³rz URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Otwórz żądanie zapłaty z URI lub pliku</translation>
+        <translation>OtwÃ³rz Å¼Ädanie zapÅaty z URI lub pliku</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -942,11 +942,11 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Otwórz żądanie zapłaty z pliku</translation>
+        <translation>OtwÃ³rz Å¼Ädanie zapÅaty z pliku</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Wybierz plik żądania zapłaty do otwarcia</translation>
+        <translation>Wybierz plik Å¼Ädania zapÅaty do otwarcia</translation>
     </message>
 </context>
 <context>
@@ -957,7 +957,7 @@
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>Główne</translation>
+        <translation>GÅÃ³wne</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
@@ -969,7 +969,7 @@
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Wielkość bufora bazy &amp;danych</translation>
+        <translation>WielkoÅÄ bufora bazy &amp;danych</translation>
     </message>
     <message>
         <source>MB</source>
@@ -977,15 +977,15 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Liczba wątków &amp;weryfikacji skryptu</translation>
+        <translation>Liczba wÄtkÃ³w &amp;weryfikacji skryptu</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Akceptuj połączenia z zewnątrz</translation>
+        <translation>Akceptuj poÅÄczenia z zewnÄtrz</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Zezwól na połączenia przychodzące</translation>
+        <translation>ZezwÃ³l na poÅÄczenia przychodzÄce</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -993,23 +993,23 @@
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimalizuje zamiast zakończyć działanie programu przy zamykaniu okna. Kiedy ta opcja jest włączona, program zakończy działanie po wybieraniu Zamknij w menu.</translation>
+        <translation>Minimalizuje zamiast zakoÅczyÄ dziaÅanie programu przy zamykaniu okna. Kiedy ta opcja jest wÅÄczona, program zakoÅczy dziaÅanie po wybieraniu Zamknij w menu.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>Zewnętrzne URL podglądu transakcji (np. eksplorator bloków), które będą wyświetlały się w menu kontekstowym, w zakładce transakcji. %s będzie zamieniany w adresie na hash transakcji. Oddziel wiele adresów pionową kreską |.</translation>
+        <translation>ZewnÄtrzne URL podglÄdu transakcji (np. eksplorator blokÃ³w), ktÃ³re bÄdÄ wyÅwietlaÅy siÄ w menu kontekstowym, w zakÅadce transakcji. %s bÄdzie zamieniany w adresie na hash transakcji. Oddziel wiele adresÃ³w pionowÄ kreskÄ |.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>Zewnętrzny URL podglądu transakcji</translation>
+        <translation>ZewnÄtrzny URL podglÄdu transakcji</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Aktywne opcje linii komend, które nadpisują powyższe opcje:</translation>
+        <translation>Aktywne opcje linii komend, ktÃ³re nadpisujÄ powyÅ¼sze opcje:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Przywróć wszystkie domyślne ustawienia klienta.</translation>
+        <translation>PrzywrÃ³Ä wszystkie domyÅlne ustawienia klienta.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -1017,7 +1017,7 @@
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Sieć</translation>
+        <translation>&amp;SieÄ</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1033,31 +1033,31 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Włącz funk&amp;cje kontoli monet</translation>
+        <translation>WÅÄcz funk&amp;cje kontoli monet</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Jeżeli wyłączysz możliwość wydania niezatwierdzonej wydanej reszty, reszta z transakcji nie będzie mogła zostać wykorzystana, dopóki ta transakcja nie będzie miała przynajmniej jednego potwierdzenia. To także ma wpływ na obliczanie Twojego salda.</translation>
+        <translation>JeÅ¼eli wyÅÄczysz moÅ¼liwoÅÄ wydania niezatwierdzonej wydanej reszty, reszta z transakcji nie bÄdzie mogÅa zostaÄ wykorzystana, dopÃ³ki ta transakcja nie bÄdzie miaÅa przynajmniej jednego potwierdzenia. To takÅ¼e ma wpÅyw na obliczanie Twojego salda.</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>Wydaj niepotwierdzoną re&amp;sztę</translation>
+        <translation>Wydaj niepotwierdzonÄ re&amp;sztÄ</translation>
     </message>
     <message>
         <source>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatycznie otwiera port klienta Pirate na routerze. Ta opcja dzieła tylko jeśli twój router wspiera UPnP i jest ono włączone.</translation>
+        <translation>Automatycznie otwiera port klienta Pirate na routerze. Ta opcja dzieÅa tylko jeÅli twÃ³j router wspiera UPnP i jest ono wÅÄczone.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Mapuj port używając &amp;UPnP</translation>
+        <translation>Mapuj port uÅ¼ywajÄc &amp;UPnP</translation>
     </message>
     <message>
         <source>Connect to the Pirate network through a SOCKS5 proxy.</source>
-        <translation>Połącz się z siecią Pirate poprzez proxy SOCKS5.</translation>
+        <translation>PoÅÄcz siÄ z sieciÄ Pirate poprzez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>Połącz przez proxy SO&amp;CKS5 (domyślne proxy):</translation>
+        <translation>PoÅÄcz przez proxy SO&amp;CKS5 (domyÅlne proxy):</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1073,11 +1073,11 @@
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>Użyto do połączenia z peerami przy pomocy:</translation>
+        <translation>UÅ¼yto do poÅÄczenia z peerami przy pomocy:</translation>
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Pokazuje, czy wspierane domyślnie proxy SOCKS5 jest używane do łączenia się z peerami w tej sieci</translation>
+        <translation>Pokazuje, czy wspierane domyÅlnie proxy SOCKS5 jest uÅ¼ywane do ÅÄczenia siÄ z peerami w tej sieci</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1093,11 +1093,11 @@
     </message>
     <message>
         <source>Connect to the Pirate network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Połącz się z siecią Pirate przy pomocy oddzielnego SOCKS5 proxy dla sieci TOR</translation>
+        <translation>PoÅÄcz siÄ z sieciÄ Pirate przy pomocy oddzielnego SOCKS5 proxy dla sieci TOR</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Użyj oddzielnego proxy SOCKS5 aby osiągnąć węzły w ukrytych usługach Tor:</translation>
+        <translation>UÅ¼yj oddzielnego proxy SOCKS5 aby osiÄgnÄÄ wÄzÅy w ukrytych usÅugach Tor:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1105,35 +1105,35 @@
     </message>
     <message>
         <source>&amp;Hide the icon from the system tray.</source>
-        <translation>Ukryj ikonę z zasobnika systemowego.</translation>
+        <translation>Ukryj ikonÄ z zasobnika systemowego.</translation>
     </message>
     <message>
         <source>Hide tray icon</source>
-        <translation>Ukryj ikonę zasobnika</translation>
+        <translation>Ukryj ikonÄ zasobnika</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Pokazuj tylko ikonę przy zegarku po zminimalizowaniu okna.</translation>
+        <translation>Pokazuj tylko ikonÄ przy zegarku po zminimalizowaniu okna.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimalizuj do zasobnika systemowego zamiast do paska zadań</translation>
+        <translation>&amp;Minimalizuj do zasobnika systemowego zamiast do paska zadaÅ</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimalizuj przy zamknięciu</translation>
+        <translation>M&amp;inimalizuj przy zamkniÄciu</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Wyświetlanie</translation>
+        <translation>&amp;WyÅwietlanie</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Język &amp;użytkownika:</translation>
+        <translation>JÄzyk &amp;uÅ¼ytkownika:</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>Można tu ustawić język interfejsu uzytkownika. Ustawienie przyniesie skutek po ponownym uruchomieniu %1.</translation>
+        <translation>MoÅ¼na tu ustawiÄ jÄzyk interfejsu uzytkownika. Ustawienie przyniesie skutek po ponownym uruchomieniu %1.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1141,7 +1141,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wybierz podział jednostki pokazywany w interfejsie  oraz podczas wysyłania monet</translation>
+        <translation>Wybierz podziaÅ jednostki pokazywany w interfejsie  oraz podczas wysyÅania monet</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1157,31 +1157,31 @@
     </message>
     <message>
         <source>default</source>
-        <translation>domyślny</translation>
+        <translation>domyÅlny</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>żaden</translation>
+        <translation>Å¼aden</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Potwierdź reset ustawień</translation>
+        <translation>PotwierdÅº reset ustawieÅ</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Wymagany restart programu, aby uaktywnić zmiany.</translation>
+        <translation>Wymagany restart programu, aby uaktywniÄ zmiany.</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Program zostanie wyłączony. Czy chcesz kontynuować?</translation>
+        <translation>Program zostanie wyÅÄczony. Czy chcesz kontynuowaÄ?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Ta zmiana może wymagać ponownego uruchomienia klienta.</translation>
+        <translation>Ta zmiana moÅ¼e wymagaÄ ponownego uruchomienia klienta.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adres podanego proxy jest nieprawidłowy</translation>
+        <translation>Adres podanego proxy jest nieprawidÅowy</translation>
     </message>
 </context>
 <context>
@@ -1192,15 +1192,15 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pirate network after a connection is established, but this process has not completed yet.</source>
-        <translation>Wyświetlana informacja może być nieaktualna. Twój portfel synchronizuje się automatycznie z siecią Pirate, zaraz po tym jak uzyskano połączenie, ale proces ten nie został jeszcze ukończony.</translation>
+        <translation>WyÅwietlana informacja moÅ¼e byÄ nieaktualna. TwÃ³j portfel synchronizuje siÄ automatycznie z sieciÄ Pirate, zaraz po tym jak uzyskano poÅÄczenie, ale proces ten nie zostaÅ jeszcze ukoÅczony.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Tylko podglądaj:</translation>
+        <translation>Tylko podglÄdaj:</translation>
     </message>
     <message>
-        <source>Available:</source>
-        <translation>Dostępne:</translation>
+        <source>Transparent:</source>
+        <translation>DostÄpne:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1212,15 +1212,15 @@
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Suma transakcji, które nie zostały jeszcze potwierdzone, a które nie zostały wliczone do twojego obecnego salda</translation>
+        <translation>Suma transakcji, ktÃ³re nie zostaÅy jeszcze potwierdzone, a ktÃ³re nie zostaÅy wliczone do twojego obecnego salda</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Niedojrzały: </translation>
+        <translation>NiedojrzaÅy: </translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Balans wydobytych monet, które jeszcze nie dojrzały</translation>
+        <translation>Balans wydobytych monet, ktÃ³re jeszcze nie dojrzaÅy</translation>
     </message>
     <message>
         <source>Balances</source>
@@ -1228,7 +1228,7 @@
     </message>
     <message>
         <source>Total:</source>
-        <translation>Ogółem:</translation>
+        <translation>OgÃ³Åem:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
@@ -1236,11 +1236,11 @@
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Twoje obecne saldo na podglądanym adresie </translation>
+        <translation>Twoje obecne saldo na podglÄdanym adresie </translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Możliwe do wydania:</translation>
+        <translation>MoÅ¼liwe do wydania:</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1248,54 +1248,54 @@
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Niepotwierdzone transakcje na podglądanych adresach</translation>
+        <translation>Niepotwierdzone transakcje na podglÄdanych adresach</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Wykopane monety na podglądanych adresach które jeszcze nie dojrzały</translation>
+        <translation>Wykopane monety na podglÄdanych adresach ktÃ³re jeszcze nie dojrzaÅy</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Łączna kwota na podglądanych adresach</translation>
+        <translation>ÅÄczna kwota na podglÄdanych adresach</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Błąd żądania płatności</translation>
+        <translation>BÅÄd Å¼Ädania pÅatnoÅci</translation>
     </message>
     <message>
         <source>Cannot start Pirate: click-to-pay handler</source>
-        <translation>Nie można uruchomić protokołu Pirate: kliknij-by-zapłacić</translation>
+        <translation>Nie moÅ¼na uruchomiÄ protokoÅu Pirate: kliknij-by-zapÅaciÄ</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>Obsługa URI</translation>
+        <translation>ObsÅuga URI</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>błędny adres płatności %1</translation>
+        <translation>bÅÄdny adres pÅatnoÅci %1</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Żądanie płatności odrzucone</translation>
+        <translation>Å»Ädanie pÅatnoÅci odrzucone</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Żądanie płatności upłynęło.</translation>
+        <translation>Å»Ädanie pÅatnoÅci upÅynÄÅo.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Żądanie płatności nie jest zainicjowane.</translation>
+        <translation>Å»Ädanie pÅatnoÅci nie jest zainicjowane.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Niezweryfikowane żądania płatności do własnych skryptów płatności są niewspierane.</translation>
+        <translation>Niezweryfikowane Å¼Ädania pÅatnoÅci do wÅasnych skryptÃ³w pÅatnoÅci sÄ niewspierane.</translation>
     </message>
     <message>
         <source>Invalid payment request.</source>
-        <translation>Nieprawidłowe żądanie płatności</translation>
+        <translation>NieprawidÅowe Å¼Ädanie pÅatnoÅci</translation>
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1303,23 +1303,23 @@
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Błąd komunikacji z %1 : %2</translation>
+        <translation>BÅÄd komunikacji z %1 : %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Żądanie płatności nie może zostać przetworzone.</translation>
+        <translation>Å»Ädanie pÅatnoÅci nie moÅ¼e zostaÄ przetworzone.</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Błędna odpowiedź z serwera %1</translation>
+        <translation>BÅÄdna odpowiedÅº z serwera %1</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Błąd żądania sieci</translation>
+        <translation>BÅÄd Å¼Ädania sieci</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Płatność potwierdzona</translation>
+        <translation>PÅatnoÅÄ potwierdzona</translation>
     </message>
 </context>
 <context>
@@ -1330,11 +1330,11 @@
     </message>
     <message>
         <source>Node/Service</source>
-        <translation>Węzeł/Usługi</translation>
+        <translation>WÄzeÅ/UsÅugi</translation>
     </message>
     <message>
         <source>NodeId</source>
-        <translation>Identyfikator węzła</translation>
+        <translation>Identyfikator wÄzÅa</translation>
     </message>
     <message>
         <source>Ping</source>
@@ -1349,7 +1349,7 @@
     </message>
     <message>
         <source>Enter a Pirate address (e.g. %1)</source>
-        <translation>Wprowadź adres Pirateowy (np. %1)</translation>
+        <translation>WprowadÅº adres Pirateowy (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1369,11 +1369,11 @@
     </message>
     <message>
         <source>None</source>
-        <translation>Żaden</translation>
+        <translation>Å»aden</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>NIEDOSTĘPNE</translation>
+        <translation>NIEDOSTÄPNE</translation>
     </message>
     <message>
         <source>%1 ms</source>
@@ -1389,15 +1389,15 @@
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n godzinę</numerusform><numerusform>%n godziny</numerusform><numerusform>%n godzin</numerusform><numerusform>%n godzin</numerusform></translation>
+        <translation><numerusform>%n godzinÄ</numerusform><numerusform>%n godziny</numerusform><numerusform>%n godzin</numerusform><numerusform>%n godzin</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n dzień</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform></translation>
+        <translation><numerusform>%n dzieÅ</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n tydzień</numerusform><numerusform>%n tygodnie</numerusform><numerusform>%n tygodni</numerusform><numerusform>%n tygodni</numerusform></translation>
+        <translation><numerusform>%n tydzieÅ</numerusform><numerusform>%n tygodnie</numerusform><numerusform>%n tygodni</numerusform><numerusform>%n tygodni</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -1409,18 +1409,18 @@
     </message>
     <message>
         <source>%1 didn't yet exit safely...</source>
-        <translation>%1 jeszcze się bezpiecznie nie zamknął...</translation>
+        <translation>%1 jeszcze siÄ bezpiecznie nie zamknÄÅ...</translation>
     </message>
 </context>
 <context>
     <name>QObject::QObject</name>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>Błąd: Określony folder danych "%1" nie istnieje.</translation>
+        <translation>BÅÄd: OkreÅlony folder danych "%1" nie istnieje.</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>Błąd: %1</translation>
+        <translation>BÅÄd: %1</translation>
     </message>
 </context>
 <context>
@@ -1446,7 +1446,7 @@
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation>NIEDOSTĘPNE</translation>
+        <translation>NIEDOSTÄPNE</translation>
     </message>
     <message>
         <source>Client version</source>
@@ -1462,11 +1462,11 @@
     </message>
     <message>
         <source>General</source>
-        <translation>Ogólne</translation>
+        <translation>OgÃ³lne</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Używana wersja BerkeleyDB </translation>
+        <translation>UÅ¼ywana wersja BerkeleyDB </translation>
     </message>
     <message>
         <source>Datadir</source>
@@ -1478,7 +1478,7 @@
     </message>
     <message>
         <source>Network</source>
-        <translation>Sieć</translation>
+        <translation>SieÄ</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1486,19 +1486,19 @@
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Liczba połączeń</translation>
+        <translation>Liczba poÅÄczeÅ</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Łańcuch bloków</translation>
+        <translation>ÅaÅcuch blokÃ³w</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Aktualna liczba bloków</translation>
+        <translation>Aktualna liczba blokÃ³w</translation>
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>Memory Pool (obszar pamięci)</translation>
+        <translation>Memory Pool (obszar pamiÄci)</translation>
     </message>
     <message>
         <source>Current number of transactions</source>
@@ -1506,7 +1506,7 @@
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>Zużycie pamięci</translation>
+        <translation>ZuÅ¼ycie pamiÄci</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1514,23 +1514,23 @@
     </message>
     <message>
         <source>Sent</source>
-        <translation>Wysłane</translation>
+        <translation>WysÅane</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;Węzły</translation>
+        <translation>&amp;WÄzÅy</translation>
     </message>
     <message>
         <source>Banned peers</source>
-        <translation>Blokowane węzły</translation>
+        <translation>Blokowane wÄzÅy</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Wybierz węzeł żeby zobaczyć szczegóły.</translation>
+        <translation>Wybierz wÄzeÅ Å¼eby zobaczyÄ szczegÃ³Åy.</translation>
     </message>
     <message>
         <source>Whitelisted</source>
-        <translation>Biała lista</translation>
+        <translation>BiaÅa lista</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -1546,7 +1546,7 @@
     </message>
     <message>
         <source>Synced Headers</source>
-        <translation>Zsynchronizowane nagłówki</translation>
+        <translation>Zsynchronizowane nagÅÃ³wki</translation>
     </message>
     <message>
         <source>Synced Blocks</source>
@@ -1558,7 +1558,7 @@
     </message>
     <message>
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otwórz plik dziennika debugowania %1 z obecnego katalogu z danymi. Może to potrwać kilka sekund przy większych plikach.</translation>
+        <translation>OtwÃ³rz plik dziennika debugowania %1 z obecnego katalogu z danymi. MoÅ¼e to potrwaÄ kilka sekund przy wiÄkszych plikach.</translation>
     </message>
     <message>
         <source>Decrease font size</source>
@@ -1566,11 +1566,11 @@
     </message>
     <message>
         <source>Increase font size</source>
-        <translation>Zwiększ rozmiar czcionki</translation>
+        <translation>ZwiÄksz rozmiar czcionki</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Usługi</translation>
+        <translation>UsÅugi</translation>
     </message>
     <message>
         <source>Ban Score</source>
@@ -1578,11 +1578,11 @@
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Czas połączenia</translation>
+        <translation>Czas poÅÄczenia</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Ostatnio wysłano</translation>
+        <translation>Ostatnio wysÅano</translation>
     </message>
     <message>
         <source>Last Receive</source>
@@ -1606,7 +1606,7 @@
     </message>
     <message>
         <source>Time Offset</source>
-        <translation>Przesunięcie czasu</translation>
+        <translation>PrzesuniÄcie czasu</translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -1614,7 +1614,7 @@
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Otwórz</translation>
+        <translation>&amp;OtwÃ³rz</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -1626,19 +1626,19 @@
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Wyczyść</translation>
+        <translation>&amp;WyczyÅÄ</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Kwota ogólna</translation>
+        <translation>Kwota ogÃ³lna</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>Wejście:</translation>
+        <translation>WejÅcie:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Wyjście:</translation>
+        <translation>WyjÅcie:</translation>
     </message>
     <message>
         <source>Debug log file</source>
@@ -1646,7 +1646,7 @@
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Wyczyść konsolę</translation>
+        <translation>WyczyÅÄ konsolÄ</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
@@ -1654,11 +1654,11 @@
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1 &amp;dzień</translation>
+        <translation>1 &amp;dzieÅ</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 &amp;tydzień</translation>
+        <translation>1 &amp;tydzieÅ</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
@@ -1666,7 +1666,7 @@
     </message>
     <message>
         <source>&amp;Disconnect</source>
-        <translation>&amp;Rozłącz</translation>
+        <translation>&amp;RozÅÄcz</translation>
     </message>
     <message>
         <source>Ban for</source>
@@ -1682,11 +1682,11 @@
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Użyj strzałek do przewijania historii i &lt;b&gt;Ctrl-L&lt;/b&gt; aby wyczyścić ekran</translation>
+        <translation>UÅ¼yj strzaÅek do przewijania historii i &lt;b&gt;Ctrl-L&lt;/b&gt; aby wyczyÅciÄ ekran</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Wpisz &lt;b&gt;help&lt;/b&gt; aby uzyskać listę dostępnych komend</translation>
+        <translation>Wpisz &lt;b&gt;help&lt;/b&gt; aby uzyskaÄ listÄ dostÄpnych komend</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1706,7 +1706,7 @@
     </message>
     <message>
         <source>(node id: %1)</source>
-        <translation>(id węzła: %1)</translation>
+        <translation>(id wÄzÅa: %1)</translation>
     </message>
     <message>
         <source>via %1</source>
@@ -1718,11 +1718,11 @@
     </message>
     <message>
         <source>Inbound</source>
-        <translation>Wejściowy</translation>
+        <translation>WejÅciowy</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Wyjściowy</translation>
+        <translation>WyjÅciowy</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -1741,7 +1741,7 @@
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Ilość:</translation>
+        <translation>&amp;IloÅÄ:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1749,19 +1749,19 @@
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Wiadomość:</translation>
+        <translation>&amp;WiadomoÅÄ:</translation>
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation>Użyj jednego z poprzednio użytych adresów odbiorczych. Podczas ponownego używania adresów występują problemy z bezpieczeństwem i prywatnością. Nie korzystaj z tej opcji, chyba że odtwarzasz żądanie płatności wykonane już wcześniej.</translation>
+        <translation>UÅ¼yj jednego z poprzednio uÅ¼ytych adresÃ³w odbiorczych. Podczas ponownego uÅ¼ywania adresÃ³w wystÄpujÄ problemy z bezpieczeÅstwem i prywatnoÅciÄ. Nie korzystaj z tej opcji, chyba Å¼e odtwarzasz Å¼Ädanie pÅatnoÅci wykonane juÅ¼ wczeÅniej.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>U&amp;żyj ponownie istniejącego adresu odbiorczego (niepolecane)</translation>
+        <translation>U&amp;Å¼yj ponownie istniejÄcego adresu odbiorczego (niepolecane)</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pirate network.</source>
-        <translation>Opcjonalna wiadomość do dołączenia do żądania płatności, która będzie wyświetlana, gdy żądanie zostanie otwarte. Uwaga: wiadomość ta nie zostanie wysłana wraz z płatnością w sieci Pirate.</translation>
+        <translation>Opcjonalna wiadomoÅÄ do doÅÄczenia do Å¼Ädania pÅatnoÅci, ktÃ³ra bÄdzie wyÅwietlana, gdy Å¼Ädanie zostanie otwarte. Uwaga: wiadomoÅÄ ta nie zostanie wysÅana wraz z pÅatnoÅciÄ w sieci Pirate.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1769,43 +1769,43 @@
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Użyj tego formularza do zażądania płatności. Wszystkie pola są &lt;b&gt;opcjonalne&lt;/b&gt;.</translation>
+        <translation>UÅ¼yj tego formularza do zaÅ¼Ädania pÅatnoÅci. Wszystkie pola sÄ &lt;b&gt;opcjonalne&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Opcjonalna kwota by zażądać. Zostaw puste lub zero by nie zażądać konkretnej kwoty.</translation>
+        <translation>Opcjonalna kwota by zaÅ¼ÄdaÄ. Zostaw puste lub zero by nie zaÅ¼ÄdaÄ konkretnej kwoty.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Wyczyść wszystkie pola formularza.</translation>
+        <translation>WyczyÅÄ wszystkie pola formularza.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Wyczyść</translation>
+        <translation>WyczyÅÄ</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Żądanie historii płatności</translation>
+        <translation>Å»Ädanie historii pÅatnoÅci</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Żądaj płatności</translation>
+        <translation>&amp;Å»Ädaj pÅatnoÅci</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Pokaż wybrane żądanie (robi to samo co dwukrotne kliknięcie pozycji)</translation>
+        <translation>PokaÅ¼ wybrane Å¼Ädanie (robi to samo co dwukrotne klikniÄcie pozycji)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Pokaż</translation>
+        <translation>PokaÅ¼</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Usuń zaznaczone z listy</translation>
+        <translation>UsuÅ zaznaczone z listy</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Usuń</translation>
+        <translation>UsuÅ</translation>
     </message>
     <message>
         <source>Copy URI</source>
@@ -1813,15 +1813,15 @@
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiuj etykietę</translation>
+        <translation>Kopiuj etykietÄ</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Kopiuj wiadomość</translation>
+        <translation>Kopiuj wiadomoÅÄ</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
+        <translation>Kopiuj kwotÄ</translation>
     </message>
 </context>
 <context>
@@ -1844,11 +1844,11 @@
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Zażądaj płatności do %1</translation>
+        <translation>ZaÅ¼Ädaj pÅatnoÅci do %1</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>Informacje o płatności</translation>
+        <translation>Informacje o pÅatnoÅci</translation>
     </message>
     <message>
         <source>URI</source>
@@ -1868,7 +1868,7 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>Wiadomość</translation>
+        <translation>WiadomoÅÄ</translation>
     </message>
     </context>
 <context>
@@ -1883,7 +1883,7 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>Wiadomość</translation>
+        <translation>WiadomoÅÄ</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1891,7 +1891,7 @@
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(brak wiadomości)</translation>
+        <translation>(brak wiadomoÅci)</translation>
     </message>
     <message>
         <source>(no amount requested)</source>
@@ -1899,14 +1899,14 @@
     </message>
     <message>
         <source>Requested</source>
-        <translation>Zażądano</translation>
+        <translation>ZaÅ¼Ädano</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Wyślij monety</translation>
+        <translation>WyÅlij monety</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1914,7 +1914,7 @@
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Wejścia...</translation>
+        <translation>WejÅcia...</translation>
     </message>
     <message>
         <source>automatically selected</source>
@@ -1922,15 +1922,15 @@
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Niewystarczające środki!</translation>
+        <translation>NiewystarczajÄce Årodki!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Ilość:</translation>
+        <translation>IloÅÄ:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bajtów:</translation>
+        <translation>BajtÃ³w:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -1938,11 +1938,11 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Opłata:</translation>
+        <translation>OpÅata:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Po opłacie:</translation>
+        <translation>Po opÅacie:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -1950,7 +1950,7 @@
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Kiedy ta opcja jest wybrana, to jeżeli adres reszty jest pusty lub nieprawidłowy, to reszta będzie wysyłana na nowo wygenerowany adres, </translation>
+        <translation>Kiedy ta opcja jest wybrana, to jeÅ¼eli adres reszty jest pusty lub nieprawidÅowy, to reszta bÄdzie wysyÅana na nowo wygenerowany adres, </translation>
     </message>
     <message>
         <source>Custom change address</source>
@@ -1958,7 +1958,7 @@
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Opłata transakcyjna:</translation>
+        <translation>OpÅata transakcyjna:</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1966,7 +1966,7 @@
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>zwiń opcje opłaty</translation>
+        <translation>zwiÅ opcje opÅaty</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -1974,7 +1974,7 @@
     </message>
     <message>
         <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jeżeli własna opłata zostanie ustawiona na 1000 satoshi, a transakcja będzie miała tylko 250 bajtów, to "za kilobajt" płaci tylko 250 satoshi, podczas gdy, "razem przynajmniej" płaci 1000 satoshi. Przy transakcjach większych niż kilobajt, w obu przypadkach płaci za każdy kilobajt.</translation>
+        <translation>JeÅ¼eli wÅasna opÅata zostanie ustawiona na 1000 satoshi, a transakcja bÄdzie miaÅa tylko 250 bajtÃ³w, to "za kilobajt" pÅaci tylko 250 satoshi, podczas gdy, "razem przynajmniej" pÅaci 1000 satoshi. Przy transakcjach wiÄkszych niÅ¼ kilobajt, w obu przypadkach pÅaci za kaÅ¼dy kilobajt.</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -1986,11 +1986,11 @@
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Pirate transactions than the network can process.</source>
-        <translation>Zapłacenie tylko minimalnej opłaty jest nadal wystarczające, dopóki jest mniejszy wolumen transakcji niż miejsca w blokach. Należy jednak mieć świadomość, że może skończyć się to niezatwierdzeniem nigdy transakcji, gdy jest większe zapotrzebowanie na transakcje Piratea niż sieć może przetworzyć.</translation>
+        <translation>ZapÅacenie tylko minimalnej opÅaty jest nadal wystarczajÄce, dopÃ³ki jest mniejszy wolumen transakcji niÅ¼ miejsca w blokach. NaleÅ¼y jednak mieÄ ÅwiadomoÅÄ, Å¼e moÅ¼e skoÅczyÄ siÄ to niezatwierdzeniem nigdy transakcji, gdy jest wiÄksze zapotrzebowanie na transakcje Piratea niÅ¼ sieÄ moÅ¼e przetworzyÄ.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(przeczytaj podpowiedź)</translation>
+        <translation>(przeczytaj podpowiedÅº)</translation>
     </message>
     <message>
         <source>Recommended:</source>
@@ -1998,11 +1998,11 @@
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Własna:</translation>
+        <translation>WÅasna:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Sprytne opłaty nie są jeszcze zainicjowane. Trwa to zwykle kilka bloków...)</translation>
+        <translation>(Sprytne opÅaty nie sÄ jeszcze zainicjowane. Trwa to zwykle kilka blokÃ³w...)</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2014,19 +2014,19 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Wyślij do wielu odbiorców na raz</translation>
+        <translation>WyÅlij do wielu odbiorcÃ³w na raz</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Dodaj Odbio&amp;rcę</translation>
+        <translation>Dodaj Odbio&amp;rcÄ</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Wyczyść wszystkie pola formularza.</translation>
+        <translation>WyczyÅÄ wszystkie pola formularza.</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Pył:</translation>
+        <translation>PyÅ:</translation>
     </message>
     <message>
         <source>Confirmation time target:</source>
@@ -2034,7 +2034,7 @@
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Wyczyść &amp;wszystko</translation>
+        <translation>WyczyÅÄ &amp;wszystko</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -2042,39 +2042,39 @@
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Potwierdź akcję wysyłania</translation>
+        <translation>PotwierdÅº akcjÄ wysyÅania</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>Wy&amp;syłka</translation>
+        <translation>Wy&amp;syÅka</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Skopiuj ilość</translation>
+        <translation>Skopiuj iloÅÄ</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
+        <translation>Kopiuj kwotÄ</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Skopiuj prowizję</translation>
+        <translation>Skopiuj prowizjÄ</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Skopiuj ilość po opłacie</translation>
+        <translation>Skopiuj iloÅÄ po opÅacie</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Skopiuj ilość bajtów</translation>
+        <translation>Skopiuj iloÅÄ bajtÃ³w</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopiuj pył</translation>
+        <translation>Kopiuj pyÅ</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Skopiuj resztę</translation>
+        <translation>Skopiuj resztÄ</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2082,15 +2082,15 @@
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Czy na pewno chcesz wysłać?</translation>
+        <translation>Czy na pewno chcesz wysÅaÄ?</translation>
     </message>
     <message>
         <source>added as transaction fee</source>
-        <translation>dodano jako opłata transakcyjna</translation>
+        <translation>dodano jako opÅata transakcyjna</translation>
     </message>
     <message>
         <source>Total Amount %1</source>
-        <translation>Łączna kwota %1</translation>
+        <translation>ÅÄczna kwota %1</translation>
     </message>
     <message>
         <source>or</source>
@@ -2098,15 +2098,15 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Potwierdź wysyłanie monet</translation>
+        <translation>PotwierdÅº wysyÅanie monet</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Adres odbiorcy jest nieprawidłowy, proszę sprawić ponownie.</translation>
+        <translation>Adres odbiorcy jest nieprawidÅowy, proszÄ sprawiÄ ponownie.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Kwota do zapłacenia musi być większa od 0.</translation>
+        <translation>Kwota do zapÅacenia musi byÄ wiÄksza od 0.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
@@ -2114,27 +2114,27 @@
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Suma przekracza twoje saldo, gdy doliczymy %1 opłaty transakcyjnej.</translation>
+        <translation>Suma przekracza twoje saldo, gdy doliczymy %1 opÅaty transakcyjnej.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>Utworzenie transakcji nie powiodło się!</translation>
+        <translation>Utworzenie transakcji nie powiodÅo siÄ!</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Żądanie płatności upłynęło.</translation>
+        <translation>Å»Ädanie pÅatnoÅci upÅynÄÅo.</translation>
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
-        <translation>Zapłać tylko wymaganą opłatę w wysokości %1</translation>
+        <translation>ZapÅaÄ tylko wymaganÄ opÅatÄ w wysokoÅci %1</translation>
     </message>
     <message>
         <source>Warning: Invalid Pirate address</source>
-        <translation>Ostrzeżenie: nieprawidłowy adres Pirate</translation>
+        <translation>OstrzeÅ¼enie: nieprawidÅowy adres Komodo</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Ostrzeżenie: Nieznany adres reszty</translation>
+        <translation>OstrzeÅ¼enie: Nieznany adres reszty</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2149,7 +2149,7 @@
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Zapłać &amp;dla:</translation>
+        <translation>ZapÅaÄ &amp;dla:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -2157,15 +2157,15 @@
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Wybierz wcześniej użyty adres</translation>
+        <translation>Wybierz wczeÅniej uÅ¼yty adres</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation>To jest standardowa płatność</translation>
+        <translation>To jest standardowa pÅatnoÅÄ</translation>
     </message>
     <message>
         <source>The Pirate address to send the payment to</source>
-        <translation>Adres Pirate gdzie wysłać płatność</translation>
+        <translation>Adres Pirate gdzie wysÅaÄ pÅatnoÅÄ</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2181,39 +2181,39 @@
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Usuń ten wpis</translation>
+        <translation>UsuÅ ten wpis</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Opłata zostanie odjęta od kwoty wysyłane.Odbiorca otrzyma mniej niż Pirates wpisz w polu kwoty. Jeśli wybrano kilku odbiorców, opłata jest podzielona równo.</translation>
+        <translation>OpÅata zostanie odjÄta od kwoty wysyÅane.Odbiorca otrzyma mniej niÅ¼ Pirates wpisz w polu kwoty. JeÅli wybrano kilku odbiorcÃ³w, opÅata jest podzielona rÃ³wno.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
-        <translation>Odejmij od wysokości opłaty</translation>
+        <translation>Odejmij od wysokoÅci opÅaty</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Wiadomość:</translation>
+        <translation>WiadomoÅÄ:</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
-        <translation>To żądanie zapłaty nie zostało zweryfikowane.</translation>
+        <translation>To Å¼Ädanie zapÅaty nie zostaÅo zweryfikowane.</translation>
     </message>
     <message>
         <source>This is an authenticated payment request.</source>
-        <translation>To żądanie zapłaty jest zweryfikowane.</translation>
+        <translation>To Å¼Ädanie zapÅaty jest zweryfikowane.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Wprowadź etykietę dla tego adresu by dodać go do listy użytych adresów</translation>
+        <translation>WprowadÅº etykietÄ dla tego adresu by dodaÄ go do listy uÅ¼ytych adresÃ³w</translation>
     </message>
     <message>
-        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pirate network.</source>
-        <translation>Wiadomość, która została dołączona do URI Pirate:, która będzie przechowywana wraz z transakcją w celach informacyjnych. Uwaga: Ta wiadomość nie będzie rozsyłana w sieci Pirate.</translation>
+        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Komodo network.</source>
+        <translation>WiadomoÅÄ, ktÃ³ra zostaÅa doÅÄczona do URI Pirate:, ktÃ³ra bÄdzie przechowywana wraz z transakcjÄ w celach informacyjnych. Uwaga: Ta wiadomoÅÄ nie bÄdzie rozsyÅana w sieci Komodo.</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Wpłać do:</translation>
+        <translation>WpÅaÄ do:</translation>
     </message>
     <message>
         <source>Memo:</source>
@@ -2231,34 +2231,34 @@
     <name>ShutdownWindow</name>
     <message>
         <source>%1 is shutting down...</source>
-        <translation>%1 się zamyka...</translation>
+        <translation>%1 siÄ zamyka...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Nie wyłączaj komputera dopóki to okno nie zniknie.</translation>
+        <translation>Nie wyÅÄczaj komputera dopÃ³ki to okno nie zniknie.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Podpisy - Podpisz / zweryfikuj wiadomość</translation>
+        <translation>Podpisy - Podpisz / zweryfikuj wiadomoÅÄ</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>Podpi&amp;sz Wiadomość</translation>
+        <translation>Podpi&amp;sz WiadomoÅÄ</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Możesz podpisywać wiadomości swoimi adresami aby udowodnić, że jesteś ich właścicielem. Uważaj, aby nie podpisywać niczego co wzbudza Twoje podejrzenia, ponieważ ktoś może stosować phishing próbując nakłonić Cię do ich podpisania. Akceptuj i podpisuj tylko w pełni zrozumiałe komunikaty i wiadomości.</translation>
+        <translation>MoÅ¼esz podpisywaÄ wiadomoÅci swoimi adresami aby udowodniÄ, Å¼e jesteÅ ich wÅaÅcicielem. UwaÅ¼aj, aby nie podpisywaÄ niczego co wzbudza Twoje podejrzenia, poniewaÅ¼ ktoÅ moÅ¼e stosowaÄ phishing prÃ³bujÄc nakÅoniÄ CiÄ do ich podpisania. Akceptuj i podpisuj tylko w peÅni zrozumiaÅe komunikaty i wiadomoÅci.</translation>
     </message>
     <message>
         <source>The Pirate address to sign the message with</source>
-        <translation>Adres Pirate, za pomocą którego podpisać wiadomość</translation>
+        <translation>Adres Pirate, za pomocÄ ktÃ³rego podpisaÄ wiadomoÅÄ</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Wybierz wcześniej użyty adres</translation>
+        <translation>Wybierz wczeÅniej uÅ¼yty adres</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2274,7 +2274,7 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Tutaj wprowadź wiadomość, którą chcesz podpisać</translation>
+        <translation>Tutaj wprowadÅº wiadomoÅÄ, ktÃ³rÄ chcesz podpisaÄ</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -2286,72 +2286,72 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Pirate address</source>
-        <translation>Podpisz wiadomość aby dowieść, że ten adres jest twój</translation>
+        <translation>Podpisz wiadomoÅÄ aby dowieÅÄ, Å¼e ten adres jest twÃ³j</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Podpisz Wiado&amp;mość</translation>
+        <translation>Podpisz Wiado&amp;moÅÄ</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Zresetuj wszystkie pola podpisanej wiadomości</translation>
+        <translation>Zresetuj wszystkie pola podpisanej wiadomoÅci</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Wyczyść &amp;wszystko</translation>
+        <translation>WyczyÅÄ &amp;wszystko</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Zweryfikuj wiadomość</translation>
+        <translation>&amp;Zweryfikuj wiadomoÅÄ</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Wpisz adres, wiadomość oraz sygnaturę (podpis) odbiorcy (upewnij się, że dokładnie skopiujesz wszystkie zakończenia linii, spacje, tabulacje itp.).  Uważaj by nie dodać więcej do podpisu niż do samej podpisywanej wiadomości by uniknąć ataku man-in-the-middle.
-Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadawca posiada klucz do adresu, natomiast nie potwierdza to, że poprawne wysłanie jakiejkolwiek transakcji! </translation>
+        <translation>Wpisz adres, wiadomoÅÄ oraz sygnaturÄ (podpis) odbiorcy (upewnij siÄ, Å¼e dokÅadnie skopiujesz wszystkie zakoÅczenia linii, spacje, tabulacje itp.).  UwaÅ¼aj by nie dodaÄ wiÄcej do podpisu niÅ¼ do samej podpisywanej wiadomoÅci by uniknÄÄ ataku man-in-the-middle.
+ZwrÃ³Ä uwagÄ, Å¼e poprawnie zweryfikowana wiadomoÅÄ potwierdza to, Å¼e nadawca posiada klucz do adresu, natomiast nie potwierdza to, Å¼e poprawne wysÅanie jakiejkolwiek transakcji! </translation>
     </message>
     <message>
         <source>The Pirate address the message was signed with</source>
-        <translation>Adres Pirate, którym została podpisana wiadomość</translation>
+        <translation>Adres Pirate, ktÃ³rym zostaÅa podpisana wiadomoÅÄ</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Pirate address</source>
-        <translation>Zweryfikuj wiadomość,  aby upewnić się, że została podpisana odpowiednim adresem Pirate.</translation>
+        <translation>Zweryfikuj wiadomoÅÄ,  aby upewniÄ siÄ, Å¼e zostaÅa podpisana odpowiednim adresem Pirate.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Zweryfikuj Wiado&amp;mość</translation>
+        <translation>Zweryfikuj Wiado&amp;moÅÄ</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Resetuje wszystkie pola weryfikacji wiadomości</translation>
+        <translation>Resetuje wszystkie pola weryfikacji wiadomoÅci</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Podany adres jest nieprawidłowy.</translation>
+        <translation>Podany adres jest nieprawidÅowy.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Proszę sprawdzić adres i spróbować ponownie.</translation>
+        <translation>ProszÄ sprawdziÄ adres i sprÃ³bowaÄ ponownie.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Odblokowanie portfela zostało anulowane.</translation>
+        <translation>Odblokowanie portfela zostaÅo anulowane.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Klucz prywatny dla podanego adresu nie jest dostępny.</translation>
+        <translation>Klucz prywatny dla podanego adresu nie jest dostÄpny.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Podpisanie wiadomości nie powiodło się.</translation>
+        <translation>Podpisanie wiadomoÅci nie powiodÅo siÄ.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Wiadomość podpisana.</translation>
+        <translation>WiadomoÅÄ podpisana.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Wiadomość zweryfikowana.</translation>
+        <translation>WiadomoÅÄ zweryfikowana.</translation>
     </message>
 </context>
 <context>
@@ -2380,7 +2380,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Source</source>
-        <translation>Źródło</translation>
+        <translation>Å¹rÃ³dÅo</translation>
     </message>
     <message>
         <source>Generated</source>
@@ -2400,7 +2400,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>own address</source>
-        <translation>własny adres</translation>
+        <translation>wÅasny adres</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -2412,11 +2412,11 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Opłata transakcyjna</translation>
+        <translation>OpÅata transakcyjna</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Wiadomość</translation>
+        <translation>WiadomoÅÄ</translation>
     </message>
     <message>
         <source>Transaction</source>
@@ -2424,7 +2424,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Wejścia</translation>
+        <translation>WejÅcia</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -2436,14 +2436,14 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>false</source>
-        <translation>fałsz</translation>
+        <translation>faÅsz</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ten panel pokazuje szczegółowy opis transakcji</translation>
+        <translation>Ten panel pokazuje szczegÃ³Åowy opis transakcji</translation>
     </message>
     </context>
 <context>
@@ -2482,7 +2482,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Wysłane do</translation>
+        <translation>WysÅane do</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -2509,11 +2509,11 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>This month</source>
-        <translation>W tym miesiącu</translation>
+        <translation>W tym miesiÄcu</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>W zeszłym miesiącu</translation>
+        <translation>W zeszÅym miesiÄcu</translation>
     </message>
     <message>
         <source>This year</source>
@@ -2525,7 +2525,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Wysłane do</translation>
+        <translation>WysÅane do</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -2533,11 +2533,11 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiuj etykietę</translation>
+        <translation>Kopiuj etykietÄ</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiuj kwotę</translation>
+        <translation>Kopiuj kwotÄ</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
@@ -2545,7 +2545,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Zmień etykietę</translation>
+        <translation>ZmieÅ etykietÄ</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -2569,7 +2569,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Eksportowanie nie powiodło się</translation>
+        <translation>Eksportowanie nie powiodÅo siÄ</translation>
     </message>
     <message>
         <source>Range:</source>
@@ -2584,7 +2584,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Jednostka w jakiej pokazywane są kwoty. Kliknij aby wybrać inną.</translation>
+        <translation>Jednostka w jakiej pokazywane sÄ kwoty. Kliknij aby wybraÄ innÄ.</translation>
     </message>
 </context>
 <context>
@@ -2601,66 +2601,66 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Nie udało się wykonać kopii zapasowej</translation>
+        <translation>Nie udaÅo siÄ wykonaÄ kopii zapasowej</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>Wykonano kopię zapasową</translation>
+        <translation>Wykonano kopiÄ zapasowÄ</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>Dane portfela zostały poprawnie zapisane w %1.</translation>
+        <translation>Dane portfela zostaÅy poprawnie zapisane w %1.</translation>
     </message>
 </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
         <translation>Opcje:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Wskaż folder danych</translation>
+        <translation>WskaÅ¼ folder danych</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Podłącz się do węzła aby otrzymać adresy peerów i rozłącz</translation>
+        <translation>PodÅÄcz siÄ do wÄzÅa aby otrzymaÄ adresy peerÃ³w i rozÅÄcz</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Podaj swój publiczny adres</translation>
+        <translation>Podaj swÃ³j publiczny adres</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Akceptuj linię poleceń oraz polecenia JSON-RPC</translation>
+        <translation>Akceptuj liniÄ poleceÅ oraz polecenia JSON-RPC</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>Jeżeli &lt;category&gt; nie zostanie określona lub &lt;category&gt; = 1, wyświetl wszystkie informacje debugowania.</translation>
+        <translation>JeÅ¼eli &lt;category&gt; nie zostanie okreÅlona lub &lt;category&gt; = 1, wyÅwietl wszystkie informacje debugowania.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Przycinanie skonfigurowano poniżej minimalnych %d MiB. Proszę użyć wyższej liczby.</translation>
+        <translation>Przycinanie skonfigurowano poniÅ¼ej minimalnych %d MiB. ProszÄ uÅ¼yÄ wyÅ¼szej liczby.</translation>
     </message>
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Prune: ostatnia synchronizacja portfela jest za danymi. Muszisz -reindexować (pobrać cały ciąg bloków ponownie w przypadku przyciętego węzła)</translation>
+        <translation>Prune: ostatnia synchronizacja portfela jest za danymi. Muszisz -reindexowaÄ (pobraÄ caÅy ciÄg blokÃ³w ponownie w przypadku przyciÄtego wÄzÅa)</translation>
     </message>
     <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>Ponowne skanowanie nie jest możliwe w trybie przycinania. Będzie trzeba użyć -reindex, co pobierze ponownie cały łańcuch bloków.</translation>
+        <translation>Ponowne skanowanie nie jest moÅ¼liwe w trybie przycinania. BÄdzie trzeba uÅ¼yÄ -reindex, co pobierze ponownie caÅy ÅaÅcuch blokÃ³w.</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Błąd: Wystąpił fatalny błąd wewnętrzny, sprawdź szczegóły w debug.log</translation>
+        <translation>BÅÄd: WystÄpiÅ fatalny bÅÄd wewnÄtrzny, sprawdÅº szczegÃ³Åy w debug.log</translation>
     </message>
     <message>
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
-        <translation>Prowizja (w %s/kB) dodawana do wysyłanych transakcji (domyślnie: %s)</translation>
+        <translation>Prowizja (w %s/kB) dodawana do wysyÅanych transakcji (domyÅlnie: %s)</translation>
     </message>
     <message>
         <source>Pruning blockstore...</source>
-        <translation>Przycinanie zapisu bloków...</translation>
+        <translation>Przycinanie zapisu blokÃ³w...</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2668,11 +2668,11 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Uruchomienie serwera HTTP nie powiodło się. Zobacz dziennik debugowania, aby uzyskać więcej szczegółów.</translation>
+        <translation>Uruchomienie serwera HTTP nie powiodÅo siÄ. Zobacz dziennik debugowania, aby uzyskaÄ wiÄcej szczegÃ³ÅÃ³w.</translation>
     </message>
     <message>
         <source>Pirate Core</source>
-        <translation>Rdzeń Piratea</translation>
+        <translation>RdzeÅ Piratea</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -2680,7 +2680,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
-        <translation>Stawka prowizji (w %s/kB), która będzie użyta, gdy oszacowane dane o prowizjach nie będą wystarczające (domyślnie: %s)</translation>
+        <translation>Stawka prowizji (w %s/kB), ktÃ³ra bÄdzie uÅ¼yta, gdy oszacowane dane o prowizjach nie bÄdÄ wystarczajÄce (domyÅlnie: %s)</translation>
     </message>
     <message>
         <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
@@ -2688,51 +2688,51 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Skojarz z podanym adresem i nasłuchuj na nim. Użyj formatu [host]:port dla IPv6</translation>
+        <translation>Skojarz z podanym adresem i nasÅuchuj na nim. UÅ¼yj formatu [host]:port dla IPv6</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>Nie można uzyskać blokady na katalogu z danymi %s. %s najprawdopodobniej jest już uruchomiony.</translation>
+        <translation>Nie moÅ¼na uzyskaÄ blokady na katalogu z danymi %s. %s najprawdopodobniej jest juÅ¼ uruchomiony.</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Usuwa wszystkie transakcje w portfelu i tylko odtwarza te części z łańcucha bloków poprzez -rescan przy starcie</translation>
+        <translation>Usuwa wszystkie transakcje w portfelu i tylko odtwarza te czÄÅci z ÅaÅcucha blokÃ³w poprzez -rescan przy starcie</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Błąd odczytu %s! Wszystkie klucze zostały odczytane poprawnie, ale może brakować  danych transakcji lub wpisów w książce adresowej, lub mogą one być nieprawidłowe.</translation>
+        <translation>BÅÄd odczytu %s! Wszystkie klucze zostaÅy odczytane poprawnie, ale moÅ¼e brakowaÄ  danych transakcji lub wpisÃ³w w ksiÄÅ¼ce adresowej, lub mogÄ one byÄ nieprawidÅowe.</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Wykonaj polecenie, kiedy transakcja portfela ulegnie zmianie (%s w poleceniu zostanie zastąpione przez TxID)</translation>
+        <translation>Wykonaj polecenie, kiedy transakcja portfela ulegnie zmianie (%s w poleceniu zostanie zastÄpione przez TxID)</translation>
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Proszę sprawdzić czy data i czas na Twoim komputerze są poprawne! Jeżeli ustawienia zegara będą złe, %s nie będzie działał prawidłowo.</translation>
+        <translation>ProszÄ sprawdziÄ czy data i czas na Twoim komputerze sÄ poprawne! JeÅ¼eli ustawienia zegara bÄdÄ zÅe, %s nie bÄdzie dziaÅaÅ prawidÅowo.</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Ustaw liczbę wątków skryptu weryfikacyjnego (%u do %d, 0 = auto, &lt;0 = zostaw tyle rdzeni wolnych, domyślnie: %d)</translation>
+        <translation>Ustaw liczbÄ wÄtkÃ³w skryptu weryfikacyjnego (%u do %d, 0 = auto, &lt;0 = zostaw tyle rdzeni wolnych, domyÅlnie: %d)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>Użyj UPnP do mapowania portu nasłuchu (domyślnie: 1 gdy nasłuchuje i brak -proxy)</translation>
+        <translation>UÅ¼yj UPnP do mapowania portu nasÅuchu (domyÅlnie: 1 gdy nasÅuchuje i brak -proxy)</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>Musisz przebudować bazę używając -reindex-chainstate aby zmienić -txindex</translation>
+        <translation>Musisz przebudowaÄ bazÄ uÅ¼ywajÄc -reindex-chainstate aby zmieniÄ -txindex</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
-        <translation>%s uszkodzony, odtworzenie się nie powiodło</translation>
+        <translation>%s uszkodzony, odtworzenie siÄ nie powiodÅo</translation>
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool musi być przynajmniej %d MB</translation>
+        <translation>-maxmempool musi byÄ przynajmniej %d MB</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; mogą być:</translation>
+        <translation>&lt;category&gt; mogÄ byÄ:</translation>
     </message>
     <message>
         <source>Append comment to the user agent string</source>
@@ -2740,7 +2740,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet on startup</source>
-        <translation>Próbuj odzyskać klucze prywatne z uszkodzonego portfela podczas uruchamiania.</translation>
+        <translation>PrÃ³buj odzyskaÄ klucze prywatne z uszkodzonego portfela podczas uruchamiania.</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2748,11 +2748,11 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>
-        <translation>Nie można rozpoznać -%s adresu: '%s'</translation>
+        <translation>Nie moÅ¼na rozpoznaÄ -%s adresu: '%s'</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Opcje połączenia:</translation>
+        <translation>Opcje poÅÄczenia:</translation>
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>
@@ -2760,7 +2760,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Wykryto uszkodzoną bazę bloków</translation>
+        <translation>Wykryto uszkodzonÄ bazÄ blokÃ³w</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -2768,107 +2768,107 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Nie ładuj portfela i wyłącz wywołania RPC portfela</translation>
+        <translation>Nie Åaduj portfela i wyÅÄcz wywoÅania RPC portfela</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Czy chcesz teraz przebudować bazę bloków?</translation>
+        <translation>Czy chcesz teraz przebudowaÄ bazÄ blokÃ³w?</translation>
     </message>
     <message>
         <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Włącz wyświetlanie hasha bloku w &lt;address&gt;</translation>
+        <translation>WÅÄcz wyÅwietlanie hasha bloku w &lt;address&gt;</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Błąd inicjowania bazy danych bloków</translation>
+        <translation>BÅÄd inicjowania bazy danych blokÃ³w</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Błąd inicjowania środowiska bazy portfela %s!</translation>
+        <translation>BÅÄd inicjowania Årodowiska bazy portfela %s!</translation>
     </message>
     <message>
         <source>Error loading %s</source>
-        <translation>Błąd ładowania %s</translation>
+        <translation>BÅÄd Åadowania %s</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet corrupted</source>
-        <translation>Błąd ładowania %s: Uszkodzony portfel</translation>
+        <translation>BÅÄd Åadowania %s: Uszkodzony portfel</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Błąd ładowania %s: Portfel wymaga nowszej wersji %s</translation>
+        <translation>BÅÄd Åadowania %s: Portfel wymaga nowszej wersji %s</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Błąd ładowania bazy bloków</translation>
+        <translation>BÅÄd Åadowania bazy blokÃ³w</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Błąd otwierania bazy bloków</translation>
+        <translation>BÅÄd otwierania bazy blokÃ³w</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Błąd: Mało miejsca na dysku!</translation>
+        <translation>BÅÄd: MaÅo miejsca na dysku!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Próba nasłuchiwania na jakimkolwiek porcie nie powiodła się. Użyj -listen=0 jeśli tego chcesz.</translation>
+        <translation>PrÃ³ba nasÅuchiwania na jakimkolwiek porcie nie powiodÅa siÄ. UÅ¼yj -listen=0 jeÅli tego chcesz.</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Importowanie…</translation>
+        <translation>Importowanieâ¦</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Nieprawidłowy lub brak bloku genezy. Błędny folder_danych dla sieci?</translation>
+        <translation>NieprawidÅowy lub brak bloku genezy. BÅÄdny folder_danych dla sieci?</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>Wstępna kontrola poprawności nie powiodła się. %s wyłącza się.</translation>
+        <translation>WstÄpna kontrola poprawnoÅci nie powiodÅa siÄ. %s wyÅÄcza siÄ.</translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
-        <translation>Nieprawidłowy adres -onion: '%s'</translation>
+        <translation>NieprawidÅowy adres -onion: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Nieprawidłowa kwota dla -%s=&lt;amount&gt;: '%s'</translation>
+        <translation>NieprawidÅowa kwota dla -%s=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>Nieprawidłowa kwota dla -fallbackfee=&lt;amount&gt;: '%s'</translation>
+        <translation>NieprawidÅowa kwota dla -fallbackfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Utrzymuj obszar pamięci dla transakcji poniżej &lt;n&gt; MB (default: %u)</translation>
+        <translation>Utrzymuj obszar pamiÄci dla transakcji poniÅ¼ej &lt;n&gt; MB (default: %u)</translation>
     </message>
     <message>
         <source>Loading banlist...</source>
-        <translation>Ładowanie listy zablokowanych...</translation>
+        <translation>Åadowanie listy zablokowanych...</translation>
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Lokalizacja autoryzacyjnego pliku cookie (domyślnie: ścieżka danych)</translation>
+        <translation>Lokalizacja autoryzacyjnego pliku cookie (domyÅlnie: ÅcieÅ¼ka danych)</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Brak wystarczającej liczby deskryptorów plików. </translation>
+        <translation>Brak wystarczajÄcej liczby deskryptorÃ³w plikÃ³w. </translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Łącz z węzłami tylko w sieci &lt;net&gt; (ipv4, piv6 lub onion)</translation>
+        <translation>ÅÄcz z wÄzÅami tylko w sieci &lt;net&gt; (ipv4, piv6 lub onion)</translation>
     </message>
     <message>
         <source>Print this help message and exit</source>
-        <translation>Wyświetl ten tekst pomocy i wyjdź</translation>
+        <translation>WyÅwietl ten tekst pomocy i wyjdÅº</translation>
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>Wyświetl wersję i wyjdź</translation>
+        <translation>WyÅwietl wersjÄ i wyjdÅº</translation>
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
-        <translation>Przycinanie nie może być skonfigurowane z negatywną wartością.</translation>
+        <translation>Przycinanie nie moÅ¼e byÄ skonfigurowane z negatywnÄ wartoÅciÄ.</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
@@ -2876,47 +2876,47 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
-        <translation>Odbuduj stan lańcucha i indeks bloków z obecnych na dysku plików blk*.dat</translation>
+        <translation>Odbuduj stan laÅcucha i indeks blokÃ³w z obecnych na dysku plikÃ³w blk*.dat</translation>
     </message>
     <message>
         <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>Odbuduj stan łańcucha z aktualnie zindeksowanych bloków</translation>
+        <translation>Odbuduj stan ÅaÅcucha z aktualnie zindeksowanych blokÃ³w</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Ustaw wielkość pamięci podręcznej w megabajtach (%d do %d, domyślnie: %d)</translation>
+        <translation>Ustaw wielkoÅÄ pamiÄci podrÄcznej w megabajtach (%d do %d, domyÅlnie: %d)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Ustaw maksymalną wielkość bloku w bajtach (domyślnie: %d)</translation>
+        <translation>Ustaw maksymalnÄ wielkoÅÄ bloku w bajtach (domyÅlnie: %d)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Określ plik portfela (w obrębie folderu danych)</translation>
+        <translation>OkreÅl plik portfela (w obrÄbie folderu danych)</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
-        <translation>Kod źródłowy dostępny jest z %s.</translation>
+        <translation>Kod ÅºrÃ³dÅowy dostÄpny jest z %s.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>Nie można przywiązać do %s na tym komputerze. %s prawdopodobnie jest już uruchomiony.</translation>
+        <translation>Nie moÅ¼na przywiÄzaÄ do %s na tym komputerze. %s prawdopodobnie jest juÅ¼ uruchomiony.</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Niewspierany argument -benchmark zignorowany, użyj -debug=bench.</translation>
+        <translation>Niewspierany argument -benchmark zignorowany, uÅ¼yj -debug=bench.</translation>
     </message>
     <message>
         <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Niewspierany argument -debugnet zignorowany, użyj -debug=net.</translation>
+        <translation>Niewspierany argument -debugnet zignorowany, uÅ¼yj -debug=net.</translation>
     </message>
     <message>
         <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>Znaleziono nieprawidłowy argument -tor, użyj -onion.</translation>
+        <translation>Znaleziono nieprawidÅowy argument -tor, uÅ¼yj -onion.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Użyj UPnP do przekazania portu nasłuchu (domyślnie : %u)</translation>
+        <translation>UÅ¼yj UPnP do przekazania portu nasÅuchu (domyÅlnie : %u)</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
@@ -2924,7 +2924,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Weryfikacja bloków...</translation>
+        <translation>Weryfikacja blokÃ³w...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
@@ -2932,7 +2932,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Portfel %s znajduje się poza folderem danych %s</translation>
+        <translation>Portfel %s znajduje siÄ poza folderem danych %s</translation>
     </message>
     <message>
         <source>Wallet debugging/testing options:</source>
@@ -2940,7 +2940,7 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>Portfel wymaga przepisania: zrestartuj %s aby ukończyć</translation>
+        <translation>Portfel wymaga przepisania: zrestartuj %s aby ukoÅczyÄ</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -2948,87 +2948,87 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Pozwól na połączenia JSON-RPC z podanego źródła. Jako &lt;ip&gt; prawidłowe jest pojedyncze IP (np. 1.2.3.4), podsieć/maska (np. 1.2.3.4/255.255.255.0) lub sieć/CIDR (np. 1.2.3.4/24). Opcja ta może być użyta wiele razy.</translation>
+        <translation>PozwÃ³l na poÅÄczenia JSON-RPC z podanego ÅºrÃ³dÅa. Jako &lt;ip&gt; prawidÅowe jest pojedyncze IP (np. 1.2.3.4), podsieÄ/maska (np. 1.2.3.4/255.255.255.0) lub sieÄ/CIDR (np. 1.2.3.4/24). Opcja ta moÅ¼e byÄ uÅ¼yta wiele razy.</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Podepnij się do podanego adresu i dodawaj do białej listy węzły łączące się z nim. Użyj notacji [host]:port dla IPv6</translation>
+        <translation>Podepnij siÄ do podanego adresu i dodawaj do biaÅej listy wÄzÅy ÅÄczÄce siÄ z nim. UÅ¼yj notacji [host]:port dla IPv6</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Powiąż się z podanym adresem, aby nasłuchiwać połączenia JSON-RPC. Użyj notacji [host]:port dla IPv6. Ta opcja może być określona kilka razy (domyślnie: powiąż ze wszystkimi interfejsami)</translation>
+        <translation>PowiÄÅ¼ siÄ z podanym adresem, aby nasÅuchiwaÄ poÅÄczenia JSON-RPC. UÅ¼yj notacji [host]:port dla IPv6. Ta opcja moÅ¼e byÄ okreÅlona kilka razy (domyÅlnie: powiÄÅ¼ ze wszystkimi interfejsami)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Twórz nowe pliki z domyślnymi dla systemu uprawnieniami, zamiast umask 077 (skuteczne tylko przy wyłączonej funkcjonalności portfela)</translation>
+        <translation>TwÃ³rz nowe pliki z domyÅlnymi dla systemu uprawnieniami, zamiast umask 077 (skuteczne tylko przy wyÅÄczonej funkcjonalnoÅci portfela)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Odkryj własny adres IP (domyślnie: 1 kiedy w trybie nasłuchu i brak -externalip lub -proxy)</translation>
+        <translation>Odkryj wÅasny adres IP (domyÅlnie: 1 kiedy w trybie nasÅuchu i brak -externalip lub -proxy)</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Błąd: Nasłuchiwanie połączeń przychodzących nie powiodło się (nasłuch zwrócił błąd %s)</translation>
+        <translation>BÅÄd: NasÅuchiwanie poÅÄczeÅ przychodzÄcych nie powiodÅo siÄ (nasÅuch zwrÃ³ciÅ bÅÄd %s)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Uruchom polecenie przy otrzymaniu odpowiedniego powiadomienia lub gdy zobaczymy naprawdę długie rozgałęzienie (%s w poleceniu jest podstawiane za komunikat)</translation>
+        <translation>Uruchom polecenie przy otrzymaniu odpowiedniego powiadomienia lub gdy zobaczymy naprawdÄ dÅugie rozgaÅÄzienie (%s w poleceniu jest podstawiane za komunikat)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>Opłaty (w %s/Kb) mniejsze niż ta, będą traktowane jako zerowe przy tworzeniu, przesyłaniu i zatwierdzaniu transakcji (domyślnie: %s)</translation>
+        <translation>OpÅaty (w %s/Kb) mniejsze niÅ¼ ta, bÄdÄ traktowane jako zerowe przy tworzeniu, przesyÅaniu i zatwierdzaniu transakcji (domyÅlnie: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Jeżeli nie ustawiono paytxfee, dołącz wystarczająca opłatę, aby transakcja mogła zostać zatwierdzona w ciągu średniej ilości n bloków (domyślnie: %u)</translation>
+        <translation>JeÅ¼eli nie ustawiono paytxfee, doÅÄcz wystarczajÄca opÅatÄ, aby transakcja mogÅa zostaÄ zatwierdzona w ciÄgu Åredniej iloÅci n blokÃ³w (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Niewłaściwa ilość dla -maxtxfee=&lt;ilość&gt;: '%s' (musi wynosić przynajmniej minimalną wielkość %s aby zapobiec utknięciu transakcji)</translation>
+        <translation>NiewÅaÅciwa iloÅÄ dla -maxtxfee=&lt;iloÅÄ&gt;: '%s' (musi wynosiÄ przynajmniej minimalnÄ wielkoÅÄ %s aby zapobiec utkniÄciu transakcji)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maksymalny rozmiar danych w transakcji przekazującej dane które przekazujemy i wydobywamy (domyślnie: %u)</translation>
+        <translation>Maksymalny rozmiar danych w transakcji przekazujÄcej dane ktÃ³re przekazujemy i wydobywamy (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Ustaw maksymalny rozmiar transakcji o wysokim priorytecie/niskiej prowizji w bajtach (domyślnie: %d)</translation>
+        <translation>Ustaw maksymalny rozmiar transakcji o wysokim priorytecie/niskiej prowizji w bajtach (domyÅlnie: %d)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Zbyt niska kwota transakcji do wysłania po odjęciu opłaty</translation>
+        <translation>Zbyt niska kwota transakcji do wysÅania po odjÄciu opÅaty</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
-        <translation>Użyj hierarchicznej deterministycznej metody generowania kluczy (HD) zgodnie z BIP32. Ma znaczenie tylko podczas tworzenia portfela/pierwszego startu.</translation>
+        <translation>UÅ¼yj hierarchicznej deterministycznej metody generowania kluczy (HD) zgodnie z BIP32. Ma znaczenie tylko podczas tworzenia portfela/pierwszego startu.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Węzły z białej listy nie mogą zostać zbanowane za ataki DoS, a ich transakcje będą zawsze przekazywane, nawet jeżeli będą znajdywać się już w pamięci, przydatne np. dla bramek płatniczych</translation>
+        <translation>WÄzÅy z biaÅej listy nie mogÄ zostaÄ zbanowane za ataki DoS, a ich transakcje bÄdÄ zawsze przekazywane, nawet jeÅ¼eli bÄdÄ znajdywaÄ siÄ juÅ¼ w pamiÄci, przydatne np. dla bramek pÅatniczych</translation>
     </message>
     <message>
         <source>(default: %u)</source>
-        <translation>(domyślnie: %u)</translation>
+        <translation>(domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Akceptuj publiczne żądania REST (domyślnie: %u)</translation>
+        <translation>Akceptuj publiczne Å¼Ädania REST (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Stwórz automatycznie ukrytą usługę Tora (domyślnie: %d)</translation>
+        <translation>StwÃ³rz automatycznie ukrytÄ usÅugÄ Tora (domyÅlnie: %d)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Połącz przez SOCKS5 proxy</translation>
+        <translation>PoÅÄcz przez SOCKS5 proxy</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Błąd odczytu z bazy danych, wyłączam się.</translation>
+        <translation>BÅÄd odczytu z bazy danych, wyÅÄczam siÄ.</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file on startup</source>
-        <translation>Importuj bloki z zewnętrznego pliku blk000??.dat podczas uruchamiania programu</translation>
+        <translation>Importuj bloki z zewnÄtrznego pliku blk000??.dat podczas uruchamiania programu</translation>
     </message>
     <message>
         <source>Information</source>
@@ -3036,23 +3036,23 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Nieprawidłowa kwota dla -paytxfee=&lt;amount&gt;: '%s' (musi być co najmniej %s)</translation>
+        <translation>NieprawidÅowa kwota dla -paytxfee=&lt;amount&gt;: '%s' (musi byÄ co najmniej %s)</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Nieprawidłowa maska sieci określona w -whitelist: '%s'</translation>
+        <translation>NieprawidÅowa maska sieci okreÅlona w -whitelist: '%s'</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Przechowuj w pamięci maksymalnie &lt;n&gt; transakcji nie możliwych do połączenia (domyślnie: %u)</translation>
+        <translation>Przechowuj w pamiÄci maksymalnie &lt;n&gt; transakcji nie moÅ¼liwych do poÅÄczenia (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Musisz określić port z -whitebind: '%s'</translation>
+        <translation>Musisz okreÅliÄ port z -whitebind: '%s'</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Opcje przekaźnikowe węzła:</translation>
+        <translation>Opcje przekaÅºnikowe wÄzÅa:</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3060,35 +3060,35 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
-        <translation>Zmniejszanie -maxconnections z %d do %d z powodu ograniczeń systemu.</translation>
+        <translation>Zmniejszanie -maxconnections z %d do %d z powodu ograniczeÅ systemu.</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
-        <translation>Przeskanuj podczas ładowania programu łańcuch bloków w poszukiwaniu zaginionych transakcji portfela</translation>
+        <translation>Przeskanuj podczas Åadowania programu ÅaÅcuch blokÃ³w w poszukiwaniu zaginionych transakcji portfela</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Wyślij informację/raport do konsoli zamiast do pliku debug.log.</translation>
+        <translation>WyÅlij informacjÄ/raport do konsoli zamiast do pliku debug.log.</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Wyślij bez opłaty jeżeli to możliwe (domyślnie: %u)</translation>
+        <translation>WyÅlij bez opÅaty jeÅ¼eli to moÅ¼liwe (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Pokaż wszystkie opcje odpluskwiania (użycie: --help -help-debug)</translation>
+        <translation>PokaÅ¼ wszystkie opcje odpluskwiania (uÅ¼ycie: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Zmniejsz plik debug.log przy starcie programu (domyślnie: 1 jeśli nie użyto -debug)</translation>
+        <translation>Zmniejsz plik debug.log przy starcie programu (domyÅlnie: 1 jeÅli nie uÅ¼yto -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Podpisywanie transakcji nie powiodło się</translation>
+        <translation>Podpisywanie transakcji nie powiodÅo siÄ</translation>
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
-        <translation>Zbyt niska kwota transakcji by zapłacić opłatę</translation>
+        <translation>Zbyt niska kwota transakcji by zapÅaciÄ opÅatÄ</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
@@ -3096,11 +3096,11 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
-        <translation>Hasło zabezpieczające portu kontrolnego Tora (domyślnie: puste)</translation>
+        <translation>HasÅo zabezpieczajÄce portu kontrolnego Tora (domyÅlnie: puste)</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Port kontrolny sieci Tor jeśli onion listening jest włączone (domyślnie: %s)</translation>
+        <translation>Port kontrolny sieci Tor jeÅli onion listening jest wÅÄczone (domyÅlnie: %s)</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -3108,27 +3108,27 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Transakcja jest zbyt duża dla tej opłaty</translation>
+        <translation>Transakcja jest zbyt duÅ¼a dla tej opÅaty</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transakcja zbyt duża</translation>
+        <translation>Transakcja zbyt duÅ¼a</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Nie można przywiązać do %s na tym komputerze (bind zwrócił błąd %s)</translation>
+        <translation>Nie moÅ¼na przywiÄzaÄ do %s na tym komputerze (bind zwrÃ³ciÅ bÅÄd %s)</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup</source>
-        <translation>Zaktualizuj portfel do najnowszego formatu podczas ładowania programu</translation>
+        <translation>Zaktualizuj portfel do najnowszego formatu podczas Åadowania programu</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Nazwa użytkownika dla połączeń JSON-RPC</translation>
+        <translation>Nazwa uÅ¼ytkownika dla poÅÄczeÅ JSON-RPC</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Ostrzeżenie</translation>
+        <translation>OstrzeÅ¼enie</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
@@ -3136,83 +3136,83 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>ZeroMQ notification options:</source>
-        <translation>Opcje powiadomień ZeroMQ:</translation>
+        <translation>Opcje powiadomieÅ ZeroMQ:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Hasło do połączeń JSON-RPC</translation>
+        <translation>HasÅo do poÅÄczeÅ JSON-RPC</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Wykonaj polecenie kiedy najlepszy blok ulegnie zmianie (%s w komendzie zastanie zastąpione przez hash bloku)</translation>
+        <translation>Wykonaj polecenie kiedy najlepszy blok ulegnie zmianie (%s w komendzie zastanie zastÄpione przez hash bloku)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Zezwól -addnode, -seednode i -connect na łączenie się z serwerem DNS</translation>
+        <translation>ZezwÃ³l -addnode, -seednode i -connect na ÅÄczenie siÄ z serwerem DNS</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Wczytywanie adresów...</translation>
+        <translation>Wczytywanie adresÃ³w...</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = zachowaj wysłane metadane np. właściciel konta i informacje o żądaniach płatności, 2 = porzuć wysłane metadane)</translation>
+        <translation>(1 = zachowaj wysÅane metadane np. wÅaÅciciel konta i informacje o Å¼Ädaniach pÅatnoÅci, 2 = porzuÄ wysÅane metadane)</translation>
     </message>
     <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>-maxtxfee ma ustawioną badzo dużą wartość! Tak wysokie opłaty mogą być zapłacone w jednej transakcji.</translation>
+        <translation>-maxtxfee ma ustawionÄ badzo duÅ¼Ä wartoÅÄ! Tak wysokie opÅaty mogÄ byÄ zapÅacone w jednej transakcji.</translation>
     </message>
     <message>
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>Nie trzymaj w pamięci transakcji starszych niż &lt;n&gt; godz. (domyślnie: %u)</translation>
+        <translation>Nie trzymaj w pamiÄci transakcji starszych niÅ¼ &lt;n&gt; godz. (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Opłaty (w %s/Kb) mniejsze niż ta będą traktowane jako bez opłaty przy tworzeniu transakcji (domyślnie: %s)</translation>
+        <translation>OpÅaty (w %s/Kb) mniejsze niÅ¼ ta bÄdÄ traktowane jako bez opÅaty przy tworzeniu transakcji (domyÅlnie: %s)</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Jak dokładna jest weryfikacja bloków przy -checkblocks (0-4, domyślnie: %u)</translation>
+        <translation>Jak dokÅadna jest weryfikacja blokÃ³w przy -checkblocks (0-4, domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Utrzymuj pełny indeks transakcji, używany przy wywołaniu RPC getrawtransaction (domyślnie: %u)</translation>
+        <translation>Utrzymuj peÅny indeks transakcji, uÅ¼ywany przy wywoÅaniu RPC getrawtransaction (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Czas w sekundach, przez jaki nietrzymające się zasad węzły nie będą mogły ponownie się podłączyć (domyślnie: %u)</translation>
+        <translation>Czas w sekundach, przez jaki nietrzymajÄce siÄ zasad wÄzÅy nie bÄdÄ mogÅy ponownie siÄ podÅÄczyÄ (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Wypuść informacje debugowania (domyślnie: %u, podanie &lt;category&gt; jest opcjonalne)</translation>
+        <translation>WypuÅÄ informacje debugowania (domyÅlnie: %u, podanie &lt;category&gt; jest opcjonalne)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Wspieraj filtrowanie bloków i transakcji używając Filtrów Blooma (domyślnie: %u)</translation>
+        <translation>Wspieraj filtrowanie blokÃ³w i transakcji uÅ¼ywajÄc FiltrÃ³w Blooma (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Całkowita długość łańcucha wersji (%i) przekracza maksymalną dopuszczalną długość (%i). Zmniejsz ilość lub rozmiar parametru uacomment.</translation>
+        <translation>CaÅkowita dÅugoÅÄ ÅaÅcucha wersji (%i) przekracza maksymalnÄ dopuszczalnÄ dÅugoÅÄ (%i). Zmniejsz iloÅÄ lub rozmiar parametru uacomment.</translation>
     </message>
     <message>
         <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>Próbuje utrzymać ruch wychodzący poniżej zadanego (w MiB na 24h), 0 = bez limitu (domyślnie: %d)</translation>
+        <translation>PrÃ³buje utrzymaÄ ruch wychodzÄcy poniÅ¼ej zadanego (w MiB na 24h), 0 = bez limitu (domyÅlnie: %d)</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Znaleziono niewspierany argument -socks. Wybieranie wersji SOCKS nie jest już możliwe, wsparcie programu obejmuje tylko proxy SOCKS5</translation>
+        <translation>Znaleziono niewspierany argument -socks. Wybieranie wersji SOCKS nie jest juÅ¼ moÅ¼liwe, wsparcie programu obejmuje tylko proxy SOCKS5</translation>
     </message>
     <message>
         <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
-        <translation>Niewspierany argument -whitelistalwaysrelay zignorowany, użyj -whitelistrelay i/lub -whitelistforcerelay.</translation>
+        <translation>Niewspierany argument -whitelistalwaysrelay zignorowany, uÅ¼yj -whitelistrelay i/lub -whitelistforcerelay.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Użyj oddzielnego prozy SOCKS5 aby osiągnąć węzły w ukrytych usługach Tor (domyślnie: %s)</translation>
+        <translation>UÅ¼yj oddzielnego prozy SOCKS5 aby osiÄgnÄÄ wÄzÅy w ukrytych usÅugach Tor (domyÅlnie: %s)</translation>
     </message>
     <message>
         <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Ostrzeżenie: Odtworzono dane z uszkodzonego pliku portfela! Oryginalny %s został zapisany jako %s w %s; jeśli twoje saldo lub transakcje są niepoprawne powinieneś odtworzyć kopię zapasową.</translation>
+        <translation>OstrzeÅ¼enie: Odtworzono dane z uszkodzonego pliku portfela! Oryginalny %s zostaÅ zapisany jako %s w %s; jeÅli twoje saldo lub transakcje sÄ niepoprawne powinieneÅ odtworzyÄ kopiÄ zapasowÄ.</translation>
     </message>
     <message>
         <source>%s is set very high!</source>
@@ -3220,91 +3220,91 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(domyślnie: %s)</translation>
+        <translation>(domyÅlnie: %s)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Zawsze wypytuj o adresy węzłów poprzez podejrzenie DNS (domyślnie: %u)</translation>
+        <translation>Zawsze wypytuj o adresy wÄzÅÃ³w poprzez podejrzenie DNS (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Ile bloków sprawdzić przy starcie (domyślnie: %u, 0 = wszystkie)</translation>
+        <translation>Ile blokÃ³w sprawdziÄ przy starcie (domyÅlnie: %u, 0 = wszystkie)</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Dołącz adresy IP do logowania (domyślnie: %u)</translation>
+        <translation>DoÅÄcz adresy IP do logowania (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>Nieprawidłowy adres -proxy: '%s'</translation>
+        <translation>NieprawidÅowy adres -proxy: '%s'</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Nasłuchuj połączeń JSON-RPC na &lt;port&gt; (domyślnie: %u lub testnet: %u)</translation>
+        <translation>NasÅuchuj poÅÄczeÅ JSON-RPC na &lt;port&gt; (domyÅlnie: %u lub testnet: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Nasłuchuj połączeń na &lt;port&gt; (domyślnie: %u lub testnet: %u)</translation>
+        <translation>NasÅuchuj poÅÄczeÅ na &lt;port&gt; (domyÅlnie: %u lub testnet: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Utrzymuj maksymalnie &lt;n&gt; połączeń z węzłami (domyślnie: %u)</translation>
+        <translation>Utrzymuj maksymalnie &lt;n&gt; poÅÄczeÅ z wÄzÅami (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Make the wallet broadcast transactions</source>
-        <translation>Spraw by portfel dokonał transmisji transakcji</translation>
+        <translation>Spraw by portfel dokonaÅ transmisji transakcji</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksymalny bufor odbioru na połączenie, &lt;n&gt;*1000 bajtów (domyślnie: %u)</translation>
+        <translation>Maksymalny bufor odbioru na poÅÄczenie, &lt;n&gt;*1000 bajtÃ³w (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksymalny bufor wysyłania na połączenie, &lt;n&gt;*1000 bajtów (domyślnie: %u)</translation>
+        <translation>Maksymalny bufor wysyÅania na poÅÄczenie, &lt;n&gt;*1000 bajtÃ³w (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Dołączaj znacznik czasu do logowania (domyślnie: %u)</translation>
+        <translation>DoÅÄczaj znacznik czasu do logowania (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Przekazuj i wydobywaj transakcje zawierające dane (domyślnie: %u)</translation>
+        <translation>Przekazuj i wydobywaj transakcje zawierajÄce dane (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Przekazuj transakcje multisig inne niż P2SH (domyślnie: %u)</translation>
+        <translation>Przekazuj transakcje multisig inne niÅ¼ P2SH (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Ustaw rozmiar puli kluczy na &lt;n&gt; (domyślnie: %u)</translation>
+        <translation>Ustaw rozmiar puli kluczy na &lt;n&gt; (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Ustaw liczbę wątków do obsługi RPC (domyślnie: %d)</translation>
+        <translation>Ustaw liczbÄ wÄtkÃ³w do obsÅugi RPC (domyÅlnie: %d)</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Wskaż plik konfiguracyjny (domyślnie: %s)</translation>
+        <translation>WskaÅ¼ plik konfiguracyjny (domyÅlnie: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Wskaż czas oczekiwania na połączenie w milisekundach (minimum: 1, domyślnie: %d)</translation>
+        <translation>WskaÅ¼ czas oczekiwania na poÅÄczenie w milisekundach (minimum: 1, domyÅlnie: %d)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Wskaż plik pid (domyślnie: %s)</translation>
+        <translation>WskaÅ¼ plik pid (domyÅlnie: %s)</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Wydawaj niepotwierdzoną resztę podczas wysyłania transakcji (domyślnie: %u)</translation>
+        <translation>Wydawaj niepotwierdzonÄ resztÄ podczas wysyÅania transakcji (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Próg, po którym nastąpi rozłączenie węzłów nietrzymających się zasad (domyślnie: %u)</translation>
+        <translation>PrÃ³g, po ktÃ³rym nastÄpi rozÅÄczenie wÄzÅÃ³w nietrzymajÄcych siÄ zasad (domyÅlnie: %u)</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
-        <translation>Kwota transakcji musi być dodatnia</translation>
+        <translation>Kwota transakcji musi byÄ dodatnia</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
@@ -3312,19 +3312,19 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Nieznana sieć w -onlynet: '%s'</translation>
+        <translation>Nieznana sieÄ w -onlynet: '%s'</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Niewystarczające środki</translation>
+        <translation>NiewystarczajÄce Årodki</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Ładowanie indeksu bloku...</translation>
+        <translation>Åadowanie indeksu bloku...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Dodaj węzeł do podłączenia się i próbuj utrzymać to połączenie</translation>
+        <translation>Dodaj wÄzeÅ do podÅÄczenia siÄ i prÃ³buj utrzymaÄ to poÅÄczenie</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
@@ -3332,11 +3332,11 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Nie można dezaktualizować portfela</translation>
+        <translation>Nie moÅ¼na dezaktualizowaÄ portfela</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Nie można zapisać domyślnego adresu</translation>
+        <translation>Nie moÅ¼na zapisaÄ domyÅlnego adresu</translation>
     </message>
     <message>
         <source>Rescanning...</source>
@@ -3344,11 +3344,11 @@ Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadaw
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Wczytywanie zakończone</translation>
+        <translation>Wczytywanie zakoÅczone</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>BÅÄd</translation>
     </message>
 </context>
 </TS>

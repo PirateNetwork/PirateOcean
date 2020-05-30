@@ -111,7 +111,7 @@ bool CDBEnv::Open(const boost::filesystem::path& pathIn)
     char err_path[256];
     memset(err_path, 0, 256);
 
-    #ifdef WIN32
+    #ifdef WIN32	
     GetShortPathNameA(strPath.c_str(), db_path, 256);
     GetShortPathNameA(pathLogDir.string().c_str(), log_path, 256);
     GetShortPathNameA(pathErrorFile.string().c_str(), err_path, 256);
@@ -123,7 +123,7 @@ bool CDBEnv::Open(const boost::filesystem::path& pathIn)
 
 //    dbenv->set_lg_dir(pathLogDir.string().c_str());
     dbenv->set_lg_dir(log_path);
-    dbenv->set_cachesize(1, 0x100000, 1); // 1 MiB should be enough for just the wallet, Increased by 1 GB
+    dbenv->set_cachesize(1, 0x100000, 1); // Increased by 1 GB
     dbenv->set_lg_bsize(0x10000);
     dbenv->set_lg_max(1048576);
     dbenv->set_lk_max_locks(40000);

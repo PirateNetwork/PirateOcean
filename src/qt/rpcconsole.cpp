@@ -448,6 +448,9 @@ RPCConsole::RPCConsole(const PlatformStyle *_platformStyle, QWidget *parent) :
     ui->lineEdit->installEventFilter(this);
     ui->messagesWidget->installEventFilter(this);
 
+    // Extend maximum permitted length of the text for console line to 1 Mb (for long hex transactions)
+    ui->lineEdit->setMaxLength(1024 * 1024);
+
     connect(ui->clearButton, SIGNAL(clicked()), this, SLOT(clear()));
     connect(ui->fontBiggerButton, SIGNAL(clicked()), this, SLOT(fontBigger()));
     connect(ui->fontSmallerButton, SIGNAL(clicked()), this, SLOT(fontSmaller()));
@@ -600,7 +603,7 @@ void RPCConsole::setClientModel(ClientModel *model)
         connect(model->getPeerTableModel(), SIGNAL(layoutChanged()), this, SLOT(peerLayoutChanged()));
         // peer table signal handling - cache selected node ids
         connect(model->getPeerTableModel(), SIGNAL(layoutAboutToBeChanged()), this, SLOT(peerLayoutAboutToChange()));
-        
+
         // set up ban table
         ui->banlistWidget->setModel(model->getBanTableModel());
         ui->banlistWidget->verticalHeader()->hide();
@@ -747,7 +750,7 @@ void RPCConsole::clear(bool clearHistory)
 #else
     QString clsKey = "Ctrl-L";
 #endif
-	 
+
     message(CMD_REPLY, (tr("Welcome to the %1 RPC console.").arg(tr(PACKAGE_NAME)) + "<br>" +
                         tr("Use up and down arrows to navigate history, and %1 to clear screen.").arg("<b>"+clsKey+"</b>") + "<br>" +
                         tr("Type <b>help</b> for an overview of available commands.")) +
@@ -1144,7 +1147,7 @@ void RPCConsole::banSelectedNode(int bantime)
 {
     if (!clientModel)
         return;
-    
+
     // Get selected peer addresses
     QList<QModelIndex> nodes = GUIUtil::getEntryData(ui->peerWidget, PeerTableModel::Address);
     for(int i = 0; i < nodes.count(); i++)

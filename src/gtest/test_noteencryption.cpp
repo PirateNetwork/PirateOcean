@@ -227,7 +227,7 @@ TEST(noteencryption, SaplingApi)
     // Test nonce-reuse resistance of API
     {
         auto tmp_enc = *SaplingNoteEncryption::FromDiversifier(pk_1.d);
-        
+
         tmp_enc.encrypt_to_recipient(
             pk_1.pk_d,
             message
@@ -373,7 +373,7 @@ TEST(noteencryption, api)
             // Test wrong nonce
             ASSERT_THROW(decrypter.decrypt(ciphertext, b.get_epk(), uint256(), (i == 0) ? 1 : (i - 1)),
                          libzcash::note_decryption_failed);
-        
+
             // Test wrong ephemeral key
             {
                 ZCNoteEncryption c = ZCNoteEncryption(uint256());
@@ -381,11 +381,11 @@ TEST(noteencryption, api)
                 ASSERT_THROW(decrypter.decrypt(ciphertext, c.get_epk(), uint256(), i),
                              libzcash::note_decryption_failed);
             }
-        
+
             // Test wrong seed
             ASSERT_THROW(decrypter.decrypt(ciphertext, b.get_epk(), uint256S("11035d60bc1983e37950ce4803418a8fb33ea68d5b937ca382ecbae7564d6a77"), i),
                          libzcash::note_decryption_failed);
-        
+
             // Test corrupted ciphertext
             ciphertext[10] ^= 0xff;
             ASSERT_THROW(decrypter.decrypt(ciphertext, b.get_epk(), uint256(), i),

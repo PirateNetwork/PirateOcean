@@ -35,7 +35,7 @@ TEST_F(CCTest, testIsPayToCryptoCondition)
 {
     CScript s = CScript() << VCH("a", 1);
     ASSERT_FALSE(s.IsPayToCryptoCondition());
-        
+
     s = CScript() << VCH("a", 1) << OP_CHECKCRYPTOCONDITION;
     ASSERT_TRUE(s.IsPayToCryptoCondition());
 
@@ -107,7 +107,7 @@ TEST_F(CCTest, testVerifyCryptoCondition)
     CCSign(mtxTo, cond);
     ASSERT_TRUE(CCVerify(mtxTo, cond));
 
-    
+
     // has signature nodes
     CCFromJson(cond, R"!!({
       "type": "threshold-sha-256",
@@ -129,7 +129,7 @@ TEST_F(CCTest, testVerifyCryptoCondition)
     // here the signature is set wrong
     cond->threshold = 2;
     ASSERT_TRUE(CCVerify(mtxTo, cond));
-    memset(cond->subconditions[1]->signature, 0, 32); 
+    memset(cond->subconditions[1]->signature, 0, 32);
     ASSERT_FALSE(CCVerify(mtxTo, cond));
 }
 

@@ -299,7 +299,7 @@
 <context>
     <name>PirateOceanGUI</name>
     <message>
-        <location filename="../Pirateoceangui.cpp" line="+357"/>
+        <location filename="../pirateoceangui.cpp" line="+357"/>
         <source>Sign &amp;message...</source>
         <translation>Sign &amp;message...</translation>
     </message>
@@ -552,8 +552,8 @@
         <location line="+356"/>
         <source>%n active connection(s) to Pirate network</source>
         <translation>
-            <numerusform>%n active connection to Pirate network</numerusform>
-            <numerusform>%n active connections to Pirate network</numerusform>
+            <numerusform>%n active connection to Komodo network</numerusform>
+            <numerusform>%n active connections to Komodo network</numerusform>
         </translation>
     </message>
     <message>
@@ -690,7 +690,7 @@
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../Pirate.cpp" line="+534"/>
+        <location filename="../komodo.cpp" line="+534"/>
         <source>A fatal error occurred. Pirate can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1095,7 +1095,7 @@
     <message>
         <location filename="../intro.cpp" line="+20"/>
         <source>Pirate</source>
-        <translation type="unfinished">Pirate</translation>
+        <translation type="unfinished">Komodo</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1589,7 +1589,7 @@
     </message>
     <message>
         <location line="+10"/>
-        <source>Available:</source>
+        <source>Transparent:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1815,7 +1815,7 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../Pirateunits.cpp" line="+176"/>
+        <location filename="../komodounits.cpp" line="+176"/>
         <source>Amount</source>
         <translation type="unfinished">Amount</translation>
     </message>
@@ -1915,7 +1915,7 @@
         </translation>
     </message>
     <message>
-        <location filename="../Pirate.cpp" line="+178"/>
+        <location filename="../komodo.cpp" line="+178"/>
         <source>%1 didn&apos;t yet exit safely...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3033,7 +3033,7 @@
     </message>
     <message>
         <location line="+47"/>
-        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pirate network.</source>
+        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Komodo network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3876,7 +3876,7 @@
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
-        <location filename="../Pirateoceangui.cpp" line="+129"/>
+        <location filename="../pirateoceangui.cpp" line="+129"/>
         <source>Unit to show amounts in. Click to select another unit.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3988,9 +3988,9 @@
     </message>
 </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
-        <location filename="../Piratestrings.cpp" line="+343"/>
+        <location filename="../komodostrings.cpp" line="+343"/>
         <source>Options:</source>
         <translation>Options:</translation>
     </message>

@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Hacé click para editar la dirección o etiqueta</translation>
+        <translation>HacÃ© click para editar la direcciÃ³n o etiqueta</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Crear una nueva dirección</translation>
+        <translation>Crear una nueva direcciÃ³n</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copiá la dirección que seleccionaste al portapapeles</translation>
+        <translation>CopiÃ¡ la direcciÃ³n que seleccionaste al portapapeles</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,11 +27,11 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Borrar de la lista la dirección seleccionada</translation>
+        <translation>Borrar de la lista la direcciÃ³n seleccionada</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportar los datos de la pestaña actual a un archivo</translation>
+        <translation>Exportar los datos de la pestaÃ±a actual a un archivo</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -49,19 +49,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Diálogo de Frase de Contraseña</translation>
+        <translation>DiÃ¡logo de Frase de ContraseÃ±a</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Ingresar la Frase de Contraseña</translation>
+        <translation>Ingresar la Frase de ContraseÃ±a</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nueva Frase de Contraseña</translation>
+        <translation>Nueva Frase de ContraseÃ±a</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Repetí la nueva Frase de Contraseña</translation>
+        <translation>RepetÃ­ la nueva Frase de ContraseÃ±a</translation>
     </message>
     </context>
 <context>
@@ -170,6 +170,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     </context>
 </TS>

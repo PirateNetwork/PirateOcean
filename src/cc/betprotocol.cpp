@@ -259,7 +259,7 @@ bool Eval::DisputePayout(AppVM &vm, std::vector<uint8_t> params, const CTransact
     {
         CTransaction sessionTx;
         CBlockIndex sessionBlock;
-        
+
         // if unconformed its too soon
         if (!GetTxConfirmed(disputeTx.vin[0].prevout.hash, sessionTx, sessionBlock))
             return Error("couldnt-get-parent");

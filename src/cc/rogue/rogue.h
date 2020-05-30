@@ -48,7 +48,7 @@
 #include "extern.h"
 
 
-#undef lines 
+#undef lines
 
 #define NOOP(x) (x += 0)
 #define CCHAR(x) ( (char) (x & A_CHARTEXT) )
@@ -764,7 +764,7 @@ bool	dropcheck(struct rogue_state *rs,THING *obj);
 bool	fallpos(coord *pos, coord *newpos);
 bool	find_floor(struct rogue_state *rs,struct room *rp, coord *cp, int limit, bool monst);
 bool	is_magic(THING *obj);
-bool    is_symlink(char *sp); 
+bool    is_symlink(char *sp);
 bool	levit_check(struct rogue_state *rs);
 bool	pack_room(struct rogue_state *rs,bool from_floor, THING *obj);
 bool	roll_em(THING *thatt, THING *thdef, THING *weap, bool hurl);

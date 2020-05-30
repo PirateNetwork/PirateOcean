@@ -15,18 +15,18 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>Error</source>
-        <translation>错误</translation>
+        <translation>éè¯¯</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation>è­¦å</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Date</source>
-        <translation>日期</translation>
+        <translation>æ¥æ</translation>
     </message>
     </context>
 <context>
@@ -42,7 +42,7 @@
     <name>Intro</name>
     <message>
         <source>Error</source>
-        <translation>错误</translation>
+        <translation>éè¯¯</translation>
     </message>
     </context>
 <context>
@@ -85,30 +85,30 @@
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>日期</translation>
+        <translation>æ¥æ</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Insufficient funds!</source>
-        <translation>余额不足</translation>
+        <translation>ä½é¢ä¸è¶³</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>选择...</translation>
+        <translation>éæ©...</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
-        <translation>收款人地址无效，请再次确认。</translation>
+        <translation>æ¶æ¬¾äººå°åæ æï¼è¯·åæ¬¡ç¡®è®¤ã</translation>
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
-        <translation>仅支付全额的%1</translation>
+        <translation>ä»æ¯ä»å¨é¢ç%1</translation>
     </message>
     <message>
         <source>Warning: Invalid Pirate address</source>
-        <translation>警告：比特币地址无效</translation>
+        <translation>è­¦åï¼æ¯ç¹å¸å°åæ æ</translation>
     </message>
     </context>
 <context>
@@ -133,7 +133,7 @@
     <name>TransactionDesc</name>
     <message>
         <source>Date</source>
-        <translation>日期</translation>
+        <translation>æ¥æ</translation>
     </message>
     </context>
 <context>
@@ -143,14 +143,14 @@
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>日期</translation>
+        <translation>æ¥æ</translation>
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>Date</source>
-        <translation>日期</translation>
+        <translation>æ¥æ</translation>
     </message>
     </context>
 <context>
@@ -166,42 +166,42 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>根据费率标准，本次转账超额</translation>
+        <translation>æ ¹æ®è´¹çæ åï¼æ¬æ¬¡è½¬è´¦è¶é¢</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>超额转账</translation>
+        <translation>è¶é¢è½¬è´¦</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation>è­¦å</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>正在载入地址...</translation>
+        <translation>æ­£å¨è½½å¥å°å...</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>余额不足</translation>
+        <translation>ä½é¢ä¸è¶³</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>正在载入钱包...</translation>
+        <translation>æ­£å¨è½½å¥é±å...</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>再次扫描...</translation>
+        <translation>åæ¬¡æ«æ...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>载入完成</translation>
+        <translation>è½½å¥å®æ</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>错误</translation>
+        <translation>éè¯¯</translation>
     </message>
 </context>
 </TS>

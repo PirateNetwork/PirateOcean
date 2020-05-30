@@ -73,7 +73,7 @@
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Attenzione: Il tasto blocco delle maiuscole è attivo!</translation>
+        <translation>Attenzione: Il tasto blocco delle maiuscole Ã¨ attivo!</translation>
     </message>
 </context>
 <context>
@@ -202,6 +202,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     </context>
 </TS>

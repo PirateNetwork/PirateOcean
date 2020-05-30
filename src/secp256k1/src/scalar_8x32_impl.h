@@ -1089,10 +1089,10 @@ static void secp256k1_scalar_reduce_512(secp256k1_scalar *r, const uint32_t *l) 
     uint32_t n0 = l[8], n1 = l[9], n2 = l[10], n3 = l[11], n4 = l[12], n5 = l[13], n6 = l[14], n7 = l[15];
     uint32_t m0, m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12;
     uint32_t p0, p1, p2, p3, p4, p5, p6, p7, p8;
-    
+
     /* 96 bit accumulator. */
     uint32_t c0, c1, c2;
-    
+
     /* Reduce 512 bits into 385. */
     /* m[0..12] = l[0..7] + n[0..7] * SECP256K1_N_C. */
     c0 = l[0]; c1 = 0; c2 = 0;
@@ -1157,7 +1157,7 @@ static void secp256k1_scalar_reduce_512(secp256k1_scalar *r, const uint32_t *l) 
     extract_fast(m11);
     VERIFY_CHECK(c0 <= 1);
     m12 = c0;
-    
+
     /* Reduce 385 bits into 258. */
     /* p[0..8] = m[0..7] + m[8..12] * SECP256K1_N_C. */
     c0 = m0; c1 = 0; c2 = 0;
@@ -1202,7 +1202,7 @@ static void secp256k1_scalar_reduce_512(secp256k1_scalar *r, const uint32_t *l) 
     extract_fast(p7);
     p8 = c0 + m12;
     VERIFY_CHECK(p8 <= 2);
-    
+
     /* Reduce 258 bits into 256. */
     /* r[0..7] = p[0..7] + p[8] * SECP256K1_N_C. */
     c = p0 + (uint64_t)SECP256K1_N_C_0 * p8;
@@ -1221,7 +1221,7 @@ static void secp256k1_scalar_reduce_512(secp256k1_scalar *r, const uint32_t *l) 
     r->d[6] = c & 0xFFFFFFFFUL; c >>= 32;
     c += p7;
     r->d[7] = c & 0xFFFFFFFFUL; c >>= 32;
-    
+
     /* Final reduction of r. */
     secp256k1_scalar_reduce(r, c + secp256k1_scalar_check_overflow(r));
 }
@@ -1229,7 +1229,7 @@ static void secp256k1_scalar_reduce_512(secp256k1_scalar *r, const uint32_t *l) 
 static void secp256k1_scalar_mul_512(uint32_t *l, const secp256k1_scalar *a, const secp256k1_scalar *b) {
     /* 96 bit accumulator. */
     uint32_t c0 = 0, c1 = 0, c2 = 0;
-    
+
     /* l[0..15] = a[0..7] * b[0..7]. */
     muladd_fast(a->d[0], b->d[0]);
     extract_fast(l[0]);
@@ -1317,7 +1317,7 @@ static void secp256k1_scalar_mul_512(uint32_t *l, const secp256k1_scalar *a, con
 static void secp256k1_scalar_sqr_512(uint32_t *l, const secp256k1_scalar *a) {
     /* 96 bit accumulator. */
     uint32_t c0 = 0, c1 = 0, c2 = 0;
-    
+
     /* l[0..15] = a[0..7]^2. */
     muladd_fast(a->d[0], a->d[0]);
     extract_fast(l[0]);
@@ -1477,7 +1477,7 @@ void secp256k1_scalar_chacha20(secp256k1_scalar *r1, secp256k1_scalar *r2, const
     uint32_t seed32[8];
     uint32_t x0, x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12, x13, x14, x15;
     int over1, over2;
-    
+
     memcpy((void *) seed32, (const void *) seed, 32);
     do {
         x0 = 0x61707865;
@@ -1496,7 +1496,7 @@ void secp256k1_scalar_chacha20(secp256k1_scalar *r1, secp256k1_scalar *r2, const
         x13 = idx >> 32;
         x14 = 0;
         x15 = over_count;
-        
+
         n = 10;
         while (n--) {
             QUARTERROUND(x0, x4, x8,x12)
@@ -1508,7 +1508,7 @@ void secp256k1_scalar_chacha20(secp256k1_scalar *r1, secp256k1_scalar *r2, const
             QUARTERROUND(x2, x7, x8,x13)
             QUARTERROUND(x3, x4, x9,x14)
         }
-        
+
         x0 += 0x61707865;
         x1 += 0x3320646e;
         x2 += 0x79622d32;
@@ -1525,7 +1525,7 @@ void secp256k1_scalar_chacha20(secp256k1_scalar *r1, secp256k1_scalar *r2, const
         x13 += idx >> 32;
         x14 += 0;
         x15 += over_count;
-        
+
         r1->d[7] = LE32(x0);
         r1->d[6] = LE32(x1);
         r1->d[5] = LE32(x2);
@@ -1542,7 +1542,7 @@ void secp256k1_scalar_chacha20(secp256k1_scalar *r1, secp256k1_scalar *r2, const
         r2->d[2] = LE32(x13);
         r2->d[1] = LE32(x14);
         r2->d[0] = LE32(x15);
-        
+
         over1 = secp256k1_scalar_check_overflow(r1);
         over2 = secp256k1_scalar_check_overflow(r2);
         over_count++;

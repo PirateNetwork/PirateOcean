@@ -42,7 +42,7 @@ def def_credentials(chain):
             print("check " + coin_config_file)
             exit(1)
     return (Proxy("http://%s:%s@127.0.0.1:%d" % (rpcuser, rpcpassword, int(rpcport))))
-    
+
 
 # generate address, validate address, dump private key
 def genvaldump(rpc_connection):

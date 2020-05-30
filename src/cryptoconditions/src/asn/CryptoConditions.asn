@@ -34,7 +34,7 @@ Crypto-Conditions DEFINITIONS AUTOMATIC TAGS ::= BEGIN
       secp256k1Sha256  (5),
       evalSha256       (15)
     }
-    
+
     -- Fulfillments
 
     Fulfillment ::= CHOICE {
@@ -97,11 +97,11 @@ Crypto-Conditions DEFINITIONS AUTOMATIC TAGS ::= BEGIN
       threshold            INTEGER (1..65535),
       subconditions2       SET OF Condition
     }
-    
+
     RsaFingerprintContents ::= SEQUENCE {
       modulus              OCTET STRING
     }
-    
+
     Ed25519FingerprintContents ::= SEQUENCE {
       publicKey            OCTET STRING (SIZE(32))
     }

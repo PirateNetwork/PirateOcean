@@ -452,10 +452,10 @@ void
 set_order(int *order, int numthings)
 {
     int i, r, t;
-    
+
     for (i = 0; i< numthings; i++)
         order[i] = i;
-    
+
     for (i = numthings; i > 0; i--)
     {
         r = rnd(i);
@@ -527,7 +527,7 @@ add_line(struct rogue_state *rs,char *fmt, char *arg)
                 touchwin(tw);
                 wrefresh(tw);
                 wait_for(rs,' ');
-				
+
                 if (md_hasclreol())
                 {
                     werase(tw);
@@ -548,7 +548,7 @@ add_line(struct rogue_state *rs,char *fmt, char *arg)
             wmove(hw, LINES - 1, 0);
             waddstr(hw, newpage ? promptex : prompt);
             wrefresh(hw);
-            
+
 			if (newpage) {
 
 				#ifdef _WIN32
@@ -563,7 +563,7 @@ add_line(struct rogue_state *rs,char *fmt, char *arg)
 
             clearok(curscr, TRUE);
             wclear(hw);
-			
+
             touchwin(stdscr);
         }
         newpage = TRUE;

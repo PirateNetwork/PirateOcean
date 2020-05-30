@@ -51,7 +51,7 @@ public:
     long getMempoolSize() const;
     //! Return the dynamic memory usage of the mempool
     size_t getMempoolDynamicUsage() const;
-    
+
     quint64 getTotalBytesRecv() const;
     quint64 getTotalBytesSent() const;
 

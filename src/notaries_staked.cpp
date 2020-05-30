@@ -7,7 +7,7 @@
 
 extern pthread_mutex_t staked_mutex;
 
-int8_t is_STAKED(const char *chain_name) 
+int8_t is_STAKED(const char *chain_name)
 {
     static int8_t STAKED,doneinit;
     if ( chain_name[0] == 0 )
@@ -15,9 +15,9 @@ int8_t is_STAKED(const char *chain_name)
     if (doneinit == 1 && ASSETCHAINS_SYMBOL[0] != 0)
         return(STAKED);
     else STAKED = 0;
-    if ( (strcmp(chain_name, "LABS") == 0) ) 
+    if ( (strcmp(chain_name, "LABS") == 0) )
         STAKED = 1; // These chains are allowed coin emissions.
-    else if ( (strncmp(chain_name, "LABS", 4) == 0) ) 
+    else if ( (strncmp(chain_name, "LABS", 4) == 0) )
         STAKED = 2; // These chains have no coin emission, block subsidy is always 0, and comission is 0. Notary pay is allowed.
     else if ( (strcmp(chain_name, "CFEK") == 0) || (strncmp(chain_name, "CFEK", 4) == 0) )
         STAKED = 3; // These chains have no speical rules at all.

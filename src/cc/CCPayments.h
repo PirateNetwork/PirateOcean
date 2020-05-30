@@ -22,7 +22,7 @@
 #include <key_io.h>
 
 #define PAYMENTS_TXFEE 10000
-#define PAYMENTS_MERGEOFSET 60 // 1H extra. 
+#define PAYMENTS_MERGEOFSET 60 // 1H extra.
 extern std::vector <std::pair<CAmount, CTxDestination>> vAddressSnapshot;
 extern int32_t lastSnapShotHeight;
 
@@ -40,4 +40,4 @@ UniValue PaymentsInfo(struct CCcontract_info *cp,char *jsonstr);
 UniValue PaymentsList(struct CCcontract_info *cp,char *jsonstr);
 
 #endif
- 
+

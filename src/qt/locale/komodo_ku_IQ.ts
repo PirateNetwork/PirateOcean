@@ -3,34 +3,34 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation>ناوونیشانێکی نوێ دروست بکە</translation>
+        <translation>ÙØ§ÙÙÙÛØ´Ø§ÙÛÚ©Û ÙÙÛ Ø¯Ø±ÙØ³Øª Ø¨Ú©Û</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;نوێ</translation>
+        <translation>&amp;ÙÙÛ</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;ڕوونووس</translation>
+        <translation>&amp;ÚÙÙÙÙÙØ³</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>C&amp;داخستن</translation>
+        <translation>C&amp;Ø¯Ø§Ø®Ø³ØªÙ</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;هەناردن</translation>
+        <translation>&amp;ÙÛÙØ§Ø±Ø¯Ù</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;سڕینەوە</translation>
+        <translation>&amp;Ø³ÚÛÙÛÙÛ</translation>
     </message>
     </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Address</source>
-        <translation>ناوونیشان</translation>
+        <translation>ÙØ§ÙÙÙÛØ´Ø§Ù</translation>
     </message>
     </context>
 <context>
@@ -43,58 +43,58 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;ناردن</translation>
+        <translation>&amp;ÙØ§Ø±Ø¯Ù</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;پەرگە</translation>
+        <translation>&amp;Ù¾ÛØ±Ú¯Û</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;سازکارییەکان</translation>
+        <translation>&amp;Ø³Ø§Ø²Ú©Ø§Ø±ÛÛÛÚ©Ø§Ù</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;یارمەتی</translation>
+        <translation>&amp;ÛØ§Ø±ÙÛØªÛ</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>هەڵە</translation>
+        <translation>ÙÛÚµÛ</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>ئاگاداری</translation>
+        <translation>Ø¦Ø§Ú¯Ø§Ø¯Ø§Ø±Û</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>زانیاری</translation>
+        <translation>Ø²Ø§ÙÛØ§Ø±Û</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Amount:</source>
-        <translation>کۆ:</translation>
+        <translation>Ú©Û:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>تێچوون:</translation>
+        <translation>ØªÛÚÙÙÙ:</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>سەرجەم</translation>
+        <translation>Ø³ÛØ±Ø¬ÛÙ</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>رێکەت</translation>
+        <translation>Ø±ÛÚ©ÛØª</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>بەڵێ</translation>
+        <translation>Ø¨ÛÚµÛ</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>نەخێر</translation>
+        <translation>ÙÛØ®ÛØ±</translation>
     </message>
     </context>
 <context>
@@ -104,25 +104,25 @@
     <name>FreespaceChecker</name>
     <message>
         <source>name</source>
-        <translation>ناو</translation>
+        <translation>ÙØ§Ù</translation>
     </message>
     </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>وەشان</translation>
+        <translation>ÙÛØ´Ø§Ù</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>بەخێربێن</translation>
+        <translation>Ø¨ÛØ®ÛØ±Ø¨ÛÙ</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>هەڵە</translation>
+        <translation>ÙÛÚµÛ</translation>
     </message>
     </context>
 <context>
@@ -135,14 +135,14 @@
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>هەڵبژاردنەکان</translation>
+        <translation>ÙÛÚµØ¨ÚØ§Ø±Ø¯ÙÛÚ©Ø§Ù</translation>
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Total:</source>
-        <translation>گشتی</translation>
+        <translation>Ú¯Ø´ØªÛ</translation>
     </message>
     </context>
 <context>
@@ -155,7 +155,7 @@
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>سەرجەم</translation>
+        <translation>Ø³ÛØ±Ø¬ÛÙ</translation>
     </message>
     </context>
 <context>
@@ -168,149 +168,149 @@
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;زانیاری</translation>
+        <translation>&amp;Ø²Ø§ÙÛØ§Ø±Û</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>گشتی</translation>
+        <translation>Ú¯Ø´ØªÛ</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>تۆڕ</translation>
+        <translation>ØªÛÚ</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>ناو</translation>
+        <translation>ÙØ§Ù</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>نێدرا</translation>
+        <translation>ÙÛØ¯Ø±Ø§</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>وەشان</translation>
+        <translation>ÙÛØ´Ø§Ù</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>خزمەتگوزاریەکان</translation>
+        <translation>Ø®Ø²ÙÛØªÚ¯ÙØ²Ø§Ø±ÛÛÚ©Ø§Ù</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;کردنەوە</translation>
+        <translation>&amp;Ú©Ø±Ø¯ÙÛÙÛ</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;پاککردنەوە</translation>
+        <translation>&amp;Ù¾Ø§Ú©Ú©Ø±Ø¯ÙÛÙÛ</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>گشتییەکان</translation>
+        <translation>Ú¯Ø´ØªÛÛÛÚ©Ø§Ù</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>لە ناو</translation>
+        <translation>ÙÛ ÙØ§Ù</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>لەدەرەوە</translation>
+        <translation>ÙÛØ¯ÛØ±ÛÙÛ</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>1&amp;سات</translation>
+        <translation>1&amp;Ø³Ø§Øª</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1&amp;ڕۆژ</translation>
+        <translation>1&amp;ÚÛÚ</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1&amp;هەفتە</translation>
+        <translation>1&amp;ÙÛÙØªÛ</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1&amp;ساڵ</translation>
+        <translation>1&amp;Ø³Ø§Úµ</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>هەرگیز</translation>
+        <translation>ÙÛØ±Ú¯ÛØ²</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>بەڵێ</translation>
+        <translation>Ø¨ÛÚµÛ</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>نەخێر</translation>
+        <translation>ÙÛØ®ÛØ±</translation>
     </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;سەرجەم:</translation>
+        <translation>&amp;Ø³ÛØ±Ø¬ÛÙ:</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;پەیام:</translation>
+        <translation>&amp;Ù¾ÛÛØ§Ù:</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>پاککردنەوە</translation>
+        <translation>Ù¾Ø§Ú©Ú©Ø±Ø¯ÙÛÙÛ</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>پیشاندان</translation>
+        <translation>Ù¾ÛØ´Ø§ÙØ¯Ø§Ù</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>سڕینەوە</translation>
+        <translation>Ø³ÚÛÙÛÙÛ</translation>
     </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>ناوونیشان</translation>
+        <translation>ÙØ§ÙÙÙÛØ´Ø§Ù</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>سەرجەم</translation>
+        <translation>Ø³ÛØ±Ø¬ÛÙ</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>رێکەت</translation>
+        <translation>Ø±ÛÚ©ÛØª</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Amount:</source>
-        <translation>کۆ:</translation>
+        <translation>Ú©Û:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>تێچوون:</translation>
+        <translation>ØªÛÚÙÙÙ:</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>خێرا</translation>
+        <translation>Ø®ÛØ±Ø§</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>Message:</source>
-        <translation>پەیام:</translation>
+        <translation>Ù¾ÛÛØ§Ù:</translation>
     </message>
     </context>
 <context>
     <name>SendConfirmationDialog</name>
     <message>
         <source>Yes</source>
-        <translation>بەڵێ</translation>
+        <translation>Ø¨ÛÚµÛ</translation>
     </message>
 </context>
 <context>
@@ -329,11 +329,11 @@
     <name>TransactionDesc</name>
     <message>
         <source>Date</source>
-        <translation>رێکەت</translation>
+        <translation>Ø±ÛÚ©ÛØª</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>سەرجەم</translation>
+        <translation>Ø³ÛØ±Ø¬ÛÙ</translation>
     </message>
     </context>
 <context>
@@ -343,18 +343,18 @@
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>رێکەت</translation>
+        <translation>Ø±ÛÚ©ÛØª</translation>
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>Date</source>
-        <translation>رێکەت</translation>
+        <translation>Ø±ÛÚ©ÛØª</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>ناوونیشان</translation>
+        <translation>ÙØ§ÙÙÙÛØ´Ø§Ù</translation>
     </message>
     </context>
 <context>
@@ -370,26 +370,26 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;هەناردن</translation>
+        <translation>&amp;ÙÛÙØ§Ø±Ø¯Ù</translation>
     </message>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
-        <translation>هەڵبژاردنەکان:</translation>
+        <translation>ÙÛÚµØ¨ÚØ§Ø±Ø¯ÙÛÚ©Ø§Ù:</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>زانیاری</translation>
+        <translation>Ø²Ø§ÙÛØ§Ø±Û</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>ئاگاداری</translation>
+        <translation>Ø¦Ø§Ú¯Ø§Ø¯Ø§Ø±Û</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>هەڵە</translation>
+        <translation>ÙÛÚµÛ</translation>
     </message>
 </context>
 </TS>

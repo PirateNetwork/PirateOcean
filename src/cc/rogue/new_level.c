@@ -97,10 +97,10 @@ new_level(struct rogue_state *rs)
     find_floor(rs,(struct room *) NULL, &stairs, FALSE, FALSE);
     chat(stairs.y, stairs.x) = STAIRS;
     seenstairs = FALSE;
-    
+
     for (tp = mlist; tp != NULL; tp = next(tp))
         tp->t_room = roomin(rs,&tp->t_pos);
-    
+
     find_floor(rs,(struct room *) NULL, &hero, FALSE, TRUE);
     enter_room(rs,&hero);
     mvaddch(hero.y, hero.x, PLAYER);

@@ -95,7 +95,7 @@ void AMQPAbstractPublishNotifier::Shutdown()
 
 bool AMQPAbstractPublishNotifier::SendMessage(const char *command, const void* data, size_t size)
 {
-    try { 
+    try {
         proton::binary content;
         const char *p = (const char *)data;
         content.assign(p, p + size);

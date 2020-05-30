@@ -14,7 +14,7 @@ pip packages needed:
 * `pip3 install setuptools wheel slick-bitcoinrpc`
 * or `pip3 install -r requirements.txt`
 
-Starting: 
+Starting:
 
 # TUI for RogueCC
 

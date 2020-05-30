@@ -45,7 +45,7 @@ NotarisationsInBlock ScanBlockNotarisations(const CBlock &block, int nHeight)
               // this is an ERA GAP, so we will ignore this notarization
               continue;
              if ( is_STAKED(data.symbol) == 255 )
-              // this chain is banned... we will discard its notarisation. 
+              // this chain is banned... we will discard its notarisation.
               continue;
             } else {
               // pass era slection off to notaries_staked.cpp file
@@ -130,6 +130,33 @@ int ScanNotarisationsDB(int height, std::string symbol, int scanLimitBlocks, Not
             if (strcmp(nota.second.symbol, symbol.data()) == 0) {
                 out = nota;
                 return height-i;
+            }
+        }
+    }
+    return 0;
+}
+
+int ScanNotarisationsDB2(int height, std::string symbol, int scanLimitBlocks, Notarisation& out)
+{
+    int32_t i,maxheight,ht;
+    maxheight = chainActive.Height();
+    if ( height < 0 || height > maxheight )
+        return false;
+    for (i=0; i<scanLimitBlocks; i++)
+    {
+        ht = height+i;
+        if ( ht > maxheight )
+            break;
+        NotarisationsInBlock notarisations;
+        uint256 blockHash = *chainActive[ht]->phashBlock;
+        if ( !GetBlockNotarisations(blockHash,notarisations) )
+            continue;
+        BOOST_FOREACH(Notarisation& nota,notarisations)
+        {
+            if ( strcmp(nota.second.symbol,symbol.data()) == 0 )
+            {
+                out = nota;
+                return(ht);
             }
         }
     }

@@ -1,6 +1,6 @@
 /*-
  * Copyright 2005 Colin Percival
- * Copyright 2013 Christian Mehlis & René Kijewski
+ * Copyright 2013 Christian Mehlis & RenÃ© Kijewski
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without

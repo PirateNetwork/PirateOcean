@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation>Δημιουργία νέου λογαριασμού</translation>
+        <translation>ÎÎ·Î¼Î¹Î¿ÏÏÎ³Î¯Î± Î½Î­Î¿Ï Î»Î¿Î³Î±ÏÎ¹Î±ÏÎ¼Î¿Ï</translation>
     </message>
     </context>
 <context>
@@ -13,15 +13,15 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation>Εισάγετε συνθηματικό</translation>
+        <translation>ÎÎ¹ÏÎ¬Î³ÎµÏÎµ ÏÏÎ½Î¸Î·Î¼Î±ÏÎ¹ÎºÏ</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Νέο συνθηματικό</translation>
+        <translation>ÎÎ­Î¿ ÏÏÎ½Î¸Î·Î¼Î±ÏÎ¹ÎºÏ</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Επαναλάβετε νέο συνθηματικό</translation>
+        <translation>ÎÏÎ±Î½Î±Î»Î¬Î²ÎµÏÎµ Î½Î­Î¿ ÏÏÎ½Î¸Î·Î¼Î±ÏÎ¹ÎºÏ</translation>
     </message>
     </context>
 <context>
@@ -31,33 +31,33 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>Quit application</source>
-        <translation>Κλείσιμο εφαρμογής</translation>
+        <translation>ÎÎ»ÎµÎ¯ÏÎ¹Î¼Î¿ ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Πορτοφόλι</translation>
+        <translation>Î Î¿ÏÏÎ¿ÏÏÎ»Î¹</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Σφάλμα</translation>
+        <translation>Î£ÏÎ¬Î»Î¼Î±</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Date</source>
-        <translation>Ημερομηνία</translation>
+        <translation>ÎÎ¼ÎµÏÎ¿Î¼Î·Î½Î¯Î±</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>&amp;Label</source>
-        <translation>Ετικέτα</translation>
+        <translation>ÎÏÎ¹ÎºÎ­ÏÎ±</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>Διεύθυνση</translation>
+        <translation>ÎÎ¹ÎµÏÎ¸ÏÎ½ÏÎ·</translation>
     </message>
     </context>
 <context>
@@ -67,18 +67,18 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>έκδοση</translation>
+        <translation>Î­ÎºÎ´Î¿ÏÎ·</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Καλώς Ήλθατε</translation>
+        <translation>ÎÎ±Î»ÏÏ ÎÎ»Î¸Î±ÏÎµ</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Σφάλμα</translation>
+        <translation>Î£ÏÎ¬Î»Î¼Î±</translation>
     </message>
     </context>
 <context>
@@ -91,7 +91,7 @@
     <name>OptionsDialog</name>
     <message>
         <source>W&amp;allet</source>
-        <translation>Πορτοφόλι</translation>
+        <translation>Î Î¿ÏÏÎ¿ÏÏÎ»Î¹</translation>
     </message>
     </context>
 <context>
@@ -116,14 +116,14 @@
     <name>RPCConsole</name>
     <message>
         <source>Services</source>
-        <translation>Υπηρεσίες</translation>
+        <translation>Î¥ÏÎ·ÏÎµÏÎ¯ÎµÏ</translation>
     </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Remove</source>
-        <translation>Αφαίρεση</translation>
+        <translation>ÎÏÎ±Î¯ÏÎµÏÎ·</translation>
     </message>
     </context>
 <context>
@@ -136,18 +136,18 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Κεφάλαια μη επαρκή</translation>
+        <translation>ÎÎµÏÎ¬Î»Î±Î¹Î± Î¼Î· ÎµÏÎ±ÏÎºÎ®</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Συνίσταται:</translation>
+        <translation>Î£ÏÎ½Î¯ÏÏÎ±ÏÎ±Î¹:</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>Message:</source>
-        <translation>Μήνυμα:</translation>
+        <translation>ÎÎ®Î½ÏÎ¼Î±:</translation>
     </message>
     </context>
 <context>
@@ -190,26 +190,26 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Insufficient funds</source>
-        <translation>Κεφάλαια μη επαρκή</translation>
+        <translation>ÎÎµÏÎ¬Î»Î±Î¹Î± Î¼Î· ÎµÏÎ±ÏÎºÎ®</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Φόρτωση πορτοφολιού...</translation>
+        <translation>Î¦ÏÏÏÏÏÎ· ÏÎ¿ÏÏÎ¿ÏÎ¿Î»Î¹Î¿Ï...</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Επανάληψη σάρωσης</translation>
+        <translation>ÎÏÎ±Î½Î¬Î»Î·ÏÎ· ÏÎ¬ÏÏÏÎ·Ï</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Η φόρτωση ολοκληρώθηκε</translation>
+        <translation>Î ÏÏÏÏÏÏÎ· Î¿Î»Î¿ÎºÎ»Î·ÏÏÎ¸Î·ÎºÎµ</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Σφάλμα</translation>
+        <translation>Î£ÏÎ¬Î»Î¼Î±</translation>
     </message>
 </context>
 </TS>

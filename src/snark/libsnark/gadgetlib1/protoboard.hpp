@@ -35,7 +35,7 @@ private:
     std::vector<FieldT> lc_values;
 public:
     r1cs_constraint_system<FieldT> constraint_system;
-    
+
     protoboard();
 
     void clear_values();

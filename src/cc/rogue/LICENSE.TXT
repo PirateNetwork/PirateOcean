@@ -28,7 +28,7 @@ SUCH DAMAGE.
 
 ===========================================================================
 
-Portions of this software (state.c, mdport.c) are based on the work 
+Portions of this software (state.c, mdport.c) are based on the work
 of Nicholas J. Kisseberth. Used under license:
 
 Copyright (C) 1999, 2000, 2005 Nicholas J. Kisseberth
@@ -60,7 +60,7 @@ SUCH DAMAGE.
 
 ===========================================================================
 
-Portions of this software (xcrypt.c) are based on the work 
+Portions of this software (xcrypt.c) are based on the work
 of David Burren. Used under license:
 
 FreeSec: libcrypt

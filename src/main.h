@@ -118,6 +118,7 @@ static const unsigned int DATABASE_WRITE_INTERVAL = 60 * 60;
 static const unsigned int DATABASE_FLUSH_INTERVAL = 24 * 60 * 60;
 /** Maximum length of reject messages. */
 static const unsigned int MAX_REJECT_MESSAGE_LENGTH = 111;
+static const unsigned int DEFAULT_LIMITFREERELAY = 15;
 static const int64_t DEFAULT_MAX_TIP_AGE = 24 * 60 * 60;
 
 //static const bool DEFAULT_ADDRESSINDEX = false;
@@ -707,7 +708,7 @@ bool ContextualCheckInputs(const CTransaction& tx, CValidationState &state, cons
                            std::vector<CScriptCheck> *pvChecks = NULL);
 
 /** Check a transaction contextually against a set of consensus rules */
-bool ContextualCheckTransaction(const CBlock *block, CBlockIndex * const pindexPrev,const CTransaction& tx, CValidationState &state, int nHeight, int dosLevel,
+bool ContextualCheckTransaction(int32_t slowflag,const CBlock *block, CBlockIndex * const pindexPrev,const CTransaction& tx, CValidationState &state, int nHeight, int dosLevel,
                                 bool (*isInitBlockDownload)() = IsInitialBlockDownload,int32_t validateprices=1);
 
 /** Apply the effects of this transaction on the UTXO set represented by view */
@@ -809,7 +810,7 @@ bool WriteBlockToDisk(const CBlock& block, CDiskBlockPos& pos, const CMessageHea
 bool ReadBlockFromDisk(CBlock& block, const CDiskBlockPos& pos,bool checkPOW);
 bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex,bool checkPOW);
 bool PruneOneBlockFile(bool tempfile, const int fileNumber);
-bool RemoveOrphanedBlocks(int32_t notarized_height);
+
 /** Functions for validating blocks and updating the block tree */
 
 /** Undo the effects of this block (with given index) on the UTXO set represented by coins.
@@ -829,7 +830,7 @@ bool CheckBlock(int32_t *futureblockp,int32_t height,CBlockIndex *pindex,const C
 
 /** Context-dependent validity checks */
 bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& state, CBlockIndex *pindexPrev);
-bool ContextualCheckBlock(const CBlock& block, CValidationState& state, CBlockIndex *pindexPrev);
+bool ContextualCheckBlock(int32_t slowflag,const CBlock& block, CValidationState& state, CBlockIndex *pindexPrev);
 
 /** Check a block is completely valid from start to finish (only works on top of our current best block, with cs_main held) */
 bool TestBlockValidity(CValidationState &state, const CBlock& block, CBlockIndex *pindexPrev, bool fCheckPOW = true, bool fCheckMerkleRoot = true);

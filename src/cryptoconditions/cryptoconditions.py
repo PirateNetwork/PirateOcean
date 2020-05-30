@@ -31,7 +31,7 @@ def get_help():
     methods = jsonRPC("listMethods", {})['methods']
 
     txt = USAGE + "\n\nmethods:\n"
-    
+
     for method in methods:
         txt += '    %s: %s\n' % (method['name'], method['description'])
 
@@ -50,10 +50,10 @@ def get_parser():
 
     json_loads = lambda r: json.loads(r)
     json_loads.__name__ = 'json'
-    
+
     parser.add_argument("method")
     parser.add_argument("request", type=json_loads)
-    
+
     return parser
 
 

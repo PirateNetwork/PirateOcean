@@ -23,7 +23,7 @@ ring_on(struct rogue_state *rs)
 {
     THING *obj;
     int ring;
-    
+
     obj = get_item(rs,"put on", RING);
     /*
      * Make certain that it is somethings that we want to wear
@@ -38,13 +38,13 @@ ring_on(struct rogue_state *rs)
             msg(rs,"not a ring");
         return;
     }
-    
+
     /*
      * find out which hand to put it on
      */
     if (is_current(rs,obj))
         return;
-    
+
     if (cur_ring[LEFT] == NULL && cur_ring[RIGHT] == NULL)
     {
         if ((ring = gethand(rs)) < 0)
@@ -63,7 +63,7 @@ ring_on(struct rogue_state *rs)
         return;
     }
     cur_ring[ring] = obj;
-    
+
     /*
      * Calculate the effect it has on the poor guy.
      */
@@ -79,7 +79,7 @@ ring_on(struct rogue_state *rs)
             aggravate(rs);
             break;
     }
-    
+
     if (!terse)
         addmsg(rs,"you are now wearing ");
     msg(rs,"%s (%c)", inv_name(obj, TRUE), obj->o_packch);
@@ -95,7 +95,7 @@ ring_off(struct rogue_state *rs)
 {
     int ring;
     THING *obj;
-    
+
     if (cur_ring[LEFT] == NULL && cur_ring[RIGHT] == NULL)
     {
         if (terse)
@@ -130,7 +130,7 @@ int
 gethand(struct rogue_state *rs)
 {
     int c;
-    
+
     for (;;)
     {
         if ( rs->replaydone != 0 )
@@ -171,7 +171,7 @@ ring_eat(int hand)
         -2,	/* R_DIGEST */		 0,	/* R_TELEPORT */
         1,	/* R_STEALTH */		 1	/* R_SUSTARM */
     };
-    
+
     if ((ring = cur_ring[hand]) == NULL)
         return 0;
     if ((eat = uses[ring->o_which]) < 0)
@@ -189,7 +189,7 @@ char *
 ring_num(THING *obj)
 {
     static char buf[10];
-    
+
     if (!(obj->o_flags & ISKNOW))
         return "";
     switch (obj->o_which)

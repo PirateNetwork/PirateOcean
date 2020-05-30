@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Double cliquez afin de modifier l'adresse ou l'étiquette</translation>
+        <translation>Double cliquez afin de modifier l'adresse ou l'Ã©tiquette</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Créer une nouvelle adresse</translation>
+        <translation>CrÃ©er une nouvelle adresse</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copier l'adresse sélectionnée dans le presse-papiers</translation>
+        <translation>Copier l'adresse sÃ©lectionnÃ©e dans le presse-papiers</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,11 +27,11 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Supprimer l'adresse sélectionnée de la liste</translation>
+        <translation>Supprimer l'adresse sÃ©lectionnÃ©e de la liste</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exporter les données de l'onglet courant vers un fichier</translation>
+        <translation>Exporter les donnÃ©es de l'onglet courant vers un fichier</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Choisissez une adresse où envoyer les Pirates</translation>
+        <translation>Choisissez une adresse oÃ¹ envoyer les Pirates</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Choisissez une adresse où recevoir les Pirates</translation>
+        <translation>Choisissez une adresse oÃ¹ recevoir les Pirates</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -59,15 +59,15 @@
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Adresses de réception</translation>
+        <translation>Adresses de rÃ©ception</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Copier &amp;Étiquette </translation>
+        <translation>Copier &amp;Ãtiquette </translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Éditer </translation>
+        <translation>&amp;Ãditer </translation>
     </message>
     <message>
         <source>Export Address List</source>
@@ -75,18 +75,18 @@
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Valeurs séparées par des virgules (*.csv)</translation>
+        <translation>Valeurs sÃ©parÃ©es par des virgules (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Échec de l'export</translation>
+        <translation>Ãchec de l'export</translation>
     </message>
     </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Étiquette</translation>
+        <translation>Ãtiquette</translation>
     </message>
     <message>
         <source>Address</source>
@@ -94,7 +94,7 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(aucune étiquette)</translation>
+        <translation>(aucune Ã©tiquette)</translation>
     </message>
 </context>
 <context>
@@ -113,7 +113,7 @@
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Répétez la phrase de passe</translation>
+        <translation>RÃ©pÃ©tez la phrase de passe</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -121,11 +121,11 @@
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Déverrouiller le porte-monnaie</translation>
+        <translation>DÃ©verrouiller le porte-monnaie</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Décrypter le porte-monnaie</translation>
+        <translation>DÃ©crypter le porte-monnaie</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
@@ -133,14 +133,14 @@
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Portefeuille chiffré</translation>
+        <translation>Portefeuille chiffrÃ©</translation>
     </message>
     </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/Masque de sous réseau</translation>
+        <translation>IP/Masque de sous rÃ©seau</translation>
     </message>
     <message>
         <source>Banned Until</source>
@@ -155,7 +155,7 @@
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synchronisation avec le réseau...</translation>
+        <translation>Synchronisation avec le rÃ©seau...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -163,7 +163,7 @@
     </message>
     <message>
         <source>Node</source>
-        <translation>Nœud</translation>
+        <translation>NÅud</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -187,7 +187,7 @@
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>&amp;À propos de %1</translation>
+        <translation>&amp;Ã propos de %1</translation>
     </message>
     <message>
         <source>Show information about %1</source>
@@ -195,7 +195,7 @@
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>À propos de &amp;Qt</translation>
+        <translation>Ã propos de &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
@@ -227,7 +227,7 @@
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Adresses de réception</translation>
+        <translation>&amp;Adresses de rÃ©ception</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -235,31 +235,31 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Réindexer les blocs sur le disque...</translation>
+        <translation>RÃ©indexer les blocs sur le disque...</translation>
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Envoyer des pièces à une adresse Pirate</translation>
+        <translation>Envoyer des piÃ¨ces Ã  une adresse Komodo</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Sauvegarder le porte-monnaie à un autre emplacement</translation>
+        <translation>Sauvegarder le porte-monnaie Ã  un autre emplacement</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Modifier la phrase de passe utilisée pour le cryptage du porte-monnaie</translation>
+        <translation>Modifier la phrase de passe utilisÃ©e pour le cryptage du porte-monnaie</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;Fenêtre de débogage</translation>
+        <translation>&amp;FenÃªtre de dÃ©bogage</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Ouvrir la console de débogage et de diagnostic</translation>
+        <translation>Ouvrir la console de dÃ©bogage et de diagnostic</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Vérification du message</translation>
+        <translation>&amp;VÃ©rification du message</translation>
     </message>
     <message>
         <source>Pirate</source>
@@ -275,7 +275,7 @@
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Réception</translation>
+        <translation>&amp;RÃ©ception</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -283,15 +283,15 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Montrer ou cacher la fenêtre principale</translation>
+        <translation>Montrer ou cacher la fenÃªtre principale</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Crypter les clé privées qui appartiennent votre portefeuille</translation>
+        <translation>Crypter les clÃ© privÃ©es qui appartiennent votre portefeuille</translation>
     </message>
     <message>
         <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>Signer vos messages avec vos adresses Pirate pour prouver que vous les détenez</translation>
+        <translation>Signer vos messages avec vos adresses Pirate pour prouver que vous les dÃ©tenez</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -299,7 +299,7 @@
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Réglages</translation>
+        <translation>&amp;RÃ©glages</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -311,11 +311,11 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>Demander des paiements (générer QR codes et Pirate: URIs)</translation>
+        <translation>Demander des paiements (gÃ©nÃ©rer QR codes et Pirate: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Montrer la liste des adresses d'envois utilisées et les étiquettes</translation>
+        <translation>Montrer la liste des adresses d'envois utilisÃ©es et les Ã©tiquettes</translation>
     </message>
     <message>
         <source>Open a Pirate: URI or payment request</source>
@@ -327,7 +327,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Pirate network</source>
-        <translation><numerusform>%n connexion active au réseau Pirate</numerusform><numerusform>%n connexions actives au réseau Pirate</numerusform></translation>
+        <translation><numerusform>%n connexion active au rÃ©seau Pirate</numerusform><numerusform>%n connexions actives au rÃ©seau Komodo</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -339,11 +339,11 @@
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Le dernier bloc reçu a été généré %1.</translation>
+        <translation>Le dernier bloc reÃ§u a Ã©tÃ© gÃ©nÃ©rÃ© %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Les transactions ne seront plus visible après ceci.</translation>
+        <translation>Les transactions ne seront plus visible aprÃ¨s ceci.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -359,7 +359,7 @@
     </message>
     <message>
         <source>Up to date</source>
-        <translation>À jour</translation>
+        <translation>Ã jour</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -390,7 +390,7 @@
     <message>
         <source>Label: %1
 </source>
-        <translation>Étiquette: %1
+        <translation>Ãtiquette: %1
 </translation>
     </message>
     <message>
@@ -401,7 +401,7 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Transaction envoyée</translation>
+        <translation>Transaction envoyÃ©e</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
@@ -409,22 +409,22 @@
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Le porte-monnaie est &lt;b&gt;chiffré&lt;/b&gt; et est actuellement &lt;b&gt;déverrouillé&lt;/b&gt;</translation>
+        <translation>Le porte-monnaie est &lt;b&gt;chiffrÃ©&lt;/b&gt; et est actuellement &lt;b&gt;dÃ©verrouillÃ©&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Le porte-monnaie est &lt;b&gt;chiffré&lt;/b&gt; et est actuellement &lt;b&gt;verrouillé&lt;/b&gt;</translation>
+        <translation>Le porte-monnaie est &lt;b&gt;chiffrÃ©&lt;/b&gt; et est actuellement &lt;b&gt;verrouillÃ©&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>Sélection de pièce </translation>
+        <translation>SÃ©lection de piÃ¨ce </translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Quantité:</translation>
+        <translation>QuantitÃ©:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -440,11 +440,11 @@
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Poussière: </translation>
+        <translation>PoussiÃ¨re: </translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Après frais:</translation>
+        <translation>AprÃ¨s frais:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -452,7 +452,7 @@
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(dé)sélectionné tout:</translation>
+        <translation>(dÃ©)sÃ©lectionnÃ© tout:</translation>
     </message>
     <message>
         <source>Tree mode</source>
@@ -468,11 +468,11 @@
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Reçu avec : </translation>
+        <translation>ReÃ§u avec : </translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Reçue avec l'adresse</translation>
+        <translation>ReÃ§ue avec l'adresse</translation>
     </message>
     <message>
         <source>Date</source>
@@ -484,7 +484,7 @@
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Confirmée</translation>
+        <translation>ConfirmÃ©e</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -492,7 +492,7 @@
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copier l'étiquette</translation>
+        <translation>Copier l'Ã©tiquette</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -504,7 +504,7 @@
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Copier la quantité</translation>
+        <translation>Copier la quantitÃ©</translation>
     </message>
     <message>
         <source>Copy fee</source>
@@ -512,7 +512,7 @@
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Copier après les frais</translation>
+        <translation>Copier aprÃ¨s les frais</translation>
     </message>
     <message>
         <source>Copy bytes</source>
@@ -528,18 +528,18 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(aucune étiquette)</translation>
+        <translation>(aucune Ã©tiquette)</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Éditer l'adresse</translation>
+        <translation>Ãditer l'adresse</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Étiquette</translation>
+        <translation>&amp;Ãtiquette</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -550,7 +550,7 @@
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Un nouveau répertoire de données sera créé. </translation>
+        <translation>Un nouveau rÃ©pertoire de donnÃ©es sera crÃ©Ã©. </translation>
     </message>
     <message>
         <source>name</source>
@@ -558,11 +558,11 @@
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Le chemin existe déjà et ce n'est pas un répertoire. </translation>
+        <translation>Le chemin existe dÃ©jÃ  et ce n'est pas un rÃ©pertoire. </translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Impossible de créer un répertoire ici.</translation>
+        <translation>Impossible de crÃ©er un rÃ©pertoire ici.</translation>
     </message>
 </context>
 <context>
@@ -597,7 +597,7 @@
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Démarrer sous forme minimisée</translation>
+        <translation>DÃ©marrer sous forme minimisÃ©e</translation>
     </message>
     </context>
 <context>
@@ -612,15 +612,15 @@
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Utiliser le répertoire par défaut </translation>
+        <translation>Utiliser le rÃ©pertoire par dÃ©faut </translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Utiliser votre propre répertoire</translation>
+        <translation>Utiliser votre propre rÃ©pertoire</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Erreur: Le répertoire de données "%1" n'a pas pu être créé. </translation>
+        <translation>Erreur: Le rÃ©pertoire de donnÃ©es "%1" n'a pas pu Ãªtre crÃ©Ã©. </translation>
     </message>
     <message>
         <source>Error</source>
@@ -632,7 +632,7 @@
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(%n GB nécessaire)</numerusform><numerusform>(%n GB nécessaire)</numerusform></translation>
+        <translation><numerusform>(%n GB nÃ©cessaire)</numerusform><numerusform>(%n GB nÃ©cessaire)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -662,7 +662,7 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Sélectionner un fichier de demande de paiement</translation>
+        <translation>SÃ©lectionner un fichier de demande de paiement</translation>
     </message>
     </context>
 <context>
@@ -677,7 +677,7 @@
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Taille du cache de la base de données.</translation>
+        <translation>Taille du cache de la base de donnÃ©es.</translation>
     </message>
     <message>
         <source>MB</source>
@@ -685,7 +685,7 @@
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Accepter les connexions venant de l'extérieur</translation>
+        <translation>Accepter les connexions venant de l'extÃ©rieur</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
@@ -697,15 +697,15 @@
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Réinitialiser toutes les options du client par défaut.</translation>
+        <translation>RÃ©initialiser toutes les options du client par dÃ©faut.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Options de réinitialisation </translation>
+        <translation>&amp;Options de rÃ©initialisation </translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Réseau</translation>
+        <translation>&amp;RÃ©seau</translation>
     </message>
     <message>
         <source>Expert</source>
@@ -713,7 +713,7 @@
     </message>
     <message>
         <source>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client Pirate automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+        <translation>Ouvrir le port du client Pirate automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalitÃ© est activÃ©e.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -733,7 +733,7 @@
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>Utilisé pour contacter des pairs via:</translation>
+        <translation>UtilisÃ© pour contacter des pairs via:</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -749,19 +749,19 @@
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Fenêtre</translation>
+        <translation>&amp;FenÃªtre</translation>
     </message>
     <message>
         <source>&amp;Hide the icon from the system tray.</source>
-        <translation>&amp;Cacher l'icône dans la zone de notification.</translation>
+        <translation>&amp;Cacher l'icÃ´ne dans la zone de notification.</translation>
     </message>
     <message>
         <source>Hide tray icon</source>
-        <translation>Cacher l'icône de la zone de notification</translation>
+        <translation>Cacher l'icÃ´ne de la zone de notification</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimiser dans la barre système au lieu de la barre des tâches</translation>
+        <translation>&amp;Minimiser dans la barre systÃ¨me au lieu de la barre des tÃ¢ches</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
@@ -793,15 +793,15 @@
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Confirmer les options de réinitialisation </translation>
+        <translation>Confirmer les options de rÃ©initialisation </translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Redémarrage du client nécessaire pour activer les changements.</translation>
+        <translation>RedÃ©marrage du client nÃ©cessaire pour activer les changements.</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Ce changement nécessiterait un redémarrage du client.</translation>
+        <translation>Ce changement nÃ©cessiterait un redÃ©marrage du client.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -819,7 +819,7 @@
         <translation>Regarder seulement:</translation>
     </message>
     <message>
-        <source>Available:</source>
+        <source>Transparent:</source>
         <translation>Disponible: </translation>
     </message>
     <message>
@@ -844,11 +844,11 @@
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Dépensable: </translation>
+        <translation>DÃ©pensable: </translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Transactions récentes </translation>
+        <translation>Transactions rÃ©centes </translation>
     </message>
     </context>
 <context>
@@ -862,7 +862,7 @@
     </message>
     <message>
         <source>Node/Service</source>
-        <translation>Nœud/Service </translation>
+        <translation>NÅud/Service </translation>
     </message>
     </context>
 <context>
@@ -938,23 +938,23 @@
     </message>
     <message>
         <source>Debug window</source>
-        <translation>Fenêtre de débogage </translation>
+        <translation>FenÃªtre de dÃ©bogage </translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Général</translation>
+        <translation>GÃ©nÃ©ral</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Version BerkeleyDButilisée </translation>
+        <translation>Version BerkeleyDButilisÃ©e </translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Le temps de démarrage</translation>
+        <translation>Le temps de dÃ©marrage</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Réseau</translation>
+        <translation>RÃ©seau</translation>
     </message>
     <message>
         <source>Name</source>
@@ -966,7 +966,7 @@
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Chaîne de bloc </translation>
+        <translation>ChaÃ®ne de bloc </translation>
     </message>
     <message>
         <source>Current number of blocks</source>
@@ -974,7 +974,7 @@
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>Mémoire du pool</translation>
+        <translation>MÃ©moire du pool</translation>
     </message>
     <message>
         <source>Current number of transactions</source>
@@ -982,15 +982,15 @@
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>Usage de la mémoire</translation>
+        <translation>Usage de la mÃ©moire</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Reçu </translation>
+        <translation>ReÃ§u </translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Envoyé</translation>
+        <translation>EnvoyÃ©</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
@@ -1002,7 +1002,7 @@
     </message>
     <message>
         <source>Whitelisted</source>
-        <translation>Autorisé par la liste</translation>
+        <translation>AutorisÃ© par la liste</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -1014,11 +1014,11 @@
     </message>
     <message>
         <source>Starting Block</source>
-        <translation>Bloc de départ</translation>
+        <translation>Bloc de dÃ©part</translation>
     </message>
     <message>
         <source>Synced Blocks</source>
-        <translation>Blocs Synchronisés </translation>
+        <translation>Blocs SynchronisÃ©s </translation>
     </message>
     <message>
         <source>User Agent</source>
@@ -1038,11 +1038,11 @@
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Dernier envoyé</translation>
+        <translation>Dernier envoyÃ©</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Dernier reçu</translation>
+        <translation>Dernier reÃ§u</translation>
     </message>
     <message>
         <source>Ping Time</source>
@@ -1062,7 +1062,7 @@
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Trafic réseau</translation>
+        <translation>&amp;Trafic rÃ©seau</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
@@ -1074,7 +1074,7 @@
     </message>
     <message>
         <source>In:</source>
-        <translation>Entrée:</translation>
+        <translation>EntrÃ©e:</translation>
     </message>
     <message>
         <source>Out:</source>
@@ -1082,7 +1082,7 @@
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Fichier du journal de débogage</translation>
+        <translation>Fichier du journal de dÃ©bogage</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -1149,7 +1149,7 @@
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Étiquette :</translation>
+        <translation>&amp;Ãtiquette :</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -1181,7 +1181,7 @@
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copier l'étiquette</translation>
+        <translation>Copier l'Ã©tiquette</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -1220,7 +1220,7 @@
     </message>
     <message>
         <source>Label</source>
-        <translation>Étiquette</translation>
+        <translation>Ãtiquette</translation>
     </message>
     <message>
         <source>Message</source>
@@ -1235,7 +1235,7 @@
     </message>
     <message>
         <source>Label</source>
-        <translation>Étiquette</translation>
+        <translation>Ãtiquette</translation>
     </message>
     <message>
         <source>Message</source>
@@ -1243,14 +1243,14 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(aucune étiquette)</translation>
+        <translation>(aucune Ã©tiquette)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Envoyer des pièces</translation>
+        <translation>Envoyer des piÃ¨ces</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -1258,7 +1258,7 @@
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>Automatiquement sélectionné </translation>
+        <translation>Automatiquement sÃ©lectionnÃ© </translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
@@ -1266,7 +1266,7 @@
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Quantité:</translation>
+        <translation>QuantitÃ©:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -1282,7 +1282,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Après frais:</translation>
+        <translation>AprÃ¨s frais:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -1310,7 +1310,7 @@
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Recommandé: </translation>
+        <translation>RecommandÃ©: </translation>
     </message>
     <message>
         <source>normal</source>
@@ -1322,7 +1322,7 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Envoyer des pièces à plusieurs destinataires à la fois</translation>
+        <translation>Envoyer des piÃ¨ces Ã  plusieurs destinataires Ã  la fois</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1330,7 +1330,7 @@
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Poussière: </translation>
+        <translation>PoussiÃ¨re: </translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1350,7 +1350,7 @@
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Copier la quantité</translation>
+        <translation>Copier la quantitÃ©</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -1362,7 +1362,7 @@
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Copier après les frais</translation>
+        <translation>Copier aprÃ¨s les frais</translation>
     </message>
     <message>
         <source>Copy bytes</source>
@@ -1374,7 +1374,7 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(aucune étiquette)</translation>
+        <translation>(aucune Ã©tiquette)</translation>
     </message>
 </context>
 <context>
@@ -1385,15 +1385,15 @@
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Payer &amp;à :</translation>
+        <translation>Payer &amp;Ã  :</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Étiquette :</translation>
+        <translation>&amp;Ãtiquette :</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Choisir une adresse précédemment utilisée </translation>
+        <translation>Choisir une adresse prÃ©cÃ©demment utilisÃ©e </translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
@@ -1413,7 +1413,7 @@
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Retirer cette entrée</translation>
+        <translation>Retirer cette entrÃ©e</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -1421,7 +1421,7 @@
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Payer à :</translation>
+        <translation>Payer Ã  :</translation>
     </message>
     <message>
         <source>Memo:</source>
@@ -1446,7 +1446,7 @@
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Choisir une adresse précédemment utilisée </translation>
+        <translation>Choisir une adresse prÃ©cÃ©demment utilisÃ©e </translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1462,7 +1462,7 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Entrez ici le message que vous désirez signer</translation>
+        <translation>Entrez ici le message que vous dÃ©sirez signer</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -1482,11 +1482,11 @@
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Vérifier message</translation>
+        <translation>&amp;VÃ©rifier message</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Vérifier &amp;Message</translation>
+        <translation>VÃ©rifier &amp;Message</translation>
     </message>
     </context>
 <context>
@@ -1507,7 +1507,7 @@
     <name>TransactionDesc</name>
     <message>
         <source>Status</source>
-        <translation>État</translation>
+        <translation>Ãtat</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1519,7 +1519,7 @@
     </message>
     <message>
         <source>Generated</source>
-        <translation>Généré</translation>
+        <translation>GÃ©nÃ©rÃ©</translation>
     </message>
     <message>
         <source>From</source>
@@ -1531,7 +1531,7 @@
     </message>
     <message>
         <source>To</source>
-        <translation>Á</translation>
+        <translation>Ã</translation>
     </message>
     <message>
         <source>own address</source>
@@ -1543,23 +1543,23 @@
     </message>
     <message>
         <source>label</source>
-        <translation>Étiquette </translation>
+        <translation>Ãtiquette </translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Crédit</translation>
+        <translation>CrÃ©dit</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Débit</translation>
+        <translation>DÃ©bit</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Débit total</translation>
+        <translation>DÃ©bit total</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Crédit total </translation>
+        <translation>CrÃ©dit total </translation>
     </message>
     <message>
         <source>Net amount</source>
@@ -1590,7 +1590,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ce panneau affiche une description détaillée de la transaction</translation>
+        <translation>Ce panneau affiche une description dÃ©taillÃ©e de la transaction</translation>
     </message>
     </context>
 <context>
@@ -1605,7 +1605,7 @@
     </message>
     <message>
         <source>Label</source>
-        <translation>Étiquette</translation>
+        <translation>Ãtiquette</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -1613,7 +1613,7 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(aucune étiquette)</translation>
+        <translation>(aucune Ã©tiquette)</translation>
     </message>
     </context>
 <context>
@@ -1640,7 +1640,7 @@
     </message>
     <message>
         <source>This year</source>
-        <translation>Cette année</translation>
+        <translation>Cette annÃ©e</translation>
     </message>
     <message>
         <source>Other</source>
@@ -1652,7 +1652,7 @@
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copier l'étiquette</translation>
+        <translation>Copier l'Ã©tiquette</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -1664,7 +1664,7 @@
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Valeurs séparées par des virgules (*.csv)</translation>
+        <translation>Valeurs sÃ©parÃ©es par des virgules (*.csv)</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1676,7 +1676,7 @@
     </message>
     <message>
         <source>Label</source>
-        <translation>Étiquette</translation>
+        <translation>Ãtiquette</translation>
     </message>
     <message>
         <source>Address</source>
@@ -1688,11 +1688,11 @@
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Échec de l'export</translation>
+        <translation>Ãchec de l'export</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>à</translation>
+        <translation>Ã </translation>
     </message>
 </context>
 <context>
@@ -1708,18 +1708,18 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
         <translation>Options :</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Spécifier le répertoire de données</translation>
+        <translation>SpÃ©cifier le rÃ©pertoire de donnÃ©es</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Spécifier votre adresse publique </translation>
+        <translation>SpÃ©cifier votre adresse publique </translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -1727,11 +1727,11 @@
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Fonctionner en arrière-plan en tant que démon et accepter les commandes</translation>
+        <translation>Fonctionner en arriÃ¨re-plan en tant que dÃ©mon et accepter les commandes</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
+        <translation>Impossible de dÃ©marrer le serveur HTTP. Voir le journal de dÃ©bogage pour plus de dÃ©tails.</translation>
     </message>
     <message>
         <source>Pirate Core</source>
@@ -1739,11 +1739,11 @@
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; peut être:</translation>
+        <translation>&lt;category&gt; peut Ãªtre:</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Options de création de bloc:</translation>
+        <translation>Options de crÃ©ation de bloc:</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -1751,7 +1751,7 @@
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Options de débogage/test </translation>
+        <translation>Options de dÃ©bogage/test </translation>
     </message>
     <message>
         <source>Importing...</source>
@@ -1760,11 +1760,11 @@ Importation ...</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Vérifications des blocs...</translation>
+        <translation>VÃ©rifications des blocs...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Vérification du portefeuille...</translation>
+        <translation>VÃ©rification du portefeuille...</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -1772,11 +1772,11 @@ Importation ...</translation>
     </message>
     <message>
         <source>(default: %u)</source>
-        <translation>(défaut: %u)</translation>
+        <translation>(dÃ©faut: %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Connecté au travers du proxy SOCKS5</translation>
+        <translation>ConnectÃ© au travers du proxy SOCKS5</translation>
     </message>
     <message>
         <source>Information</source>
@@ -1784,7 +1784,7 @@ Importation ...</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Options du relais de nœud: </translation>
+        <translation>Options du relais de nÅud: </translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -1792,15 +1792,15 @@ Importation ...</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Envoyer les informations de débogage/trace à la console au lieu du fichier debug.log</translation>
+        <translation>Envoyer les informations de dÃ©bogage/trace Ã  la console au lieu du fichier debug.log</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Transaction signée échouée</translation>
+        <translation>Transaction signÃ©e Ã©chouÃ©e</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>C'est un logiciel expérimental.</translation>
+        <translation>C'est un logiciel expÃ©rimental.</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -1808,7 +1808,7 @@ Importation ...</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Montant de la transaction trop élevé pour la politique de frais</translation>
+        <translation>Montant de la transaction trop Ã©levÃ© pour la politique de frais</translation>
     </message>
     <message>
         <source>Transaction too large</source>
@@ -1832,7 +1832,7 @@ Importation ...</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(défaut: %s)</translation>
+        <translation>(dÃ©faut: %s)</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
@@ -1840,7 +1840,7 @@ Importation ...</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Spécifier le pid du fichier (défaut: %s)</translation>
+        <translation>SpÃ©cifier le pid du fichier (dÃ©faut: %s)</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -1856,11 +1856,11 @@ Importation ...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Vous ne pouvez pas rétrograder votre portefeuille</translation>
+        <translation>Vous ne pouvez pas rÃ©trograder votre portefeuille</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Impossible d'écrire l'adresse par défaut</translation>
+        <translation>Impossible d'Ã©crire l'adresse par dÃ©faut</translation>
     </message>
     <message>
         <source>Rescanning...</source>
@@ -1868,7 +1868,7 @@ Importation ...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Chargement terminé</translation>
+        <translation>Chargement terminÃ©</translation>
     </message>
     <message>
         <source>Error</source>

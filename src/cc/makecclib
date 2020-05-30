@@ -4,7 +4,7 @@ rm *.so rogue/rogue games/tetris games/prices
 echo rogue
 make -f Makefile_rogue
 ./makerogue
-rm ../libcc.so 
+rm ../libcc.so
 cp librogue.so ../libcc.so
 
 echo sudoku/musig/dilithium

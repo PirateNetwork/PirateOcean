@@ -3,363 +3,363 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Клікніть правою кнопкою для редагування адреси або мітки</translation>
+        <translation>ÐÐ»ÑÐºÐ½ÑÑÑ Ð¿ÑÐ°Ð²Ð¾Ñ ÐºÐ½Ð¾Ð¿ÐºÐ¾Ñ Ð´Ð»Ñ ÑÐµÐ´Ð°Ð³ÑÐ²Ð°Ð½Ð½Ñ Ð°Ð´ÑÐµÑÐ¸ Ð°Ð±Ð¾ Ð¼ÑÑÐºÐ¸</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Створити нову адресу</translation>
+        <translation>Ð¡ÑÐ²Ð¾ÑÐ¸ÑÐ¸ Ð½Ð¾Ð²Ñ Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Нова</translation>
+        <translation>&amp;ÐÐ¾Ð²Ð°</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Копіювати виділену адресу в буфер обміну</translation>
+        <translation>ÐÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð²Ð¸Ð´ÑÐ»ÐµÐ½Ñ Ð°Ð´ÑÐµÑÑ Ð² Ð±ÑÑÐµÑ Ð¾Ð±Ð¼ÑÐ½Ñ</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Копіювати</translation>
+        <translation>&amp;ÐÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>З&amp;акрити</translation>
+        <translation>Ð&amp;Ð°ÐºÑÐ¸ÑÐ¸</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Вилучити вибрані адреси з переліку</translation>
+        <translation>ÐÐ¸Ð»ÑÑÐ¸ÑÐ¸ Ð²Ð¸Ð±ÑÐ°Ð½Ñ Ð°Ð´ÑÐµÑÐ¸ Ð· Ð¿ÐµÑÐµÐ»ÑÐºÑ</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Експортувати дані з поточної вкладки в файл</translation>
+        <translation>ÐÐºÑÐ¿Ð¾ÑÑÑÐ²Ð°ÑÐ¸ Ð´Ð°Ð½Ñ Ð· Ð¿Ð¾ÑÐ¾ÑÐ½Ð¾Ñ Ð²ÐºÐ»Ð°Ð´ÐºÐ¸ Ð² ÑÐ°Ð¹Ð»</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Експорт...</translation>
+        <translation>&amp;ÐÐºÑÐ¿Ð¾ÑÑ...</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Видалити</translation>
+        <translation>&amp;ÐÐ¸Ð´Ð°Ð»Ð¸ÑÐ¸</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Оберіть адресу для відправки монет</translation>
+        <translation>ÐÐ±ÐµÑÑÑÑ Ð°Ð´ÑÐµÑÑ Ð´Ð»Ñ Ð²ÑÐ´Ð¿ÑÐ°Ð²ÐºÐ¸ Ð¼Ð¾Ð½ÐµÑ</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Оберіть адресу для отримання монет</translation>
+        <translation>ÐÐ±ÐµÑÑÑÑ Ð°Ð´ÑÐµÑÑ Ð´Ð»Ñ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ Ð¼Ð¾Ð½ÐµÑ</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>О&amp;брати</translation>
+        <translation>Ð&amp;Ð±ÑÐ°ÑÐ¸</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Адреса відправлення</translation>
+        <translation>ÐÐ´ÑÐµÑÐ° Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Адреса отримання</translation>
+        <translation>ÐÐ´ÑÐµÑÐ° Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ</translation>
     </message>
     <message>
         <source>These are your Pirate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Це ваші адреси Pirate для надсилання платежів. Завжди перевіряйте суму та адресу одержувача перед відправленням монет.</translation>
+        <translation>Ð¦Ðµ Ð²Ð°ÑÑ Ð°Ð´ÑÐµÑÐ¸ Pirate Ð´Ð»Ñ Ð½Ð°Ð´ÑÐ¸Ð»Ð°Ð½Ð½Ñ Ð¿Ð»Ð°ÑÐµÐ¶ÑÐ². ÐÐ°Ð²Ð¶Ð´Ð¸ Ð¿ÐµÑÐµÐ²ÑÑÑÐ¹ÑÐµ ÑÑÐ¼Ñ ÑÐ° Ð°Ð´ÑÐµÑÑ Ð¾Ð´ÐµÑÐ¶ÑÐ²Ð°ÑÐ° Ð¿ÐµÑÐµÐ´ Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð½ÑÐ¼ Ð¼Ð¾Ð½ÐµÑ.</translation>
     </message>
     <message>
         <source>These are your Pirate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Це ваші адреси Pirate для отримання платежів. Для кожної транзакції рекомендується використовувати нову адресу одержувача.</translation>
+        <translation>Ð¦Ðµ Ð²Ð°ÑÑ Ð°Ð´ÑÐµÑÐ¸ Pirate Ð´Ð»Ñ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ Ð¿Ð»Ð°ÑÐµÐ¶ÑÐ². ÐÐ»Ñ ÐºÐ¾Ð¶Ð½Ð¾Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ ÑÐµÐºÐ¾Ð¼ÐµÐ½Ð´ÑÑÑÑÑÑ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ²Ð°ÑÐ¸ Ð½Ð¾Ð²Ñ Ð°Ð´ÑÐµÑÑ Ð¾Ð´ÐµÑÐ¶ÑÐ²Ð°ÑÐ°.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Скопіювати адресу</translation>
+        <translation>&amp;Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Зкопіювати&amp;Створити мітку</translation>
+        <translation>ÐÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸&amp;Ð¡ÑÐ²Ð¾ÑÐ¸ÑÐ¸ Ð¼ÑÑÐºÑ</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Редагувати</translation>
+        <translation>&amp;Ð ÐµÐ´Ð°Ð³ÑÐ²Ð°ÑÐ¸</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Експотувати список адрес</translation>
+        <translation>ÐÐºÑÐ¿Ð¾ÑÑÐ²Ð°ÑÐ¸ ÑÐ¿Ð¸ÑÐ¾Ðº Ð°Ð´ÑÐµÑ</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Файли (*.csv) розділеі комами</translation>
+        <translation>Ð¤Ð°Ð¹Ð»Ð¸ (*.csv) ÑÐ¾Ð·Ð´ÑÐ»ÐµÑ ÐºÐ¾Ð¼Ð°Ð¼Ð¸</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Експортування пройшло не успішно</translation>
+        <translation>ÐÐºÑÐ¿Ð¾ÑÑÑÐ²Ð°Ð½Ð½Ñ Ð¿ÑÐ¾Ð¹ÑÐ»Ð¾ Ð½Ðµ ÑÑÐ¿ÑÑÐ½Ð¾</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Виникла помилка при спрбі збереження списку адрес %1. Будь-ласка, спробувати пізніше. </translation>
+        <translation>ÐÐ¸Ð½Ð¸ÐºÐ»Ð° Ð¿Ð¾Ð¼Ð¸Ð»ÐºÐ° Ð¿ÑÐ¸ ÑÐ¿ÑÐ±Ñ Ð·Ð±ÐµÑÐµÐ¶ÐµÐ½Ð½Ñ ÑÐ¿Ð¸ÑÐºÑ Ð°Ð´ÑÐµÑ %1. ÐÑÐ´Ñ-Ð»Ð°ÑÐºÐ°, ÑÐ¿ÑÐ¾Ð±ÑÐ²Ð°ÑÐ¸ Ð¿ÑÐ·Ð½ÑÑÐµ. </translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Мітка</translation>
+        <translation>ÐÑÑÐºÐ°</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Адреса</translation>
+        <translation>ÐÐ´ÑÐµÑÐ°</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(немає мітки)</translation>
+        <translation>(Ð½ÐµÐ¼Ð°Ñ Ð¼ÑÑÐºÐ¸)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Діалог введення паролю</translation>
+        <translation>ÐÑÐ°Ð»Ð¾Ð³ Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ñ Ð¿Ð°ÑÐ¾Ð»Ñ</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Введіть пароль</translation>
+        <translation>ÐÐ²ÐµÐ´ÑÑÑ Ð¿Ð°ÑÐ¾Ð»Ñ</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Новий пароль</translation>
+        <translation>ÐÐ¾Ð²Ð¸Ð¹ Ð¿Ð°ÑÐ¾Ð»Ñ</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Повторіть пароль</translation>
+        <translation>ÐÐ¾Ð²ÑÐ¾ÑÑÑÑ Ð¿Ð°ÑÐ¾Ð»Ñ</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Введіть нову кодову фразу для гаманця.&lt;br/&gt;Будь ласка, використовуйте кодові фрази що містять &lt;b&gt; щонайменше десять випадкових символів &lt;/b&gt; або &lt;b&gt; щонайменше вісім слів &lt;/b&gt;.</translation>
+        <translation>ÐÐ²ÐµÐ´ÑÑÑ Ð½Ð¾Ð²Ñ ÐºÐ¾Ð´Ð¾Ð²Ñ ÑÑÐ°Ð·Ñ Ð´Ð»Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ.&lt;br/&gt;ÐÑÐ´Ñ Ð»Ð°ÑÐºÐ°, Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ¹ÑÐµ ÐºÐ¾Ð´Ð¾Ð²Ñ ÑÑÐ°Ð·Ð¸ ÑÐ¾ Ð¼ÑÑÑÑÑÑ &lt;b&gt; ÑÐ¾Ð½Ð°Ð¹Ð¼ÐµÐ½ÑÐµ Ð´ÐµÑÑÑÑ Ð²Ð¸Ð¿Ð°Ð´ÐºÐ¾Ð²Ð¸Ñ ÑÐ¸Ð¼Ð²Ð¾Ð»ÑÐ² &lt;/b&gt; Ð°Ð±Ð¾ &lt;b&gt; ÑÐ¾Ð½Ð°Ð¹Ð¼ÐµÐ½ÑÐµ Ð²ÑÑÑÐ¼ ÑÐ»ÑÐ² &lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Зашифрувати гаманець</translation>
+        <translation>ÐÐ°ÑÐ¸ÑÑÑÐ²Ð°ÑÐ¸ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ця операція потребує пароль для розблокування гаманця.</translation>
+        <translation>Ð¦Ñ Ð¾Ð¿ÐµÑÐ°ÑÑÑ Ð¿Ð¾ÑÑÐµÐ±ÑÑ Ð¿Ð°ÑÐ¾Ð»Ñ Ð´Ð»Ñ ÑÐ¾Ð·Ð±Ð»Ð¾ÐºÑÐ²Ð°Ð½Ð½Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Розблокувати гаманець</translation>
+        <translation>Ð Ð¾Ð·Ð±Ð»Ð¾ÐºÑÐ²Ð°ÑÐ¸ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ця операція потребує пароль для розшифрування гаманця.</translation>
+        <translation>Ð¦Ñ Ð¾Ð¿ÐµÑÐ°ÑÑÑ Ð¿Ð¾ÑÑÐµÐ±ÑÑ Ð¿Ð°ÑÐ¾Ð»Ñ Ð´Ð»Ñ ÑÐ¾Ð·ÑÐ¸ÑÑÑÐ²Ð°Ð½Ð½Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Дешифрувати гаманець</translation>
+        <translation>ÐÐµÑÐ¸ÑÑÑÐ²Ð°ÑÐ¸ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Змінити пароль</translation>
+        <translation>ÐÐ¼ÑÐ½Ð¸ÑÐ¸ Ð¿Ð°ÑÐ¾Ð»Ñ</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Введіть старий пароль та новий пароль до гаманця.</translation>
+        <translation>ÐÐ²ÐµÐ´ÑÑÑ ÑÑÐ°ÑÐ¸Ð¹ Ð¿Ð°ÑÐ¾Ð»Ñ ÑÐ° Ð½Ð¾Ð²Ð¸Ð¹ Ð¿Ð°ÑÐ¾Ð»Ñ Ð´Ð¾ Ð³Ð°Ð¼Ð°Ð½ÑÑ.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Підтвердіть шифрування гаманця</translation>
+        <translation>ÐÑÐ´ÑÐ²ÐµÑÐ´ÑÑÑ ÑÐ¸ÑÑÑÐ²Ð°Ð½Ð½Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>УВАГА: Якщо ви зашифруєте гаманець і забудете пароль, ви &lt;b&gt;ВТРАТИТЕ ВСІ СВОЇ БІТКОІНИ&lt;/b&gt;!</translation>
+        <translation>Ð£ÐÐÐÐ: Ð¯ÐºÑÐ¾ Ð²Ð¸ Ð·Ð°ÑÐ¸ÑÑÑÑÑÐµ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ Ñ Ð·Ð°Ð±ÑÐ´ÐµÑÐµ Ð¿Ð°ÑÐ¾Ð»Ñ, Ð²Ð¸ &lt;b&gt;ÐÐ¢Ð ÐÐ¢ÐÐ¢Ð ÐÐ¡Ð Ð¡ÐÐÐ ÐÐÐ¢ÐÐÐÐÐ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Ви дійсно хочете зашифрувати свій гаманець?</translation>
+        <translation>ÐÐ¸ Ð´ÑÐ¹ÑÐ½Ð¾ ÑÐ¾ÑÐµÑÐµ Ð·Ð°ÑÐ¸ÑÑÑÐ²Ð°ÑÐ¸ ÑÐ²ÑÐ¹ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Гаманець зашифровано</translation>
+        <translation>ÐÐ°Ð¼Ð°Ð½ÐµÑÑ Ð·Ð°ÑÐ¸ÑÑÐ¾Ð²Ð°Ð½Ð¾</translation>
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>%1 буде закрито зараз, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші біткойни від крадіжки шкідливими програмами, у випадку якщо ваш комп'ютер буде інфіковано.</translation>
+        <translation>%1 Ð±ÑÐ´Ðµ Ð·Ð°ÐºÑÐ¸ÑÐ¾ Ð·Ð°ÑÐ°Ð·, ÑÐ¾Ð± Ð·Ð°Ð²ÐµÑÑÐ¸ÑÐ¸ Ð¿ÑÐ¾ÑÐµÑ ÑÐ¸ÑÑÑÐ²Ð°Ð½Ð½Ñ. ÐÐ°Ð¼'ÑÑÐ°Ð¹ÑÐµ, ÑÐ¾ ÑÐ¸ÑÑÑÐ²Ð°Ð½Ð½Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ Ð½Ðµ Ð¼Ð¾Ð¶Ðµ Ð¿Ð¾Ð²Ð½ÑÑÑÑ Ð·Ð°ÑÐ¸ÑÑÐ¸ÑÐ¸ Ð²Ð°ÑÑ Ð±ÑÑÐºÐ¾Ð¹Ð½Ð¸ Ð²ÑÐ´ ÐºÑÐ°Ð´ÑÐ¶ÐºÐ¸ ÑÐºÑÐ´Ð»Ð¸Ð²Ð¸Ð¼Ð¸ Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð°Ð¼Ð¸, Ñ Ð²Ð¸Ð¿Ð°Ð´ÐºÑ ÑÐºÑÐ¾ Ð²Ð°Ñ ÐºÐ¾Ð¼Ð¿'ÑÑÐµÑ Ð±ÑÐ´Ðµ ÑÐ½ÑÑÐºÐ¾Ð²Ð°Ð½Ð¾.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>ВАЖЛИВО: Всі попередні резервні копії, які ви зробили з вашого файлу гаманця повинні бути замінені новоствореним, зашифрованим файлом гаманця. З міркувань безпеки, попередні резервні копії незашифрованого файла гаманця стануть непридатними одразу ж, як тільки ви почнете використовувати новий, зашифрований гаманець.</translation>
+        <translation>ÐÐÐÐÐÐÐ: ÐÑÑ Ð¿Ð¾Ð¿ÐµÑÐµÐ´Ð½Ñ ÑÐµÐ·ÐµÑÐ²Ð½Ñ ÐºÐ¾Ð¿ÑÑ, ÑÐºÑ Ð²Ð¸ Ð·ÑÐ¾Ð±Ð¸Ð»Ð¸ Ð· Ð²Ð°ÑÐ¾Ð³Ð¾ ÑÐ°Ð¹Ð»Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ Ð¿Ð¾Ð²Ð¸Ð½Ð½Ñ Ð±ÑÑÐ¸ Ð·Ð°Ð¼ÑÐ½ÐµÐ½Ñ Ð½Ð¾Ð²Ð¾ÑÑÐ²Ð¾ÑÐµÐ½Ð¸Ð¼, Ð·Ð°ÑÐ¸ÑÑÐ¾Ð²Ð°Ð½Ð¸Ð¼ ÑÐ°Ð¹Ð»Ð¾Ð¼ Ð³Ð°Ð¼Ð°Ð½ÑÑ. Ð Ð¼ÑÑÐºÑÐ²Ð°Ð½Ñ Ð±ÐµÐ·Ð¿ÐµÐºÐ¸, Ð¿Ð¾Ð¿ÐµÑÐµÐ´Ð½Ñ ÑÐµÐ·ÐµÑÐ²Ð½Ñ ÐºÐ¾Ð¿ÑÑ Ð½ÐµÐ·Ð°ÑÐ¸ÑÑÐ¾Ð²Ð°Ð½Ð¾Ð³Ð¾ ÑÐ°Ð¹Ð»Ð° Ð³Ð°Ð¼Ð°Ð½ÑÑ ÑÑÐ°Ð½ÑÑÑ Ð½ÐµÐ¿ÑÐ¸Ð´Ð°ÑÐ½Ð¸Ð¼Ð¸ Ð¾Ð´ÑÐ°Ð·Ñ Ð¶, ÑÐº ÑÑÐ»ÑÐºÐ¸ Ð²Ð¸ Ð¿Ð¾ÑÐ½ÐµÑÐµ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ²Ð°ÑÐ¸ Ð½Ð¾Ð²Ð¸Ð¹, Ð·Ð°ÑÐ¸ÑÑÐ¾Ð²Ð°Ð½Ð¸Ð¹ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Не вдалося зашифрувати гаманець</translation>
+        <translation>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ð·Ð°ÑÐ¸ÑÑÑÐ²Ð°ÑÐ¸ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Виникла помилка під час шифрування гаманця. Ваш гаманець не було зашифровано.</translation>
+        <translation>ÐÐ¸Ð½Ð¸ÐºÐ»Ð° Ð¿Ð¾Ð¼Ð¸Ð»ÐºÐ° Ð¿ÑÐ´ ÑÐ°Ñ ÑÐ¸ÑÑÑÐ²Ð°Ð½Ð½Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ. ÐÐ°Ñ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ Ð½Ðµ Ð±ÑÐ»Ð¾ Ð·Ð°ÑÐ¸ÑÑÐ¾Ð²Ð°Ð½Ð¾.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Введені паролі не співпадають.</translation>
+        <translation>ÐÐ²ÐµÐ´ÐµÐ½Ñ Ð¿Ð°ÑÐ¾Ð»Ñ Ð½Ðµ ÑÐ¿ÑÐ²Ð¿Ð°Ð´Ð°ÑÑÑ.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Не вдалося розблокувати гаманець</translation>
+        <translation>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ ÑÐ¾Ð·Ð±Ð»Ð¾ÐºÑÐ²Ð°ÑÐ¸ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Введений пароль є невірним.</translation>
+        <translation>ÐÐ²ÐµÐ´ÐµÐ½Ð¸Ð¹ Ð¿Ð°ÑÐ¾Ð»Ñ Ñ Ð½ÐµÐ²ÑÑÐ½Ð¸Ð¼.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Не вдалося розшифрувати гаманець</translation>
+        <translation>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ ÑÐ¾Ð·ÑÐ¸ÑÑÑÐ²Ð°ÑÐ¸ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Пароль було успішно змінено.</translation>
+        <translation>ÐÐ°ÑÐ¾Ð»Ñ Ð±ÑÐ»Ð¾ ÑÑÐ¿ÑÑÐ½Ð¾ Ð·Ð¼ÑÐ½ÐµÐ½Ð¾.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Увага: Ввімкнено Caps Lock!</translation>
+        <translation>Ð£Ð²Ð°Ð³Ð°: ÐÐ²ÑÐ¼ÐºÐ½ÐµÐ½Ð¾ Caps Lock!</translation>
     </message>
 </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/Маска підмережі</translation>
+        <translation>IP/ÐÐ°ÑÐºÐ° Ð¿ÑÐ´Ð¼ÐµÑÐµÐ¶Ñ</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Заблоковано До</translation>
+        <translation>ÐÐ°Ð±Ð»Ð¾ÐºÐ¾Ð²Ð°Ð½Ð¾ ÐÐ¾</translation>
     </message>
 </context>
 <context>
     <name>PirateOceanGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>&amp;Підписати повідомлення...</translation>
+        <translation>&amp;ÐÑÐ´Ð¿Ð¸ÑÐ°ÑÐ¸ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Синхронізація з мережею...</translation>
+        <translation>Ð¡Ð¸Ð½ÑÑÐ¾Ð½ÑÐ·Ð°ÑÑÑ Ð· Ð¼ÐµÑÐµÐ¶ÐµÑ...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Огляд</translation>
+        <translation>&amp;ÐÐ³Ð»ÑÐ´</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Вузол</translation>
+        <translation>ÐÑÐ·Ð¾Ð»</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Показати стан гаманця</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·Ð°ÑÐ¸ ÑÑÐ°Ð½ Ð³Ð°Ð¼Ð°Ð½ÑÑ</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Транзакції</translation>
+        <translation>&amp;Ð¢ÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Переглянути історію транзакцій</translation>
+        <translation>ÐÐµÑÐµÐ³Ð»ÑÐ½ÑÑÐ¸ ÑÑÑÐ¾ÑÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;Вихід</translation>
+        <translation>&amp;ÐÐ¸ÑÑÐ´</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Вийти</translation>
+        <translation>ÐÐ¸Ð¹ÑÐ¸</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>П&amp;ро %1</translation>
+        <translation>Ð&amp;ÑÐ¾ %1</translation>
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>Показати інформацію про %1</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·Ð°ÑÐ¸ ÑÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ Ð¿ÑÐ¾ %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>&amp;Про Qt</translation>
+        <translation>&amp;ÐÑÐ¾ Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Показати інформацію про Qt</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·Ð°ÑÐ¸ ÑÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ Ð¿ÑÐ¾ Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Параметри...</translation>
+        <translation>&amp;ÐÐ°ÑÐ°Ð¼ÐµÑÑÐ¸...</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>Редагувати параметри для %1</translation>
+        <translation>Ð ÐµÐ´Ð°Ð³ÑÐ²Ð°ÑÐ¸ Ð¿Ð°ÑÐ°Ð¼ÐµÑÑÐ¸ Ð´Ð»Ñ %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Шифрування гаманця...</translation>
+        <translation>&amp;Ð¨Ð¸ÑÑÑÐ²Ð°Ð½Ð½Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Резервне копіювання гаманця...</translation>
+        <translation>&amp;Ð ÐµÐ·ÐµÑÐ²Ð½Ðµ ÐºÐ¾Ð¿ÑÑÐ²Ð°Ð½Ð½Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>Змінити парол&amp;ь...</translation>
+        <translation>ÐÐ¼ÑÐ½Ð¸ÑÐ¸ Ð¿Ð°ÑÐ¾Ð»&amp;Ñ...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>Адреси для &amp;відправлення...</translation>
+        <translation>ÐÐ´ÑÐµÑÐ¸ Ð´Ð»Ñ &amp;Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð½Ñ...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Адреси для &amp;отримання...</translation>
+        <translation>ÐÐ´ÑÐµÑÐ¸ Ð´Ð»Ñ &amp;Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Відкрити &amp;URI</translation>
+        <translation>ÐÑÐ´ÐºÑÐ¸ÑÐ¸ &amp;URI</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>Натисніть, щоб вимкнути активність мережі.</translation>
+        <translation>ÐÐ°ÑÐ¸ÑÐ½ÑÑÑ, ÑÐ¾Ð± Ð²Ð¸Ð¼ÐºÐ½ÑÑÐ¸ Ð°ÐºÑÐ¸Ð²Ð½ÑÑÑÑ Ð¼ÐµÑÐµÐ¶Ñ.</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>Мережева активність вимкнена.</translation>
+        <translation>ÐÐµÑÐµÐ¶ÐµÐ²Ð° Ð°ÐºÑÐ¸Ð²Ð½ÑÑÑÑ Ð²Ð¸Ð¼ÐºÐ½ÐµÐ½Ð°.</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>Натисніть, щоб знову активувати мережеву активність.</translation>
+        <translation>ÐÐ°ÑÐ¸ÑÐ½ÑÑÑ, ÑÐ¾Ð± Ð·Ð½Ð¾Ð²Ñ Ð°ÐºÑÐ¸Ð²ÑÐ²Ð°ÑÐ¸ Ð¼ÐµÑÐµÐ¶ÐµÐ²Ñ Ð°ÐºÑÐ¸Ð²Ð½ÑÑÑÑ.</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>Синхронізація заголовків (%1%)...</translation>
+        <translation>Ð¡Ð¸Ð½ÑÑÐ¾Ð½ÑÐ·Ð°ÑÑÑ Ð·Ð°Ð³Ð¾Ð»Ð¾Ð²ÐºÑÐ² (%1%)...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Переіндексація блоків на диску ...</translation>
+        <translation>ÐÐµÑÐµÑÐ½Ð´ÐµÐºÑÐ°ÑÑÑ Ð±Ð»Ð¾ÐºÑÐ² Ð½Ð° Ð´Ð¸ÑÐºÑ ...</translation>
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Відправити монети на вказану адресу</translation>
+        <translation>ÐÑÐ´Ð¿ÑÐ°Ð²Ð¸ÑÐ¸ Ð¼Ð¾Ð½ÐµÑÐ¸ Ð½Ð° Ð²ÐºÐ°Ð·Ð°Ð½Ñ Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Резервне копіювання гаманця в інше місце</translation>
+        <translation>Ð ÐµÐ·ÐµÑÐ²Ð½Ðµ ÐºÐ¾Ð¿ÑÑÐ²Ð°Ð½Ð½Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ Ð² ÑÐ½ÑÐµ Ð¼ÑÑÑÐµ</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Змінити пароль, який використовується для шифрування гаманця</translation>
+        <translation>ÐÐ¼ÑÐ½Ð¸ÑÐ¸ Ð¿Ð°ÑÐ¾Ð»Ñ, ÑÐºÐ¸Ð¹ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÑÑÑÑÑ Ð´Ð»Ñ ÑÐ¸ÑÑÑÐ²Ð°Ð½Ð½Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>В&amp;ікно зневадження</translation>
+        <translation>Ð&amp;ÑÐºÐ½Ð¾ Ð·Ð½ÐµÐ²Ð°Ð´Ð¶ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Відкрити консоль зневадження і діагностики</translation>
+        <translation>ÐÑÐ´ÐºÑÐ¸ÑÐ¸ ÐºÐ¾Ð½ÑÐ¾Ð»Ñ Ð·Ð½ÐµÐ²Ð°Ð´Ð¶ÐµÐ½Ð½Ñ Ñ Ð´ÑÐ°Ð³Ð½Ð¾ÑÑÐ¸ÐºÐ¸</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>П&amp;еревірити повідомлення...</translation>
+        <translation>Ð&amp;ÐµÑÐµÐ²ÑÑÐ¸ÑÐ¸ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ...</translation>
     </message>
     <message>
         <source>Pirate</source>
@@ -367,570 +367,570 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Гаманець</translation>
+        <translation>ÐÐ°Ð¼Ð°Ð½ÐµÑÑ</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Відправити</translation>
+        <translation>&amp;ÐÑÐ´Ð¿ÑÐ°Ð²Ð¸ÑÐ¸</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Отримати</translation>
+        <translation>&amp;ÐÑÑÐ¸Ð¼Ð°ÑÐ¸</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>Показа&amp;ти / Приховати</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·Ð°&amp;ÑÐ¸ / ÐÑÐ¸ÑÐ¾Ð²Ð°ÑÐ¸</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Показує або приховує головне вікно</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·ÑÑ Ð°Ð±Ð¾ Ð¿ÑÐ¸ÑÐ¾Ð²ÑÑ Ð³Ð¾Ð»Ð¾Ð²Ð½Ðµ Ð²ÑÐºÐ½Ð¾</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Зашифрувати закриті ключі, що знаходяться у вашому гаманці</translation>
+        <translation>ÐÐ°ÑÐ¸ÑÑÑÐ²Ð°ÑÐ¸ Ð·Ð°ÐºÑÐ¸ÑÑ ÐºÐ»ÑÑÑ, ÑÐ¾ Ð·Ð½Ð°ÑÐ¾Ð´ÑÑÑÑÑ Ñ Ð²Ð°ÑÐ¾Ð¼Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ</translation>
     </message>
     <message>
         <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою Pirate-адресою </translation>
+        <translation>ÐÑÐ´ÑÐ²ÐµÑÐ´ÑÑÑ, ÑÐ¾ ÐÐ¸ Ñ Ð²Ð»Ð°ÑÐ½Ð¸ÐºÐ¾Ð¼ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ Ð¿ÑÐ´Ð¿Ð¸ÑÐ°Ð²ÑÐ¸ Ð¹Ð¾Ð³Ð¾ ÐÐ°ÑÐ¾Ñ Pirate-Ð°Ð´ÑÐµÑÐ¾Ñ </translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Pirate-адресою</translation>
+        <translation>ÐÐµÑÐµÐ²ÑÑÑÐµ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ Ð´Ð»Ñ Ð²Ð¿ÐµÐ²Ð½ÐµÐ½Ð¾ÑÑÑ, ÑÐ¾ Ð²Ð¾Ð½Ð¾ Ð¿ÑÐ´Ð¿Ð¸ÑÐ°Ð½Ð¾ Ð²ÐºÐ°Ð·Ð°Ð½Ð¾Ñ Pirate-Ð°Ð´ÑÐµÑÐ¾Ñ</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Файл</translation>
+        <translation>&amp;Ð¤Ð°Ð¹Ð»</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Налаштування</translation>
+        <translation>&amp;ÐÐ°Ð»Ð°ÑÑÑÐ²Ð°Ð½Ð½Ñ</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Довідка</translation>
+        <translation>&amp;ÐÐ¾Ð²ÑÐ´ÐºÐ°</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Панель вкладок</translation>
+        <translation>ÐÐ°Ð½ÐµÐ»Ñ Ð²ÐºÐ»Ð°Ð´Ð¾Ðº</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>Створити запит платежу (генерує QR-код та Pirate: URI)</translation>
+        <translation>Ð¡ÑÐ²Ð¾ÑÐ¸ÑÐ¸ Ð·Ð°Ð¿Ð¸Ñ Ð¿Ð»Ð°ÑÐµÐ¶Ñ (Ð³ÐµÐ½ÐµÑÑÑ QR-ÐºÐ¾Ð´ ÑÐ° Pirate: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Показати список адрес і міток, що були використані для відправлення</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·Ð°ÑÐ¸ ÑÐ¿Ð¸ÑÐ¾Ðº Ð°Ð´ÑÐµÑ Ñ Ð¼ÑÑÐ¾Ðº, ÑÐ¾ Ð±ÑÐ»Ð¸ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ°Ð½Ñ Ð´Ð»Ñ Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Показати список адрес і міток, що були використані для отримання</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·Ð°ÑÐ¸ ÑÐ¿Ð¸ÑÐ¾Ðº Ð°Ð´ÑÐµÑ Ñ Ð¼ÑÑÐ¾Ðº, ÑÐ¾ Ð±ÑÐ»Ð¸ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ°Ð½Ñ Ð´Ð»Ñ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ</translation>
     </message>
     <message>
         <source>Open a Pirate: URI or payment request</source>
-        <translation>Відкрити Pirate: URI чи запит платежу</translation>
+        <translation>ÐÑÐ´ÐºÑÐ¸ÑÐ¸ Pirate: URI ÑÐ¸ Ð·Ð°Ð¿Ð¸Ñ Ð¿Ð»Ð°ÑÐµÐ¶Ñ</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>П&amp;араметри командного рядка</translation>
+        <translation>Ð&amp;Ð°ÑÐ°Ð¼ÐµÑÑÐ¸ ÐºÐ¾Ð¼Ð°Ð½Ð´Ð½Ð¾Ð³Ð¾ ÑÑÐ´ÐºÐ°</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Pirate network</source>
-        <translation><numerusform>%n активне з'єднання з мережею Pirate</numerusform><numerusform>%n активні з'єднання з мережею Pirate</numerusform><numerusform>%n активних з'єднань з мережею Pirate</numerusform></translation>
+        <translation><numerusform>%n Ð°ÐºÑÐ¸Ð²Ð½Ðµ Ð·'ÑÐ´Ð½Ð°Ð½Ð½Ñ Ð· Ð¼ÐµÑÐµÐ¶ÐµÑ Pirate</numerusform><numerusform>%n Ð°ÐºÑÐ¸Ð²Ð½Ñ Ð·'ÑÐ´Ð½Ð°Ð½Ð½Ñ Ð· Ð¼ÐµÑÐµÐ¶ÐµÑ Komodo</numerusform><numerusform>%n Ð°ÐºÑÐ¸Ð²Ð½Ð¸Ñ Ð·'ÑÐ´Ð½Ð°Ð½Ñ Ð· Ð¼ÐµÑÐµÐ¶ÐµÑ Komodo</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>Індексація блоків на диску ...</translation>
+        <translation>ÐÐ½Ð´ÐµÐºÑÐ°ÑÑÑ Ð±Ð»Ð¾ÐºÑÐ² Ð½Ð° Ð´Ð¸ÑÐºÑ ...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>Обробка блоків на диску...</translation>
+        <translation>ÐÐ±ÑÐ¾Ð±ÐºÐ° Ð±Ð»Ð¾ÐºÑÐ² Ð½Ð° Ð´Ð¸ÑÐºÑ...</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Оброблено %n блок історії транзакцій.</numerusform><numerusform>Оброблено %n блоки історії транзакцій.</numerusform><numerusform>Оброблено %n блоків історії транзакцій.</numerusform></translation>
+        <translation><numerusform>ÐÐ±ÑÐ¾Ð±Ð»ÐµÐ½Ð¾ %n Ð±Ð»Ð¾Ðº ÑÑÑÐ¾ÑÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹.</numerusform><numerusform>ÐÐ±ÑÐ¾Ð±Ð»ÐµÐ½Ð¾ %n Ð±Ð»Ð¾ÐºÐ¸ ÑÑÑÐ¾ÑÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹.</numerusform><numerusform>ÐÐ±ÑÐ¾Ð±Ð»ÐµÐ½Ð¾ %n Ð±Ð»Ð¾ÐºÑÐ² ÑÑÑÐ¾ÑÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹.</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 тому</translation>
+        <translation>%1 ÑÐ¾Ð¼Ñ</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Останній отриманий блок було згенеровано %1 тому.</translation>
+        <translation>ÐÑÑÐ°Ð½Ð½ÑÐ¹ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð¸Ð¹ Ð±Ð»Ð¾Ðº Ð±ÑÐ»Ð¾ Ð·Ð³ÐµÐ½ÐµÑÐ¾Ð²Ð°Ð½Ð¾ %1 ÑÐ¾Ð¼Ñ.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Пізніші транзакції не буде видно.</translation>
+        <translation>ÐÑÐ·Ð½ÑÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð½Ðµ Ð±ÑÐ´Ðµ Ð²Ð¸Ð´Ð½Ð¾.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Помилка</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ°</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Попередження</translation>
+        <translation>ÐÐ¾Ð¿ÐµÑÐµÐ´Ð¶ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Інформація</translation>
+        <translation>ÐÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Синхронізовано</translation>
+        <translation>Ð¡Ð¸Ð½ÑÑÐ¾Ð½ÑÐ·Ð¾Ð²Ð°Ð½Ð¾</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Pirate command-line options</source>
-        <translation>Показати довідку %1 для отримання переліку можливих параметрів командного рядка.</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·Ð°ÑÐ¸ Ð´Ð¾Ð²ÑÐ´ÐºÑ %1 Ð´Ð»Ñ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ Ð¿ÐµÑÐµÐ»ÑÐºÑ Ð¼Ð¾Ð¶Ð»Ð¸Ð²Ð¸Ñ Ð¿Ð°ÑÐ°Ð¼ÐµÑÑÑÐ² ÐºÐ¾Ð¼Ð°Ð½Ð´Ð½Ð¾Ð³Ð¾ ÑÑÐ´ÐºÐ°.</translation>
     </message>
     <message>
         <source>%1 client</source>
-        <translation>%1 клієнт</translation>
+        <translation>%1 ÐºÐ»ÑÑÐ½Ñ</translation>
     </message>
     <message>
         <source>Connecting to peers...</source>
-        <translation>Підключення до вузлів...</translation>
+        <translation>ÐÑÐ´ÐºÐ»ÑÑÐµÐ½Ð½Ñ Ð´Ð¾ Ð²ÑÐ·Ð»ÑÐ²...</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Синхронізується...</translation>
+        <translation>Ð¡Ð¸Ð½ÑÑÐ¾Ð½ÑÐ·ÑÑÑÑÑÑ...</translation>
     </message>
     <message>
         <source>Date: %1
 </source>
-        <translation>Дата: %1
+        <translation>ÐÐ°ÑÐ°: %1
 </translation>
     </message>
     <message>
         <source>Amount: %1
 </source>
-        <translation>Кількість: %1
+        <translation>ÐÑÐ»ÑÐºÑÑÑÑ: %1
 </translation>
     </message>
     <message>
         <source>Type: %1
 </source>
-        <translation>Тип: %1
+        <translation>Ð¢Ð¸Ð¿: %1
 </translation>
     </message>
     <message>
         <source>Label: %1
 </source>
-        <translation>Мітка: %1
+        <translation>ÐÑÑÐºÐ°: %1
 </translation>
     </message>
     <message>
         <source>Address: %1
 </source>
-        <translation>Адреса: %1
+        <translation>ÐÐ´ÑÐµÑÐ°: %1
 </translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Надіслані транзакції</translation>
+        <translation>ÐÐ°Ð´ÑÑÐ»Ð°Ð½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Отримані транзакції</translation>
+        <translation>ÐÑÑÐ¸Ð¼Ð°Ð½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>Генерація HD ключа &lt;b&gt;увімкнена&lt;/b&gt;</translation>
+        <translation>ÐÐµÐ½ÐµÑÐ°ÑÑÑ HD ÐºÐ»ÑÑÐ° &lt;b&gt;ÑÐ²ÑÐ¼ÐºÐ½ÐµÐ½Ð°&lt;/b&gt;</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>Генерація HD ключа&lt;b&gt;вимкнена&lt;/b&gt;</translation>
+        <translation>ÐÐµÐ½ÐµÑÐ°ÑÑÑ HD ÐºÐ»ÑÑÐ°&lt;b&gt;Ð²Ð¸Ð¼ÐºÐ½ÐµÐ½Ð°&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Зашифрований&lt;/b&gt; гаманець &lt;b&gt;розблоковано&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;ÐÐ°ÑÐ¸ÑÑÐ¾Ð²Ð°Ð½Ð¸Ð¹&lt;/b&gt; Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ &lt;b&gt;ÑÐ¾Ð·Ð±Ð»Ð¾ÐºÐ¾Ð²Ð°Ð½Ð¾&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Зашифрований&lt;/b&gt; гаманець &lt;b&gt;заблоковано&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;ÐÐ°ÑÐ¸ÑÑÐ¾Ð²Ð°Ð½Ð¸Ð¹&lt;/b&gt; Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ &lt;b&gt;Ð·Ð°Ð±Ð»Ð¾ÐºÐ¾Ð²Ð°Ð½Ð¾&lt;/b&gt;</translation>
     </message>
     <message>
         <source>A fatal error occurred. Pirate can no longer continue safely and will quit.</source>
-        <translation>Сталася фатальна помилка. Помилки не сумісні з подальщою роботою. Гаманець буде закрито.</translation>
+        <translation>Ð¡ÑÐ°Ð»Ð°ÑÑ ÑÐ°ÑÐ°Ð»ÑÐ½Ð° Ð¿Ð¾Ð¼Ð¸Ð»ÐºÐ°. ÐÐ¾Ð¼Ð¸Ð»ÐºÐ¸ Ð½Ðµ ÑÑÐ¼ÑÑÐ½Ñ Ð· Ð¿Ð¾Ð´Ð°Ð»ÑÑÐ¾Ñ ÑÐ¾Ð±Ð¾ÑÐ¾Ñ. ÐÐ°Ð¼Ð°Ð½ÐµÑÑ Ð±ÑÐ´Ðµ Ð·Ð°ÐºÑÐ¸ÑÐ¾.</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>Вибір Монет</translation>
+        <translation>ÐÐ¸Ð±ÑÑ ÐÐ¾Ð½ÐµÑ</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Кількість:</translation>
+        <translation>ÐÑÐ»ÑÐºÑÑÑÑ:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Байтів:</translation>
+        <translation>ÐÐ°Ð¹ÑÑÐ²:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Сума:</translation>
+        <translation>Ð¡ÑÐ¼Ð°:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Комісія:</translation>
+        <translation>ÐÐ¾Ð¼ÑÑÑÑ:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Пил:</translation>
+        <translation>ÐÐ¸Ð»:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Після комісії:</translation>
+        <translation>ÐÑÑÐ»Ñ ÐºÐ¾Ð¼ÑÑÑÑ:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Решта:</translation>
+        <translation>Ð ÐµÑÑÐ°:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>Вибрати/зняти всі</translation>
+        <translation>ÐÐ¸Ð±ÑÐ°ÑÐ¸/Ð·Ð½ÑÑÐ¸ Ð²ÑÑ</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Деревом</translation>
+        <translation>ÐÐµÑÐµÐ²Ð¾Ð¼</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Списком</translation>
+        <translation>Ð¡Ð¿Ð¸ÑÐºÐ¾Ð¼</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Кількість</translation>
+        <translation>ÐÑÐ»ÑÐºÑÑÑÑ</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Отримано з позначкою</translation>
+        <translation>ÐÑÑÐ¸Ð¼Ð°Ð½Ð¾ Ð· Ð¿Ð¾Ð·Ð½Ð°ÑÐºÐ¾Ñ</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Отримано з адресою</translation>
+        <translation>ÐÑÑÐ¸Ð¼Ð°Ð½Ð¾ Ð· Ð°Ð´ÑÐµÑÐ¾Ñ</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>ÐÐ°ÑÐ°</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Підтверджень</translation>
+        <translation>ÐÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ñ</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Підтверджені</translation>
+        <translation>ÐÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ñ</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Скопіювати адресу</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Скопіювати мітку</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð¼ÑÑÐºÑ</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Скопіювати суму</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ÑÑÐ¼Ñ</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Скопіювати ID транзакції </translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ID ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ </translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Заблокувати</translation>
+        <translation>ÐÐ°Ð±Ð»Ð¾ÐºÑÐ²Ð°ÑÐ¸</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Розблокувати</translation>
+        <translation>Ð Ð¾Ð·Ð±Ð»Ð¾ÐºÑÐ²Ð°ÑÐ¸</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Скопіювати кількість</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ÐºÑÐ»ÑÐºÑÑÑÑ</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Скопіювати комісію</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ÐºÐ¾Ð¼ÑÑÑÑ</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Скопіювати після комісії</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð¿ÑÑÐ»Ñ ÐºÐ¾Ð¼ÑÑÑÑ</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Скопіювати байти</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð±Ð°Ð¹ÑÐ¸</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Скопіювати інше</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ÑÐ½ÑÐµ</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Скопіювати решту</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ÑÐµÑÑÑ</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 заблоковано)</translation>
+        <translation>(%1 Ð·Ð°Ð±Ð»Ð¾ÐºÐ¾Ð²Ð°Ð½Ð¾)</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>так</translation>
+        <translation>ÑÐ°Ðº</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>ні</translation>
+        <translation>Ð½Ñ</translation>
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Може відрізнятися на +/- %1 сатоші за введені</translation>
+        <translation>ÐÐ¾Ð¶Ðµ Ð²ÑÐ´ÑÑÐ·Ð½ÑÑÐ¸ÑÑ Ð½Ð° +/- %1 ÑÐ°ÑÐ¾ÑÑ Ð·Ð° Ð²Ð²ÐµÐ´ÐµÐ½Ñ</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>немає мітки</translation>
+        <translation>Ð½ÐµÐ¼Ð°Ñ Ð¼ÑÑÐºÐ¸</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>решта з %1 (%2)</translation>
+        <translation>ÑÐµÑÑÐ° Ð· %1 (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(решта)</translation>
+        <translation>(ÑÐµÑÑÐ°)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Редагувати адресу</translation>
+        <translation>Ð ÐµÐ´Ð°Ð³ÑÐ²Ð°ÑÐ¸ Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Мітка</translation>
+        <translation>&amp;ÐÑÑÐºÐ°</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Мітка, пов'язана з цим записом списку адрес</translation>
+        <translation>ÐÑÑÐºÐ°, Ð¿Ð¾Ð²'ÑÐ·Ð°Ð½Ð° Ð· ÑÐ¸Ð¼ Ð·Ð°Ð¿Ð¸ÑÐ¾Ð¼ ÑÐ¿Ð¸ÑÐºÑ Ð°Ð´ÑÐµÑ</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Адреса, пов'язана з цим записом списку адрес. Це поле може бути модифіковане лише для адрес відправлення.</translation>
+        <translation>ÐÐ´ÑÐµÑÐ°, Ð¿Ð¾Ð²'ÑÐ·Ð°Ð½Ð° Ð· ÑÐ¸Ð¼ Ð·Ð°Ð¿Ð¸ÑÐ¾Ð¼ ÑÐ¿Ð¸ÑÐºÑ Ð°Ð´ÑÐµÑ. Ð¦Ðµ Ð¿Ð¾Ð»Ðµ Ð¼Ð¾Ð¶Ðµ Ð±ÑÑÐ¸ Ð¼Ð¾Ð´Ð¸ÑÑÐºÐ¾Ð²Ð°Ð½Ðµ Ð»Ð¸ÑÐµ Ð´Ð»Ñ Ð°Ð´ÑÐµÑ Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð½Ñ.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Адреса</translation>
+        <translation>&amp;ÐÐ´ÑÐµÑÐ°</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Нова адреса для отримання</translation>
+        <translation>ÐÐ¾Ð²Ð° Ð°Ð´ÑÐµÑÐ° Ð´Ð»Ñ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Нова адреса для відправлення</translation>
+        <translation>ÐÐ¾Ð²Ð° Ð°Ð´ÑÐµÑÐ° Ð´Ð»Ñ Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Редагувати адресу для отримання</translation>
+        <translation>Ð ÐµÐ´Ð°Ð³ÑÐ²Ð°ÑÐ¸ Ð°Ð´ÑÐµÑÑ Ð´Ð»Ñ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Редагувати адресу для відправлення</translation>
+        <translation>Ð ÐµÐ´Ð°Ð³ÑÐ²Ð°ÑÐ¸ Ð°Ð´ÑÐµÑÑ Ð´Ð»Ñ Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Pirate address.</source>
-        <translation>Введена адреса "%1" не є адресою в мережі Pirate.</translation>
+        <translation>ÐÐ²ÐµÐ´ÐµÐ½Ð° Ð°Ð´ÑÐµÑÐ° "%1" Ð½Ðµ Ñ Ð°Ð´ÑÐµÑÐ¾Ñ Ð² Ð¼ÐµÑÐµÐ¶Ñ Pirate.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Введена адреса «%1» вже присутня в адресній книзі.</translation>
+        <translation>ÐÐ²ÐµÐ´ÐµÐ½Ð° Ð°Ð´ÑÐµÑÐ° «%1» Ð²Ð¶Ðµ Ð¿ÑÐ¸ÑÑÑÐ½Ñ Ð² Ð°Ð´ÑÐµÑÐ½ÑÐ¹ ÐºÐ½Ð¸Ð·Ñ.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Неможливо розблокувати гаманець.</translation>
+        <translation>ÐÐµÐ¼Ð¾Ð¶Ð»Ð¸Ð²Ð¾ ÑÐ¾Ð·Ð±Ð»Ð¾ÐºÑÐ²Ð°ÑÐ¸ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Не вдалося згенерувати нові ключі.</translation>
+        <translation>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ð·Ð³ÐµÐ½ÐµÑÑÐ²Ð°ÑÐ¸ Ð½Ð¾Ð²Ñ ÐºÐ»ÑÑÑ.</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Буде створено новий каталог даних.</translation>
+        <translation>ÐÑÐ´Ðµ ÑÑÐ²Ð¾ÑÐµÐ½Ð¾ Ð½Ð¾Ð²Ð¸Ð¹ ÐºÐ°ÑÐ°Ð»Ð¾Ð³ Ð´Ð°Ð½Ð¸Ñ.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>назва</translation>
+        <translation>Ð½Ð°Ð·Ð²Ð°</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Каталог вже існує. Додайте %1, якщо ви мали намір створити там новий каталог.</translation>
+        <translation>ÐÐ°ÑÐ°Ð»Ð¾Ð³ Ð²Ð¶Ðµ ÑÑÐ½ÑÑ. ÐÐ¾Ð´Ð°Ð¹ÑÐµ %1, ÑÐºÑÐ¾ Ð²Ð¸ Ð¼Ð°Ð»Ð¸ Ð½Ð°Ð¼ÑÑ ÑÑÐ²Ð¾ÑÐ¸ÑÐ¸ ÑÐ°Ð¼ Ð½Ð¾Ð²Ð¸Ð¹ ÐºÐ°ÑÐ°Ð»Ð¾Ð³.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Шлях вже існує і не є каталогом.</translation>
+        <translation>Ð¨Ð»ÑÑ Ð²Ð¶Ðµ ÑÑÐ½ÑÑ Ñ Ð½Ðµ Ñ ÐºÐ°ÑÐ°Ð»Ð¾Ð³Ð¾Ð¼.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Тут неможливо створити каталог даних.</translation>
+        <translation>Ð¢ÑÑ Ð½ÐµÐ¼Ð¾Ð¶Ð»Ð¸Ð²Ð¾ ÑÑÐ²Ð¾ÑÐ¸ÑÐ¸ ÐºÐ°ÑÐ°Ð»Ð¾Ð³ Ð´Ð°Ð½Ð¸Ñ.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>версії</translation>
+        <translation>Ð²ÐµÑÑÑÑ</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
-        <translation>(%1-бітний)</translation>
+        <translation>(%1-Ð±ÑÑÐ½Ð¸Ð¹)</translation>
     </message>
     <message>
         <source>About %1</source>
-        <translation>Про %1</translation>
+        <translation>ÐÑÐ¾ %1</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Параметри командного рядка</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑÐ¸ ÐºÐ¾Ð¼Ð°Ð½Ð´Ð½Ð¾Ð³Ð¾ ÑÑÐ´ÐºÐ°</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Використання:</translation>
+        <translation>ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ°Ð½Ð½Ñ:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>параметри командного рядка</translation>
+        <translation>Ð¿Ð°ÑÐ°Ð¼ÐµÑÑÐ¸ ÐºÐ¾Ð¼Ð°Ð½Ð´Ð½Ð¾Ð³Ð¾ ÑÑÐ´ÐºÐ°</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>Параметри інтерфейсу:</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑÐ¸ ÑÐ½ÑÐµÑÑÐµÐ¹ÑÑ:</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>Обирати каталог даних під час запуску (типово: %u)</translation>
+        <translation>ÐÐ±Ð¸ÑÐ°ÑÐ¸ ÐºÐ°ÑÐ°Ð»Ð¾Ð³ Ð´Ð°Ð½Ð¸Ñ Ð¿ÑÐ´ ÑÐ°Ñ Ð·Ð°Ð¿ÑÑÐºÑ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Встановити мову (наприклад: "de_DE") (типово: системна)</translation>
+        <translation>ÐÑÑÐ°Ð½Ð¾Ð²Ð¸ÑÐ¸ Ð¼Ð¾Ð²Ñ (Ð½Ð°Ð¿ÑÐ¸ÐºÐ»Ð°Ð´: "de_DE") (ÑÐ¸Ð¿Ð¾Ð²Ð¾: ÑÐ¸ÑÑÐµÐ¼Ð½Ð°)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Запускати згорнутим</translation>
+        <translation>ÐÐ°Ð¿ÑÑÐºÐ°ÑÐ¸ Ð·Ð³Ð¾ÑÐ½ÑÑÐ¸Ð¼</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Вказати кореневі SSL-сертифікати для запиту платежу (типово: -системні-)</translation>
+        <translation>ÐÐºÐ°Ð·Ð°ÑÐ¸ ÐºÐ¾ÑÐµÐ½ÐµÐ²Ñ SSL-ÑÐµÑÑÐ¸ÑÑÐºÐ°ÑÐ¸ Ð´Ð»Ñ Ð·Ð°Ð¿Ð¸ÑÑ Ð¿Ð»Ð°ÑÐµÐ¶Ñ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: -ÑÐ¸ÑÑÐµÐ¼Ð½Ñ-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>Показувати заставку під час запуску (типово: %u)</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·ÑÐ²Ð°ÑÐ¸ Ð·Ð°ÑÑÐ°Ð²ÐºÑ Ð¿ÑÐ´ ÑÐ°Ñ Ð·Ð°Ð¿ÑÑÐºÑ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Reset all settings changed in the GUI</source>
-        <translation>Скинути налаштування, які було змінено через графічний інтерфейс користувача</translation>
+        <translation>Ð¡ÐºÐ¸Ð½ÑÑÐ¸ Ð½Ð°Ð»Ð°ÑÑÑÐ²Ð°Ð½Ð½Ñ, ÑÐºÑ Ð±ÑÐ»Ð¾ Ð·Ð¼ÑÐ½ÐµÐ½Ð¾ ÑÐµÑÐµÐ· Ð³ÑÐ°ÑÑÑÐ½Ð¸Ð¹ ÑÐ½ÑÐµÑÑÐµÐ¹Ñ ÐºÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐ°</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Вітання</translation>
+        <translation>ÐÑÑÐ°Ð½Ð½Ñ</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
-        <translation>Ласкаво просимо до %1.</translation>
+        <translation>ÐÐ°ÑÐºÐ°Ð²Ð¾ Ð¿ÑÐ¾ÑÐ¸Ð¼Ð¾ Ð´Ð¾ %1.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>Оскільки це перший запуск програми, ви можете обрати де %1 буде зберігати дані.</translation>
+        <translation>ÐÑÐºÑÐ»ÑÐºÐ¸ ÑÐµ Ð¿ÐµÑÑÐ¸Ð¹ Ð·Ð°Ð¿ÑÑÐº Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð¸, Ð²Ð¸ Ð¼Ð¾Ð¶ÐµÑÐµ Ð¾Ð±ÑÐ°ÑÐ¸ Ð´Ðµ %1 Ð±ÑÐ´Ðµ Ð·Ð±ÐµÑÑÐ³Ð°ÑÐ¸ Ð´Ð°Ð½Ñ.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Використовувати типовий каталог даних</translation>
+        <translation>ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ²Ð°ÑÐ¸ ÑÐ¸Ð¿Ð¾Ð²Ð¸Ð¹ ÐºÐ°ÑÐ°Ð»Ð¾Ð³ Ð´Ð°Ð½Ð¸Ñ</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Використовувати свій каталог даних:</translation>
+        <translation>ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ²Ð°ÑÐ¸ ÑÐ²ÑÐ¹ ÐºÐ°ÑÐ°Ð»Ð¾Ð³ Ð´Ð°Ð½Ð¸Ñ:</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Помилка: неможливо створити обраний каталог даних «%1».</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ°: Ð½ÐµÐ¼Ð¾Ð¶Ð»Ð¸Ð²Ð¾ ÑÑÐ²Ð¾ÑÐ¸ÑÐ¸ Ð¾Ð±ÑÐ°Ð½Ð¸Ð¹ ÐºÐ°ÑÐ°Ð»Ð¾Ð³ Ð´Ð°Ð½Ð¸Ñ «%1».</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Помилка</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ°</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>Доступно %n ГБ вільного простору</numerusform><numerusform>Доступно %n ГБ вільного простору</numerusform><numerusform>Доступно %n ГБ вільного простору</numerusform></translation>
+        <translation><numerusform>ÐÐ¾ÑÑÑÐ¿Ð½Ð¾ %n ÐÐ Ð²ÑÐ»ÑÐ½Ð¾Ð³Ð¾ Ð¿ÑÐ¾ÑÑÐ¾ÑÑ</numerusform><numerusform>ÐÐ¾ÑÑÑÐ¿Ð½Ð¾ %n ÐÐ Ð²ÑÐ»ÑÐ½Ð¾Ð³Ð¾ Ð¿ÑÐ¾ÑÑÐ¾ÑÑ</numerusform><numerusform>ÐÐ¾ÑÑÑÐ¿Ð½Ð¾ %n ÐÐ Ð²ÑÐ»ÑÐ½Ð¾Ð³Ð¾ Ð¿ÑÐ¾ÑÑÐ¾ÑÑ</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(в той час, як необхідно %n ГБ)</numerusform><numerusform>(в той час, як необхідно %n ГБ)</numerusform><numerusform>(в той час, як необхідно %n ГБ)</numerusform></translation>
+        <translation><numerusform>(Ð² ÑÐ¾Ð¹ ÑÐ°Ñ, ÑÐº Ð½ÐµÐ¾Ð±ÑÑÐ´Ð½Ð¾ %n ÐÐ)</numerusform><numerusform>(Ð² ÑÐ¾Ð¹ ÑÐ°Ñ, ÑÐº Ð½ÐµÐ¾Ð±ÑÑÐ´Ð½Ð¾ %n ÐÐ)</numerusform><numerusform>(Ð² ÑÐ¾Ð¹ ÑÐ°Ñ, ÑÐº Ð½ÐµÐ¾Ð±ÑÑÐ´Ð½Ð¾ %n ÐÐ)</numerusform></translation>
     </message>
 </context>
 <context>
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation>Ð¤Ð¾ÑÐ¼Ð°</translation>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Pirate network, as detailed below.</source>
-        <translation>Нещодавні транзакції ще не відображаються, тому баланс вашого гаманця може бути неточним. Ця інформація буде вірною після того, як ваш гаманець завершить синхронізацію з мережею біткойн, врахровуйте показники нижче.</translation>
+        <translation>ÐÐµÑÐ¾Ð´Ð°Ð²Ð½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ ÑÐµ Ð½Ðµ Ð²ÑÐ´Ð¾Ð±ÑÐ°Ð¶Ð°ÑÑÑÑÑ, ÑÐ¾Ð¼Ñ Ð±Ð°Ð»Ð°Ð½Ñ Ð²Ð°ÑÐ¾Ð³Ð¾ Ð³Ð°Ð¼Ð°Ð½ÑÑ Ð¼Ð¾Ð¶Ðµ Ð±ÑÑÐ¸ Ð½ÐµÑÐ¾ÑÐ½Ð¸Ð¼. Ð¦Ñ ÑÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ Ð±ÑÐ´Ðµ Ð²ÑÑÐ½Ð¾Ñ Ð¿ÑÑÐ»Ñ ÑÐ¾Ð³Ð¾, ÑÐº Ð²Ð°Ñ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ Ð·Ð°Ð²ÐµÑÑÐ¸ÑÑ ÑÐ¸Ð½ÑÑÐ¾Ð½ÑÐ·Ð°ÑÑÑ Ð· Ð¼ÐµÑÐµÐ¶ÐµÑ Ð±ÑÑÐºÐ¾Ð¹Ð½, Ð²ÑÐ°ÑÑÐ¾Ð²ÑÐ¹ÑÐµ Ð¿Ð¾ÐºÐ°Ð·Ð½Ð¸ÐºÐ¸ Ð½Ð¸Ð¶ÑÐµ.</translation>
     </message>
     <message>
         <source>Attempting to spend coins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Спроба видправити біткойни, які ще не відображаються, не буде прийнята мережею.</translation>
+        <translation>Ð¡Ð¿ÑÐ¾Ð±Ð° Ð²Ð¸Ð´Ð¿ÑÐ°Ð²Ð¸ÑÐ¸ Ð±ÑÑÐºÐ¾Ð¹Ð½Ð¸, ÑÐºÑ ÑÐµ Ð½Ðµ Ð²ÑÐ´Ð¾Ð±ÑÐ°Ð¶Ð°ÑÑÑÑÑ, Ð½Ðµ Ð±ÑÐ´Ðµ Ð¿ÑÐ¸Ð¹Ð½ÑÑÐ° Ð¼ÐµÑÐµÐ¶ÐµÑ.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
-        <translation>Залишилося блоків</translation>
+        <translation>ÐÐ°Ð»Ð¸ÑÐ¸Ð»Ð¾ÑÑ Ð±Ð»Ð¾ÐºÑÐ²</translation>
     </message>
     <message>
         <source>Unknown...</source>
-        <translation>Невідомо...</translation>
+        <translation>ÐÐµÐ²ÑÐ´Ð¾Ð¼Ð¾...</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Час останнього блоку</translation>
+        <translation>Ð§Ð°Ñ Ð¾ÑÑÐ°Ð½Ð½ÑÐ¾Ð³Ð¾ Ð±Ð»Ð¾ÐºÑ</translation>
     </message>
     <message>
         <source>Progress</source>
-        <translation>Прогрес</translation>
+        <translation>ÐÑÐ¾Ð³ÑÐµÑ</translation>
     </message>
     <message>
         <source>Progress increase per hour</source>
-        <translation>Прогрес за годину</translation>
+        <translation>ÐÑÐ¾Ð³ÑÐµÑ Ð·Ð° Ð³Ð¾Ð´Ð¸Ð½Ñ</translation>
     </message>
     <message>
         <source>calculating...</source>
-        <translation>рахування...</translation>
+        <translation>ÑÐ°ÑÑÐ²Ð°Ð½Ð½Ñ...</translation>
     </message>
     <message>
         <source>Estimated time left until synced</source>
-        <translation>Орієнтовний час до кінця синхронізації</translation>
+        <translation>ÐÑÑÑÐ½ÑÐ¾Ð²Ð½Ð¸Ð¹ ÑÐ°Ñ Ð´Ð¾ ÐºÑÐ½ÑÑ ÑÐ¸Ð½ÑÑÐ¾Ð½ÑÐ·Ð°ÑÑÑ</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Приховати</translation>
+        <translation>ÐÑÐ¸ÑÐ¾Ð²Ð°ÑÐ¸</translation>
     </message>
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Невідомо. Синхронізація заголовків (%1%)...</translation>
+        <translation>ÐÐµÐ²ÑÐ´Ð¾Ð¼Ð¾. Ð¡Ð¸Ð½ÑÑÐ¾Ð½ÑÐ·Ð°ÑÑÑ Ð·Ð°Ð³Ð¾Ð»Ð¾Ð²ÐºÑÐ² (%1%)...</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Відкрити URI</translation>
+        <translation>ÐÑÐ´ÐºÑÐ¸ÑÐ¸ URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Відкрити запит платежу з URI або файлу</translation>
+        <translation>ÐÑÐ´ÐºÑÐ¸ÑÐ¸ Ð·Ð°Ð¿Ð¸Ñ Ð¿Ð»Ð°ÑÐµÐ¶Ñ Ð· URI Ð°Ð±Ð¾ ÑÐ°Ð¹Ð»Ñ</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -938,138 +938,138 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Виберіть файл запиту платежу</translation>
+        <translation>ÐÐ¸Ð±ÐµÑÑÑÑ ÑÐ°Ð¹Ð» Ð·Ð°Ð¿Ð¸ÑÑ Ð¿Ð»Ð°ÑÐµÐ¶Ñ</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Виберіть файл запиту платежу</translation>
+        <translation>ÐÐ¸Ð±ÐµÑÑÑÑ ÑÐ°Ð¹Ð» Ð·Ð°Ð¿Ð¸ÑÑ Ð¿Ð»Ð°ÑÐµÐ¶Ñ</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Параметри</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑÐ¸</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Головні</translation>
+        <translation>&amp;ÐÐ¾Ð»Ð¾Ð²Ð½Ñ</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
-        <translation>&amp;Запускати %1 при вході в систему</translation>
+        <translation>&amp;ÐÐ°Ð¿ÑÑÐºÐ°ÑÐ¸ %1 Ð¿ÑÐ¸ Ð²ÑÐ¾Ð´Ñ Ð² ÑÐ¸ÑÑÐµÐ¼Ñ</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Розмір &amp;кешу бази даних</translation>
+        <translation>Ð Ð¾Ð·Ð¼ÑÑ &amp;ÐºÐµÑÑ Ð±Ð°Ð·Ð¸ Ð´Ð°Ð½Ð¸Ñ</translation>
     </message>
     <message>
         <source>MB</source>
-        <translation>МБ</translation>
+        <translation>ÐÐ</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Кількість потоків &amp;сценарію перевірки</translation>
+        <translation>ÐÑÐ»ÑÐºÑÑÑÑ Ð¿Ð¾ÑÐ¾ÐºÑÐ² &amp;ÑÑÐµÐ½Ð°ÑÑÑ Ð¿ÐµÑÐµÐ²ÑÑÐºÐ¸</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Приймати підключення ззовні</translation>
+        <translation>ÐÑÐ¸Ð¹Ð¼Ð°ÑÐ¸ Ð¿ÑÐ´ÐºÐ»ÑÑÐµÐ½Ð½Ñ Ð·Ð·Ð¾Ð²Ð½Ñ</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Дозволити вхідні з’єднання</translation>
+        <translation>ÐÐ¾Ð·Ð²Ð¾Ð»Ð¸ÑÐ¸ Ð²ÑÑÐ´Ð½Ñ Ð·âÑÐ´Ð½Ð°Ð½Ð½Ñ</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP-адреса проксі-сервера (наприклад IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>IP-Ð°Ð´ÑÐµÑÐ° Ð¿ÑÐ¾ÐºÑÑ-ÑÐµÑÐ²ÐµÑÐ° (Ð½Ð°Ð¿ÑÐ¸ÐºÐ»Ð°Ð´ IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Згортати замість закриття. Якщо ця опція включена, програма закриється лише після вибору відповідного пункту в меню.</translation>
+        <translation>ÐÐ³Ð¾ÑÑÐ°ÑÐ¸ Ð·Ð°Ð¼ÑÑÑÑ Ð·Ð°ÐºÑÐ¸ÑÑÑ. Ð¯ÐºÑÐ¾ ÑÑ Ð¾Ð¿ÑÑÑ Ð²ÐºÐ»ÑÑÐµÐ½Ð°, Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð° Ð·Ð°ÐºÑÐ¸ÑÑÑÑÑ Ð»Ð¸ÑÐµ Ð¿ÑÑÐ»Ñ Ð²Ð¸Ð±Ð¾ÑÑ Ð²ÑÐ´Ð¿Ð¾Ð²ÑÐ´Ð½Ð¾Ð³Ð¾ Ð¿ÑÐ½ÐºÑÑ Ð² Ð¼ÐµÐ½Ñ.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>Сторонні URL (наприклад, block explorer), що з'являться на вкладці транзакцій у вигляді пункту контекстного меню. %s в URL буде замінено на хеш транзакції. Для відокремлення URLів використовуйте вертикальну риску |.</translation>
+        <translation>Ð¡ÑÐ¾ÑÐ¾Ð½Ð½Ñ URL (Ð½Ð°Ð¿ÑÐ¸ÐºÐ»Ð°Ð´, block explorer), ÑÐ¾ Ð·'ÑÐ²Ð»ÑÑÑÑÑ Ð½Ð° Ð²ÐºÐ»Ð°Ð´ÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ Ñ Ð²Ð¸Ð³Ð»ÑÐ´Ñ Ð¿ÑÐ½ÐºÑÑ ÐºÐ¾Ð½ÑÐµÐºÑÑÐ½Ð¾Ð³Ð¾ Ð¼ÐµÐ½Ñ. %s Ð² URL Ð±ÑÐ´Ðµ Ð·Ð°Ð¼ÑÐ½ÐµÐ½Ð¾ Ð½Ð° ÑÐµÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ. ÐÐ»Ñ Ð²ÑÐ´Ð¾ÐºÑÐµÐ¼Ð»ÐµÐ½Ð½Ñ URLÑÐ² Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ¹ÑÐµ Ð²ÐµÑÑÐ¸ÐºÐ°Ð»ÑÐ½Ñ ÑÐ¸ÑÐºÑ |.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>Сторонні URL транзакцій</translation>
+        <translation>Ð¡ÑÐ¾ÑÐ¾Ð½Ð½Ñ URL ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Активовані параметри командного рядка, що перекривають вищевказані параметри:</translation>
+        <translation>ÐÐºÑÐ¸Ð²Ð¾Ð²Ð°Ð½Ñ Ð¿Ð°ÑÐ°Ð¼ÐµÑÑÐ¸ ÐºÐ¾Ð¼Ð°Ð½Ð´Ð½Ð¾Ð³Ð¾ ÑÑÐ´ÐºÐ°, ÑÐ¾ Ð¿ÐµÑÐµÐºÑÐ¸Ð²Ð°ÑÑÑ Ð²Ð¸ÑÐµÐ²ÐºÐ°Ð·Ð°Ð½Ñ Ð¿Ð°ÑÐ°Ð¼ÐµÑÑÐ¸:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Скинути всі параметри клієнта на типові.</translation>
+        <translation>Ð¡ÐºÐ¸Ð½ÑÑÐ¸ Ð²ÑÑ Ð¿Ð°ÑÐ°Ð¼ÐµÑÑÐ¸ ÐºÐ»ÑÑÐ½ÑÐ° Ð½Ð° ÑÐ¸Ð¿Ð¾Ð²Ñ.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>С&amp;кинути параметри</translation>
+        <translation>Ð¡&amp;ÐºÐ¸Ð½ÑÑÐ¸ Ð¿Ð°ÑÐ°Ð¼ÐµÑÑÐ¸</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Мережа</translation>
+        <translation>&amp;ÐÐµÑÐµÐ¶Ð°</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = автоматично, &lt;0 = вказує кількість вільних ядер)</translation>
+        <translation>(0 = Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐ½Ð¾, &lt;0 = Ð²ÐºÐ°Ð·ÑÑ ÐºÑÐ»ÑÐºÑÑÑÑ Ð²ÑÐ»ÑÐ½Ð¸Ñ ÑÐ´ÐµÑ)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>Г&amp;аманець</translation>
+        <translation>Ð&amp;Ð°Ð¼Ð°Ð½ÐµÑÑ</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Експерт</translation>
+        <translation>ÐÐºÑÐ¿ÐµÑÑ</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ввімкнути &amp;керування входами</translation>
+        <translation>ÐÐ²ÑÐ¼ÐºÐ½ÑÑÐ¸ &amp;ÐºÐµÑÑÐ²Ð°Ð½Ð½Ñ Ð²ÑÐ¾Ð´Ð°Ð¼Ð¸</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Якщо вимкнути витрату непідтвердженої решти, то решту від транзакції не можна буде використати, допоки ця транзакція не матиме хоча б одне підтвердження. Це також впливає на розрахунок балансу.</translation>
+        <translation>Ð¯ÐºÑÐ¾ Ð²Ð¸Ð¼ÐºÐ½ÑÑÐ¸ Ð²Ð¸ÑÑÐ°ÑÑ Ð½ÐµÐ¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ð¾Ñ ÑÐµÑÑÐ¸, ÑÐ¾ ÑÐµÑÑÑ Ð²ÑÐ´ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð½Ðµ Ð¼Ð¾Ð¶Ð½Ð° Ð±ÑÐ´Ðµ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ°ÑÐ¸, Ð´Ð¾Ð¿Ð¾ÐºÐ¸ ÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð½Ðµ Ð¼Ð°ÑÐ¸Ð¼Ðµ ÑÐ¾ÑÐ° Ð± Ð¾Ð´Ð½Ðµ Ð¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ð½Ñ. Ð¦Ðµ ÑÐ°ÐºÐ¾Ð¶ Ð²Ð¿Ð»Ð¸Ð²Ð°Ñ Ð½Ð° ÑÐ¾Ð·ÑÐ°ÑÑÐ½Ð¾Ðº Ð±Ð°Ð»Ð°Ð½ÑÑ.</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Витрачати непідтверджену решту</translation>
+        <translation>&amp;ÐÐ¸ÑÑÐ°ÑÐ°ÑÐ¸ Ð½ÐµÐ¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ñ ÑÐµÑÑÑ</translation>
     </message>
     <message>
         <source>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично відкривати порт для клієнту біткоін на роутері. Працює лише якщо ваш роутер підтримує UPnP і ця функція увімкнена.</translation>
+        <translation>ÐÐ²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐ½Ð¾ Ð²ÑÐ´ÐºÑÐ¸Ð²Ð°ÑÐ¸ Ð¿Ð¾ÑÑ Ð´Ð»Ñ ÐºÐ»ÑÑÐ½ÑÑ Ð±ÑÑÐºÐ¾ÑÐ½ Ð½Ð° ÑÐ¾ÑÑÐµÑÑ. ÐÑÐ°ÑÑÑ Ð»Ð¸ÑÐµ ÑÐºÑÐ¾ Ð²Ð°Ñ ÑÐ¾ÑÑÐµÑ Ð¿ÑÐ´ÑÑÐ¸Ð¼ÑÑ UPnP Ñ ÑÑ ÑÑÐ½ÐºÑÑÑ ÑÐ²ÑÐ¼ÐºÐ½ÐµÐ½Ð°.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Відображення порту через &amp;UPnP</translation>
+        <translation>ÐÑÐ´Ð¾Ð±ÑÐ°Ð¶ÐµÐ½Ð½Ñ Ð¿Ð¾ÑÑÑ ÑÐµÑÐµÐ· &amp;UPnP</translation>
     </message>
     <message>
         <source>Connect to the Pirate network through a SOCKS5 proxy.</source>
-        <translation>Підключення до мережі Pirate через SOCKS5 проксі.</translation>
+        <translation>ÐÑÐ´ÐºÐ»ÑÑÐµÐ½Ð½Ñ Ð´Ð¾ Ð¼ÐµÑÐµÐ¶Ñ Pirate ÑÐµÑÐµÐ· SOCKS5 Ð¿ÑÐ¾ÐºÑÑ.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Підключення через SOCKS5 проксі (проксі за замовчуванням):</translation>
+        <translation>&amp;ÐÑÐ´ÐºÐ»ÑÑÐµÐ½Ð½Ñ ÑÐµÑÐµÐ· SOCKS5 Ð¿ÑÐ¾ÐºÑÑ (Ð¿ÑÐ¾ÐºÑÑ Ð·Ð° Ð·Ð°Ð¼Ð¾Ð²ÑÑÐ²Ð°Ð½Ð½ÑÐ¼):</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>&amp;IP проксі:</translation>
+        <translation>&amp;IP Ð¿ÑÐ¾ÐºÑÑ:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Порт:</translation>
+        <translation>&amp;ÐÐ¾ÑÑ:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Порт проксі-сервера (наприклад 9050)</translation>
+        <translation>ÐÐ¾ÑÑ Ð¿ÑÐ¾ÐºÑÑ-ÑÐµÑÐ²ÐµÑÐ° (Ð½Ð°Ð¿ÑÐ¸ÐºÐ»Ð°Ð´ 9050)</translation>
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>Приєднуватися до учасників через:</translation>
+        <translation>ÐÑÐ¸ÑÐ´Ð½ÑÐ²Ð°ÑÐ¸ÑÑ Ð´Ð¾ ÑÑÐ°ÑÐ½Ð¸ÐºÑÐ² ÑÐµÑÐµÐ·:</translation>
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Вказує на використання наявного типового проксі SOCKS5, що використувується задля встановлення зв'язку з пірами через мережу такого типу.</translation>
+        <translation>ÐÐºÐ°Ð·ÑÑ Ð½Ð° Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ°Ð½Ð½Ñ Ð½Ð°ÑÐ²Ð½Ð¾Ð³Ð¾ ÑÐ¸Ð¿Ð¾Ð²Ð¾Ð³Ð¾ Ð¿ÑÐ¾ÐºÑÑ SOCKS5, ÑÐ¾ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÑÐ²ÑÑÑÑÑÑ Ð·Ð°Ð´Ð»Ñ Ð²ÑÑÐ°Ð½Ð¾Ð²Ð»ÐµÐ½Ð½Ñ Ð·Ð²'ÑÐ·ÐºÑ Ð· Ð¿ÑÑÐ°Ð¼Ð¸ ÑÐµÑÐµÐ· Ð¼ÐµÑÐµÐ¶Ñ ÑÐ°ÐºÐ¾Ð³Ð¾ ÑÐ¸Ð¿Ñ.</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1085,891 +1085,891 @@
     </message>
     <message>
         <source>Connect to the Pirate network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Підключатися до мережі Pirate через окремий SOCKS5 проксі для прихованих сервісів Tor.</translation>
+        <translation>ÐÑÐ´ÐºÐ»ÑÑÐ°ÑÐ¸ÑÑ Ð´Ð¾ Ð¼ÐµÑÐµÐ¶Ñ Pirate ÑÐµÑÐµÐ· Ð¾ÐºÑÐµÐ¼Ð¸Ð¹ SOCKS5 Ð¿ÑÐ¾ÐºÑÑ Ð´Ð»Ñ Ð¿ÑÐ¸ÑÐ¾Ð²Ð°Ð½Ð¸Ñ ÑÐµÑÐ²ÑÑÑÐ² Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Використовувати окремий SOCKS5-проксі для з'єднання з учасниками через приховані сервіси Tor:</translation>
+        <translation>ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ²Ð°ÑÐ¸ Ð¾ÐºÑÐµÐ¼Ð¸Ð¹ SOCKS5-Ð¿ÑÐ¾ÐºÑÑ Ð´Ð»Ñ Ð·'ÑÐ´Ð½Ð°Ð½Ð½Ñ Ð· ÑÑÐ°ÑÐ½Ð¸ÐºÐ°Ð¼Ð¸ ÑÐµÑÐµÐ· Ð¿ÑÐ¸ÑÐ¾Ð²Ð°Ð½Ñ ÑÐµÑÐ²ÑÑÐ¸ Tor:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Вікно</translation>
+        <translation>&amp;ÐÑÐºÐ½Ð¾</translation>
     </message>
     <message>
         <source>Hide tray icon</source>
-        <translation>Сховати іконку в треї</translation>
+        <translation>Ð¡ÑÐ¾Ð²Ð°ÑÐ¸ ÑÐºÐ¾Ð½ÐºÑ Ð² ÑÑÐµÑ</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Показувати лише іконку в треї після згортання вікна.</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·ÑÐ²Ð°ÑÐ¸ Ð»Ð¸ÑÐµ ÑÐºÐ¾Ð½ÐºÑ Ð² ÑÑÐµÑ Ð¿ÑÑÐ»Ñ Ð·Ð³Ð¾ÑÑÐ°Ð½Ð½Ñ Ð²ÑÐºÐ½Ð°.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>Мінімізувати &amp;у трей</translation>
+        <translation>ÐÑÐ½ÑÐ¼ÑÐ·ÑÐ²Ð°ÑÐ¸ &amp;Ñ ÑÑÐµÐ¹</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>Згортати замість закритт&amp;я</translation>
+        <translation>ÐÐ³Ð¾ÑÑÐ°ÑÐ¸ Ð·Ð°Ð¼ÑÑÑÑ Ð·Ð°ÐºÑÐ¸ÑÑ&amp;Ñ</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Відображення</translation>
+        <translation>&amp;ÐÑÐ´Ð¾Ð±ÑÐ°Ð¶ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Мов&amp;а інтерфейсу користувача:</translation>
+        <translation>ÐÐ¾Ð²&amp;Ð° ÑÐ½ÑÐµÑÑÐµÐ¹ÑÑ ÐºÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐ°:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>В&amp;имірювати монети в:</translation>
+        <translation>Ð&amp;Ð¸Ð¼ÑÑÑÐ²Ð°ÑÐ¸ Ð¼Ð¾Ð½ÐµÑÐ¸ Ð²:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Виберіть одиницю вимірювання монет, яка буде відображатись в гаманці та при відправленні.</translation>
+        <translation>ÐÐ¸Ð±ÐµÑÑÑÑ Ð¾Ð´Ð¸Ð½Ð¸ÑÑ Ð²Ð¸Ð¼ÑÑÑÐ²Ð°Ð½Ð½Ñ Ð¼Ð¾Ð½ÐµÑ, ÑÐºÐ° Ð±ÑÐ´Ðµ Ð²ÑÐ´Ð¾Ð±ÑÐ°Ð¶Ð°ÑÐ¸ÑÑ Ð² Ð³Ð°Ð¼Ð°Ð½ÑÑ ÑÐ° Ð¿ÑÐ¸ Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð½Ñ.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Показати або сховати керування входами.</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·Ð°ÑÐ¸ Ð°Ð±Ð¾ ÑÑÐ¾Ð²Ð°ÑÐ¸ ÐºÐµÑÑÐ²Ð°Ð½Ð½Ñ Ð²ÑÐ¾Ð´Ð°Ð¼Ð¸.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;Гаразд</translation>
+        <translation>&amp;ÐÐ°ÑÐ°Ð·Ð´</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Скасувати</translation>
+        <translation>&amp;Ð¡ÐºÐ°ÑÑÐ²Ð°ÑÐ¸</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>типово</translation>
+        <translation>ÑÐ¸Ð¿Ð¾Ð²Ð¾</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>відсутні</translation>
+        <translation>Ð²ÑÐ´ÑÑÑÐ½Ñ</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Підтвердження скидання параметрів</translation>
+        <translation>ÐÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ð½Ñ ÑÐºÐ¸Ð´Ð°Ð½Ð½Ñ Ð¿Ð°ÑÐ°Ð¼ÐµÑÑÑÐ²</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Для застосування змін необхідно перезапустити клієнта.</translation>
+        <translation>ÐÐ»Ñ Ð·Ð°ÑÑÐ¾ÑÑÐ²Ð°Ð½Ð½Ñ Ð·Ð¼ÑÐ½ Ð½ÐµÐ¾Ð±ÑÑÐ´Ð½Ð¾ Ð¿ÐµÑÐµÐ·Ð°Ð¿ÑÑÑÐ¸ÑÐ¸ ÐºÐ»ÑÑÐ½ÑÐ°.</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Клієнт буде вимкнено. Продовжити?</translation>
+        <translation>ÐÐ»ÑÑÐ½Ñ Ð±ÑÐ´Ðµ Ð²Ð¸Ð¼ÐºÐ½ÐµÐ½Ð¾. ÐÑÐ¾Ð´Ð¾Ð²Ð¶Ð¸ÑÐ¸?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Ця зміна вступить в силу після перезапуску клієнта</translation>
+        <translation>Ð¦Ñ Ð·Ð¼ÑÐ½Ð° Ð²ÑÑÑÐ¿Ð¸ÑÑ Ð² ÑÐ¸Ð»Ñ Ð¿ÑÑÐ»Ñ Ð¿ÐµÑÐµÐ·Ð°Ð¿ÑÑÐºÑ ÐºÐ»ÑÑÐ½ÑÐ°</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Невірно вказано адресу проксі.</translation>
+        <translation>ÐÐµÐ²ÑÑÐ½Ð¾ Ð²ÐºÐ°Ð·Ð°Ð½Ð¾ Ð°Ð´ÑÐµÑÑ Ð¿ÑÐ¾ÐºÑÑ.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation>Ð¤Ð¾ÑÐ¼Ð°</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pirate network after a connection is established, but this process has not completed yet.</source>
-        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею Pirate після встановлення підключення, але цей процес ще не завершено.</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·Ð°Ð½Ð° ÑÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ Ð²Ð¶Ðµ Ð¼Ð¾Ð¶Ðµ Ð±ÑÑÐ¸ Ð·Ð°ÑÑÐ°ÑÑÐ»Ð¾Ñ. ÐÐ°Ñ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ Ð±ÑÐ´Ðµ Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐ½Ð¾ ÑÐ¸Ð½ÑÑÐ¾Ð½ÑÐ·Ð¾Ð²Ð°Ð½Ð¾ Ð· Ð¼ÐµÑÐµÐ¶ÐµÑ Pirate Ð¿ÑÑÐ»Ñ Ð²ÑÑÐ°Ð½Ð¾Ð²Ð»ÐµÐ½Ð½Ñ Ð¿ÑÐ´ÐºÐ»ÑÑÐµÐ½Ð½Ñ, Ð°Ð»Ðµ ÑÐµÐ¹ Ð¿ÑÐ¾ÑÐµÑ ÑÐµ Ð½Ðµ Ð·Ð°Ð²ÐµÑÑÐµÐ½Ð¾.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Тільки спостереження:</translation>
+        <translation>Ð¢ÑÐ»ÑÐºÐ¸ ÑÐ¿Ð¾ÑÑÐµÑÐµÐ¶ÐµÐ½Ð½Ñ:</translation>
     </message>
     <message>
-        <source>Available:</source>
-        <translation>Наявно:</translation>
+        <source>Transparent:</source>
+        <translation>ÐÐ°ÑÐ²Ð½Ð¾:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Ваш поточний підтверджений баланс</translation>
+        <translation>ÐÐ°Ñ Ð¿Ð¾ÑÐ¾ÑÐ½Ð¸Ð¹ Ð¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ð¸Ð¹ Ð±Ð°Ð»Ð°Ð½Ñ</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>Очікується:</translation>
+        <translation>ÐÑÑÐºÑÑÑÑÑÑ:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Сума монет у непідтверджених транзакціях</translation>
+        <translation>Ð¡ÑÐ¼Ð° Ð¼Ð¾Ð½ÐµÑ Ñ Ð½ÐµÐ¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ð¸Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑÑ</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Незрілі:</translation>
+        <translation>ÐÐµÐ·ÑÑÐ»Ñ:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Баланс видобутих та ще недозрілих монет</translation>
+        <translation>ÐÐ°Ð»Ð°Ð½Ñ Ð²Ð¸Ð´Ð¾Ð±ÑÑÐ¸Ñ ÑÐ° ÑÐµ Ð½ÐµÐ´Ð¾Ð·ÑÑÐ»Ð¸Ñ Ð¼Ð¾Ð½ÐµÑ</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>Баланси</translation>
+        <translation>ÐÐ°Ð»Ð°Ð½ÑÐ¸</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Всього:</translation>
+        <translation>ÐÑÑÐ¾Ð³Ð¾:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Ваш поточний сукупний баланс</translation>
+        <translation>ÐÐ°Ñ Ð¿Ð¾ÑÐ¾ÑÐ½Ð¸Ð¹ ÑÑÐºÑÐ¿Ð½Ð¸Ð¹ Ð±Ð°Ð»Ð°Ð½Ñ</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Ваш поточний баланс в адресах для спостереження</translation>
+        <translation>ÐÐ°Ñ Ð¿Ð¾ÑÐ¾ÑÐ½Ð¸Ð¹ Ð±Ð°Ð»Ð°Ð½Ñ Ð² Ð°Ð´ÑÐµÑÐ°Ñ Ð´Ð»Ñ ÑÐ¿Ð¾ÑÑÐµÑÐµÐ¶ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Доступно:</translation>
+        <translation>ÐÐ¾ÑÑÑÐ¿Ð½Ð¾:</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Останні транзакції</translation>
+        <translation>ÐÑÑÐ°Ð½Ð½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Непідтверджені транзакції на адреси для спостереження</translation>
+        <translation>ÐÐµÐ¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð½Ð° Ð°Ð´ÑÐµÑÐ¸ Ð´Ð»Ñ ÑÐ¿Ð¾ÑÑÐµÑÐµÐ¶ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Баланс видобутих та ще недозрілих монет на адресах для спостереження</translation>
+        <translation>ÐÐ°Ð»Ð°Ð½Ñ Ð²Ð¸Ð´Ð¾Ð±ÑÑÐ¸Ñ ÑÐ° ÑÐµ Ð½ÐµÐ´Ð¾Ð·ÑÑÐ»Ð¸Ñ Ð¼Ð¾Ð½ÐµÑ Ð½Ð° Ð°Ð´ÑÐµÑÐ°Ñ Ð´Ð»Ñ ÑÐ¿Ð¾ÑÑÐµÑÐµÐ¶ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Поточний сукупний баланс в адресах для спостереження</translation>
+        <translation>ÐÐ¾ÑÐ¾ÑÐ½Ð¸Ð¹ ÑÑÐºÑÐ¿Ð½Ð¸Ð¹ Ð±Ð°Ð»Ð°Ð½Ñ Ð² Ð°Ð´ÑÐµÑÐ°Ñ Ð´Ð»Ñ ÑÐ¿Ð¾ÑÑÐµÑÐµÐ¶ÐµÐ½Ð½Ñ</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Помилка запиту платежу</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ° Ð·Ð°Ð¿Ð¸ÑÑ Ð¿Ð»Ð°ÑÐµÐ¶Ñ</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>Обробка URI</translation>
+        <translation>ÐÐ±ÑÐ¾Ð±ÐºÐ° URI</translation>
     </message>
     </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>User Agent</source>
-        <translation>Клієнт користувача</translation>
+        <translation>ÐÐ»ÑÑÐ½Ñ ÐºÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐ°</translation>
     </message>
     <message>
         <source>Node/Service</source>
-        <translation>Вузол/Сервіс</translation>
+        <translation>ÐÑÐ·Ð¾Ð»/Ð¡ÐµÑÐ²ÑÑ</translation>
     </message>
     <message>
         <source>Ping</source>
-        <translation>Затримка</translation>
+        <translation>ÐÐ°ÑÑÐ¸Ð¼ÐºÐ°</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Кількість</translation>
+        <translation>ÐÑÐ»ÑÐºÑÑÑÑ</translation>
     </message>
     <message>
         <source>Enter a Pirate address (e.g. %1)</source>
-        <translation>Введіть адресу Pirate (наприклад %1)</translation>
+        <translation>ÐÐ²ÐµÐ´ÑÑÑ Ð°Ð´ÑÐµÑÑ Pirate (Ð½Ð°Ð¿ÑÐ¸ÐºÐ»Ð°Ð´ %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
-        <translation>%1 д</translation>
+        <translation>%1 Ð´</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 г</translation>
+        <translation>%1 Ð³</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 х</translation>
+        <translation>%1 Ñ</translation>
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1 с</translation>
+        <translation>%1 Ñ</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Відсутні</translation>
+        <translation>ÐÑÐ´ÑÑÑÐ½Ñ</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>Н/Д</translation>
+        <translation>Ð/Ð</translation>
     </message>
     <message>
         <source>%1 ms</source>
-        <translation>%1 мс</translation>
+        <translation>%1 Ð¼Ñ</translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 та %2</translation>
+        <translation>%1 ÑÐ° %2</translation>
     </message>
     </context>
 <context>
     <name>QObject::QObject</name>
     <message>
         <source>Error: %1</source>
-        <translation>Помилка: %1</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ°: %1</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Зберегти зображення...</translation>
+        <translation>&amp;ÐÐ±ÐµÑÐµÐ³ÑÐ¸ Ð·Ð¾Ð±ÑÐ°Ð¶ÐµÐ½Ð½Ñ...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Копіювати зображення</translation>
+        <translation>&amp;ÐÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð·Ð¾Ð±ÑÐ°Ð¶ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Зберегти QR-код</translation>
+        <translation>ÐÐ±ÐµÑÐµÐ³ÑÐ¸ QR-ÐºÐ¾Ð´</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>Зображення PNG (*.png)</translation>
+        <translation>ÐÐ¾Ð±ÑÐ°Ð¶ÐµÐ½Ð½Ñ PNG (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation>Н/Д</translation>
+        <translation>Ð/Ð</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Версія клієнту</translation>
+        <translation>ÐÐµÑÑÑÑ ÐºÐ»ÑÑÐ½ÑÑ</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Інформація</translation>
+        <translation>&amp;ÐÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation>Вікно зневадження</translation>
+        <translation>ÐÑÐºÐ½Ð¾ Ð·Ð½ÐµÐ²Ð°Ð´Ð¶ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Загальна</translation>
+        <translation>ÐÐ°Ð³Ð°Ð»ÑÐ½Ð°</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Використовується BerkeleyDB версії</translation>
+        <translation>ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÑÑÑÑÑ BerkeleyDB Ð²ÐµÑÑÑÑ</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Час запуску</translation>
+        <translation>Ð§Ð°Ñ Ð·Ð°Ð¿ÑÑÐºÑ</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Мережа</translation>
+        <translation>ÐÐµÑÐµÐ¶Ð°</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Ім’я</translation>
+        <translation>ÐÐ¼âÑ</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Кількість підключень</translation>
+        <translation>ÐÑÐ»ÑÐºÑÑÑÑ Ð¿ÑÐ´ÐºÐ»ÑÑÐµÐ½Ñ</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Ланцюг блоків</translation>
+        <translation>ÐÐ°Ð½ÑÑÐ³ Ð±Ð»Ð¾ÐºÑÐ²</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Поточне число блоків</translation>
+        <translation>ÐÐ¾ÑÐ¾ÑÐ½Ðµ ÑÐ¸ÑÐ»Ð¾ Ð±Ð»Ð¾ÐºÑÐ²</translation>
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>Пул пам'яті</translation>
+        <translation>ÐÑÐ» Ð¿Ð°Ð¼'ÑÑÑ</translation>
     </message>
     <message>
         <source>Current number of transactions</source>
-        <translation>Поточне число транзакцій</translation>
+        <translation>ÐÐ¾ÑÐ¾ÑÐ½Ðµ ÑÐ¸ÑÐ»Ð¾ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹</translation>
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>Використання пам'яті</translation>
+        <translation>ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ°Ð½Ð½Ñ Ð¿Ð°Ð¼'ÑÑÑ</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Отримано</translation>
+        <translation>ÐÑÑÐ¸Ð¼Ð°Ð½Ð¾</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Відправлено</translation>
+        <translation>ÐÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð¾</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;Учасники</translation>
+        <translation>&amp;Ð£ÑÐ°ÑÐ½Ð¸ÐºÐ¸</translation>
     </message>
     <message>
         <source>Banned peers</source>
-        <translation>Заблоковані вузли</translation>
+        <translation>ÐÐ°Ð±Ð»Ð¾ÐºÐ¾Ð²Ð°Ð½Ñ Ð²ÑÐ·Ð»Ð¸</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Виберіть учасника для перегляду детальнішої інформації</translation>
+        <translation>ÐÐ¸Ð±ÐµÑÑÑÑ ÑÑÐ°ÑÐ½Ð¸ÐºÐ° Ð´Ð»Ñ Ð¿ÐµÑÐµÐ³Ð»ÑÐ´Ñ Ð´ÐµÑÐ°Ð»ÑÐ½ÑÑÐ¾Ñ ÑÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ</translation>
     </message>
     <message>
         <source>Whitelisted</source>
-        <translation>В білому списку</translation>
+        <translation>Ð Ð±ÑÐ»Ð¾Ð¼Ñ ÑÐ¿Ð¸ÑÐºÑ</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>Напрямок</translation>
+        <translation>ÐÐ°Ð¿ÑÑÐ¼Ð¾Ðº</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Версія</translation>
+        <translation>ÐÐµÑÑÑÑ</translation>
     </message>
     <message>
         <source>Starting Block</source>
-        <translation>Початковий Блок</translation>
+        <translation>ÐÐ¾ÑÐ°ÑÐºÐ¾Ð²Ð¸Ð¹ ÐÐ»Ð¾Ðº</translation>
     </message>
     <message>
         <source>Synced Headers</source>
-        <translation>Синхронізовані Заголовки</translation>
+        <translation>Ð¡Ð¸Ð½ÑÑÐ¾Ð½ÑÐ·Ð¾Ð²Ð°Ð½Ñ ÐÐ°Ð³Ð¾Ð»Ð¾Ð²ÐºÐ¸</translation>
     </message>
     <message>
         <source>Synced Blocks</source>
-        <translation>Синхронізовані Блоки</translation>
+        <translation>Ð¡Ð¸Ð½ÑÑÐ¾Ð½ÑÐ·Ð¾Ð²Ð°Ð½Ñ ÐÐ»Ð¾ÐºÐ¸</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>Клієнт користувача</translation>
+        <translation>ÐÐ»ÑÑÐ½Ñ ÐºÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐ°</translation>
     </message>
     <message>
         <source>Decrease font size</source>
-        <translation>Зменшити розмір шрифту</translation>
+        <translation>ÐÐ¼ÐµÐ½ÑÐ¸ÑÐ¸ ÑÐ¾Ð·Ð¼ÑÑ ÑÑÐ¸ÑÑÑ</translation>
     </message>
     <message>
         <source>Increase font size</source>
-        <translation>Збільшити розмір шрифту</translation>
+        <translation>ÐÐ±ÑÐ»ÑÑÐ¸ÑÐ¸ ÑÐ¾Ð·Ð¼ÑÑ ÑÑÐ¸ÑÑÑ</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Сервіси</translation>
+        <translation>Ð¡ÐµÑÐ²ÑÑÐ¸</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Очки бану</translation>
+        <translation>ÐÑÐºÐ¸ Ð±Ð°Ð½Ñ</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Час з'єднання</translation>
+        <translation>Ð§Ð°Ñ Ð·'ÑÐ´Ð½Ð°Ð½Ð½Ñ</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Востаннє відправлено</translation>
+        <translation>ÐÐ¾ÑÑÐ°Ð½Ð½Ñ Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð¾</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Востаннє отримано</translation>
+        <translation>ÐÐ¾ÑÑÐ°Ð½Ð½Ñ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð¾</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Затримка</translation>
+        <translation>ÐÐ°ÑÑÐ¸Ð¼ÐºÐ°</translation>
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>Тривалість поточної затримки.</translation>
+        <translation>Ð¢ÑÐ¸Ð²Ð°Ð»ÑÑÑÑ Ð¿Ð¾ÑÐ¾ÑÐ½Ð¾Ñ Ð·Ð°ÑÑÐ¸Ð¼ÐºÐ¸.</translation>
     </message>
     <message>
         <source>Ping Wait</source>
-        <translation>Поточна Затримка</translation>
+        <translation>ÐÐ¾ÑÐ¾ÑÐ½Ð° ÐÐ°ÑÑÐ¸Ð¼ÐºÐ°</translation>
     </message>
     <message>
         <source>Time Offset</source>
-        <translation>Різниця часу</translation>
+        <translation>Ð ÑÐ·Ð½Ð¸ÑÑ ÑÐ°ÑÑ</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Час останнього блоку</translation>
+        <translation>Ð§Ð°Ñ Ð¾ÑÑÐ°Ð½Ð½ÑÐ¾Ð³Ð¾ Ð±Ð»Ð¾ÐºÑ</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Відкрити</translation>
+        <translation>&amp;ÐÑÐ´ÐºÑÐ¸ÑÐ¸</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Консоль</translation>
+        <translation>&amp;ÐÐ¾Ð½ÑÐ¾Ð»Ñ</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Мережевий трафік</translation>
+        <translation>&amp;ÐÐµÑÐµÐ¶ÐµÐ²Ð¸Ð¹ ÑÑÐ°ÑÑÐº</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Очистити</translation>
+        <translation>&amp;ÐÑÐ¸ÑÑÐ¸ÑÐ¸</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Всього</translation>
+        <translation>ÐÑÑÐ¾Ð³Ð¾</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>Вхідних:</translation>
+        <translation>ÐÑÑÐ´Ð½Ð¸Ñ:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Вихідних:</translation>
+        <translation>ÐÐ¸ÑÑÐ´Ð½Ð¸Ñ:</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Файл звіту зневадження</translation>
+        <translation>Ð¤Ð°Ð¹Ð» Ð·Ð²ÑÑÑ Ð·Ð½ÐµÐ²Ð°Ð´Ð¶ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Очистити консоль</translation>
+        <translation>ÐÑÐ¸ÑÑÐ¸ÑÐ¸ ÐºÐ¾Ð½ÑÐ¾Ð»Ñ</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>1 &amp;годину</translation>
+        <translation>1 &amp;Ð³Ð¾Ð´Ð¸Ð½Ñ</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1 &amp;день</translation>
+        <translation>1 &amp;Ð´ÐµÐ½Ñ</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 &amp;тиждень</translation>
+        <translation>1 &amp;ÑÐ¸Ð¶Ð´ÐµÐ½Ñ</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1 &amp;рік</translation>
+        <translation>1 &amp;ÑÑÐº</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Використовуйте стрілки вгору вниз для навігації по історії, і &lt;b&gt;Ctrl-L&lt;/b&gt; для очищення екрана.</translation>
+        <translation>ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ¹ÑÐµ ÑÑÑÑÐ»ÐºÐ¸ Ð²Ð³Ð¾ÑÑ Ð²Ð½Ð¸Ð· Ð´Ð»Ñ Ð½Ð°Ð²ÑÐ³Ð°ÑÑÑ Ð¿Ð¾ ÑÑÑÐ¾ÑÑÑ, Ñ &lt;b&gt;Ctrl-L&lt;/b&gt; Ð´Ð»Ñ Ð¾ÑÐ¸ÑÐµÐ½Ð½Ñ ÐµÐºÑÐ°Ð½Ð°.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Наберіть &lt;b&gt;help&lt;/b&gt; для перегляду доступних команд.</translation>
+        <translation>ÐÐ°Ð±ÐµÑÑÑÑ &lt;b&gt;help&lt;/b&gt; Ð´Ð»Ñ Ð¿ÐµÑÐµÐ³Ð»ÑÐ´Ñ Ð´Ð¾ÑÑÑÐ¿Ð½Ð¸Ñ ÐºÐ¾Ð¼Ð°Ð½Ð´.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
-        <translation>Мережева активність вимкнена.</translation>
+        <translation>ÐÐµÑÐµÐ¶ÐµÐ²Ð° Ð°ÐºÑÐ¸Ð²Ð½ÑÑÑÑ Ð²Ð¸Ð¼ÐºÐ½ÐµÐ½Ð°.</translation>
     </message>
     <message>
         <source>%1 B</source>
-        <translation>%1 Б</translation>
+        <translation>%1 Ð</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 КБ</translation>
+        <translation>%1 ÐÐ</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation>%1 МБ</translation>
+        <translation>%1 ÐÐ</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 ГБ</translation>
+        <translation>%1 ÐÐ</translation>
     </message>
     <message>
         <source>(node id: %1)</source>
-        <translation>(ІД вузла: %1)</translation>
+        <translation>(ÐÐ Ð²ÑÐ·Ð»Ð°: %1)</translation>
     </message>
     <message>
         <source>via %1</source>
-        <translation>через %1</translation>
+        <translation>ÑÐµÑÐµÐ· %1</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>ніколи</translation>
+        <translation>Ð½ÑÐºÐ¾Ð»Ð¸</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>Вхідний</translation>
+        <translation>ÐÑÑÐ´Ð½Ð¸Ð¹</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Вихідний</translation>
+        <translation>ÐÐ¸ÑÑÐ´Ð½Ð¸Ð¹</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Так</translation>
+        <translation>Ð¢Ð°Ðº</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Ні</translation>
+        <translation>ÐÑ</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Невідома</translation>
+        <translation>ÐÐµÐ²ÑÐ´Ð¾Ð¼Ð°</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Кількість:</translation>
+        <translation>&amp;ÐÑÐ»ÑÐºÑÑÑÑ:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Мітка:</translation>
+        <translation>&amp;ÐÑÑÐºÐ°:</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Повідомлення:</translation>
+        <translation>&amp;ÐÐ¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ:</translation>
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation>Повторно використати одну з адрес. Повторне використання адрес створює ризики безпеки та конфіденційності. Не використовуйте її, окрім як для створення повторного запиту платежу.</translation>
+        <translation>ÐÐ¾Ð²ÑÐ¾ÑÐ½Ð¾ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ°ÑÐ¸ Ð¾Ð´Ð½Ñ Ð· Ð°Ð´ÑÐµÑ. ÐÐ¾Ð²ÑÐ¾ÑÐ½Ðµ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ°Ð½Ð½Ñ Ð°Ð´ÑÐµÑ ÑÑÐ²Ð¾ÑÑÑ ÑÐ¸Ð·Ð¸ÐºÐ¸ Ð±ÐµÐ·Ð¿ÐµÐºÐ¸ ÑÐ° ÐºÐ¾Ð½ÑÑÐ´ÐµÐ½ÑÑÐ¹Ð½Ð¾ÑÑÑ. ÐÐµ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ¹ÑÐµ ÑÑ, Ð¾ÐºÑÑÐ¼ ÑÐº Ð´Ð»Ñ ÑÑÐ²Ð¾ÑÐµÐ½Ð½Ñ Ð¿Ð¾Ð²ÑÐ¾ÑÐ½Ð¾Ð³Ð¾ Ð·Ð°Ð¿Ð¸ÑÑ Ð¿Ð»Ð°ÑÐµÐ¶Ñ.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>По&amp;вторно використати адресу для отримання (не рекомендується)</translation>
+        <translation>ÐÐ¾&amp;Ð²ÑÐ¾ÑÐ½Ð¾ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ°ÑÐ¸ Ð°Ð´ÑÐµÑÑ Ð´Ð»Ñ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ (Ð½Ðµ ÑÐµÐºÐ¾Ð¼ÐµÐ½Ð´ÑÑÑÑÑÑ)</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pirate network.</source>
-        <translation>Необов'язкове повідомлення на додаток до запиту платежу, котре буде показане під час відкриття запиту. Примітка: Це повідомлення не буде відправлено з платежем через мережу Pirate.</translation>
+        <translation>ÐÐµÐ¾Ð±Ð¾Ð²'ÑÐ·ÐºÐ¾Ð²Ðµ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ Ð½Ð° Ð´Ð¾Ð´Ð°ÑÐ¾Ðº Ð´Ð¾ Ð·Ð°Ð¿Ð¸ÑÑ Ð¿Ð»Ð°ÑÐµÐ¶Ñ, ÐºÐ¾ÑÑÐµ Ð±ÑÐ´Ðµ Ð¿Ð¾ÐºÐ°Ð·Ð°Ð½Ðµ Ð¿ÑÐ´ ÑÐ°Ñ Ð²ÑÐ´ÐºÑÐ¸ÑÑÑ Ð·Ð°Ð¿Ð¸ÑÑ. ÐÑÐ¸Ð¼ÑÑÐºÐ°: Ð¦Ðµ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ Ð½Ðµ Ð±ÑÐ´Ðµ Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð¾ Ð· Ð¿Ð»Ð°ÑÐµÐ¶ÐµÐ¼ ÑÐµÑÐµÐ· Ð¼ÐµÑÐµÐ¶Ñ Pirate.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Необов'язкове поле для мітки нової адреси отримувача.</translation>
+        <translation>ÐÐµÐ¾Ð±Ð¾Ð²'ÑÐ·ÐºÐ¾Ð²Ðµ Ð¿Ð¾Ð»Ðµ Ð´Ð»Ñ Ð¼ÑÑÐºÐ¸ Ð½Ð¾Ð²Ð¾Ñ Ð°Ð´ÑÐµÑÐ¸ Ð¾ÑÑÐ¸Ð¼ÑÐ²Ð°ÑÐ°.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Використовуйте цю форму, щоб отримати платежі. Всі поля є &lt;b&gt;необов'язковими&lt;/b&gt;.</translation>
+        <translation>ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ¹ÑÐµ ÑÑ ÑÐ¾ÑÐ¼Ñ, ÑÐ¾Ð± Ð¾ÑÑÐ¸Ð¼Ð°ÑÐ¸ Ð¿Ð»Ð°ÑÐµÐ¶Ñ. ÐÑÑ Ð¿Ð¾Ð»Ñ Ñ &lt;b&gt;Ð½ÐµÐ¾Ð±Ð¾Ð²'ÑÐ·ÐºÐ¾Ð²Ð¸Ð¼Ð¸&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Необов'язкове поле для суми запиту. Залиште це поле пустим або впишіть нуль, щоб не надсилати у запиті конкретної суми.</translation>
+        <translation>ÐÐµÐ¾Ð±Ð¾Ð²'ÑÐ·ÐºÐ¾Ð²Ðµ Ð¿Ð¾Ð»Ðµ Ð´Ð»Ñ ÑÑÐ¼Ð¸ Ð·Ð°Ð¿Ð¸ÑÑ. ÐÐ°Ð»Ð¸ÑÑÐµ ÑÐµ Ð¿Ð¾Ð»Ðµ Ð¿ÑÑÑÐ¸Ð¼ Ð°Ð±Ð¾ Ð²Ð¿Ð¸ÑÑÑÑ Ð½ÑÐ»Ñ, ÑÐ¾Ð± Ð½Ðµ Ð½Ð°Ð´ÑÐ¸Ð»Ð°ÑÐ¸ Ñ Ð·Ð°Ð¿Ð¸ÑÑ ÐºÐ¾Ð½ÐºÑÐµÑÐ½Ð¾Ñ ÑÑÐ¼Ð¸.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Очистити всі поля в формі</translation>
+        <translation>ÐÑÐ¸ÑÑÐ¸ÑÐ¸ Ð²ÑÑ Ð¿Ð¾Ð»Ñ Ð² ÑÐ¾ÑÐ¼Ñ</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Очистити</translation>
+        <translation>ÐÑÐ¸ÑÑÐ¸ÑÐ¸</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Історія запитів платежу</translation>
+        <translation>ÐÑÑÐ¾ÑÑÑ Ð·Ð°Ð¿Ð¸ÑÑÐ² Ð¿Ð»Ð°ÑÐµÐ¶Ñ</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>Н&amp;адіслати запит платежу</translation>
+        <translation>Ð&amp;Ð°Ð´ÑÑÐ»Ð°ÑÐ¸ Ð·Ð°Ð¿Ð¸Ñ Ð¿Ð»Ð°ÑÐµÐ¶Ñ</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Показати вибраний запит (робить те ж саме, що й подвійний клік по запису)</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·Ð°ÑÐ¸ Ð²Ð¸Ð±ÑÐ°Ð½Ð¸Ð¹ Ð·Ð°Ð¿Ð¸Ñ (ÑÐ¾Ð±Ð¸ÑÑ ÑÐµ Ð¶ ÑÐ°Ð¼Ðµ, ÑÐ¾ Ð¹ Ð¿Ð¾Ð´Ð²ÑÐ¹Ð½Ð¸Ð¹ ÐºÐ»ÑÐº Ð¿Ð¾ Ð·Ð°Ð¿Ð¸ÑÑ)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Показати</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·Ð°ÑÐ¸</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Вилучити вибрані записи зі списку</translation>
+        <translation>ÐÐ¸Ð»ÑÑÐ¸ÑÐ¸ Ð²Ð¸Ð±ÑÐ°Ð½Ñ Ð·Ð°Ð¿Ð¸ÑÐ¸ Ð·Ñ ÑÐ¿Ð¸ÑÐºÑ</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Вилучити</translation>
+        <translation>ÐÐ¸Ð»ÑÑÐ¸ÑÐ¸</translation>
     </message>
     <message>
         <source>Copy URI</source>
-        <translation>Скопіювати адресу</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Скопіювати мітку</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð¼ÑÑÐºÑ</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Скопіювати повідомлення</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Скопіювати суму</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ÑÑÐ¼Ñ</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR-Код</translation>
+        <translation>QR-ÐÐ¾Ð´</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>&amp;Скопіювати URI</translation>
+        <translation>&amp;Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ URI</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Скопіювати &amp;адресу</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ &amp;Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Зберегти зображення...</translation>
+        <translation>&amp;ÐÐ±ÐµÑÐµÐ³ÑÐ¸ Ð·Ð¾Ð±ÑÐ°Ð¶ÐµÐ½Ð½Ñ...</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>Інформація про платіж</translation>
+        <translation>ÐÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ Ð¿ÑÐ¾ Ð¿Ð»Ð°ÑÑÐ¶</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Адреса</translation>
+        <translation>ÐÐ´ÑÐµÑÐ°</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Кількість</translation>
+        <translation>ÐÑÐ»ÑÐºÑÑÑÑ</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Мітка</translation>
+        <translation>ÐÑÑÐºÐ°</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Повідомлення</translation>
+        <translation>ÐÐ¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>ÐÐ°ÑÐ°</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Мітка</translation>
+        <translation>ÐÑÑÐºÐ°</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Повідомлення</translation>
+        <translation>ÐÐ¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>немає мітки</translation>
+        <translation>Ð½ÐµÐ¼Ð°Ñ Ð¼ÑÑÐºÐ¸</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(без повідомлення)</translation>
+        <translation>(Ð±ÐµÐ· Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ)</translation>
     </message>
     <message>
         <source>(no amount requested)</source>
-        <translation>(без суми)</translation>
+        <translation>(Ð±ÐµÐ· ÑÑÐ¼Ð¸)</translation>
     </message>
     <message>
         <source>Requested</source>
-        <translation>Запрошено</translation>
+        <translation>ÐÐ°Ð¿ÑÐ¾ÑÐµÐ½Ð¾</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Відправити</translation>
+        <translation>ÐÑÐ´Ð¿ÑÐ°Ð²Ð¸ÑÐ¸</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Керування монетами</translation>
+        <translation>ÐÐµÑÑÐ²Ð°Ð½Ð½Ñ Ð¼Ð¾Ð½ÐµÑÐ°Ð¼Ð¸</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Входи...</translation>
+        <translation>ÐÑÐ¾Ð´Ð¸...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>вибираються автоматично</translation>
+        <translation>Ð²Ð¸Ð±Ð¸ÑÐ°ÑÑÑÑÑ Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐ½Ð¾</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Недостатньо коштів!</translation>
+        <translation>ÐÐµÐ´Ð¾ÑÑÐ°ÑÐ½ÑÐ¾ ÐºÐ¾ÑÑÑÐ²!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Кількість:</translation>
+        <translation>ÐÑÐ»ÑÐºÑÑÑÑ:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Байтів:</translation>
+        <translation>ÐÐ°Ð¹ÑÑÐ²:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Сума:</translation>
+        <translation>Ð¡ÑÐ¼Ð°:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Комісія:</translation>
+        <translation>ÐÐ¾Ð¼ÑÑÑÑ:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Після комісії:</translation>
+        <translation>ÐÑÑÐ»Ñ ÐºÐ¾Ð¼ÑÑÑÑ:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Решта:</translation>
+        <translation>Ð ÐµÑÑÐ°:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Якщо це поле активовано, але адреса для решти відсутня або некоректна, то решта буде відправлена на новостворену адресу.</translation>
+        <translation>Ð¯ÐºÑÐ¾ ÑÐµ Ð¿Ð¾Ð»Ðµ Ð°ÐºÑÐ¸Ð²Ð¾Ð²Ð°Ð½Ð¾, Ð°Ð»Ðµ Ð°Ð´ÑÐµÑÐ° Ð´Ð»Ñ ÑÐµÑÑÐ¸ Ð²ÑÐ´ÑÑÑÐ½Ñ Ð°Ð±Ð¾ Ð½ÐµÐºÐ¾ÑÐµÐºÑÐ½Ð°, ÑÐ¾ ÑÐµÑÑÐ° Ð±ÑÐ´Ðµ Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð° Ð½Ð° Ð½Ð¾Ð²Ð¾ÑÑÐ²Ð¾ÑÐµÐ½Ñ Ð°Ð´ÑÐµÑÑ.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Вказати адресу для решти</translation>
+        <translation>ÐÐºÐ°Ð·Ð°ÑÐ¸ Ð°Ð´ÑÐµÑÑ Ð´Ð»Ñ ÑÐµÑÑÐ¸</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Комісія за передачу:</translation>
+        <translation>ÐÐ¾Ð¼ÑÑÑÑ Ð·Ð° Ð¿ÐµÑÐµÐ´Ð°ÑÑ:</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Виберіть...</translation>
+        <translation>ÐÐ¸Ð±ÐµÑÑÑÑ...</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>згорнути налаштування оплат</translation>
+        <translation>Ð·Ð³Ð¾ÑÐ½ÑÑÐ¸ Ð½Ð°Ð»Ð°ÑÑÑÐ²Ð°Ð½Ð½Ñ Ð¾Ð¿Ð»Ð°Ñ</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>за кілобайт</translation>
+        <translation>Ð·Ð° ÐºÑÐ»Ð¾Ð±Ð°Ð¹Ñ</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Якщо комісія встановлюється в 1000 сатоші і розмір транзакції лише 250 байтів, то опція "за кілобайт" встановлює комісію в 250 сатоші, в той час, як "всього щонайменше" - в 1000 сатоші. Для транзакцій більших за кілобайт в обох випадках буде знято комісію за кілобайт.</translation>
+        <translation>Ð¯ÐºÑÐ¾ ÐºÐ¾Ð¼ÑÑÑÑ Ð²ÑÑÐ°Ð½Ð¾Ð²Ð»ÑÑÑÑÑÑ Ð² 1000 ÑÐ°ÑÐ¾ÑÑ Ñ ÑÐ¾Ð·Ð¼ÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð»Ð¸ÑÐµ 250 Ð±Ð°Ð¹ÑÑÐ², ÑÐ¾ Ð¾Ð¿ÑÑÑ "Ð·Ð° ÐºÑÐ»Ð¾Ð±Ð°Ð¹Ñ" Ð²ÑÑÐ°Ð½Ð¾Ð²Ð»ÑÑ ÐºÐ¾Ð¼ÑÑÑÑ Ð² 250 ÑÐ°ÑÐ¾ÑÑ, Ð² ÑÐ¾Ð¹ ÑÐ°Ñ, ÑÐº "Ð²ÑÑÐ¾Ð³Ð¾ ÑÐ¾Ð½Ð°Ð¹Ð¼ÐµÐ½ÑÐµ" - Ð² 1000 ÑÐ°ÑÐ¾ÑÑ. ÐÐ»Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ Ð±ÑÐ»ÑÑÐ¸Ñ Ð·Ð° ÐºÑÐ»Ð¾Ð±Ð°Ð¹Ñ Ð² Ð¾Ð±Ð¾Ñ Ð²Ð¸Ð¿Ð°Ð´ÐºÐ°Ñ Ð±ÑÐ´Ðµ Ð·Ð½ÑÑÐ¾ ÐºÐ¾Ð¼ÑÑÑÑ Ð·Ð° ÐºÑÐ»Ð¾Ð±Ð°Ð¹Ñ.</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Приховати</translation>
+        <translation>ÐÑÐ¸ÑÐ¾Ð²Ð°ÑÐ¸</translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>всього щонайменше</translation>
+        <translation>Ð²ÑÑÐ¾Ð³Ð¾ ÑÐ¾Ð½Ð°Ð¹Ð¼ÐµÐ½ÑÐµ</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Pirate transactions than the network can process.</source>
-        <translation>Оплата тільки мінімальної комісії є прийнятною, допоки обсяг транзакцій є меншим простору в блоках. Але майте на увазі, що це може анулювати транзакцію, якщо попит на Pirate транзакції стане більшим, ніж мережа зможе обробити.</translation>
+        <translation>ÐÐ¿Ð»Ð°ÑÐ° ÑÑÐ»ÑÐºÐ¸ Ð¼ÑÐ½ÑÐ¼Ð°Ð»ÑÐ½Ð¾Ñ ÐºÐ¾Ð¼ÑÑÑÑ Ñ Ð¿ÑÐ¸Ð¹Ð½ÑÑÐ½Ð¾Ñ, Ð´Ð¾Ð¿Ð¾ÐºÐ¸ Ð¾Ð±ÑÑÐ³ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ Ñ Ð¼ÐµÐ½ÑÐ¸Ð¼ Ð¿ÑÐ¾ÑÑÐ¾ÑÑ Ð² Ð±Ð»Ð¾ÐºÐ°Ñ. ÐÐ»Ðµ Ð¼Ð°Ð¹ÑÐµ Ð½Ð° ÑÐ²Ð°Ð·Ñ, ÑÐ¾ ÑÐµ Ð¼Ð¾Ð¶Ðµ Ð°Ð½ÑÐ»ÑÐ²Ð°ÑÐ¸ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ, ÑÐºÑÐ¾ Ð¿Ð¾Ð¿Ð¸Ñ Ð½Ð° Pirate ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ ÑÑÐ°Ð½Ðµ Ð±ÑÐ»ÑÑÐ¸Ð¼, Ð½ÑÐ¶ Ð¼ÐµÑÐµÐ¶Ð° Ð·Ð¼Ð¾Ð¶Ðµ Ð¾Ð±ÑÐ¾Ð±Ð¸ÑÐ¸.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(читати підказки)</translation>
+        <translation>(ÑÐ¸ÑÐ°ÑÐ¸ Ð¿ÑÐ´ÐºÐ°Ð·ÐºÐ¸)</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Рекомендовано:</translation>
+        <translation>Ð ÐµÐºÐ¾Ð¼ÐµÐ½Ð´Ð¾Ð²Ð°Ð½Ð¾:</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Змінено:</translation>
+        <translation>ÐÐ¼ÑÐ½ÐµÐ½Ð¾:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Розумну оплату ще не ініціалізовано. Це, зазвичай, триває кілька блоків...)</translation>
+        <translation>(Ð Ð¾Ð·ÑÐ¼Ð½Ñ Ð¾Ð¿Ð»Ð°ÑÑ ÑÐµ Ð½Ðµ ÑÐ½ÑÑÑÐ°Ð»ÑÐ·Ð¾Ð²Ð°Ð½Ð¾. Ð¦Ðµ, Ð·Ð°Ð·Ð²Ð¸ÑÐ°Ð¹, ÑÑÐ¸Ð²Ð°Ñ ÐºÑÐ»ÑÐºÐ° Ð±Ð»Ð¾ÐºÑÐ²...)</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>звичайний</translation>
+        <translation>Ð·Ð²Ð¸ÑÐ°Ð¹Ð½Ð¸Ð¹</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>швидкий</translation>
+        <translation>ÑÐ²Ð¸Ð´ÐºÐ¸Ð¹</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Відправити на декілька адрес</translation>
+        <translation>ÐÑÐ´Ð¿ÑÐ°Ð²Ð¸ÑÐ¸ Ð½Ð° Ð´ÐµÐºÑÐ»ÑÐºÐ° Ð°Ð´ÑÐµÑ</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Дод&amp;ати одержувача</translation>
+        <translation>ÐÐ¾Ð´&amp;Ð°ÑÐ¸ Ð¾Ð´ÐµÑÐ¶ÑÐ²Ð°ÑÐ°</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Очистити всі поля в формі</translation>
+        <translation>ÐÑÐ¸ÑÑÐ¸ÑÐ¸ Ð²ÑÑ Ð¿Ð¾Ð»Ñ Ð² ÑÐ¾ÑÐ¼Ñ</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Пил:</translation>
+        <translation>ÐÐ¸Ð»:</translation>
     </message>
     <message>
         <source>Confirmation time target:</source>
-        <translation>Час підтвердження:</translation>
+        <translation>Ð§Ð°Ñ Ð¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ð½Ñ:</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Очистити &amp;все</translation>
+        <translation>ÐÑÐ¸ÑÑÐ¸ÑÐ¸ &amp;Ð²ÑÐµ</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Баланс:</translation>
+        <translation>ÐÐ°Ð»Ð°Ð½Ñ:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Підтвердити відправлення</translation>
+        <translation>ÐÑÐ´ÑÐ²ÐµÑÐ´Ð¸ÑÐ¸ Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;Відправити</translation>
+        <translation>&amp;ÐÑÐ´Ð¿ÑÐ°Ð²Ð¸ÑÐ¸</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Скопіювати кількість</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ÐºÑÐ»ÑÐºÑÑÑÑ</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Скопіювати суму</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ÑÑÐ¼Ñ</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Скопіювати комісію</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ÐºÐ¾Ð¼ÑÑÑÑ</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Скопіювати після комісії</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð¿ÑÑÐ»Ñ ÐºÐ¾Ð¼ÑÑÑÑ</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Скопіювати байти</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð±Ð°Ð¹ÑÐ¸</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Скопіювати інше</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ÑÐ½ÑÐµ</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Скопіювати решту</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ÑÐµÑÑÑ</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>немає мітки</translation>
+        <translation>Ð½ÐµÐ¼Ð°Ñ Ð¼ÑÑÐºÐ¸</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;Кількість:</translation>
+        <translation>&amp;ÐÑÐ»ÑÐºÑÑÑÑ:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>&amp;Отримувач:</translation>
+        <translation>&amp;ÐÑÑÐ¸Ð¼ÑÐ²Ð°Ñ:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Мітка:</translation>
+        <translation>&amp;ÐÑÑÐºÐ°:</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Обрати ранiш використовувану адресу</translation>
+        <translation>ÐÐ±ÑÐ°ÑÐ¸ ÑÐ°Ð½iÑ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ²Ð°Ð½Ñ Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Це звичайний платіж.</translation>
+        <translation>Ð¦Ðµ Ð·Ð²Ð¸ÑÐ°Ð¹Ð½Ð¸Ð¹ Ð¿Ð»Ð°ÑÑÐ¶.</translation>
     </message>
     <message>
         <source>The Pirate address to send the payment to</source>
-        <translation>Адреса Pirate для відправлення платежу</translation>
+        <translation>ÐÐ´ÑÐµÑÐ° Pirate Ð´Ð»Ñ Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð½Ñ Ð¿Ð»Ð°ÑÐµÐ¶Ñ</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1977,7 +1977,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Вставити адресу</translation>
+        <translation>ÐÑÑÐ°Ð²Ð¸ÑÐ¸ Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1985,84 +1985,84 @@
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Видалити цей запис</translation>
+        <translation>ÐÐ¸Ð´Ð°Ð»Ð¸ÑÐ¸ ÑÐµÐ¹ Ð·Ð°Ð¿Ð¸Ñ</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Комісію буде знято зі вказаної суми. До отримувача надійде менше біткоінів, ніж було вказано в полі кількості. Якщо ж отримувачів декілька - комісію буде розподілено між ними.</translation>
+        <translation>ÐÐ¾Ð¼ÑÑÑÑ Ð±ÑÐ´Ðµ Ð·Ð½ÑÑÐ¾ Ð·Ñ Ð²ÐºÐ°Ð·Ð°Ð½Ð¾Ñ ÑÑÐ¼Ð¸. ÐÐ¾ Ð¾ÑÑÐ¸Ð¼ÑÐ²Ð°ÑÐ° Ð½Ð°Ð´ÑÐ¹Ð´Ðµ Ð¼ÐµÐ½ÑÐµ Ð±ÑÑÐºÐ¾ÑÐ½ÑÐ², Ð½ÑÐ¶ Ð±ÑÐ»Ð¾ Ð²ÐºÐ°Ð·Ð°Ð½Ð¾ Ð² Ð¿Ð¾Ð»Ñ ÐºÑÐ»ÑÐºÐ¾ÑÑÑ. Ð¯ÐºÑÐ¾ Ð¶ Ð¾ÑÑÐ¸Ð¼ÑÐ²Ð°ÑÑÐ² Ð´ÐµÐºÑÐ»ÑÐºÐ° - ÐºÐ¾Ð¼ÑÑÑÑ Ð±ÑÐ´Ðµ ÑÐ¾Ð·Ð¿Ð¾Ð´ÑÐ»ÐµÐ½Ð¾ Ð¼ÑÐ¶ Ð½Ð¸Ð¼Ð¸.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
-        <translation>В&amp;ідняти комісію від суми</translation>
+        <translation>Ð&amp;ÑÐ´Ð½ÑÑÐ¸ ÐºÐ¾Ð¼ÑÑÑÑ Ð²ÑÐ´ ÑÑÐ¼Ð¸</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Повідомлення:</translation>
+        <translation>ÐÐ¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ:</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
-        <translation>Цей запит платежу не є автентифікованим.</translation>
+        <translation>Ð¦ÐµÐ¹ Ð·Ð°Ð¿Ð¸Ñ Ð¿Ð»Ð°ÑÐµÐ¶Ñ Ð½Ðµ Ñ Ð°Ð²ÑÐµÐ½ÑÐ¸ÑÑÐºÐ¾Ð²Ð°Ð½Ð¸Ð¼.</translation>
     </message>
     <message>
         <source>This is an authenticated payment request.</source>
-        <translation>Цей запит платежу є автентифікованим.</translation>
+        <translation>Ð¦ÐµÐ¹ Ð·Ð°Ð¿Ð¸Ñ Ð¿Ð»Ð°ÑÐµÐ¶Ñ Ñ Ð°Ð²ÑÐµÐ½ÑÐ¸ÑÑÐºÐ¾Ð²Ð°Ð½Ð¸Ð¼.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Введіть мітку для цієї адреси для додавання її в список використаних адрес</translation>
+        <translation>ÐÐ²ÐµÐ´ÑÑÑ Ð¼ÑÑÐºÑ Ð´Ð»Ñ ÑÑÑÑ Ð°Ð´ÑÐµÑÐ¸ Ð´Ð»Ñ Ð´Ð¾Ð´Ð°Ð²Ð°Ð½Ð½Ñ ÑÑ Ð² ÑÐ¿Ð¸ÑÐ¾Ðº Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ°Ð½Ð¸Ñ Ð°Ð´ÑÐµÑ</translation>
     </message>
     <message>
-        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pirate network.</source>
-        <translation>Повідомлення, що було додане до Pirate:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу Pirate.</translation>
+        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Komodo network.</source>
+        <translation>ÐÐ¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ, ÑÐ¾ Ð±ÑÐ»Ð¾ Ð´Ð¾Ð´Ð°Ð½Ðµ Ð´Ð¾ Pirate:URI ÑÐ° Ð±ÑÐ´Ðµ Ð·Ð±ÐµÑÐµÐ¶ÐµÐ½Ð¾ ÑÐ°Ð·Ð¾Ð¼ Ð· ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑÑ Ð´Ð»Ñ Ð´Ð¾Ð²ÑÐ´ÐºÐ¸. ÐÑÐ¸Ð¼ÑÑÐºÐ°: Ð¦Ðµ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ Ð½Ðµ Ð±ÑÐ´Ðµ Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð¾ Ð² Ð¼ÐµÑÐµÐ¶Ñ Komodo.</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Отримувач:</translation>
+        <translation>ÐÑÑÐ¸Ð¼ÑÐ²Ð°Ñ:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Нотатка:</translation>
+        <translation>ÐÐ¾ÑÐ°ÑÐºÐ°:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Введіть мітку для цієї адреси для додавання її в адресну книгу</translation>
+        <translation>ÐÐ²ÐµÐ´ÑÑÑ Ð¼ÑÑÐºÑ Ð´Ð»Ñ ÑÑÑÑ Ð°Ð´ÑÐµÑÐ¸ Ð´Ð»Ñ Ð´Ð¾Ð´Ð°Ð²Ð°Ð½Ð½Ñ ÑÑ Ð² Ð°Ð´ÑÐµÑÐ½Ñ ÐºÐ½Ð¸Ð³Ñ</translation>
     </message>
 </context>
 <context>
     <name>SendConfirmationDialog</name>
     <message>
         <source>Yes</source>
-        <translation>Так</translation>
+        <translation>Ð¢Ð°Ðº</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Не вимикайте комп’ютер до зникнення цього вікна.</translation>
+        <translation>ÐÐµ Ð²Ð¸Ð¼Ð¸ÐºÐ°Ð¹ÑÐµ ÐºÐ¾Ð¼Ð¿âÑÑÐµÑ Ð´Ð¾ Ð·Ð½Ð¸ÐºÐ½ÐµÐ½Ð½Ñ ÑÑÐ¾Ð³Ð¾ Ð²ÑÐºÐ½Ð°.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Підписи - Підпис / Перевірка повідомлення</translation>
+        <translation>ÐÑÐ´Ð¿Ð¸ÑÐ¸ - ÐÑÐ´Ð¿Ð¸Ñ / ÐÐµÑÐµÐ²ÑÑÐºÐ° Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Підписати повідомлення</translation>
+        <translation>&amp;ÐÑÐ´Ð¿Ð¸ÑÐ°ÑÐ¸ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Ви можете підписувати повідомлення/угоди своїми адресами, щоб довести можливість отримання біткоінів, що будуть надіслані на них. Остерігайтеся підписувати будь-що нечітке чи неочікуване, так як за допомогою фішинг-атаки вас можуть спробувати ввести в оману для отримання вашого підпису під чужими словами. Підписуйте лише чіткі твердження, з якими ви повністю згодні.</translation>
+        <translation>ÐÐ¸ Ð¼Ð¾Ð¶ÐµÑÐµ Ð¿ÑÐ´Ð¿Ð¸ÑÑÐ²Ð°ÑÐ¸ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ/ÑÐ³Ð¾Ð´Ð¸ ÑÐ²Ð¾ÑÐ¼Ð¸ Ð°Ð´ÑÐµÑÐ°Ð¼Ð¸, ÑÐ¾Ð± Ð´Ð¾Ð²ÐµÑÑÐ¸ Ð¼Ð¾Ð¶Ð»Ð¸Ð²ÑÑÑÑ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ Ð±ÑÑÐºÐ¾ÑÐ½ÑÐ², ÑÐ¾ Ð±ÑÐ´ÑÑÑ Ð½Ð°Ð´ÑÑÐ»Ð°Ð½Ñ Ð½Ð° Ð½Ð¸Ñ. ÐÑÑÐµÑÑÐ³Ð°Ð¹ÑÐµÑÑ Ð¿ÑÐ´Ð¿Ð¸ÑÑÐ²Ð°ÑÐ¸ Ð±ÑÐ´Ñ-ÑÐ¾ Ð½ÐµÑÑÑÐºÐµ ÑÐ¸ Ð½ÐµÐ¾ÑÑÐºÑÐ²Ð°Ð½Ðµ, ÑÐ°Ðº ÑÐº Ð·Ð° Ð´Ð¾Ð¿Ð¾Ð¼Ð¾Ð³Ð¾Ñ ÑÑÑÐ¸Ð½Ð³-Ð°ÑÐ°ÐºÐ¸ Ð²Ð°Ñ Ð¼Ð¾Ð¶ÑÑÑ ÑÐ¿ÑÐ¾Ð±ÑÐ²Ð°ÑÐ¸ Ð²Ð²ÐµÑÑÐ¸ Ð² Ð¾Ð¼Ð°Ð½Ñ Ð´Ð»Ñ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ Ð²Ð°ÑÐ¾Ð³Ð¾ Ð¿ÑÐ´Ð¿Ð¸ÑÑ Ð¿ÑÐ´ ÑÑÐ¶Ð¸Ð¼Ð¸ ÑÐ»Ð¾Ð²Ð°Ð¼Ð¸. ÐÑÐ´Ð¿Ð¸ÑÑÐ¹ÑÐµ Ð»Ð¸ÑÐµ ÑÑÑÐºÑ ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ð½Ñ, Ð· ÑÐºÐ¸Ð¼Ð¸ Ð²Ð¸ Ð¿Ð¾Ð²Ð½ÑÑÑÑ Ð·Ð³Ð¾Ð´Ð½Ñ.</translation>
     </message>
     <message>
         <source>The Pirate address to sign the message with</source>
-        <translation>Адреса Pirate для підпису цього повідомлення</translation>
+        <translation>ÐÐ´ÑÐµÑÐ° Pirate Ð´Ð»Ñ Ð¿ÑÐ´Ð¿Ð¸ÑÑ ÑÑÐ¾Ð³Ð¾ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Обрати ранiш використовувану адресу</translation>
+        <translation>ÐÐ±ÑÐ°ÑÐ¸ ÑÐ°Ð½iÑ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ²Ð°Ð½Ñ Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2070,7 +2070,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Вставити адресу</translation>
+        <translation>ÐÑÑÐ°Ð²Ð¸ÑÐ¸ Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2078,484 +2078,484 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Введіть повідомлення, яке ви хочете підписати тут</translation>
+        <translation>ÐÐ²ÐµÐ´ÑÑÑ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ, ÑÐºÐµ Ð²Ð¸ ÑÐ¾ÑÐµÑÐµ Ð¿ÑÐ´Ð¿Ð¸ÑÐ°ÑÐ¸ ÑÑÑ</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Підпис</translation>
+        <translation>ÐÑÐ´Ð¿Ð¸Ñ</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Копіювати поточну сигнатуру до системного буферу обміну</translation>
+        <translation>ÐÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð¿Ð¾ÑÐ¾ÑÐ½Ñ ÑÐ¸Ð³Ð½Ð°ÑÑÑÑ Ð´Ð¾ ÑÐ¸ÑÑÐµÐ¼Ð½Ð¾Ð³Ð¾ Ð±ÑÑÐµÑÑ Ð¾Ð±Ð¼ÑÐ½Ñ</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Pirate address</source>
-        <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
+        <translation>ÐÑÐ´Ð¿Ð¸ÑÑÑÑ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ ÑÐ¾Ð± Ð´Ð¾Ð²ÐµÑÑÐ¸, ÑÐ¾ Ð²Ð¸ Ñ Ð²Ð»Ð°ÑÐ½Ð¸ÐºÐ¾Ð¼ ÑÑÑÑ Ð°Ð´ÑÐµÑÐ¸</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>&amp;Підписати повідомлення</translation>
+        <translation>&amp;ÐÑÐ´Ð¿Ð¸ÑÐ°ÑÐ¸ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Скинути всі поля підпису повідомлення</translation>
+        <translation>Ð¡ÐºÐ¸Ð½ÑÑÐ¸ Ð²ÑÑ Ð¿Ð¾Ð»Ñ Ð¿ÑÐ´Ð¿Ð¸ÑÑ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Очистити &amp;все</translation>
+        <translation>ÐÑÐ¸ÑÑÐ¸ÑÐ¸ &amp;Ð²ÑÐµ</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>П&amp;еревірити повідомлення</translation>
+        <translation>Ð&amp;ÐµÑÐµÐ²ÑÑÐ¸ÑÐ¸ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Введіть нижче адресу отримувача, повідомлення (впевніться, що ви точно скопіювали символи завершення рядка, табуляцію, пробіли тощо) та підпис для перевірки повідомлення. Впевніться, що в підпис не було додано зайвих символів: це допоможе уникнути атак типу «людина посередині». Зауважте, що це лише засвідчує можливість отримання транзакцій підписувачем, але не в стані підтвердити джерело жодної транзакції!</translation>
+        <translation>ÐÐ²ÐµÐ´ÑÑÑ Ð½Ð¸Ð¶ÑÐµ Ð°Ð´ÑÐµÑÑ Ð¾ÑÑÐ¸Ð¼ÑÐ²Ð°ÑÐ°, Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ (Ð²Ð¿ÐµÐ²Ð½ÑÑÑÑÑ, ÑÐ¾ Ð²Ð¸ ÑÐ¾ÑÐ½Ð¾ ÑÐºÐ¾Ð¿ÑÑÐ²Ð°Ð»Ð¸ ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¸ Ð·Ð°Ð²ÐµÑÑÐµÐ½Ð½Ñ ÑÑÐ´ÐºÐ°, ÑÐ°Ð±ÑÐ»ÑÑÑÑ, Ð¿ÑÐ¾Ð±ÑÐ»Ð¸ ÑÐ¾ÑÐ¾) ÑÐ° Ð¿ÑÐ´Ð¿Ð¸Ñ Ð´Ð»Ñ Ð¿ÐµÑÐµÐ²ÑÑÐºÐ¸ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ. ÐÐ¿ÐµÐ²Ð½ÑÑÑÑÑ, ÑÐ¾ Ð² Ð¿ÑÐ´Ð¿Ð¸Ñ Ð½Ðµ Ð±ÑÐ»Ð¾ Ð´Ð¾Ð´Ð°Ð½Ð¾ Ð·Ð°Ð¹Ð²Ð¸Ñ ÑÐ¸Ð¼Ð²Ð¾Ð»ÑÐ²: ÑÐµ Ð´Ð¾Ð¿Ð¾Ð¼Ð¾Ð¶Ðµ ÑÐ½Ð¸ÐºÐ½ÑÑÐ¸ Ð°ÑÐ°Ðº ÑÐ¸Ð¿Ñ «Ð»ÑÐ´Ð¸Ð½Ð° Ð¿Ð¾ÑÐµÑÐµÐ´Ð¸Ð½Ñ». ÐÐ°ÑÐ²Ð°Ð¶ÑÐµ, ÑÐ¾ ÑÐµ Ð»Ð¸ÑÐµ Ð·Ð°ÑÐ²ÑÐ´ÑÑÑ Ð¼Ð¾Ð¶Ð»Ð¸Ð²ÑÑÑÑ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ Ð¿ÑÐ´Ð¿Ð¸ÑÑÐ²Ð°ÑÐµÐ¼, Ð°Ð»Ðµ Ð½Ðµ Ð² ÑÑÐ°Ð½Ñ Ð¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¸ÑÐ¸ Ð´Ð¶ÐµÑÐµÐ»Ð¾ Ð¶Ð¾Ð´Ð½Ð¾Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ!</translation>
     </message>
     <message>
         <source>The Pirate address the message was signed with</source>
-        <translation>Адреса Pirate, якою було підписано це повідомлення</translation>
+        <translation>ÐÐ´ÑÐµÑÐ° Pirate, ÑÐºÐ¾Ñ Ð±ÑÐ»Ð¾ Ð¿ÑÐ´Ð¿Ð¸ÑÐ°Ð½Ð¾ ÑÐµ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Pirate address</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Pirate-адресою</translation>
+        <translation>ÐÐµÑÐµÐ²ÑÑÑÐµ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ Ð´Ð»Ñ Ð²Ð¿ÐµÐ²Ð½ÐµÐ½Ð¾ÑÑÑ, ÑÐ¾ Ð²Ð¾Ð½Ð¾ Ð¿ÑÐ´Ð¿Ð¸ÑÐ°Ð½Ð¾ Ð²ÐºÐ°Ð·Ð°Ð½Ð¾Ñ Pirate-Ð°Ð´ÑÐµÑÐ¾Ñ</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Пере&amp;вірити повідомлення</translation>
+        <translation>ÐÐµÑÐµ&amp;Ð²ÑÑÐ¸ÑÐ¸ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Скинути всі поля перевірки повідомлення</translation>
+        <translation>Ð¡ÐºÐ¸Ð½ÑÑÐ¸ Ð²ÑÑ Ð¿Ð¾Ð»Ñ Ð¿ÐµÑÐµÐ²ÑÑÐºÐ¸ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Натисніть кнопку «Підписати повідомлення», для отримання підпису</translation>
+        <translation>ÐÐ°ÑÐ¸ÑÐ½ÑÑÑ ÐºÐ½Ð¾Ð¿ÐºÑ «ÐÑÐ´Ð¿Ð¸ÑÐ°ÑÐ¸ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ», Ð´Ð»Ñ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ Ð¿ÑÐ´Ð¿Ð¸ÑÑ</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Введена адреса не співпадає.</translation>
+        <translation>ÐÐ²ÐµÐ´ÐµÐ½Ð° Ð°Ð´ÑÐµÑÐ° Ð½Ðµ ÑÐ¿ÑÐ²Ð¿Ð°Ð´Ð°Ñ.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Будь ласка, перевірте адресу та спробуйте ще.</translation>
+        <translation>ÐÑÐ´Ñ Ð»Ð°ÑÐºÐ°, Ð¿ÐµÑÐµÐ²ÑÑÑÐµ Ð°Ð´ÑÐµÑÑ ÑÐ° ÑÐ¿ÑÐ¾Ð±ÑÐ¹ÑÐµ ÑÐµ.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Введена адреса не відноситься до ключа.</translation>
+        <translation>ÐÐ²ÐµÐ´ÐµÐ½Ð° Ð°Ð´ÑÐµÑÐ° Ð½Ðµ Ð²ÑÐ´Ð½Ð¾ÑÐ¸ÑÑÑÑ Ð´Ð¾ ÐºÐ»ÑÑÐ°.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Розблокування гаманця було скасоване.</translation>
+        <translation>Ð Ð¾Ð·Ð±Ð»Ð¾ÐºÑÐ²Ð°Ð½Ð½Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ Ð±ÑÐ»Ð¾ ÑÐºÐ°ÑÐ¾Ð²Ð°Ð½Ðµ.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Приватний ключ для введеної адреси недоступний. </translation>
+        <translation>ÐÑÐ¸Ð²Ð°ÑÐ½Ð¸Ð¹ ÐºÐ»ÑÑ Ð´Ð»Ñ Ð²Ð²ÐµÐ´ÐµÐ½Ð¾Ñ Ð°Ð´ÑÐµÑÐ¸ Ð½ÐµÐ´Ð¾ÑÑÑÐ¿Ð½Ð¸Ð¹. </translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Не вдалося підписати повідомлення.</translation>
+        <translation>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ð¿ÑÐ´Ð¿Ð¸ÑÐ°ÑÐ¸ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Повідомлення підписано.</translation>
+        <translation>ÐÐ¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ Ð¿ÑÐ´Ð¿Ð¸ÑÐ°Ð½Ð¾.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Підпис не можливо декодувати.</translation>
+        <translation>ÐÑÐ´Ð¿Ð¸Ñ Ð½Ðµ Ð¼Ð¾Ð¶Ð»Ð¸Ð²Ð¾ Ð´ÐµÐºÐ¾Ð´ÑÐ²Ð°ÑÐ¸.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Будь ласка, перевірте підпис та спробуйте ще.</translation>
+        <translation>ÐÑÐ´Ñ Ð»Ð°ÑÐºÐ°, Ð¿ÐµÑÐµÐ²ÑÑÑÐµ Ð¿ÑÐ´Ð¿Ð¸Ñ ÑÐ° ÑÐ¿ÑÐ¾Ð±ÑÐ¹ÑÐµ ÑÐµ.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>Підпис не збігається з хешем повідомлення.</translation>
+        <translation>ÐÑÐ´Ð¿Ð¸Ñ Ð½Ðµ Ð·Ð±ÑÐ³Ð°ÑÑÑÑÑ Ð· ÑÐµÑÐµÐ¼ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Не вдалося перевірити повідомлення.</translation>
+        <translation>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ð¿ÐµÑÐµÐ²ÑÑÐ¸ÑÐ¸ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Повідомлення перевірено.</translation>
+        <translation>ÐÐ¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ Ð¿ÐµÑÐµÐ²ÑÑÐµÐ½Ð¾.</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>[testnet]</source>
-        <translation>[тестова мережа]</translation>
+        <translation>[ÑÐµÑÑÐ¾Ð²Ð° Ð¼ÐµÑÐµÐ¶Ð°]</translation>
     </message>
 </context>
 <context>
     <name>TrafficGraphWidget</name>
     <message>
         <source>KB/s</source>
-        <translation>КБ/с</translation>
+        <translation>ÐÐ/Ñ</translation>
     </message>
 </context>
 <context>
     <name>TransactionDesc</name>
     <message>
         <source>Open until %1</source>
-        <translation>Відкрито до %1</translation>
+        <translation>ÐÑÐ´ÐºÑÐ¸ÑÐ¾ Ð´Ð¾ %1</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Статут</translation>
+        <translation>Ð¡ÑÐ°ÑÑÑ</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>ÐÐ°ÑÐ°</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Джерело</translation>
+        <translation>ÐÐ¶ÐµÑÐµÐ»Ð¾</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Згенеровано</translation>
+        <translation>ÐÐ³ÐµÐ½ÐµÑÐ¾Ð²Ð°Ð½Ð¾</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Від</translation>
+        <translation>ÐÑÐ´</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>невідомо</translation>
+        <translation>Ð½ÐµÐ²ÑÐ´Ð¾Ð¼Ð¾</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>Отримувач</translation>
+        <translation>ÐÑÑÐ¸Ð¼ÑÐ²Ð°Ñ</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>Власна адреса</translation>
+        <translation>ÐÐ»Ð°ÑÐ½Ð° Ð°Ð´ÑÐµÑÐ°</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>мітка</translation>
+        <translation>Ð¼ÑÑÐºÐ°</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Кредит</translation>
+        <translation>ÐÑÐµÐ´Ð¸Ñ</translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>не прийнято</translation>
+        <translation>Ð½Ðµ Ð¿ÑÐ¸Ð¹Ð½ÑÑÐ¾</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Дебет</translation>
+        <translation>ÐÐµÐ±ÐµÑ</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Загальний дебет</translation>
+        <translation>ÐÐ°Ð³Ð°Ð»ÑÐ½Ð¸Ð¹ Ð´ÐµÐ±ÐµÑ</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Загальний кредит</translation>
+        <translation>ÐÐ°Ð³Ð°Ð»ÑÐ½Ð¸Ð¹ ÐºÑÐµÐ´Ð¸Ñ</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Комісія за транзакцію</translation>
+        <translation>ÐÐ¾Ð¼ÑÑÑÑ Ð·Ð° ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Загальна сума</translation>
+        <translation>ÐÐ°Ð³Ð°Ð»ÑÐ½Ð° ÑÑÐ¼Ð°</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Повідомлення</translation>
+        <translation>ÐÐ¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Коментар</translation>
+        <translation>ÐÐ¾Ð¼ÐµÐ½ÑÐ°Ñ</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>ID транзакції</translation>
+        <translation>ID ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>Transaction total size</source>
-        <translation>Розмір транзакції</translation>
+        <translation>Ð Ð¾Ð·Ð¼ÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>Merchant</source>
-        <translation>Продавець</translation>
+        <translation>ÐÑÐ¾Ð´Ð°Ð²ÐµÑÑ</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>Транзакція</translation>
+        <translation>Ð¢ÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Входи</translation>
+        <translation>ÐÑÐ¾Ð´Ð¸</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Кількість</translation>
+        <translation>ÐÑÐ»ÑÐºÑÑÑÑ</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>вірний</translation>
+        <translation>Ð²ÑÑÐ½Ð¸Ð¹</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>хибний</translation>
+        <translation>ÑÐ¸Ð±Ð½Ð¸Ð¹</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Даний діалог показує детальну статистику по вибраній транзакції</translation>
+        <translation>ÐÐ°Ð½Ð¸Ð¹ Ð´ÑÐ°Ð»Ð¾Ð³ Ð¿Ð¾ÐºÐ°Ð·ÑÑ Ð´ÐµÑÐ°Ð»ÑÐ½Ñ ÑÑÐ°ÑÐ¸ÑÑÐ¸ÐºÑ Ð¿Ð¾ Ð²Ð¸Ð±ÑÐ°Ð½ÑÐ¹ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>Details for %1</source>
-        <translation>Інформація по %1</translation>
+        <translation>ÐÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ Ð¿Ð¾ %1</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>ÐÐ°ÑÐ°</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Тип</translation>
+        <translation>Ð¢Ð¸Ð¿</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Мітка</translation>
+        <translation>ÐÑÑÐºÐ°</translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Відкрито до %1</translation>
+        <translation>ÐÑÐ´ÐºÑÐ¸ÑÐ¾ Ð´Ð¾ %1</translation>
     </message>
     <message>
         <source>Offline</source>
-        <translation>Поза мережею</translation>
+        <translation>ÐÐ¾Ð·Ð° Ð¼ÐµÑÐµÐ¶ÐµÑ</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Не підтверджено</translation>
+        <translation>ÐÐµ Ð¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ð¾</translation>
     </message>
     <message>
         <source>Abandoned</source>
-        <translation>Відкинуті</translation>
+        <translation>ÐÑÐ´ÐºÐ¸Ð½ÑÑÑ</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Підтверджується (%1 з %2 рекомендованих підтверджень)</translation>
+        <translation>ÐÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÑÑÑÑÑÑ (%1 Ð· %2 ÑÐµÐºÐ¾Ð¼ÐµÐ½Ð´Ð¾Ð²Ð°Ð½Ð¸Ñ Ð¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ñ)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Підтверджено (%1 підтверджень)</translation>
+        <translation>ÐÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ð¾ (%1 Ð¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ñ)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>Суперечить</translation>
+        <translation>Ð¡ÑÐ¿ÐµÑÐµÑÐ¸ÑÑ</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Повністтю не підтверджено (%1 підтверджень, будуть доступні після %2)</translation>
+        <translation>ÐÐ¾Ð²Ð½ÑÑÑÑÑ Ð½Ðµ Ð¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ð¾ (%1 Ð¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ñ, Ð±ÑÐ´ÑÑÑ Ð´Ð¾ÑÑÑÐ¿Ð½Ñ Ð¿ÑÑÐ»Ñ %2)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Цей блок не був отриманий жодними іншими вузлами і, ймовірно, не буде прийнятий!</translation>
+        <translation>Ð¦ÐµÐ¹ Ð±Ð»Ð¾Ðº Ð½Ðµ Ð±ÑÐ² Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð¸Ð¹ Ð¶Ð¾Ð´Ð½Ð¸Ð¼Ð¸ ÑÐ½ÑÐ¸Ð¼Ð¸ Ð²ÑÐ·Ð»Ð°Ð¼Ð¸ Ñ, Ð¹Ð¼Ð¾Ð²ÑÑÐ½Ð¾, Ð½Ðµ Ð±ÑÐ´Ðµ Ð¿ÑÐ¸Ð¹Ð½ÑÑÐ¸Ð¹!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>Згенеровано (не підтверджено)</translation>
+        <translation>ÐÐ³ÐµÐ½ÐµÑÐ¾Ð²Ð°Ð½Ð¾ (Ð½Ðµ Ð¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ð¾)</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Отримано з</translation>
+        <translation>ÐÑÑÐ¸Ð¼Ð°Ð½Ð¾ Ð·</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Отримано від</translation>
+        <translation>ÐÑÑÐ¸Ð¼Ð°Ð½Ð¾ Ð²ÑÐ´</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Відправлені на</translation>
+        <translation>ÐÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ñ Ð½Ð°</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Відправлено собі</translation>
+        <translation>ÐÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð¾ ÑÐ¾Ð±Ñ</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Добуті</translation>
+        <translation>ÐÐ¾Ð±ÑÑÑ</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>немає мітки</translation>
+        <translation>Ð½ÐµÐ¼Ð°Ñ Ð¼ÑÑÐºÐ¸</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Статус транзакції. Наведіть вказівник на це поле, щоб показати кількість підтверджень.</translation>
+        <translation>Ð¡ÑÐ°ÑÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ. ÐÐ°Ð²ÐµÐ´ÑÑÑ Ð²ÐºÐ°Ð·ÑÐ²Ð½Ð¸Ðº Ð½Ð° ÑÐµ Ð¿Ð¾Ð»Ðµ, ÑÐ¾Ð± Ð¿Ð¾ÐºÐ°Ð·Ð°ÑÐ¸ ÐºÑÐ»ÑÐºÑÑÑÑ Ð¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ñ.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Дата і час, коли транзакцію було отримано.</translation>
+        <translation>ÐÐ°ÑÐ° Ñ ÑÐ°Ñ, ÐºÐ¾Ð»Ð¸ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð±ÑÐ»Ð¾ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð¾.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Тип транзакції.</translation>
+        <translation>Ð¢Ð¸Ð¿ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ.</translation>
     </message>
     <message>
         <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Визначений користувачем намір чи мета транзакції.</translation>
+        <translation>ÐÐ¸Ð·Ð½Ð°ÑÐµÐ½Ð¸Ð¹ ÐºÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐµÐ¼ Ð½Ð°Ð¼ÑÑ ÑÐ¸ Ð¼ÐµÑÐ° ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Сума, додана чи знята з балансу.</translation>
+        <translation>Ð¡ÑÐ¼Ð°, Ð´Ð¾Ð´Ð°Ð½Ð° ÑÐ¸ Ð·Ð½ÑÑÐ° Ð· Ð±Ð°Ð»Ð°Ð½ÑÑ.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Всі</translation>
+        <translation>ÐÑÑ</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Сьогодні</translation>
+        <translation>Ð¡ÑÐ¾Ð³Ð¾Ð´Ð½Ñ</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>На цьому тижні</translation>
+        <translation>ÐÐ° ÑÑÐ¾Ð¼Ñ ÑÐ¸Ð¶Ð½Ñ</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>Цього місяця</translation>
+        <translation>Ð¦ÑÐ¾Ð³Ð¾ Ð¼ÑÑÑÑÑ</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Минулого місяця</translation>
+        <translation>ÐÐ¸Ð½ÑÐ»Ð¾Ð³Ð¾ Ð¼ÑÑÑÑÑ</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>Цього року</translation>
+        <translation>Ð¦ÑÐ¾Ð³Ð¾ ÑÐ¾ÐºÑ</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>Діапазон від:</translation>
+        <translation>ÐÑÐ°Ð¿Ð°Ð·Ð¾Ð½ Ð²ÑÐ´:</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Отримано з</translation>
+        <translation>ÐÑÑÐ¸Ð¼Ð°Ð½Ð¾ Ð·</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Відправлені на</translation>
+        <translation>ÐÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ñ Ð½Ð°</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>Відправлені собі</translation>
+        <translation>ÐÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ñ ÑÐ¾Ð±Ñ</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Добуті</translation>
+        <translation>ÐÐ¾Ð±ÑÑÑ</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Інше</translation>
+        <translation>ÐÐ½ÑÐµ</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>Введіть адресу чи мітку для пошуку</translation>
+        <translation>ÐÐ²ÐµÐ´ÑÑÑ Ð°Ð´ÑÐµÑÑ ÑÐ¸ Ð¼ÑÑÐºÑ Ð´Ð»Ñ Ð¿Ð¾ÑÑÐºÑ</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Мінімальна сума</translation>
+        <translation>ÐÑÐ½ÑÐ¼Ð°Ð»ÑÐ½Ð° ÑÑÐ¼Ð°</translation>
     </message>
     <message>
         <source>Abandon transaction</source>
-        <translation>Відмовитися від транзакції</translation>
+        <translation>ÐÑÐ´Ð¼Ð¾Ð²Ð¸ÑÐ¸ÑÑ Ð²ÑÐ´ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Скопіювати адресу</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Скопіювати мітку</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð¼ÑÑÐºÑ</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Скопіювати суму</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ÑÑÐ¼Ñ</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Скопіювати ID транзакції </translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ ID ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ </translation>
     </message>
     <message>
         <source>Copy raw transaction</source>
-        <translation>Скопіювати RAW транзакцію</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ RAW ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
-        <translation>Скопіювати повні деталі транзакції</translation>
+        <translation>Ð¡ÐºÐ¾Ð¿ÑÑÐ²Ð°ÑÐ¸ Ð¿Ð¾Ð²Ð½Ñ Ð´ÐµÑÐ°Ð»Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Редагувати мітку</translation>
+        <translation>Ð ÐµÐ´Ð°Ð³ÑÐ²Ð°ÑÐ¸ Ð¼ÑÑÐºÑ</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Показати деталі транзакції</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·Ð°ÑÐ¸ Ð´ÐµÑÐ°Ð»Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Експортувати історію транзакцій</translation>
+        <translation>ÐÐºÑÐ¿Ð¾ÑÑÑÐ²Ð°ÑÐ¸ ÑÑÑÐ¾ÑÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Файли (*.csv) розділеі комами</translation>
+        <translation>Ð¤Ð°Ð¹Ð»Ð¸ (*.csv) ÑÐ¾Ð·Ð´ÑÐ»ÐµÑ ÐºÐ¾Ð¼Ð°Ð¼Ð¸</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Підтверджено</translation>
+        <translation>ÐÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ð¾</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>Тільки спостереження:</translation>
+        <translation>Ð¢ÑÐ»ÑÐºÐ¸ ÑÐ¿Ð¾ÑÑÐµÑÐµÐ¶ÐµÐ½Ð½Ñ:</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Дата</translation>
+        <translation>ÐÐ°ÑÐ°</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Тип</translation>
+        <translation>Ð¢Ð¸Ð¿</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Мітка</translation>
+        <translation>ÐÑÑÐºÐ°</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Адреса</translation>
+        <translation>ÐÐ´ÑÐµÑÐ°</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation>Ідентифікатор</translation>
+        <translation>ÐÐ´ÐµÐ½ÑÐ¸ÑÑÐºÐ°ÑÐ¾Ñ</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Експортування пройшло не успішно</translation>
+        <translation>ÐÐºÑÐ¿Ð¾ÑÑÑÐ²Ð°Ð½Ð½Ñ Ð¿ÑÐ¾Ð¹ÑÐ»Ð¾ Ð½Ðµ ÑÑÐ¿ÑÑÐ½Ð¾</translation>
     </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Одиниця виміру монет. Натисніть для вибору іншої.</translation>
+        <translation>ÐÐ´Ð¸Ð½Ð¸ÑÑ Ð²Ð¸Ð¼ÑÑÑ Ð¼Ð¾Ð½ÐµÑ. ÐÐ°ÑÐ¸ÑÐ½ÑÑÑ Ð´Ð»Ñ Ð²Ð¸Ð±Ð¾ÑÑ ÑÐ½ÑÐ¾Ñ.</translation>
     </message>
 </context>
 <context>
@@ -2568,90 +2568,90 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Експорт</translation>
+        <translation>&amp;ÐÐºÑÐ¿Ð¾ÑÑ</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Експортувати дані з поточної вкладки в файл</translation>
+        <translation>ÐÐºÑÐ¿Ð¾ÑÑÑÐ²Ð°ÑÐ¸ Ð´Ð°Ð½Ñ Ð· Ð¿Ð¾ÑÐ¾ÑÐ½Ð¾Ñ Ð²ÐºÐ»Ð°Ð´ÐºÐ¸ Ð² ÑÐ°Ð¹Ð»</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Зробити резервне копіювання гаманця</translation>
+        <translation>ÐÑÐ¾Ð±Ð¸ÑÐ¸ ÑÐµÐ·ÐµÑÐ²Ð½Ðµ ÐºÐ¾Ð¿ÑÑÐ²Ð°Ð½Ð½Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Данi гаманця (*.dat)</translation>
+        <translation>ÐÐ°Ð½i Ð³Ð°Ð¼Ð°Ð½ÑÑ (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Помилка резервного копіювання</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ° ÑÐµÐ·ÐµÑÐ²Ð½Ð¾Ð³Ð¾ ÐºÐ¾Ð¿ÑÑÐ²Ð°Ð½Ð½Ñ</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>Резервну копію створено успішно</translation>
+        <translation>Ð ÐµÐ·ÐµÑÐ²Ð½Ñ ÐºÐ¾Ð¿ÑÑ ÑÑÐ²Ð¾ÑÐµÐ½Ð¾ ÑÑÐ¿ÑÑÐ½Ð¾</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>Дані гаманця успішно збережено в %1.</translation>
+        <translation>ÐÐ°Ð½Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ ÑÑÐ¿ÑÑÐ½Ð¾ Ð·Ð±ÐµÑÐµÐ¶ÐµÐ½Ð¾ Ð² %1.</translation>
     </message>
 </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
-        <translation>Параметри:</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑÐ¸:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Вкажіть робочий каталог</translation>
+        <translation>ÐÐºÐ°Ð¶ÑÑÑ ÑÐ¾Ð±Ð¾ÑÐ¸Ð¹ ÐºÐ°ÑÐ°Ð»Ð¾Ð³</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Підключитись до вузла, щоб отримати список адрес інших учасників та від'єднатись</translation>
+        <translation>ÐÑÐ´ÐºÐ»ÑÑÐ¸ÑÐ¸ÑÑ Ð´Ð¾ Ð²ÑÐ·Ð»Ð°, ÑÐ¾Ð± Ð¾ÑÑÐ¸Ð¼Ð°ÑÐ¸ ÑÐ¿Ð¸ÑÐ¾Ðº Ð°Ð´ÑÐµÑ ÑÐ½ÑÐ¸Ñ ÑÑÐ°ÑÐ½Ð¸ÐºÑÐ² ÑÐ° Ð²ÑÐ´'ÑÐ´Ð½Ð°ÑÐ¸ÑÑ</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Вкажіть вашу власну публічну адресу</translation>
+        <translation>ÐÐºÐ°Ð¶ÑÑÑ Ð²Ð°ÑÑ Ð²Ð»Ð°ÑÐ½Ñ Ð¿ÑÐ±Ð»ÑÑÐ½Ñ Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Приймати команди із командного рядка та команди JSON-RPC</translation>
+        <translation>ÐÑÐ¸Ð¹Ð¼Ð°ÑÐ¸ ÐºÐ¾Ð¼Ð°Ð½Ð´Ð¸ ÑÐ· ÐºÐ¾Ð¼Ð°Ð½Ð´Ð½Ð¾Ð³Ð¾ ÑÑÐ´ÐºÐ° ÑÐ° ÐºÐ¾Ð¼Ð°Ð½Ð´Ð¸ JSON-RPC</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>Якщо &lt;category&gt; не задано, або ж якщо &lt;category&gt; = 1, виводить всю налагоджувальну інформацію.</translation>
+        <translation>Ð¯ÐºÑÐ¾ &lt;category&gt; Ð½Ðµ Ð·Ð°Ð´Ð°Ð½Ð¾, Ð°Ð±Ð¾ Ð¶ ÑÐºÑÐ¾ &lt;category&gt; = 1, Ð²Ð¸Ð²Ð¾Ð´Ð¸ÑÑ Ð²ÑÑ Ð½Ð°Ð»Ð°Ð³Ð¾Ð´Ð¶ÑÐ²Ð°Ð»ÑÐ½Ñ ÑÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Встановлений розмір ланцюжка блоків є замалим (меншим за %d МіБ). Будь ласка, виберіть більше число.</translation>
+        <translation>ÐÑÑÐ°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¸Ð¹ ÑÐ¾Ð·Ð¼ÑÑ Ð»Ð°Ð½ÑÑÐ¶ÐºÐ° Ð±Ð»Ð¾ÐºÑÐ² Ñ Ð·Ð°Ð¼Ð°Ð»Ð¸Ð¼ (Ð¼ÐµÐ½ÑÐ¸Ð¼ Ð·Ð° %d ÐÑÐ). ÐÑÐ´Ñ Ð»Ð°ÑÐºÐ°, Ð²Ð¸Ð±ÐµÑÑÑÑ Ð±ÑÐ»ÑÑÐµ ÑÐ¸ÑÐ»Ð¾.</translation>
     </message>
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Операція відсікання: остання синхронізація вмісту гаманцю не обмежується діями над скороченими данними. Вам необхідно зробити переіндексацію -reindex (заново завантажити веcь ланцюжок блоків в разі появи скороченого ланцюга)</translation>
+        <translation>ÐÐ¿ÐµÑÐ°ÑÑÑ Ð²ÑÐ´ÑÑÐºÐ°Ð½Ð½Ñ: Ð¾ÑÑÐ°Ð½Ð½Ñ ÑÐ¸Ð½ÑÑÐ¾Ð½ÑÐ·Ð°ÑÑÑ Ð²Ð¼ÑÑÑÑ Ð³Ð°Ð¼Ð°Ð½ÑÑ Ð½Ðµ Ð¾Ð±Ð¼ÐµÐ¶ÑÑÑÑÑÑ Ð´ÑÑÐ¼Ð¸ Ð½Ð°Ð´ ÑÐºÐ¾ÑÐ¾ÑÐµÐ½Ð¸Ð¼Ð¸ Ð´Ð°Ð½Ð½Ð¸Ð¼Ð¸. ÐÐ°Ð¼ Ð½ÐµÐ¾Ð±ÑÑÐ´Ð½Ð¾ Ð·ÑÐ¾Ð±Ð¸ÑÐ¸ Ð¿ÐµÑÐµÑÐ½Ð´ÐµÐºÑÐ°ÑÑÑ -reindex (Ð·Ð°Ð½Ð¾Ð²Ð¾ Ð·Ð°Ð²Ð°Ð½ÑÐ°Ð¶Ð¸ÑÐ¸ Ð²ÐµcÑ Ð»Ð°Ð½ÑÑÐ¶Ð¾Ðº Ð±Ð»Ð¾ÐºÑÐ² Ð² ÑÐ°Ð·Ñ Ð¿Ð¾ÑÐ²Ð¸ ÑÐºÐ¾ÑÐ¾ÑÐµÐ½Ð¾Ð³Ð¾ Ð»Ð°Ð½ÑÑÐ³Ð°)</translation>
     </message>
     <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>Неможливо провести повторне сканування зі скороченим ланцюжком. Вам необхідно використати -reindex для завантаження повного ланцюжка блоків.</translation>
+        <translation>ÐÐµÐ¼Ð¾Ð¶Ð»Ð¸Ð²Ð¾ Ð¿ÑÐ¾Ð²ÐµÑÑÐ¸ Ð¿Ð¾Ð²ÑÐ¾ÑÐ½Ðµ ÑÐºÐ°Ð½ÑÐ²Ð°Ð½Ð½Ñ Ð·Ñ ÑÐºÐ¾ÑÐ¾ÑÐµÐ½Ð¸Ð¼ Ð»Ð°Ð½ÑÑÐ¶ÐºÐ¾Ð¼. ÐÐ°Ð¼ Ð½ÐµÐ¾Ð±ÑÑÐ´Ð½Ð¾ Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ°ÑÐ¸ -reindex Ð´Ð»Ñ Ð·Ð°Ð²Ð°Ð½ÑÐ°Ð¶ÐµÐ½Ð½Ñ Ð¿Ð¾Ð²Ð½Ð¾Ð³Ð¾ Ð»Ð°Ð½ÑÑÐ¶ÐºÐ° Ð±Ð»Ð¾ÐºÑÐ².</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Помилка: Сталася фатальна помилка (детальніший опис наведено в debug.log)</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ°: Ð¡ÑÐ°Ð»Ð°ÑÑ ÑÐ°ÑÐ°Ð»ÑÐ½Ð° Ð¿Ð¾Ð¼Ð¸Ð»ÐºÐ° (Ð´ÐµÑÐ°Ð»ÑÐ½ÑÑÐ¸Ð¹ Ð¾Ð¿Ð¸Ñ Ð½Ð°Ð²ÐµÐ´ÐµÐ½Ð¾ Ð² debug.log)</translation>
     </message>
     <message>
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
-        <translation>Комісія (в %s/КБ), що додаватиметься до вихідних транзакцій (типово: %s)</translation>
+        <translation>ÐÐ¾Ð¼ÑÑÑÑ (Ð² %s/ÐÐ), ÑÐ¾ Ð´Ð¾Ð´Ð°Ð²Ð°ÑÐ¸Ð¼ÐµÑÑÑÑ Ð´Ð¾ Ð²Ð¸ÑÑÐ´Ð½Ð¸Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %s)</translation>
     </message>
     <message>
         <source>Pruning blockstore...</source>
-        <translation>Скорочення кількості блоків...</translation>
+        <translation>Ð¡ÐºÐ¾ÑÐ¾ÑÐµÐ½Ð½Ñ ÐºÑÐ»ÑÐºÐ¾ÑÑÑ Ð±Ð»Ð¾ÐºÑÐ²...</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Запустити в фоновому режимі (як демон) та приймати команди</translation>
+        <translation>ÐÐ°Ð¿ÑÑÑÐ¸ÑÐ¸ Ð² ÑÐ¾Ð½Ð¾Ð²Ð¾Ð¼Ñ ÑÐµÐ¶Ð¸Ð¼Ñ (ÑÐº Ð´ÐµÐ¼Ð¾Ð½) ÑÐ° Ð¿ÑÐ¸Ð¹Ð¼Ð°ÑÐ¸ ÐºÐ¾Ð¼Ð°Ð½Ð´Ð¸</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Неможливо запустити HTTP-сервер. Детальніший опис наведено в журналі зневадження.</translation>
+        <translation>ÐÐµÐ¼Ð¾Ð¶Ð»Ð¸Ð²Ð¾ Ð·Ð°Ð¿ÑÑÑÐ¸ÑÐ¸ HTTP-ÑÐµÑÐ²ÐµÑ. ÐÐµÑÐ°Ð»ÑÐ½ÑÑÐ¸Ð¹ Ð¾Ð¿Ð¸Ñ Ð½Ð°Ð²ÐµÐ´ÐµÐ½Ð¾ Ð² Ð¶ÑÑÐ½Ð°Ð»Ñ Ð·Ð½ÐµÐ²Ð°Ð´Ð¶ÐµÐ½Ð½Ñ.</translation>
     </message>
     <message>
         <source>Pirate Core</source>
@@ -2659,623 +2659,623 @@
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Прив'язатися до даної адреси та прослуховувати її. Використовуйте запис виду [хост]:порт для IPv6</translation>
+        <translation>ÐÑÐ¸Ð²'ÑÐ·Ð°ÑÐ¸ÑÑ Ð´Ð¾ Ð´Ð°Ð½Ð¾Ñ Ð°Ð´ÑÐµÑÐ¸ ÑÐ° Ð¿ÑÐ¾ÑÐ»ÑÑÐ¾Ð²ÑÐ²Ð°ÑÐ¸ ÑÑ. ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ¹ÑÐµ Ð·Ð°Ð¿Ð¸Ñ Ð²Ð¸Ð´Ñ [ÑÐ¾ÑÑ]:Ð¿Ð¾ÑÑ Ð´Ð»Ñ IPv6</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Видалити всі транзакції гаманця та відновити ті, що будуть знайдені під час запуску за допомогою -rescan</translation>
+        <translation>ÐÐ¸Ð´Ð°Ð»Ð¸ÑÐ¸ Ð²ÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð³Ð°Ð¼Ð°Ð½ÑÑ ÑÐ° Ð²ÑÐ´Ð½Ð¾Ð²Ð¸ÑÐ¸ ÑÑ, ÑÐ¾ Ð±ÑÐ´ÑÑÑ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ñ Ð¿ÑÐ´ ÑÐ°Ñ Ð·Ð°Ð¿ÑÑÐºÑ Ð·Ð° Ð´Ð¾Ð¿Ð¾Ð¼Ð¾Ð³Ð¾Ñ -rescan</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Виконати команду, коли транзакція гаманця зміниться (замість %s в команді буде підставлено ідентифікатор транзакції)</translation>
+        <translation>ÐÐ¸ÐºÐ¾Ð½Ð°ÑÐ¸ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ, ÐºÐ¾Ð»Ð¸ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð³Ð°Ð¼Ð°Ð½ÑÑ Ð·Ð¼ÑÐ½Ð¸ÑÑÑÑ (Ð·Ð°Ð¼ÑÑÑÑ %s Ð² ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ Ð±ÑÐ´Ðµ Ð¿ÑÐ´ÑÑÐ°Ð²Ð»ÐµÐ½Ð¾ ÑÐ´ÐµÐ½ÑÐ¸ÑÑÐºÐ°ÑÐ¾Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Встановити кількість потоків скрипту перевірки (від %u до %d, 0 = автоматично, &lt;0 = вказує кількість вільних ядер, типово: %d)</translation>
+        <translation>ÐÑÑÐ°Ð½Ð¾Ð²Ð¸ÑÐ¸ ÐºÑÐ»ÑÐºÑÑÑÑ Ð¿Ð¾ÑÐ¾ÐºÑÐ² ÑÐºÑÐ¸Ð¿ÑÑ Ð¿ÐµÑÐµÐ²ÑÑÐºÐ¸ (Ð²ÑÐ´ %u Ð´Ð¾ %d, 0 = Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐ½Ð¾, &lt;0 = Ð²ÐºÐ°Ð·ÑÑ ÐºÑÐ»ÑÐºÑÑÑÑ Ð²ÑÐ»ÑÐ½Ð¸Ñ ÑÐ´ÐµÑ, ÑÐ¸Ð¿Ð¾Ð²Ð¾: %d)</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>Схоже, що база даних блоків містить блок з майбутнього. Це може статися із-за некоректно встановленої дати та/або часу. Перебудовуйте базу даних блоків лише тоді, коли ви переконані, що встановлено правильну дату і час</translation>
+        <translation>Ð¡ÑÐ¾Ð¶Ðµ, ÑÐ¾ Ð±Ð°Ð·Ð° Ð´Ð°Ð½Ð¸Ñ Ð±Ð»Ð¾ÐºÑÐ² Ð¼ÑÑÑÐ¸ÑÑ Ð±Ð»Ð¾Ðº Ð· Ð¼Ð°Ð¹Ð±ÑÑÐ½ÑÐ¾Ð³Ð¾. Ð¦Ðµ Ð¼Ð¾Ð¶Ðµ ÑÑÐ°ÑÐ¸ÑÑ ÑÐ·-Ð·Ð° Ð½ÐµÐºÐ¾ÑÐµÐºÑÐ½Ð¾ Ð²ÑÑÐ°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¾Ñ Ð´Ð°ÑÐ¸ ÑÐ°/Ð°Ð±Ð¾ ÑÐ°ÑÑ. ÐÐµÑÐµÐ±ÑÐ´Ð¾Ð²ÑÐ¹ÑÐµ Ð±Ð°Ð·Ñ Ð´Ð°Ð½Ð¸Ñ Ð±Ð»Ð¾ÐºÑÐ² Ð»Ð¸ÑÐµ ÑÐ¾Ð´Ñ, ÐºÐ¾Ð»Ð¸ Ð²Ð¸ Ð¿ÐµÑÐµÐºÐ¾Ð½Ð°Ð½Ñ, ÑÐ¾ Ð²ÑÑÐ°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¾ Ð¿ÑÐ°Ð²Ð¸Ð»ÑÐ½Ñ Ð´Ð°ÑÑ Ñ ÑÐ°Ñ</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>Використовувати UPnP для відображення порту, що прослуховується (типово: 1 при прослуховуванні та за відсутності -proxy)</translation>
+        <translation>ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ²Ð°ÑÐ¸ UPnP Ð´Ð»Ñ Ð²ÑÐ´Ð¾Ð±ÑÐ°Ð¶ÐµÐ½Ð½Ñ Ð¿Ð¾ÑÑÑ, ÑÐ¾ Ð¿ÑÐ¾ÑÐ»ÑÑÐ¾Ð²ÑÑÑÑÑÑ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: 1 Ð¿ÑÐ¸ Ð¿ÑÐ¾ÑÐ»ÑÑÐ¾Ð²ÑÐ²Ð°Ð½Ð½Ñ ÑÐ° Ð·Ð° Ð²ÑÐ´ÑÑÑÐ½Ð¾ÑÑÑ -proxy)</translation>
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool має бути не менше %d МБ</translation>
+        <translation>-maxmempool Ð¼Ð°Ñ Ð±ÑÑÐ¸ Ð½Ðµ Ð¼ÐµÐ½ÑÐµ %d ÐÐ</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; може бути:</translation>
+        <translation>&lt;category&gt; Ð¼Ð¾Ð¶Ðµ Ð±ÑÑÐ¸:</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Опції створення блоку:</translation>
+        <translation>ÐÐ¿ÑÑÑ ÑÑÐ²Ð¾ÑÐµÐ½Ð½Ñ Ð±Ð»Ð¾ÐºÑ:</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Параметри з'єднання:</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑÐ¸ Ð·'ÑÐ´Ð½Ð°Ð½Ð½Ñ:</translation>
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>
-        <translation>Всі права збережено. %i-%i</translation>
+        <translation>ÐÑÑ Ð¿ÑÐ°Ð²Ð° Ð·Ð±ÐµÑÐµÐ¶ÐµÐ½Ð¾. %i-%i</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Виявлено пошкоджений блок бази даних</translation>
+        <translation>ÐÐ¸ÑÐ²Ð»ÐµÐ½Ð¾ Ð¿Ð¾ÑÐºÐ¾Ð´Ð¶ÐµÐ½Ð¸Ð¹ Ð±Ð»Ð¾Ðº Ð±Ð°Ð·Ð¸ Ð´Ð°Ð½Ð¸Ñ</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Параметри тестування/налагодження:</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑÐ¸ ÑÐµÑÑÑÐ²Ð°Ð½Ð½Ñ/Ð½Ð°Ð»Ð°Ð³Ð¾Ð´Ð¶ÐµÐ½Ð½Ñ:</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Не завантажувати гаманець та вимкнути звернення до нього через RPC</translation>
+        <translation>ÐÐµ Ð·Ð°Ð²Ð°Ð½ÑÐ°Ð¶ÑÐ²Ð°ÑÐ¸ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ ÑÐ° Ð²Ð¸Ð¼ÐºÐ½ÑÑÐ¸ Ð·Ð²ÐµÑÐ½ÐµÐ½Ð½Ñ Ð´Ð¾ Ð½ÑÐ¾Ð³Ð¾ ÑÐµÑÐµÐ· RPC</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Ви хочете перебудувати базу даних блоків зараз?</translation>
+        <translation>ÐÐ¸ ÑÐ¾ÑÐµÑÐµ Ð¿ÐµÑÐµÐ±ÑÐ´ÑÐ²Ð°ÑÐ¸ Ð±Ð°Ð·Ñ Ð´Ð°Ð½Ð¸Ñ Ð±Ð»Ð¾ÐºÑÐ² Ð·Ð°ÑÐ°Ð·?</translation>
     </message>
     <message>
         <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Дозволено введення хеш блоку в рядок &lt;address&gt;</translation>
+        <translation>ÐÐ¾Ð·Ð²Ð¾Ð»ÐµÐ½Ð¾ Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ñ ÑÐµÑ Ð±Ð»Ð¾ÐºÑ Ð² ÑÑÐ´Ð¾Ðº &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Дозволено введення хеш транзакції в рядок &lt;address&gt;</translation>
+        <translation>ÐÐ¾Ð·Ð²Ð¾Ð»ÐµÐ½Ð¾ Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ñ ÑÐµÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð² ÑÑÐ´Ð¾Ðº &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Дозволено введення RAW блоку в рядок &lt;address&gt;</translation>
+        <translation>ÐÐ¾Ð·Ð²Ð¾Ð»ÐµÐ½Ð¾ Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ñ RAW Ð±Ð»Ð¾ÐºÑ Ð² ÑÑÐ´Ð¾Ðº &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Дозволено введення RAW транзакції в рядок &lt;address&gt;</translation>
+        <translation>ÐÐ¾Ð·Ð²Ð¾Ð»ÐµÐ½Ð¾ Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ñ RAW ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð² ÑÑÐ´Ð¾Ðº &lt;address&gt;</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Помилка ініціалізації бази даних блоків</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ° ÑÐ½ÑÑÑÐ°Ð»ÑÐ·Ð°ÑÑÑ Ð±Ð°Ð·Ð¸ Ð´Ð°Ð½Ð¸Ñ Ð±Ð»Ð¾ÐºÑÐ²</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Помилка ініціалізації середовища бази даних гаманця %s!</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ° ÑÐ½ÑÑÑÐ°Ð»ÑÐ·Ð°ÑÑÑ ÑÐµÑÐµÐ´Ð¾Ð²Ð¸ÑÐ° Ð±Ð°Ð·Ð¸ Ð´Ð°Ð½Ð¸Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ %s!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Помилка завантаження бази даних блоків</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ° Ð·Ð°Ð²Ð°Ð½ÑÐ°Ð¶ÐµÐ½Ð½Ñ Ð±Ð°Ð·Ð¸ Ð´Ð°Ð½Ð¸Ñ Ð±Ð»Ð¾ÐºÑÐ²</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Помилка відкриття блоку бази даних </translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ° Ð²ÑÐ´ÐºÑÐ¸ÑÑÑ Ð±Ð»Ð¾ÐºÑ Ð±Ð°Ð·Ð¸ Ð´Ð°Ð½Ð¸Ñ </translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Помилка: Мало вільного місця на диску!</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ°: ÐÐ°Ð»Ð¾ Ð²ÑÐ»ÑÐ½Ð¾Ð³Ð¾ Ð¼ÑÑÑÑ Ð½Ð° Ð´Ð¸ÑÐºÑ!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Не вдалося слухати на жодному порту. Використовуйте -listen=0, якщо ви хочете цього.</translation>
+        <translation>ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ ÑÐ»ÑÑÐ°ÑÐ¸ Ð½Ð° Ð¶Ð¾Ð´Ð½Ð¾Ð¼Ñ Ð¿Ð¾ÑÑÑ. ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ¹ÑÐµ -listen=0, ÑÐºÑÐ¾ Ð²Ð¸ ÑÐ¾ÑÐµÑÐµ ÑÑÐ¾Ð³Ð¾.</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Імпорт...</translation>
+        <translation>ÐÐ¼Ð¿Ð¾ÑÑ...</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Початковий блок некоректний/відсутній. Чи правильно вказано каталог даних для обраної мережі?</translation>
+        <translation>ÐÐ¾ÑÐ°ÑÐºÐ¾Ð²Ð¸Ð¹ Ð±Ð»Ð¾Ðº Ð½ÐµÐºÐ¾ÑÐµÐºÑÐ½Ð¸Ð¹/Ð²ÑÐ´ÑÑÑÐ½ÑÐ¹. Ð§Ð¸ Ð¿ÑÐ°Ð²Ð¸Ð»ÑÐ½Ð¾ Ð²ÐºÐ°Ð·Ð°Ð½Ð¾ ÐºÐ°ÑÐ°Ð»Ð¾Ð³ Ð´Ð°Ð½Ð¸Ñ Ð´Ð»Ñ Ð¾Ð±ÑÐ°Ð½Ð¾Ñ Ð¼ÐµÑÐµÐ¶Ñ?</translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
-        <translation>Помилка в адресі -onion: «%s»</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ° Ð² Ð°Ð´ÑÐµÑÑ -onion: «%s»</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Утримувати розмір пам'яті для пулу транзакцій меншим за &lt;n&gt; мегабайтів (типово: %u)</translation>
+        <translation>Ð£ÑÑÐ¸Ð¼ÑÐ²Ð°ÑÐ¸ ÑÐ¾Ð·Ð¼ÑÑ Ð¿Ð°Ð¼'ÑÑÑ Ð´Ð»Ñ Ð¿ÑÐ»Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ Ð¼ÐµÐ½ÑÐ¸Ð¼ Ð·Ð° &lt;n&gt; Ð¼ÐµÐ³Ð°Ð±Ð°Ð¹ÑÑÐ² (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Бракує доступних дескрипторів файлів.</translation>
+        <translation>ÐÑÐ°ÐºÑÑ Ð´Ð¾ÑÑÑÐ¿Ð½Ð¸Ñ Ð´ÐµÑÐºÑÐ¸Ð¿ÑÐ¾ÑÑÐ² ÑÐ°Ð¹Ð»ÑÐ².</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Підключатися тільки до вузлів в мережі &lt;net&gt; (ipv4, ipv6 або onion)</translation>
+        <translation>ÐÑÐ´ÐºÐ»ÑÑÐ°ÑÐ¸ÑÑ ÑÑÐ»ÑÐºÐ¸ Ð´Ð¾ Ð²ÑÐ·Ð»ÑÐ² Ð² Ð¼ÐµÑÐµÐ¶Ñ &lt;net&gt; (ipv4, ipv6 Ð°Ð±Ð¾ onion)</translation>
     </message>
     <message>
         <source>Print this help message and exit</source>
-        <translation>Надрукувати це довідкове повідомлення та вийти</translation>
+        <translation>ÐÐ°Ð´ÑÑÐºÑÐ²Ð°ÑÐ¸ ÑÐµ Ð´Ð¾Ð²ÑÐ´ÐºÐ¾Ð²Ðµ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ ÑÐ° Ð²Ð¸Ð¹ÑÐ¸</translation>
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>Версія для друку і виходу</translation>
+        <translation>ÐÐµÑÑÑÑ Ð´Ð»Ñ Ð´ÑÑÐºÑ Ñ Ð²Ð¸ÑÐ¾Ð´Ñ</translation>
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
-        <translation>Розмір скороченого ланцюжка блоків не може бути від'ємним. </translation>
+        <translation>Ð Ð¾Ð·Ð¼ÑÑ ÑÐºÐ¾ÑÐ¾ÑÐµÐ½Ð¾Ð³Ð¾ Ð»Ð°Ð½ÑÑÐ¶ÐºÐ° Ð±Ð»Ð¾ÐºÑÐ² Ð½Ðµ Ð¼Ð¾Ð¶Ðµ Ð±ÑÑÐ¸ Ð²ÑÐ´'ÑÐ¼Ð½Ð¸Ð¼. </translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Використання скороченого ланцюжка блоків несумісне з параметром -txindex.</translation>
+        <translation>ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ°Ð½Ð½Ñ ÑÐºÐ¾ÑÐ¾ÑÐµÐ½Ð¾Ð³Ð¾ Ð»Ð°Ð½ÑÑÐ¶ÐºÐ° Ð±Ð»Ð¾ÐºÑÐ² Ð½ÐµÑÑÐ¼ÑÑÐ½Ðµ Ð· Ð¿Ð°ÑÐ°Ð¼ÐµÑÑÐ¾Ð¼ -txindex.</translation>
     </message>
     <message>
         <source>Rewinding blocks...</source>
-        <translation>Відтворення блоків...</translation>
+        <translation>ÐÑÐ´ÑÐ²Ð¾ÑÐµÐ½Ð½Ñ Ð±Ð»Ð¾ÐºÑÐ²...</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Встановити розмір кешу бази даних в мегабайтах (від %d до %d, типово: %d)</translation>
+        <translation>ÐÑÑÐ°Ð½Ð¾Ð²Ð¸ÑÐ¸ ÑÐ¾Ð·Ð¼ÑÑ ÐºÐµÑÑ Ð±Ð°Ð·Ð¸ Ð´Ð°Ð½Ð¸Ñ Ð² Ð¼ÐµÐ³Ð°Ð±Ð°Ð¹ÑÐ°Ñ (Ð²ÑÐ´ %d Ð´Ð¾ %d, ÑÐ¸Ð¿Ð¾Ð²Ð¾: %d)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Встановити максимальний розмір блоку у байтах (типово: %d)</translation>
+        <translation>ÐÑÑÐ°Ð½Ð¾Ð²Ð¸ÑÐ¸ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑÐ½Ð¸Ð¹ ÑÐ¾Ð·Ð¼ÑÑ Ð±Ð»Ð¾ÐºÑ Ñ Ð±Ð°Ð¹ÑÐ°Ñ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %d)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Вкажіть файл гаманця (в межах каталогу даних)</translation>
+        <translation>ÐÐºÐ°Ð¶ÑÑÑ ÑÐ°Ð¹Ð» Ð³Ð°Ð¼Ð°Ð½ÑÑ (Ð² Ð¼ÐµÐ¶Ð°Ñ ÐºÐ°ÑÐ°Ð»Ð¾Ð³Ñ Ð´Ð°Ð½Ð¸Ñ)</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Параметр -benchmark не підтримується та буде проігноровано; використовуйте -debug=bench.</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑ -benchmark Ð½Ðµ Ð¿ÑÐ´ÑÑÐ¸Ð¼ÑÑÑÑÑÑ ÑÐ° Ð±ÑÐ´Ðµ Ð¿ÑÐ¾ÑÐ³Ð½Ð¾ÑÐ¾Ð²Ð°Ð½Ð¾; Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ¹ÑÐµ -debug=bench.</translation>
     </message>
     <message>
         <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Параметр -debugnet не підтримується та буде проігноровано; використовуйте -debug=net.</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑ -debugnet Ð½Ðµ Ð¿ÑÐ´ÑÑÐ¸Ð¼ÑÑÑÑÑÑ ÑÐ° Ð±ÑÐ´Ðµ Ð¿ÑÐ¾ÑÐ³Ð½Ð¾ÑÐ¾Ð²Ð°Ð½Ð¾; Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ¹ÑÐµ -debug=net.</translation>
     </message>
     <message>
         <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>Параметр -tor не підтримується; використовуйте -onion.</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑ -tor Ð½Ðµ Ð¿ÑÐ´ÑÑÐ¸Ð¼ÑÑÑÑÑÑ; Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ¹ÑÐµ -onion.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Використовувати UPnP для відображення порту, що прослуховується (типово: %u)</translation>
+        <translation>ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ²Ð°ÑÐ¸ UPnP Ð´Ð»Ñ Ð²ÑÐ´Ð¾Ð±ÑÐ°Ð¶ÐµÐ½Ð½Ñ Ð¿Ð¾ÑÑÑ, ÑÐ¾ Ð¿ÑÐ¾ÑÐ»ÑÑÐ¾Ð²ÑÑÑÑÑÑ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
-        <translation>Коментар до Клієнта Користувача (%s) містить небезпечні символи.</translation>
+        <translation>ÐÐ¾Ð¼ÐµÐ½ÑÐ°Ñ Ð´Ð¾ ÐÐ»ÑÑÐ½ÑÐ° ÐÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐ° (%s) Ð¼ÑÑÑÐ¸ÑÑ Ð½ÐµÐ±ÐµÐ·Ð¿ÐµÑÐ½Ñ ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¸.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Перевірка блоків...</translation>
+        <translation>ÐÐµÑÐµÐ²ÑÑÐºÐ° Ð±Ð»Ð¾ÐºÑÐ²...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Перевірка гаманця... </translation>
+        <translation>ÐÐµÑÐµÐ²ÑÑÐºÐ° Ð³Ð°Ð¼Ð°Ð½ÑÑ... </translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Гаманець %s знаходиться поза каталогом даних %s</translation>
+        <translation>ÐÐ°Ð¼Ð°Ð½ÐµÑÑ %s Ð·Ð½Ð°ÑÐ¾Ð´Ð¸ÑÑÑÑ Ð¿Ð¾Ð·Ð° ÐºÐ°ÑÐ°Ð»Ð¾Ð³Ð¾Ð¼ Ð´Ð°Ð½Ð¸Ñ %s</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Параметри гаманця:</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑÐ¸ Ð³Ð°Ð¼Ð°Ð½ÑÑ:</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Дозволити підключення по протоколу JSON-RPC зі вказаного джерела. Правильною для &lt;ip&gt; є окрема IP-адреса (наприклад, 1.2.3.4), IP-адреса та маска підмережі (наприклад, 1.2.3.4/255.255.255.0) або CIDR-адреса (наприклад, 1.2.3.4/24). Цей параметр можна вказувати декілька разів.</translation>
+        <translation>ÐÐ¾Ð·Ð²Ð¾Ð»Ð¸ÑÐ¸ Ð¿ÑÐ´ÐºÐ»ÑÑÐµÐ½Ð½Ñ Ð¿Ð¾ Ð¿ÑÐ¾ÑÐ¾ÐºÐ¾Ð»Ñ JSON-RPC Ð·Ñ Ð²ÐºÐ°Ð·Ð°Ð½Ð¾Ð³Ð¾ Ð´Ð¶ÐµÑÐµÐ»Ð°. ÐÑÐ°Ð²Ð¸Ð»ÑÐ½Ð¾Ñ Ð´Ð»Ñ &lt;ip&gt; Ñ Ð¾ÐºÑÐµÐ¼Ð° IP-Ð°Ð´ÑÐµÑÐ° (Ð½Ð°Ð¿ÑÐ¸ÐºÐ»Ð°Ð´, 1.2.3.4), IP-Ð°Ð´ÑÐµÑÐ° ÑÐ° Ð¼Ð°ÑÐºÐ° Ð¿ÑÐ´Ð¼ÐµÑÐµÐ¶Ñ (Ð½Ð°Ð¿ÑÐ¸ÐºÐ»Ð°Ð´, 1.2.3.4/255.255.255.0) Ð°Ð±Ð¾ CIDR-Ð°Ð´ÑÐµÑÐ° (Ð½Ð°Ð¿ÑÐ¸ÐºÐ»Ð°Ð´, 1.2.3.4/24). Ð¦ÐµÐ¹ Ð¿Ð°ÑÐ°Ð¼ÐµÑÑ Ð¼Ð¾Ð¶Ð½Ð° Ð²ÐºÐ°Ð·ÑÐ²Ð°ÑÐ¸ Ð´ÐµÐºÑÐ»ÑÐºÐ° ÑÐ°Ð·ÑÐ².</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Прив'язатися до даної адреси та вносити до білого списку учасників, що під'єднуються до неї. Використовуйте запис виду [хост]:порт для IPv6</translation>
+        <translation>ÐÑÐ¸Ð²'ÑÐ·Ð°ÑÐ¸ÑÑ Ð´Ð¾ Ð´Ð°Ð½Ð¾Ñ Ð°Ð´ÑÐµÑÐ¸ ÑÐ° Ð²Ð½Ð¾ÑÐ¸ÑÐ¸ Ð´Ð¾ Ð±ÑÐ»Ð¾Ð³Ð¾ ÑÐ¿Ð¸ÑÐºÑ ÑÑÐ°ÑÐ½Ð¸ÐºÑÐ², ÑÐ¾ Ð¿ÑÐ´'ÑÐ´Ð½ÑÑÑÑÑÑ Ð´Ð¾ Ð½ÐµÑ. ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ¹ÑÐµ Ð·Ð°Ð¿Ð¸Ñ Ð²Ð¸Ð´Ñ [ÑÐ¾ÑÑ]:Ð¿Ð¾ÑÑ Ð´Ð»Ñ IPv6</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Прив'язатися до даної адреси для прослуховування JSON-RPC підключень. Використовуйте запис виду [хост]:порт для IPv6. Цей параметр можна вказувати декілька разів (типово: прив'язуватися до всіх інтерфейсів)</translation>
+        <translation>ÐÑÐ¸Ð²'ÑÐ·Ð°ÑÐ¸ÑÑ Ð´Ð¾ Ð´Ð°Ð½Ð¾Ñ Ð°Ð´ÑÐµÑÐ¸ Ð´Ð»Ñ Ð¿ÑÐ¾ÑÐ»ÑÑÐ¾Ð²ÑÐ²Ð°Ð½Ð½Ñ JSON-RPC Ð¿ÑÐ´ÐºÐ»ÑÑÐµÐ½Ñ. ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ¹ÑÐµ Ð·Ð°Ð¿Ð¸Ñ Ð²Ð¸Ð´Ñ [ÑÐ¾ÑÑ]:Ð¿Ð¾ÑÑ Ð´Ð»Ñ IPv6. Ð¦ÐµÐ¹ Ð¿Ð°ÑÐ°Ð¼ÐµÑÑ Ð¼Ð¾Ð¶Ð½Ð° Ð²ÐºÐ°Ð·ÑÐ²Ð°ÑÐ¸ Ð´ÐµÐºÑÐ»ÑÐºÐ° ÑÐ°Ð·ÑÐ² (ÑÐ¸Ð¿Ð¾Ð²Ð¾: Ð¿ÑÐ¸Ð²'ÑÐ·ÑÐ²Ð°ÑÐ¸ÑÑ Ð´Ð¾ Ð²ÑÑÑ ÑÐ½ÑÐµÑÑÐµÐ¹ÑÑÐ²)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Створювати нові файли з типовими для системи атрибутами доступу замість маски 077 (діє тільки при вимкненому гаманці)</translation>
+        <translation>Ð¡ÑÐ²Ð¾ÑÑÐ²Ð°ÑÐ¸ Ð½Ð¾Ð²Ñ ÑÐ°Ð¹Ð»Ð¸ Ð· ÑÐ¸Ð¿Ð¾Ð²Ð¸Ð¼Ð¸ Ð´Ð»Ñ ÑÐ¸ÑÑÐµÐ¼Ð¸ Ð°ÑÑÐ¸Ð±ÑÑÐ°Ð¼Ð¸ Ð´Ð¾ÑÑÑÐ¿Ñ Ð·Ð°Ð¼ÑÑÑÑ Ð¼Ð°ÑÐºÐ¸ 077 (Ð´ÑÑ ÑÑÐ»ÑÐºÐ¸ Ð¿ÑÐ¸ Ð²Ð¸Ð¼ÐºÐ½ÐµÐ½Ð¾Ð¼Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Визначити власні IP-адреси (типово: 1 при прослуховуванні та за відсутності -externalip або -proxy)</translation>
+        <translation>ÐÐ¸Ð·Ð½Ð°ÑÐ¸ÑÐ¸ Ð²Ð»Ð°ÑÐ½Ñ IP-Ð°Ð´ÑÐµÑÐ¸ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: 1 Ð¿ÑÐ¸ Ð¿ÑÐ¾ÑÐ»ÑÑÐ¾Ð²ÑÐ²Ð°Ð½Ð½Ñ ÑÐ° Ð·Ð° Ð²ÑÐ´ÑÑÑÐ½Ð¾ÑÑÑ -externalip Ð°Ð±Ð¾ -proxy)</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Помилка: Не вдалося налаштувати прослуховування вхідних підключень (listen повернув помилку: %s)</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ°: ÐÐµ Ð²Ð´Ð°Ð»Ð¾ÑÑ Ð½Ð°Ð»Ð°ÑÑÑÐ²Ð°ÑÐ¸ Ð¿ÑÐ¾ÑÐ»ÑÑÐ¾Ð²ÑÐ²Ð°Ð½Ð½Ñ Ð²ÑÑÐ´Ð½Ð¸Ñ Ð¿ÑÐ´ÐºÐ»ÑÑÐµÐ½Ñ (listen Ð¿Ð¾Ð²ÐµÑÐ½ÑÐ² Ð¿Ð¾Ð¼Ð¸Ð»ÐºÑ: %s)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Виконати команду при надходженні важливого сповіщення або при спостереженні тривалого розгалуження ланцюжка (замість %s буде підставлено повідомлення)</translation>
+        <translation>ÐÐ¸ÐºÐ¾Ð½Ð°ÑÐ¸ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ Ð¿ÑÐ¸ Ð½Ð°Ð´ÑÐ¾Ð´Ð¶ÐµÐ½Ð½Ñ Ð²Ð°Ð¶Ð»Ð¸Ð²Ð¾Ð³Ð¾ ÑÐ¿Ð¾Ð²ÑÑÐµÐ½Ð½Ñ Ð°Ð±Ð¾ Ð¿ÑÐ¸ ÑÐ¿Ð¾ÑÑÐµÑÐµÐ¶ÐµÐ½Ð½Ñ ÑÑÐ¸Ð²Ð°Ð»Ð¾Ð³Ð¾ ÑÐ¾Ð·Ð³Ð°Ð»ÑÐ¶ÐµÐ½Ð½Ñ Ð»Ð°Ð½ÑÑÐ¶ÐºÐ° (Ð·Ð°Ð¼ÑÑÑÑ %s Ð±ÑÐ´Ðµ Ð¿ÑÐ´ÑÑÐ°Ð²Ð»ÐµÐ½Ð¾ Ð¿Ð¾Ð²ÑÐ´Ð¾Ð¼Ð»ÐµÐ½Ð½Ñ)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>Комісії (в %s/kB), що менші за вказану, вважатимуться нульовими для зміни, аналізу та створення транзакцій (типово: %s)</translation>
+        <translation>ÐÐ¾Ð¼ÑÑÑÑ (Ð² %s/kB), ÑÐ¾ Ð¼ÐµÐ½ÑÑ Ð·Ð° Ð²ÐºÐ°Ð·Ð°Ð½Ñ, Ð²Ð²Ð°Ð¶Ð°ÑÐ¸Ð¼ÑÑÑÑÑ Ð½ÑÐ»ÑÐ¾Ð²Ð¸Ð¼Ð¸ Ð´Ð»Ñ Ð·Ð¼ÑÐ½Ð¸, Ð°Ð½Ð°Ð»ÑÐ·Ñ ÑÐ° ÑÑÐ²Ð¾ÑÐµÐ½Ð½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Якщо параметр paytxfee не встановлено, включити комісію для отримання перших підтверджень транзакцій протягом n блоків (типово: %u)</translation>
+        <translation>Ð¯ÐºÑÐ¾ Ð¿Ð°ÑÐ°Ð¼ÐµÑÑ paytxfee Ð½Ðµ Ð²ÑÑÐ°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¾, Ð²ÐºÐ»ÑÑÐ¸ÑÐ¸ ÐºÐ¾Ð¼ÑÑÑÑ Ð´Ð»Ñ Ð¾ÑÑÐ¸Ð¼Ð°Ð½Ð½Ñ Ð¿ÐµÑÑÐ¸Ñ Ð¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ Ð¿ÑÐ¾ÑÑÐ³Ð¾Ð¼ n Ð±Ð»Ð¾ÐºÑÐ² (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Неприпустима сума для -maxtxfee = &lt;amount&gt;: «%s» ( плата повинна бути, принаймні %s, щоб запобігти зависанню транзакцій)</translation>
+        <translation>ÐÐµÐ¿ÑÐ¸Ð¿ÑÑÑÐ¸Ð¼Ð° ÑÑÐ¼Ð° Ð´Ð»Ñ -maxtxfee = &lt;amount&gt;: «%s» ( Ð¿Ð»Ð°ÑÐ° Ð¿Ð¾Ð²Ð¸Ð½Ð½Ð° Ð±ÑÑÐ¸, Ð¿ÑÐ¸Ð½Ð°Ð¹Ð¼Ð½Ñ %s, ÑÐ¾Ð± Ð·Ð°Ð¿Ð¾Ð±ÑÐ³ÑÐ¸ Ð·Ð°Ð²Ð¸ÑÐ°Ð½Ð½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Максимальний розмір даних в транзакціях носіїв даних, що ми передаємо і добуваємо (за замовчуванням: %u)</translation>
+        <translation>ÐÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑÐ½Ð¸Ð¹ ÑÐ¾Ð·Ð¼ÑÑ Ð´Ð°Ð½Ð¸Ñ Ð² ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑÑ Ð½Ð¾ÑÑÑÐ² Ð´Ð°Ð½Ð¸Ñ, ÑÐ¾ Ð¼Ð¸ Ð¿ÐµÑÐµÐ´Ð°ÑÐ¼Ð¾ Ñ Ð´Ð¾Ð±ÑÐ²Ð°ÑÐ¼Ð¾ (Ð·Ð° Ð·Ð°Ð¼Ð¾Ð²ÑÑÐ²Ð°Ð½Ð½ÑÐ¼: %u)</translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Надавати випадкові дані доступу для кожного проксі-з'єднання. Це дозволяє ввімкнути ізоляцію потоків Tor'у (типово: %u)</translation>
+        <translation>ÐÐ°Ð´Ð°Ð²Ð°ÑÐ¸ Ð²Ð¸Ð¿Ð°Ð´ÐºÐ¾Ð²Ñ Ð´Ð°Ð½Ñ Ð´Ð¾ÑÑÑÐ¿Ñ Ð´Ð»Ñ ÐºÐ¾Ð¶Ð½Ð¾Ð³Ð¾ Ð¿ÑÐ¾ÐºÑÑ-Ð·'ÑÐ´Ð½Ð°Ð½Ð½Ñ. Ð¦Ðµ Ð´Ð¾Ð·Ð²Ð¾Ð»ÑÑ Ð²Ð²ÑÐ¼ÐºÐ½ÑÑÐ¸ ÑÐ·Ð¾Ð»ÑÑÑÑ Ð¿Ð¾ÑÐ¾ÐºÑÐ² Tor'Ñ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Встановити максимальний розмір транзакцій з високим пріоритетом та низькою комісією (в байтах) (типово: %d)</translation>
+        <translation>ÐÑÑÐ°Ð½Ð¾Ð²Ð¸ÑÐ¸ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑÐ½Ð¸Ð¹ ÑÐ¾Ð·Ð¼ÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ Ð· Ð²Ð¸ÑÐ¾ÐºÐ¸Ð¼ Ð¿ÑÑÐ¾ÑÐ¸ÑÐµÑÐ¾Ð¼ ÑÐ° Ð½Ð¸Ð·ÑÐºÐ¾Ñ ÐºÐ¾Ð¼ÑÑÑÑÑ (Ð² Ð±Ð°Ð¹ÑÐ°Ñ) (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %d)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Залишок від суми транзакції зі сплатою комісії занадто малий </translation>
+        <translation>ÐÐ°Ð»Ð¸ÑÐ¾Ðº Ð²ÑÐ´ ÑÑÐ¼Ð¸ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð·Ñ ÑÐ¿Ð»Ð°ÑÐ¾Ñ ÐºÐ¾Ð¼ÑÑÑÑ Ð·Ð°Ð½Ð°Ð´ÑÐ¾ Ð¼Ð°Ð»Ð¸Ð¹ </translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Учасники, що знаходяться в білому списку, не можуть бути заблоковані за DoS та їхні транзакції завжди ретранслюватимуться (навіть якщо вони є в пам'яті), що може бути корисним, наприклад, для шлюзу</translation>
+        <translation>Ð£ÑÐ°ÑÐ½Ð¸ÐºÐ¸, ÑÐ¾ Ð·Ð½Ð°ÑÐ¾Ð´ÑÑÑÑÑ Ð² Ð±ÑÐ»Ð¾Ð¼Ñ ÑÐ¿Ð¸ÑÐºÑ, Ð½Ðµ Ð¼Ð¾Ð¶ÑÑÑ Ð±ÑÑÐ¸ Ð·Ð°Ð±Ð»Ð¾ÐºÐ¾Ð²Ð°Ð½Ñ Ð·Ð° DoS ÑÐ° ÑÑÐ½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð·Ð°Ð²Ð¶Ð´Ð¸ ÑÐµÑÑÐ°Ð½ÑÐ»ÑÐ²Ð°ÑÐ¸Ð¼ÑÑÑÑÑ (Ð½Ð°Ð²ÑÑÑ ÑÐºÑÐ¾ Ð²Ð¾Ð½Ð¸ Ñ Ð² Ð¿Ð°Ð¼'ÑÑÑ), ÑÐ¾ Ð¼Ð¾Ð¶Ðµ Ð±ÑÑÐ¸ ÐºÐ¾ÑÐ¸ÑÐ½Ð¸Ð¼, Ð½Ð°Ð¿ÑÐ¸ÐºÐ»Ð°Ð´, Ð´Ð»Ñ ÑÐ»ÑÐ·Ñ</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>Вам необхідно перебудувати базу даних з використанням -reindex для завантаження повного ланцюжка блоків.</translation>
+        <translation>ÐÐ°Ð¼ Ð½ÐµÐ¾Ð±ÑÑÐ´Ð½Ð¾ Ð¿ÐµÑÐµÐ±ÑÐ´ÑÐ²Ð°ÑÐ¸ Ð±Ð°Ð·Ñ Ð´Ð°Ð½Ð¸Ñ Ð· Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ°Ð½Ð½ÑÐ¼ -reindex Ð´Ð»Ñ Ð·Ð°Ð²Ð°Ð½ÑÐ°Ð¶ÐµÐ½Ð½Ñ Ð¿Ð¾Ð²Ð½Ð¾Ð³Ð¾ Ð»Ð°Ð½ÑÑÐ¶ÐºÐ° Ð±Ð»Ð¾ÐºÑÐ².</translation>
     </message>
     <message>
         <source>(default: %u)</source>
-        <translation>(типово: %u)</translation>
+        <translation>(ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Приймати публічні REST-запити (типово: %u)</translation>
+        <translation>ÐÑÐ¸Ð¹Ð¼Ð°ÑÐ¸ Ð¿ÑÐ±Ð»ÑÑÐ½Ñ REST-Ð·Ð°Ð¿Ð¸ÑÐ¸ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Автоматичне з'єднання з прихованим сервісом Tor (типово: %d)</translation>
+        <translation>ÐÐ²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐ½Ðµ Ð·'ÑÐ´Ð½Ð°Ð½Ð½Ñ Ð· Ð¿ÑÐ¸ÑÐ¾Ð²Ð°Ð½Ð¸Ð¼ ÑÐµÑÐ²ÑÑÐ¾Ð¼ Tor (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %d)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Підключитись через SOCKS5-проксі</translation>
+        <translation>ÐÑÐ´ÐºÐ»ÑÑÐ¸ÑÐ¸ÑÑ ÑÐµÑÐµÐ· SOCKS5-Ð¿ÑÐ¾ÐºÑÑ</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Помилка читання бази даних, припиняю роботу.</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ° ÑÐ¸ÑÐ°Ð½Ð½Ñ Ð±Ð°Ð·Ð¸ Ð´Ð°Ð½Ð¸Ñ, Ð¿ÑÐ¸Ð¿Ð¸Ð½ÑÑ ÑÐ¾Ð±Ð¾ÑÑ.</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file on startup</source>
-        <translation>Спочатку імпортує блоки з зовнішнього файлу blk000??.dat </translation>
+        <translation>Ð¡Ð¿Ð¾ÑÐ°ÑÐºÑ ÑÐ¼Ð¿Ð¾ÑÑÑÑ Ð±Ð»Ð¾ÐºÐ¸ Ð· Ð·Ð¾Ð²Ð½ÑÑÐ½ÑÐ¾Ð³Ð¾ ÑÐ°Ð¹Ð»Ñ blk000??.dat </translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Інформація</translation>
+        <translation>ÐÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Вказано некоректну суму для параметру -paytxfee: «%s» (повинно бути щонайменше %s)</translation>
+        <translation>ÐÐºÐ°Ð·Ð°Ð½Ð¾ Ð½ÐµÐºÐ¾ÑÐµÐºÑÐ½Ñ ÑÑÐ¼Ñ Ð´Ð»Ñ Ð¿Ð°ÑÐ°Ð¼ÐµÑÑÑ -paytxfee: «%s» (Ð¿Ð¾Ð²Ð¸Ð½Ð½Ð¾ Ð±ÑÑÐ¸ ÑÐ¾Ð½Ð°Ð¹Ð¼ÐµÐ½ÑÐµ %s)</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Вказано неправильну маску підмережі для -whitelist: «%s»</translation>
+        <translation>ÐÐºÐ°Ð·Ð°Ð½Ð¾ Ð½ÐµÐ¿ÑÐ°Ð²Ð¸Ð»ÑÐ½Ñ Ð¼Ð°ÑÐºÑ Ð¿ÑÐ´Ð¼ÐµÑÐµÐ¶Ñ Ð´Ð»Ñ -whitelist: «%s»</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Утримувати в пам'яті щонайбільше &lt;n&gt; транзакцій, що споживають невідомі входи (типово: %u)</translation>
+        <translation>Ð£ÑÑÐ¸Ð¼ÑÐ²Ð°ÑÐ¸ Ð² Ð¿Ð°Ð¼'ÑÑÑ ÑÐ¾Ð½Ð°Ð¹Ð±ÑÐ»ÑÑÐµ &lt;n&gt; ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹, ÑÐ¾ ÑÐ¿Ð¾Ð¶Ð¸Ð²Ð°ÑÑÑ Ð½ÐµÐ²ÑÐ´Ð¾Ð¼Ñ Ð²ÑÐ¾Ð´Ð¸ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Необхідно вказати порт для -whitebind: «%s»</translation>
+        <translation>ÐÐµÐ¾Ð±ÑÑÐ´Ð½Ð¾ Ð²ÐºÐ°Ð·Ð°ÑÐ¸ Ð¿Ð¾ÑÑ Ð´Ð»Ñ -whitebind: «%s»</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Параметри вузла ретрансляції:</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑÐ¸ Ð²ÑÐ·Ð»Ð° ÑÐµÑÑÐ°Ð½ÑÐ»ÑÑÑÑ:</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>Параметри сервера RPC:</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑÐ¸ ÑÐµÑÐ²ÐµÑÐ° RPC:</translation>
     </message>
     <message>
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
-        <translation>Зменшення значення -maxconnections з %d до %d із-за обмежень системи.</translation>
+        <translation>ÐÐ¼ÐµÐ½ÑÐµÐ½Ð½Ñ Ð·Ð½Ð°ÑÐµÐ½Ð½Ñ -maxconnections Ð· %d Ð´Ð¾ %d ÑÐ·-Ð·Ð° Ð¾Ð±Ð¼ÐµÐ¶ÐµÐ½Ñ ÑÐ¸ÑÑÐµÐ¼Ð¸.</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
-        <translation>Спочатку переглянте ланцюжок блоків на наявність втрачених транзакцій гаманця</translation>
+        <translation>Ð¡Ð¿Ð¾ÑÐ°ÑÐºÑ Ð¿ÐµÑÐµÐ³Ð»ÑÐ½ÑÐµ Ð»Ð°Ð½ÑÑÐ¶Ð¾Ðº Ð±Ð»Ð¾ÐºÑÐ² Ð½Ð° Ð½Ð°ÑÐ²Ð½ÑÑÑÑ Ð²ÑÑÐ°ÑÐµÐ½Ð¸Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ Ð³Ð°Ð¼Ð°Ð½ÑÑ</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Відсилати налагоджувальну інформацію на консоль, а не у файл debug.log</translation>
+        <translation>ÐÑÐ´ÑÐ¸Ð»Ð°ÑÐ¸ Ð½Ð°Ð»Ð°Ð³Ð¾Ð´Ð¶ÑÐ²Ð°Ð»ÑÐ½Ñ ÑÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ Ð½Ð° ÐºÐ¾Ð½ÑÐ¾Ð»Ñ, Ð° Ð½Ðµ Ñ ÑÐ°Ð¹Ð» debug.log</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Не сплачувати комісію за надсилання транзакцій, якщо це можливо (типово: %u)</translation>
+        <translation>ÐÐµ ÑÐ¿Ð»Ð°ÑÑÐ²Ð°ÑÐ¸ ÐºÐ¾Ð¼ÑÑÑÑ Ð·Ð° Ð½Ð°Ð´ÑÐ¸Ð»Ð°Ð½Ð½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹, ÑÐºÑÐ¾ ÑÐµ Ð¼Ð¾Ð¶Ð»Ð¸Ð²Ð¾ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Показати всі налагоджувальні параметри (використання: --help -help-debug)</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð·Ð°ÑÐ¸ Ð²ÑÑ Ð½Ð°Ð»Ð°Ð³Ð¾Ð´Ð¶ÑÐ²Ð°Ð»ÑÐ½Ñ Ð¿Ð°ÑÐ°Ð¼ÐµÑÑÐ¸ (Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ°Ð½Ð½Ñ: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Стискати файл debug.log під час старту клієнта (типово: 1 коли відсутній параметр -debug)</translation>
+        <translation>Ð¡ÑÐ¸ÑÐºÐ°ÑÐ¸ ÑÐ°Ð¹Ð» debug.log Ð¿ÑÐ´ ÑÐ°Ñ ÑÑÐ°ÑÑÑ ÐºÐ»ÑÑÐ½ÑÐ° (ÑÐ¸Ð¿Ð¾Ð²Ð¾: 1 ÐºÐ¾Ð»Ð¸ Ð²ÑÐ´ÑÑÑÐ½ÑÐ¹ Ð¿Ð°ÑÐ°Ð¼ÐµÑÑ -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Підписання транзакції не вдалося</translation>
+        <translation>ÐÑÐ´Ð¿Ð¸ÑÐ°Ð½Ð½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð½Ðµ Ð²Ð´Ð°Ð»Ð¾ÑÑ</translation>
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
-        <translation>Неможливо сплатити комісію із-за малої суми транзакції</translation>
+        <translation>ÐÐµÐ¼Ð¾Ð¶Ð»Ð¸Ð²Ð¾ ÑÐ¿Ð»Ð°ÑÐ¸ÑÐ¸ ÐºÐ¾Ð¼ÑÑÑÑ ÑÐ·-Ð·Ð° Ð¼Ð°Ð»Ð¾Ñ ÑÑÐ¼Ð¸ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Це програмне забезпечення є експериментальним.</translation>
+        <translation>Ð¦Ðµ Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð½Ðµ Ð·Ð°Ð±ÐµÐ·Ð¿ÐµÑÐµÐ½Ð½Ñ Ñ ÐµÐºÑÐ¿ÐµÑÐ¸Ð¼ÐµÐ½ÑÐ°Ð»ÑÐ½Ð¸Ð¼.</translation>
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
-        <translation>Пароль управління порт протоколом Tor (типово: empty)</translation>
+        <translation>ÐÐ°ÑÐ¾Ð»Ñ ÑÐ¿ÑÐ°Ð²Ð»ÑÐ½Ð½Ñ Ð¿Ð¾ÑÑ Ð¿ÑÐ¾ÑÐ¾ÐºÐ¾Ð»Ð¾Ð¼ Tor (ÑÐ¸Ð¿Ð¾Ð²Ð¾: empty)</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Скористайтесь управлінням порт протоколом Tor, в разі перехоплення обміну цибулевої маршрутизації (типово: %s)</translation>
+        <translation>Ð¡ÐºÐ¾ÑÐ¸ÑÑÐ°Ð¹ÑÐµÑÑ ÑÐ¿ÑÐ°Ð²Ð»ÑÐ½Ð½ÑÐ¼ Ð¿Ð¾ÑÑ Ð¿ÑÐ¾ÑÐ¾ÐºÐ¾Ð»Ð¾Ð¼ Tor, Ð² ÑÐ°Ð·Ñ Ð¿ÐµÑÐµÑÐ¾Ð¿Ð»ÐµÐ½Ð½Ñ Ð¾Ð±Ð¼ÑÐ½Ñ ÑÐ¸Ð±ÑÐ»ÐµÐ²Ð¾Ñ Ð¼Ð°ÑÑÑÑÑÐ¸Ð·Ð°ÑÑÑ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %s)</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Сума транзакції занадто мала</translation>
+        <translation>Ð¡ÑÐ¼Ð° ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð·Ð°Ð½Ð°Ð´ÑÐ¾ Ð¼Ð°Ð»Ð°</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Транзакція занадто велика для правил комісії</translation>
+        <translation>Ð¢ÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð·Ð°Ð½Ð°Ð´ÑÐ¾ Ð²ÐµÐ»Ð¸ÐºÐ° Ð´Ð»Ñ Ð¿ÑÐ°Ð²Ð¸Ð» ÐºÐ¾Ð¼ÑÑÑÑ</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Транзакція занадто велика</translation>
+        <translation>Ð¢ÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð·Ð°Ð½Ð°Ð´ÑÐ¾ Ð²ÐµÐ»Ð¸ÐºÐ°</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Неможливо прив'язатися до %s на цьому комп'ютері (bind повернув помилку: %s)</translation>
+        <translation>ÐÐµÐ¼Ð¾Ð¶Ð»Ð¸Ð²Ð¾ Ð¿ÑÐ¸Ð²'ÑÐ·Ð°ÑÐ¸ÑÑ Ð´Ð¾ %s Ð½Ð° ÑÑÐ¾Ð¼Ñ ÐºÐ¾Ð¼Ð¿'ÑÑÐµÑÑ (bind Ð¿Ð¾Ð²ÐµÑÐ½ÑÐ² Ð¿Ð¾Ð¼Ð¸Ð»ÐºÑ: %s)</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup</source>
-        <translation>Спочатку оновіть гаманець до останньої версії</translation>
+        <translation>Ð¡Ð¿Ð¾ÑÐ°ÑÐºÑ Ð¾Ð½Ð¾Ð²ÑÑÑ Ð³Ð°Ð¼Ð°Ð½ÐµÑÑ Ð´Ð¾ Ð¾ÑÑÐ°Ð½Ð½ÑÐ¾Ñ Ð²ÐµÑÑÑÑ</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Ім'я користувача для JSON-RPC-з'єднань</translation>
+        <translation>ÐÐ¼'Ñ ÐºÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐ° Ð´Ð»Ñ JSON-RPC-Ð·'ÑÐ´Ð½Ð°Ð½Ñ</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Попередження</translation>
+        <translation>ÐÐ¾Ð¿ÐµÑÐµÐ´Ð¶ÐµÐ½Ð½Ñ</translation>
     </message>
     <message>
         <source>Whether to operate in a blocks only mode (default: %u)</source>
-        <translation>Чи слід працювати в режимі тільки блоки (типово: %u)</translation>
+        <translation>Ð§Ð¸ ÑÐ»ÑÐ´ Ð¿ÑÐ°ÑÑÐ²Ð°ÑÐ¸ Ð² ÑÐµÐ¶Ð¸Ð¼Ñ ÑÑÐ»ÑÐºÐ¸ Ð±Ð»Ð¾ÐºÐ¸ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Видалення всіх транзакцій з гаманця...</translation>
+        <translation>ÐÐ¸Ð´Ð°Ð»ÐµÐ½Ð½Ñ Ð²ÑÑÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ Ð· Ð³Ð°Ð¼Ð°Ð½ÑÑ...</translation>
     </message>
     <message>
         <source>ZeroMQ notification options:</source>
-        <translation>Параметри сповіщень ZeroMQ:</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑÐ¸ ÑÐ¿Ð¾Ð²ÑÑÐµÐ½Ñ ZeroMQ:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Пароль для JSON-RPC-з'єднань</translation>
+        <translation>ÐÐ°ÑÐ¾Ð»Ñ Ð´Ð»Ñ JSON-RPC-Ð·'ÑÐ´Ð½Ð°Ð½Ñ</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Виконати команду, коли з'явиться новий блок (%s в команді змінюється на хеш блоку)</translation>
+        <translation>ÐÐ¸ÐºÐ¾Ð½Ð°ÑÐ¸ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ, ÐºÐ¾Ð»Ð¸ Ð·'ÑÐ²Ð¸ÑÑÑÑ Ð½Ð¾Ð²Ð¸Ð¹ Ð±Ð»Ð¾Ðº (%s Ð² ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ Ð·Ð¼ÑÐ½ÑÑÑÑÑÑ Ð½Ð° ÑÐµÑ Ð±Ð»Ð¾ÐºÑ)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Дозволити пошук в DNS для команд -addnode, -seednode та -connect</translation>
+        <translation>ÐÐ¾Ð·Ð²Ð¾Ð»Ð¸ÑÐ¸ Ð¿Ð¾ÑÑÐº Ð² DNS Ð´Ð»Ñ ÐºÐ¾Ð¼Ð°Ð½Ð´ -addnode, -seednode ÑÐ° -connect</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Завантаження адрес...</translation>
+        <translation>ÐÐ°Ð²Ð°Ð½ÑÐ°Ð¶ÐµÐ½Ð½Ñ Ð°Ð´ÑÐµÑ...</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = утримувати метадані транзакцій (до яких відноситься інформація про власника рахунку та запити платежів), 2 - відкинути)</translation>
+        <translation>(1 = ÑÑÑÐ¸Ð¼ÑÐ²Ð°ÑÐ¸ Ð¼ÐµÑÐ°Ð´Ð°Ð½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ (Ð´Ð¾ ÑÐºÐ¸Ñ Ð²ÑÐ´Ð½Ð¾ÑÐ¸ÑÑÑÑ ÑÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ Ð¿ÑÐ¾ Ð²Ð»Ð°ÑÐ½Ð¸ÐºÐ° ÑÐ°ÑÑÐ½ÐºÑ ÑÐ° Ð·Ð°Ð¿Ð¸ÑÐ¸ Ð¿Ð»Ð°ÑÐµÐ¶ÑÐ²), 2 - Ð²ÑÐ´ÐºÐ¸Ð½ÑÑÐ¸)</translation>
     </message>
     <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>Встановлено дуже велике значення -maxtxfee! Такі великі комісії можуть бути сплачені окремою транзакцією.</translation>
+        <translation>ÐÑÑÐ°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¾ Ð´ÑÐ¶Ðµ Ð²ÐµÐ»Ð¸ÐºÐµ Ð·Ð½Ð°ÑÐµÐ½Ð½Ñ -maxtxfee! Ð¢Ð°ÐºÑ Ð²ÐµÐ»Ð¸ÐºÑ ÐºÐ¾Ð¼ÑÑÑÑ Ð¼Ð¾Ð¶ÑÑÑ Ð±ÑÑÐ¸ ÑÐ¿Ð»Ð°ÑÐµÐ½Ñ Ð¾ÐºÑÐµÐ¼Ð¾Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑÑ.</translation>
     </message>
     <message>
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>Не тримати транзакції в пам'яті довше &lt;n&gt; годин (типово: %u)</translation>
+        <translation>ÐÐµ ÑÑÐ¸Ð¼Ð°ÑÐ¸ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð² Ð¿Ð°Ð¼'ÑÑÑ Ð´Ð¾Ð²ÑÐµ &lt;n&gt; Ð³Ð¾Ð´Ð¸Ð½ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Комісії (в %s/kB), що менші за вказану, вважатимуться нульовими для створення транзакцій (типово: %s)</translation>
+        <translation>ÐÐ¾Ð¼ÑÑÑÑ (Ð² %s/kB), ÑÐ¾ Ð¼ÐµÐ½ÑÑ Ð·Ð° Ð²ÐºÐ°Ð·Ð°Ð½Ñ, Ð²Ð²Ð°Ð¶Ð°ÑÐ¸Ð¼ÑÑÑÑÑ Ð½ÑÐ»ÑÐ¾Ð²Ð¸Ð¼Ð¸ Ð´Ð»Ñ ÑÑÐ²Ð¾ÑÐµÐ½Ð½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %s)</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Рівень ретельності перевірки блоків (0-4, типово: %u)</translation>
+        <translation>Ð ÑÐ²ÐµÐ½Ñ ÑÐµÑÐµÐ»ÑÐ½Ð¾ÑÑÑ Ð¿ÐµÑÐµÐ²ÑÑÐºÐ¸ Ð±Ð»Ð¾ÐºÑÐ² (0-4, ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Утримувати повний індекс транзакцій (використовується RPC-викликом getrawtransaction) (типово: %u)</translation>
+        <translation>Ð£ÑÑÐ¸Ð¼ÑÐ²Ð°ÑÐ¸ Ð¿Ð¾Ð²Ð½Ð¸Ð¹ ÑÐ½Ð´ÐµÐºÑ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ (Ð²Ð¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÑÑÑÑÑ RPC-Ð²Ð¸ÐºÐ»Ð¸ÐºÐ¾Ð¼ getrawtransaction) (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Час в секундах, протягом якого відключені учасники з поганою поведінкою не зможуть підключитися (типово: %u)</translation>
+        <translation>Ð§Ð°Ñ Ð² ÑÐµÐºÑÐ½Ð´Ð°Ñ, Ð¿ÑÐ¾ÑÑÐ³Ð¾Ð¼ ÑÐºÐ¾Ð³Ð¾ Ð²ÑÐ´ÐºÐ»ÑÑÐµÐ½Ñ ÑÑÐ°ÑÐ½Ð¸ÐºÐ¸ Ð· Ð¿Ð¾Ð³Ð°Ð½Ð¾Ñ Ð¿Ð¾Ð²ÐµÐ´ÑÐ½ÐºÐ¾Ñ Ð½Ðµ Ð·Ð¼Ð¾Ð¶ÑÑÑ Ð¿ÑÐ´ÐºÐ»ÑÑÐ¸ÑÐ¸ÑÑ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Виводити налагоджувальну інформацію (типово: %u, вказання &lt;category&gt; необов'язкове)</translation>
+        <translation>ÐÐ¸Ð²Ð¾Ð´Ð¸ÑÐ¸ Ð½Ð°Ð»Ð°Ð³Ð¾Ð´Ð¶ÑÐ²Ð°Ð»ÑÐ½Ñ ÑÐ½ÑÐ¾ÑÐ¼Ð°ÑÑÑ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u, Ð²ÐºÐ°Ð·Ð°Ð½Ð½Ñ &lt;category&gt; Ð½ÐµÐ¾Ð±Ð¾Ð²'ÑÐ·ÐºÐ¾Ð²Ðµ)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Фільтрація блоків та транзакцій з допомогою фільтрів Блума (типово: %u)</translation>
+        <translation>Ð¤ÑÐ»ÑÑÑÐ°ÑÑÑ Ð±Ð»Ð¾ÐºÑÐ² ÑÐ° ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ Ð· Ð´Ð¾Ð¿Ð¾Ð¼Ð¾Ð³Ð¾Ñ ÑÑÐ»ÑÑÑÑÐ² ÐÐ»ÑÐ¼Ð° (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Загальна довжина рядку мережевої версії (%i) перевищує максимально допустиму (%i). Зменшіть число чи розмір коментарів клієнта користувача.</translation>
+        <translation>ÐÐ°Ð³Ð°Ð»ÑÐ½Ð° Ð´Ð¾Ð²Ð¶Ð¸Ð½Ð° ÑÑÐ´ÐºÑ Ð¼ÐµÑÐµÐ¶ÐµÐ²Ð¾Ñ Ð²ÐµÑÑÑÑ (%i) Ð¿ÐµÑÐµÐ²Ð¸ÑÑÑ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑÐ½Ð¾ Ð´Ð¾Ð¿ÑÑÑÐ¸Ð¼Ñ (%i). ÐÐ¼ÐµÐ½ÑÑÑÑ ÑÐ¸ÑÐ»Ð¾ ÑÐ¸ ÑÐ¾Ð·Ð¼ÑÑ ÐºÐ¾Ð¼ÐµÐ½ÑÐ°ÑÑÐ² ÐºÐ»ÑÑÐ½ÑÐ° ÐºÐ¾ÑÐ¸ÑÑÑÐ²Ð°ÑÐ°.</translation>
     </message>
     <message>
         <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>Намагається зберегти вихідний трафік відповідно до зданого значення (в MIB за 24 години), 0 = без обмежень (типово: %d)</translation>
+        <translation>ÐÐ°Ð¼Ð°Ð³Ð°ÑÑÑÑÑ Ð·Ð±ÐµÑÐµÐ³ÑÐ¸ Ð²Ð¸ÑÑÐ´Ð½Ð¸Ð¹ ÑÑÐ°ÑÑÐº Ð²ÑÐ´Ð¿Ð¾Ð²ÑÐ´Ð½Ð¾ Ð´Ð¾ Ð·Ð´Ð°Ð½Ð¾Ð³Ð¾ Ð·Ð½Ð°ÑÐµÐ½Ð½Ñ (Ð² MIB Ð·Ð° 24 Ð³Ð¾Ð´Ð¸Ð½Ð¸), 0 = Ð±ÐµÐ· Ð¾Ð±Ð¼ÐµÐ¶ÐµÐ½Ñ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %d)</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Параметр -socks не підтримується. Можливість вказувати версію SOCKS було видалено, так як підтримується лише SOCKS5.</translation>
+        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑ -socks Ð½Ðµ Ð¿ÑÐ´ÑÑÐ¸Ð¼ÑÑÑÑÑÑ. ÐÐ¾Ð¶Ð»Ð¸Ð²ÑÑÑÑ Ð²ÐºÐ°Ð·ÑÐ²Ð°ÑÐ¸ Ð²ÐµÑÑÑÑ SOCKS Ð±ÑÐ»Ð¾ Ð²Ð¸Ð´Ð°Ð»ÐµÐ½Ð¾, ÑÐ°Ðº ÑÐº Ð¿ÑÐ´ÑÑÐ¸Ð¼ÑÑÑÑÑÑ Ð»Ð¸ÑÐµ SOCKS5.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Використовувати окремий SOCKS5-проксі для з'єднання з учасниками через приховані сервіси Tor (типово: %s)</translation>
+        <translation>ÐÐ¸ÐºÐ¾ÑÐ¸ÑÑÐ¾Ð²ÑÐ²Ð°ÑÐ¸ Ð¾ÐºÑÐµÐ¼Ð¸Ð¹ SOCKS5-Ð¿ÑÐ¾ÐºÑÑ Ð´Ð»Ñ Ð·'ÑÐ´Ð½Ð°Ð½Ð½Ñ Ð· ÑÑÐ°ÑÐ½Ð¸ÐºÐ°Ð¼Ð¸ ÑÐµÑÐµÐ· Ð¿ÑÐ¸ÑÐ¾Ð²Ð°Ð½Ñ ÑÐµÑÐ²ÑÑÐ¸ Tor (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %s)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(типово: %s)</translation>
+        <translation>(ÑÐ¸Ð¿Ð¾Ð²Ð¾: %s)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Завжди дізнаватися адреси учасників через DNS (типово: %u)</translation>
+        <translation>ÐÐ°Ð²Ð¶Ð´Ð¸ Ð´ÑÐ·Ð½Ð°Ð²Ð°ÑÐ¸ÑÑ Ð°Ð´ÑÐµÑÐ¸ ÑÑÐ°ÑÐ½Ð¸ÐºÑÐ² ÑÐµÑÐµÐ· DNS (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Скільки блоків перевіряти під час запуску (типово: %u, 0 = всі)</translation>
+        <translation>Ð¡ÐºÑÐ»ÑÐºÐ¸ Ð±Ð»Ð¾ÐºÑÐ² Ð¿ÐµÑÐµÐ²ÑÑÑÑÐ¸ Ð¿ÑÐ´ ÑÐ°Ñ Ð·Ð°Ð¿ÑÑÐºÑ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u, 0 = Ð²ÑÑ)</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Включити IP-адреси до налагоджувального виводу (типово: %u)</translation>
+        <translation>ÐÐºÐ»ÑÑÐ¸ÑÐ¸ IP-Ð°Ð´ÑÐµÑÐ¸ Ð´Ð¾ Ð½Ð°Ð»Ð°Ð³Ð¾Ð´Ð¶ÑÐ²Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð²Ð¸Ð²Ð¾Ð´Ñ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>Помилка в адресі проксі-сервера: «%s»</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ° Ð² Ð°Ð´ÑÐµÑÑ Ð¿ÑÐ¾ÐºÑÑ-ÑÐµÑÐ²ÐµÑÐ°: «%s»</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Прослуховувати &lt;port&gt; для JSON-RPC з'єднань (типово: %u, для тестової мережі: %u)</translation>
+        <translation>ÐÑÐ¾ÑÐ»ÑÑÐ¾Ð²ÑÐ²Ð°ÑÐ¸ &lt;port&gt; Ð´Ð»Ñ JSON-RPC Ð·'ÑÐ´Ð½Ð°Ð½Ñ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u, Ð´Ð»Ñ ÑÐµÑÑÐ¾Ð²Ð¾Ñ Ð¼ÐµÑÐµÐ¶Ñ: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Чекати на з'єднання на &lt;port&gt; (типово: %u, для тестової мережі: %u)</translation>
+        <translation>Ð§ÐµÐºÐ°ÑÐ¸ Ð½Ð° Ð·'ÑÐ´Ð½Ð°Ð½Ð½Ñ Ð½Ð° &lt;port&gt; (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u, Ð´Ð»Ñ ÑÐµÑÑÐ¾Ð²Ð¾Ñ Ð¼ÐµÑÐµÐ¶Ñ: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Підтримувати щонайбільше &lt;n&gt; з'єднань з учасниками (типово: %u)</translation>
+        <translation>ÐÑÐ´ÑÑÐ¸Ð¼ÑÐ²Ð°ÑÐ¸ ÑÐ¾Ð½Ð°Ð¹Ð±ÑÐ»ÑÑÐµ &lt;n&gt; Ð·'ÑÐ´Ð½Ð°Ð½Ñ Ð· ÑÑÐ°ÑÐ½Ð¸ÐºÐ°Ð¼Ð¸ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Make the wallet broadcast transactions</source>
-        <translation>Дозволити гаманцю розповсюджувати транзакції</translation>
+        <translation>ÐÐ¾Ð·Ð²Ð¾Ð»Ð¸ÑÐ¸ Ð³Ð°Ð¼Ð°Ð½ÑÑ ÑÐ¾Ð·Ð¿Ð¾Ð²ÑÑÐ´Ð¶ÑÐ²Ð°ÑÐ¸ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Максимальний розмір вхідного буферу на одне з'єднання, &lt;n&gt;*1000 байтів (типово: %u)</translation>
+        <translation>ÐÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑÐ½Ð¸Ð¹ ÑÐ¾Ð·Ð¼ÑÑ Ð²ÑÑÐ´Ð½Ð¾Ð³Ð¾ Ð±ÑÑÐµÑÑ Ð½Ð° Ð¾Ð´Ð½Ðµ Ð·'ÑÐ´Ð½Ð°Ð½Ð½Ñ, &lt;n&gt;*1000 Ð±Ð°Ð¹ÑÑÐ² (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Максимальний розмір вихідного буферу на одне з'єднання, &lt;n&gt;*1000 байтів (типово: %u)</translation>
+        <translation>ÐÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑÐ½Ð¸Ð¹ ÑÐ¾Ð·Ð¼ÑÑ Ð²Ð¸ÑÑÐ´Ð½Ð¾Ð³Ð¾ Ð±ÑÑÐµÑÑ Ð½Ð° Ð¾Ð´Ð½Ðµ Ð·'ÑÐ´Ð½Ð°Ð½Ð½Ñ, &lt;n&gt;*1000 Ð±Ð°Ð¹ÑÑÐ² (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Доповнювати налагоджувальний вивід відміткою часу (типово: %u)</translation>
+        <translation>ÐÐ¾Ð¿Ð¾Ð²Ð½ÑÐ²Ð°ÑÐ¸ Ð½Ð°Ð»Ð°Ð³Ð¾Ð´Ð¶ÑÐ²Ð°Ð»ÑÐ½Ð¸Ð¹ Ð²Ð¸Ð²ÑÐ´ Ð²ÑÐ´Ð¼ÑÑÐºÐ¾Ñ ÑÐ°ÑÑ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Ретранслювати та створювати транзакції носіїв даних (типово: %u)</translation>
+        <translation>Ð ÐµÑÑÐ°Ð½ÑÐ»ÑÐ²Ð°ÑÐ¸ ÑÐ° ÑÑÐ²Ð¾ÑÑÐ²Ð°ÑÐ¸ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð½Ð¾ÑÑÑÐ² Ð´Ð°Ð½Ð¸Ñ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Ретранслювати не-P2SH транзакції з мультипідписом (типово: %u)</translation>
+        <translation>Ð ÐµÑÑÐ°Ð½ÑÐ»ÑÐ²Ð°ÑÐ¸ Ð½Ðµ-P2SH ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð· Ð¼ÑÐ»ÑÑÐ¸Ð¿ÑÐ´Ð¿Ð¸ÑÐ¾Ð¼ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Send transactions with full-RBF opt-in enabled (default: %u)</source>
-        <translation>Надіслати транзакції з увімкненням full-RBF opt-in (типово: %u)</translation>
+        <translation>ÐÐ°Ð´ÑÑÐ»Ð°ÑÐ¸ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð· ÑÐ²ÑÐ¼ÐºÐ½ÐµÐ½Ð½ÑÐ¼ full-RBF opt-in (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Встановити розмір пулу ключів &lt;n&gt; (типово: %u)</translation>
+        <translation>ÐÑÑÐ°Ð½Ð¾Ð²Ð¸ÑÐ¸ ÑÐ¾Ð·Ð¼ÑÑ Ð¿ÑÐ»Ñ ÐºÐ»ÑÑÑÐ² &lt;n&gt; (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Set maximum BIP141 block weight (default: %d)</source>
-        <translation>Встановити максимальний розмір блоку BIP141 (за замовчуванням: %d)</translation>
+        <translation>ÐÑÑÐ°Ð½Ð¾Ð²Ð¸ÑÐ¸ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑÐ½Ð¸Ð¹ ÑÐ¾Ð·Ð¼ÑÑ Ð±Ð»Ð¾ÐºÑ BIP141 (Ð·Ð° Ð·Ð°Ð¼Ð¾Ð²ÑÑÐ²Ð°Ð½Ð½ÑÐ¼: %d)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Встановити число потоків для обслуговування викликів RPC (типово: %d)</translation>
+        <translation>ÐÑÑÐ°Ð½Ð¾Ð²Ð¸ÑÐ¸ ÑÐ¸ÑÐ»Ð¾ Ð¿Ð¾ÑÐ¾ÐºÑÐ² Ð´Ð»Ñ Ð¾Ð±ÑÐ»ÑÐ³Ð¾Ð²ÑÐ²Ð°Ð½Ð½Ñ Ð²Ð¸ÐºÐ»Ð¸ÐºÑÐ² RPC (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %d)</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Вказати файл конфігурації (типово: %s)</translation>
+        <translation>ÐÐºÐ°Ð·Ð°ÑÐ¸ ÑÐ°Ð¹Ð» ÐºÐ¾Ð½ÑÑÐ³ÑÑÐ°ÑÑÑ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Вказати тайм-аут підключення в мілісекундах (щонайменше: 1, типово: %d)</translation>
+        <translation>ÐÐºÐ°Ð·Ð°ÑÐ¸ ÑÐ°Ð¹Ð¼-Ð°ÑÑ Ð¿ÑÐ´ÐºÐ»ÑÑÐµÐ½Ð½Ñ Ð² Ð¼ÑÐ»ÑÑÐµÐºÑÐ½Ð´Ð°Ñ (ÑÐ¾Ð½Ð°Ð¹Ð¼ÐµÐ½ÑÐµ: 1, ÑÐ¸Ð¿Ð¾Ð²Ð¾: %d)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Вказати pid-файл (типово: %s)</translation>
+        <translation>ÐÐºÐ°Ð·Ð°ÑÐ¸ pid-ÑÐ°Ð¹Ð» (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %s)</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Витрачати непідтверджену решту при відправленні транзакцій (типово: %u)</translation>
+        <translation>ÐÐ¸ÑÑÐ°ÑÐ°ÑÐ¸ Ð½ÐµÐ¿ÑÐ´ÑÐ²ÐµÑÐ´Ð¶ÐµÐ½Ñ ÑÐµÑÑÑ Ð¿ÑÐ¸ Ð²ÑÐ´Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð½Ñ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Starting network threads...</source>
-        <translation>Запуск мережевих потоків...</translation>
+        <translation>ÐÐ°Ð¿ÑÑÐº Ð¼ÐµÑÐµÐ¶ÐµÐ²Ð¸Ñ Ð¿Ð¾ÑÐ¾ÐºÑÐ²...</translation>
     </message>
     <message>
         <source>The wallet will avoid paying less than the minimum relay fee.</source>
-        <translation>Гаманець не не переведе кошти якщо комісія менше мінімальної плати за транзакцію.</translation>
+        <translation>ÐÐ°Ð¼Ð°Ð½ÐµÑÑ Ð½Ðµ Ð½Ðµ Ð¿ÐµÑÐµÐ²ÐµÐ´Ðµ ÐºÐ¾ÑÑÐ¸ ÑÐºÑÐ¾ ÐºÐ¾Ð¼ÑÑÑÑ Ð¼ÐµÐ½ÑÐµ Ð¼ÑÐ½ÑÐ¼Ð°Ð»ÑÐ½Ð¾Ñ Ð¿Ð»Ð°ÑÐ¸ Ð·Ð° ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ.</translation>
     </message>
     <message>
         <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>Це мінімальна плата за транзакцію, яку ви сплачуєте за кожну операцію.</translation>
+        <translation>Ð¦Ðµ Ð¼ÑÐ½ÑÐ¼Ð°Ð»ÑÐ½Ð° Ð¿Ð»Ð°ÑÐ° Ð·Ð° ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ, ÑÐºÑ Ð²Ð¸ ÑÐ¿Ð»Ð°ÑÑÑÑÐµ Ð·Ð° ÐºÐ¾Ð¶Ð½Ñ Ð¾Ð¿ÐµÑÐ°ÑÑÑ.</translation>
     </message>
     <message>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Це транзакційна комісія, яку ви сплатите, якщо будете надсилати транзакцію.</translation>
+        <translation>Ð¦Ðµ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÐ¹Ð½Ð° ÐºÐ¾Ð¼ÑÑÑÑ, ÑÐºÑ Ð²Ð¸ ÑÐ¿Ð»Ð°ÑÐ¸ÑÐµ, ÑÐºÑÐ¾ Ð±ÑÐ´ÐµÑÐµ Ð½Ð°Ð´ÑÐ¸Ð»Ð°ÑÐ¸ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Поріг відключення учасників з поганою поведінкою (типово: %u)</translation>
+        <translation>ÐÐ¾ÑÑÐ³ Ð²ÑÐ´ÐºÐ»ÑÑÐµÐ½Ð½Ñ ÑÑÐ°ÑÐ½Ð¸ÐºÑÐ² Ð· Ð¿Ð¾Ð³Ð°Ð½Ð¾Ñ Ð¿Ð¾Ð²ÐµÐ´ÑÐ½ÐºÐ¾Ñ (ÑÐ¸Ð¿Ð¾Ð²Ð¾: %u)</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
-        <translation>Сума транзакції занадто мала (зменьшіть комісію, якщо можливо)</translation>
+        <translation>Ð¡ÑÐ¼Ð° ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð·Ð°Ð½Ð°Ð´ÑÐ¾ Ð¼Ð°Ð»Ð° (Ð·Ð¼ÐµÐ½ÑÑÑÑÑ ÐºÐ¾Ð¼ÑÑÑÑ, ÑÐºÑÐ¾ Ð¼Ð¾Ð¶Ð»Ð¸Ð²Ð¾)</translation>
     </message>
     <message>
         <source>Transaction has too long of a mempool chain</source>
-        <translation>У транзакції занадто довгий ланцюг</translation>
+        <translation>Ð£ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð·Ð°Ð½Ð°Ð´ÑÐ¾ Ð´Ð¾Ð²Ð³Ð¸Ð¹ Ð»Ð°Ð½ÑÑÐ³</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
-        <translation>У транзакції повинен бути щонайменше один одержувач</translation>
+        <translation>Ð£ ÑÑÐ°Ð½Ð·Ð°ÐºÑÑÑ Ð¿Ð¾Ð²Ð¸Ð½ÐµÐ½ Ð±ÑÑÐ¸ ÑÐ¾Ð½Ð°Ð¹Ð¼ÐµÐ½ÑÐµ Ð¾Ð´Ð¸Ð½ Ð¾Ð´ÐµÑÐ¶ÑÐ²Ð°Ñ</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Невідома мережа вказана в -onlynet: «%s»</translation>
+        <translation>ÐÐµÐ²ÑÐ´Ð¾Ð¼Ð° Ð¼ÐµÑÐµÐ¶Ð° Ð²ÐºÐ°Ð·Ð°Ð½Ð° Ð² -onlynet: «%s»</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Недостатньо коштів</translation>
+        <translation>ÐÐµÐ´Ð¾ÑÑÐ°ÑÐ½ÑÐ¾ ÐºÐ¾ÑÑÑÐ²</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Завантаження індексу блоків...</translation>
+        <translation>ÐÐ°Ð²Ð°Ð½ÑÐ°Ð¶ÐµÐ½Ð½Ñ ÑÐ½Ð´ÐµÐºÑÑ Ð±Ð»Ð¾ÐºÑÐ²...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Додати вузол до підключення і лишити його відкритим</translation>
+        <translation>ÐÐ¾Ð´Ð°ÑÐ¸ Ð²ÑÐ·Ð¾Ð» Ð´Ð¾ Ð¿ÑÐ´ÐºÐ»ÑÑÐµÐ½Ð½Ñ Ñ Ð»Ð¸ÑÐ¸ÑÐ¸ Ð¹Ð¾Ð³Ð¾ Ð²ÑÐ´ÐºÑÐ¸ÑÐ¸Ð¼</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Завантаження гаманця...</translation>
+        <translation>ÐÐ°Ð²Ð°Ð½ÑÐ°Ð¶ÐµÐ½Ð½Ñ Ð³Ð°Ð¼Ð°Ð½ÑÑ...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Не вдається понизити версію гаманця</translation>
+        <translation>ÐÐµ Ð²Ð´Ð°ÑÑÑÑÑ Ð¿Ð¾Ð½Ð¸Ð·Ð¸ÑÐ¸ Ð²ÐµÑÑÑÑ Ð³Ð°Ð¼Ð°Ð½ÑÑ</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Неможливо записати типову адресу</translation>
+        <translation>ÐÐµÐ¼Ð¾Ð¶Ð»Ð¸Ð²Ð¾ Ð·Ð°Ð¿Ð¸ÑÐ°ÑÐ¸ ÑÐ¸Ð¿Ð¾Ð²Ñ Ð°Ð´ÑÐµÑÑ</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Сканування...</translation>
+        <translation>Ð¡ÐºÐ°Ð½ÑÐ²Ð°Ð½Ð½Ñ...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Завантаження завершене</translation>
+        <translation>ÐÐ°Ð²Ð°Ð½ÑÐ°Ð¶ÐµÐ½Ð½Ñ Ð·Ð°Ð²ÐµÑÑÐµÐ½Ðµ</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Помилка</translation>
+        <translation>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ°</translation>
     </message>
 </context>
 </TS>

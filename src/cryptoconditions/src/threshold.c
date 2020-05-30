@@ -160,7 +160,7 @@ static Fulfillment_t *thresholdToFulfillment(const CC *cond) {
     // Make a copy of subconditions so we can leave original order alone
     CC** subconditions = malloc(cond->size*sizeof(CC*));
     memcpy(subconditions, cond->subconditions, cond->size*sizeof(CC*));
-    
+
     qsort(subconditions, cond->size, sizeof(CC*), cmpConditionCost);
 
     ThresholdFulfillment_t *tf = calloc(1, sizeof(ThresholdFulfillment_t));
@@ -208,7 +208,7 @@ static CC *thresholdFromJSON(const cJSON *params, char *err) {
     cond->threshold = (long) threshold_item->valuedouble;
     cond->size = cJSON_GetArraySize(subfulfillments_item);
     cond->subconditions = calloc(cond->size, sizeof(CC*));
-    
+
     cJSON *sub;
     for (int i=0; i<cond->size; i++) {
         sub = cJSON_GetArrayItem(subfulfillments_item, i);

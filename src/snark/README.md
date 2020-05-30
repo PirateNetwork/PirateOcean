@@ -273,8 +273,8 @@ To build just the static library `libsnark.a`, run:
 
 Note that static compilation requires static versions of all libraries it depends on.
 It may help to minize these dependencies by appending
-`CURVE=ALT_BN128 NO_PROCPS=1 NO_GTEST=1 NO_SUPERCOP=1`. On Fedora 21, the requisite 
-library RPM dependencies are then: 
+`CURVE=ALT_BN128 NO_PROCPS=1 NO_GTEST=1 NO_SUPERCOP=1`. On Fedora 21, the requisite
+library RPM dependencies are then:
 `boost-static glibc-static gmp-static libstdc++-static openssl-static zlib-static
  boost-devel glibc-devel gmp-devel gmp-devel libstdc++-devel openssl-devel openssl-devel`.
 
@@ -367,7 +367,7 @@ The following flags change the behavior of the compiled code.
 
      In serialization, output raw binary data (instead of decimal, when not set).
 
-*   `make CURVE=choice` / define `CURVE_choice` (where `choice` is one of: 
+*   `make CURVE=choice` / define `CURVE_choice` (where `choice` is one of:
      ALT_BN128, BN128, EDWARDS, MNT4, MNT6)
 
      Set the default curve to one of the above (see [elliptic curve choices](#elliptic-curve-choices)).

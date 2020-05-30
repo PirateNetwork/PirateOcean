@@ -26,7 +26,7 @@ Berkeley, California 94720</h3>
 <blockquote>
 	<blockquote>
 		<p align="justify"><b><i><font size="2">Rogue</font></i></b><font size="2"> is a visual CRT based fantasy game which runs under the
-							UNIX© timesharing system. This paper describes how
+							UNIX timesharing system. This paper describes how
 		to play rogue, and gives a few hints for those who might otherwise get
 		lost in the Dungeons of Doom. </font></p>
 	</blockquote>
@@ -310,7 +310,7 @@ various symbols mean:</p>
 
 <h2 align="justify"><b>4. Commands</b></h2>
 <p align="justify">Commands are given to rogue by typing one or two characters.
-Most commands can be preceded by a count to repeat them (e.g. typing &quot;10s&quot; will
+Most commands can be preceded by a count to repeat them (e.g. typing 10s will
 do ten searches). Commands for which counts make no sense have the count
 ignored. To cancel a count or a prefix, type &lt;ESCAPE&gt; . The list of commands is
 rather long, but it can be read at any time during the game
@@ -327,17 +327,17 @@ command.<br>
 		<p>?</td>
 		<td align="justify">
 		<p align="justify">The help command. Asks for a character to give help
-		on. If you type a &quot;*&quot;, it will list all the commands, otherwise it will
+		on. If you type a *, it will list all the commands, otherwise it will
 		explain what the character you typed does.</td>
 	</tr>
 	<tr>
 		<td align="left" valign="top">
 		<p>/</td>
 		<td align="justify">
-		<p>This is the &quot;What is that on the screen?&quot; command. A
-		&quot;/&quot; followed by any character that you see on the level, will tell you
-		what that character is. For instance, typing &quot;/@&quot; will tell you that the
-		&quot;@&quot; symbol represents you, the player.</td>
+		<p>This is the What is that on the screen? command. A
+		/ followed by any character that you see on the level, will tell you
+		what that character is. For instance, typing /@ will tell you that the
+		@ symbol represents you, the player.</td>
 	</tr>
 	<tr>
 		<td nowrap align="left" valign="top" colspan="2">
@@ -348,9 +348,9 @@ command.<br>
 		&nbsp;</td>
 		<td align="justify">
 		<p align="justify">Move left. You move one space to the left. If you use
-		upper case &quot;h&quot;, you will continue to move left until you run into
-		something. This works for all movement commands (e.g. &quot;L&quot; means run in
-		direction &quot;l&quot;) If you use the &quot;control&quot; &quot;h&quot;, you will continue moving in
+		upper case h, you will continue to move left until you run into
+		something. This works for all movement commands (e.g. L means run in
+		direction l) If you use the control h, you will continue moving in
 		the specified direction until you pass something interesting or run into
 		a wall. You should experiment with this, since it is a very useful
 		command, but very difficult to describe. This also works for all movement
@@ -421,7 +421,7 @@ one.</td>
 		<td align="justify">
 		<p align="justify">Move onto something without picking it up. This will move you one
 		space in the direction you specify and, if there is an object there you
-		can pick up, it won&quot;t do it.</td>
+		can pick up, it wont do it.</td>
 	</tr>
 	<tr>
 		<td align="left" valign="top">
@@ -435,9 +435,9 @@ one.</td>
 		<td align="left" valign="top">
 		<p>^</td>
 		<td align="justify">
-		<p align="justify">Identify trap command. If a trap is on your map and you can&quot;t
+		<p align="justify">Identify trap command. If a trap is on your map and you cant
 		remember what type it is, you can get rogue to remind you by getting
-		next to it and typing &quot;^&quot; followed by the direction that would move
+		next to it and typing ^ followed by the direction that would move
 you on top of it.</td>
 	</tr>
 	<tr>
@@ -446,7 +446,7 @@ you on top of it.</td>
 		<td align="justify">
 		<p align="justify">Search for traps and secret doors. Examine each space immediately
 		adjacent to you for the existence of a trap or secret door. There is a
-		large chance that even if there is something there, you won&quot;t find it,
+		large chance that even if there is something there, you wont find it,
 		so you might have to search a while before you find something.</td>
 	</tr>
 	<tr>
@@ -460,7 +460,7 @@ standing on staircase.</td>
 		<td align="left" valign="top">
 		<p>&lt;</td>
 		<td align="justify">
-		<p>Climb up a staircase to the level above. This can&quot;t be done without
+		<p>Climb up a staircase to the level above. This cant be done without
 		the Amulet of Yendor
 in your possession.</td>
 	</tr>
@@ -468,7 +468,7 @@ in your possession.</td>
 		<td align="left" valign="top">
 		<p>.</td>
 		<td align="justify">
-		<p>Rest. This is the &quot;do nothing&quot; command. This is good for waiting and
+		<p>Rest. This is the do nothing command. This is good for waiting and
 		healing.</td>
 	</tr>
 	<tr>
@@ -527,7 +527,7 @@ your pack.</td>
 		<td align="left" valign="top">
 		<p>T</td>
 		<td align="justify">
-		<p align="justify">Take armor off. You can&quot;t remove armor that is cursed. This takes
+		<p align="justify">Take armor off. You cant remove armor that is cursed. This takes
 		extra time.</td>
 	</tr>
 	<tr>
@@ -535,7 +535,7 @@ your pack.</td>
 		<p>P</td>
 		<td align="justify">
 		<p align="justify">Put on a ring. You can wear only two rings at a time (one on each
-		hand). If you aren&quot;t wearing any rings, this command will ask you which
+		hand). If you arent wearing any rings, this command will ask you which
 		hand you want to wear it on, otherwise, it will place it on the unused
 		hand. The program assumes that you wield your sword in your right hand.</td>
 	</tr>
@@ -570,7 +570,7 @@ your pack.</td>
 		<td align="left" valign="top">
 		<p>D</td>
 		<td align="justify">
-		<p align="justify">Print out which things you&quot;ve discovered something about. This
+		<p align="justify">Print out which things youve discovered something about. This
 		command will ask you what type of thing you are interested in. If you
 		type the character for a given type of object (<i>e.g.</i>
 &ldquo;!&rdquo; for potion) it will tell you which kinds of
@@ -599,7 +599,7 @@ wands.</td>
 		<td align="justify">
 		<p align="justify">Print last message. Useful when a message disappears before you can
 		read it. This only repeats the last message that was not a mistyped
-		command so that you don&quot;t loose anything by accidentally typing the
+		command so that you dont loose anything by accidentally typing the
 		wrong character instead of ^P.</td>
 	</tr>
 	<tr>
@@ -1026,7 +1026,7 @@ social life to play rogue and send us bugs, complaints, suggestions, and just pl
 Mom.</p>
 <table border="0" width="100%" cellspacing="3" cellpadding="0" id="table5">
 	<tr>
-		<td align="right" valign="top"><sup>&quot;</sup></td>
+		<td align="right" valign="top"><sup></sup></td>
 		<td>UNIX is a registered trademark of The Open Group</td>
 	</tr>
 	<tr>

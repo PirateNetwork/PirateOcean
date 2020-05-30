@@ -159,8 +159,8 @@ wake_monster(struct rogue_state *rs,int y, int x)
 	msg(rs,"can't find monster in wake_monster");
 #else
     tp = moat(y, x);
-    if (tp == NULL) 	 	 
-	endwin(), abort(); 
+    if (tp == NULL)
+	endwin(), abort();
 #endif
     ch = tp->t_type;
     /*

@@ -57,11 +57,11 @@
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Krüpteeri rahakott</translation>
+        <translation>KrÃ¼pteeri rahakott</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Dekrüpteeri rahakott</translation>
+        <translation>DekrÃ¼pteeri rahakott</translation>
     </message>
     <message>
         <source>Change passphrase</source>
@@ -69,19 +69,19 @@
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Kas oled kindel, et soovid rahakoti krüpteerida?</translation>
+        <translation>Kas oled kindel, et soovid rahakoti krÃ¼pteerida?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Rahakott krüpteeritud</translation>
+        <translation>Rahakott krÃ¼pteeritud</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Rahakoti krüpteerimine ebaõnnestus</translation>
+        <translation>Rahakoti krÃ¼pteerimine ebaÃµnnestus</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Rahakoti krüpteerimine ebaõnnestus sisemise vea tõttu. Sinu rahakotti ei krüpteeritud.</translation>
+        <translation>Rahakoti krÃ¼pteerimine ebaÃµnnestus sisemise vea tÃµttu. Sinu rahakotti ei krÃ¼pteeritud.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -89,15 +89,15 @@
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Rahakoti lahtilukustamine ebaõnnestus</translation>
+        <translation>Rahakoti lahtilukustamine ebaÃµnnestus</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Rahakoti dekrüpteerimine ebaõnnestus</translation>
+        <translation>Rahakoti dekrÃ¼pteerimine ebaÃµnnestus</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Rahakoti parooli vahetus õnnestus.</translation>
+        <translation>Rahakoti parooli vahetus Ãµnnestus.</translation>
     </message>
     </context>
 <context>
@@ -107,15 +107,15 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Võrguga sünkroniseerimine...</translation>
+        <translation>VÃµrguga sÃ¼nkroniseerimine...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Ülevaade</translation>
+        <translation>&amp;Ãlevaade</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Välju rakendusest</translation>
+        <translation>VÃ¤lju rakendusest</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Kõvakettal olevate plokkide reindekseerimine...</translation>
+        <translation>KÃµvakettal olevate plokkide reindekseerimine...</translation>
     </message>
     <message>
         <source>Pirate</source>
@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Näita / Peida</translation>
+        <translation>&amp;NÃ¤ita / Peida</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -159,7 +159,7 @@
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Käsurea valikud</translation>
+        <translation>&amp;KÃ¤surea valikud</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -167,7 +167,7 @@
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Hilisemad transaktsioonid ei ole veel nähtavad.</translation>
+        <translation>Hilisemad transaktsioonid ei ole veel nÃ¤htavad.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -194,7 +194,7 @@
     </message>
     <message>
         <source>Date</source>
-        <translation>Kuupäev</translation>
+        <translation>KuupÃ¤ev</translation>
     </message>
     <message>
         <source>Confirmations</source>
@@ -237,7 +237,7 @@
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Uue võtme genereerimine ebaõnnestus.</translation>
+        <translation>Uue vÃµtme genereerimine ebaÃµnnestus.</translation>
     </message>
 </context>
 <context>
@@ -255,7 +255,7 @@
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Käsurea valikud</translation>
+        <translation>KÃ¤surea valikud</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -263,7 +263,7 @@
     </message>
     <message>
         <source>command-line options</source>
-        <translation>käsurea valikud</translation>
+        <translation>kÃ¤surea valikud</translation>
     </message>
     </context>
 <context>
@@ -295,7 +295,7 @@
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Võrk</translation>
+        <translation>&amp;VÃµrk</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -368,11 +368,11 @@
     </message>
     <message>
         <source>General</source>
-        <translation>Üldine</translation>
+        <translation>Ãldine</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Võrk</translation>
+        <translation>VÃµrk</translation>
     </message>
     <message>
         <source>Name</source>
@@ -380,7 +380,7 @@
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Ühenduste arv</translation>
+        <translation>Ãhenduste arv</translation>
     </message>
     <message>
         <source>Block chain</source>
@@ -388,11 +388,11 @@
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>Mälu kasutus</translation>
+        <translation>MÃ¤lu kasutus</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Vastu võetud</translation>
+        <translation>Vastu vÃµetud</translation>
     </message>
     <message>
         <source>Sent</source>
@@ -416,7 +416,7 @@
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Võrgu Liiklus</translation>
+        <translation>&amp;VÃµrgu Liiklus</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -432,7 +432,7 @@
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Väljuv</translation>
+        <translation>VÃ¤ljuv</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -451,7 +451,7 @@
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Sõnum:</translation>
+        <translation>&amp;SÃµnum:</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -459,7 +459,7 @@
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Kopeeri sõnum</translation>
+        <translation>Kopeeri sÃµnum</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -490,14 +490,14 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>Sõnum</translation>
+        <translation>SÃµnum</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Kuupäev</translation>
+        <translation>KuupÃ¤ev</translation>
     </message>
     <message>
         <source>Label</source>
@@ -505,7 +505,7 @@
     </message>
     <message>
         <source>Message</source>
-        <translation>Sõnum</translation>
+        <translation>SÃµnum</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -580,11 +580,11 @@
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Sõnum allkirjastatud.</translation>
+        <translation>SÃµnum allkirjastatud.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Allkirja ei õnnestunud dekodeerida.</translation>
+        <translation>Allkirja ei Ãµnnestunud dekodeerida.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
@@ -592,18 +592,18 @@
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Sõnumi verifitseerimine ebaõnnestus.</translation>
+        <translation>SÃµnumi verifitseerimine ebaÃµnnestus.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Sõnum verifitseeritud.</translation>
+        <translation>SÃµnum verifitseeritud.</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>[testnet]</source>
-        <translation>[test võrk]</translation>
+        <translation>[test vÃµrk]</translation>
     </message>
 </context>
 <context>
@@ -621,11 +621,11 @@
     </message>
     <message>
         <source>Date</source>
-        <translation>Kuupäev</translation>
+        <translation>KuupÃ¤ev</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Sõnum</translation>
+        <translation>SÃµnum</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -647,11 +647,11 @@
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Kuupäev</translation>
+        <translation>KuupÃ¤ev</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Tüüp</translation>
+        <translation>TÃ¼Ã¼p</translation>
     </message>
     <message>
         <source>Label</source>
@@ -666,15 +666,15 @@
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Kõik</translation>
+        <translation>KÃµik</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Täna</translation>
+        <translation>TÃ¤na</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>Käimasolev kuu</translation>
+        <translation>KÃ¤imasolev kuu</translation>
     </message>
     <message>
         <source>Last month</source>
@@ -682,7 +682,7 @@
     </message>
     <message>
         <source>This year</source>
-        <translation>Käimasolev aasta</translation>
+        <translation>KÃ¤imasolev aasta</translation>
     </message>
     <message>
         <source>Range...</source>
@@ -706,11 +706,11 @@
     </message>
     <message>
         <source>Date</source>
-        <translation>Kuupäev</translation>
+        <translation>KuupÃ¤ev</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Tüüp</translation>
+        <translation>TÃ¼Ã¼p</translation>
     </message>
     <message>
         <source>Label</source>
@@ -750,11 +750,11 @@
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Varundamine Ebaõnnestus</translation>
+        <translation>Varundamine EbaÃµnnestus</translation>
     </message>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
         <translation>Valikud:</translation>

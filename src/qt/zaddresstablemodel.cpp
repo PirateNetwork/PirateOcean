@@ -412,7 +412,7 @@ void ZAddressTableModel::updateEntry(const QString &address,
 
 QString ZAddressTableModel::addRow(const QString &type, const QString &label, const QString &address)
 {
-    std::string strLabel; // = address.toStdString();
+    std::string strLabel; // = label.toStdString();
     std::string strAddress = address.toStdString();
 
     editStatus = OK;

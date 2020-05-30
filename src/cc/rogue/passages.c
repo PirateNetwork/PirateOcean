@@ -41,7 +41,7 @@ do_passages(struct rogue_state *rs)
         { { 0, 0, 0, 0, 1, 0, 1, 0, 1 }, { 0, 0, 0, 0, 0, 0, 0, 0, 0 }, 0 },
         { { 0, 0, 0, 0, 0, 1, 0, 1, 0 }, { 0, 0, 0, 0, 0, 0, 0, 0, 0 }, 0 },
     };
-    
+
     /*
      * reinitialize room graph description
      */
@@ -51,7 +51,7 @@ do_passages(struct rogue_state *rs)
             r1->isconn[j] = FALSE;
         r1->ingraph = FALSE;
     }
-    
+
     /*
      * starting with one room, connect it to a random adjacent room and
      * then pick a new room to start with.
@@ -93,7 +93,7 @@ do_passages(struct rogue_state *rs)
             roomcount++;
         }
     } while (roomcount < MAXROOMS);
-    
+
     /*
      * attempt to add passages to the graph a random number of times so
      * that there isn't always just one unique passage through it.
@@ -138,7 +138,7 @@ conn(struct rogue_state *rs,int r1, int r2)
     int rm;
     char direc;
     static coord del, curr, turn_delta, spos, epos;
-    
+
     if (r1 < r2)
     {
         rm = r1;
@@ -216,9 +216,9 @@ conn(struct rogue_state *rs,int r1, int r2)
     else
         debug("error in connection tables");
 #endif
-    
+
     turn_spot = rnd(distance - 1) + 1;		/* where turn starts */
-    
+
     /*
      * Draw in the doors on either side of the passage or just put #'s
      * if the rooms are gone.
@@ -274,7 +274,7 @@ void
 putpass(coord *cp)
 {
     PLACE *pp;
-    
+
     pp = INDEX(cp->y, cp->x);
     pp->p_flags |= F_PASS;
     if (rnd(10) + 1 < level && rnd(40) == 0)
@@ -293,12 +293,12 @@ void
 door(struct room *rm, coord *cp)
 {
     PLACE *pp;
-    
+
     rm->r_exit[rm->r_nexits++] = *cp;
-    
+
     if (rm->r_flags & ISMAZE)
         return;
-    
+
     pp = INDEX(cp->y, cp->x);
     if (rnd(10) + 1 < level && rnd(5) == 0)
     {
@@ -324,7 +324,7 @@ add_pass()
     PLACE *pp;
     int y, x;
     char ch;
-    
+
     for (y = 1; y < NUMLINES - 1; y++)
         for (x = 0; x < NUMCOLS; x++)
         {
@@ -365,7 +365,7 @@ passnum()
 {
     struct room *rp;
     int i;
-    
+
     pnum = 0;
     newpnum = FALSE;
     for (rp = passages; rp < &passages[MAXPASS]; rp++)
@@ -389,7 +389,7 @@ numpass(int y, int x)
     char *fp;
     struct room *rp;
     char ch;
-    
+
     if (x >= NUMCOLS || x < 0 || y >= NUMLINES || y <= 0)
         return;
     fp = &flat(y, x);

@@ -18,41 +18,41 @@
 
 /*
  A blockchain lotto has the problem of generating the deterministic random numbers needed to get a winner in a way that doesnt allow cheating. If we save the entropy for later publishing and display the hash of the entropy, it is true that the players wont know what the entropy value is, however the creator of the lotto funds will be able to know and simply create a winning ticket when the jackpot is large enough.
- 
+
  We also need to avoid chain reorgs from disclosing the entropy and then allowing people to submit a winning ticket calculated based on the disclosed entropy (see attack vector in dice.cpp)
- 
+
  As usual it needs to be provably fair and random
- 
+
  The solution is for everybody to post the hash of their entropy when purchasing tickets. Then at the time of the drawing, nodes would post their entropy over an N block period to avoid censorship attack. After the N block period, then we have valid entropy that we know was locked in prior to the start of the N blocks and that nobody would have been able to know ahead of time the final entropy value.
- 
+
  As long as one node submits a high entropy value, then just by combining all the submissions together, we get the drawing's entropy value. Given that, the usual process can determine if there was a winner at the specified odds. In fact, all the nodes are able to determine exactly how many winners there were and whether to validate 1/w payouts to the w winners or rollover the jackpot to the next drawing.
- 
+
  To remove the need for an autopayout, the winning node(s) would need to submit a 1/w payout tx, this would be able to be done at any time and the winner does not have to have submitted proof of hentropy. In order to prevent a player from opportunistically withholding their entropy, the lotto creator will post the original proof of hentropy after the N block player submission period. This masks to all the players the final value of entropy.
- 
+
  Attack vector: the lotto creator can have many player tickets in reserve all with their entropy ready to submit, but based on the actual submissions, find the one which gives him the best outcome. since all the player submissions will be known via mempool, along with the original hentropy. However the lotto creator would have to mine the final block in order to know the order of the player tickets.
- 
+
  Thinking about this evil miner attack, it seems pretty bad, so a totally new approach is needed. Preferably with a simple enough protocol. Let us remove any special knowledge by the lotto creator, so like the faucet, it seems just that there is a single lotto for a chain.
- 
+
  >>>>>>>>>>>> second iteration
- 
+
  What we need is something that gives each ticket an equal chance at the jackpot, without allowing miner or relayer to gain an advantage. ultimately the jackpot payout tx needs to be confirmed, so there needs to be some number of blocks to make a claim to avoid censorship attack. If onchain entropy is needed, then it should be reduced to 1 bit per block to reduce the grinding that is possible. This does mean a block miner for the last bit of entropy can double their chances at winning, but the alternative is to have an external source of entropy, which creates its own set of issues like what prevents the nodes getting the external entropy from cheating?
- 
+
  Conveniently the lotto mechanics are similar to a PoS staking, so it can be based on everybody trying to stake a single lotto jackpot.
- 
+
  The calculation would need to be based on the payout address and utxosize, so relayers cant intercept it to steal the jackpot.
- 
+
  each jackpot would effectively restart the lotto
- 
+
  the funds from new lotto tickets can be spent by the jackpot, but those tickets can still win the new jackpot
- 
+
  each set of tickets (utxo) would become eligible to claim the jackpot after some time is elapsed so the entropy for that utxo can be obtained. [6 bits * 32 + 1 bit * 16] 48 blocks
- 
+
 It is possible to have a jackpot but miss out on it due to not claiming it. To minimize the effect from this, each ticket would have one chance to win, which can be calculated and a jackpot claim submitted just once.
- 
+
  in order to randomize the timing of claim, a txid PoW similar to faucetget will maximize the chance of only a single jackpot txid that can propagate throughout the mempools, which will prevent the second one broadcast. Granted the mining node can override this if they also have a winning ticket, but assuming the PoS lottery makes it unlikely for two winners in a single block, this is not a big issue.
- 
+
  In order to adapt the difficulty of winning the lotto, but not requiring recalculating all past tickets, as new lotto tickets are sold without a jackpot, it needs to become easier to win. Basically as the lotto jackpot gets bigger and bigger, it keeps getting easier to win! This convergence will avoid having unwinnable jackpots.
- 
+
  rpc calls
  lottoinfo
  lottotickets <numtickets>
@@ -173,7 +173,7 @@ int64_t AddLottoInputs(struct CCcontract_info *cp,CMutableTransaction &mtx,CPubK
         // prevent dup
         if ( it->second.satoshis < COIN )
             continue;
-        if ( GetTransaction(txid,vintx,hashBlock,false) != 0 )
+        if ( myGetTransaction(txid,vintx,hashBlock) != 0 )
         {
             if ( (nValue= IsLottovout(cp,vintx,(int32_t)it->first.index)) > 0 )
             {
@@ -214,7 +214,7 @@ int64_t LottoPlanFunds(uint64_t refsbits,struct CCcontract_info *cp,CPubKey pk,u
     {
         txid = it->first.txhash;
         vout = (int32_t)it->first.index;
-        if ( GetTransaction(txid,tx,hashBlock,false) != 0 && tx.vout[vout].scriptPubKey.IsPayToCryptoCondition() != 0 )
+        if ( myGetTransaction(txid,tx,hashBlock) != 0 && tx.vout[vout].scriptPubKey.IsPayToCryptoCondition() != 0 )
         {
             // need to implement this! if ( (funcid= DecodeLottoOpRet(txid,tx.vout[tx.vout.size()-1].scriptPubKey,sbits,fundingtxid)) == 'F' || funcid == 'T' )
             {
@@ -233,7 +233,7 @@ int64_t LottoPlanFunds(uint64_t refsbits,struct CCcontract_info *cp,CPubKey pk,u
 UniValue LottoInfo(uint256 lottoid)
 {
     UniValue result(UniValue::VOBJ); uint256 hashBlock,hentropy; CTransaction vintx; uint64_t lockedfunds,sbits; int32_t ticketsize,odds,firstheight,period; CPubKey lottopk; struct CCcontract_info *cp,C; char str[67],numstr[65];
-    if ( GetTransaction(lottoid,vintx,hashBlock,false) == 0 )
+    if ( myGetTransaction(lottoid,vintx,hashBlock) == 0 )
     {
         LogPrintf("cant find lottoid\n");
         result.push_back(Pair("result","error"));
@@ -264,13 +264,13 @@ UniValue LottoInfo(uint256 lottoid)
 
 UniValue LottoList()
 {
-    UniValue result(UniValue::VARR); std::vector<std::pair<CAddressIndexKey, CAmount> > addressIndex; struct CCcontract_info *cp,C; uint256 txid,hashBlock,hentropy; CTransaction vintx; uint64_t sbits; int32_t ticketsize,odds,firstheight,period; char str[65];
+    UniValue result(UniValue::VARR); std::vector<uint256> txids; struct CCcontract_info *cp,C; uint256 txid,hashBlock,hentropy; CTransaction vintx; uint64_t sbits; int32_t ticketsize,odds,firstheight,period; char str[65];
     cp = CCinit(&C,EVAL_LOTTO);
-    SetCCtxids(addressIndex,cp->normaladdr,true);
-    for (std::vector<std::pair<CAddressIndexKey, CAmount> >::const_iterator it=addressIndex.begin(); it!=addressIndex.end(); it++)
+    SetCCtxids(txids,cp->normaladdr,true,cp->evalcode,zeroid,'F');
+    for (std::vector<uint256>::const_iterator it=txids.begin(); it!=txids.end(); it++)
     {
-        txid = it->first.txhash;
-        if ( GetTransaction(txid,vintx,hashBlock,false) != 0 )
+        txid = *it;
+        if ( myGetTransaction(txid,vintx,hashBlock) != 0 )
         {
             if ( vintx.vout.size() > 0 && DecodeLottoFundingOpRet(vintx.vout[vintx.vout.size()-1].scriptPubKey,sbits,ticketsize,odds,firstheight,period,hentropy) == 'F' )
             {

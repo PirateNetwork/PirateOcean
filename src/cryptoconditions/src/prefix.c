@@ -101,16 +101,16 @@ static CC *prefixFromJSON(const cJSON *params, char *err) {
     if (!sub) {
         return NULL;
     }
-    
+
     CC *cond = cc_new(CC_Prefix);
     cond->maxMessageLength = (unsigned long) mml_item->valuedouble;
     cond->subcondition = sub;
-    
+
     if (!jsonGetBase64(params, "prefix", err, &cond->prefix, &cond->prefixLength)) {
         cc_free(cond);
         return NULL;
     }
-    
+
     return cond;
 }
 

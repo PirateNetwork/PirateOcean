@@ -5,7 +5,7 @@
 void load_constants_port();
 
 /* Tweak constants with seed */
-void tweak_constants(const unsigned char *pk_seed, const unsigned char *sk_seed, 
+void tweak_constants(const unsigned char *pk_seed, const unsigned char *sk_seed,
 	                 unsigned long long seed_length);
 
 /* Haraka Sponge */

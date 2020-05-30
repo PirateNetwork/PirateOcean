@@ -36,7 +36,7 @@ std::vector<bool> uint252_to_bool_vector(uint252 input) {
 
 std::vector<bool> uint64_to_bool_vector(uint64_t input) {
     auto num_bv = convertIntToVectorLE(input);
-    
+
     return convertBytesVectorToVector(num_bv);
 }
 

@@ -54,7 +54,7 @@ int main(int argc, char **argv) {
     );
 
   testing::InitGoogleMock(&argc, argv);
-  
+
   auto ret = RUN_ALL_TESTS();
 
   ECC_Stop();

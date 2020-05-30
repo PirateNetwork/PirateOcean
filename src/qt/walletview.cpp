@@ -7,7 +7,7 @@
 #include "addressbookpage.h"
 #include "zaddressbookpage.h"
 #include "askpassphrasedialog.h"
-#include "komodooceangui.h"
+#include "pirateoceangui.h"
 #include "clientmodel.h"
 #include "guiutil.h"
 #include "optionsmodel.h"
@@ -91,7 +91,7 @@ WalletView::~WalletView()
 {
 }
 
-void WalletView::setKomodoOceanGUI(KomodoOceanGUI *gui)
+void WalletView::setPirateOceanGUI(PirateOceanGUI *gui)
 {
     if (gui)
     {
@@ -107,7 +107,7 @@ void WalletView::setKomodoOceanGUI(KomodoOceanGUI *gui)
         // Pass through transaction notifications
         connect(this, SIGNAL(incomingTransaction(QString,int,CAmount,QString,QString,QString)), gui, SLOT(incomingTransaction(QString,int,CAmount,QString,QString,QString)));
 
-        // Connect HD enabled state signal 
+        // Connect HD enabled state signal
         connect(this, SIGNAL(hdEnabledStatusChanged(int)), gui, SLOT(setHDStatus(int)));
     }
 }

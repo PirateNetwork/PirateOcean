@@ -1,0 +1,5 @@
+todo:
+# These are the available config settings.
+keyword: ["@todo", "TODO"] # string|string[]
+bodyKeyword: ["@body", "BODY"] # string|string[]
+reopenClosed: false          # boolean

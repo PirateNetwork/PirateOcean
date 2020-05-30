@@ -189,7 +189,7 @@ static cJSON *jsonSignTreeEd25519(cJSON *params, char *err) {
     if (skLength != 32) {
         strcpy(err, "privateKey wrong length");
     }
-    
+
     size_t msgLength;
     if (!jsonGetHex(params, "message", err, &msg, &msgLength)) {
         goto END;
@@ -226,7 +226,7 @@ static cJSON *jsonSignTreeSecp256k1(cJSON *params, char *err) {
     if (skLength != SECP256K1_SK_SIZE) {
         strcpy(err, "privateKey wrong length");
     }
-    
+
     size_t msgLength;
     if (!jsonGetHex(params, "message", err, &msg, &msgLength)) {
         goto END;

@@ -52,7 +52,7 @@ cryptoconditions encodeCondition '{
     "publicKey": "11qYAYKxCrfVS_7TyWQHOg7hcvPapiMlrwIaaPcHURo"
 }'
 {
-    "bin": "pCeAIHmSOauo_E_36r-8TETmnovf7ZkzJOEu1keSq-KJzx1fgQMCAAA", 
+    "bin": "pCeAIHmSOauo_E_36r-8TETmnovf7ZkzJOEu1keSq-KJzx1fgQMCAAA",
     "uri": "ni:///sha-256;eZI5q6j8T_fqv7xMROaei9_tmTMk4S7WR5Kr4onPHV8?fpt=ed25519-sha-256&cost=131072"
 }
 ```
@@ -66,7 +66,7 @@ cryptoconditions decodeCondition '{
     "bin": "pCeAIHmSOauo_E_36r-8TETmnovf7ZkzJOEu1keSq-KJzx1fgQMCAAA"
 }'
 {
-    "bin": "pCeAIHmSOauo_E_36r-8TETmnovf7ZkzJOEu1keSq-KJzx1fgQMCAAA", 
+    "bin": "pCeAIHmSOauo_E_36r-8TETmnovf7ZkzJOEu1keSq-KJzx1fgQMCAAA",
     "uri": "ni:///sha-256;eZI5q6j8T_fqv7xMROaei9_tmTMk4S7WR5Kr4onPHV8?fpt=ed25519-sha-256&cost=131072"
 }
 ```
@@ -98,7 +98,7 @@ cryptoconditions decodeFulfillment '{
     "fulfillment": "pGSAINdamAGCsQq31Uv-08lkBzoO4XLz2qYjJa8CGmj3B1EagUDlVkMAw2CscpCG4syAboKKhId_Hrjl2XTYc-BlIkkBVV-4ghWQozusxh45cBz5tGvSW_XwWVu-JGVRQUOOehAL"
 }'
 {
-    "bin": "pCeAIHmSOauo_E_36r-8TETmnovf7ZkzJOEu1keSq-KJzx1fgQMCAAA", 
+    "bin": "pCeAIHmSOauo_E_36r-8TETmnovf7ZkzJOEu1keSq-KJzx1fgQMCAAA",
     "uri": "ni:///sha-256;eZI5q6j8T_fqv7xMROaei9_tmTMk4S7WR5Kr4onPHV8?fpt=ed25519-sha-256&cost=131072"
 }
 ```

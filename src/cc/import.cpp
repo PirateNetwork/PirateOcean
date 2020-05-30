@@ -29,7 +29,7 @@
  *
  * This method should control every parameter of the ImportCoin transaction, since it has no signature
  * to protect it from malleability.
- 
+
  ##### 0xffffffff is a special CCid for single chain/dual daemon imports
  */
 
@@ -58,7 +58,7 @@ cJSON* CodaRPC(char **retstr,char const *arg0,char const *arg1,char const *arg2,
     sprintf(fname,"/tmp/coda.%s",arg0);
     sprintf(cmdstr,"coda.exe client %s %s %s %s %s %s > %s 2>&1",arg0,arg1,arg2,arg3,arg4,arg5,fname);
     *retstr = 0;
-    if (system(cmdstr)<0) return (retjson);  
+    if (system(cmdstr)<0) return (retjson);
     if ( (jsonstr=(char *)filestr(&fsize,fname)) != 0 )
     {
         jsonstr[strlen(jsonstr)-1]='\0';
@@ -66,7 +66,7 @@ cJSON* CodaRPC(char **retstr,char const *arg0,char const *arg1,char const *arg2,
             *retstr=jsonstr;
         else free(jsonstr);
     }
-    return(retjson);    
+    return(retjson);
 }
 
 // makes source tx for self import tx
@@ -84,7 +84,7 @@ CMutableTransaction MakeSelfImportSourceTx(CTxDestination &dest, int64_t amount)
     if (AddNormalinputs(mtx, myPubKey, 2 * txfee, 4) == 0) {
         LOGSTREAM("importcoin", CCLOG_INFO, stream << "MakeSelfImportSourceTx() warning: cannot find normal inputs for txfee" << std::endl);
     }
-    
+
     CScript scriptPubKey = GetScriptForDestination(dest);
     mtx.vout.push_back(CTxOut(txfee, scriptPubKey));
 
@@ -122,9 +122,9 @@ bool CheckVinPubKey(const CTransaction &sourcetx, int32_t i, uint8_t pubkey33[33
 // prepare a tx for creating import tx and quasi-burn tx
 int32_t GetSelfimportProof(const CMutableTransaction sourceMtx, CMutableTransaction &templateMtx, ImportProof &proofNull) // find burnTx with hash from "other" daemon
 {
-    MerkleBranch newBranch; 
-    CMutableTransaction tmpmtx; 
-    //CTransaction sourcetx; 
+    MerkleBranch newBranch;
+    CMutableTransaction tmpmtx;
+    //CTransaction sourcetx;
 
     tmpmtx = CreateNewContextualCMutableTransaction(Params().GetConsensus(), komodo_nextheight());
 
@@ -139,7 +139,7 @@ int32_t GetSelfimportProof(const CMutableTransaction sourceMtx, CMutableTransact
         return -1;
     } */
 
-	/*if (ivout < 0) {  // "ivout < 0" means "find"  
+	/*if (ivout < 0) {  // "ivout < 0" means "find"
 		// try to find vout
 		CPubKey myPubkey = Mypubkey();
 		ivout = 0;
@@ -162,7 +162,7 @@ int32_t GetSelfimportProof(const CMutableTransaction sourceMtx, CMutableTransact
 	//mtx is template for import tx
     templateMtx = sourceMtx;
     templateMtx.fOverwintered = tmpmtx.fOverwintered;
-    
+
     //malleability fix for burn tx:
     //mtx.nExpiryHeight = tmpmtx.nExpiryHeight;
     templateMtx.nExpiryHeight = sourceMtx.nExpiryHeight;
@@ -226,7 +226,7 @@ std::string MakeCodaImportTx(uint64_t txfee, std::string receipt, std::string sr
     if (result==0)
     {
         if (retstr!=0)
-        {            
+        {
             CCerror=std::string("CodaRPC: ")+retstr;
             free(retstr);
         }
@@ -235,7 +235,7 @@ std::string MakeCodaImportTx(uint64_t txfee, std::string receipt, std::string sr
     else
     {
         if ((tmp=jobj(jitem(jarray(&n,result,(char *)"payments"),0),(char *)"payload"))!=0 && (destaddr=jstr(jobj(tmp,(char *)"common"),(char *)"memo"))!=0 &&
-            (receiver=jstr(jitem(jarray(&m,tmp,(char *)"body"),1),(char *)"receiver"))!=0 && (amount=j64bits(jitem(jarray(&m,tmp,(char *)"body"),1),(char *)"amount"))!=0) 
+            (receiver=jstr(jitem(jarray(&m,tmp,(char *)"body"),1),(char *)"receiver"))!=0 && (amount=j64bits(jitem(jarray(&m,tmp,(char *)"body"),1),(char *)"amount"))!=0)
         {
             LOGSTREAM("importcoin", CCLOG_DEBUG1, stream << "MakeCodaImportTx: receiver=" << receiver << " destaddr=" << destaddr << " amount=" << amount << std::endl);
             if (strcmp(receiver,CODA_BURN_ADDRESS)!=0)
@@ -273,7 +273,7 @@ std::string MakeCodaImportTx(uint64_t txfee, std::string receipt, std::string sr
             free(result);
             return("");
         }
-        
+
     }
     CCerror="MakeCodaImportTx: error fetching Coda tx";
     LOGSTREAM("importcoin", CCLOG_INFO, stream << CCerror << std::endl);
@@ -314,7 +314,7 @@ int32_t CheckCODAimport(CTransaction importTx,CTransaction burnTx,std::vector<CT
     else
     {
         if ((tmp=jobj(jitem(jarray(&n,result,(char *)"payments"),0),(char *)"payload"))==0 || (destaddr=jstr(jobj(tmp,(char *)"common"),(char *)"memo"))==0 ||
-            (receiver=jstr(jitem(jarray(&m,tmp,(char *)"body"),1),(char *)"receiver"))==0 || (amount=j64bits(jitem(jarray(&m,tmp,(char *)"body"),1),(char *)"amount"))==0) 
+            (receiver=jstr(jitem(jarray(&m,tmp,(char *)"body"),1),(char *)"receiver"))==0 || (amount=j64bits(jitem(jarray(&m,tmp,(char *)"body"),1),(char *)"amount"))==0)
         {
             LOGSTREAM("importcoin", CCLOG_INFO, stream << "Invalid Coda burn tx" << jprint(result,1) << std::endl);
             free(result);
@@ -339,7 +339,7 @@ int32_t CheckCODAimport(CTransaction importTx,CTransaction burnTx,std::vector<CT
             LOGSTREAM("importcoin", CCLOG_INFO, stream << "Burn amount and import amount not matching, " << j64bits(tmp,(char *)"amount") << " - " << payouts[0].nValue/COIN << std::endl);
             free(result);
             return (-1);
-        } 
+        }
         if (burnTx.vin[0].prevout.hash!=codaburntxid || importTx.vin[0].prevout.hash!=burnTx.GetHash())
         {
             LOGSTREAM("importcoin", CCLOG_INFO, stream << "Invalid import/burn tx vin" << std::endl);
@@ -347,7 +347,7 @@ int32_t CheckCODAimport(CTransaction importTx,CTransaction burnTx,std::vector<CT
             return (-1);
         }
         free(result);
-    }    
+    }
     return(0);
 }
 
@@ -355,19 +355,19 @@ int32_t CheckGATEWAYimport(CTransaction importTx,CTransaction burnTx,std::string
             uint256 bindtxid,std::vector<CPubKey> publishers,std::vector<uint256> txids,uint256 burntxid,int32_t height,int32_t burnvout,std::string rawburntx,CPubKey destpub, int64_t amount)
 {
     CTransaction oracletx,bindtx,regtx; int32_t i,m,n=0,numvouts; uint8_t M,N,taddr,prefix,prefix2,wiftype;
-    uint256 txid,oracletxid,tmporacletxid,merkleroot,mhash,hashBlock; 
+    uint256 txid,oracletxid,tmporacletxid,merkleroot,mhash,hashBlock;
     std::string name,desc,format,coin; std::vector<CTxOut> vouts; CPubKey regpk;
     std::vector<CPubKey> pubkeys,tmppubkeys,tmppublishers; char markeraddr[64],deposit[64],destaddr[64],tmpdest[64]; int64_t datafee;
     std::vector<std::pair<CAddressUnspentKey, CAddressUnspentValue> > unspentOutputs;
 
     // ASSETCHAINS_SELFIMPORT is coin
     if (KOMODO_EARLYTXID!=zeroid && bindtxid!=KOMODO_EARLYTXID)
-    { 
+    {
         LOGSTREAM("importgateway", CCLOG_INFO, stream << "CheckGATEWAYimport invalid import gateway. On this chain only valid import gateway is " << KOMODO_EARLYTXID.GetHex() << std::endl);
         return(-1);
     }
     // check for valid burn from external coin blockchain and if valid return(0);
-    if (GetTransaction(bindtxid, bindtx, hashBlock, false) == 0 || (numvouts = bindtx.vout.size()) <= 0)
+    if (myGetTransaction(bindtxid, bindtx, hashBlock) == 0 || (numvouts = bindtx.vout.size()) <= 0)
     {
         LOGSTREAM("importgateway", CCLOG_INFO, stream << "CheckGATEWAYimport cant find bindtxid=" << bindtxid.GetHex() << std::endl);
         return(-1);
@@ -397,7 +397,7 @@ int32_t CheckGATEWAYimport(CTransaction importTx,CTransaction burnTx,std::string
         LOGSTREAM("importgateway", CCLOG_INFO, stream << "CheckGATEWAYimport bindtx not yet confirmed/notarized" << std::endl);
         return(-1);
     }
-    else if (GetTransaction(oracletxid, oracletx, hashBlock, false) == 0 || (numvouts = oracletx.vout.size()) <= 0)
+    else if (myGetTransaction(oracletxid, oracletx, hashBlock) == 0 || (numvouts = oracletx.vout.size()) <= 0)
     {
         LOGSTREAM("importgateway", CCLOG_INFO, stream << "CheckGATEWAYimport cant find oracletxid=" << oracletxid.GetHex() << std::endl);
         return(-1);
@@ -417,7 +417,7 @@ int32_t CheckGATEWAYimport(CTransaction importTx,CTransaction burnTx,std::string
     for (std::vector<std::pair<CAddressUnspentKey, CAddressUnspentValue> >::const_iterator it=unspentOutputs.begin(); it!=unspentOutputs.end(); it++)
     {
         txid = it->first.txhash;
-        if ( GetTransaction(txid,regtx,hashBlock,false) != 0 && regtx.vout.size() > 0
+        if ( myGetTransaction(txid,regtx,hashBlock) != 0 && regtx.vout.size() > 0
             && DecodeOraclesOpRet(regtx.vout[regtx.vout.size()-1].scriptPubKey,tmporacletxid,regpk,datafee) == 'R' && oracletxid == tmporacletxid )
         {
             pubkeys.push_back(regpk);
@@ -445,7 +445,7 @@ int32_t CheckGATEWAYimport(CTransaction importTx,CTransaction burnTx,std::string
     {
         LOGSTREAM("importgateway", CCLOG_INFO, stream << "CheckGATEWAYimport different number of publishers for burtx in oracle" << std::endl);
         return(-1);
-    }    
+    }
     else if (merkleroot == zeroid || m < n / 2) // none or less than half oracle nodes sent merkleroot
     {
         LOGSTREAM("importgateway", CCLOG_INFO, stream << "CheckGATEWAYimport couldnt find merkleroot for block height=" << height << "coin=" << refcoin.c_str() << " oracleid=" << oracletxid.GetHex() << " m=" << m << " vs n=" << n << std::endl );
@@ -468,7 +468,7 @@ int32_t CheckGATEWAYimport(CTransaction importTx,CTransaction burnTx,std::string
     {
         LOGSTREAM("importgateway", CCLOG_INFO, stream << "CheckGATEWAYimport import coins destination different than in burntx" << std::endl);
         return(-1);
-    }  
+    }
     return(0);
 }
 
@@ -506,9 +506,9 @@ int32_t CheckPUBKEYimport(TxProof proof,std::vector<uint8_t> rawproof,CTransacti
     uint8_t evalCode, funcId;
     int64_t amount;
 
-    if (!GetOpReturnData(sourcetx.vout.back().scriptPubKey, vopret) || 
-        vopret.size() == 0 || 
-        !E_UNMARSHAL(vopret, ss >> evalCode; ss >> funcId; ss >> amount) || 
+    if (!GetOpReturnData(sourcetx.vout.back().scriptPubKey, vopret) ||
+        vopret.size() == 0 ||
+        !E_UNMARSHAL(vopret, ss >> evalCode; ss >> funcId; ss >> amount) ||
         evalCode != EVAL_IMPORTCOIN || funcId != 'A') {
         LOGSTREAM("importcoin", CCLOG_INFO, stream << "none or incorrect opret to validate in source txid=" << sourcetxid.GetHex() << std::endl);
         return -1;
@@ -516,7 +516,7 @@ int32_t CheckPUBKEYimport(TxProof proof,std::vector<uint8_t> rawproof,CTransacti
 
     LOGSTREAM("importcoin", CCLOG_DEBUG1, stream << "importTx amount=" << payouts[0].nValue << " burnTx amount=" << burnTx.vout[0].nValue << " opret amount=" << amount << " source txid=" << sourcetxid.GetHex() << std::endl);
 
-    // amount malleability check with the opret from the source tx: 
+    // amount malleability check with the opret from the source tx:
     if (payouts[0].nValue != amount) { // assume that burntx amount is checked in the common code in Eval::ImportCoin()
         LOGSTREAM("importcoin", CCLOG_INFO, stream << "importTx amount != amount in the opret of source txid=" << sourcetxid.GetHex() << std::endl);
         return -1;
@@ -528,7 +528,7 @@ int32_t CheckPUBKEYimport(TxProof proof,std::vector<uint8_t> rawproof,CTransacti
 bool CheckMigration(Eval *eval, const CTransaction &importTx, const CTransaction &burnTx, std::vector<CTxOut> & payouts, const ImportProof &proof, const std::vector<uint8_t> &rawproof)
 {
     vscript_t vimportOpret;
-    if (!GetOpReturnData(importTx.vout.back().scriptPubKey, vimportOpret)  ||        
+    if (!GetOpReturnData(importTx.vout.back().scriptPubKey, vimportOpret)  ||
         vimportOpret.empty())
         return eval->Invalid("invalid-import-tx-no-opret");
 
@@ -583,7 +583,7 @@ bool CheckMigration(Eval *eval, const CTransaction &importTx, const CTransaction
         return eval->Invalid("import-tx-incorrect-opret-eval");
     }
 
-    // for tokens check burn, import, tokenbase tx 
+    // for tokens check burn, import, tokenbase tx
     if (!tokenid.IsNull()) {
 
         std::string sourceSymbol;
@@ -656,17 +656,17 @@ bool CheckMigration(Eval *eval, const CTransaction &importTx, const CTransaction
 
 bool Eval::ImportCoin(const std::vector<uint8_t> params, const CTransaction &importTx, unsigned int nIn)
 {
-    ImportProof proof; 
-    CTransaction burnTx; 
-    std::vector<CTxOut> payouts; 
+    ImportProof proof;
+    CTransaction burnTx;
+    std::vector<CTxOut> payouts;
     CAmount txfee = 10000, amount;
-    int32_t height, burnvout; 
+    int32_t height, burnvout;
     std::vector<CPubKey> publishers;
-    uint32_t targetCcid; 
-    std::string targetSymbol, srcaddr, destaddr, receipt, rawburntx; 
+    uint32_t targetCcid;
+    std::string targetSymbol, srcaddr, destaddr, receipt, rawburntx;
     uint256 payoutsHash, bindtxid, burntxid;
     std::vector<uint8_t> rawproof;
-    std::vector<uint256> txids; 
+    std::vector<uint256> txids;
     CPubKey destpub;
 
     LOGSTREAM("importcoin", CCLOG_DEBUG1, stream << "Validating import tx..., txid=" << importTx.GetHash().GetHex() << std::endl);
@@ -682,13 +682,13 @@ bool Eval::ImportCoin(const std::vector<uint8_t> params, const CTransaction &imp
         return Invalid("invalid-params");
     // Control all aspects of this transaction
     // It should not be at all malleable
-    if (MakeImportCoinTransaction(proof, burnTx, payouts, importTx.nExpiryHeight).GetHash() != importTx.GetHash())  // ExistsImportTombstone prevents from duplication
+    if (ASSETCHAINS_SELFIMPORT!="PEGSCC" && MakeImportCoinTransaction(proof, burnTx, payouts, importTx.nExpiryHeight).GetHash() != importTx.GetHash())  // ExistsImportTombstone prevents from duplication
         return Invalid("non-canonical");
 
     // burn params
     if (!UnmarshalBurnTx(burnTx, targetSymbol, &targetCcid, payoutsHash, rawproof))
         return Invalid("invalid-burn-tx");
-    
+
     if (burnTx.vout.size() == 0)
         return Invalid("invalid-burn-tx-no-vouts");
 
@@ -721,7 +721,7 @@ bool Eval::ImportCoin(const std::vector<uint8_t> params, const CTransaction &imp
     else
     {
         TxProof merkleBranchProof;
-        if (!proof.IsMerkleBranch(merkleBranchProof)) 
+        if (!proof.IsMerkleBranch(merkleBranchProof))
             return Invalid("invalid-import-proof-for-0xFFFFFFFF");
 
         if ( targetSymbol == "BEAM" )
@@ -738,10 +738,17 @@ bool Eval::ImportCoin(const std::vector<uint8_t> params, const CTransaction &imp
             else if ( UnmarshalBurnTx(burnTx,srcaddr,receipt)==0 || CheckCODAimport(importTx,burnTx,payouts,srcaddr,receipt) < 0 )
                 return Invalid("CODA-import-failure");
         }
+        else if ( targetSymbol == "PEGSCC" )
+        {
+            if ( ASSETCHAINS_SELFIMPORT != "PEGSCC" )
+                return Invalid("PEGSCC-import-when-not PEGSCC");
+            // else if ( CheckPUBKEYimport(merkleBranchProof,rawproof,burnTx,payouts) < 0 )
+            //     return Invalid("PEGSCC-import-failure");
+        }
         else if ( targetSymbol == "PUBKEY" )
         {
             if ( ASSETCHAINS_SELFIMPORT != "PUBKEY" )
-                return Invalid("PUBKEY-import-when-notPUBKEY");
+                return Invalid("PUBKEY-import-when-not PUBKEY");
             else if ( CheckPUBKEYimport(merkleBranchProof,rawproof,burnTx,payouts) < 0 )
                 return Invalid("PUBKEY-import-failure");
         }
@@ -749,14 +756,14 @@ bool Eval::ImportCoin(const std::vector<uint8_t> params, const CTransaction &imp
         {
             if ( targetSymbol != ASSETCHAINS_SELFIMPORT )
                 return Invalid("invalid-gateway-import-coin");
-             else if ( UnmarshalBurnTx(burnTx,bindtxid,publishers,txids,burntxid,height,burnvout,rawburntx,destpub,amount)==0 || CheckGATEWAYimport(importTx,burnTx,targetSymbol,rawproof,bindtxid,publishers,txids,burntxid,height,burnvout,rawburntx,destpub,amount) < 0 )
+            else if ( UnmarshalBurnTx(burnTx,bindtxid,publishers,txids,burntxid,height,burnvout,rawburntx,destpub,amount)==0 || CheckGATEWAYimport(importTx,burnTx,targetSymbol,rawproof,bindtxid,publishers,txids,burntxid,height,burnvout,rawburntx,destpub,amount) < 0 )
                 return Invalid("GATEWAY-import-failure");
         }
     }
 
     // return Invalid("test-invalid");
     LOGSTREAM("importcoin", CCLOG_DEBUG2, stream << "Valid import tx! txid=" << importTx.GetHash().GetHex() << std::endl);
-       
+
     return Valid();
 }
 

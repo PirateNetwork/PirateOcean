@@ -401,6 +401,7 @@ void ParseParameters(int argc, const char* const argv[])
 void SplitStr(const std::string& strVal, std::vector<std::string> &outVals)
 {
     stringstream ss(strVal);
+
     while (!ss.eof()) {
         int c;
         std::string str;
@@ -542,13 +543,15 @@ boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
     char symbol[KOMODO_ASSETCHAIN_MAXLEN];
-    if ( ASSETCHAINS_SYMBOL[0] != 0 )
+    if ( ASSETCHAINS_SYMBOL[0] != 0 ){
         strcpy(symbol,ASSETCHAINS_SYMBOL);
+    }
+
     else symbol[0] = 0;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Zcash
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Zcash
-    // Mac: ~/Library/Application Support/Zcash
-    // Unix: ~/.zcash
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Pirate
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Pirate
+    // Mac: ~/Library/Application Support/Pirate
+    // Unix: ~/.Pirate
 #ifdef _WIN32
     // Windows
     if ( symbol[0] == 0 )
@@ -589,13 +592,13 @@ static CCriticalSection csPathCached;
 
 static boost::filesystem::path ZC_GetBaseParamsDir()
 {
-    // Copied from GetDefaultDataDir and adapter for zcash params.
+    // Copied from GetDefaultDataDir and adapter for Pirate params.
 
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\ZcashParams
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\ZcashParams
-    // Mac: ~/Library/Application Support/ZcashParams
-    // Unix: ~/.zcash-params
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\PirateParams
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\PirateParams
+    // Mac: ~/Library/Application Support/PirateParams
+    // Unix: ~/.Pirate-params
     fs::path pathRet;
 #ifdef _WIN32
     return GetSpecialFolderPath(CSIDL_APPDATA) / "ZcashParams";
@@ -665,8 +668,9 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
     // This can be called during exceptions by LogPrintf(), so we cache the
     // value so we don't have to do memory allocations after that.
-    if (!path.empty())
+    if (!path.empty()){
         return path;
+    }
 
     if (mapArgs.count("-datadir")) {
         path = fs::system_complete(mapArgs["-datadir"]);
@@ -695,8 +699,9 @@ void ClearDatadirCache()
 boost::filesystem::path GetConfigFile()
 {
     char confname[512];
-    if ( ASSETCHAINS_SYMBOL[0] != 0 )
+    if ( !mapArgs.count("-conf") && ASSETCHAINS_SYMBOL[0] != 0 ){
         sprintf(confname,"%s.conf",ASSETCHAINS_SYMBOL);
+    }
     else
     {
 #ifdef __APPLE__
@@ -706,8 +711,9 @@ boost::filesystem::path GetConfigFile()
 #endif
     }
     boost::filesystem::path pathConfigFile(GetArg("-conf",confname));
-    if (!pathConfigFile.is_complete())
+    if (!pathConfigFile.is_complete()){
         pathConfigFile = GetDataDir(false) / pathConfigFile;
+    }
 
     return pathConfigFile;
 }
@@ -1044,7 +1050,6 @@ std::string LicenseInfo()
     return "\n" +
            FormatParagraph(strprintf(_("Copyright (C) 2018-%i ComputerGenie and Pirate developers"), COPYRIGHT_YEAR)) + "\n" +
            FormatParagraph(strprintf(_("Copyright (C) 2009-%i The Bitcoin Core Developers"), COPYRIGHT_YEAR)) + "\n" +
-           FormatParagraph(strprintf(_("Copyright (C) 2015-%i The Zcash Developers"), COPYRIGHT_YEAR)) + "\n" +
            FormatParagraph(strprintf(_("Copyright (C) 2015-%i jl777 and SuperNET developers"), COPYRIGHT_YEAR)) + "\n" +
            FormatParagraph(strprintf(_("Copyright (C) 2018-%i The Verus developers"), COPYRIGHT_YEAR)) + "\n" +
            FormatParagraph(strprintf(_("Copyright (C) 2017-%i Ocean and Decker developers"), COPYRIGHT_YEAR)) + "\n" +
@@ -1067,8 +1072,8 @@ std::string CopyrightHolders(const std::string& strPrefix)
     std::string strCopyrightHolders = strPrefix + strprintf(_(COPYRIGHT_HOLDERS), _(COPYRIGHT_HOLDERS_SUBSTITUTION));
 
     // Check for untranslated substitution to make sure Pirate Core copyright is not removed by accident
-    if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("Pirate Core") == std::string::npos) {
-        strCopyrightHolders += "\n" + strPrefix + "The Pirate Core developers";
+    if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("Pirate developers") == std::string::npos) {
+        strCopyrightHolders += "\n" + strPrefix + "ComputerGenie and Pirate developers";
     }
     return strCopyrightHolders;
 }

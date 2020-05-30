@@ -111,7 +111,7 @@ uint64_t komodo_interest(int32_t txheight,uint64_t nValue,uint32_t nLockTime,uin
         return(0);
     if ( txheight >= KOMODO_ENDOFERA )
         return(0);
-    if ( nLockTime >= LOCKTIME_THRESHOLD && tiptime != 0 && nLockTime < tiptime && nValue >= 10*COIN ) //komodo_moneysupply(txheight) < MAX_MONEY && 
+    if ( nLockTime >= LOCKTIME_THRESHOLD && tiptime != 0 && nLockTime < tiptime && nValue >= 10*COIN ) //komodo_moneysupply(txheight) < MAX_MONEY &&
     {
         if ( (minutes= (tiptime - nLockTime) / 60) >= 60 )
         {

@@ -160,7 +160,7 @@ AC_DEFINE([MAXUSERS], [100], [Define if maxusers feature should be enabled])
 AC_MSG_RESULT([100])
 elif test "x$enable_maxusers" = "x" ; then
 AC_MSG_RESULT([unlimited])
-elif test "x$enable_maxload" = "xno" ; then 
+elif test "x$enable_maxload" = "xno" ; then
 AC_MSG_RESULT([unlimited])
 else
 AC_DEFINE_UNQUOTED([MAXLOAD], [$enable_maxusers], [Define if maxusers feature should be enabled])
@@ -175,7 +175,7 @@ AC_MSG_RESULT([10])
 elif test "x$enable_numscores" = "x" ; then
 AC_DEFINE([NUMSCORES], [10], [number of scores to store in scoreboard])
 AC_MSG_RESULT([10])
-elif test "x$enable_numscores" = "xno" ; then 
+elif test "x$enable_numscores" = "xno" ; then
 AC_DEFINE([NUMSCORES], [10], [number of scores to store in scoreboard])
 AC_MSG_RESULT([10])
 else
@@ -191,7 +191,7 @@ AC_MSG_RESULT([Ten])
 elif test "x$enable_numname" = "x" ; then
 AC_DEFINE([NUMNAME], ["Ten"], [word for the number of scores to store in scoreboard])
 AC_MSG_RESULT([Ten])
-elif test "x$enable_numname" = "xno" ; then 
+elif test "x$enable_numname" = "xno" ; then
 AC_DEFINE([NUMNAME], ["Ten"], [word for the number of scores to store in scoreboard])
 AC_MSG_RESULT([Ten])
 else
@@ -207,7 +207,7 @@ AC_DEFINE([NAMELIST], [/vmunix], [kernel file to pass to nlist() when reading lo
 AC_MSG_RESULT([/vmunix])
 elif test "x$enable_loadav" = "x" ; then
 AC_MSG_RESULT([no])
-elif test "x$enable_loadav" = "xno" ; then 
+elif test "x$enable_loadav" = "xno" ; then
 AC_MSG_RESULT([no])
 else
 AC_DEFINE([LOADAV], [], [define if we should use program's load average function instead of system])
@@ -223,7 +223,7 @@ AC_DEFINE([UTMP], [/etc/utmp], [utmp like file to pass to ucount() when counting
 AC_MSG_RESULT([/etc/utmp])
 elif test "x$enable_ucount" = "x" ; then
 AC_MSG_RESULT([no])
-elif test "x$enable_count" = "xno" ; then 
+elif test "x$enable_count" = "xno" ; then
 AC_MSG_RESULT([no])
 else
 AC_DEFINE([UCOUNT], [], [define if we should use program's user counting function instead of system's])

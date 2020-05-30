@@ -40,7 +40,7 @@
 using namespace std;
 
 static uint64_t nAccountingEntryNumber = 0;
-static list<uint256> deadTxns; 
+static list<uint256> deadTxns;
 extern CBlockIndex *komodo_blockindex(uint256 hash);
 
 //
@@ -487,8 +487,8 @@ ReadKeyValue(CWallet* pwallet, CDataStream& ssKey, CDataStream& ssValue,
             CValidationState state;
             auto verifier = libzcash::ProofVerifier::Strict();
             // ac_public chains set at height like KMD and ZEX, will force a rescan if we dont ignore this error: bad-txns-acpublic-chain
-            // there cannot be any ztx in the wallet on ac_public chains that started from block 1, so this wont affect those. 
-            // PIRATE fails this check for notary nodes, need exception. Triggers full rescan without it. 
+            // there cannot be any ztx in the wallet on ac_public chains that started from block 1, so this wont affect those.
+            // PIRATE fails this check for notary nodes, need exception. Triggers full rescan without it.
             if ( !(CheckTransaction(0,wtx, state, verifier, 0, 0) && (wtx.GetHash() == hash) && state.IsValid()) && (state.GetRejectReason() != "bad-txns-acpublic-chain" && state.GetRejectReason() != "bad-txns-acprivacy-chain" && state.GetRejectReason() != "bad-txns-stakingtx") )
             {
                 //fprintf(stderr, "tx failed: %s rejectreason.%s\n", wtx.GetHash().GetHex().c_str(), state.GetRejectReason().c_str());
@@ -989,10 +989,10 @@ DBErrors CWalletDB::LoadWallet(CWallet* pwallet)
 
     if ( !deadTxns.empty() )
     {
-        // staking chains with vin-empty error is a failed staking tx. 
+        // staking chains with vin-empty error is a failed staking tx.
         // we remove then re add the tx here to stop needing a full rescan, which does not actually fix the problem.
         int32_t reAdded = 0;
-        BOOST_FOREACH (uint256& hash, deadTxns) 
+        BOOST_FOREACH (uint256& hash, deadTxns)
         {
             fprintf(stderr, "Removing possible orphaned staking transaction from wallet.%s\n", hash.ToString().c_str());
             if (!EraseTx(hash))
@@ -1009,7 +1009,7 @@ DBErrors CWalletDB::LoadWallet(CWallet* pwallet)
         fNoncriticalErrors = false;
         deadTxns.clear();
     }
-    
+
     if (fNoncriticalErrors && result == DB_LOAD_OK)
         result = DB_NONCRITICAL_ERROR;
 

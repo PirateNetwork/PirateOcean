@@ -113,7 +113,7 @@ Guide to header files:
 * **include/options.h**: Control over the behavior of an entire database,
 and also control over the behavior of individual reads and writes.
 
-* **include/comparator.h**: Abstraction for user-specified comparison function. 
+* **include/comparator.h**: Abstraction for user-specified comparison function.
 If you want just bytewise comparison of keys, you can use the default
 comparator, but clients can write their own comparator implementations if they
 want custom ordering (e.g. to handle different character encodings, etc.)
@@ -130,7 +130,7 @@ length into some other byte array.
 * **include/status.h**: Status is returned from many of the public interfaces
 and is used to report success and various kinds of errors.
 
-* **include/env.h**: 
+* **include/env.h**:
 Abstraction of the OS environment.  A posix implementation of this interface is
 in util/env_posix.cc
 

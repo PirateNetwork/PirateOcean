@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Høyreklikk for å redigere adressen eller merkelappen</translation>
+        <translation>HÃ¸yreklikk for Ã¥ redigere adressen eller merkelappen</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -31,7 +31,7 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Eksporter data fra nåværende fane til fil</translation>
+        <translation>Eksporter data fra nÃ¥vÃ¦rende fane til fil</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Velg adressen å sende mynter til</translation>
+        <translation>Velg adressen Ã¥ sende mynter til</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Velg adressen til å motta mynter med</translation>
+        <translation>Velg adressen til Ã¥ motta mynter med</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Pirate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dette er dine Pirate-adresser for sending av betalinger. Sjekk alltid beløpet og mottakeradressen før sending av mynter.</translation>
+        <translation>Dette er dine Pirate-adresser for sending av betalinger. Sjekk alltid belÃ¸pet og mottakeradressen fÃ¸r sending av mynter.</translation>
     </message>
     <message>
         <source>These are your Pirate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dette er dine Pirate-adresser for å sende betalinger med. Det er anbefalt å bruke en ny mottaksadresse for hver transaksjon.</translation>
+        <translation>Dette er dine Pirate-adresser for Ã¥ sende betalinger med. Det er anbefalt Ã¥ bruke en ny mottaksadresse for hver transaksjon.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Det oppstod en feil under lagring av adresselisten til %1. Vennligst prøv på nytt.</translation>
+        <translation>Det oppstod en feil under lagring av adresselisten til %1. Vennligst prÃ¸v pÃ¥ nytt.</translation>
     </message>
 </context>
 <context>
@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Oppgi adgangsfrasen til lommeboken.&lt;br/&gt;Vennligst bruk en adgangsfrase med &lt;b&gt;ti eller flere tilfeldige tegn&lt;/b&gt;, eller &lt;b&gt;åtte eller flere ord&lt;/b&gt;.</translation>
+        <translation>Oppgi adgangsfrasen til lommeboken.&lt;br/&gt;Vennligst bruk en adgangsfrase med &lt;b&gt;ti eller flere tilfeldige tegn&lt;/b&gt;, eller &lt;b&gt;Ã¥tte eller flere ord&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -141,15 +141,15 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Denne operasjonen krever adgangsfrasen til lommeboken for å låse den opp.</translation>
+        <translation>Denne operasjonen krever adgangsfrasen til lommeboken for Ã¥ lÃ¥se den opp.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Lås opp lommebok</translation>
+        <translation>LÃ¥s opp lommebok</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Denne operasjonen krever adgangsfrasen til lommeboken for å dekryptere den.</translation>
+        <translation>Denne operasjonen krever adgangsfrasen til lommeboken for Ã¥ dekryptere den.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -169,11 +169,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Advarsel: Hvis du krypterer lommeboken og mister adgangsfrasen, så vil du &lt;b&gt;MISTE ALLE DINE COINS&lt;/b&gt;!</translation>
+        <translation>Advarsel: Hvis du krypterer lommeboken og mister adgangsfrasen, sÃ¥ vil du &lt;b&gt;MISTE ALLE DINE COINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Er du sikker på at du vil kryptere lommeboken?</translation>
+        <translation>Er du sikker pÃ¥ at du vil kryptere lommeboken?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -181,11 +181,11 @@
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>%1 vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine Pirates fra å bli stjålet om skadevare infiserer datamaskinen din.</translation>
+        <translation>%1 vil nÃ¥ lukkes for Ã¥ fullfÃ¸re krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine Pirates fra Ã¥ bli stjÃ¥let om skadevare infiserer datamaskinen din.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>VIKTIG: Tidligere sikkerhetskopier av din lommebokfil bør erstattes med den nylig genererte og krypterte filen, da de blir ugyldiggjort av sikkerhetshensyn så snart du begynner å bruke den nye krypterte lommeboken.</translation>
+        <translation>VIKTIG: Tidligere sikkerhetskopier av din lommebokfil bÃ¸r erstattes med den nylig genererte og krypterte filen, da de blir ugyldiggjort av sikkerhetshensyn sÃ¥ snart du begynner Ã¥ bruke den nye krypterte lommeboken.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -193,7 +193,7 @@
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Kryptering av lommebok feilet på grunn av en intern feil. Din lommebok ble ikke kryptert.</translation>
+        <translation>Kryptering av lommebok feilet pÃ¥ grunn av en intern feil. Din lommebok ble ikke kryptert.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -201,7 +201,7 @@
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Opplåsing av lommebok feilet</translation>
+        <translation>OpplÃ¥sing av lommebok feilet</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
@@ -217,7 +217,7 @@
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Advarsel: Caps Lock er på!</translation>
+        <translation>Advarsel: Caps Lock er pÃ¥!</translation>
     </message>
 </context>
 <context>
@@ -315,11 +315,11 @@
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Åpne &amp;URI...</translation>
+        <translation>Ãpne &amp;URI...</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>Klikk for å deaktivere nettverksaktivitet</translation>
+        <translation>Klikk for Ã¥ deaktivere nettverksaktivitet</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
@@ -327,11 +327,11 @@
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>Klikk for å aktivere nettverksaktivitet igjen.</translation>
+        <translation>Klikk for Ã¥ aktivere nettverksaktivitet igjen.</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Reindekserer blokker på harddisk...</translation>
+        <translation>Reindekserer blokker pÃ¥ harddisk...</translation>
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
@@ -347,11 +347,11 @@
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;Feilsøkingsvindu</translation>
+        <translation>&amp;FeilsÃ¸kingsvindu</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Åpne konsoll for feilsøk og diagnostikk</translation>
+        <translation>Ãpne konsoll for feilsÃ¸k og diagnostikk</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -383,15 +383,15 @@
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Krypter de private nøklene som tilhører lommeboken din</translation>
+        <translation>Krypter de private nÃ¸klene som tilhÃ¸rer lommeboken din</translation>
     </message>
     <message>
         <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>Signer en melding med Pirate-adressene dine for å bevise at du eier dem</translation>
+        <translation>Signer en melding med Pirate-adressene dine for Ã¥ bevise at du eier dem</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>Bekreft meldinger for å være sikker på at de ble signert av en angitt Pirate-adresse</translation>
+        <translation>Bekreft meldinger for Ã¥ vÃ¦re sikker pÃ¥ at de ble signert av en angitt Pirate-adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -407,11 +407,11 @@
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Verktøylinje for faner</translation>
+        <translation>VerktÃ¸ylinje for faner</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>Forespør betalinger (genererer QR-koder og Pirate: URIer)</translation>
+        <translation>ForespÃ¸r betalinger (genererer QR-koder og Pirate: URIer)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -423,7 +423,7 @@
     </message>
     <message>
         <source>Open a Pirate: URI or payment request</source>
-        <translation>Åpne en Pirate: URI eller betalingsetterspørring</translation>
+        <translation>Ãpne en Pirate: URI eller betalingsetterspÃ¸rring</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -431,7 +431,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Pirate network</source>
-        <translation><numerusform>%n aktiv forbindelse til Pirate-nettverket</numerusform><numerusform>%n aktive forbindelser til Pirate-nettverket</numerusform></translation>
+        <translation><numerusform>%n aktiv forbindelse til Pirate-nettverket</numerusform><numerusform>%n aktive forbindelser til Komodo-nettverket</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -447,7 +447,7 @@
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transaksjoner etter dette vil ikke være synlige enda.</translation>
+        <translation>Transaksjoner etter dette vil ikke vÃ¦re synlige enda.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -486,7 +486,7 @@
     <message>
         <source>Amount: %1
 </source>
-        <translation>Beløp: %1:
+        <translation>BelÃ¸p: %1:
 </translation>
     </message>
     <message>
@@ -517,15 +517,15 @@
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Lommeboken er &lt;b&gt;kryptert&lt;/b&gt; og for tiden &lt;b&gt;låst opp&lt;/b&gt;</translation>
+        <translation>Lommeboken er &lt;b&gt;kryptert&lt;/b&gt; og for tiden &lt;b&gt;lÃ¥st opp&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Lommeboken er &lt;b&gt;kryptert&lt;/b&gt; og for tiden &lt;b&gt;låst&lt;/b&gt;</translation>
+        <translation>Lommeboken er &lt;b&gt;kryptert&lt;/b&gt; og for tiden &lt;b&gt;lÃ¥st&lt;/b&gt;</translation>
     </message>
     <message>
         <source>A fatal error occurred. Pirate can no longer continue safely and will quit.</source>
-        <translation>En fatal feil har inntruffet. Pirate kan ikke lenger trygt fortsette, og må derfor avslutte.</translation>
+        <translation>En fatal feil har inntruffet. Pirate kan ikke lenger trygt fortsette, og mÃ¥ derfor avslutte.</translation>
     </message>
 </context>
 <context>
@@ -544,7 +544,7 @@
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Beløp:</translation>
+        <translation>BelÃ¸p:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -552,7 +552,7 @@
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Støv:</translation>
+        <translation>StÃ¸v:</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -576,7 +576,7 @@
     </message>
     <message>
         <source>Amount</source>
-        <translation>Beløp</translation>
+        <translation>BelÃ¸p</translation>
     </message>
     <message>
         <source>Received with label</source>
@@ -604,7 +604,7 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopier beløp</translation>
+        <translation>Kopier belÃ¸p</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
@@ -624,7 +624,7 @@
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 låst)</translation>
+        <translation>(%1 lÃ¥st)</translation>
     </message>
     <message>
         <source>yes</source>
@@ -663,11 +663,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Merkelappen koblet til denne adresseliste oppføringen</translation>
+        <translation>Merkelappen koblet til denne adresseliste oppfÃ¸ringen</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Adressen til denne oppføringen i adresseboken. Denne kan kun endres for utsendingsadresser.</translation>
+        <translation>Adressen til denne oppfÃ¸ringen i adresseboken. Denne kan kun endres for utsendingsadresser.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -691,11 +691,11 @@
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Kunne ikke låse opp lommebok.</translation>
+        <translation>Kunne ikke lÃ¥se opp lommebok.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Generering av ny nøkkel feilet.</translation>
+        <translation>Generering av ny nÃ¸kkel feilet.</translation>
     </message>
 </context>
 <context>
@@ -757,7 +757,7 @@
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Sett språk, for eksempel "nb_NO" (default: system-«locale»)</translation>
+        <translation>Sett sprÃ¥k, for eksempel "nb_NO" (default: system-«locale»)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -839,7 +839,7 @@
     </message>
     <message>
         <source>Estimated time left until synced</source>
-        <translation>Estimert gjenstående tid før ferdig synkronisert</translation>
+        <translation>Estimert gjenstÃ¥ende tid fÃ¸r ferdig synkronisert</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -850,11 +850,11 @@
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Åpne URI</translation>
+        <translation>Ãpne URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Åpne betalingsetterspørring fra URI eller fil</translation>
+        <translation>Ãpne betalingsetterspÃ¸rring fra URI eller fil</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -862,7 +862,7 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Velg fil for betalingsetterspørring</translation>
+        <translation>Velg fil for betalingsetterspÃ¸rring</translation>
     </message>
     </context>
 <context>
@@ -877,7 +877,7 @@
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Størrelse på &amp;database hurtigbuffer</translation>
+        <translation>StÃ¸rrelse pÃ¥ &amp;database hurtigbuffer</translation>
     </message>
     <message>
         <source>MB</source>
@@ -885,7 +885,7 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Antall script &amp;verifikasjonstråder</translation>
+        <translation>Antall script &amp;verifikasjonstrÃ¥der</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -901,7 +901,7 @@
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimer i stedet for å avslutte applikasjonen når vinduet lukkes. Når dette er valgt, vil applikasjonen avsluttes kun etter at Avslutte er valgt i menyen.</translation>
+        <translation>Minimer i stedet for Ã¥ avslutte applikasjonen nÃ¥r vinduet lukkes. NÃ¥r dette er valgt, vil applikasjonen avsluttes kun etter at Avslutte er valgt i menyen.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -929,7 +929,7 @@
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = automatisk, &lt;0 = la så mange kjerner være ledig)</translation>
+        <translation>(0 = automatisk, &lt;0 = la sÃ¥ mange kjerner vÃ¦re ledig)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -945,7 +945,7 @@
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Hvis du sperrer for bruk av ubekreftet veksel, kan ikke vekselen fra transaksjonen bli brukt før transaksjonen har minimum en bekreftelse. Dette påvirker også hvordan balansen din blir beregnet.</translation>
+        <translation>Hvis du sperrer for bruk av ubekreftet veksel, kan ikke vekselen fra transaksjonen bli brukt fÃ¸r transaksjonen har minimum en bekreftelse. Dette pÃ¥virker ogsÃ¥ hvordan balansen din blir beregnet.</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -953,7 +953,7 @@
     </message>
     <message>
         <source>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åpne automatisk Pirate klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
+        <translation>Ãpne automatisk Pirate klientporten pÃ¥ ruteren. Dette virker kun om din ruter stÃ¸tter UPnP og dette er pÃ¥slÃ¥tt.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -981,11 +981,11 @@
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>Brukt for å nå noder via:</translation>
+        <translation>Brukt for Ã¥ nÃ¥ noder via:</translation>
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Viser om angitt SOCKS5 mellomtjener blir brukt for å nå noder via denne nettverkstypen.</translation>
+        <translation>Viser om angitt SOCKS5 mellomtjener blir brukt for Ã¥ nÃ¥ noder via denne nettverkstypen.</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1005,7 +1005,7 @@
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Bruk separat SOCKS5 mellomtjener for å nå noder via Tor skjulte tjenester:</translation>
+        <translation>Bruk separat SOCKS5 mellomtjener for Ã¥ nÃ¥ noder via Tor skjulte tjenester:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1017,7 +1017,7 @@
     </message>
     <message>
         <source>Hide tray icon</source>
-        <translation>Skjul søppel ikon</translation>
+        <translation>Skjul sÃ¸ppel ikon</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
@@ -1037,11 +1037,11 @@
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>&amp;Språk for brukergrensesnitt</translation>
+        <translation>&amp;SprÃ¥k for brukergrensesnitt</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Enhet for visning av beløper:</translation>
+        <translation>&amp;Enhet for visning av belÃ¸per:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
@@ -1073,11 +1073,11 @@
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Omstart av klienten er nødvendig for å aktivere endringene.</translation>
+        <translation>Omstart av klienten er nÃ¸dvendig for Ã¥ aktivere endringene.</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Klienten vil bli lukket. Ønsker du å gå videre?</translation>
+        <translation>Klienten vil bli lukket. Ãnsker du Ã¥ gÃ¥ videre?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
@@ -1096,19 +1096,19 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pirate network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasjonen som vises kan være foreldet. Din lommebok synkroniseres automatisk med Pirate-nettverket etter at tilkobling er opprettet, men denne prosessen er ikke ferdig enda.</translation>
+        <translation>Informasjonen som vises kan vÃ¦re foreldet. Din lommebok synkroniseres automatisk med Pirate-nettverket etter at tilkobling er opprettet, men denne prosessen er ikke ferdig enda.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
         <translation>Kun observerbar:</translation>
     </message>
     <message>
-        <source>Available:</source>
+        <source>Transparent:</source>
         <translation>Tilgjengelig:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Din nåværende saldo</translation>
+        <translation>Din nÃ¥vÃ¦rende saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -1136,11 +1136,11 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Din nåværende saldo</translation>
+        <translation>Din nÃ¥vÃ¦rende saldo</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Din nåværende balanse i kun observerbare adresser</translation>
+        <translation>Din nÃ¥vÃ¦rende balanse i kun observerbare adresser</translation>
     </message>
     <message>
         <source>Spendable:</source>
@@ -1156,11 +1156,11 @@
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Utvunnet balanse i kun observerbare adresser som ennå ikke har modnet</translation>
+        <translation>Utvunnet balanse i kun observerbare adresser som ennÃ¥ ikke har modnet</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Nåværende totale balanse i kun observerbare adresser</translation>
+        <translation>NÃ¥vÃ¦rende totale balanse i kun observerbare adresser</translation>
     </message>
 </context>
 <context>
@@ -1181,7 +1181,7 @@
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Beløp</translation>
+        <translation>BelÃ¸p</translation>
     </message>
     <message>
         <source>Enter a Pirate address (e.g. %1)</source>
@@ -1241,7 +1241,7 @@
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n år</numerusform><numerusform>%n år</numerusform></translation>
+        <translation><numerusform>%n Ã¥r</numerusform><numerusform>%n Ã¥r</numerusform></translation>
     </message>
     </context>
 <context>
@@ -1286,7 +1286,7 @@
     </message>
     <message>
         <source>Debug window</source>
-        <translation>Feilsøkingsvindu</translation>
+        <translation>FeilsÃ¸kingsvindu</translation>
     </message>
     <message>
         <source>General</source>
@@ -1318,7 +1318,7 @@
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Nåværende antall blokker</translation>
+        <translation>NÃ¥vÃ¦rende antall blokker</translation>
     </message>
     <message>
         <source>Memory Pool</source>
@@ -1326,7 +1326,7 @@
     </message>
     <message>
         <source>Current number of transactions</source>
-        <translation>Nåværende antall transaksjoner</translation>
+        <translation>NÃ¥vÃ¦rende antall transaksjoner</translation>
     </message>
     <message>
         <source>Memory usage</source>
@@ -1350,7 +1350,7 @@
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Velg en node for å vise detaljert informasjon.</translation>
+        <translation>Velg en node for Ã¥ vise detaljert informasjon.</translation>
     </message>
     <message>
         <source>Whitelisted</source>
@@ -1382,11 +1382,11 @@
     </message>
     <message>
         <source>Decrease font size</source>
-        <translation>Forminsk font størrelsen</translation>
+        <translation>Forminsk font stÃ¸rrelsen</translation>
     </message>
     <message>
         <source>Increase font size</source>
-        <translation>Forstørr font størrelse</translation>
+        <translation>ForstÃ¸rr font stÃ¸rrelse</translation>
     </message>
     <message>
         <source>Services</source>
@@ -1414,7 +1414,7 @@
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>Tidsforløp for utestående ping.</translation>
+        <translation>TidsforlÃ¸p for utestÃ¥ende ping.</translation>
     </message>
     <message>
         <source>Ping Wait</source>
@@ -1430,7 +1430,7 @@
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Åpne</translation>
+        <translation>&amp;Ãpne</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -1458,11 +1458,11 @@
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Loggfil for feilsøk</translation>
+        <translation>Loggfil for feilsÃ¸k</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Tøm konsoll</translation>
+        <translation>TÃ¸m konsoll</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
@@ -1478,11 +1478,11 @@
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1 &amp;år</translation>
+        <translation>1 &amp;Ã¥r</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.</translation>
+        <translation>Bruk opp og ned pil for Ã¥ navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for Ã¥ tÃ¸mme skjermen.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -1522,7 +1522,7 @@
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Utgående</translation>
+        <translation>UtgÃ¥ende</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -1541,7 +1541,7 @@
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Beløp:</translation>
+        <translation>&amp;BelÃ¸p:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1553,7 +1553,7 @@
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation>Gjenbruk en av de tidligere brukte mottaksadressene. Gjenbruk av adresser har sikkerhets- og personvernsutfordringer. Ikke bruk dette med unntak for å gjennopprette en betalingsetterspørring som ble gjort tidligere.</translation>
+        <translation>Gjenbruk en av de tidligere brukte mottaksadressene. Gjenbruk av adresser har sikkerhets- og personvernsutfordringer. Ikke bruk dette med unntak for Ã¥ gjennopprette en betalingsetterspÃ¸rring som ble gjort tidligere.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
@@ -1561,19 +1561,19 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pirate network.</source>
-        <translation>En valgfri melding å tilknytte betalingsetterspørringen, som vil bli vist når forespørselen er åpnet. Meldingen vil ikke bli sendt med betalingen over Pirate-nettverket.</translation>
+        <translation>En valgfri melding Ã¥ tilknytte betalingsetterspÃ¸rringen, som vil bli vist nÃ¥r forespÃ¸rselen er Ã¥pnet. Meldingen vil ikke bli sendt med betalingen over Pirate-nettverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>En valgfri merkelapp å tilknytte den nye mottakeradressen.</translation>
+        <translation>En valgfri merkelapp Ã¥ tilknytte den nye mottakeradressen.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Bruk dette skjemaet til betalingsforespørsler. Alle felt er &lt;b&gt;valgfrie&lt;/b&gt;.</translation>
+        <translation>Bruk dette skjemaet til betalingsforespÃ¸rsler. Alle felt er &lt;b&gt;valgfrie&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Et valgfritt beløp å etterspørre. La stå tomt eller null for ikke å etterspørre et spesifikt beløp.</translation>
+        <translation>Et valgfritt belÃ¸p Ã¥ etterspÃ¸rre. La stÃ¥ tomt eller null for ikke Ã¥ etterspÃ¸rre et spesifikt belÃ¸p.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1589,11 +1589,11 @@
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Etterspør betaling</translation>
+        <translation>&amp;EtterspÃ¸r betaling</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Vis den valgte etterspørringen (gjør det samme som å dobbelklikke på en oppføring)</translation>
+        <translation>Vis den valgte etterspÃ¸rringen (gjÃ¸r det samme som Ã¥ dobbelklikke pÃ¥ en oppfÃ¸ring)</translation>
     </message>
     <message>
         <source>Show</source>
@@ -1601,7 +1601,7 @@
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Fjern de valgte oppføringene fra listen</translation>
+        <translation>Fjern de valgte oppfÃ¸ringene fra listen</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -1609,7 +1609,7 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopier beløp</translation>
+        <translation>Kopier belÃ¸p</translation>
     </message>
 </context>
 <context>
@@ -1694,7 +1694,7 @@
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Beløp:</translation>
+        <translation>BelÃ¸p:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -1734,7 +1734,7 @@
     </message>
     <message>
         <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den egendefinerte avgiften er satt til 1000 satoshis og transaksjonen bare er 250 bytes, da vil "per kilobyte" bare betale 250 satoshis i gebyr, mens "minstebeløp" betaler 1000 satoshis. For transaksjoner større enn en kilobyte vil begge betale for antall kilobyte.</translation>
+        <translation>Hvis den egendefinerte avgiften er satt til 1000 satoshis og transaksjonen bare er 250 bytes, da vil "per kilobyte" bare betale 250 satoshis i gebyr, mens "minstebelÃ¸p" betaler 1000 satoshis. For transaksjoner stÃ¸rre enn en kilobyte vil begge betale for antall kilobyte.</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -1742,15 +1742,15 @@
     </message>
     <message>
         <source>total at least</source>
-        <translation>minstebeløp</translation>
+        <translation>minstebelÃ¸p</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Pirate transactions than the network can process.</source>
-        <translation>Betaling av bare minimumsavgiften går helt fint så lenge det er mindre transaksjonsvolum enn plass i blokkene. Men vær klar over at dette kan ende opp i en transaksjon som aldri blir bekreftet når det er mer etterspørsel etter Pirate-transaksjoner enn nettverket kan behandle.</translation>
+        <translation>Betaling av bare minimumsavgiften gÃ¥r helt fint sÃ¥ lenge det er mindre transaksjonsvolum enn plass i blokkene. Men vÃ¦r klar over at dette kan ende opp i en transaksjon som aldri blir bekreftet nÃ¥r det er mer etterspÃ¸rsel etter Pirate-transaksjoner enn nettverket kan behandle.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(les verktøytipset)</translation>
+        <translation>(les verktÃ¸ytipset)</translation>
     </message>
     <message>
         <source>Recommended:</source>
@@ -1762,7 +1762,7 @@
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Smartgebyr ikke innført ennå. Dette tar vanligvis noen blokker...)</translation>
+        <translation>(Smartgebyr ikke innfÃ¸rt ennÃ¥. Dette tar vanligvis noen blokker...)</translation>
     </message>
     <message>
         <source>normal</source>
@@ -1786,7 +1786,7 @@
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Støv:</translation>
+        <translation>StÃ¸v:</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1810,7 +1810,7 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopier beløp</translation>
+        <translation>Kopier belÃ¸p</translation>
     </message>
     <message>
         <source>Copy fee</source>
@@ -1833,7 +1833,7 @@
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;Beløp:</translation>
+        <translation>&amp;BelÃ¸p:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -1853,7 +1853,7 @@
     </message>
     <message>
         <source>The Pirate address to send the payment to</source>
-        <translation>Pirate-adressen betalingen skal sendes til</translation>
+        <translation>Komodo-adressen betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1869,15 +1869,15 @@
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Fjern denne oppføringen</translation>
+        <translation>Fjern denne oppfÃ¸ringen</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Gebyret vil bli trukket fra beløpet som blir sendt. Mottakeren vil motta mindre Pirates enn det du skriver inn i beløpsfeltet. Hvis det er valgt flere mottakere, deles gebyret likt.</translation>
+        <translation>Gebyret vil bli trukket fra belÃ¸pet som blir sendt. Mottakeren vil motta mindre Pirates enn det du skriver inn i belÃ¸psfeltet. Hvis det er valgt flere mottakere, deles gebyret likt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
-        <translation>T&amp;rekk fra gebyr fra beløp</translation>
+        <translation>T&amp;rekk fra gebyr fra belÃ¸p</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -1885,19 +1885,19 @@
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
-        <translation>Dette er en uautorisert betalingsetterspørring.</translation>
+        <translation>Dette er en uautorisert betalingsetterspÃ¸rring.</translation>
     </message>
     <message>
         <source>This is an authenticated payment request.</source>
-        <translation>Dette er en autorisert betalingsetterspørring.</translation>
+        <translation>Dette er en autorisert betalingsetterspÃ¸rring.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Skriv inn en merkelapp for denne adressen for å legge den til listen av brukte adresser</translation>
+        <translation>Skriv inn en merkelapp for denne adressen for Ã¥ legge den til listen av brukte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pirate network.</source>
-        <translation>En melding som var tilknyttet Pirateen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Pirate-nettverket.</translation>
+        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Komodo network.</source>
+        <translation>En melding som var tilknyttet Pirateen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Komodo-nettverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1923,7 +1923,7 @@
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Slå ikke av datamaskinen før dette vinduet forsvinner.</translation>
+        <translation>SlÃ¥ ikke av datamaskinen fÃ¸r dette vinduet forsvinner.</translation>
     </message>
 </context>
 <context>
@@ -1938,11 +1938,11 @@
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signere meldinger/avtaler med adresser for å bevise at du kan motta Pirates sendt til dem. Vær forsiktig med å signere noe vagt eller tilfeldig, siden phishing-angrep kan prøve å lure deg til å signere din identitet over til dem. Bare signer fullt detaljerte utsagn som du er enig i.</translation>
+        <translation>Du kan signere meldinger/avtaler med adresser for Ã¥ bevise at du kan motta Pirates sendt til dem. VÃ¦r forsiktig med Ã¥ signere noe vagt eller tilfeldig, siden phishing-angrep kan prÃ¸ve Ã¥ lure deg til Ã¥ signere din identitet over til dem. Bare signer fullt detaljerte utsagn som du er enig i.</translation>
     </message>
     <message>
         <source>The Pirate address to sign the message with</source>
-        <translation>Pirate-adressen meldingen skal signeres med</translation>
+        <translation>Komodo-adressen meldingen skal signeres med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1974,7 +1974,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Pirate address</source>
-        <translation>Signer meldingen for å bevise at du eier denne Pirate-adressen</translation>
+        <translation>Signer meldingen for Ã¥ bevise at du eier denne Pirate-adressen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1994,15 +1994,15 @@
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Skriv inn mottakerens adresse, melding (forsikre deg om at du kopier linjeskift, mellomrom, faner osv. nøyaktig) og underskrift nedenfor for å bekrefte meldingen. Vær forsiktig så du ikke leser mer ut av signaturen enn hva som er i den signerte meldingen i seg selv, for å unngå å bli lurt av et man-in-the-middle-angrep. Merk at dette bare beviser at den som signerer kan motta med adressen, dette beviser ikke hvem som har sendt transaksjoner!</translation>
+        <translation>Skriv inn mottakerens adresse, melding (forsikre deg om at du kopier linjeskift, mellomrom, faner osv. nÃ¸yaktig) og underskrift nedenfor for Ã¥ bekrefte meldingen. VÃ¦r forsiktig sÃ¥ du ikke leser mer ut av signaturen enn hva som er i den signerte meldingen i seg selv, for Ã¥ unngÃ¥ Ã¥ bli lurt av et man-in-the-middle-angrep. Merk at dette bare beviser at den som signerer kan motta med adressen, dette beviser ikke hvem som har sendt transaksjoner!</translation>
     </message>
     <message>
         <source>The Pirate address the message was signed with</source>
-        <translation>Pirate-adressen meldingen ble signert med</translation>
+        <translation>Komodo-adressen meldingen ble signert med</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Pirate address</source>
-        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Pirate-adressen</translation>
+        <translation>Verifiser meldingen for Ã¥ vÃ¦re sikker pÃ¥ at den ble signert av den angitte Pirate-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2120,15 +2120,15 @@
     </message>
     <message>
         <source>This month</source>
-        <translation>Denne måneden</translation>
+        <translation>Denne mÃ¥neden</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Forrige måned</translation>
+        <translation>Forrige mÃ¥ned</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>Dette året</translation>
+        <translation>Dette Ã¥ret</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -2144,7 +2144,7 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopier beløp</translation>
+        <translation>Kopier belÃ¸p</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
@@ -2175,7 +2175,7 @@
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Enhet å vise beløper i. Klikk for å velge en annen enhet.</translation>
+        <translation>Enhet Ã¥ vise belÃ¸per i. Klikk for Ã¥ velge en annen enhet.</translation>
     </message>
 </context>
 <context>
@@ -2188,7 +2188,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
         <translation>Innstillinger:</translation>
@@ -2199,7 +2199,7 @@
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Koble til node for å hente adresser til andre noder, koble så fra igjen</translation>
+        <translation>Koble til node for Ã¥ hente adresser til andre noder, koble sÃ¥ fra igjen</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
@@ -2211,19 +2211,19 @@
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>Hvis &lt;category&gt; ikke er oppgitt eller hvis &lt;category&gt; = 1, ta ut all informasjon for feilsøking.</translation>
+        <translation>Hvis &lt;category&gt; ikke er oppgitt eller hvis &lt;category&gt; = 1, ta ut all informasjon for feilsÃ¸king.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Beskjæringsmodus er konfigurert under minimum på %d MiB. Vennligst bruk et høyere nummer.</translation>
+        <translation>BeskjÃ¦ringsmodus er konfigurert under minimum pÃ¥ %d MiB. Vennligst bruk et hÃ¸yere nummer.</translation>
     </message>
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Beskjæring: siste lommeboksynkronisering går utenfor beskjærte data. Du må bruke -reindex (laster ned hele blokkjeden igjen for beskjærte noder)</translation>
+        <translation>BeskjÃ¦ring: siste lommeboksynkronisering gÃ¥r utenfor beskjÃ¦rte data. Du mÃ¥ bruke -reindex (laster ned hele blokkjeden igjen for beskjÃ¦rte noder)</translation>
     </message>
     <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>Omsøk er ikke mulig i beskjært modus. Du vil måtte bruke -reindex som vil laste nede hele blokkjeden på nytt.</translation>
+        <translation>OmsÃ¸k er ikke mulig i beskjÃ¦rt modus. Du vil mÃ¥tte bruke -reindex som vil laste nede hele blokkjeden pÃ¥ nytt.</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
@@ -2231,15 +2231,15 @@
     </message>
     <message>
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i %s/kB) for å legge til i transaksjoner du sender (standardverdi: %s)</translation>
+        <translation>Gebyr (i %s/kB) for Ã¥ legge til i transaksjoner du sender (standardverdi: %s)</translation>
     </message>
     <message>
         <source>Pruning blockstore...</source>
-        <translation>Beskjærer blokklageret...</translation>
+        <translation>BeskjÃ¦rer blokklageret...</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Kjør i bakgrunnen som daemon og ta imot kommandoer</translation>
+        <translation>KjÃ¸r i bakgrunnen som daemon og ta imot kommandoer</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
@@ -2259,15 +2259,15 @@
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Kjør kommando når en lommeboktransaksjon endres (%s i kommando er erstattet med TxID)</translation>
+        <translation>KjÃ¸r kommando nÃ¥r en lommeboktransaksjon endres (%s i kommando er erstattet med TxID)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Angi antall tråder for skriptverifisering (%u til %d, 0 = auto, &lt;0 = la det antallet kjerner være ledig, standard: %d)</translation>
+        <translation>Angi antall trÃ¥der for skriptverifisering (%u til %d, 0 = auto, &lt;0 = la det antallet kjerner vÃ¦re ledig, standard: %d)</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>Blokkdatabasen inneholder en blokk som ser ut til å være fra fremtiden. Dette kan være fordi dato og tid på din datamaskin er satt feil. Gjenopprett kun blokkdatabasen når du er sikker på at dato og tid er satt riktig.</translation>
+        <translation>Blokkdatabasen inneholder en blokk som ser ut til Ã¥ vÃ¦re fra fremtiden. Dette kan vÃ¦re fordi dato og tid pÃ¥ din datamaskin er satt feil. Gjenopprett kun blokkdatabasen nÃ¥r du er sikker pÃ¥ at dato og tid er satt riktig.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -2275,11 +2275,11 @@
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool må være minst %d MB</translation>
+        <translation>-maxmempool mÃ¥ vÃ¦re minst %d MB</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; kan være:</translation>
+        <translation>&lt;category&gt; kan vÃ¦re:</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2295,7 +2295,7 @@
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Valg for feilsøking/testing:</translation>
+        <translation>Valg for feilsÃ¸king/testing:</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
@@ -2303,23 +2303,23 @@
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Ønsker du å gjenopprette blokkdatabasen nå?</translation>
+        <translation>Ãnsker du Ã¥ gjenopprette blokkdatabasen nÃ¥?</translation>
     </message>
     <message>
         <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Slå på publish hash block i &lt;address&gt;</translation>
+        <translation>SlÃ¥ pÃ¥ publish hash block i &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Slå på publish hash transaction i &lt;address&gt;</translation>
+        <translation>SlÃ¥ pÃ¥ publish hash transaction i &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Slå på publisering av råblokk i &lt;address&gt;</translation>
+        <translation>SlÃ¥ pÃ¥ publisering av rÃ¥blokk i &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Slå på publisering av råtransaksjon i &lt;address&gt;</translation>
+        <translation>SlÃ¥ pÃ¥ publisering av rÃ¥transaksjon i &lt;address&gt;</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -2327,7 +2327,7 @@
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Feil under oppstart av lommeboken sitt databasemiljø %s!</translation>
+        <translation>Feil under oppstart av lommeboken sitt databasemiljÃ¸ %s!</translation>
     </message>
     <message>
         <source>Error loading %s</source>
@@ -2339,7 +2339,7 @@
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Feil under åpning av blokkdatabase</translation>
+        <translation>Feil under Ã¥pning av blokkdatabase</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
@@ -2347,7 +2347,7 @@
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Kunne ikke lytte på noen port. Bruk -listen=0 hvis det er dette du vil.</translation>
+        <translation>Kunne ikke lytte pÃ¥ noen port. Bruk -listen=0 hvis det er dette du vil.</translation>
     </message>
     <message>
         <source>Importing...</source>
@@ -2367,7 +2367,7 @@
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>For få fildeskriptorer tilgjengelig.</translation>
+        <translation>For fÃ¥ fildeskriptorer tilgjengelig.</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
@@ -2383,19 +2383,19 @@
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
-        <translation>Beskjæringsmodus kan ikke konfigureres med en negativ verdi.</translation>
+        <translation>BeskjÃ¦ringsmodus kan ikke konfigureres med en negativ verdi.</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Beskjæringsmodus er ikke kompatibel med -txindex.</translation>
+        <translation>BeskjÃ¦ringsmodus er ikke kompatibel med -txindex.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Sett databasen sin størrelse på hurtigbufferen i megabytes (%d til %d, standardverdi: %d)</translation>
+        <translation>Sett databasen sin stÃ¸rrelse pÃ¥ hurtigbufferen i megabytes (%d til %d, standardverdi: %d)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Sett maks blokkstørrelse i bytes (standardverdi: %d)</translation>
+        <translation>Sett maks blokkstÃ¸rrelse i bytes (standardverdi: %d)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
@@ -2407,19 +2407,19 @@
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Ustøttet argument -benchmark ble ignorert, bruk -debug=bench.</translation>
+        <translation>UstÃ¸ttet argument -benchmark ble ignorert, bruk -debug=bench.</translation>
     </message>
     <message>
         <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Advarsel: Argumentet -debugnet er ikke støttet og ble ignorert, bruk -debug=net.</translation>
+        <translation>Advarsel: Argumentet -debugnet er ikke stÃ¸ttet og ble ignorert, bruk -debug=net.</translation>
     </message>
     <message>
         <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>Feil: Argumentet -tor er ikke støttet, bruk -onion.</translation>
+        <translation>Feil: Argumentet -tor er ikke stÃ¸ttet, bruk -onion.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Bruk UPnP for å sette opp lytteport (standardverdi: %u)</translation>
+        <translation>Bruk UPnP for Ã¥ sette opp lytteport (standardverdi: %u)</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
@@ -2451,11 +2451,11 @@
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Bind til gitt adresse for å lytte for JSON-RPC-tilkoblinger. Bruk [host]:port notasjon for IPv6. Dette alternativet kan angis flere ganger (standardverdi: bind til alle grensesnitt)</translation>
+        <translation>Bind til gitt adresse for Ã¥ lytte for JSON-RPC-tilkoblinger. Bruk [host]:port notasjon for IPv6. Dette alternativet kan angis flere ganger (standardverdi: bind til alle grensesnitt)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Opprett nye filer med standardtillatelser i systemet, i stedet for umask 077 (kun virksom med lommebokfunksjonalitet slått av)</translation>
+        <translation>Opprett nye filer med standardtillatelser i systemet, i stedet for umask 077 (kun virksom med lommebokfunksjonalitet slÃ¥tt av)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
@@ -2467,7 +2467,7 @@
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Utfør kommando når et relevant varsel er mottatt eller vi ser en veldig lang gaffel (%s i kommando er erstattet med melding)</translation>
+        <translation>UtfÃ¸r kommando nÃ¥r et relevant varsel er mottatt eller vi ser en veldig lang gaffel (%s i kommando er erstattet med melding)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
@@ -2479,23 +2479,23 @@
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Ugyldig beløp for -maxtxfee=&lt;amount&gt;: '%s' (må være minst minimum relé gebyr på %s for å hindre fastlåste transaksjoner)</translation>
+        <translation>Ugyldig belÃ¸p for -maxtxfee=&lt;amount&gt;: '%s' (mÃ¥ vÃ¦re minst minimum relÃ© gebyr pÃ¥ %s for Ã¥ hindre fastlÃ¥ste transaksjoner)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maksimal størrelse på data i databærende transaksjoner vi videresender og ufører graving på (standardverdi: %u)</translation>
+        <translation>Maksimal stÃ¸rrelse pÃ¥ data i databÃ¦rende transaksjoner vi videresender og ufÃ¸rer graving pÃ¥ (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Bruk tilfeldig identitet for hver proxytilkobling. Dette muliggjør TOR stream isolasjon (standardverdi: %u)</translation>
+        <translation>Bruk tilfeldig identitet for hver proxytilkobling. Dette muliggjÃ¸r TOR stream isolasjon (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Sett maksimum størrelse for transaksjoner med høy prioritet / lavt gebyr, i bytes (standardverdi: %d)</translation>
+        <translation>Sett maksimum stÃ¸rrelse for transaksjoner med hÃ¸y prioritet / lavt gebyr, i bytes (standardverdi: %d)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Transaksjonsbeløpet er for lite til å sendes etter at gebyret er fratrukket</translation>
+        <translation>TransaksjonsbelÃ¸pet er for lite til Ã¥ sendes etter at gebyret er fratrukket</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -2503,7 +2503,7 @@
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>Du må gjenoppbygge databasen ved hjelp av -reindex for å gå tilbake til ubeskåret modus. Dette vil laste ned hele blokkjeden på nytt.</translation>
+        <translation>Du mÃ¥ gjenoppbygge databasen ved hjelp av -reindex for Ã¥ gÃ¥ tilbake til ubeskÃ¥ret modus. Dette vil laste ned hele blokkjeden pÃ¥ nytt.</translation>
     </message>
     <message>
         <source>(default: %u)</source>
@@ -2511,7 +2511,7 @@
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Godta offentlige REST forespørsler (standardverdi: %u)</translation>
+        <translation>Godta offentlige REST forespÃ¸rsler (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
@@ -2535,7 +2535,7 @@
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Ugyldig beløp for -paytxfee=&lt;amount&gt;: '%s' (må være minst %s)</translation>
+        <translation>Ugyldig belÃ¸p for -paytxfee=&lt;amount&gt;: '%s' (mÃ¥ vÃ¦re minst %s)</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
@@ -2543,11 +2543,11 @@
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Hold på det meste &lt;n&gt; transaksjoner som ikke kobles i minnet (standardverdi: %u)</translation>
+        <translation>Hold pÃ¥ det meste &lt;n&gt; transaksjoner som ikke kobles i minnet (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Må oppgi en port med -whitebind: '%s'</translation>
+        <translation>MÃ¥ oppgi en port med -whitebind: '%s'</translation>
     </message>
     <message>
         <source>Node relay options:</source>
@@ -2567,7 +2567,7 @@
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Send spor-/feilsøkingsinformasjon til konsollen istedenfor filen debug.log</translation>
+        <translation>Send spor-/feilsÃ¸kingsinformasjon til konsollen istedenfor filen debug.log</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
@@ -2575,11 +2575,11 @@
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Vis alle feilsøkingsvalg (bruk: --help -help-debug)</translation>
+        <translation>Vis alle feilsÃ¸kingsvalg (bruk: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Krymp filen debug.log når klienten starter (standardverdi: 1 hvis uten -debug)</translation>
+        <translation>Krymp filen debug.log nÃ¥r klienten starter (standardverdi: 1 hvis uten -debug)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -2587,7 +2587,7 @@
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
-        <translation>Transaksjonsbeløpet er for lite til å betale gebyr</translation>
+        <translation>TransaksjonsbelÃ¸pet er for lite til Ã¥ betale gebyr</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
@@ -2599,7 +2599,7 @@
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Tor-kontrollport å bruke hvis onion-lytting er aktivert (standardverdi: %s)</translation>
+        <translation>Tor-kontrollport Ã¥ bruke hvis onion-lytting er aktivert (standardverdi: %s)</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -2615,7 +2615,7 @@
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Kan ikke binde til %s på denne datamaskinen (binding returnerte feilen %s)</translation>
+        <translation>Kan ikke binde til %s pÃ¥ denne datamaskinen (binding returnerte feilen %s)</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup</source>
@@ -2631,7 +2631,7 @@
     </message>
     <message>
         <source>Whether to operate in a blocks only mode (default: %u)</source>
-        <translation>Hvorvidt å operere i modus med kun blokker (standardverdi: %u)</translation>
+        <translation>Hvorvidt Ã¥ operere i modus med kun blokker (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
@@ -2647,7 +2647,7 @@
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Utfør kommando når beste blokk endrer seg (%s i kommandoen erstattes med blokkens hash)</translation>
+        <translation>UtfÃ¸r kommando nÃ¥r beste blokk endrer seg (%s i kommandoen erstattes med blokkens hash)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
@@ -2663,7 +2663,7 @@
     </message>
     <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>-maxtxfee er satt veldig høyt! Så stort gebyr kan bli betalt ved en enkelt transaksjon.</translation>
+        <translation>-maxtxfee er satt veldig hÃ¸yt! SÃ¥ stort gebyr kan bli betalt ved en enkelt transaksjon.</translation>
     </message>
     <message>
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
@@ -2683,31 +2683,31 @@
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Antall sekunder noder med dårlig oppførsel hindres fra å koble til på nytt (standardverdi: %u)</translation>
+        <translation>Antall sekunder noder med dÃ¥rlig oppfÃ¸rsel hindres fra Ã¥ koble til pÃ¥ nytt (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Ta ut feilsøkingsinformasjon (standardverdi: %u, bruk av &lt;category&gt; er valgfritt)</translation>
+        <translation>Ta ut feilsÃ¸kingsinformasjon (standardverdi: %u, bruk av &lt;category&gt; er valgfritt)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Støtte filtrering av blokker og transaksjoner med bloomfiltre (standardverdi: %u)</translation>
+        <translation>StÃ¸tte filtrering av blokker og transaksjoner med bloomfiltre (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Total lengde av nettverks-versionstreng (%i) er over maks lengde (%i). Reduser tallet eller størrelsen av uacomments.</translation>
+        <translation>Total lengde av nettverks-versionstreng (%i) er over maks lengde (%i). Reduser tallet eller stÃ¸rrelsen av uacomments.</translation>
     </message>
     <message>
         <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>Prøv å holde utgående trafikk under angitt mål (i MB per 24t), 0 = ingen grense (standard: %d)</translation>
+        <translation>PrÃ¸v Ã¥ holde utgÃ¥ende trafikk under angitt mÃ¥l (i MB per 24t), 0 = ingen grense (standard: %d)</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Argumentet -socks er ikke støttet. Det er ikke lenger mulig å sette SOCKS-versjon; bare SOCKS5-proxyer er støttet.</translation>
+        <translation>Argumentet -socks er ikke stÃ¸ttet. Det er ikke lenger mulig Ã¥ sette SOCKS-versjon; bare SOCKS5-proxyer er stÃ¸ttet.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Bruk separate SOCKS5 proxyer for å nå noder via Tor skjulte tjenester (standardverdi: %s)</translation>
+        <translation>Bruk separate SOCKS5 proxyer for Ã¥ nÃ¥ noder via Tor skjulte tjenester (standardverdi: %s)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -2715,7 +2715,7 @@
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Alltid søk etter nodeadresser via DNS-oppslag (standardverdi: %u)</translation>
+        <translation>Alltid sÃ¸k etter nodeadresser via DNS-oppslag (standardverdi: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
@@ -2723,7 +2723,7 @@
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Inkludere IP-adresser i feilsøkingslogg (standardverdi: %u)</translation>
+        <translation>Inkludere IP-adresser i feilsÃ¸kingslogg (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
@@ -2731,19 +2731,19 @@
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Lytt etter JSON-RPC tilkoblinger på &lt;port&gt; (standardverdi: %u eller testnett: %u)</translation>
+        <translation>Lytt etter JSON-RPC tilkoblinger pÃ¥ &lt;port&gt; (standardverdi: %u eller testnett: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Lytt etter tilkoblinger på &lt;port&gt; (standardverdi: %u eller testnett: %u)</translation>
+        <translation>Lytt etter tilkoblinger pÃ¥ &lt;port&gt; (standardverdi: %u eller testnett: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Hold maks &lt;n&gt; koblinger åpne til andre noder (standardverdi: %u)</translation>
+        <translation>Hold maks &lt;n&gt; koblinger Ã¥pne til andre noder (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Make the wallet broadcast transactions</source>
-        <translation>Få lommeboken til å kringkaste transaksjoner</translation>
+        <translation>FÃ¥ lommeboken til Ã¥ kringkaste transaksjoner</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
@@ -2755,11 +2755,11 @@
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Sett inn tidsstempel i front av feilsøkingsdata (standardverdi: %u)</translation>
+        <translation>Sett inn tidsstempel i front av feilsÃ¸kingsdata (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Videresend og ufør graving av databærende transaksjoner (standardverdi: %u)</translation>
+        <translation>Videresend og ufÃ¸r graving av databÃ¦rende transaksjoner (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
@@ -2767,11 +2767,11 @@
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Angi størrelse på nøkkel-lager til &lt;n&gt; (standardverdi: %u)</translation>
+        <translation>Angi stÃ¸rrelse pÃ¥ nÃ¸kkel-lager til &lt;n&gt; (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Sett antall tråder til betjening av RPC-kall (standardverdi: %d)</translation>
+        <translation>Sett antall trÃ¥der til betjening av RPC-kall (standardverdi: %d)</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
@@ -2791,7 +2791,7 @@
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Grenseverdi for å koble fra noder med dårlig oppførsel (standardverdi: %u)</translation>
+        <translation>Grenseverdi for Ã¥ koble fra noder med dÃ¥rlig oppfÃ¸rsel (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
@@ -2807,7 +2807,7 @@
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Legg til node for tilkobling og hold forbindelsen åpen</translation>
+        <translation>Legg til node for tilkobling og hold forbindelsen Ã¥pen</translation>
     </message>
     <message>
         <source>Loading wallet...</source>

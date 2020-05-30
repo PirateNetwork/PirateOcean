@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>ZSendCoinsDialog</class>
  <widget class="QDialog" name="ZSendCoinsDialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -147,8 +150,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>830</width>
-        <height>304</height>
+        <width>834</width>
+        <height>307</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1">
@@ -424,7 +427,7 @@
                  <string notr="true">font-weight:bold;</string>
                 </property>
                 <property name="text">
-                 <string>Operation ID:</string>
+                 <string>Operation ID (opid):</string>
                 </property>
                </widget>
               </item>
@@ -517,6 +520,26 @@
        </property>
        <property name="text">
         <string>Add &amp;Recipient</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../komodo.qrc">
+         <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="donButton">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="toolTip">
+        <string>Add a donation to PIRATE devs</string>
+       </property>
+       <property name="text">
+        <string>Add &amp;Donation</string>
        </property>
        <property name="icon">
         <iconset resource="../komodo.qrc">

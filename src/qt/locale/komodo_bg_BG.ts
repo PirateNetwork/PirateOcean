@@ -3,87 +3,87 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Клик с десен бутон на мишката за промяна на адрес или етикет</translation>
+        <translation>ÐÐ»Ð¸Ðº Ñ Ð´ÐµÑÐµÐ½ Ð±ÑÑÐ¾Ð½ Ð½Ð° Ð¼Ð¸ÑÐºÐ°ÑÐ° Ð·Ð° Ð¿ÑÐ¾Ð¼ÑÐ½Ð° Ð½Ð° Ð°Ð´ÑÐµÑ Ð¸Ð»Ð¸ ÐµÑÐ¸ÐºÐµÑ</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Създай нов адрес</translation>
+        <translation>Ð¡ÑÐ·Ð´Ð°Ð¹ Ð½Ð¾Ð² Ð°Ð´ÑÐµÑ</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>Нов</translation>
+        <translation>ÐÐ¾Ð²</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Копирай текущо избрания адрес към клипборда</translation>
+        <translation>ÐÐ¾Ð¿Ð¸ÑÐ°Ð¹ ÑÐµÐºÑÑÐ¾ Ð¸Ð·Ð±ÑÐ°Ð½Ð¸Ñ Ð°Ð´ÑÐµÑ ÐºÑÐ¼ ÐºÐ»Ð¸Ð¿Ð±Ð¾ÑÐ´Ð°</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>Копирай</translation>
+        <translation>ÐÐ¾Ð¿Ð¸ÑÐ°Ð¹</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>Затвори</translation>
+        <translation>ÐÐ°ÑÐ²Ð¾ÑÐ¸</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Изтрий текущо избрания адрес от листа</translation>
+        <translation>ÐÐ·ÑÑÐ¸Ð¹ ÑÐµÐºÑÑÐ¾ Ð¸Ð·Ð±ÑÐ°Ð½Ð¸Ñ Ð°Ð´ÑÐµÑ Ð¾Ñ Ð»Ð¸ÑÑÐ°</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Изнеси данните в избрания раздел към файл</translation>
+        <translation>ÐÐ·Ð½ÐµÑÐ¸ Ð´Ð°Ð½Ð½Ð¸ÑÐµ Ð² Ð¸Ð·Ð±ÑÐ°Ð½Ð¸Ñ ÑÐ°Ð·Ð´ÐµÐ» ÐºÑÐ¼ ÑÐ°Ð¹Ð»</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>Изнеси</translation>
+        <translation>ÐÐ·Ð½ÐµÑÐ¸</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>Изтрий</translation>
+        <translation>ÐÐ·ÑÑÐ¸Ð¹</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Избери адреса на който да пратиш монети</translation>
+        <translation>ÐÐ·Ð±ÐµÑÐ¸ Ð°Ð´ÑÐµÑÐ° Ð½Ð° ÐºÐ¾Ð¹ÑÐ¾ Ð´Ð° Ð¿ÑÐ°ÑÐ¸Ñ Ð¼Ð¾Ð½ÐµÑÐ¸</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Избери адреса на който да получиш монети</translation>
+        <translation>ÐÐ·Ð±ÐµÑÐ¸ Ð°Ð´ÑÐµÑÐ° Ð½Ð° ÐºÐ¾Ð¹ÑÐ¾ Ð´Ð° Ð¿Ð¾Ð»ÑÑÐ¸Ñ Ð¼Ð¾Ð½ÐµÑÐ¸</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>Избери</translation>
+        <translation>ÐÐ·Ð±ÐµÑÐ¸</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Адрес за пращане</translation>
+        <translation>ÐÐ´ÑÐµÑ Ð·Ð° Ð¿ÑÐ°ÑÐ°Ð½Ðµ</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Адрес за получаване</translation>
+        <translation>ÐÐ´ÑÐµÑ Ð·Ð° Ð¿Ð¾Ð»ÑÑÐ°Ð²Ð°Ð½Ðµ</translation>
     </message>
     <message>
         <source>These are your Pirate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Тези са вашите Pirate адреси за изпращане на монети. Винаги проверявайте количеството и получаващия адрес преди изпращане. </translation>
+        <translation>Ð¢ÐµÐ·Ð¸ ÑÐ° Ð²Ð°ÑÐ¸ÑÐµ Pirate Ð°Ð´ÑÐµÑÐ¸ Ð·Ð° Ð¸Ð·Ð¿ÑÐ°ÑÐ°Ð½Ðµ Ð½Ð° Ð¼Ð¾Ð½ÐµÑÐ¸. ÐÐ¸Ð½Ð°Ð³Ð¸ Ð¿ÑÐ¾Ð²ÐµÑÑÐ²Ð°Ð¹ÑÐµ ÐºÐ¾Ð»Ð¸ÑÐµÑÑÐ²Ð¾ÑÐ¾ Ð¸ Ð¿Ð¾Ð»ÑÑÐ°Ð²Ð°ÑÐ¸Ñ Ð°Ð´ÑÐµÑ Ð¿ÑÐµÐ´Ð¸ Ð¸Ð·Ð¿ÑÐ°ÑÐ°Ð½Ðµ. </translation>
     </message>
     <message>
         <source>These are your Pirate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите Pirate адреси за получаване на монети. Препоръчително е да ползвате нов адрес на всяка транзакция.</translation>
+        <translation>Ð¢Ð¾Ð²Ð° ÑÐ° Ð²Ð°ÑÐ¸ÑÐµ Pirate Ð°Ð´ÑÐµÑÐ¸ Ð·Ð° Ð¿Ð¾Ð»ÑÑÐ°Ð²Ð°Ð½Ðµ Ð½Ð° Ð¼Ð¾Ð½ÐµÑÐ¸. ÐÑÐµÐ¿Ð¾ÑÑÑÐ¸ÑÐµÐ»Ð½Ð¾ Ðµ Ð´Ð° Ð¿Ð¾Ð»Ð·Ð²Ð°ÑÐµ Ð½Ð¾Ð² Ð°Ð´ÑÐµÑ Ð½Ð° Ð²ÑÑÐºÐ° ÑÑÐ°Ð½Ð·Ð°ÐºÑÐ¸Ñ.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>Копирай адрес</translation>
+        <translation>ÐÐ¾Ð¿Ð¸ÑÐ°Ð¹ Ð°Ð´ÑÐµÑ</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Копирай етикет</translation>
+        <translation>ÐÐ¾Ð¿Ð¸ÑÐ°Ð¹ ÐµÑÐ¸ÐºÐµÑ</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>Редактирай</translation>
+        <translation>Ð ÐµÐ´Ð°ÐºÑÐ¸ÑÐ°Ð¹</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Изнеси лист с адреси</translation>
+        <translation>ÐÐ·Ð½ÐµÑÐ¸ Ð»Ð¸ÑÑ Ñ Ð°Ð´ÑÐµÑÐ¸</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -91,182 +91,182 @@
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Изнасянето се провали</translation>
+        <translation>ÐÐ·Ð½Ð°ÑÑÐ½ÐµÑÐ¾ ÑÐµ Ð¿ÑÐ¾Ð²Ð°Ð»Ð¸</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Получи се грешка при запазването на листа с адреси към %1. Моля опитайте пак.</translation>
+        <translation>ÐÐ¾Ð»ÑÑÐ¸ ÑÐµ Ð³ÑÐµÑÐºÐ° Ð¿ÑÐ¸ Ð·Ð°Ð¿Ð°Ð·Ð²Ð°Ð½ÐµÑÐ¾ Ð½Ð° Ð»Ð¸ÑÑÐ° Ñ Ð°Ð´ÑÐµÑÐ¸ ÐºÑÐ¼ %1. ÐÐ¾Ð»Ñ Ð¾Ð¿Ð¸ÑÐ°Ð¹ÑÐµ Ð¿Ð°Ðº.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Етикет</translation>
+        <translation>ÐÑÐ¸ÐºÐµÑ</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Адрес</translation>
+        <translation>ÐÐ´ÑÐµÑ</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(без етикет)</translation>
+        <translation>(Ð±ÐµÐ· ÐµÑÐ¸ÐºÐµÑ)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Диалог за пропуск</translation>
+        <translation>ÐÐ¸Ð°Ð»Ð¾Ð³ Ð·Ð° Ð¿ÑÐ¾Ð¿ÑÑÐº</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Въведи парола</translation>
+        <translation>ÐÑÐ²ÐµÐ´Ð¸ Ð¿Ð°ÑÐ¾Ð»Ð°</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Нова парола</translation>
+        <translation>ÐÐ¾Ð²Ð° Ð¿Ð°ÑÐ¾Ð»Ð°</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Повтори парола</translation>
+        <translation>ÐÐ¾Ð²ÑÐ¾ÑÐ¸ Ð¿Ð°ÑÐ¾Ð»Ð°</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Криптирай портфейл</translation>
+        <translation>ÐÑÐ¸Ð¿ÑÐ¸ÑÐ°Ð¹ Ð¿Ð¾ÑÑÑÐµÐ¹Ð»</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Тази операция изисква вашата парола на портфейла за отключването на портфейла.</translation>
+        <translation>Ð¢Ð°Ð·Ð¸ Ð¾Ð¿ÐµÑÐ°ÑÐ¸Ñ Ð¸Ð·Ð¸ÑÐºÐ²Ð° Ð²Ð°ÑÐ°ÑÐ° Ð¿Ð°ÑÐ¾Ð»Ð° Ð½Ð° Ð¿Ð¾ÑÑÑÐµÐ¹Ð»Ð° Ð·Ð° Ð¾ÑÐºÐ»ÑÑÐ²Ð°Ð½ÐµÑÐ¾ Ð½Ð° Ð¿Ð¾ÑÑÑÐµÐ¹Ð»Ð°.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Отключи портфейла</translation>
+        <translation>ÐÑÐºÐ»ÑÑÐ¸ Ð¿Ð¾ÑÑÑÐµÐ¹Ð»Ð°</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Тази операция изисква вашата парола на портфейла за декриптирането на портфейла.</translation>
+        <translation>Ð¢Ð°Ð·Ð¸ Ð¾Ð¿ÐµÑÐ°ÑÐ¸Ñ Ð¸Ð·Ð¸ÑÐºÐ²Ð° Ð²Ð°ÑÐ°ÑÐ° Ð¿Ð°ÑÐ¾Ð»Ð° Ð½Ð° Ð¿Ð¾ÑÑÑÐµÐ¹Ð»Ð° Ð·Ð° Ð´ÐµÐºÑÐ¸Ð¿ÑÐ¸ÑÐ°Ð½ÐµÑÐ¾ Ð½Ð° Ð¿Ð¾ÑÑÑÐµÐ¹Ð»Ð°.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Декриптирай портфейл</translation>
+        <translation>ÐÐµÐºÑÐ¸Ð¿ÑÐ¸ÑÐ°Ð¹ Ð¿Ð¾ÑÑÑÐµÐ¹Ð»</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Промени парола</translation>
+        <translation>ÐÑÐ¾Ð¼ÐµÐ½Ð¸ Ð¿Ð°ÑÐ¾Ð»Ð°</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Потвърди криптирането на порфейла</translation>
+        <translation>ÐÐ¾ÑÐ²ÑÑÐ´Ð¸ ÐºÑÐ¸Ð¿ÑÐ¸ÑÐ°Ð½ÐµÑÐ¾ Ð½Ð° Ð¿Ð¾ÑÑÐµÐ¹Ð»Ð°</translation>
     </message>
     </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/Мрежова маска</translation>
+        <translation>IP/ÐÑÐµÐ¶Ð¾Ð²Ð° Ð¼Ð°ÑÐºÐ°</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Блокиран до</translation>
+        <translation>ÐÐ»Ð¾ÐºÐ¸ÑÐ°Ð½ Ð´Ð¾</translation>
     </message>
 </context>
 <context>
     <name>PirateOceanGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Подпиши съобщение...</translation>
+        <translation>ÐÐ¾Ð´Ð¿Ð¸ÑÐ¸ ÑÑÐ¾Ð±ÑÐµÐ½Ð¸Ðµ...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Синхронизиране с мрежата...</translation>
+        <translation>Ð¡Ð¸Ð½ÑÑÐ¾Ð½Ð¸Ð·Ð¸ÑÐ°Ð½Ðµ Ñ Ð¼ÑÐµÐ¶Ð°ÑÐ°...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>Преглед</translation>
+        <translation>ÐÑÐµÐ³Ð»ÐµÐ´</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Възел</translation>
+        <translation>ÐÑÐ·ÐµÐ»</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Покажи общ преглед на портфейла</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð¶Ð¸ Ð¾Ð±Ñ Ð¿ÑÐµÐ³Ð»ÐµÐ´ Ð½Ð° Ð¿Ð¾ÑÑÑÐµÐ¹Ð»Ð°</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>Транзакции</translation>
+        <translation>Ð¢ÑÐ°Ð½Ð·Ð°ÐºÑÐ¸Ð¸</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Разгледай история на транзакциите</translation>
+        <translation>Ð Ð°Ð·Ð³Ð»ÐµÐ´Ð°Ð¹ Ð¸ÑÑÐ¾ÑÐ¸Ñ Ð½Ð° ÑÑÐ°Ð½Ð·Ð°ÐºÑÐ¸Ð¸ÑÐµ</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>Изход</translation>
+        <translation>ÐÐ·ÑÐ¾Ð´</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Излез от приложението</translation>
+        <translation>ÐÐ·Ð»ÐµÐ· Ð¾Ñ Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸ÐµÑÐ¾</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>За %1</translation>
+        <translation>ÐÐ° %1</translation>
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>Покажи информация за %1</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð¶Ð¸ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ Ð·Ð° %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Относно Qt</translation>
+        <translation>ÐÑÐ½Ð¾ÑÐ½Ð¾ Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Покажи информация отностно Qt</translation>
+        <translation>ÐÐ¾ÐºÐ°Ð¶Ð¸ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ Ð¾ÑÐ½Ð¾ÑÑÐ½Ð¾ Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>Настройки...</translation>
+        <translation>ÐÐ°ÑÑÑÐ¾Ð¹ÐºÐ¸...</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>Промени конфигурации за %1</translation>
+        <translation>ÐÑÐ¾Ð¼ÐµÐ½Ð¸ ÐºÐ¾Ð½ÑÐ¸Ð³ÑÑÐ°ÑÐ¸Ð¸ Ð·Ð° %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Криптирай портфейл</translation>
+        <translation>ÐÑÐ¸Ð¿ÑÐ¸ÑÐ°Ð¹ Ð¿Ð¾ÑÑÑÐµÐ¹Ð»</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Направи резервно копие на портфейла...</translation>
+        <translation>ÐÐ°Ð¿ÑÐ°Ð²Ð¸ ÑÐµÐ·ÐµÑÐ²Ð½Ð¾ ÐºÐ¾Ð¿Ð¸Ðµ Ð½Ð° Ð¿Ð¾ÑÑÑÐµÐ¹Ð»Ð°...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>Промени паролата...</translation>
+        <translation>ÐÑÐ¾Ð¼ÐµÐ½Ð¸ Ð¿Ð°ÑÐ¾Ð»Ð°ÑÐ°...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>Адреси за пращане...</translation>
+        <translation>ÐÐ´ÑÐµÑÐ¸ Ð·Ð° Ð¿ÑÐ°ÑÐ°Ð½Ðµ...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Адреси за получаване...</translation>
+        <translation>ÐÐ´ÑÐµÑÐ¸ Ð·Ð° Ð¿Ð¾Ð»ÑÑÐ°Ð²Ð°Ð½Ðµ...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Отвори URI</translation>
+        <translation>ÐÑÐ²Ð¾ÑÐ¸ URI</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Повторно индексиране на блоковете на диска...</translation>
+        <translation>ÐÐ¾Ð²ÑÐ¾ÑÐ½Ð¾ Ð¸Ð½Ð´ÐµÐºÑÐ¸ÑÐ°Ð½Ðµ Ð½Ð° Ð±Ð»Ð¾ÐºÐ¾Ð²ÐµÑÐµ Ð½Ð° Ð´Ð¸ÑÐºÐ°...</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>(no label)</source>
-        <translation>(без етикет)</translation>
+        <translation>(Ð±ÐµÐ· ÐµÑÐ¸ÐºÐµÑ)</translation>
     </message>
     </context>
 <context>
@@ -318,29 +318,29 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>Адрес</translation>
+        <translation>ÐÐ´ÑÐµÑ</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Етикет</translation>
+        <translation>ÐÑÐ¸ÐºÐµÑ</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Етикет</translation>
+        <translation>ÐÑÐ¸ÐºÐµÑ</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(без етикет)</translation>
+        <translation>(Ð±ÐµÐ· ÐµÑÐ¸ÐºÐµÑ)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>(no label)</source>
-        <translation>(без етикет)</translation>
+        <translation>(Ð±ÐµÐ· ÐµÑÐ¸ÐºÐµÑ)</translation>
     </message>
 </context>
 <context>
@@ -371,11 +371,11 @@
     <name>TransactionTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Етикет</translation>
+        <translation>ÐÑÐ¸ÐºÐµÑ</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(без етикет)</translation>
+        <translation>(Ð±ÐµÐ· ÐµÑÐ¸ÐºÐµÑ)</translation>
     </message>
     </context>
 <context>
@@ -386,15 +386,15 @@
     </message>
     <message>
         <source>Label</source>
-        <translation>Етикет</translation>
+        <translation>ÐÑÐ¸ÐºÐµÑ</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Адрес</translation>
+        <translation>ÐÐ´ÑÐµÑ</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Изнасянето се провали</translation>
+        <translation>ÐÐ·Ð½Ð°ÑÑÐ½ÐµÑÐ¾ ÑÐµ Ð¿ÑÐ¾Ð²Ð°Ð»Ð¸</translation>
     </message>
     </context>
 <context>
@@ -410,18 +410,18 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>Изнеси</translation>
+        <translation>ÐÐ·Ð½ÐµÑÐ¸</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Изнеси данните в избрания раздел към файл</translation>
+        <translation>ÐÐ·Ð½ÐµÑÐ¸ Ð´Ð°Ð½Ð½Ð¸ÑÐµ Ð² Ð¸Ð·Ð±ÑÐ°Ð½Ð¸Ñ ÑÐ°Ð·Ð´ÐµÐ» ÐºÑÐ¼ ÑÐ°Ð¹Ð»</translation>
     </message>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Pirate Core</source>
-        <translation>Pirate ядро</translation>
+        <translation>Komodo ÑÐ´ÑÐ¾</translation>
     </message>
     </context>
 </TS>

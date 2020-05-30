@@ -115,7 +115,7 @@
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Mitte nummos ad inscriptionem Pirate</translation>
+        <translation>Mitte nummos ad inscriptionem Komodo</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -171,7 +171,7 @@
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Pirate</translation>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Komodo</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -692,7 +692,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Pirate address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Pirate</translation>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Komodo</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -742,7 +742,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
         <translation>Optiones:</translation>
@@ -769,7 +769,7 @@
     </message>
     <message>
         <source>Pirate Core</source>
-        <translation>Pirate Nucleus</translation>
+        <translation>Komodo Nucleus</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

@@ -11,11 +11,11 @@
 #include <boost/assign/std/vector.hpp> // for 'operator+=()'
 #include <boost/assert.hpp>
 #include <boost/test/unit_test.hpp>
-                    
+
 using namespace std;
 using namespace boost::assign; // bring 'operator+=()' into scope
 using namespace boost::filesystem;
-         
+
 // Test if a string consists entirely of null characters
 bool is_null_key(const vector<unsigned char>& key) {
     bool isnull = true;
@@ -25,9 +25,9 @@ bool is_null_key(const vector<unsigned char>& key) {
 
     return isnull;
 }
- 
+
 BOOST_FIXTURE_TEST_SUITE(dbwrapper_tests, BasicTestingSetup)
-                       
+
 BOOST_AUTO_TEST_CASE(dbwrapper)
 {
     {

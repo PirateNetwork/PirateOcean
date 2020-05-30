@@ -3,27 +3,27 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>पते या लेबल को संपादित करने के लिए राइट-क्लिक करें</translation>
+        <translation>à¤ªà¤¤à¥ à¤¯à¤¾ à¤²à¥à¤¬à¤² à¤à¥ à¤¸à¤à¤ªà¤¾à¤¦à¤¿à¤¤ à¤à¤°à¤¨à¥ à¤à¥ à¤²à¤¿à¤ à¤°à¤¾à¤à¤-à¤à¥à¤²à¤¿à¤ à¤à¤°à¥à¤</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>नया पता लिखिए !</translation>
+        <translation>à¤¨à¤¯à¤¾ à¤ªà¤¤à¤¾ à¤²à¤¿à¤à¤¿à¤ !</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>नया</translation>
+        <translation>à¤¨à¤¯à¤¾</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>चुनिन्दा पते को सिस्टम क्लिपबोर्ड पर कापी करे !</translation>
+        <translation>à¤à¥à¤¨à¤¿à¤¨à¥à¤¦à¤¾ à¤ªà¤¤à¥ à¤à¥ à¤¸à¤¿à¤¸à¥à¤à¤® à¤à¥à¤²à¤¿à¤ªà¤¬à¥à¤°à¥à¤¡ à¤ªà¤° à¤à¤¾à¤ªà¥ à¤à¤°à¥ !</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>सूची से वर्तमान में चयनित पता हटाएं</translation>
+        <translation>à¤¸à¥à¤à¥ à¤¸à¥ à¤µà¤°à¥à¤¤à¤®à¤¾à¤¨ à¤®à¥à¤ à¤à¤¯à¤¨à¤¿à¤¤ à¤ªà¤¤à¤¾ à¤¹à¤à¤¾à¤à¤</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;मिटाए !!</translation>
+        <translation>&amp;à¤®à¤¿à¤à¤¾à¤ !!</translation>
     </message>
     </context>
 <context>
@@ -33,15 +33,15 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation>पहचान शब्द/अक्षर डालिए !</translation>
+        <translation>à¤ªà¤¹à¤à¤¾à¤¨ à¤¶à¤¬à¥à¤¦/à¤à¤à¥à¤·à¤° à¤¡à¤¾à¤²à¤¿à¤ !</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>नया पहचान शब्द/अक्षर डालिए !</translation>
+        <translation>à¤¨à¤¯à¤¾ à¤ªà¤¹à¤à¤¾à¤¨ à¤¶à¤¬à¥à¤¦/à¤à¤à¥à¤·à¤° à¤¡à¤¾à¤²à¤¿à¤ !</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>दोबारा नया पहचान शब्द/अक्षर डालिए !</translation>
+        <translation>à¤¦à¥à¤¬à¤¾à¤°à¤¾ à¤¨à¤¯à¤¾ à¤ªà¤¹à¤à¤¾à¤¨ à¤¶à¤¬à¥à¤¦/à¤à¤à¥à¤·à¤° à¤¡à¤¾à¤²à¤¿à¤ !</translation>
     </message>
     </context>
 <context>
@@ -51,115 +51,115 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>नेटवर्क से समकालिक (मिल) रहा है ...</translation>
+        <translation>à¤¨à¥à¤à¤µà¤°à¥à¤ à¤¸à¥ à¤¸à¤®à¤à¤¾à¤²à¤¿à¤ (à¤®à¤¿à¤²) à¤°à¤¹à¤¾ à¤¹à¥ ...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;विवरण</translation>
+        <translation>&amp;à¤µà¤¿à¤µà¤°à¤£</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>वॉलेट का सामानया विवरण दिखाए !</translation>
+        <translation>à¤µà¥à¤²à¥à¤ à¤à¤¾ à¤¸à¤¾à¤®à¤¾à¤¨à¤¯à¤¾ à¤µà¤¿à¤µà¤°à¤£ à¤¦à¤¿à¤à¤¾à¤ !</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp; लेन-देन
+        <translation>&amp; à¤²à¥à¤¨-à¤¦à¥à¤¨
 </translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>देखिए पुराने लेन-देन के विवरण !</translation>
+        <translation>à¤¦à¥à¤à¤¿à¤ à¤ªà¥à¤°à¤¾à¤¨à¥ à¤²à¥à¤¨-à¤¦à¥à¤¨ à¤à¥ à¤µà¤¿à¤µà¤°à¤£ !</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>बाहर जायें</translation>
+        <translation>à¤¬à¤¾à¤¹à¤° à¤à¤¾à¤¯à¥à¤</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>अप्लिकेशन से बाहर निकलना !</translation>
+        <translation>à¤à¤ªà¥à¤²à¤¿à¤à¥à¤¶à¤¨ à¤¸à¥ à¤¬à¤¾à¤¹à¤° à¤¨à¤¿à¤à¤²à¤¨à¤¾ !</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;विकल्प</translation>
+        <translation>&amp;à¤µà¤¿à¤à¤²à¥à¤ª</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;बैकप वॉलेट</translation>
+        <translation>&amp;à¤¬à¥à¤à¤ª à¤µà¥à¤²à¥à¤</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>पहचान शब्द/अक्षर जो वॉलेट एनक्रिपशन के लिए इस्तेमाल किया है उसे बदलिए!</translation>
+        <translation>à¤ªà¤¹à¤à¤¾à¤¨ à¤¶à¤¬à¥à¤¦/à¤à¤à¥à¤·à¤° à¤à¥ à¤µà¥à¤²à¥à¤ à¤à¤¨à¤à¥à¤°à¤¿à¤ªà¤¶à¤¨ à¤à¥ à¤²à¤¿à¤ à¤à¤¸à¥à¤¤à¥à¤®à¤¾à¤² à¤à¤¿à¤¯à¤¾ à¤¹à¥ à¤à¤¸à¥ à¤¬à¤¦à¤²à¤¿à¤!</translation>
     </message>
     <message>
         <source>Pirate</source>
-        <translation>बीटकोइन</translation>
+        <translation>à¤¬à¥à¤à¤à¥à¤à¤¨</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>वॉलेट</translation>
+        <translation>à¤µà¥à¤²à¥à¤</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;फाइल</translation>
+        <translation>&amp;à¤«à¤¾à¤à¤²</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;सेट्टिंग्स</translation>
+        <translation>&amp;à¤¸à¥à¤à¥à¤à¤¿à¤à¤à¥à¤¸</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;मदद</translation>
+        <translation>&amp;à¤®à¤¦à¤¦</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>टैबस टूलबार</translation>
+        <translation>à¤à¥à¤¬à¤¸ à¤à¥à¤²à¤¬à¤¾à¤°</translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 पीछे</translation>
+        <translation>%1 à¤ªà¥à¤à¥</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>भूल</translation>
+        <translation>à¤­à¥à¤²</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>चेतावनी</translation>
+        <translation>à¤à¥à¤¤à¤¾à¤µà¤¨à¥</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>जानकारी</translation>
+        <translation>à¤à¤¾à¤¨à¤à¤¾à¤°à¥</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>नवीनतम</translation>
+        <translation>à¤¨à¤µà¥à¤¨à¤¤à¤®</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>भेजी ट्रांजक्शन</translation>
+        <translation>à¤­à¥à¤à¥ à¤à¥à¤°à¤¾à¤à¤à¤à¥à¤¶à¤¨</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>प्राप्त हुई ट्रांजक्शन</translation>
+        <translation>à¤ªà¥à¤°à¤¾à¤ªà¥à¤¤ à¤¹à¥à¤ à¤à¥à¤°à¤¾à¤à¤à¤à¥à¤¶à¤¨</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>वॉलेट एन्क्रिप्टेड है तथा अभी लॉक्ड नहीं है</translation>
+        <translation>à¤µà¥à¤²à¥à¤ à¤à¤¨à¥à¤à¥à¤°à¤¿à¤ªà¥à¤à¥à¤¡ à¤¹à¥ à¤¤à¤¥à¤¾ à¤à¤­à¥ à¤²à¥à¤à¥à¤¡ à¤¨à¤¹à¥à¤ à¤¹à¥</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>वॉलेट एन्क्रिप्टेड है तथा अभी लॉक्ड है</translation>
+        <translation>à¤µà¥à¤²à¥à¤ à¤à¤¨à¥à¤à¥à¤°à¤¿à¤ªà¥à¤à¥à¤¡ à¤¹à¥ à¤¤à¤¥à¤¾ à¤à¤­à¥ à¤²à¥à¤à¥à¤¡ à¤¹à¥</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Amount:</source>
-        <translation>राशि :</translation>
+        <translation>à¤°à¤¾à¤¶à¤¿ :</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>राशि</translation>
+        <translation>à¤°à¤¾à¤¶à¤¿</translation>
     </message>
     <message>
         <source>Date</source>
@@ -167,22 +167,22 @@
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>पक्का</translation>
+        <translation>à¤ªà¤à¥à¤à¤¾</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>पता एडिट करना</translation>
+        <translation>à¤ªà¤¤à¤¾ à¤à¤¡à¤¿à¤ à¤à¤°à¤¨à¤¾</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;लेबल</translation>
+        <translation>&amp;à¤²à¥à¤¬à¤²</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;पता</translation>
+        <translation>&amp;à¤ªà¤¤à¤¾</translation>
     </message>
     </context>
 <context>
@@ -192,25 +192,25 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>संस्करण</translation>
+        <translation>à¤¸à¤à¤¸à¥à¤à¤°à¤£</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>खपत :</translation>
+        <translation>à¤à¤ªà¤¤ :</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Error</source>
-        <translation>भूल</translation>
+        <translation>à¤­à¥à¤²</translation>
     </message>
     </context>
 <context>
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>फार्म</translation>
+        <translation>à¤«à¤¾à¤°à¥à¤®</translation>
     </message>
     </context>
 <context>
@@ -220,26 +220,26 @@
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>विकल्प</translation>
+        <translation>à¤µà¤¿à¤à¤²à¥à¤ª</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>वॉलेट</translation>
+        <translation>à¤µà¥à¤²à¥à¤</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;ओके</translation>
+        <translation>&amp;à¤à¤à¥</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;कैन्सल</translation>
+        <translation>&amp;à¤à¥à¤¨à¥à¤¸à¤²</translation>
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>फार्म</translation>
+        <translation>à¤«à¤¾à¤°à¥à¤®</translation>
     </message>
     </context>
 <context>
@@ -252,11 +252,11 @@
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>राशि</translation>
+        <translation>à¤°à¤¾à¤¶à¤¿</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>लागू नही
+        <translation>à¤²à¤¾à¤à¥ à¤¨à¤¹à¥
 </translation>
     </message>
     </context>
@@ -270,30 +270,30 @@
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation>लागू नही
+        <translation>à¤²à¤¾à¤à¥ à¤¨à¤¹à¥
 </translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>जानकारी</translation>
+        <translation>à¤à¤¾à¤¨à¤à¤¾à¤°à¥</translation>
     </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>राशि :</translation>
+        <translation>à¤°à¤¾à¤¶à¤¿ :</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>लेबल:</translation>
+        <translation>à¤²à¥à¤¬à¤²:</translation>
     </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>&amp;पता कॉपी करे</translation>
+        <translation>&amp;à¤ªà¤¤à¤¾ à¤à¥à¤ªà¥ à¤à¤°à¥</translation>
     </message>
     </context>
 <context>
@@ -303,38 +303,38 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>सिक्के भेजें|</translation>
+        <translation>à¤¸à¤¿à¤à¥à¤à¥ à¤­à¥à¤à¥à¤|</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>राशि :</translation>
+        <translation>à¤°à¤¾à¤¶à¤¿ :</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>एक साथ कई प्राप्तकर्ताओं को भेजें</translation>
+        <translation>à¤à¤ à¤¸à¤¾à¤¥ à¤à¤ à¤ªà¥à¤°à¤¾à¤ªà¥à¤¤à¤à¤°à¥à¤¤à¤¾à¤à¤ à¤à¥ à¤­à¥à¤à¥à¤</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>बाकी रकम :</translation>
+        <translation>à¤¬à¤¾à¤à¥ à¤°à¤à¤® :</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>भेजने की पुष्टि करें</translation>
+        <translation>à¤­à¥à¤à¤¨à¥ à¤à¥ à¤ªà¥à¤·à¥à¤à¤¿ à¤à¤°à¥à¤</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation>अमाउंट:</translation>
+        <translation>à¤à¤®à¤¾à¤à¤à¤:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>प्राप्तकर्ता:</translation>
+        <translation>à¤ªà¥à¤°à¤¾à¤ªà¥à¤¤à¤à¤°à¥à¤¤à¤¾:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>लेबल:</translation>
+        <translation>à¤²à¥à¤¬à¤²:</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -342,7 +342,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Clipboard से एड्रेस paste करें</translation>
+        <translation>Clipboard à¤¸à¥ à¤à¤¡à¥à¤°à¥à¤¸ paste à¤à¤°à¥à¤</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -350,7 +350,7 @@
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>प्राप्तकर्ता:</translation>
+        <translation>à¤ªà¥à¤°à¤¾à¤ªà¥à¤¤à¤à¤°à¥à¤¤à¤¾:</translation>
     </message>
     </context>
 <context>
@@ -367,7 +367,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Clipboard से एड्रेस paste करें</translation>
+        <translation>Clipboard à¤¸à¥ à¤à¤¡à¥à¤°à¥à¤¸ paste à¤à¤°à¥à¤</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -375,14 +375,14 @@
     </message>
     <message>
         <source>Signature</source>
-        <translation>हस्ताक्षर</translation>
+        <translation>à¤¹à¤¸à¥à¤¤à¤¾à¤à¥à¤·à¤°</translation>
     </message>
     </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>[testnet]</source>
-        <translation>[टेस्टनेट]</translation>
+        <translation>[à¤à¥à¤¸à¥à¤à¤¨à¥à¤]</translation>
     </message>
 </context>
 <context>
@@ -395,7 +395,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation> ये खिड़की आपको लेन-देन का विस्तृत विवरण देगी !</translation>
+        <translation> à¤¯à¥ à¤à¤¿à¤¡à¤¼à¤à¥ à¤à¤ªà¤à¥ à¤²à¥à¤¨-à¤¦à¥à¤¨ à¤à¤¾ à¤µà¤¿à¤¸à¥à¤¤à¥à¤¤ à¤µà¤¿à¤µà¤°à¤£ à¤¦à¥à¤à¥ !</translation>
     </message>
     </context>
 <context>
@@ -417,58 +417,58 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>Pirate-core</name>
+    <name>pirate-core</name>
     <message>
         <source>Options:</source>
-        <translation>विकल्प:</translation>
+        <translation>à¤µà¤¿à¤à¤²à¥à¤ª:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>डेटा डायरेक्टरी बताएं </translation>
+        <translation>à¤¡à¥à¤à¤¾ à¤¡à¤¾à¤¯à¤°à¥à¤à¥à¤à¤°à¥ à¤¬à¤¤à¤¾à¤à¤ </translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>बैकग्राउंड में डेमॉन बन कर रन करे तथा कमांड्स स्वीकार करें </translation>
+        <translation>à¤¬à¥à¤à¤à¥à¤°à¤¾à¤à¤à¤¡ à¤®à¥à¤ à¤¡à¥à¤®à¥à¤¨ à¤¬à¤¨ à¤à¤° à¤°à¤¨ à¤à¤°à¥ à¤¤à¤¥à¤¾ à¤à¤®à¤¾à¤à¤¡à¥à¤¸ à¤¸à¥à¤µà¥à¤à¤¾à¤° à¤à¤°à¥à¤ </translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>ब्लॉक्स जाँचे जा रहा है...</translation>
+        <translation>à¤¬à¥à¤²à¥à¤à¥à¤¸ à¤à¤¾à¤à¤à¥ à¤à¤¾ à¤°à¤¹à¤¾ à¤¹à¥...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>वॉलेट जाँचा जा रहा है...</translation>
+        <translation>à¤µà¥à¤²à¥à¤ à¤à¤¾à¤à¤à¤¾ à¤à¤¾ à¤°à¤¹à¤¾ à¤¹à¥...</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>जानकारी</translation>
+        <translation>à¤à¤¾à¤¨à¤à¤¾à¤°à¥</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>चेतावनी</translation>
+        <translation>à¤à¥à¤¤à¤¾à¤µà¤¨à¥</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>पता पुस्तक आ रही है...</translation>
+        <translation>à¤ªà¤¤à¤¾ à¤ªà¥à¤¸à¥à¤¤à¤ à¤ à¤°à¤¹à¥ à¤¹à¥...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>ब्लॉक इंडेक्स आ रहा है...</translation>
+        <translation>à¤¬à¥à¤²à¥à¤ à¤à¤à¤¡à¥à¤à¥à¤¸ à¤ à¤°à¤¹à¤¾ à¤¹à¥...</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>वॉलेट आ रहा है...</translation>
+        <translation>à¤µà¥à¤²à¥à¤ à¤ à¤°à¤¹à¤¾ à¤¹à¥...</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>रि-स्केनी-इंग...</translation>
+        <translation>à¤°à¤¿-à¤¸à¥à¤à¥à¤¨à¥-à¤à¤à¤...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>लोड हो गया|</translation>
+        <translation>à¤²à¥à¤¡ à¤¹à¥ à¤à¤¯à¤¾|</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>भूल</translation>
+        <translation>à¤­à¥à¤²</translation>
     </message>
 </context>
 </TS>
