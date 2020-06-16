@@ -9,7 +9,7 @@ set -eu -o pipefail
 set -x
 cd "$(dirname "$(readlink -f "$0")")/.."
 
-cd depends/ && make HOST=$HOST V=1 -j$(nproc) && cd ../
+cd depends/ && make HOST=$HOST V=1 "$@" && cd ../
 
 ./autogen.sh
 
@@ -22,4 +22,5 @@ sed -i 's/-lboost_system-mt /-lboost_system-mt-s /' configure
 cd src/
 CC="${CC}" CXX="${CXX}" make "$@" V=1
 
-cp src/qt/komodo-qt.exe ./pirate-qt-win.exe
+mv qt/komodo-qt.exe qt/pirate-qt-win.exe
+cp qt/pirate-qt-win.exe ../pirate-qt-win.exe

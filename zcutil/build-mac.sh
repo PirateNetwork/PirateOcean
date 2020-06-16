@@ -1,6 +1,6 @@
 #!/bin/bash
-export CC=gcc-6
-export CXX=g++-6
+export CC=gcc-8
+export CXX=g++-8
 export LIBTOOL=libtool
 export AR=ar
 export RANLIB=ranlib
@@ -59,7 +59,7 @@ CPPFLAGS="-I$PREFIX/include -arch x86_64" LDFLAGS="-L$PREFIX/lib -arch x86_64 -W
 # -Werror should be removed from CPPFLAGS, othewise Qt static plugins determine on ./configure
 # step will cause an error and static Qt plugins will not be linked.
 
-CXXFLAGS='-arch x86_64 -I/usr/local/Cellar/gcc@6/6.5.0_2/include/c++/6.5.0 '"-I${PREFIX}/include"' -fwrapv -fno-strict-aliasing -g0 -O2 -Wl,-undefined -Wl,dynamic_lookup' \
+CXXFLAGS='-arch x86_64 -I/usr/local/Cellar/gcc\@8/8.3.0/include/c++/8.3.0/ '"-I${PREFIX}/include"' -fwrapv -fno-strict-aliasing -g0 -O2 -Wl,-undefined -Wl,dynamic_lookup' \
 ./configure --prefix="${PREFIX}" --disable-bip70 --with-gui=qt5 --enable-tests=no "$HARDENING_ARG" "$LCOV_ARG"
 
 # here we need a small hacks, bcz QT_QPA_PLATFORM_COCOA and QT_STATICPLUGIN still have
