@@ -68,6 +68,9 @@
 static fs::detail::utf8_codecvt_facet utf8;
 
 #if defined(Q_OS_MAC)
+#include <QProcess>
+
+void ForceActivation();
 extern double NSAppKitVersionNumber;
 #if !defined(NSAppKitVersionNumber10_8)
 #define NSAppKitVersionNumber10_8 1187
@@ -406,6 +409,23 @@ bool isObscured(QWidget *w)
         && checkPoint(QPoint(0, w->height() - 1), w)
         && checkPoint(QPoint(w->width() - 1, w->height() - 1), w)
         && checkPoint(QPoint(w->width() / 2, w->height() / 2), w));
+}
+
+void bringToFront(QWidget *w) {
+#ifdef Q_OS_MAC
+    ForceActivation();
+#endif
+
+    if (w) {
+        // activateWindow() (sometimes) helps with keyboard focus on Windows
+        if (w->isMinimized()) {
+            w->showNormal();
+        } else {
+            w->show();
+        }
+        w->activateWindow();
+        w->raise();
+    }
 }
 
 void openDebugLogfile()
@@ -779,91 +799,8 @@ bool SetStartOnSystemStartup(bool fAutoStart)
 #elif defined(Q_OS_MAC)
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-/*
-// based on: https://github.com/Mozketo/LaunchAtLoginController/blob/master/LaunchAtLoginController.m
 
-#include <CoreFoundation/CoreFoundation.h>
-#include <CoreServices/CoreServices.h>
-
-LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl);
-LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl)
-{
-    CFArrayRef listSnapshot = LSSharedFileListCopySnapshot(list, nullptr);
-    if (listSnapshot == nullptr) {
-        return nullptr;
-    }
-
-    // loop through the list of startup items and try to find the komodo app
-    for(int i = 0; i < CFArrayGetCount(listSnapshot); i++) {
-        LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
-        UInt32 resolutionFlags = kLSSharedFileListNoUserInteraction | kLSSharedFileListDoNotMountVolumes;
-        CFURLRef currentItemURL = nullptr;
-
-#if defined(MAC_OS_X_VERSION_MAX_ALLOWED) && MAC_OS_X_VERSION_MAX_ALLOWED >= 10100
-        if(&LSSharedFileListItemCopyResolvedURL)
-            currentItemURL = LSSharedFileListItemCopyResolvedURL(item, resolutionFlags, nullptr);
-#if defined(MAC_OS_X_VERSION_MIN_REQUIRED) && MAC_OS_X_VERSION_MIN_REQUIRED < 10100
-        else
-            LSSharedFileListItemResolve(item, resolutionFlags, &currentItemURL, nullptr);
-#endif
-#else
-        LSSharedFileListItemResolve(item, resolutionFlags, &currentItemURL, nullptr);
-#endif
-        if(currentItemURL) {
-            if (CFEqual(currentItemURL, findUrl)) {
-                // found
-                CFRelease(listSnapshot);
-                CFRelease(currentItemURL);
-                return item;
-            }
-            CFRelease(currentItemURL);
-        }
-    }
-
-    CFRelease(listSnapshot);
-    return nullptr;
-}
-
-bool GetStartOnSystemStartup()
-{
-    CFURLRef komodoAppUrl = CFBundleCopyBundleURL(CFBundleGetMainBundle());
-    if (komodoAppUrl == nullptr) {
-        return false;
-    }
-
-    LSSharedFileListRef loginItems = LSSharedFileListCreate(nullptr, kLSSharedFileListSessionLoginItems, nullptr);
-    LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, komodoAppUrl);
-
-    CFRelease(komodoAppUrl);
-    return !!foundItem; // return boolified object
-}
-
-bool SetStartOnSystemStartup(bool fAutoStart)
-{
-    CFURLRef komodoAppUrl = CFBundleCopyBundleURL(CFBundleGetMainBundle());
-    if (komodoAppUrl == nullptr) {
-        return false;
-    }
-
-    LSSharedFileListRef loginItems = LSSharedFileListCreate(nullptr, kLSSharedFileListSessionLoginItems, nullptr);
-    LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, komodoAppUrl);
-
-    if(fAutoStart && !foundItem) {
-        // add komodo app to startup item list
-        LSSharedFileListInsertItemURL(loginItems, kLSSharedFileListItemBeforeFirst, nullptr, nullptr, komodoAppUrl, nullptr, nullptr);
-    }
-    else if(!fAutoStart && foundItem) {
-        // remove item
-        LSSharedFileListItemRemove(loginItems, foundItem);
-    }
-
-    CFRelease(komodoAppUrl);
-    return true;
-}
-#pragma GCC diagnostic pop
-#else
-*/
-
+void ForceActivation();
 bool GetStartOnSystemStartup() { return false; }
 bool SetStartOnSystemStartup(bool fAutoStart) { return false; }
 
