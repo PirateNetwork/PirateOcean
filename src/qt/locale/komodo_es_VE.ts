@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Click derecho para editar la direcciÃ³n o etiqueta</translation>
+        <translation>Click derecho para editar la dirección o etiqueta</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Crear una nueva direcciÃ³n</translation>
+        <translation>Crear una nueva dirección</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -31,7 +31,7 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportar los datos en la pestaÃ±a actual a un archivo</translation>
+        <translation>Exportar los datos en la pestaña actual a un archivo</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -49,19 +49,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>DiÃ¡logo contraseÃ±a</translation>
+        <translation>Diálogo contraseña</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Ingresa frase de contraseÃ±a</translation>
+        <translation>Ingresa frase de contraseña</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nueva frase de contraseÃ±a</translation>
+        <translation>Nueva frase de contraseña</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Repetir nueva frase de contraseÃ±a</translation>
+        <translation>Repetir nueva frase de contraseña</translation>
     </message>
     </context>
 <context>
@@ -83,7 +83,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Mostrar visiÃ³n general de la billetera</translation>
+        <translation>Mostrar visión general de la billetera</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -99,7 +99,7 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Quitar aplicaciÃ³n</translation>
+        <translation>Quitar aplicación</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -107,7 +107,7 @@
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>RecepciÃ³n de direcciones</translation>
+        <translation>Recepción de direcciones</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -115,19 +115,19 @@
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Enviar monedas a una direcciÃ³n Komodo</translation>
+        <translation>Enviar monedas a una dirección Pirate</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Respaldar billetera en otra ubicaciÃ³n</translation>
+        <translation>Respaldar billetera en otra ubicación</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Cambiar frase secreta usada para la encriptaciÃ³n de la billetera</translation>
+        <translation>Cambiar frase secreta usada para la encriptación de la billetera</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Abre la consola de depuraciÃ³n y diÃ¡gnostico</translation>
+        <translation>Abre la consola de depuración y diágnostico</translation>
     </message>
     <message>
         <source>Pirate</source>
@@ -159,7 +159,7 @@
     </message>
     <message>
         <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>Firma mensajes con tus direcciones Pirate para probar que eres dueÃ±o de ellas</translation>
+        <translation>Firma mensajes con tus direcciones Pirate para probar que eres dueño de ellas</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
@@ -171,23 +171,23 @@
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;ConfiguraciÃ³n</translation>
+        <translation>&amp;Configuración</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>Opciones de lÃ­nea de comandos</translation>
+        <translation>Opciones de línea de comandos</translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 detrÃ¡s</translation>
+        <translation>%1 detrás</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>El Ãºltimo bloque recibido fue generado hace %1 hora(s).</translation>
+        <translation>El último bloque recibido fue generado hace %1 hora(s).</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transacciones despuÃ©s de esta no serÃ¡n visibles todavÃ­a.</translation>
+        <translation>Transacciones después de esta no serán visibles todavía.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -199,11 +199,11 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>InformaciÃ³n</translation>
+        <translation>Información</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Al dÃ­a</translation>
+        <translation>Al día</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -211,26 +211,26 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>TransacciÃ³n enviada</translation>
+        <translation>Transacción enviada</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>TransacciÃ³n entrante</translation>
+        <translation>Transacción entrante</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>La billetera estÃ¡ encriptada y desbloqueada recientemente</translation>
+        <translation>La billetera está encriptada y desbloqueada recientemente</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>La billetera estÃ¡ encriptada y bloqueada recientemente</translation>
+        <translation>La billetera está encriptada y bloqueada recientemente</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>SelecciÃ³n de moneda</translation>
+        <translation>Selección de moneda</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -246,7 +246,7 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>ComisiÃ³n:</translation>
+        <translation>Comisión:</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -262,7 +262,7 @@
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Modo de Ã¡rbol</translation>
+        <translation>Modo de árbol</translation>
     </message>
     <message>
         <source>List mode</source>
@@ -278,7 +278,7 @@
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Recibido con direcciÃ³n</translation>
+        <translation>Recibido con dirección</translation>
     </message>
     <message>
         <source>Date</source>
@@ -297,7 +297,7 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Editar direcciÃ³n</translation>
+        <translation>Editar dirección</translation>
     </message>
     <message>
         <source>&amp;Label</source>
@@ -309,18 +309,18 @@
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>La direcciÃ³n asociada con esta entrada de la lista de direcciones. Esta puede ser modificada solo para el envÃ­o de direcciones.</translation>
+        <translation>La dirección asociada con esta entrada de la lista de direcciones. Esta puede ser modificada solo para el envío de direcciones.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;DirecciÃ³n</translation>
+        <translation>&amp;Dirección</translation>
     </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Un nuevo directorio de datos serÃ¡ creado.</translation>
+        <translation>Un nuevo directorio de datos será creado.</translation>
     </message>
     <message>
         <source>name</source>
@@ -328,7 +328,7 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>El directorio ya existe. Agrega %1 si tiene la intenciÃ³n de crear un nuevo directorio aquÃ­.</translation>
+        <translation>El directorio ya existe. Agrega %1 si tiene la intención de crear un nuevo directorio aquí.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
@@ -336,14 +336,14 @@
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>No puede crear directorio de datos aquÃ­.</translation>
+        <translation>No puede crear directorio de datos aquí.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>versiÃ³n</translation>
+        <translation>versión</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -351,7 +351,7 @@
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Opciones de lÃ­nea de comandos</translation>
+        <translation>Opciones de línea de comandos</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -359,7 +359,7 @@
     </message>
     <message>
         <source>command-line options</source>
-        <translation>opciones de lÃ­nea de comandos</translation>
+        <translation>opciones de línea de comandos</translation>
     </message>
     </context>
 <context>
@@ -468,7 +468,7 @@
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation>InformaciÃ³n</translation>
+        <translation>Información</translation>
     </message>
     <message>
         <source>In:</source>
@@ -498,7 +498,7 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>&amp;Copiar DirecciÃ³n</translation>
+        <translation>&amp;Copiar Dirección</translation>
     </message>
     </context>
 <context>
@@ -520,7 +520,7 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>ComisiÃ³n:</translation>
+        <translation>Comisión:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -597,7 +597,7 @@
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Especifique su propia direcciÃ³n pÃºblica</translation>
+        <translation>Especifique su propia dirección pública</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -613,23 +613,23 @@
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Enlazar direcciÃ³n dada y siempre escuchar en ella. Usar [host]:port notaciÃ³n para IPv6</translation>
+        <translation>Enlazar dirección dada y siempre escuchar en ella. Usar [host]:port notación para IPv6</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Borrar todas las transacciones de la billetera y solo recuperar aquellas partes de la cadena de bloques a travÃ©s de -rescan en el inicio del sistema.</translation>
+        <translation>Borrar todas las transacciones de la billetera y solo recuperar aquellas partes de la cadena de bloques a través de -rescan en el inicio del sistema.</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Ejecutar comando cuando una transacciÃ³n de la billetera cambia (%s en cmd es reemplazado por TxID)</translation>
+        <translation>Ejecutar comando cuando una transacción de la billetera cambia (%s en cmd es reemplazado por TxID)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Fija el nÃºmero de verificaciÃ³n de hilos de script (%u a %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</translation>
+        <translation>Fija el número de verificación de hilos de script (%u a %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>InformaciÃ³n</translation>
+        <translation>Información</translation>
     </message>
     <message>
         <source>Warning</source>

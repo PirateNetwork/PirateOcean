@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Click derecho para editar la direcciÃ³n o etiqueta</translation>
+        <translation>Click derecho para editar la dirección o etiqueta</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Crear una nueva direcciÃ³n</translation>
+        <translation>Crear una nueva dirección</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copiar la direcciÃ³n actualmente seleccionada al sistema de portapapeles</translation>
+        <translation>Copiar la dirección actualmente seleccionada al sistema de portapapeles</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Borrar la direcciÃ³n actualmente seleccionada de la lista</translation>
+        <translation>Borrar la dirección actualmente seleccionada de la lista</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -45,19 +45,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>DiÃ¡logo de contraseÃ±a</translation>
+        <translation>Diálogo de contraseña</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Poner contraseÃ±a</translation>
+        <translation>Poner contraseña</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nueva contraseÃ±a</translation>
+        <translation>Nueva contraseña</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Repetir nueva contraseÃ±a</translation>
+        <translation>Repetir nueva contraseña</translation>
     </message>
     </context>
 <context>
@@ -87,7 +87,7 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Salir de la aplicaciÃ³n</translation>
+        <translation>Salir de la aplicación</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Mostrar informaciÃ³n sobre Qt</translation>
+        <translation>Mostrar información sobre Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -111,7 +111,7 @@
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Cambiar contraseÃ±a...</translation>
+        <translation>&amp;Cambiar contraseña...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
@@ -127,11 +127,11 @@
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Enviando monedas a una direcciÃ³n de Komodo</translation>
+        <translation>Enviando monedas a una dirección de Pirate</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Cambiar la contraseÃ±a usando la encriptaciÃ³n de la billetera</translation>
+        <translation>Cambiar la contraseña usando la encriptación de la billetera</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -139,7 +139,7 @@
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Abrir consola de diagnÃ³stico y desarrollo</translation>
+        <translation>Abrir consola de diagnóstico y desarrollo</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -309,7 +309,7 @@
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>No se puede escribir la direcciÃ³n por defecto</translation>
+        <translation>No se puede escribir la dirección por defecto</translation>
     </message>
     <message>
         <source>Rescanning...</source>

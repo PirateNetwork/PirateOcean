@@ -1,0 +1,172 @@
+name: PirateOcean Auto-release
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+
+  linux-build:
+    name: Linux Build
+    runs-on: ubuntu-16.04
+    steps:
+
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+
+      - name: Shortify commit sha
+        shell: bash
+        run: echo "##[set-output name=sha_short;]$(echo ${GITHUB_SHA::7})"
+        id: shortify_commit
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install deps (Linux)
+        run: |
+          sudo apt-get update  # prevents repo404 errors on apt-remove below
+          sudo apt-get remove php5.6-fpm php7.0-fpm php7.1-fpm php7.2-fpm php7.3-fpm php7.3-common php7.4-fpm msodbcsql17 mysql-server*
+          sudo apt-get update
+          sudo ACCEPT_EULA=Y apt-get upgrade -y
+          sudo apt-get install -q build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl -y
+      - name: Build (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          ./zcutil/build.sh -j$(nproc)
+          mv src/qt/komodo-qt src/qt/pirate-qt-linux
+          zip --junk-paths pirate-qt-linux src/qt/pirate-qt-linux
+      - name: Upload pirate-qt-linux.zip as artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: pirate-qt-linux
+          path: ./pirate-qt-linux.zip
+
+  Mac-build:
+    name: Mac Build
+    runs-on: macos-10.15
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install deps (macOS)
+        run: |
+          brew update
+          brew upgrade
+          brew tap discoteq/discoteq; brew install flock
+          brew install autoconf autogen automake
+          brew install gcc@8
+          brew install binutils
+          brew install wget
+          brew install coreutils
+
+      - name: Build (macOS)
+        run: |
+          ./zcutil/build-mac.sh -j$(nproc)
+          mv src/qt/komodo-qt src/qt/pirate-qt-mac
+          zip --junk-paths pirate-qt-mac src/qt/pirate-qt-mac
+      - name: Upload pirate-qt-mac.zip as artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: pirate-qt-mac
+          path: ./pirate-qt-mac.zip
+
+  windows-build:
+    name: Windows Build (mingw)
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install deps (Windows)
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          sudo apt-get update  # prevents repo404 errors on apt-remove below
+          sudo apt-get remove php5.6-fpm php7.0-fpm php7.1-fpm php7.2-fpm php7.3-fpm php7.3-common php7.4-fpm
+          sudo apt-get update
+          sudo apt-get upgrade -y
+          sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool libncurses-dev unzip git python zlib1g-dev wget bsdmainutils automake libboost-all-dev libssl-dev libprotobuf-dev protobuf-compiler libqrencode-dev libdb++-dev ntp ntpdate nano software-properties-common curl libevent-dev libcurl4-gnutls-dev cmake clang libsodium-dev -y
+          sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl cmake mingw-w64
+          curl https://sh.rustup.rs -sSf | sh -s -- -y
+          source $HOME/.cargo/env
+          rustup target add x86_64-pc-windows-gnu
+          sudo update-alternatives --set x86_64-w64-mingw32-gcc /usr/bin/x86_64-w64-mingw32-gcc-posix
+          sudo update-alternatives --set x86_64-w64-mingw32-g++ /usr/bin/x86_64-w64-mingw32-g++-posix
+      - name: Build (Windows)
+        run: |
+          ./zcutil/build-win.sh -j$(nproc)
+          zip --junk-paths pirate-qt-win src/qt/pirate-qt-win.exe
+      - name: Upload pirate-qt-win.zip as artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: pirate-qt-win
+          path: ./pirate-qt-win.zip      
+
+  publish-release:
+      name: Publishing CD releases
+      runs-on: ubuntu-latest
+      needs: [linux-build, Mac-build, windows-build]
+      steps:
+        - name: Download pirate-qt-linux.zip
+          uses: actions/download-artifact@v1
+          with:
+            name: pirate-qt-linux  
+        - name: Download pirate-qt-mac.zip
+          uses: actions/download-artifact@v1
+          with:
+            name: pirate-qt-mac
+        - name: Download pirate-qt-win.zip
+          uses: actions/download-artifact@v1
+          with:
+            name: pirate-qt-win
+
+        - name: Extract branch name
+          shell: bash
+          run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+          id: extract_branch
+
+        - name: Shortify commit sha
+          shell: bash
+          run: echo "##[set-output name=sha_short;]$(echo ${GITHUB_SHA::7})"
+          id: shortify_commit
+
+        - name: Create Release
+          id: create_release
+          uses: actions/create-release@latest
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            tag_name: release_${{ steps.shortify_commit.outputs.sha_short }}
+            release_name: Master Release at ${{ steps.shortify_commit.outputs.sha_short }}
+            draft: false
+            prerelease: false
+        - name: Upload Linux Release Asset
+          id: upload-linux-release-asset 
+          uses: actions/upload-release-asset@latest
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            upload_url: ${{ steps.create_release.outputs.upload_url }} 
+            asset_path: pirate-qt-linux/pirate-qt-linux.zip
+            asset_name: pirate${{ steps.shortify_commit.outputs.sha_short }}_linux.zip
+            asset_content_type: application/zip
+        - name: Upload Mac Release Asset
+          id: upload-mac-release-asset 
+          uses: actions/upload-release-asset@latest
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            upload_url: ${{ steps.create_release.outputs.upload_url }} 
+            asset_path: pirate-qt-mac/pirate-qt-mac.zip
+            asset_name: pirate${{ steps.shortify_commit.outputs.sha_short }}_mac.zip
+            asset_content_type: application/zip
+        - name: Upload Windows Release Asset
+          id: upload-windows-release-asset 
+          uses: actions/upload-release-asset@latest
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            upload_url: ${{ steps.create_release.outputs.upload_url }} 
+            asset_path: pirate-qt-win/pirate-qt-win.zip
+            asset_name: pirate${{ steps.shortify_commit.outputs.sha_short }}_win.zip
+            asset_content_type: application/zip

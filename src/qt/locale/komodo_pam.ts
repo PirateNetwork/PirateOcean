@@ -753,7 +753,7 @@
     </message>
     <message>
         <source>Pirate Core</source>
-        <translation>Kapilubluban ning Komodo</translation>
+        <translation>Kapilubluban ning Pirate</translation>
     </message>
     <message>
         <source>Block creation options:</source>

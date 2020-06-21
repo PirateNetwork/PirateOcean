@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Adresi veya etiketi dÃ¼zenlemek iÃ§in saÄ tÄ±klayÄ±n</translation>
+        <translation>Adresi veya etiketi düzenlemek için sağ tıklayın</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Yeni adres oluÅtur</translation>
+        <translation>Yeni adres oluştur</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>SeÃ§ili adresi panoya kopyala</translation>
+        <translation>Seçili adresi panoya kopyala</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,15 +27,15 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>SeÃ§ili adresi listeden sil</translation>
+        <translation>Seçili adresi listeden sil</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>SeÃ§ili sekmedeki veriyi dosya olarak dÄ±Åa aktar</translation>
+        <translation>Seçili sekmedeki veriyi dosya olarak dışa aktar</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;DÄ±Åa Aktar</translation>
+        <translation>&amp;Dışa Aktar</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -55,7 +55,7 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>AlÄ±Å adresleri</translation>
+        <translation>Alış adresleri</translation>
     </message>
     </context>
 <context>

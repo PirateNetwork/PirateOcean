@@ -9,17 +9,22 @@
 #include "timedata.h"
 #include "main.h"
 #include "wallet/wallet.h"
-#include <stdio.h>
-#include <pthread.h>
 #include "key_io.h"
 
 #include <stdint.h>
+#include <stdio.h>
+#include <pthread.h>
 #include <iostream>
 #include <utf8.h>
 #include "rpc/server.h"
 #include "wallet/rpcwallet.cpp"
 #include <univalue.h>
 #include "util.h"
+/**
+ * @todo Add z bits
+ * @body Need to use key(s) to view tx and populate data.
+ */
+
 /* Return positive answer if transaction should be shown in list.
  */
 bool TransactionRecord::showTransaction(const CWalletTx &wtx)
@@ -177,7 +182,7 @@ extern CWallet* pwalletMain;
 
         if (fAllFromMe && fAllToMe)
         {
-           // Payment to self
+            // Payment to self
             CAmount nChange = wtx.GetChange();
 
             parts.append(TransactionRecord(hash, nTime, TransactionRecord::SendToSelf, "",

@@ -11,31 +11,31 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>KopÄt iezÄ«mÄto adresi uz starpliktuvi</translation>
+        <translation>Kopēt iezīmēto adresi uz starpliktuvi</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;KopÄt</translation>
+        <translation>&amp;Kopēt</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;AizvÄrt</translation>
+        <translation>&amp;Aizvērt</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>IzdzÄst iezÄ«mÄtÄs adreses no saraksta</translation>
+        <translation>Izdzēst iezīmētās adreses no saraksta</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Datus no tekoÅ¡Ä ieliktÅa eksportÄt uz failu</translation>
+        <translation>Datus no tekošā ieliktņa eksportēt uz failu</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;EksportÄt</translation>
+        <translation>&amp;Eksportēt</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;DzÄst</translation>
+        <translation>&amp;Dzēst</translation>
     </message>
     </context>
 <context>
@@ -57,7 +57,7 @@
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>JaunÄ parole vÄlreiz</translation>
+        <translation>Jaunā parole vēlreiz</translation>
     </message>
     </context>
 <context>
@@ -67,15 +67,15 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>ParakstÄ«t &amp;ziÅojumu...</translation>
+        <translation>Parakstīt &amp;ziņojumu...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>SinhronizÄcija ar tÄ«klu...</translation>
+        <translation>Sinhronizācija ar tīklu...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;PÄrskats</translation>
+        <translation>&amp;Pārskats</translation>
     </message>
     <message>
         <source>Node</source>
@@ -83,7 +83,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>RÄdÄ«t vispÄrÄju maciÅa pÄrskatu</translation>
+        <translation>Rādīt vispārēju maciņa pārskatu</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -91,7 +91,7 @@
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>SkatÄ«t transakciju vÄsturi</translation>
+        <translation>Skatīt transakciju vēsturi</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -99,7 +99,7 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>AizvÄrt programmu</translation>
+        <translation>Aizvērt programmu</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -107,63 +107,63 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>ParÄdÄ«t informÄciju par Qt</translation>
+        <translation>Parādīt informāciju par Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;IespÄjas...</translation>
+        <translation>&amp;Iespējas...</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Å ifrÄt &amp;maciÅu...</translation>
+        <translation>Šifrēt &amp;maciņu...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;MaciÅa Rezerves Kopija...</translation>
+        <translation>&amp;Maciņa Rezerves Kopija...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>MainÄ«t &amp;Paroli...</translation>
+        <translation>Mainīt &amp;Paroli...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;SÅ«tÄ«Å¡anas adreses...</translation>
+        <translation>&amp;Sūtīšanas adreses...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>SaÅemÅ¡anas &amp;adreses...</translation>
+        <translation>Saņemšanas &amp;adreses...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>AtvÄrt &amp;URI...</translation>
+        <translation>Atvērt &amp;URI...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Bloku reindeksÄÅ¡ana no diska...</translation>
+        <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>NosÅ«tÄ«t bitkoinus uz Pirate adresi</translation>
+        <translation>Nosūtīt bitkoinus uz Pirate adresi</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Izveidot maciÅa rezerves kopiju citur</translation>
+        <translation>Izveidot maciņa rezerves kopiju citur</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>MainÄ«t maciÅa Å¡ifrÄÅ¡anas paroli</translation>
+        <translation>Mainīt maciņa šifrēšanas paroli</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;AtkÄ¼Å«doÅ¡anas logs</translation>
+        <translation>&amp;Atkļūdošanas logs</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>AtvÄrt atkÄ¼Å«doÅ¡anas un diagnostikas konsoli</translation>
+        <translation>Atvērt atkļūdošanas un diagnostikas konsoli</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;PÄrbaudÄ«t ziÅojumu...</translation>
+        <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
         <source>Pirate</source>
@@ -171,35 +171,35 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>MaciÅÅ¡</translation>
+        <translation>Maciņš</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;SÅ«tÄ«t</translation>
+        <translation>&amp;Sūtīt</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;SaÅemt</translation>
+        <translation>&amp;Saņemt</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;RÄdÄ«t / PaslÄpt</translation>
+        <translation>&amp;Rādīt / Paslēpt</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>ParÄdÄ«t vai paslÄpt galveno Logu</translation>
+        <translation>Parādīt vai paslēpt galveno Logu</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Å ifrÄt privÄtÄs atslÄgas kuras pieder tavam maciÅam</translation>
+        <translation>Šifrēt privātās atslēgas kuras pieder tavam maciņam</translation>
     </message>
     <message>
         <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>ParakstÄ«t ziÅojumus ar savÄm Pirate adresÄm lai pierÄdÄ«tu ka tÄs pieder tev</translation>
+        <translation>Parakstīt ziņojumus ar savām Pirate adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>PÄrbaudÄ«t ziÅojumus lai pÄrliecinÄtos, ka tie tika parakstÄ«ti ar norÄdÄ«tajÄm Pirate adresÄm</translation>
+        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Pirate adresēm</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -207,71 +207,71 @@
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;UzstÄdÄ«jumi</translation>
+        <translation>&amp;Uzstādījumi</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;PalÄ«dzÄ«ba</translation>
+        <translation>&amp;Palīdzība</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>CiÄ¼Åu rÄ«kjosla</translation>
+        <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>PieprasÄ«t maksÄjumus (izveido QR kodu un Pirate: URIs)</translation>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un Pirate: URIs)</translation>
     </message>
     <message>
         <source>Open a Pirate: URI or payment request</source>
-        <translation>AtvÄrt Pirate URI vai maksÄjuma pieprasÄ«jumu</translation>
+        <translation>Atvērt Pirate URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Komandrindas iespÄjas</translation>
+        <translation>&amp;Komandrindas iespējas</translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 aizmugurÄ</translation>
+        <translation>%1 aizmugurē</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transakcijas pÄc Å¡Ä« vel nebÅ«s redzamas</translation>
+        <translation>Transakcijas pēc šī vel nebūs redzamas</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>KÄ¼Å«da</translation>
+        <translation>Kļūda</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>BrÄ«dinÄjums</translation>
+        <translation>Brīdinājums</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>InformÄcija</translation>
+        <translation>Informācija</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>SinhronizÄts</translation>
+        <translation>Sinhronizēts</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>SinhronizÄjos...</translation>
+        <translation>Sinhronizējos...</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Transakcija nosÅ«tÄ«ta</translation>
+        <translation>Transakcija nosūtīta</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>IenÄkoÅ¡a transakcija</translation>
+        <translation>Ienākoša transakcija</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>MaciÅÅ¡ ir &lt;b&gt;Å¡ifrÄts&lt;/b&gt; un paÅ¡laik &lt;b&gt;atslÄgts&lt;/b&gt;</translation>
+        <translation>Maciņš ir &lt;b&gt;šifrēts&lt;/b&gt; un pašlaik &lt;b&gt;atslēgts&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>MaciÅÅ¡ ir &lt;b&gt;Å¡ifrÄts&lt;/b&gt; un paÅ¡laik &lt;b&gt;slÄgts&lt;/b&gt;</translation>
+        <translation>Maciņš ir &lt;b&gt;šifrēts&lt;/b&gt; un pašlaik &lt;b&gt;slēgts&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -294,7 +294,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>PÄc Maksas:</translation>
+        <translation>Pēc Maksas:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -302,15 +302,15 @@
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>iezÄ«mÄt visus</translation>
+        <translation>iezīmēt visus</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Koka reÅ¾Ä«ms</translation>
+        <translation>Koka režīms</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Saraksta reÅ¾Ä«ms</translation>
+        <translation>Saraksta režīms</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -322,18 +322,18 @@
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>ApstiprinÄjumi</translation>
+        <translation>Apstiprinājumi</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>ApstiprinÄts</translation>
+        <translation>Apstiprināts</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>MainÄ«t adrese</translation>
+        <translation>Mainīt adrese</translation>
     </message>
     <message>
         <source>&amp;Label</source>
@@ -352,15 +352,15 @@
     </message>
     <message>
         <source>name</source>
-        <translation>vÄrds</translation>
+        <translation>vārds</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Å Äds ceÄ¼Å¡ jau pastÄv un tÄ nav mape.</translation>
+        <translation>Šāds ceļš jau pastāv un tā nav mape.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Å eit nevar izveidot datu mapi.</translation>
+        <translation>Šeit nevar izveidot datu mapi.</translation>
     </message>
 </context>
 <context>
@@ -375,7 +375,7 @@
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Komandrindas iespÄjas</translation>
+        <translation>Komandrindas iespējas</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -383,7 +383,7 @@
     </message>
     <message>
         <source>command-line options</source>
-        <translation>komandrindas izvÄles</translation>
+        <translation>komandrindas izvēles</translation>
     </message>
     </context>
 <context>
@@ -394,15 +394,15 @@
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Izmantot noklusÄto datu mapi</translation>
+        <translation>Izmantot noklusēto datu mapi</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Izmantot pielÄgotu datu mapi:</translation>
+        <translation>Izmantot pielāgotu datu mapi:</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>KÄ¼Å«da</translation>
+        <translation>Kļūda</translation>
     </message>
     </context>
 <context>
@@ -413,18 +413,18 @@
     </message>
     <message>
         <source>Last block time</source>
-        <translation>PÄdÄjÄ bloka laiks</translation>
+        <translation>Pēdējā bloka laiks</translation>
     </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>AtvÄrt URI</translation>
+        <translation>Atvērt URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>AtvÄrt maksÄjuma pieprasÄ«jumu no URI vai datnes</translation>
+        <translation>Atvērt maksājuma pieprasījumu no URI vai datnes</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -432,14 +432,14 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>IzvÄlies maksÄjuma pieprasÄ«juma datni</translation>
+        <translation>Izvēlies maksājuma pieprasījuma datni</translation>
     </message>
     </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>IespÄjas</translation>
+        <translation>Iespējas</translation>
     </message>
     <message>
         <source>&amp;Main</source>
@@ -447,7 +447,7 @@
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>&amp;DatubÄzes keÅ¡atmiÅas izmÄrs</translation>
+        <translation>&amp;Datubāzes kešatmiņas izmērs</translation>
     </message>
     <message>
         <source>MB</source>
@@ -455,11 +455,11 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Skriptu &amp;pÄrbaudes pavedienu skaits</translation>
+        <translation>Skriptu &amp;pārbaudes pavedienu skaits</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>AtÄ¼aut ienÄkoÅ¡os savienojumus</translation>
+        <translation>Atļaut ienākošos savienojumus</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -467,31 +467,31 @@
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>MinimizÄt nevis aizvÄrt aplikÄciju, kad logs tiek aizvÄrts. Kad Å¡Ä« iespÄja ir ieslÄgta, aplikÄcija tiks aizvÄrta, izvÄloties AizvÄrt izvÄlnÄ.</translation>
+        <translation>Minimizēt nevis aizvērt aplikāciju, kad logs tiek aizvērts. Kad šī iespēja ir ieslēgta, aplikācija tiks aizvērta, izvēloties Aizvērt izvēlnē.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>TreÅ¡o personu transakciju URLs</translation>
+        <translation>Trešo personu transakciju URLs</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>AktÄ«vÄs komandrindas opcijas, kuras pÄrspÄko Å¡os iestatÄ«jumus:</translation>
+        <translation>Aktīvās komandrindas opcijas, kuras pārspēko šos iestatījumus:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>AtiestatÄ«t visus klienta iestatÄ«jumus uz noklusÄjumu.</translation>
+        <translation>Atiestatīt visus klienta iestatījumus uz noklusējumu.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;AtiestatÄ«t IestatÄ«jumus.</translation>
+        <translation>&amp;Atiestatīt Iestatījumus.</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;TÄ«kls</translation>
+        <translation>&amp;Tīkls</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>&amp;MaciÅÅ¡</translation>
+        <translation>&amp;Maciņš</translation>
     </message>
     <message>
         <source>Expert</source>
@@ -499,19 +499,19 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>IeslÄgt Pirate &amp;kontroles funkcijas</translation>
+        <translation>Ieslēgt Pirate &amp;kontroles funkcijas</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;TÄrÄt neapstiprinÄtu atlikumu</translation>
+        <translation>&amp;Tērēt neapstiprinātu atlikumu</translation>
     </message>
     <message>
         <source>Automatically open the Pirate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rÅ«tera automÄtiski atvÄrt Pirate klienta portu. Tas strÄdÄ tikai tad, ja rÅ«teris atbalsta UPnP un tas ir ieslÄgts.</translation>
+        <translation>Uz rūtera automātiski atvērt Pirate klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>KartÄt portu, izmantojot &amp;UPnP</translation>
+        <translation>Kartēt portu, izmantojot &amp;UPnP</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -531,15 +531,15 @@
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>PÄc loga minimizÄcijas rÄdÄ«t tikai ikonu sistÄmas teknÄ.</translation>
+        <translation>Pēc loga minimizācijas rādīt tikai ikonu sistēmas teknē.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;MinimizÄt uz sistÄmas tekni, nevis rÄ«kjoslu</translation>
+        <translation>&amp;Minimizēt uz sistēmas tekni, nevis rīkjoslu</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimizÄt aizverot</translation>
+        <translation>M&amp;inimizēt aizverot</translation>
     </message>
     <message>
         <source>&amp;Display</source>
@@ -547,19 +547,19 @@
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>LietotÄja interfeiss un &amp;valoda:</translation>
+        <translation>Lietotāja interfeiss un &amp;valoda:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;VienÄ«bas, kurÄs attÄlot daudzumus:</translation>
+        <translation>&amp;Vienības, kurās attēlot daudzumus:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>IzvÄlÄties dalÄ«juma vienÄ«bu pÄc noklusÄÅ¡anas, ko izmantot interfeisÄ un nosÅ«tot bitkoinus.</translation>
+        <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot bitkoinus.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Vai rÄdÄ«t Pirate kontroles funkcijas vai nÄ.</translation>
+        <translation>Vai rādīt Pirate kontroles funkcijas vai nē.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -571,7 +571,7 @@
     </message>
     <message>
         <source>default</source>
-        <translation>pÄc noklusÄÅ¡anas</translation>
+        <translation>pēc noklusēšanas</translation>
     </message>
     <message>
         <source>none</source>
@@ -579,11 +579,11 @@
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>ApstiprinÄt iestatÄ«jumu atiestatÄ«Å¡anu</translation>
+        <translation>Apstiprināt iestatījumu atiestatīšanu</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>NorÄdÄ«tÄ starpniekservera adrese nav derÄ«ga.</translation>
+        <translation>Norādītā starpniekservera adrese nav derīga.</translation>
     </message>
 </context>
 <context>
@@ -594,7 +594,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pirate network after a connection is established, but this process has not completed yet.</source>
-        <translation>AttÄlotÄ informÄcija var bÅ«t novecojusi. JÅ«su maciÅÅ¡ pÄc savienojuma izveides automÄtiski sinhronizÄjas ar Pirate tÄ«klu, taÄu Å¡is process vÄl nav beidzies.</translation>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Pirate tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <source>Transparent:</source>
@@ -602,19 +602,19 @@
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Tava paÅ¡reizÄjÄ tÄrÄjamÄ bilance</translation>
+        <translation>Tava pašreizējā tērējamā bilance</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>NeizÅ¡Ä·irts:</translation>
+        <translation>Neizšķirts:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>KopÄjÄ apstiprinÄmo transakciju vÄrtÄ«ba, vÄl nav ieskaitÄ«ta tÄrÄjamajÄ bilancÄ</translation>
+        <translation>Kopējā apstiprināmo transakciju vērtība, vēl nav ieskaitīta tērējamajā bilancē</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>NenobrieduÅ¡u:</translation>
+        <translation>Nenobriedušu:</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -622,7 +622,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>JÅ«su kopÄjÄ tekoÅ¡Ä bilance</translation>
+        <translation>Jūsu kopējā tekošā bilance</translation>
     </message>
     </context>
 <context>
@@ -672,27 +672,27 @@
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;InformÄcija</translation>
+        <translation>&amp;Informācija</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation>AtkÄ¼Å«doÅ¡anas logs</translation>
+        <translation>Atkļūdošanas logs</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>VispÄrÄjs</translation>
+        <translation>Vispārējs</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>SÄkuma laiks</translation>
+        <translation>Sākuma laiks</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>TÄ«kls</translation>
+        <translation>Tīkls</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>VÄrds</translation>
+        <translation>Vārds</translation>
     </message>
     <message>
         <source>Number of connections</source>
@@ -704,15 +704,15 @@
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>PaÅ¡reizÄjais bloku skaits</translation>
+        <translation>Pašreizējais bloku skaits</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>PÄdÄjÄ bloka laiks</translation>
+        <translation>Pēdējā bloka laiks</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;AtvÄrt</translation>
+        <translation>&amp;Atvērt</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -720,11 +720,11 @@
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;TÄ«kla Satiksme</translation>
+        <translation>&amp;Tīkla Satiksme</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;NotÄ«rÄ«t</translation>
+        <translation>&amp;Notīrīt</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -740,19 +740,19 @@
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>AtkÄ¼Å«doÅ¡anas Å¾urnÄla datne</translation>
+        <translation>Atkļūdošanas žurnāla datne</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>NotÄ«rÄ«t konsoli</translation>
+        <translation>Notīrīt konsoli</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Izmantojiet bultiÅas uz augÅ¡u un leju, lai pÄrvietotos pa vÄsturi, un &lt;b&gt;Ctrl-L&lt;/b&gt; ekrÄna notÄ«rÄ«Å¡anai.</translation>
+        <translation>Izmantojiet bultiņas uz augšu un leju, lai pārvietotos pa vēsturi, un &lt;b&gt;Ctrl-L&lt;/b&gt; ekrāna notīrīšanai.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Ierakstiet &lt;b&gt;help&lt;/b&gt; lai iegÅ«tu pieejamo komandu sarakstu.</translation>
+        <translation>Ierakstiet &lt;b&gt;help&lt;/b&gt; lai iegūtu pieejamo komandu sarakstu.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -783,43 +783,43 @@
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;ZiÅojums:</translation>
+        <translation>&amp;Ziņojums:</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>&amp;AtkÄrtoti izmantot esoÅ¡o saÅemÅ¡anas adresi (nav ieteicams)</translation>
+        <translation>&amp;Atkārtoti izmantot esošo saņemšanas adresi (nav ieteicams)</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>NotÄ«rÄ«t visus laukus formÄ.</translation>
+        <translation>Notīrīt visus laukus formā.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>NotÄ«rÄ«t</translation>
+        <translation>Notīrīt</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>PieprasÄ«to maksÄjumu vÄsture</translation>
+        <translation>Pieprasīto maksājumu vēsture</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;PieprasÄ«t maksÄjumu</translation>
+        <translation>&amp;Pieprasīt maksājumu</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>ParÄdÄ«t atlasÄ«tos pieprasÄ«jumus (tas pats, kas dubultklikÅ¡Ä·is uz ieraksta)</translation>
+        <translation>Parādīt atlasītos pieprasījumus (tas pats, kas dubultklikšķis uz ieraksta)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>RÄdÄ«t</translation>
+        <translation>Rādīt</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>NoÅemt atlasÄ«tos ierakstus no saraksta.</translation>
+        <translation>Noņemt atlasītos ierakstus no saraksta.</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>NoÅemt</translation>
+        <translation>Noņemt</translation>
     </message>
     </context>
 <context>
@@ -830,15 +830,15 @@
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>KopÄt &amp;URI</translation>
+        <translation>Kopēt &amp;URI</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>KopÄt &amp;Adresi</translation>
+        <translation>Kopēt &amp;Adresi</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;SaglabÄt AttÄlu...</translation>
+        <translation>&amp;Saglabāt Attēlu...</translation>
     </message>
     </context>
 <context>
@@ -848,11 +848,11 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>SÅ«tÄ«t Bitkoinus</translation>
+        <translation>Sūtīt Bitkoinus</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Komodo Kontroles Funkcijas</translation>
+        <translation>Pirate Kontroles Funkcijas</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -860,11 +860,11 @@
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>automÄtiski atlasÄ«ts</translation>
+        <translation>automātiski atlasīts</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Nepietiekami lÄ«dzekÄ¼i!</translation>
+        <translation>Nepietiekami līdzekļi!</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -884,7 +884,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>PÄc Maksas:</translation>
+        <translation>Pēc Maksas:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -892,7 +892,7 @@
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>PielÄgota atlikuma adrese</translation>
+        <translation>Pielāgota atlikuma adrese</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -900,19 +900,19 @@
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>SÅ«tÄ«t vairÄkiem saÅÄmÄjiem uzreiz</translation>
+        <translation>Sūtīt vairākiem saņēmējiem uzreiz</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;Pievienot SaÅÄmÄju</translation>
+        <translation>&amp;Pievienot Saņēmēju</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>NotÄ«rÄ«t visus laukus formÄ.</translation>
+        <translation>Notīrīt visus laukus formā.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;NotÄ«rÄ«t visu</translation>
+        <translation>&amp;Notīrīt visu</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -920,11 +920,11 @@
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>ApstiprinÄt nosÅ«tÄ«Å¡anu</translation>
+        <translation>Apstiprināt nosūtīšanu</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;SÅ«tÄ«t</translation>
+        <translation>&amp;Sūtīt</translation>
     </message>
     </context>
 <context>
@@ -935,7 +935,7 @@
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>&amp;SaÅÄmÄjs:</translation>
+        <translation>&amp;Saņēmējs:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -943,11 +943,11 @@
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>IzvÄlies iepriekÅ¡ izmantoto adresi</translation>
+        <translation>Izvēlies iepriekš izmantoto adresi</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Å is ir parasts maksÄjums.</translation>
+        <translation>Šis ir parasts maksājums.</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -955,7 +955,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>ielÄ«mÄt adresi no starpliktuves</translation>
+        <translation>ielīmēt adresi no starpliktuves</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -963,15 +963,15 @@
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>NoÅem Å¡o ierakstu</translation>
+        <translation>Noņem šo ierakstu</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>ZiÅojums:</translation>
+        <translation>Ziņojums:</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>MaksÄt:</translation>
+        <translation>Maksāt:</translation>
     </message>
     <message>
         <source>Memo:</source>
@@ -985,22 +985,22 @@
     <name>ShutdownWindow</name>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>NeizslÄdziet datoru kamÄr Å¡is logs nepazÅ«d.</translation>
+        <translation>Neizslēdziet datoru kamēr šis logs nepazūd.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Paraksti - ParakstÄ«t / PabaudÄ«t ZiÅojumu</translation>
+        <translation>Paraksti - Parakstīt / Pabaudīt Ziņojumu</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>ParakstÄ«t &amp;ZiÅojumu</translation>
+        <translation>Parakstīt &amp;Ziņojumu</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>IzvÄlies iepriekÅ¡ izmantoto adresi</translation>
+        <translation>Izvēlies iepriekš izmantoto adresi</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1008,7 +1008,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>ielÄ«mÄt adresi no starpliktuves</translation>
+        <translation>ielīmēt adresi no starpliktuves</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1016,7 +1016,7 @@
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Å eit ievadi ziÅojumu kuru vÄlies parakstÄ«t</translation>
+        <translation>Šeit ievadi ziņojumu kuru vēlies parakstīt</translation>
     </message>
     <message>
         <source>Signature</source>
@@ -1024,35 +1024,35 @@
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>KopÄt parakstu uz sistÄmas starpliktuvi</translation>
+        <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Pirate address</source>
-        <translation>ParakstÄ«t ziÅojumu lai pierÄdÄ«tu, ka esi Å¡Ä«s Pirate adreses Ä«paÅ¡nieks.</translation>
+        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Pirate adreses īpašnieks.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>ParakstÄ«t &amp;ZiÅojumu</translation>
+        <translation>Parakstīt &amp;Ziņojumu</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>AtiestatÄ«t visus laukus</translation>
+        <translation>Atiestatīt visus laukus</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;NotÄ«rÄ«t visu</translation>
+        <translation>&amp;Notīrīt visu</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;PÄrbaudÄ«t ZiÅojumu</translation>
+        <translation>&amp;Pārbaudīt Ziņojumu</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>&amp;PÄrbaudÄ«t ZiÅojumu</translation>
+        <translation>&amp;Pārbaudīt Ziņojumu</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>AtiestatÄ«t visus laukus</translation>
+        <translation>Atiestatīt visus laukus</translation>
     </message>
     </context>
 <context>
@@ -1076,7 +1076,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Å is panelis parÄda transakcijas detaÄ¼as</translation>
+        <translation>Šis panelis parāda transakcijas detaļas</translation>
     </message>
     </context>
 <context>
@@ -1101,27 +1101,27 @@
     <name>pirate-core</name>
     <message>
         <source>Options:</source>
-        <translation>IespÄjas:</translation>
+        <translation>Iespējas:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>NorÄdiet datu direktoriju</translation>
+        <translation>Norādiet datu direktoriju</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Pievienoties mezglam, lai iegÅ«tu citu mezglu adreses, un atvienoties</translation>
+        <translation>Pievienoties mezglam, lai iegūtu citu mezglu adreses, un atvienoties</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>NorÄdiet savu publisko adresi</translation>
+        <translation>Norādiet savu publisko adresi</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>PieÅemt komandrindas un JSON-RPC komandas</translation>
+        <translation>Pieņemt komandrindas un JSON-RPC komandas</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>DarbinÄt fonÄ kÄ servisu un pieÅemt komandas</translation>
+        <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
     </message>
     <message>
         <source>Pirate Core</source>
@@ -1129,75 +1129,75 @@
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; var bÅ«t:</translation>
+        <translation>&lt;category&gt; var būt:</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Bloka izveidoÅ¡anas iestatÄ«jumi:</translation>
+        <translation>Bloka izveidošanas iestatījumi:</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Savienojuma iestatÄ«jumi:</translation>
+        <translation>Savienojuma iestatījumi:</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>AtkÄ¼Å«doÅ¡anas/TestÄÅ¡anas iestatÄ«jumi:</translation>
+        <translation>Atkļūdošanas/Testēšanas iestatījumi:</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>KÄ¼Å«da ielÄdÄjot bloku datubÄzi</translation>
+        <translation>Kļūda ielādējot bloku datubāzi</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>KÄ¼Å«da: Zema diska vieta!</translation>
+        <translation>Kļūda: Zema diska vieta!</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>ImportÄ...</translation>
+        <translation>Importē...</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>PÄrbauda blokus...</translation>
+        <translation>Pārbauda blokus...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>PÄrbauda maciÅu...</translation>
+        <translation>Pārbauda maciņu...</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>MaciÅa iespÄjas:</translation>
+        <translation>Maciņa iespējas:</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>InformÄcija</translation>
+        <translation>Informācija</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>RPC servera iestatÄ«jumi:</translation>
+        <translation>RPC servera iestatījumi:</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Debug/trace informÄciju izvadÄ«t konsolÄ, nevis debug.log failÄ</translation>
+        <translation>Debug/trace informāciju izvadīt konsolē, nevis debug.log failā</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Transakcijas parakstÄ«Å¡ana neizdevÄs</translation>
+        <translation>Transakcijas parakstīšana neizdevās</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Transakcijas summa ir pÄrÄk maza</translation>
+        <translation>Transakcijas summa ir pārāk maza</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transakcija ir pÄrÄk liela</translation>
+        <translation>Transakcija ir pārāk liela</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>JSON-RPC savienojumu lietotÄjvÄrds</translation>
+        <translation>JSON-RPC savienojumu lietotājvārds</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>BrÄ«dinÄjums</translation>
+        <translation>Brīdinājums</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
@@ -1205,23 +1205,23 @@
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>IzpildÄ«t komandu, kad labÄk atbilstoÅ¡ais bloks izmainÄs (%s cmd aizvieto ar bloka heÅ¡u)</translation>
+        <translation>Izpildīt komandu, kad labāk atbilstošais bloks izmainās (%s cmd aizvieto ar bloka hešu)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>AtÄ¼aut DNS uzmeklÄÅ¡anu priekÅ¡ -addnode, -seednode un -connect</translation>
+        <translation>Atļaut DNS uzmeklēšanu priekš -addnode, -seednode un -connect</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>IelÄdÄ adreses...</translation>
+        <translation>Ielādē adreses...</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>NederÄ«ga -proxy adrese: '%s'</translation>
+        <translation>Nederīga -proxy adrese: '%s'</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>-onlynet komandÄ norÄdÄ«ts nepazÄ«stams tÄ«kls: '%s'</translation>
+        <translation>-onlynet komandā norādīts nepazīstams tīkls: '%s'</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -1229,35 +1229,35 @@
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>IelÄdÄ bloku indeksu...</translation>
+        <translation>Ielādē bloku indeksu...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Pievienot mezglu, kam pievienoties un turÄt savienojumu atvÄrtu</translation>
+        <translation>Pievienot mezglu, kam pievienoties un turēt savienojumu atvērtu</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>IelÄdÄ maciÅu...</translation>
+        <translation>Ielādē maciņu...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Nevar maciÅa formÄtu padarÄ«t vecÄku</translation>
+        <translation>Nevar maciņa formātu padarīt vecāku</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Nevar ierakstÄ«t adresi pÄc noklusÄÅ¡anas</translation>
+        <translation>Nevar ierakstīt adresi pēc noklusēšanas</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>SkanÄju no jauna...</translation>
+        <translation>Skanēju no jauna...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>IelÄde pabeigta</translation>
+        <translation>Ielāde pabeigta</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>KÄ¼Å«da</translation>
+        <translation>Kļūda</translation>
     </message>
 </context>
 </TS>
