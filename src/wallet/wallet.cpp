@@ -71,7 +71,7 @@ CBlockIndex *komodo_chainactive(int32_t height);
 extern std::string DONATION_PUBKEY;
 int32_t komodo_dpowconfs(int32_t height, int32_t numconfs);
 int tx_height(const uint256 &hash);
-
+int scanperc;
 bool fTxDeleteEnabled = false;
 bool fTxConflictDeleteEnabled = false;
 int fDeleteInterval = DEFAULT_TX_DELETE_INTERVAL;
@@ -1293,7 +1293,6 @@ int CWallet::VerifyAndSetInitialWitness(const CBlockIndex *pindex, bool witnessO
                 ::ClearSingleNoteWitnessCache(nd);
 
                 LogPrintf("Setting Inital Sprout Witness for tx %s, %i of %i\n", wtxHash.ToString(), nWitnessTxIncrement, nWitnessTotalTxCount);
-
                 SproutMerkleTree sproutTree;
                 blockRoot = pblockindex->pprev->hashFinalSproutRoot;
                 pcoinsTip->GetSproutAnchorAt(blockRoot, sproutTree);
@@ -3645,7 +3644,7 @@ void CWallet::DeleteWalletTransactions(const CBlockIndex* pindex) {
         //Delete Transactions from wallet
         DeleteTransactions(removeTxs);
         LogPrintf("Delete Tx - Total Transaction Count %i, Transactions Deleted %i\n ", txCount, int(removeTxs.size()));
-
+		ShowProgress(_(("Rescanning - Current Wallet Transaction Count " + std::to_string(txCount)).c_str()),scanperc);
         //Compress Wallet
         if (runCompact)
           CWalletDB::Compact(bitdb,strWalletFile);
@@ -3677,8 +3676,10 @@ int CWallet::ScanForWalletTransactions(CBlockIndex *pindexStart, bool fUpdate)
         while (pindex)
         {
             if (pindex->GetHeight() % 100 == 0 && dProgressTip - dProgressStart > 0.0)
-                ShowProgress(_("Rescanning..."), std::max(1, std::min(99, (int)((Checkpoints::GuessVerificationProgress(chainParams.Checkpoints(), pindex, false) - dProgressStart) / (dProgressTip - dProgressStart) * 100))));
-
+            {
+                scanperc = (int)((Checkpoints::GuessVerificationProgress(chainParams.Checkpoints(), pindex, false) - dProgressStart) / (dProgressTip - dProgressStart) * 100);
+                ShowProgress(_(("Rescanning - Currently on block " + std::to_string(pindex->GetHeight()) + "...").c_str()), std::max(1, std::min(99, scanperc)));
+            }
             CBlock block;
             ReadBlockFromDisk(block, pindex, 1);
             BOOST_FOREACH (CTransaction &tx, block.vtx)
