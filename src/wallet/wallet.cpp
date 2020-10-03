@@ -3644,7 +3644,8 @@ void CWallet::DeleteWalletTransactions(const CBlockIndex* pindex) {
         //Delete Transactions from wallet
         DeleteTransactions(removeTxs);
         LogPrintf("Delete Tx - Total Transaction Count %i, Transactions Deleted %i\n ", txCount, int(removeTxs.size()));
-		ShowProgress(_(("Rescanning - Current Wallet Transaction Count " + std::to_string(txCount)).c_str()),scanperc);
+        if (GetBoolArg("-deletetx", true))
+          ShowProgress(_(("Rescanning - Current Wallet Transaction Count " + std::to_string(txCount)).c_str()),scanperc);
         //Compress Wallet
         if (runCompact)
           CWalletDB::Compact(bitdb,strWalletFile);
