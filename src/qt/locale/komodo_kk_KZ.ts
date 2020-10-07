@@ -3,27 +3,27 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation>ÐÐ°Ò£Ð° Ð°Ð´ÑÐµÑ ÐµÐ½Ð³ÑÐ·Ñ</translation>
+        <translation>Жаңа адрес енгізу</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>ÐÐ°Ò£Ð°</translation>
+        <translation>Жаңа</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Ð¢Ð°Ò£Ð´Ð°ÒÐ°Ð½ Ð°Ð´ÑÐµÑÑÑ ÑÑÐ·ÑÐ¼Ð½ÐµÐ½ Ð¶Ð¾Ñ</translation>
+        <translation>Таңдаған адресті тізімнен жою</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>ÐÐ°Ð±Ñ</translation>
+        <translation>Жабу</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>Ð­ÐºÑÐ¿Ð¾ÑÑ</translation>
+        <translation>Экспорт</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>ÐÐ¾Ñ</translation>
+        <translation>Жою</translation>
     </message>
     </context>
 <context>
@@ -33,15 +33,15 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation>ÒÒ±Ð¿Ð¸Ñ ÑÓ©Ð·Ð´Ñ ÐµÐ½Ð³ÑÐ·Ñ</translation>
+        <translation>Құпия сөзді енгізу</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>ÐÐ°Ò£Ð° ÒÒ±Ð¿Ð¸Ñ ÑÓ©Ð·Ñ</translation>
+        <translation>Жаңа құпия сөзі</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>ÐÐ°Ò£Ð° ÒÒ±Ð¿Ð¸Ñ ÑÓ©Ð·Ð´Ñ ÒÐ°Ð¹ÑÐ° ÐµÐ½Ð³ÑÐ·Ñ</translation>
+        <translation>Жаңа құпия сөзді қайта енгізу</translation>
     </message>
     </context>
 <context>
@@ -51,23 +51,23 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Ð¢ÑÐ°Ð½Ð·Ð°ÐºÑÐ¸ÑÐ»Ð°Ñ</translation>
+        <translation>&amp;Транзакциялар</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>Ð¨ÑÒÑ</translation>
+        <translation>Шығу</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>ÐÐ°ÑÐ°Ð¼ÐµÑÑÐ»ÐµÑÑ</translation>
+        <translation>Параметрлері</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>ÓÐ¼Ð¸ÑÐ½Ð´Ñ Ð¶Ð°ÑÑÑÑ</translation>
+        <translation>Әмиянды жасыру</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>ÒÒ±Ð¿Ð¸Ñ ÑÓ©Ð·Ð´Ñ Ó©Ð·Ð³ÐµÑÑÑ</translation>
+        <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
         <source>Pirate</source>
@@ -75,89 +75,89 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>ÓÐ¼Ð¸ÑÐ½</translation>
+        <translation>Әмиян</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>ÐÑÐ±ÐµÑÑ</translation>
+        <translation>Жіберу</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>ÐÐ»Ñ</translation>
+        <translation>Алу</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>Ð¤Ð°Ð¹Ð»</translation>
+        <translation>Файл</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>ÐÓ©Ð¼ÐµÐº</translation>
+        <translation>Көмек</translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 ÒÐ°Ð»Ð¼Ð°Ð´Ñ</translation>
+        <translation>%1 қалмады</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>ÒÐ°ÑÐµ</translation>
+        <translation>қате</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>ÐÑÐºÐµÑÑÑ</translation>
+        <translation>Ескерту</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>ÐÐ½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ</translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>ÐÐ°Ò£Ð°ÑÑÑÐ»ÒÐ°Ð½</translation>
+        <translation>Жаңартылған</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Amount:</source>
-        <translation>Ð¡Ð°Ð½Ñ</translation>
+        <translation>Саны</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>ÐÐ¾Ð¼Ð¸ÑÑÐ¸Ñ</translation>
+        <translation>Комиссия</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Ð¨Ð°Ò£</translation>
+        <translation>Шаң</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>ÐÐ¾Ð¼Ð¸ÑÑÐ¸Ñ Ð°Ð»Ñ ÐºÐµÐ¹ÑÐ½</translation>
+        <translation>Комиссия алу кейін</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Ð¡Ð°Ð½Ñ</translation>
+        <translation>Саны</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>ÐÒ¯Ð½Ñ</translation>
+        <translation>Күні</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Ð Ð°ÑÑÐ°Ñ ÑÐ°Ð½Ñ</translation>
+        <translation>Растау саны</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Ð Ð°ÑÑÑÒ</translation>
+        <translation>Растық</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>&amp;Label</source>
-        <translation>ÑÐ°Ò£Ð±Ð°</translation>
+        <translation>таңба</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>ÐÐ´ÑÐµÑ</translation>
+        <translation>Адрес</translation>
     </message>
     </context>
 <context>
@@ -170,7 +170,7 @@
     <name>Intro</name>
     <message>
         <source>Error</source>
-        <translation>ÒÐ°ÑÐµ</translation>
+        <translation>қате</translation>
     </message>
     </context>
 <context>
@@ -183,7 +183,7 @@
     <name>OptionsDialog</name>
     <message>
         <source>W&amp;allet</source>
-        <translation>ÓÐ¼Ð¸ÑÐ½</translation>
+        <translation>Әмиян</translation>
     </message>
     </context>
 <context>
@@ -199,11 +199,11 @@
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Ð¡Ð°Ð½Ñ</translation>
+        <translation>Саны</translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 Ð½ÐµÐ¼ÐµÑÐµ %2</translation>
+        <translation>%1 немесе %2</translation>
     </message>
     </context>
 <context>
@@ -216,14 +216,14 @@
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation>ÐÐ½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ</translation>
+        <translation>Информация</translation>
     </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>Ð¡Ð°Ð½Ñ</translation>
+        <translation>Саны</translation>
     </message>
     </context>
 <context>
@@ -236,26 +236,26 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Amount:</source>
-        <translation>Ð¡Ð°Ð½Ñ</translation>
+        <translation>Саны</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>ÐÐ¾Ð¼Ð¸ÑÑÐ¸Ñ:</translation>
+        <translation>Комиссия:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>ÐÐ¾Ð¼Ð¸ÑÑÐ¸Ñ Ð°Ð»Ñ ÐºÐµÐ¹ÑÐ½:</translation>
+        <translation>Комиссия алу кейін:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Ð¨Ð°Ò£</translation>
+        <translation>Шаң</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation>Ð¡Ð°Ð½Ñ</translation>
+        <translation>Саны</translation>
     </message>
     </context>
 <context>
@@ -301,23 +301,23 @@
     <name>pirate-core</name>
     <message>
         <source>Information</source>
-        <translation>ÐÐ½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ</translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Ð¢ÑÐ°Ð½Ð·Ð°ÐºÑÐ¸Ñ Ó©ÑÐµ ÐºÑÑÐºÐµÐ½ÑÐ°Ð¹</translation>
+        <translation>Транзакция өте кішкентай</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Ð¢ÑÐ°Ð½Ð·Ð°ÐºÑÐ¸Ñ Ó©ÑÐµ Ò¯Ð»ÐºÐµÐ½</translation>
+        <translation>Транзакция өте үлкен</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>ÐÑÐºÐµÑÑÑ</translation>
+        <translation>Ескерту</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>ÒÐ°ÑÐµ</translation>
+        <translation>қате</translation>
     </message>
 </context>
 </TS>

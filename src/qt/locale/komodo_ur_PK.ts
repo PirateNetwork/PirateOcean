@@ -3,77 +3,77 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Ù¾ØªÛ ØªØ¨Ø¯ÛÙ Ú©Ø±Û Ú©Û ÙÛÛ Ø¯Ø§Ø¦ÛØ§Úº Ú©ÙÚ© Ú©Ø±ÛÚº</translation>
+        <translation>پتہ تبدیل کرے کے لیے دائیاں کلک کریں</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>ÙÛØ§ Ø§ÛÚØ±ÛØ³ Ø¨ÙØ§Ø¦ÛÚº</translation>
+        <translation>نیا ایڈریس بنائیں</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>ÙÛØ§</translation>
+        <translation>نیا</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Ø³ÙÛÚ©Ù¹Ú Ù¾ØªÛ Ú©Ù Ú©ÙÙ¾ÙÙ¹Ø± Ú©Û Ø¹Ø§Ø±Ø¶Û Ø¬Ú¯Û Ø±Ú©Ú¾ÛÚº</translation>
+        <translation>سلیکٹڈ پتے کو کمپوٹر کی عارضی جگہ رکھیں</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>ÙÙÙ</translation>
+        <translation>نقل</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>Ø¨ÙØ¯</translation>
+        <translation>بند</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Ø³ÙÛÚ©Ù¹Ú Ù¾ØªÛ Ú©Ù ÙÙ¹Ø§Ø¦ÛÚº</translation>
+        <translation>سلیکٹڈ پتے کو مٹائیں</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>ÙÙØ¬ÙØ¯Û ÚÛÙ¹Ø§ Ú©Ù ÙØ§Ø¦ÛÙ ÙÛÚº ÙØ­ÙÙØ¸ Ú©Ø±ÛÚº</translation>
+        <translation>موجودہ ڈیٹا کو فائیل میں محفوظ کریں</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>Ø¨Ø±Ø¢ÙØ¯</translation>
+        <translation>برآمد</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>ÙÙ¹Ø§</translation>
+        <translation>مٹا</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Ú©ÙØ¦ÛÙ ÙØµÙÙ Ú©Ø±ÙÛ ÙØ§ÙÛ Ú©Ø§ Ù¾ØªÛ</translation>
+        <translation>کوئین وصول کرنے والے کا پتہ</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Ú©ÙØ¦ÛÙ ÙØµÙÙ Ú©Ø±ÙÛ ÙØ§ÙÛ Ú©Ø§ Ù¾ØªÛ</translation>
+        <translation>کوئین وصول کرنے والے کا پتہ</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>ÚÙÙØ§</translation>
+        <translation>چننا</translation>
     </message>
     </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Address</source>
-        <translation> Ù¾ØªÛ</translation>
+        <translation> پتہ</translation>
     </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation>Ù¾Ø§Ø³ ÙØ±ÛØ² Ø¯Ø§Ø®Ù Ú©Ø±ÛÚº</translation>
+        <translation>پاس فریز داخل کریں</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>ÙÛØ§ Ù¾Ø§Ø³ ÙØ±ÛØ²</translation>
+        <translation>نیا پاس فریز</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>ÙÛØ§ Ù¾Ø§Ø³ ÙØ±ÛØ² Ø¯ÛØ±Ø§Ø¦ÛÚº</translation>
+        <translation>نیا پاس فریز دہرائیں</translation>
     </message>
     </context>
 <context>
@@ -83,33 +83,33 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>Error</source>
-        <translation>ÙÙØµ</translation>
+        <translation>نقص</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Amount:</source>
-        <translation>Ø±ÙÙ:</translation>
+        <translation>رقم:</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Ø±ÙÙ</translation>
+        <translation>رقم</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>ØªØ§Ø±ÛØ®</translation>
+        <translation>تاریخ</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>&amp;Label</source>
-        <translation>ÚÙ¹</translation>
+        <translation>چٹ</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation> Ù¾ØªÛ</translation>
+        <translation> پتہ</translation>
     </message>
     </context>
 <context>
@@ -122,7 +122,7 @@
     <name>Intro</name>
     <message>
         <source>Error</source>
-        <translation>ÙÙØµ</translation>
+        <translation>نقص</translation>
     </message>
     </context>
 <context>
@@ -147,7 +147,7 @@
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Ø±ÙÙ</translation>
+        <translation>رقم</translation>
     </message>
     </context>
 <context>
@@ -166,11 +166,11 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Ú©Ø§Ù¾Û Ù¾ØªÛ</translation>
+        <translation>کاپی پتہ</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation> Ù¾ØªÛ</translation>
+        <translation> پتہ</translation>
     </message>
     </context>
 <context>
@@ -180,15 +180,15 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Insufficient funds!</source>
-        <translation>ÙØ§Ú©Ø§ÙÛ ÙÙÚØ²</translation>
+        <translation>ناکافی فنڈز</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Ø±ÙÙ:</translation>
+        <translation>رقم:</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Ø¨ÛÙÙØ³:</translation>
+        <translation>بیلنس:</translation>
     </message>
     </context>
 <context>
@@ -222,7 +222,7 @@
     <name>TransactionView</name>
     <message>
         <source>Address</source>
-        <translation> Ù¾ØªÛ</translation>
+        <translation> پتہ</translation>
     </message>
     </context>
 <context>
@@ -241,11 +241,11 @@
     <name>pirate-core</name>
     <message>
         <source>Insufficient funds</source>
-        <translation>ÙØ§Ú©Ø§ÙÛ ÙÙÚØ²</translation>
+        <translation>ناکافی فنڈز</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>ÙÙØµ</translation>
+        <translation>نقص</translation>
     </message>
 </context>
 </TS>

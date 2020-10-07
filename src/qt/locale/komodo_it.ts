@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Scegli l'indirizzo a cui inviare komodo</translation>
+        <translation>Scegli l'indirizzo a cui inviare pirate</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Scegli l'indirizzo con cui ricevere komodo</translation>
+        <translation>Scegli l'indirizzo con cui ricevere pirate</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -63,7 +63,7 @@
     </message>
     <message>
         <source>These are your Pirate addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questo Ã¨ un elenco di indirizzi Pirate a cui puoi inviare pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare komodo.</translation>
+        <translation>Questo è un elenco di indirizzi Pirate a cui puoi inviare pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare pirate.</translation>
     </message>
     <message>
         <source>These are your Pirate addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Si Ã¨ verificato un errore tentando di salvare la lista degli indirizzi su %1. Si prega di riprovare.</translation>
+        <translation>Si è verificato un errore tentando di salvare la lista degli indirizzi su %1. Si prega di riprovare.</translation>
     </message>
 </context>
 <context>
@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Inserisci la nuova passphrase per il portamonete.&lt;br/&gt;Si consiglia di utilizzare &lt;b&gt;almeno dieci caratteri casuali&lt;/b&gt; oppure &lt;b&gt;otto o piÃ¹ parole&lt;/b&gt;.</translation>
+        <translation>Inserisci la nuova passphrase per il portamonete.&lt;br/&gt;Si consiglia di utilizzare &lt;b&gt;almeno dieci caratteri casuali&lt;/b&gt; oppure &lt;b&gt;otto o più parole&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -169,11 +169,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Attenzione: perdendo la passphrase di un portamonete cifrato &lt;b&gt;TUTTI I PROPRI Pirate ANDRANNO PERSI&lt;/b&gt;!</translation>
+        <translation>Attenzione: perdendo la passphrase di un portamonete cifrato &lt;b&gt;TUTTI I PROPRI KOMODO ANDRANNO PERSI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Si Ã¨ sicuri di voler cifrare il portamonete?</translation>
+        <translation>Si è sicuri di voler cifrare il portamonete?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -181,15 +181,15 @@
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>IMPORTANTE: qualsiasi backup del file portamonete effettuato in precedenza dovrÃ  essere sostituito con il file del portamonete cifrato appena generato. Per ragioni di sicurezza, i precedenti backup del file del portamonete non cifrato diventeranno inservibili non appena si inizierÃ  ad utilizzare il nuovo portamonete cifrato.</translation>
+        <translation>IMPORTANTE: qualsiasi backup del file portamonete effettuato in precedenza dovrà essere sostituito con il file del portamonete cifrato appena generato. Per ragioni di sicurezza, i precedenti backup del file del portamonete non cifrato diventeranno inservibili non appena si inizierà ad utilizzare il nuovo portamonete cifrato.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Il processo di crittografia del tuo portafogli Ã¨ fallito</translation>
+        <translation>Il processo di crittografia del tuo portafogli è fallito</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Crittaggio fallito a causa di un errore interno. Il portamonete non Ã¨ stato crittato.</translation>
+        <translation>Crittaggio fallito a causa di un errore interno. Il portamonete non è stato crittato.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -201,7 +201,7 @@
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>La frase inserita per decrittografare il tuo portafoglio Ã¨ incorretta</translation>
+        <translation>La frase inserita per decrittografare il tuo portafoglio è incorretta</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
@@ -209,11 +209,11 @@
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>La frase di accesso al portamonete Ã¨ stata cambiata con successo.</translation>
+        <translation>La frase di accesso al portamonete è stata cambiata con successo.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Attenzione: Ã¨ attivo il tasto blocco maiuscole !</translation>
+        <translation>Attenzione: è attivo il tasto blocco maiuscole !</translation>
     </message>
 </context>
 <context>
@@ -319,11 +319,11 @@
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>AttivitÃ  di rete disabilitata</translation>
+        <translation>Attività di rete disabilitata</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>Clicca per abilitare nuovamente l'attivitÃ  di rete</translation>
+        <translation>Clicca per abilitare nuovamente l'attività di rete</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Invia fondi ad un indirizzo Komodo</translation>
+        <translation>Invia fondi ad un indirizzo Pirate</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -431,7 +431,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Pirate network</source>
-        <translation><numerusform>%n connessione attiva alla rete Pirate</numerusform><numerusform>%n connessioni alla rete Komodo attive</numerusform></translation>
+        <translation><numerusform>%n connessione attiva alla rete Pirate</numerusform><numerusform>%n connessioni alla rete Pirate attive</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -451,7 +451,7 @@
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>L'ultimo blocco ricevuto Ã¨ stato generato %1 fa.</translation>
+        <translation>L'ultimo blocco ricevuto è stato generato %1 fa.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
@@ -498,7 +498,7 @@
     <message>
         <source>Amount: %1
 </source>
-        <translation>QuantitÃ : %1
+        <translation>Quantità: %1
 </translation>
     </message>
     <message>
@@ -529,23 +529,23 @@
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>La creazione della chiave HD Ã¨ &lt;b&gt;abilitata&lt;/b&gt;</translation>
+        <translation>La creazione della chiave HD è &lt;b&gt;abilitata&lt;/b&gt;</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>La creazione della chiave HD Ã¨ &lt;b&gt;disabilitata&lt;/b&gt;</translation>
+        <translation>La creazione della chiave HD è &lt;b&gt;disabilitata&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Il portamonete Ã¨ &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;sbloccato&lt;/b&gt;</translation>
+        <translation>Il portamonete è &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;sbloccato&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Il portamonete Ã¨ &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;bloccato&lt;/b&gt;</translation>
+        <translation>Il portamonete è &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;bloccato&lt;/b&gt;</translation>
     </message>
     <message>
         <source>A fatal error occurred. Pirate can no longer continue safely and will quit.</source>
-        <translation>Si Ã¨ verificato un errore critico. Pirate non puÃ² piÃ¹ funzionare in maniera sicura e verrÃ  chiuso.</translation>
+        <translation>Si è verificato un errore critico. Pirate non può più funzionare in maniera sicura e verrà chiuso.</translation>
     </message>
 </context>
 <context>
@@ -556,7 +556,7 @@
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>QuantitÃ :</translation>
+        <translation>Quantità:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -588,11 +588,11 @@
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>ModalitÃ  Albero</translation>
+        <translation>Modalità Albero</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>ModalitÃ  Lista</translation>
+        <translation>Modalità Lista</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -644,7 +644,7 @@
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Copia quantitÃ </translation>
+        <translation>Copia quantità</translation>
     </message>
     <message>
         <source>Copy fee</source>
@@ -672,7 +672,7 @@
     </message>
     <message>
         <source>yes</source>
-        <translation>sÃ¬</translation>
+        <translation>sì</translation>
     </message>
     <message>
         <source>no</source>
@@ -680,11 +680,11 @@
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Questa etichetta diventerÃ  rossa se uno qualsiasi dei destinatari riceverÃ  un importo inferiore alla corrente soglia minima per la movimentazione della valuta.</translation>
+        <translation>Questa etichetta diventerà rossa se uno qualsiasi dei destinatari riceverà un importo inferiore alla corrente soglia minima per la movimentazione della valuta.</translation>
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>PuÃ² variare di +/- %1 satoshi per input.</translation>
+        <translation>Può variare di +/- %1 satoshi per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -715,7 +715,7 @@
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>L'indirizzo associato con questa voce della lista degli indirizzi. PuÃ² essere modificato solo per gli indirizzi d'invio.</translation>
+        <translation>L'indirizzo associato con questa voce della lista degli indirizzi. Può essere modificato solo per gli indirizzi d'invio.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -739,11 +739,11 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Pirate address.</source>
-        <translation>L'indirizzo inserito "%1" non Ã¨ un indirizzo Pirate valido.</translation>
+        <translation>L'indirizzo inserito "%1" non è un indirizzo Pirate valido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>L'indirizzo inserito "%1" Ã¨ giÃ  in rubrica.</translation>
+        <translation>L'indirizzo inserito "%1" è già in rubrica.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -758,7 +758,7 @@
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>SarÃ  creata una nuova cartella dati.</translation>
+        <translation>Sarà creata una nuova cartella dati.</translation>
     </message>
     <message>
         <source>name</source>
@@ -766,11 +766,11 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Cartella giÃ  esistente. Aggiungi %1 se intendi creare qui una nuova cartella.</translation>
+        <translation>Cartella già esistente. Aggiungi %1 se intendi creare qui una nuova cartella.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Il percorso Ã¨ giÃ  esistente e non Ã¨ una cartella.</translation>
+        <translation>Il percorso è già esistente e non è una cartella.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
@@ -844,11 +844,11 @@
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>Dato che questa Ã¨ la prima volta che il programma viene lanciato, puoi scegliere dove %1 salverÃ  i suoi dati.</translation>
+        <translation>Dato che questa è la prima volta che il programma viene lanciato, puoi scegliere dove %1 salverà i suoi dati.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Pirate block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 scaricherÃ  e salverÃ  una copia della Blockchain di Pirate. Saranno salvati almeno %2GB di dati in questo percorso e continueranno ad aumentare col tempo. Anche il portafoglio verrÃ  salvato in questo percorso.</translation>
+        <translation>%1 scaricherà e salverà una copia della Blockchain di Pirate. Saranno salvati almeno %2GB di dati in questo percorso e continueranno ad aumentare col tempo. Anche il portafoglio verrà salvato in questo percorso.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -860,7 +860,7 @@
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Errore: La cartella dati "%1" specificata non puÃ² essere creata.</translation>
+        <translation>Errore: La cartella dati "%1" specificata non può essere creata.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -891,7 +891,7 @@
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Ora del blocco piÃ¹ recente</translation>
+        <translation>Ora del blocco più recente</translation>
     </message>
     <message>
         <source>Progress</source>
@@ -985,12 +985,12 @@
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Riduci ad icona invece di uscire dall'applicazione quando la finestra viene chiusa. Attivando questa opzione l'applicazione terminerÃ  solo dopo aver selezionato Esci dal menu File.</translation>
+        <translation>Riduci ad icona invece di uscire dall'applicazione quando la finestra viene chiusa. Attivando questa opzione l'applicazione terminerà solo dopo aver selezionato Esci dal menu File.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL di terze parti (ad es. un block explorer) che appaiono nella tabella delle transazioni come voci nel menu contestuale. "%s" nell'URL Ã¨ sostituito dall'hash della transazione.
-Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
+        <translation>URL di terze parti (ad es. un block explorer) che appaiono nella tabella delle transazioni come voci nel menu contestuale. "%s" nell'URL è sostituito dall'hash della transazione.
+Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
@@ -1026,11 +1026,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Abilita le funzionalitÃ  di coin &amp;control</translation>
+        <translation>Abilita le funzionalità di coin &amp;control</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Disabilitando l'uso di resti non confermati, il resto di una transazione non potrÃ  essere speso fino a quando non avrÃ  ottenuto almeno una conferma. Questa impostazione influisce inoltre sul calcolo del saldo.</translation>
+        <translation>Disabilitando l'uso di resti non confermati, il resto di una transazione non potrà essere speso fino a quando non avrà ottenuto almeno una conferma. Questa impostazione influisce inoltre sul calcolo del saldo.</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -1126,15 +1126,15 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>La lingua dell'interfaccia utente puÃ² essere impostata qui. L'impostazione avrÃ  effetto dopo il riavvio %1.</translation>
+        <translation>La lingua dell'interfaccia utente può essere impostata qui. L'impostazione avrà effetto dopo il riavvio %1.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;UnitÃ  di misura con cui visualizzare gli importi:</translation>
+        <translation>&amp;Unità di misura con cui visualizzare gli importi:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Scegli l'unitÃ  di suddivisione predefinita da utilizzare per l'interfaccia e per l'invio di Pirate.</translation>
+        <translation>Scegli l'unità di suddivisione predefinita da utilizzare per l'interfaccia e per l'invio di pirate.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1162,11 +1162,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Ã necessario un riavvio del client per applicare le modifiche.</translation>
+        <translation>È necessario un riavvio del client per applicare le modifiche.</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Il client sarÃ  arrestato. Si desidera procedere?</translation>
+        <translation>Il client sarà arrestato. Si desidera procedere?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
@@ -1174,7 +1174,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>L'indirizzo proxy che hai fornito non Ã¨ valido.</translation>
+        <translation>L'indirizzo proxy che hai fornito non è valido.</translation>
     </message>
 </context>
 <context>
@@ -1185,7 +1185,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pirate network after a connection is established, but this process has not completed yet.</source>
-        <translation>Le informazioni visualizzate potrebbero non essere aggiornate. Il portamonete si sincronizza automaticamente con la rete Pirate una volta stabilita una connessione, ma questo processo non Ã¨ ancora stato completato.</translation>
+        <translation>Le informazioni visualizzate potrebbero non essere aggiornate. Il portamonete si sincronizza automaticamente con la rete Pirate una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1300,7 +1300,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>La richiesta di pagamento non Ã¨ stata inizializzata.</translation>
+        <translation>La richiesta di pagamento non è stata inizializzata.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
@@ -1312,7 +1312,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>L'importo di pagamento di %1 richiesto Ã¨ troppo basso (considerato come trascurabile).</translation>
+        <translation>L'importo di pagamento di %1 richiesto è troppo basso (considerato come trascurabile).</translation>
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1320,7 +1320,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>La richiesta di pagamento %1 Ã¨ troppo grande (%2 bytes, consentiti %3 bytes)</translation>
+        <translation>La richiesta di pagamento %1 è troppo grande (%2 bytes, consentiti %3 bytes)</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
@@ -1328,7 +1328,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>La richiesta di pagamento non puÃ² essere processata!</translation>
+        <translation>La richiesta di pagamento non può essere processata!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
@@ -1426,7 +1426,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>%1 didn't yet exit safely...</source>
-        <translation>%1 non Ã¨ ancora stato chiuso in modo sicuro</translation>
+        <translation>%1 non è ancora stato chiuso in modo sicuro</translation>
     </message>
 </context>
 <context>
@@ -1539,7 +1539,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Seleziona un peer per visualizzare informazioni piÃ¹ dettagliate.</translation>
+        <translation>Seleziona un peer per visualizzare informazioni più dettagliate.</translation>
     </message>
     <message>
         <source>Whitelisted</source>
@@ -1571,7 +1571,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Apri il file log del debug di %1 dalla cartella dati attuale. PuÃ² richiedere alcuni secondi per file di log di grandi dimensioni.</translation>
+        <translation>Apri il file log del debug di %1 dalla cartella dati attuale. Può richiedere alcuni secondi per file di log di grandi dimensioni.</translation>
     </message>
     <message>
         <source>Decrease font size</source>
@@ -1623,7 +1623,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Ora del blocco piÃ¹ recente</translation>
+        <translation>Ora del blocco più recente</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1703,7 +1703,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
-        <translation>AttivitÃ  di rete disabilitata</translation>
+        <translation>Attività di rete disabilitata</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1778,7 +1778,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pirate network.</source>
-        <translation>Un messaggio opzionale da allegare e mostrare all'apertura della richiesta di pagamento. Nota: Il messaggio non sarÃ  inviato con il pagamento sulla rete Pirate.</translation>
+        <translation>Un messaggio opzionale da allegare e mostrare all'apertura della richiesta di pagamento. Nota: Il messaggio non sarà inviato con il pagamento sulla rete Pirate.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1889,7 +1889,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation> L'URI risultante Ã¨ troppo lungo, prova a ridurre il testo nell'etichetta / messaggio.</translation>
+        <translation> L'URI risultante è troppo lungo, prova a ridurre il testo nell'etichetta / messaggio.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
@@ -1931,11 +1931,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia Komodo</translation>
+        <translation>Invia Pirate</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>FunzionalitÃ  di Coin Control</translation>
+        <translation>Funzionalità di Coin Control</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -1951,7 +1951,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>QuantitÃ :</translation>
+        <translation>Quantità:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -1975,7 +1975,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>In caso di abilitazione con indirizzo vuoto o non valido, il resto sarÃ  inviato ad un nuovo indirizzo generato appositamente.</translation>
+        <translation>In caso di abilitazione con indirizzo vuoto o non valido, il resto sarà inviato ad un nuovo indirizzo generato appositamente.</translation>
     </message>
     <message>
         <source>Custom change address</source>
@@ -1999,7 +1999,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se la commissione personalizzata Ã¨ impostata su 1000 satoshi e la transazione Ã¨ di soli 250 byte, allora "per kilobyte" paga solo 250 satoshi di commissione, mentre "somma almeno" paga 1000 satoshi. Per transazioni piÃ¹ grandi di un kilobyte, entrambe le opzioni pagano al kilobyte.</translation>
+        <translation>Se la commissione personalizzata è impostata su 1000 satoshi e la transazione è di soli 250 byte, allora "per kilobyte" paga solo 250 satoshi di commissione, mentre "somma almeno" paga 1000 satoshi. Per transazioni più grandi di un kilobyte, entrambe le opzioni pagano al kilobyte.</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -2011,7 +2011,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Pirate transactions than the network can process.</source>
-        <translation>Non vi Ã¨ alcuna controindicazione a pagare la commissione minima, a patto che il volume delle transazioni sia inferiore allo spazio disponibile nei blocchi. Occorre comunque essere consapevoli che ciÃ² potrebbe impedire la conferma delle transazioni nel caso in cui la rete risultasse satura.</translation>
+        <translation>Non vi è alcuna controindicazione a pagare la commissione minima, a patto che il volume delle transazioni sia inferiore allo spazio disponibile nei blocchi. Occorre comunque essere consapevoli che ciò potrebbe impedire la conferma delle transazioni nel caso in cui la rete risultasse satura.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2039,7 +2039,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Invia simultaneamente a piÃ¹ beneficiari</translation>
+        <translation>Invia simultaneamente a più beneficiari</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
@@ -2071,7 +2071,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Copia quantitÃ </translation>
+        <translation>Copia quantità</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -2123,7 +2123,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
-        <translation> L'indirizzo del destinatario non Ã¨ valido. Si prega di ricontrollare.</translation>
+        <translation> L'indirizzo del destinatario non è valido. Si prega di ricontrollare.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -2135,7 +2135,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation> Il totale Ã¨ superiore al tuo saldo attuale includendo la commissione di %1. </translation>
+        <translation> Il totale è superiore al tuo saldo attuale includendo la commissione di %1. </translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
@@ -2147,11 +2147,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The transaction was rejected with the following reason: %1</source>
-        <translation>La transazione Ã¨ stata respinta per il seguente motivo: %1</translation>
+        <translation>La transazione è stata respinta per il seguente motivo: %1</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation> Una commissione maggiore di %1 Ã¨ considerata irragionevolmente elevata.</translation>
+        <translation> Una commissione maggiore di %1 è considerata irragionevolmente elevata.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
@@ -2198,7 +2198,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Questo Ã¨ un normale pagamento.</translation>
+        <translation>Questo è un normale pagamento.</translation>
     </message>
     <message>
         <source>The Pirate address to send the payment to</source>
@@ -2222,7 +2222,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>La commissione sarÃ  sottratta dall'importo che si sta inviando. Il beneficiario riceverÃ  un totale di Pirate inferiore al valore digitato. Nel caso in cui siano stati selezionati piÃ¹ beneficiari la commissione sarÃ  suddivisa in parti uguali.</translation>
+        <translation>La commissione sarà sottratta dall'importo che si sta inviando. Il beneficiario riceverà un totale di Pirate inferiore al valore digitato. Nel caso in cui siano stati selezionati più beneficiari la commissione sarà suddivisa in parti uguali.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2234,19 +2234,19 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
-        <translation>Questa Ã¨ una richiesta di pagamento non autenticata.</translation>
+        <translation>Questa è una richiesta di pagamento non autenticata.</translation>
     </message>
     <message>
         <source>This is an authenticated payment request.</source>
-        <translation>Questa Ã¨ una richiesta di pagamento autenticata.</translation>
+        <translation>Questa è una richiesta di pagamento autenticata.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Inserisci un'etichetta per questo indirizzo per aggiungerlo alla lista degli indirizzi utilizzati</translation>
     </message>
     <message>
-        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Komodo network.</source>
-        <translation>Messaggio incluso nel Pirate URI e che sarÃ  memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarÃ  inviato attraverso la rete Komodo.</translation>
+        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pirate network.</source>
+        <translation>Messaggio incluso nel Pirate URI e che sarà memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete Pirate.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2272,7 +2272,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Non spegnere il computer fino a quando questa finestra non si sarÃ  chiusa.</translation>
+        <translation>Non spegnere il computer fino a quando questa finestra non si sarà chiusa.</translation>
     </message>
 </context>
 <context>
@@ -2287,7 +2287,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Ã possibile firmare messaggi/accordi con i propri indirizzi in modo da dimostrare di poter ricevere Pirate attraverso di essi. Si consiglia di prestare attenzione a non firmare dichiarazioni vaghe o casuali, attacchi di phishing potrebbero cercare di indurre ad apporre la firma su di esse. Si raccomanda di firmare esclusivamente dichiarazioni completamente dettagliate e delle quali si condivide in pieno il contenuto.</translation>
+        <translation>È possibile firmare messaggi/accordi con i propri indirizzi in modo da dimostrare di poter ricevere Pirate attraverso di essi. Si consiglia di prestare attenzione a non firmare dichiarazioni vaghe o casuali, attacchi di phishing potrebbero cercare di indurre ad apporre la firma su di esse. Si raccomanda di firmare esclusivamente dichiarazioni completamente dettagliate e delle quali si condivide in pieno il contenuto.</translation>
     </message>
     <message>
         <source>The Pirate address to sign the message with</source>
@@ -2323,7 +2323,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Pirate address</source>
-        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo Komodo</translation>
+        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo Pirate</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2343,11 +2343,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Per verificare il messaggio inserire l'indirizzo del firmatario, il messaggio e la firma nei campi sottostanti, assicurandosi di copiare esattamente anche ritorni a capo, spazi, tabulazioni, etc.. Si raccomanda di non lasciarsi fuorviare dalla firma a leggere piÃ¹ di quanto non sia riportato nel testo del messaggio stesso, in modo da evitare di cadere vittima di attacchi di tipo man-in-the-middle. Si ricorda che la verifica della firma dimostra soltanto che il firmatario puÃ² ricevere pagamenti con l'indirizzo corrispondente, non prova l'invio di alcuna transazione.</translation>
+        <translation>Per verificare il messaggio inserire l'indirizzo del firmatario, il messaggio e la firma nei campi sottostanti, assicurandosi di copiare esattamente anche ritorni a capo, spazi, tabulazioni, etc.. Si raccomanda di non lasciarsi fuorviare dalla firma a leggere più di quanto non sia riportato nel testo del messaggio stesso, in modo da evitare di cadere vittima di attacchi di tipo man-in-the-middle. Si ricorda che la verifica della firma dimostra soltanto che il firmatario può ricevere pagamenti con l'indirizzo corrispondente, non prova l'invio di alcuna transazione.</translation>
     </message>
     <message>
         <source>The Pirate address the message was signed with</source>
-        <translation>L'indirizzo Pirate con cui Ã¨ stato contrassegnato il messaggio</translation>
+        <translation>L'indirizzo Pirate con cui è stato contrassegnato il messaggio</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Pirate address</source>
@@ -2367,7 +2367,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>L'indirizzo inserito non Ã¨ valido.</translation>
+        <translation>L'indirizzo inserito non è valido.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
@@ -2375,7 +2375,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>L'indirizzo Pirate inserito non Ã¨ associato a nessuna chiave.</translation>
+        <translation>L'indirizzo Pirate inserito non è associato a nessuna chiave.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -2383,7 +2383,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>La chiave privata per l'indirizzo inserito non Ã¨ disponibile.</translation>
+        <translation>La chiave privata per l'indirizzo inserito non è disponibile.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
@@ -2395,7 +2395,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Non Ã¨ stato possibile decodificare la firma.</translation>
+        <translation>Non è stato possibile decodificare la firma.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
@@ -2456,7 +2456,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, non Ã¨ ancora stata trasmessa con successo</translation>
+        <translation>, non è ancora stata trasmessa con successo</translation>
     </message>
     <message>
         <source>Date</source>
@@ -2598,7 +2598,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Questo blocco non Ã¨ stato ricevuto da alcun altro nodo e probabilmente non sarÃ  accettato!</translation>
+        <translation>Questo blocco non è stato ricevuto da alcun altro nodo e probabilmente non sarà accettato!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
@@ -2638,7 +2638,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Data e ora in cui la transazione Ã¨ stata ricevuta.</translation>
+        <translation>Data e ora in cui la transazione è stata ricevuta.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
@@ -2785,7 +2785,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Si Ã¨ verificato un errore durante il salvataggio dello storico delle transazioni in %1.</translation>
+        <translation>Si è verificato un errore durante il salvataggio dello storico delle transazioni in %1.</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
@@ -2808,21 +2808,21 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>UnitÃ  con cui visualizzare gli importi. Clicca per selezionare un'altra unitÃ .</translation>
+        <translation>Unità con cui visualizzare gli importi. Clicca per selezionare un'altra unità.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Non Ã¨ stato caricato alcun portamonete.</translation>
+        <translation>Non è stato caricato alcun portamonete.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia Komodo</translation>
+        <translation>Invia Pirate</translation>
     </message>
 </context>
 <context>
@@ -2849,7 +2849,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Si Ã¨ verificato un errore durante il salvataggio dei dati del portamonete in %1.</translation>
+        <translation>Si è verificato un errore durante il salvataggio dei dati del portamonete in %1.</translation>
     </message>
     <message>
         <source>Backup Successful</source>
@@ -2857,7 +2857,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>Il portamonete Ã¨ stato correttamente salvato in %1.</translation>
+        <translation>Il portamonete è stato correttamente salvato in %1.</translation>
     </message>
 </context>
 <context>
@@ -2884,23 +2884,23 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>Se &lt;category&gt; non Ã¨ specificato oppure se &lt;category&gt; = 1, mostra tutte le informazioni di debug.</translation>
+        <translation>Se &lt;category&gt; non è specificato oppure se &lt;category&gt; = 1, mostra tutte le informazioni di debug.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>La modalitÃ  prune Ã¨ configurata al di sotto del minimo di %d MB. Si prega di utilizzare un valore piÃ¹ elevato.</translation>
+        <translation>La modalità prune è configurata al di sotto del minimo di %d MB. Si prega di utilizzare un valore più elevato.</translation>
     </message>
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Prune: l'ultima sincronizzazione del wallet risulta essere oltre la riduzione dei dati. Ã necessario eseguire un -reindex (scaricare nuovamente la blockchain in caso di nodo pruned)</translation>
+        <translation>Prune: l'ultima sincronizzazione del wallet risulta essere oltre la riduzione dei dati. È necessario eseguire un -reindex (scaricare nuovamente la blockchain in caso di nodo pruned)</translation>
     </message>
     <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>Non Ã¨ possibile un Rescan in modalitÃ  pruned. SarÃ  necessario utilizzare -reindex che farÃ  scaricare nuovamente tutta la blockchain.</translation>
+        <translation>Non è possibile un Rescan in modalità pruned. Sarà necessario utilizzare -reindex che farà scaricare nuovamente tutta la blockchain.</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Errore: si Ã¨ presentato un errore interno fatale, consulta il file debug.log per maggiori dettagli</translation>
+        <translation>Errore: si è presentato un errore interno fatale, consulta il file debug.log per maggiori dettagli</translation>
     </message>
     <message>
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
@@ -2928,7 +2928,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
-        <translation>Un importo (in %s/kB) che sarÃ  utilizzato quando la stima delle commissioni non ha abbastanza dati (default: %s)</translation>
+        <translation>Un importo (in %s/kB) che sarà utilizzato quando la stima delle commissioni non ha abbastanza dati (default: %s)</translation>
     </message>
     <message>
         <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
@@ -2940,7 +2940,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>Non Ã¨ possibile ottenere i dati sulla cartella %s. Probabilmente %s Ã¨ giÃ  in esecuzione.</translation>
+        <translation>Non è possibile ottenere i dati sulla cartella %s. Probabilmente %s è già in esecuzione.</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
@@ -2948,7 +2948,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>Errore caricamento %s: Non puoi abilitare HD in un portafoglio non-HD giÃ  esistente</translation>
+        <translation>Errore caricamento %s: Non puoi abilitare HD in un portafoglio non-HD già esistente</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -2956,11 +2956,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Esegue un comando quando lo stato di una transazione del portamonete cambia (%s in cmd Ã¨ sostituito da TxID)</translation>
+        <translation>Esegue un comando quando lo stato di una transazione del portamonete cambia (%s in cmd è sostituito da TxID)</translation>
     </message>
     <message>
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
-        <translation>Regolazione della massima differenza media di tempo dei peer consentita. L'impostazione dell'orario locale puÃ² essere impostata in avanti o indietro di questa quantitÃ . (default %u secondi)</translation>
+        <translation>Regolazione della massima differenza media di tempo dei peer consentita. L'impostazione dell'orario locale può essere impostata in avanti o indietro di questa quantità. (default %u secondi)</translation>
     </message>
     <message>
         <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
@@ -2968,7 +2968,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Per favore controllate che la data del computer e l'ora siano corrette! Se il vostro orologio Ã¨ sbagliato %s non funzionerÃ  correttamente.</translation>
+        <translation>Per favore controllate che la data del computer e l'ora siano corrette! Se il vostro orologio è sbagliato %s non funzionerà correttamente.</translation>
     </message>
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
@@ -2980,7 +2980,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>Il database dei blocchi contiene un blocco che sembra provenire dal futuro. Questo puÃ² essere dovuto alla data e ora del tuo computer impostate in modo scorretto. Ricostruisci il database dei blocchi se sei certo che la data e l'ora sul tuo computer siano corrette</translation>
+        <translation>Il database dei blocchi contiene un blocco che sembra provenire dal futuro. Questo può essere dovuto alla data e ora del tuo computer impostate in modo scorretto. Ricostruisci il database dei blocchi se sei certo che la data e l'ora sul tuo computer siano corrette</translation>
     </message>
     <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
@@ -2988,11 +2988,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>Utilizza UPnP per mappare la porta in ascolto (default: 1 quando in ascolto e -proxy non Ã¨ specificato)</translation>
+        <translation>Utilizza UPnP per mappare la porta in ascolto (default: 1 quando in ascolto e -proxy non è specificato)</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>Ã necessario ricostruire il database usando -reindex per cambiare -txindex</translation>
+        <translation>È necessario ricostruire il database usando -reindex per cambiare -txindex</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
@@ -3056,7 +3056,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>AbilitÃ  pubblicazione hash transazione in &lt;address&gt;</translation>
+        <translation>Abilità pubblicazione hash transazione in &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
@@ -3092,7 +3092,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
-        <translation>Errore caricamento %s: Non puoi disabilitare HD in un portafoglio HD giÃ  esistente</translation>
+        <translation>Errore caricamento %s: Non puoi disabilitare HD in un portafoglio HD già esistente</translation>
     </message>
     <message>
         <source>Error loading block database</source>
@@ -3104,7 +3104,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Errore: la spazio libero sul disco Ã¨ insufficiente!</translation>
+        <translation>Errore: la spazio libero sul disco è insufficiente!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -3116,11 +3116,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Blocco genesi non corretto o non trovato. Ã possibile che la cartella dati appartenga ad un'altra rete.</translation>
+        <translation>Blocco genesi non corretto o non trovato. È possibile che la cartella dati appartenga ad un'altra rete.</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>Test di integritÃ  iniziale fallito. %s si arresterÃ .</translation>
+        <translation>Test di integrità iniziale fallito. %s si arresterà.</translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
@@ -3164,11 +3164,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
-        <translation>La modalitÃ  prune non puÃ² essere configurata con un valore negativo.</translation>
+        <translation>La modalità prune non può essere configurata con un valore negativo.</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
-        <translation>La modalitÃ  prune Ã¨ incompatibile con l'opzione -txindex.</translation>
+        <translation>La modalità prune è incompatibile con l'opzione -txindex.</translation>
     </message>
     <message>
         <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
@@ -3176,7 +3176,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>Ricrea l'indice della catena dei blocchi partendo da quelli giÃ  indicizzati</translation>
+        <translation>Ricrea l'indice della catena dei blocchi partendo da quelli già indicizzati</translation>
     </message>
     <message>
         <source>Rewinding blocks...</source>
@@ -3196,11 +3196,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
-        <translation>Il codice sorgente Ã¨ disponibile in %s</translation>
+        <translation>Il codice sorgente è disponibile in %s</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>Impossibile collegarsi a %s su questo computer. Probabilmente %s Ã¨ giÃ  in esecuzione.</translation>
+        <translation>Impossibile collegarsi a %s su questo computer. Probabilmente %s è già in esecuzione.</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -3248,7 +3248,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Permette connessioni JSON-RPC dall'origine specificata. I valori validi per &lt;ip&gt; sono un singolo IP (ad es. 1.2.3.4), una network/netmask (ad es. 1.2.3.4/255.255.255.0) oppure una network/CIDR (ad es. 1.2.3.4/24). Questa opzione puÃ² essere specificata piÃ¹ volte.</translation>
+        <translation>Permette connessioni JSON-RPC dall'origine specificata. I valori validi per &lt;ip&gt; sono un singolo IP (ad es. 1.2.3.4), una network/netmask (ad es. 1.2.3.4/255.255.255.0) oppure una network/CIDR (ad es. 1.2.3.4/24). Questa opzione può essere specificata più volte.</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
@@ -3256,11 +3256,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Resta in attesa di connessioni JSON-RPC sull'indirizzo indicato. Usa la notazione [host]:porta per IPv6. Questa opzione puÃ² essere specificata piÃ¹ volte (predefinito: associa a tutte le interfacce) </translation>
+        <translation>Resta in attesa di connessioni JSON-RPC sull'indirizzo indicato. Usa la notazione [host]:porta per IPv6. Questa opzione può essere specificata più volte (predefinito: associa a tutte le interfacce) </translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Crea nuovi file con i permessi di default del sistema, invece che con umask 077 (ha effetto solo con funzionalitÃ  di portamonete disabilitate)</translation>
+        <translation>Crea nuovi file con i permessi di default del sistema, invece che con umask 077 (ha effetto solo con funzionalità di portamonete disabilitate)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
@@ -3272,7 +3272,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Esegue un comando in caso di ricezione di un allarme pertinente o se si rileva un fork molto lungo (%s in cmd Ã¨ sostituito dal messaggio)</translation>
+        <translation>Esegue un comando in caso di ricezione di un allarme pertinente o se si rileva un fork molto lungo (%s in cmd è sostituito dal messaggio)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
@@ -3296,7 +3296,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Imposta la dimensione massima in byte delle transazioni ad alta-prioritÃ /basse-commissioni (predefinito: %d)</translation>
+        <translation>Imposta la dimensione massima in byte delle transazioni ad alta-priorità/basse-commissioni (predefinito: %d)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
@@ -3308,11 +3308,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>I peer inclusi in whitelist non possono subire ban per DoS e le loro transazioni saranno sempre trasmesse, anche nel caso in cui si trovino giÃ  nel mempool. CiÃ² Ã¨ utile ad es. per i gateway</translation>
+        <translation>I peer inclusi in whitelist non possono subire ban per DoS e le loro transazioni saranno sempre trasmesse, anche nel caso in cui si trovino già nel mempool. Ciò è utile ad es. per i gateway</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>Per ritornare alla modalitÃ  unpruned sarÃ  necessario ricostruire il database utilizzando l'opzione -reindex. L'intera blockchain sarÃ  riscaricata.</translation>
+        <translation>Per ritornare alla modalità unpruned sarà necessario ricostruire il database utilizzando l'opzione -reindex. L'intera blockchain sarà riscaricata.</translation>
     </message>
     <message>
         <source>(default: %u)</source>
@@ -3356,7 +3356,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Ã necessario specificare una porta con -whitebind: '%s'</translation>
+        <translation>È necessario specificare una porta con -whitebind: '%s'</translation>
     </message>
     <message>
         <source>Node relay options:</source>
@@ -3388,7 +3388,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Riduce il file debug.log all'avvio del client (predefinito: 1 se -debug non Ã¨ impostato)</translation>
+        <translation>Riduce il file debug.log all'avvio del client (predefinito: 1 se -debug non è impostato)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -3396,11 +3396,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
-        <translation>L'importo della transazione Ã¨ troppo basso per pagare la commissione</translation>
+        <translation>L'importo della transazione è troppo basso per pagare la commissione</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Questo Ã¨ un software sperimentale.</translation>
+        <translation>Questo è un software sperimentale.</translation>
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
@@ -3444,7 +3444,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Whether to operate in a blocks only mode (default: %u)</source>
-        <translation>Imposta se operare in modalitÃ  solo blocchi (default: %u)</translation>
+        <translation>Imposta se operare in modalità solo blocchi (default: %u)</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
@@ -3460,7 +3460,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Esegue un comando quando il miglior blocco cambia (%s nel cmd Ã¨ sostituito dall'hash del blocco)</translation>
+        <translation>Esegue un comando quando il miglior blocco cambia (%s nel cmd è sostituito dall'hash del blocco)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
@@ -3476,11 +3476,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>-maxtxfee Ã¨ impostato molto alto! Commissioni cosÃ¬ alte possono venir pagate anche su una singola transazione.</translation>
+        <translation>-maxtxfee è impostato molto alto! Commissioni così alte possono venir pagate anche su una singola transazione.</translation>
     </message>
     <message>
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>Non mantenere le transazioni nella mempool piÃ¹ a lungo di &lt;n&gt; ore (default: %u)</translation>
+        <translation>Non mantenere le transazioni nella mempool più a lungo di &lt;n&gt; ore (default: %u)</translation>
     </message>
     <message>
         <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
@@ -3492,7 +3492,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Determina quanto sarÃ  approfondita la verifica da parte di -checkblocks (0-4, predefinito: %u)</translation>
+        <translation>Determina quanto sarà approfondita la verifica da parte di -checkblocks (0-4, predefinito: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
@@ -3504,7 +3504,7 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Emette informazioni di debug (predefinito: %u, fornire &lt;category&gt; Ã¨ opzionale)</translation>
+        <translation>Emette informazioni di debug (predefinito: %u, fornire &lt;category&gt; è opzionale)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
@@ -3520,11 +3520,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Argomento -socks non supportato. Non Ã¨ piÃ¹ possibile impostare la versione SOCKS, solamente i proxy SOCKS5 sono supportati.</translation>
+        <translation>Argomento -socks non supportato. Non è più possibile impostare la versione SOCKS, solamente i proxy SOCKS5 sono supportati.</translation>
     </message>
     <message>
         <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
-        <translation>Argomento non supportato -whitelistalwaysrelay Ã¨ stato ignorato, utilizzare -whitelistrelay e/o -whitelistforcerelay.</translation>
+        <translation>Argomento non supportato -whitelistalwaysrelay è stato ignorato, utilizzare -whitelistrelay e/o -whitelistforcerelay.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3648,11 +3648,11 @@ Per specificare piÃ¹ URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Non Ã¨ possibile effettuare il downgrade del portamonete</translation>
+        <translation>Non è possibile effettuare il downgrade del portamonete</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Non Ã¨ possibile scrivere l'indirizzo predefinito</translation>
+        <translation>Non è possibile scrivere l'indirizzo predefinito</translation>
     </message>
     <message>
         <source>Rescanning...</source>

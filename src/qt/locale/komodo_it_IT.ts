@@ -73,7 +73,7 @@
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Attenzione: Il tasto blocco delle maiuscole Ã¨ attivo!</translation>
+        <translation>Attenzione: Il tasto blocco delle maiuscole è attivo!</translation>
     </message>
 </context>
 <context>

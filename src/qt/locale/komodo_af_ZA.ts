@@ -23,7 +23,7 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Voer inligting uit van die huidige blad na n lÃªer</translation>
+        <translation>Voer inligting uit van die huidige blad na n lêer</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Koma geskeide lÃªers (*.csv)</translation>
+        <translation>Koma geskeide lêers (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -223,7 +223,7 @@
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;LÃªer</translation>
+        <translation>&amp;Lêer</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
@@ -710,7 +710,7 @@
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Koma geskeide lÃªers (*.csv)</translation>
+        <translation>Koma geskeide lêers (*.csv)</translation>
     </message>
     <message>
         <source>Date</source>
@@ -766,7 +766,7 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Voer inligting uit van die huidige blad na n lÃªer</translation>
+        <translation>Voer inligting uit van die huidige blad na n lêer</translation>
     </message>
     </context>
 <context>
