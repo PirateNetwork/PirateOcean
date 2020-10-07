@@ -12,7 +12,10 @@
 #include "key_io.h"
 
 #include <stdint.h>
-
+/**
+ * @todo Add z bits
+ * @body Need to use key(s) to view tx and populate data.
+ */
 
 /* Return positive answer if transaction should be shown in list.
  */

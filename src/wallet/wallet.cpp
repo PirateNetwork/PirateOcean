@@ -1293,6 +1293,7 @@ int CWallet::VerifyAndSetInitialWitness(const CBlockIndex *pindex, bool witnessO
                 ::ClearSingleNoteWitnessCache(nd);
 
                 LogPrintf("Setting Inital Sprout Witness for tx %s, %i of %i\n", wtxHash.ToString(), nWitnessTxIncrement, nWitnessTotalTxCount);
+
                 SproutMerkleTree sproutTree;
                 blockRoot = pblockindex->pprev->hashFinalSproutRoot;
                 pcoinsTip->GetSproutAnchorAt(blockRoot, sproutTree);
@@ -1529,7 +1530,6 @@ void CWallet::BuildWitnessCache(const CBlockIndex *pindex, bool witnessOnly)
                         {
                             nd->witnesses.pop_back();
                         }
-
                         for (const CTransaction &tx : block.vtx)
                         {
                             for (uint32_t i = 0; i < tx.vShieldedOutput.size(); i++)
@@ -3645,8 +3645,9 @@ void CWallet::DeleteWalletTransactions(const CBlockIndex* pindex) {
         //Delete Transactions from wallet
         DeleteTransactions(removeTxs);
         LogPrintf("Delete Tx - Total Transaction Count %i, Transactions Deleted %i\n ", txCount, int(removeTxs.size()));
-		if (GetBoolArg("-deletetx", true))
-			uiInterface.ShowProgress(_(("Rescanning - Current Wallet Transaction Count " + std::to_string(txCount)).c_str()),scanperc, false);
+        if (GetBoolArg("-deletetx", true))
+          uiInterface.ShowProgress(_(("Rescanning - Current Wallet Transaction Count " + std::to_string(txCount)).c_str()),scanperc, false);
+
         //Compress Wallet
         if (runCompact)
           CWalletDB::Compact(bitdb,strWalletFile);
@@ -3720,7 +3721,6 @@ int CWallet::ScanForWalletTransactions(CBlockIndex *pindexStart, bool fUpdate)
         }
         //Update all witness caches
         BuildWitnessCache(chainActive.Tip(), false);
-
         uiInterface.ShowProgress(_("Rescanning..."), 100, false); // hide progress dialog in GUI
     }
     return ret;
