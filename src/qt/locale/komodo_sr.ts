@@ -35,7 +35,7 @@
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;ÐÐ·Ð±ÑÐ¸ÑÐ¸</translation>
+        <translation>&amp;Избриши</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -61,15 +61,15 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passphrase</source>
-        <translation>Ð£Ð½ÐµÑÐ¸ÑÐµ Ð»Ð¾Ð·Ð¸Ð½ÐºÑ</translation>
+        <translation>Унесите лозинку</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>ÐÐ¾Ð²Ð° Ð»Ð¾Ð·Ð¸Ð½ÐºÐ°</translation>
+        <translation>Нова лозинка</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>ÐÐ¾Ð½Ð¾Ð²Ð¸ÑÐµ Ð½Ð¾Ð²Ñ Ð»Ð¾Ð·Ð¸Ð½ÐºÑ</translation>
+        <translation>Поновите нову лозинку</translation>
     </message>
     </context>
 <context>
@@ -79,23 +79,23 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Ð¡Ð¸Ð½ÑÑÐ¾Ð½Ð¸Ð·Ð°ÑÐ¸ÑÐ° ÑÐ° Ð¼ÑÐµÐ¶Ð¾Ð¼ Ñ ÑÐ¾ÐºÑ...</translation>
+        <translation>Синхронизација са мрежом у току...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;ÐÐ¿ÑÑÐ¸ Ð¿ÑÐµÐ³Ð»ÐµÐ´</translation>
+        <translation>&amp;Општи преглед</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>ÐÐ¾Ð³Ð»ÐµÐ´Ð°ÑÑÐµ Ð¾Ð¿ÑÑÐ¸ Ð¿ÑÐµÐ³Ð»ÐµÐ´ Ð½Ð¾Ð²ÑÐ°Ð½Ð¸ÐºÐ°</translation>
+        <translation>Погледајте општи преглед новчаника</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Ð¢ÑÐ°Ð½ÑÐ°ÐºÑÐ¸ÑÐµ</translation>
+        <translation>&amp;Трансакције</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>ÐÑÐµÑÑÐ°Ð¶Ð¸ÑÐµ Ð¸ÑÑÐ¾ÑÐ¸ÑÐ°Ñ ÑÑÐ°Ð½ÑÐ°ÐºÑÐ¸ÑÐ°</translation>
+        <translation>Претражите историјат трансакција</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -103,91 +103,91 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>ÐÐ°Ð¿ÑÑÑÐ¸ÑÐµ Ð¿ÑÐ¾Ð³ÑÐ°Ð¼</translation>
+        <translation>Напустите програм</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Ð &amp;Qt-Ñ</translation>
+        <translation>О &amp;Qt-у</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>ÐÑÐµÐ³Ð»ÐµÐ´Ð°ÑÑÐµ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸ÑÐµ Ð¾ Qt-Ñ</translation>
+        <translation>Прегледајте информације о Qt-у</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>Ð&amp;Ð¾ÑÑÐ°Ð²ÐºÐµ...</translation>
+        <translation>П&amp;оставке...</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Ð¨Ð¸ÑÑÐ¾Ð²Ð°ÑÐµ Ð½Ð¾Ð²ÑÐ°Ð½Ð¸ÐºÐ°...</translation>
+        <translation>&amp;Шифровање новчаника...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Ð½Ð¾Ð²ÑÐ°Ð½Ð¸ÐºÐ°</translation>
+        <translation>&amp;Backup новчаника</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>ÐÑÐ¾Ð¼ÐµÐ½Ð¸ &amp;Ð»Ð¾Ð·Ð¸Ð½ÐºÑ...</translation>
+        <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>ÐÐ¾ÑÐ°ÑÐ¸ÑÐµ Ð½Ð¾Ð²Ð°Ñ Ð½Ð° Pirate Ð°Ð´ÑÐµÑÑ</translation>
+        <translation>Пошаљите новац на Pirate адресу</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>ÐÐµÑÐ°ÑÐµ Ð»Ð¾Ð·Ð¸Ð½ÐºÐµ ÐºÐ¾ÑÐ¾Ð¼ ÑÐµ ÑÐ¸ÑÑÑÑÐµ Ð½Ð¾Ð²ÑÐ°Ð½Ð¸Ðº</translation>
+        <translation>Мењање лозинке којом се шифрује новчаник</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Ð½Ð¾Ð²ÑÐ°Ð½Ð¸Ðº</translation>
+        <translation>новчаник</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;ÐÐ¾ÑÐ°ÑÐ¸</translation>
+        <translation>&amp;Пошаљи</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Ð¤Ð°ÑÐ»</translation>
+        <translation>&amp;Фајл</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;ÐÐ¾Ð´ÐµÑÐ°Ð²Ð°ÑÐ°</translation>
+        <translation>&amp;Подешавања</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>Ð&amp;Ð¾Ð¼Ð¾Ñ</translation>
+        <translation>П&amp;омоћ</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Ð¢ÑÐ°ÐºÐ° ÑÐ° ÐºÐ°ÑÑÐ¸ÑÐ°Ð¼Ð°</translation>
+        <translation>Трака са картицама</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>GreÅ¡ka</translation>
+        <translation>Greška</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>ÐÐ¶ÑÑÐ½Ð¾</translation>
+        <translation>Ажурно</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>ÐÐ¶ÑÑÐ¸ÑÐ°ÑÐµ Ñ ÑÐ¾ÐºÑ...</translation>
+        <translation>Ажурирање у току...</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>ÐÐ¾ÑÐ»Ð°Ð½Ð° ÑÑÐ°Ð½ÑÐ°ÐºÑÐ¸ÑÐ°</translation>
+        <translation>Послана трансакција</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>ÐÑÐ¸Ð´Ð¾ÑÐ»Ð° ÑÑÐ°Ð½ÑÐ°ÐºÑÐ¸ÑÐ°</translation>
+        <translation>Придошла трансакција</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>ÐÐ¾Ð²ÑÐ°Ð½Ð¸Ðº ÑÑ &lt;b&gt;ÑÐ¸ÑÑÐ¾Ð²Ð°Ð½&lt;/b&gt; Ð¸ ÑÑÐµÐ½ÑÑÐ½Ð¾ &lt;b&gt;Ð¾ÑÐºÑÑÑÐ°Ð½&lt;/b&gt;</translation>
+        <translation>Новчаник јс &lt;b&gt;шифрован&lt;/b&gt; и тренутно &lt;b&gt;откључан&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>ÐÐ¾Ð²ÑÐ°Ð½Ð¸Ðº ÑÑ &lt;b&gt;ÑÐ¸ÑÑÐ¾Ð²Ð°Ð½&lt;/b&gt; Ð¸ ÑÑÐµÐ½ÑÑÐ½Ð¾ &lt;b&gt;Ð·Ð°ÐºÑÑÑÐ°Ð½&lt;/b&gt;</translation>
+        <translation>Новчаник јс &lt;b&gt;шифрован&lt;/b&gt; и тренутно &lt;b&gt;закључан&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
@@ -213,15 +213,15 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>ÐÐ·Ð¼ÐµÐ½Ð¸ Ð°Ð´ÑÐµÑÑ</translation>
+        <translation>Измени адресу</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;ÐÑÐ¸ÐºÐµÑÐ°</translation>
+        <translation>&amp;Етикета</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;ÐÐ´ÑÐµÑÐ°</translation>
+        <translation>&amp;Адреса</translation>
     </message>
     </context>
 <context>
@@ -231,25 +231,25 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>Ð²ÐµÑÐ·Ð¸ÑÐ°</translation>
+        <translation>верзија</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>KoriÅ¡Äenje:</translation>
+        <translation>Korišćenje:</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Error</source>
-        <translation>GreÅ¡ka</translation>
+        <translation>Greška</translation>
     </message>
     </context>
 <context>
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>Ð¤Ð¾ÑÐ¼Ð°</translation>
+        <translation>Форма</translation>
     </message>
     </context>
 <context>
@@ -259,15 +259,15 @@
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>ÐÐ¾ÑÑÐ°Ð²ÐºÐµ</translation>
+        <translation>Поставке</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>Ð½Ð¾Ð²ÑÐ°Ð½Ð¸Ðº</translation>
+        <translation>новчаник</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;ÐÐµÐ´Ð¸Ð½Ð¸ÑÐ° Ð·Ð° Ð¿ÑÐ¸ÐºÐ°Ð·Ð¸Ð²Ð°ÑÐµ Ð¸Ð·Ð½Ð¾ÑÐ°:</translation>
+        <translation>&amp;Јединица за приказивање износа:</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -278,7 +278,7 @@
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Ð¤Ð¾ÑÐ¼Ð°</translation>
+        <translation>Форма</translation>
     </message>
     </context>
 <context>
@@ -319,7 +319,7 @@
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;ÐÑÐ¸ÐºÐµÑÐ°</translation>
+        <translation>&amp;Етикета</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -327,7 +327,7 @@
     </message>
     <message>
         <source>Show</source>
-        <translation>PrikaÅ¾i</translation>
+        <translation>Prikaži</translation>
     </message>
     </context>
 <context>
@@ -344,7 +344,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Ð¡Ð»Ð°ÑÐµ Ð½Ð¾Ð²ÑÐ°</translation>
+        <translation>Слање новца</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -352,11 +352,11 @@
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>ÐÐ¾ÑÐ²ÑÐ´Ð¸ Ð°ÐºÑÐ¸ÑÑ ÑÐ»Ð°ÑÐ°</translation>
+        <translation>Потврди акцију слања</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;ÐÐ¾ÑÐ°ÑÐ¸</translation>
+        <translation>&amp;Пошаљи</translation>
     </message>
     </context>
 <context>
@@ -367,7 +367,7 @@
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;ÐÑÐ¸ÐºÐµÑÐ°</translation>
+        <translation>&amp;Етикета</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -375,7 +375,7 @@
     </message>
     <message>
         <source>Alt+P</source>
-        <translation>Alt+Ð</translation>
+        <translation>Alt+П</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -400,7 +400,7 @@
     </message>
     <message>
         <source>Alt+P</source>
-        <translation>Alt+Ð</translation>
+        <translation>Alt+П</translation>
     </message>
     </context>
 <context>
@@ -461,7 +461,7 @@
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>KorisniÄko ime za JSON-RPC konekcije</translation>
+        <translation>Korisničko ime za JSON-RPC konekcije</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
@@ -469,7 +469,7 @@
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>uÄitavam adrese....</translation>
+        <translation>učitavam adrese....</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -477,11 +477,11 @@
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>UÄitavam blok indeksa...</translation>
+        <translation>Učitavam blok indeksa...</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>ÐÐ¾Ð²ÑÐ°Ð½Ð¸Ðº ÑÐµ ÑÑÐ¸ÑÐ°Ð²Ð°...</translation>
+        <translation>Новчаник се учитава...</translation>
     </message>
     <message>
         <source>Rescanning...</source>
@@ -489,11 +489,11 @@
     </message>
     <message>
         <source>Done loading</source>
-        <translation>ZavrÅ¡eno uÄitavanje</translation>
+        <translation>Završeno učitavanje</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>GreÅ¡ka</translation>
+        <translation>Greška</translation>
     </message>
 </context>
 </TS>

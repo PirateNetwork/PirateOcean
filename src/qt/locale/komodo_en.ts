@@ -552,8 +552,8 @@
         <location line="+356"/>
         <source>%n active connection(s) to Pirate network</source>
         <translation>
-            <numerusform>%n active connection to Komodo network</numerusform>
-            <numerusform>%n active connections to Komodo network</numerusform>
+            <numerusform>%n active connection to Pirate network</numerusform>
+            <numerusform>%n active connections to Pirate network</numerusform>
         </translation>
     </message>
     <message>
@@ -1095,7 +1095,7 @@
     <message>
         <location filename="../intro.cpp" line="+20"/>
         <source>Pirate</source>
-        <translation type="unfinished">Komodo</translation>
+        <translation type="unfinished">Pirate</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -3033,7 +3033,7 @@
     </message>
     <message>
         <location line="+47"/>
-        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Komodo network.</source>
+        <source>A message that was attached to the Pirate: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pirate network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

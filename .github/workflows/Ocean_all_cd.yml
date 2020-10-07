@@ -1,5 +1,4 @@
-name: PirateOcean CD test releases
-
+name: PirateOcean Auto-release
 
 on:
   push:
@@ -137,8 +136,8 @@ jobs:
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           with:
-            tag_name: release_${{ steps.shortify_commit.outputs.sha_short }}_${{ steps.extract_branch.outputs.branch }}
-            release_name: Release ${{ steps.shortify_commit.outputs.sha_short }} ${{ steps.extract_branch.outputs.branch }}
+            tag_name: release_${{ steps.shortify_commit.outputs.sha_short }}
+            release_name: Master Release at ${{ steps.shortify_commit.outputs.sha_short }}
             draft: false
             prerelease: false
         - name: Upload Linux Release Asset
@@ -149,7 +148,7 @@ jobs:
           with:
             upload_url: ${{ steps.create_release.outputs.upload_url }} 
             asset_path: pirate-qt-linux/pirate-qt-linux.zip
-            asset_name: pirate${{ steps.shortify_commit.outputs.sha_short }}_${{ steps.extract_branch.outputs.branch }}_linux.zip
+            asset_name: pirate${{ steps.shortify_commit.outputs.sha_short }}_linux.zip
             asset_content_type: application/zip
         - name: Upload Mac Release Asset
           id: upload-mac-release-asset 
@@ -159,7 +158,7 @@ jobs:
           with:
             upload_url: ${{ steps.create_release.outputs.upload_url }} 
             asset_path: pirate-qt-mac/pirate-qt-mac.zip
-            asset_name: pirate${{ steps.shortify_commit.outputs.sha_short }}_${{ steps.extract_branch.outputs.branch }}_Mac.zip
+            asset_name: pirate${{ steps.shortify_commit.outputs.sha_short }}_mac.zip
             asset_content_type: application/zip
         - name: Upload Windows Release Asset
           id: upload-windows-release-asset 
@@ -169,5 +168,5 @@ jobs:
           with:
             upload_url: ${{ steps.create_release.outputs.upload_url }} 
             asset_path: pirate-qt-win/pirate-qt-win.zip
-            asset_name: pirate${{ steps.shortify_commit.outputs.sha_short }}_${{ steps.extract_branch.outputs.branch }}_win.zip
+            asset_name: pirate${{ steps.shortify_commit.outputs.sha_short }}_win.zip
             asset_content_type: application/zip

@@ -172,10 +172,9 @@ static void InitMessage(SplashScreen *splash, const std::string &message)
 
 static void ShowProgress(SplashScreen *splash, const std::string &title, int nProgress, bool resume_possible)
 {
-    InitMessage(splash, title + std::string("\n") +
-            (resume_possible ? _("(press q to shutdown and continue later)")
-                                : _("press q to shutdown")) +
-            strprintf("\n%d", nProgress) + "%");
+	if (splash->isVisible()) {
+		InitMessage(splash, title + std::string("\n") + (resume_possible ? _("(press q to shutdown and continue later)") : _("press q to shutdown")) + strprintf("\n%d", nProgress) + "%");
+	}
 }
 
 #ifdef ENABLE_WALLET

@@ -1,45 +1,45 @@
-<TS language="uz@Cyrl" version="2.1">
+﻿<TS language="uz@Cyrl" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>ÐÐ°Ð½Ð·Ð¸Ð» ÑÐºÐ¸ ÑÑÐ»Ð¸ÒÐ½Ð¸ ÑÐ°Ò³ÑÐ¸ÑÐ»Ð°Ñ ÑÑÑÐ½ Ð¸ÐºÐºÐ¸ Ð¼Ð°ÑÑÐ° Ð±Ð¾ÑÐ¸Ð½Ð³</translation>
+        <translation>Манзил ёки ёрлиқни таҳрирлаш учун икки марта босинг</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Ð¯Ð½Ð³Ð¸ Ð¼Ð°Ð½Ð·Ð¸Ð» ÑÑÐ°ÑÐ¸Ð½Ð³</translation>
+        <translation>Янги манзил яратинг</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Ð¯Ð½Ð³Ð¸</translation>
+        <translation>&amp;Янги</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>ÐÐ¾ÑÐ¸Ð¹ ÑÐ°Ð½Ð»Ð°Ð½Ð³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð½Ð¸ ÑÐ¸Ð·Ð¸Ð¼ Ð²Ð°ÒÑÐ¸Ð½ÑÐ°Ð»Ð¸Ðº ÑÐ¾ÑÐ¸ÑÐ°ÑÐ¸Ð³Ð° Ð½ÑÑÑÐ° ÐºÑÑÐ¸ÑÐ¸Ð½Ð³</translation>
+        <translation>Жорий танланган манзилни тизим вақтинчалик хотирасига нусха кўчиринг</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;ÐÑÑÑÐ° Ð¾Ð»Ð¸Ñ</translation>
+        <translation>&amp;Нусха олиш</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;ÐÐ¿Ð¸Ñ</translation>
+        <translation>&amp;Ёпиш</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>ÐÐ¾ÑÐ¸Ð¹ ÑÐ°Ð½Ð»Ð°Ð½Ð³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð½Ð¸ ÑÑÐ¹ÑÐ°ÑÐ´Ð°Ð½ ÑÑÐ¸ÑÐ¸Ñ</translation>
+        <translation>Жорий танланган манзилни рўйхатдан ўчириш</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>ÐÐ¾ÑÐ¸Ð¹ Ð¸ÑÐºÐ¸ Ð¾Ð¹Ð½Ð° Ð¸ÑÐ¸Ð´Ð°Ð³Ð¸ Ð¼Ð°ÑÐ»ÑÐ¼Ð¾ÑÐ»Ð°ÑÐ½Ð¸ ÑÐ°Ð¹Ð»Ð³Ð° ÑÐºÑÐ¿Ð¾ÑÑ ÒÐ¸Ð»Ð¸Ñ</translation>
+        <translation>Жорий ички ойна ичидаги маълумотларни файлга экспорт қилиш</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Ð­ÐºÑÐ¿Ð¾ÑÑ</translation>
+        <translation>&amp;Экспорт</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;ÐÑÐ¸ÑÐ¸Ñ</translation>
+        <translation>&amp;Ўчириш</translation>
     </message>
     </context>
 <context>
@@ -49,19 +49,19 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>ÐÐ°ÑÑÐ¸Ð¹ ÑÑÐ· Ð¾Ð¹Ð½Ð°ÑÐ¸</translation>
+        <translation>Махфий сўз ойнаси</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>ÐÐ°ÑÑÐ¸Ð¹ ÑÑÐ·Ð½Ð¸ ÐºÐ¸ÑÐ¸ÑÐ¸Ð½Ð³</translation>
+        <translation>Махфий сузни киритинг</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Ð¯Ð½Ð³Ð¸ Ð¼Ð°ÑÑÐ¸Ð¹ ÑÑÐ·</translation>
+        <translation>Янги махфий суз</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Ð¯Ð½Ð³Ð¸ Ð¼Ð°ÑÑÐ¸Ð¹ ÑÑÐ·Ð½Ð¸ ÑÐ°ÐºÑÐ¾ÑÐ»Ð°Ð½Ð³</translation>
+        <translation>Янги махфий сузни такрорланг</translation>
     </message>
     </context>
 <context>
@@ -71,103 +71,103 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>&amp;Ð¥Ð°Ð±Ð°Ñ ÑÐ·Ð¸Ñ...</translation>
+        <translation>&amp;Хабар ёзиш...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Ð¢Ð°ÑÐ¼Ð¾Ò Ð±Ð¸Ð»Ð°Ð½ ÑÐ¸Ð½ÑÑÐ¾Ð½Ð»Ð°Ð½Ð¼Ð¾ÒÐ´Ð°...</translation>
+        <translation>Тармоқ билан синхронланмоқда...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;ÐÑÑÐ¸Ð± ÑÐ¸ÒÐ¸Ñ</translation>
+        <translation>&amp;Кўриб чиқиш</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Ð£Ð»Ð°Ð¼</translation>
+        <translation>Улам</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Ò²Ð°Ð¼ÑÐ½Ð½Ð¸Ð½Ð³ ÑÐ¼ÑÐ¼Ð¸Ð¹ ÐºÑÑÐ¸Ð½Ð¸ÑÐ¸Ð½Ð¸ ÐºÑÑÑÐ°ÑÐ¸Ñ</translation>
+        <translation>Ҳамённинг умумий кўринишини кўрсатиш</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;ÐÑÐ» ÑÑÐºÐ°Ð·Ð¼Ð°Ð»Ð°ÑÐ¸</translation>
+        <translation>&amp;Пул ўтказмалари</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>ÐÑÐ» ÑÑÐºÐ°Ð·Ð¼Ð°Ð»Ð°ÑÐ¸ ÑÐ°ÑÐ¸ÑÐ¸Ð½Ð¸ ÐºÑÑÐ¸Ñ</translation>
+        <translation>Пул ўтказмалари тарихини кўриш</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>Ð§&amp;Ð¸ÒÐ¸Ñ</translation>
+        <translation>Ч&amp;иқиш</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>ÐÐ»Ð¾Ð²Ð°Ð´Ð°Ð½ ÑÐ¸ÒÐ¸Ñ</translation>
+        <translation>Иловадан чиқиш</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>&amp;Qt Ò³Ð°ÒÐ¸Ð´Ð°</translation>
+        <translation>&amp;Qt ҳақида</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Qt Ò³Ð°ÒÐ¸Ð´Ð°Ð³Ð¸ Ð¼Ð°ÑÐ»ÑÐ¼Ð¾ÑÐ»Ð°ÑÐ½Ð¸ ÐºÑÑÑÐ°ÑÐ¸Ñ</translation>
+        <translation>Qt ҳақидаги маълумотларни кўрсатиш</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;ÐÐ¾ÑÐ»Ð°Ð¼Ð°Ð»Ð°Ñ...</translation>
+        <translation>&amp;Мосламалар...</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Ò²Ð°Ð¼ÑÐ½Ð½Ð¸ &amp;ÐºÐ¾Ð´Ð»Ð°Ñ...</translation>
+        <translation>Ҳамённи &amp;кодлаш...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Ò²Ð°Ð¼ÑÐ½Ð½Ð¸ &amp;Ð·Ð°Ò³Ð¸ÑÐ°Ð»Ð°Ñ...</translation>
+        <translation>Ҳамённи &amp;заҳиралаш...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>ÐÐ°ÑÑÐ¸Ð¹ ÑÑÐ·Ð½Ð¸ &amp;ÑÐ·Ð³Ð°ÑÑÐ¸ÑÐ¸Ñ...</translation>
+        <translation>Махфий сўзни &amp;ўзгартириш...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;ÐÑÐ½Ð°ÑÐ¸Ð»ÑÐ²ÑÐ¸ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð»Ð°Ñ...</translation>
+        <translation>&amp;Жўнатилувчи манзиллар...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;ÒÐ°Ð±ÑÐ» ÒÐ¸Ð»ÑÐ²ÑÐ¸ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð»Ð°Ñ...</translation>
+        <translation>&amp;Қабул қилувчи манзиллар...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>ÐÐ½ÑÐµÑÐ½ÐµÑ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð½Ð¸ Ð¾ÑÐ¸Ñ</translation>
+        <translation>Интернет манзилни очиш</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>ÐÐ¸ÑÐºÐ´Ð°Ð³Ð¸ Ð±Ð»Ð¾ÐºÐ»Ð°Ñ ÒÐ°Ð¹ÑÐ° Ð¸Ð½Ð´ÐµÐºÑÐ»Ð°Ð½Ð¼Ð¾ÒÐ´Ð°...</translation>
+        <translation>Дискдаги блоклар қайта индексланмоқда...</translation>
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Ð¢Ð°Ð½Ð³Ð°Ð»Ð°ÑÐ½Ð¸ Pirate Ð¼Ð°Ð½Ð·Ð¸Ð»Ð¸Ð³Ð° Ð¶ÑÐ½Ð°ÑÐ¸Ñ</translation>
+        <translation>Тангаларни Pirate манзилига жўнатиш</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Ò²Ð°Ð¼ÑÐ½Ð½Ð¸ Ð±Ð¾ÑÒÐ° Ð¼Ð°Ð½Ð·Ð¸Ð»Ð³Ð° Ð·Ð°Ò³Ð¸ÑÐ°Ð»Ð°Ñ</translation>
+        <translation>Ҳамённи бошқа манзилга заҳиралаш</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>ÐÐ°ÑÐ¾Ð»Ð½Ð¸ ÑÐ·Ð³Ð°ÑÑÐ¸ÑÐ¸Ñ Ò³Ð°Ð¼ÑÐ½Ð½Ð¸ ÐºÐ¾Ð´Ð»Ð°ÑÐ´Ð° ÑÐ¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ð»Ð°Ð´Ð¸</translation>
+        <translation>Паролни ўзгартириш ҳамённи кодлашда фойдаланилади</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;ÐÐ¾ÑÐ¾Ð·Ð»Ð¸ÐºÐ½Ð¸ Ò³Ð°Ð» ÒÐ¸Ð»Ð¸Ñ Ð¾Ð¹Ð½Ð°ÑÐ¸</translation>
+        <translation>&amp;Носозликни ҳал қилиш ойнаси</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>ÐÐ¾ÑÐ¾Ð·Ð»Ð¸ÐºÐ½Ð¸ Ò³Ð°Ð» ÒÐ¸Ð»Ð¸Ñ Ð²Ð° ÑÐ°ÑÑÐ¸Ñ ÑÐµÑÐ¼Ð¸Ð½Ð°Ð»Ð¸</translation>
+        <translation>Носозликни ҳал қилиш ва ташхис терминали</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>Ð¥Ð°Ð±Ð°ÑÐ½Ð¸ &amp;ÑÐ°ÑÐ´Ð¸ÒÐ»Ð°Ñ...</translation>
+        <translation>Хабарни &amp;тасдиқлаш...</translation>
     </message>
     <message>
         <source>Pirate</source>
@@ -175,235 +175,235 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Ò²Ð°Ð¼ÑÐ½</translation>
+        <translation>Ҳамён</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;ÐÑÐ½Ð°ÑÐ¸Ñ</translation>
+        <translation>&amp;Жўнатиш</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;ÒÐ°Ð±ÑÐ» ÒÐ¸Ð»Ð¸Ñ</translation>
+        <translation>&amp;Қабул қилиш</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;ÐÑÑÑÐ°ÑÐ¸Ñ / Ð¯ÑÐ¸ÑÐ¸Ñ</translation>
+        <translation>&amp;Кўрсатиш / Яшириш</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>ÐÑÐ¾ÑÐ¸Ð¹ Ð¾Ð¹Ð½Ð°Ð½Ð¸ ÐºÑÑÑÐ°ÑÐ¸Ñ ÑÐºÐ¸ ÑÑÐ¸ÑÐ¸Ñ</translation>
+        <translation>Асосий ойнани кўрсатиш ёки яшириш</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Ò²Ð°Ð¼ÑÐ½Ð¸Ð½Ð³Ð¸Ð·Ð³Ð° ÑÐµÐ³Ð¸ÑÐ»Ð¸ Ð¼Ð°ÑÑÐ¸Ð¹ ÐºÐ°Ð»Ð¸ÑÐ»Ð°ÑÐ½Ð¸ ÐºÐ¾Ð´Ð»Ð°Ñ</translation>
+        <translation>Ҳамёнингизга тегишли махфий калитларни кодлаш</translation>
     </message>
     <message>
         <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>Komodo Ð¼Ð°Ð½Ð·Ð¸Ð»Ð¸Ð´Ð°Ð½ ÑÐ½Ð¸Ð½Ð³ ÑÐ³Ð°ÑÐ¸ ÑÐºÐ°Ð½Ð»Ð¸Ð³Ð¸Ð½Ð³Ð¸Ð·Ð½Ð¸ Ð¸ÑÐ±Ð¾ÑÐ»Ð°Ñ ÑÑÑÐ½ ÑÐ°Ð±Ð°ÑÐ»Ð°Ñ ÑÐ·Ð¸Ð½Ð³</translation>
+        <translation>Pirate манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>Ð¥Ð°Ð±Ð°ÑÐ»Ð°ÑÐ½Ð¸ Ð¼Ð°ÑÑÑÑ Pirate Ð¼Ð°Ð½Ð·Ð¸Ð»Ð»Ð°ÑÐ¸Ð½Ð³Ð¸Ð· Ð±Ð¸Ð»Ð°Ð½ ÑÐ·Ð¸Ð»Ð³Ð°Ð½Ð»Ð¸Ð³Ð¸Ð³Ð° Ð¸ÑÐ¾Ð½Ñ Ò³Ð¾ÑÐ¸Ð» ÒÐ¸Ð»Ð¸Ñ ÑÑÑÐ½ ÑÐ»Ð°ÑÐ½Ð¸ ÑÐ°ÑÐ´Ð¸ÒÐ»Ð°Ð½Ð³</translation>
+        <translation>Хабарларни махсус Pirate манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Ð¤Ð°Ð¹Ð»</translation>
+        <translation>&amp;Файл</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp; Ð¡Ð¾Ð·Ð»Ð°Ð¼Ð°Ð»Ð°Ñ</translation>
+        <translation>&amp; Созламалар</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;ÐÑÐ´Ð°Ð¼</translation>
+        <translation>&amp;Ёрдам</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>ÐÑÐºÐ¸ Ð¾Ð¹Ð½Ð°Ð»Ð°Ñ Ð°ÑÐ±Ð¾Ð±Ð»Ð°Ñ Ð¿Ð°Ð½ÐµÐ»Ð¸</translation>
+        <translation>Ички ойналар асбоблар панели</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>Ð¢ÑÐ»Ð¾Ð²Ð»Ð°Ñ (QR ÐºÐ¾Ð´Ð»Ð°ÑÐ¸ Ð²Ð° Pirate ÑÑÐ´Ð°Ð¼Ð¸Ð´Ð° ÑÑÐ°ÑÐ¸ÑÐ»Ð°Ñ: URIâÐ»Ð°Ñ) ÑÑÑÐ°Ñ</translation>
+        <translation>Тўловлар (QR кодлари ва Pirate ёрдамида яратишлар: URI’лар) сўраш</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Ð¤Ð¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ð»Ð³Ð°Ð½ Ð¶ÑÐ½Ð°ÑÐ¸Ð»Ð³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð»Ð°Ñ Ð²Ð° ÑÑÐ»Ð¸ÒÐ»Ð°Ñ ÑÑÐ¹ÑÐ°ÑÐ¸Ð½Ð¸ ÐºÑÑÑÐ°ÑÐ¸Ñ</translation>
+        <translation>Фойдаланилган жўнатилган манзиллар ва ёрлиқлар рўйхатини кўрсатиш</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Ð¤Ð¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ð»Ð³Ð°Ð½ ÒÐ°Ð±ÑÐ» ÒÐ¸Ð»Ð¸Ð½Ð³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð»Ð°Ñ Ð²Ð° ÑÑÐ»Ð¸ÒÐ»Ð°Ñ ÑÑÐ¹ÑÐ°ÑÐ¸Ð½Ð¸ ÐºÑÑÑÐ°ÑÐ¸Ñ</translation>
+        <translation>Фойдаланилган қабул қилинган манзиллар ва ёрлиқлар рўйхатини кўрсатиш</translation>
     </message>
     <message>
         <source>Open a Pirate: URI or payment request</source>
-        <translation>KomodoâÐ½Ð¸ Ð¾ÑÐ¸Ñ: URI ÑÐºÐ¸ ÑÑÐ»Ð¾Ð² ÑÑÑÐ¾Ð²Ð¸</translation>
+        <translation>Pirate’ни очиш: URI ёки тўлов сўрови</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;ÐÑÐ¹ÑÑÒÐ»Ð°Ñ ÑÐ°ÑÑÐ¸ Ð¼Ð¾ÑÐ»Ð°Ð¼Ð°Ð»Ð°ÑÐ¸</translation>
+        <translation>&amp;Буйруқлар сатри мосламалари</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Pirate network</source>
-        <translation><numerusform>%n ÑÐ° Pirate ÑÐ°ÑÐ¼Ð¾ÒÐ¸Ð³Ð° ÑÐ°Ð¾Ð» ÑÐ»Ð°Ð½Ð¸Ñ Ð¼Ð°Ð²Ð¶ÑÐ´</numerusform></translation>
+        <translation><numerusform>%n та Pirate тармоғига фаол уланиш мавжуд</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 Ð¾ÑÒÐ°Ð´Ð°</translation>
+        <translation>%1 орқада</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Ð¡ÑÐ½Ð³Ð¸ ÒÐ°Ð±ÑÐ» ÒÐ¸Ð»Ð¸Ð½Ð³Ð°Ð½ Ð±Ð»Ð¾Ðº %1 Ð¾Ð»Ð´Ð¸Ð½ ÑÑÐ°ÑÐ¸Ð»Ð³Ð°Ð½.</translation>
+        <translation>Сўнги қабул қилинган блок %1 олдин яратилган.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>ÐÑÐ½Ð´Ð°Ð½ ÐºÐµÐ¹Ð¸Ð½Ð³Ð¸ Ð¿ÑÐ» ÑÑÐºÐ°Ð·Ð¼Ð°Ð»Ð°ÑÐ¸ ÐºÑÑÐ¸Ð½Ð¼Ð°Ð¹Ð´Ð¸Ð³Ð°Ð½ Ð±ÑÐ»Ð°Ð´Ð¸.</translation>
+        <translation>Бундан кейинги пул ўтказмалари кўринмайдиган бўлади.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Ð¥Ð°ÑÐ¾Ð»Ð¸Ðº</translation>
+        <translation>Хатолик</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>ÐÐ¸ÒÒÐ°Ñ</translation>
+        <translation>Диққат</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>ÐÐ°ÑÐ»ÑÐ¼Ð¾Ñ</translation>
+        <translation>Маълумот</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Ð¯Ð½Ð³Ð¸Ð»Ð°Ð½Ð³Ð°Ð½</translation>
+        <translation>Янгиланган</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>ÐÐ°Ð½Ð´ ÒÐ¸Ð»Ð¸Ð½Ð¼Ð¾ÒÐ´Ð°...</translation>
+        <translation>Банд қилинмоқда...</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>ÐÑÐ½Ð°ÑÐ¸Ð»Ð³Ð°Ð½ Ð¾Ð¿ÐµÑÐ°ÑÐ¸Ñ</translation>
+        <translation>Жўнатилган операция</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>ÐÐ¸ÑÑÐ²ÑÐ¸ Ð¾Ð¿ÐµÑÐ°ÑÐ¸Ñ</translation>
+        <translation>Кирувчи операция</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Ò²Ð°Ð¼ÑÐ½ &lt;b&gt;ÐºÐ¾Ð´Ð»Ð°Ð½Ð³Ð°Ð½&lt;/b&gt; Ð²Ð° Ð²Ð°ÒÑÐ¸Ð½ÑÐ° &lt;b&gt;ÒÑÐ»ÑÐ´Ð°Ð½ ÑÐ¸ÒÐ°ÑÐ¸Ð»Ð³Ð°Ð½&lt;/b&gt;</translation>
+        <translation>Ҳамён &lt;b&gt;кодланган&lt;/b&gt; ва вақтинча &lt;b&gt;қулфдан чиқарилган&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Ò²Ð°Ð¼ÑÐ½ &lt;b&gt;ÐºÐ¾Ð´Ð»Ð°Ð½Ð³Ð°Ð½&lt;/b&gt; Ð²Ð° Ð²Ð°ÒÑÐ¸Ð½ÑÐ° &lt;b&gt;ÒÑÐ»ÑÐ»Ð°Ð½Ð³Ð°Ð½&lt;/b&gt;</translation>
+        <translation>Ҳамён &lt;b&gt;кодланган&lt;/b&gt; ва вақтинча &lt;b&gt;қулфланган&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Ð¡Ð¾Ð½Ð¸:</translation>
+        <translation>Сони:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>ÐÐ°Ð¹Ñ:</translation>
+        <translation>Байт:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>ÐÐ¸ÒÐ´Ð¾ÑÐ¸:</translation>
+        <translation>Миқдори:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Ð¡Ð¾Ð»Ð¸Ò:</translation>
+        <translation>Солиқ:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>ÐÑÐ»Ð°Ñ ÒÑÑÐ¸ÑÐ¸:</translation>
+        <translation>Ахлат қутиси:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Ð¡Ð¾Ð»Ð¸ÒÐ´Ð°Ð½ ÑÑÐ½Ð³:</translation>
+        <translation>Солиқдан сўнг:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>ÐÐ·Ð³Ð°ÑÑÐ¸ÑÐ¸Ñ:</translation>
+        <translation>Ўзгартириш:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>Ð±Ð°ÑÑÐ°ÑÐ¸Ð½Ð¸ ÑÐ°Ð½Ð°Ñ (Ð±ÐµÐºÐ¾Ñ ÒÐ¸Ð»Ð¸Ñ)</translation>
+        <translation>барчасини танаш (бекор қилиш)</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>ÐÐ°ÑÐ°ÑÑ ÑÑÑÐ»Ð¸Ð´Ð°</translation>
+        <translation>Дарахт усулида</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Ð ÑÐ¹ÑÐ°Ñ ÑÑÑÐ»Ð¸Ð´Ð°</translation>
+        <translation>Рўйхат усулида</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>ÐÐ¸ÒÐ´Ð¾ÑÐ¸</translation>
+        <translation>Миқдори</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Ð¡Ð°Ð½Ð°</translation>
+        <translation>Сана</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Ð¢Ð°ÑÐ´Ð¸ÒÐ»Ð°ÑÐ»Ð°Ñ</translation>
+        <translation>Тасдиқлашлар</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Ð¢Ð°ÑÐ´Ð¸ÒÐ»Ð°Ð½Ð´Ð¸</translation>
+        <translation>Тасдиқланди</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>ÐÐ°Ð½Ð·Ð¸Ð»Ð»Ð°ÑÐ½Ð¸ ÑÐ°Ò³ÑÐ¸ÑÐ»Ð°Ñ</translation>
+        <translation>Манзилларни таҳрирлаш</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;ÐÑÐ»Ð¸Ðº</translation>
+        <translation>&amp;Ёрлик</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>ÐÑÐ»Ð¸Ò ÑÑÐ±Ñ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð°Ñ ÑÑÐ¹ÑÐ°ÑÐ¸ ÑÐ·ÑÐ²Ð¸ Ð±Ð¸Ð»Ð°Ð½ Ð±Ð¾ÒÐ»Ð°Ð½Ð³Ð°Ð½</translation>
+        <translation>Ёрлиқ ушбу манзилар рўйхати ёзуви билан боғланган</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>ÐÐ°Ð½Ð·Ð¸Ð» ÑÑÐ±Ñ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð»Ð°Ñ ÑÑÐ¹ÑÐ°ÑÐ¸ ÑÐ·ÑÐ²Ð¸ Ð±Ð¸Ð»Ð°Ð½ Ð±Ð¾ÒÐ»Ð°Ð½Ð³Ð°Ð½. Ð£Ð½Ð¸ ÑÐ°ÒÐ°Ñ Ð¶ÑÐ½Ð°ÑÐ¸Ð»Ð°Ð´Ð¸Ð³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð»Ð°Ñ ÑÑÑÐ½ ÑÐ·Ð³Ð°ÑÑÐ¸ÑÑÐ° Ð±ÑÐ»Ð°Ð´Ð¸.</translation>
+        <translation>Манзил ушбу манзиллар рўйхати ёзуви билан боғланган. Уни фақат жўнатиладиган манзиллар учун ўзгартирса бўлади.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;ÐÐ°Ð½Ð·Ð¸Ð»</translation>
+        <translation>&amp;Манзил</translation>
     </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Ð¯Ð½Ð³Ð¸ Ð¼Ð°ÑÐ»ÑÐ¼Ð¾ÑÐ»Ð°Ñ Ð´Ð¸ÑÐµÐºÑÐ¾ÑÐ¸ÑÑÐ¸ ÑÑÐ°ÑÐ¸Ð»Ð°Ð´Ð¸.</translation>
+        <translation>Янги маълумотлар директорияси яратилади.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>Ð½Ð¾Ð¼Ð¸</translation>
+        <translation>номи</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>ÐÐ¸ÑÐµÐºÑÐ¾ÑÐ¸Ñ Ð°Ð»Ð»Ð°ÒÐ°ÑÐ¾Ð½ Ð¼Ð°Ð²Ð¶ÑÐ´. ÐÐ³Ð°Ñ Ð±Ñ ÐµÑÐ´Ð° ÑÐ½Ð³Ð¸ Ð´Ð¸ÑÐµÐºÑÐ¾ÑÐ¸Ñ ÑÑÐ°ÑÐ¼Ð¾ÒÑÐ¸ Ð±ÑÐ»ÑÐ°Ð½Ð³Ð¸Ð·, %1 ÒÑÑÐ¸Ð½Ð³.</translation>
+        <translation>Директория аллақачон мавжуд. Агар бу ерда янги директория яратмоқчи бўлсангиз, %1 қўшинг.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>ÐÑÐ» Ð°Ð»Ð»Ð°ÒÐ°ÑÐ¾Ð½ Ð¼Ð°Ð²Ð¶ÑÐ´. Ð£ Ð´Ð¸ÑÐµÐºÑÐ¾ÑÐ¸Ñ ÑÐ¼Ð°Ñ.</translation>
+        <translation>Йўл аллақачон мавжуд. У директория эмас.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>ÐÐ°ÑÐ»ÑÐ¼Ð¾ÑÐ»Ð°Ñ Ð´Ð¸ÑÐµÐºÑÐ¾ÑÐ¸ÑÑÐ¸Ð½Ð¸ Ð±Ñ ÐµÑÐ´Ð° ÑÑÐ°ÑÐ¸Ð± Ð±ÑÐ»Ð¼Ð°Ð¹Ð´Ð¸..</translation>
+        <translation>Маълумотлар директориясини бу ерда яратиб бўлмайди..</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>Ð²ÐµÑÑÐ¸ÑÑÐ¸</translation>
+        <translation>версияси</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -411,60 +411,60 @@
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>ÐÑÐ¹ÑÑÒÐ»Ð°Ñ ÑÐ°ÑÑÐ¸ Ð¼Ð¾ÑÐ»Ð°Ð¼Ð°Ð»Ð°ÑÐ¸</translation>
+        <translation>Буйруқлар сатри мосламалари</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Ð¤Ð¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ñ:</translation>
+        <translation>Фойдаланиш:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>Ð±ÑÐ¹ÑÑÒÐ»Ð°Ñ ÒÐ°ÑÐ¾ÑÐ¸ Ð¾ÑÒÐ°Ð»Ð¸ Ð¼Ð¾ÑÐ»Ð°Ñ</translation>
+        <translation>буйруқлар қатори орқали мослаш</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Ð¥ÑÑ ÐºÐµÐ»Ð¸Ð±ÑÐ¸Ð·</translation>
+        <translation>Хуш келибсиз</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Ð¡ÑÐ°Ð½Ð´Ð°ÑÑ Ð¼Ð°ÑÐ»ÑÐ¼Ð¾ÑÐ»Ð°Ñ Ð´Ð¸ÑÐµÐºÑÐ¾ÑÐ¸ÑÑÐ¸Ð´Ð°Ð½ ÑÐ¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ñ</translation>
+        <translation>Стандарт маълумотлар директориясидан фойдаланиш</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>ÐÐ¾ÑÒÐ° Ð¼Ð°ÑÐ»ÑÐ¼Ð¾ÑÐ»Ð°Ñ Ð´Ð¸ÑÐµÐºÑÐ¾ÑÐ¸ÑÑÐ¸Ð´Ð° ÑÐ¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ð½Ð³:</translation>
+        <translation>Бошқа маълумотлар директориясида фойдаланинг:</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Ð¥Ð°ÑÐ¾: ÐºÑÑÑÐ°ÑÐ¸Ð»Ð³Ð°Ð½ "%1" Ð¼Ð°ÑÐ»ÑÐ¼Ð¾ÑÐ»Ð°Ñ Ð´Ð¸ÑÐµÐºÑÐ¾ÑÐ¸ÑÑÐ¸Ð½Ð¸ ÑÑÐ°ÑÐ¸Ð± Ð±ÑÐ»Ð¼Ð°Ð¹Ð´Ð¸.</translation>
+        <translation>Хато: кўрсатилган "%1" маълумотлар директориясини яратиб бўлмайди.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Ð¥Ð°ÑÐ¾Ð»Ð¸Ðº</translation>
+        <translation>Хатолик</translation>
     </message>
     </context>
 <context>
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>Ð¨Ð°ÐºÐ»</translation>
+        <translation>Шакл</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Ð¡ÑÐ½Ð³Ð³Ð¸ Ð±Ð»Ð¾Ðº Ð²Ð°ÒÑÐ¸</translation>
+        <translation>Сўнгги блок вақти</translation>
     </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>URI Ð½Ð¸ Ð¾ÑÐ¸Ñ</translation>
+        <translation>URI ни очиш</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>URL ÑÐ°Ð¹Ð»Ð´Ð°Ð½ ÑÑÐ»Ð¾Ð² ÑÑÑÐ¾Ð²Ð»Ð°ÑÐ¸Ð½Ð¸ Ð¾ÑÐ¸Ñ</translation>
+        <translation>URL файлдан тўлов сўровларини очиш</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -472,94 +472,94 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Ð¢ÑÐ»Ð¾Ð² ÑÑÑÐ¾Ð²Ð¸ ÑÐ°Ð¹Ð»Ð¸Ð½Ð¸ ÑÐ°Ð½Ð»Ð°Ñ</translation>
+        <translation>Тўлов сўрови файлини танлаш</translation>
     </message>
     </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Ð¢Ð°Ð½Ð»Ð°Ð¼Ð°Ð»Ð°Ñ</translation>
+        <translation>Танламалар</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;ÐÑÐ¾ÑÐ¸Ð¹</translation>
+        <translation>&amp;Асосий</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>&amp;ÐÐ°ÑÐ»ÑÐ¼Ð¾ÑÐ»Ð°Ñ Ð±Ð°Ð·Ð°ÑÐ¸ ÐºÐµÑÐ¸</translation>
+        <translation>&amp;Маълумотлар базаси кеши</translation>
     </message>
     <message>
         <source>MB</source>
-        <translation>ÐÐ</translation>
+        <translation>МБ</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>ÐÐ°Ð²Ð·ÑÐ»Ð°ÑÐ½Ð¸ &amp;ÑÑÒÑÐ¸Ð»Ð°Ñ ÑÐºÑÐ¸Ð¿ÑÐ¸ Ð¼Ð¸ÒÐ´Ð¾ÑÐ¸</translation>
+        <translation>Мавзуларни &amp;тўғрилаш скрипти миқдори</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Ð¢Ð°ÑÒÐ°ÑÐ¸Ð´Ð°Ð½ ÑÐ»Ð°Ð½Ð¸ÑÐ»Ð°ÑÐ³Ð° ÑÐ¾Ð·Ð¸ Ð±ÑÐ»Ð¸Ñ</translation>
+        <translation>Ташқаридан уланишларга рози бўлиш</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>ÐÐ¸ÑÑÐ²ÑÐ¸ ÑÐ»Ð°Ð½Ð¸ÑÐ»Ð°ÑÐ³Ð° ÑÑÑÑÐ°Ñ Ð±ÐµÑÐ¸Ñ</translation>
+        <translation>Кирувчи уланишларга рухсат бериш</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>ÐÑÐ¾ÐºÑÐ¸ IP Ð¼Ð°Ð½Ð·Ð¸Ð»Ð¸ (Ð¼Ð°ÑÐ°Ð»Ð°Ð½: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>Прокси IP манзили (масалан: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>ÐÐµÐ³Ð¾Ð½Ð° ÑÐ°ÑÐ°Ñ ÑÑÐºÐ°Ð·Ð¼Ð°Ð»Ð°ÑÐ¸ URL Ð¼Ð°Ð½Ð·Ð¸Ð»Ð»Ð°ÑÐ¸</translation>
+        <translation>Бегона тараф ўтказмалари URL манзиллари</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>Ð¢Ð°ÑÐ¼Ð¾Ò</translation>
+        <translation>Тармоқ</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>Ò²Ð°Ð¼ÑÐ½</translation>
+        <translation>Ҳамён</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>ÐÑÐ¾ÐºÑÐ¸ &amp;IP ÑÐ°ÒÐ°Ð¼Ð¸:</translation>
+        <translation>Прокси &amp;IP рақами:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;ÐÐ¾ÑÑ:</translation>
+        <translation>&amp;Порт:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>ÐÑÐ¾ÐºÑÐ¸ Ð¿Ð¾ÑÑÐ¸ (e.g. 9050)</translation>
+        <translation>Прокси порти (e.g. 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;ÐÐ¹Ð½Ð°</translation>
+        <translation>&amp;Ойна</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>ÐÐ¹Ð½Ð° Ð¹Ð¸ÒÐ¸Ð»Ð³Ð°Ð½Ð´Ð°Ð½ ÑÑÐ½Ð³ ÑÐ°ÒÐ°Ñ ÑÑÑÐ¹ Ð½Ð¸ÑÐ¾Ð½ÑÐ°ÑÐ¸ ÐºÑÑÑÐ°ÑÐ¸Ð»ÑÐ¸Ð½.</translation>
+        <translation>Ойна йиғилгандан сўнг фақат трэй нишончаси кўрсатилсин.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>ÐÐ°Ð½Ð·Ð¸Ð»Ð»Ð°Ñ Ð¿Ð°Ð½ÐµÐ»Ð¸ ÑÑÐ½Ð¸Ð³Ð° ÑÑÑÐ¹Ð½Ð¸ &amp;Ð¹Ð¸ÒÐ¸Ñ</translation>
+        <translation>Манзиллар панели ўрнига трэйни &amp;йиғиш</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>ÐÐ¿Ð¸ÑÐ´Ð° Ð¹&amp;Ð¸ÒÐ¸Ñ</translation>
+        <translation>Ёпишда й&amp;иғиш</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;ÐÑÑÑÐ°ÑÐ¸Ñ</translation>
+        <translation>&amp;Кўрсатиш</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Ð¤Ð¾Ð¹Ð´Ð°Ð»Ð°Ð½ÑÐ²ÑÐ¸ Ð¸Ð½ÑÐµÑÑÐµÐ¹ÑÐ¸ &amp;ÑÐ¸Ð»Ð¸:</translation>
+        <translation>Фойдаланувчи интерфейси &amp;тили:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>ÐÐ¸ÒÐ´Ð¾ÑÐ»Ð°ÑÐ½Ð¸ ÐºÑÑÑÐ°ÑÐ¸Ñ ÑÑÑÐ½ &amp;ÒÐ¸ÑÐ¼:</translation>
+        <translation>Миқдорларни кўрсатиш учун &amp;қисм:</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -567,102 +567,102 @@
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;ÐÐµÐºÐ¾Ñ ÒÐ¸Ð»Ð¸Ñ</translation>
+        <translation>&amp;Бекор қилиш</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>ÑÑÐ°Ð½Ð´Ð°ÑÑ</translation>
+        <translation>стандарт</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>Ð¹ÑÒ</translation>
+        <translation>йўқ</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Ð¢Ð°ÑÐ´Ð¸ÒÐ»Ð°Ñ ÑÐ°Ð½Ð»Ð¾Ð²Ð»Ð°ÑÐ¸Ð½Ð¸ ÑÐ°Ð´ ÒÐ¸Ð»Ð¸Ñ</translation>
+        <translation>Тасдиқлаш танловларини рад қилиш</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>ÐÐ·Ð³Ð°ÑÐ¸ÑÐ»Ð°Ñ Ð°Ð¼Ð°Ð»Ð³Ð° Ð¾ÑÐ¸ÑÐ¸ ÑÑÑÐ½ Ð¼Ð¸Ð¶Ð¾Ð·Ð½Ð¸ ÒÐ°Ð¹ÑÐ° Ð¸ÑÐ³Ð° ÑÑÑÐ¸ÑÐ¸Ñ ÑÐ°Ð»Ð°Ð± ÒÐ¸Ð»Ð¸Ð½Ð°Ð´Ð¸.</translation>
+        <translation>Ўзгаришлар амалга ошиши учун мижозни қайта ишга тушириш талаб қилинади.</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Ð£ÑÐ±Ñ ÑÐ·Ð³Ð°ÑÐ¸Ñ Ð¼Ð¸Ð¶Ð¾Ð·Ð½Ð¸ ÒÐ°Ð¹ÑÐ°Ð´Ð°Ð½ Ð¸ÑÐ³Ð° ÑÑÑÐ¸ÑÐ¸ÑÐ½Ð¸ ÑÐ°Ð»Ð°Ð± ÒÐ¸Ð»Ð°Ð´Ð¸.</translation>
+        <translation>Ушбу ўзгариш мижозни қайтадан ишга туширишни талаб қилади.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>ÐÐµÐ»ÑÐ¸ÑÐ¸Ð»Ð³Ð°Ð½ Ð¿ÑÐ¾ÐºÑÐ¸ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð¸ Ð¸ÑÐ»Ð°Ð¼Ð°Ð¹Ð´Ð¸.</translation>
+        <translation>Келтирилган прокси манзили ишламайди.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Ð¨Ð°ÐºÐ»</translation>
+        <translation>Шакл</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pirate network after a connection is established, but this process has not completed yet.</source>
-        <translation>ÐÑÑÑÐ°ÑÐ¸Ð»Ð³Ð°Ð½ Ð¼Ð°ÑÐ»ÑÐ¼Ð¾Ñ ÑÑÐºÐ¸ÑÐ³Ð°Ð½ Ð±ÑÐ»Ð¸ÑÐ¸ Ð¼ÑÐ¼ÐºÐ¸Ð½. Ò²Ð°Ð¼ÑÐ½Ð¸Ð½Ð³Ð¸Ð· Ð°Ð»Ð¾ÒÐ° ÑÑÐ½Ð°ÑÐ¸Ð»Ð³Ð°Ð½Ð´Ð°Ð½ ÑÑÐ½Ð³ Pirate ÑÐ°ÑÐ¼Ð¾Ò Ð±Ð¸Ð»Ð°Ð½ Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸Ðº ÑÐ°ÑÐ·Ð´Ð° ÑÐ¸Ð½ÑÑÐ¾Ð½Ð»Ð°Ð½Ð°Ð´Ð¸, Ð°Ð¼Ð¼Ð¾ Ð¶Ð°ÑÐ°ÑÐ½ Ò³Ð°Ð»Ð¸Ð³Ð°ÑÐ° ÑÑÐ³Ð°Ð»Ð»Ð°Ð½Ð¼Ð°Ð´Ð¸.</translation>
+        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Pirate тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Ð¤Ð°ÒÐ°Ñ ÐºÑÑÐ¸ÑÐ³Ð°</translation>
+        <translation>Фақат кўришга</translation>
     </message>
     <message>
         <source>Transparent:</source>
-        <translation>ÐÐ°Ð²Ð¶ÑÐ´:</translation>
+        <translation>Мавжуд:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>ÐÐ¾ÑÐ¸Ð¹ ÑÐ°ÑÑÐ»Ð°Ð½Ð°Ð´Ð¸Ð³Ð°Ð½ Ð±Ð°Ð»Ð°Ð½ÑÐ¸Ð½Ð³Ð¸Ð·</translation>
+        <translation>Жорий сарфланадиган балансингиз</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>ÐÑÑÐ¸Ð»Ð¼Ð¾ÒÐ´Ð°:</translation>
+        <translation>Кутилмоқда:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>ÐÐ°Ð¼Ð¸ ÑÑÐºÐ°Ð·Ð¼Ð°Ð»Ð°Ñ Ò³Ð¾Ð·Ð¸ÑÐ³Ð°ÑÐ° ÑÐ°ÑÐ´Ð¸ÒÐ»Ð°Ð½Ð³Ð°Ð½ Ð²Ð° ÑÐ°ÑÐ»Ð°Ð½Ð°Ð´Ð¸Ð³Ð°Ð½ Ð±Ð°Ð»Ð°Ð½Ñ ÑÐ¾Ð¼Ð¾Ð½Ð³Ð° Ò³Ð°Ð»Ð¸ Ò³Ð°Ð¼ Ò³Ð¸ÑÐ¾Ð±Ð»Ð°Ð½Ð¼Ð°Ð´Ð¸</translation>
+        <translation>Жами ўтказмалар ҳозиргача тасдиқланган ва сафланадиган баланс томонга ҳали ҳам ҳисобланмади</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Ð¢Ð°Ð¹ÑÑ ÑÐ¼Ð°Ñ:</translation>
+        <translation>Тайёр эмас:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>ÐÐ¸Ð½Ð°Ð»Ð°ÑÑÐ¸ÑÐ¸Ð»Ð³Ð°Ð½ Ð±Ð°Ð»Ð°Ð½Ñ Ò³Ð°Ð»Ð¸Ð³Ð°ÑÐ° ÑÐ°Ð¹ÑÑ ÑÐ¼Ð°Ñ</translation>
+        <translation>Миналаштирилган баланс ҳалигача тайёр эмас</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>ÐÐ°Ð»Ð°Ð½ÑÐ»Ð°Ñ</translation>
+        <translation>Баланслар</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>ÐÐ°Ð¼Ð¸:</translation>
+        <translation>Жами:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>ÐÐ¾ÑÐ¸Ð¹ ÑÐ¼ÑÐ¼Ð¸Ð¹ Ð±Ð°Ð»Ð°Ð½ÑÐ¸Ð½Ð³Ð¸Ð·</translation>
+        <translation>Жорий умумий балансингиз</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>ÐÐ¾ÑÐ¸Ð¹ Ð±Ð°Ð»Ð°Ð½ÑÐ¸Ð½Ð³Ð¸Ð· ÑÐ°ÒÐ°Ñ ÐºÑÑÐ¸Ð½Ð°Ð´Ð¸Ð³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð»Ð°ÑÐ´Ð°</translation>
+        <translation>Жорий балансингиз фақат кўринадиган манзилларда</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Ð¡Ð°ÑÑÐ»Ð°Ð½Ð°Ð´Ð¸Ð³Ð°Ð½:</translation>
+        <translation>Сарфланадиган:</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Ð¡ÑÐ½Ð³Ð³Ð¸ Ð¿ÑÐ» ÑÑÐºÐ°Ð·Ð¼Ð°Ð»Ð°ÑÐ¸</translation>
+        <translation>Сўнгги пул ўтказмалари</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Ð¢Ð°ÑÐ´Ð¸ÒÐ»Ð°Ð½Ð¼Ð°Ð³Ð°Ð½ ÑÑÐºÐ°Ð·Ð¼Ð°Ð»Ð°Ñ-ÑÐ°ÒÐ°Ñ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð»Ð°ÑÐ¸Ð½Ð¸ ÐºÑÑÐ¸Ñ</translation>
+        <translation>Тасдиқланмаган ўтказмалар-фақат манзилларини кўриш</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>ÐÐ¾ÑÐ¸Ð¹ ÑÐ¼ÑÐ¼Ð¸Ð¹ Ð±Ð°Ð»Ð°Ð½Ñ ÑÐ°ÒÐ°Ñ ÐºÑÑÐ¸Ð½Ð°Ð´Ð¸Ð³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð»Ð°ÑÐ´Ð°</translation>
+        <translation>Жорий умумий баланс фақат кўринадиган манзилларда</translation>
     </message>
 </context>
 <context>
@@ -672,42 +672,42 @@
     <name>PeerTableModel</name>
     <message>
         <source>User Agent</source>
-        <translation>Ð¤Ð¾Ð¹Ð´Ð°Ð»Ð°Ð½ÑÐ²ÑÐ¸ Ð²Ð°ÐºÐ¸Ð»</translation>
+        <translation>Фойдаланувчи вакил</translation>
     </message>
     </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>ÐÐ¸ÒÐ´Ð¾ÑÐ¸</translation>
+        <translation>Миқдори</translation>
     </message>
     <message>
         <source>Enter a Pirate address (e.g. %1)</source>
-        <translation>Komodo Ð¼Ð°Ð½Ð·Ð¸Ð»Ð¸Ð½Ð¸ ÐºÐ¸ÑÐ¸ÑÐ¸Ð½Ð³ (Ð¼Ð°ÑÐ°Ð»Ð°Ð½.  %1)</translation>
+        <translation>Pirate манзилини киритинг (масалан.  %1)</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 Ð´</translation>
+        <translation>%1 д</translation>
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1 Ñ</translation>
+        <translation>%1 с</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>ÐÑÒ</translation>
+        <translation>Йўқ</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>Ð¢ÑÒÑÐ¸ ÐºÐµÐ»Ð¼Ð°Ð¹Ð´Ð¸</translation>
+        <translation>Тўғри келмайди</translation>
     </message>
     <message>
         <source>%1 ms</source>
-        <translation>%1 Ð¼Ñ</translation>
+        <translation>%1 мс</translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 Ð²Ð° %2</translation>
+        <translation>%1 ва %2</translation>
     </message>
     </context>
 <context>
@@ -720,253 +720,253 @@
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation>Ð¢ÑÒÑÐ¸ ÐºÐµÐ»Ð¼Ð°Ð¹Ð´Ð¸</translation>
+        <translation>Тўғри келмайди</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>ÐÐ¸Ð¶Ð¾Ð· Ð½Ð¾Ð¼Ð¸</translation>
+        <translation>Мижоз номи</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;ÐÐ°ÑÐ»ÑÐ¼Ð¾Ñ</translation>
+        <translation>&amp;Маълумот</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation>Ð¢ÑÐ·Ð°ÑÐ¸Ñ Ð¾Ð¹Ð½Ð°ÑÐ¸</translation>
+        <translation>Тузатиш ойнаси</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>ÐÑÐ¾ÑÐ¸Ð¹</translation>
+        <translation>Асосий</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Ð¤Ð¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ð»Ð°ÑÑÐ³Ð°Ð½ BerkeleyDB Ð²ÐµÑÑÐ¸ÑÑÐ¸</translation>
+        <translation>Фойдаланилаётган BerkeleyDB версияси</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>ÐÐ¾ÑÐ»Ð°Ð½Ð¸Ñ Ð²Ð°ÒÑÐ¸</translation>
+        <translation>Бошланиш вақти</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Ð¢Ð°ÑÐ¼Ð¾Ò</translation>
+        <translation>Тармоқ</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>ÐÐ¾Ð¼</translation>
+        <translation>Ном</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;Ð£Ð»Ð°Ð¼Ð»Ð°Ñ</translation>
+        <translation>&amp;Уламлар</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>ÐÐ°ÑÐ°ÑÑÐ¸Ð» Ð¼Ð°ÑÐ»ÑÐ¼Ð¾ÑÐ»Ð°ÑÐ½Ð¸ ÐºÑÑÐ¸Ñ ÑÑÑÐ½ ÑÐ»Ð°Ð¼Ð½Ð¸ ÑÐ°Ð½Ð»Ð°Ð½Ð³.</translation>
+        <translation>Батафсил маълумотларни кўриш учун уламни танланг.</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>ÐÑÐ½Ð°Ð»Ð¸Ñ</translation>
+        <translation>Йўналиш</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>ÐÐµÑÑÐ¸Ñ</translation>
+        <translation>Версия</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>Ð¤Ð¾Ð¹Ð´Ð°Ð»Ð°Ð½ÑÐ²ÑÐ¸ Ð²Ð°ÐºÐ¸Ð»</translation>
+        <translation>Фойдаланувчи вакил</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Ð¥Ð¸Ð·Ð¼Ð°ÑÐ»Ð°Ñ</translation>
+        <translation>Хизматлар</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Ð¢ÐµÐ·Ð»Ð¸ÐºÐ½Ð¸ Ð±Ð°Ð½ ÒÐ¸Ð»Ð¸Ñ</translation>
+        <translation>Тезликни бан қилиш</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Ð£Ð»Ð°Ð½Ð¸Ñ Ð²Ð°ÒÑÐ¸</translation>
+        <translation>Уланиш вақти</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Ð¡ÑÐ½Ð³Ð³Ð¸ Ð¶ÑÐ½Ð°ÑÐ¸Ð»Ð³Ð°Ð½</translation>
+        <translation>Сўнгги жўнатилган</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Ð¡ÑÐ½Ð³Ð³Ð¸ ÒÐ°Ð±ÑÐ» ÒÐ¸Ð»Ð¸Ð½Ð³Ð°Ð½</translation>
+        <translation>Сўнгги қабул қилинган</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Ping Ð²Ð°ÒÑÐ¸</translation>
+        <translation>Ping вақти</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Ð¡ÑÐ½Ð³Ð³Ð¸ Ð±Ð»Ð¾Ðº Ð²Ð°ÒÑÐ¸</translation>
+        <translation>Сўнгги блок вақти</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;ÐÑÐ¸Ñ</translation>
+        <translation>&amp;Очиш</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Ð¢ÐµÑÐ¼Ð¸Ð½Ð°Ð»</translation>
+        <translation>&amp;Терминал</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Ð¢Ð°ÑÐ¼Ð¾Ò ÑÑÐ°ÑÐ¸Ð³Ð¸</translation>
+        <translation>&amp;Тармоқ трафиги</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Ð¢Ð¾Ð·Ð°Ð»Ð°Ñ</translation>
+        <translation>&amp;Тозалаш</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>ÐÐ°Ð¼Ð¸</translation>
+        <translation>Жами</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>ÐÑÐ¸Ð³Ð°:</translation>
+        <translation>Ичига:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Ð¢Ð°ÑÒÐ°ÑÐ¸Ð³Ð°:</translation>
+        <translation>Ташқарига:</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Ð¢ÑÐ·Ð°ÑÐ¸Ñ Ð¶ÑÑÐ½Ð°Ð»Ð¸ ÑÐ°Ð¹Ð»Ð¸</translation>
+        <translation>Тузатиш журнали файли</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Ð¢ÐµÑÐ¼Ð¸Ð½Ð°Ð»Ð½Ð¸ ÑÐ¾Ð·Ð°Ð»Ð°Ñ</translation>
+        <translation>Терминални тозалаш</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Ð¢Ð°ÑÐ¸ÑÐ½Ð¸ ÐºÑÑÐ¸Ñ ÑÑÑÐ½ ÑÐµÐ¿Ð°Ð³Ð° Ð²Ð° Ð¿Ð°ÑÑÐ³Ð° ÐºÑÑÑÐ°ÑÐºÐ¸ÑÐ»Ð°ÑÐ¸Ð´Ð°Ð½ ÑÐ¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ð½Ð³, ÑÐºÑÐ°Ð½Ð½Ð¸ ÑÐ¾Ð·Ð°Ð»Ð°Ñ ÑÑÑÐ½ &lt;b&gt;Ctrl-L&lt;/b&gt; ÑÑÐ³Ð¼Ð°Ð»Ð°Ñ Ð±Ð¸ÑÐ¸ÐºÐ¼Ð°ÑÐ¸Ð´Ð°Ð½ ÑÐ¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ð½Ð³.</translation>
+        <translation>Тарихни кўриш учун тепага ва пастга кўрсаткичларидан фойдаланинг, экранни тозалаш учун &lt;b&gt;Ctrl-L&lt;/b&gt; тугмалар бирикмасидан фойдаланинг.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>ÐÐ°Ð²Ð¶ÑÐ´ Ð±ÑÐ¹ÑÑÒÐ»Ð°ÑÐ½Ð¸ ÐºÑÑÐ¸Ñ ÑÑÑÐ½ &lt;b&gt;help&lt;/b&gt; Ð´ÐµÐ± ÑÐ·Ð¸Ð½Ð³.</translation>
+        <translation>Мавжуд буйруқларни кўриш учун &lt;b&gt;help&lt;/b&gt; деб ёзинг.</translation>
     </message>
     <message>
         <source>%1 B</source>
-        <translation>%1 Ð</translation>
+        <translation>%1 Б</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 ÐÐ</translation>
+        <translation>%1 КБ</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation>%1 ÐÐ</translation>
+        <translation>%1 МБ</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 ÐÐ</translation>
+        <translation>%1 ГБ</translation>
     </message>
     <message>
         <source>via %1</source>
-        <translation>%1 Ð¾ÑÒÐ°Ð»Ð¸</translation>
+        <translation>%1 орқали</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>Ò³ÐµÑ ÒÐ°ÑÐ¾Ð½</translation>
+        <translation>ҳеч қачон</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>ÐÑÐºÐ¸ Ð¹ÑÐ½Ð°Ð»Ð¸Ñ</translation>
+        <translation>Ички йўналиш</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Ð¢Ð°ÑÒÐ¸ Ð¹ÑÐ½Ð°Ð»Ð¸Ñ</translation>
+        <translation>Ташқи йўналиш</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Ò²Ð°</translation>
+        <translation>Ҳа</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>ÐÑÒ</translation>
+        <translation>Йўқ</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>ÐÐ¾Ð¼Ð°ÑÐ»ÑÐ¼</translation>
+        <translation>Номаълум</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;ÐÐ¸ÒÐ´Ð¾Ñ:</translation>
+        <translation>&amp;Миқдор:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;ÐÑÐ»Ð¸Ò:</translation>
+        <translation>&amp;Ёрлиқ:</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Ð¥Ð°Ð±Ð°Ñ:</translation>
+        <translation>&amp;Хабар:</translation>
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation>ÐÐ»Ð´Ð¸Ð½Ð³Ð¸ ÑÐ¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ð»Ð³Ð°Ð½ ÒÐ°Ð±ÑÐ» ÒÐ¸Ð»Ð¸Ð½Ð³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð»Ð°ÑÐ´Ð°Ð½ Ð±Ð¸ÑÐ¸Ð´Ð°Ð½ ÒÐ°Ð¹ÑÐ° ÑÐ¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ð»ÑÐ¸Ð½. Ð¥Ð°Ð²ÑÐ¸Ð·Ð»Ð¸Ðº Ð²Ð° Ð¼Ð°ÑÑÐ¸Ð¹Ð»Ð¸Ðº Ð¼ÑÐ°Ð¼Ð¼Ð¾Ð»Ð°Ñ Ð¼Ð°Ð²Ð¶ÑÐ´ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð»Ð°ÑÐ´Ð°Ð½ ÒÐ°Ð¹ÑÐ° ÑÐ¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ð»Ð¼Ð¾ÒÐ´Ð°. ÐÑÐ½Ð´Ð°Ð½ ÑÑÐ»Ð¾Ð² ÑÑÑÐ¾Ð² ÒÐ°Ð¹ÑÐ° ÑÑÐ°ÑÐ¸Ð»Ð¼Ð°Ð³ÑÐ½Ð¸ÑÐ° ÑÐ¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¼Ð°Ð½Ð³.</translation>
+        <translation>Олдинги фойдаланилган қабул қилинган манзиллардан биридан қайта фойдаланилсин. Хавсизлик ва махфийлик муаммолар мавжуд манзиллардан қайта фойдаланилмоқда. Бундан тўлов сўров қайта яратилмагунича фойдаланманг.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Ð¯Ð½Ð³Ð¸ ÒÐ°Ð±ÑÐ» ÒÐ¸Ð»Ð¸Ð½Ð°ÑÑÐ³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð» Ð±Ð¸Ð»Ð°Ð½ Ð±Ð¾ÒÐ»Ð°Ð½Ð³Ð°Ð½ ÑÐ°Ð½Ð»Ð°Ð½Ð°Ð´Ð¸Ð³Ð°Ð½ ÑÑÐ»Ð¸Ò.</translation>
+        <translation>Янги қабул қилинаётган манзил билан боғланган танланадиган ёрлиқ.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Ð£ÑÐ±Ñ ÑÑÑÐ¾Ð²Ð´Ð°Ð½ ÑÑÐ»Ð¾Ð²Ð»Ð°ÑÐ½Ð¸ ÑÑÑÐ°Ñ ÑÑÑÐ½ ÑÐ¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ð½Ð³. ÐÐ°ÑÑÐ° Ð¼Ð°Ð¹Ð´Ð¾Ð½Ð»Ð°Ñ &lt;b&gt;Ð¼Ð°Ð¶Ð±ÑÑÐ¸Ð¹ ÑÐ¼Ð°Ñ&lt;/b&gt;.</translation>
+        <translation>Ушбу сўровдан тўловларни сўраш учун фойдаланинг. Барча майдонлар &lt;b&gt;мажбурий эмас&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Ð¥Ð¾Ò³Ð»Ð°Ð½Ð³Ð°Ð½ Ð¼Ð¸ÒÐ´Ð¾Ñ ÑÑÑÐ¾Ð²Ð¸. ÐÑÑÑÐ°ÑÐ¸Ð»Ð³Ð°Ð½ Ð¼Ð¸ÒÐ´Ð¾ÑÐ½Ð¸ ÑÑÑÐ°Ñ ÑÑÑÐ½ Ð±ÑÐ½Ð¸ Ð±ÑÑ ÑÐºÐ¸ Ð½Ð¾Ð»Ñ ÒÐ¾Ð»Ð´Ð¸ÑÐ¸Ð½Ð³.</translation>
+        <translation>Хоҳланган миқдор сўрови. Кўрсатилган миқдорни сўраш учун буни бўш ёки ноль қолдиринг.</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Ð¨Ð°ÐºÐ»Ð½Ð¸Ð½Ð³ Ð±Ð°ÑÑÐ° Ð¼Ð°Ð¹Ð´Ð¾Ð½ÑÐ°Ð»Ð°ÑÐ¸Ð½Ð¸ ÑÐ¾Ð·Ð°Ð»Ð°Ñ</translation>
+        <translation>Шаклнинг барча майдончаларини тозалаш</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Ð¢Ð¾Ð·Ð°Ð»Ð°Ñ</translation>
+        <translation>Тозалаш</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Ð¡ÑÑÐ°Ð»Ð³Ð°Ð½ ÑÑÐ»Ð¾Ð² ÑÐ°ÑÐ¸ÑÐ¸</translation>
+        <translation>Сўралган тўлов тарихи</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>Ð¢ÑÐ»Ð¾Ð²Ð½Ð¸ &amp;ÑÑÑÐ°Ñ</translation>
+        <translation>Тўловни &amp;сўраш</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Ð¢Ð°Ð½Ð»Ð°Ð½Ð³Ð°Ð½ ÑÑÑÐ¾Ð²Ð½Ð¸ ÐºÑÑÑÐ°ÑÐ¸Ñ (Ð¸ÐºÐºÐ¸ Ð¼Ð°ÑÑÐ° Ð±Ð¾ÑÐ¸Ð»Ð³Ð°Ð½Ð´Ð° Ò³Ð°Ð¼ Ð±Ð¸Ñ ÑÐ¸Ð» Ð°Ð¼Ð°Ð» Ð±Ð°Ð¶Ð°ÑÐ¸Ð»ÑÐ¸Ð½)</translation>
+        <translation>Танланган сўровни кўрсатиш (икки марта босилганда ҳам бир хил амал бажарилсин)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>ÐÑÑÑÐ°ÑÐ¸Ñ</translation>
+        <translation>Кўрсатиш</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Ð¢Ð°Ð½Ð»Ð°Ð½Ð³Ð°Ð½Ð»Ð°ÑÐ½Ð¸ ÑÑÐ¹ÑÐ°ÑÐ´Ð°Ð½ ÑÑÐ¸ÑÐ¸Ñ</translation>
+        <translation>Танланганларни рўйхатдан ўчириш</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>ÐÑÐ¸ÑÐ¸Ñ</translation>
+        <translation>Ўчириш</translation>
     </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR ÐÐ¾Ð´Ð¸</translation>
+        <translation>QR Коди</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>ÐÑÑÒ³Ð°Ð»Ð°Ñ &amp; ÐÐ°Ð½Ð·Ð¸Ð»</translation>
+        <translation>Нусҳалаш &amp; Манзил</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>Ð Ð°ÑÐ¼Ð½Ð¸ &amp;ÑÐ°ÒÐ»Ð°Ñ</translation>
+        <translation>Расмни &amp;сақлаш</translation>
     </message>
     </context>
 <context>
@@ -976,126 +976,126 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Ð¢Ð°Ð½Ð³Ð°Ð»Ð°ÑÐ½Ð¸ Ð¶ÑÐ½Ð°Ñ</translation>
+        <translation>Тангаларни жунат</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Ð¢Ð°Ð½Ð³Ð° Ð±Ð¾ÑÒÐ°ÑÑÐ²Ð¸ Ò³ÑÑÑÑÐ¸ÑÑÐ»Ð°ÑÐ¸</translation>
+        <translation>Танга бошқаруви ҳусусиятлари</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸Ðº ÑÐ°ÑÐ·Ð´Ð° ÑÐ°Ð½Ð»Ð°Ð½Ð³Ð°Ð½</translation>
+        <translation>автоматик тарзда танланган</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>ÐÐ°Ð¼ Ð¼Ð¸ÒÐ´Ð¾Ñ</translation>
+        <translation>Кам миқдор</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Ð¡Ð¾Ð½Ð¸:</translation>
+        <translation>Сони:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>ÐÐ°Ð¹Ñ:</translation>
+        <translation>Байт:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>ÐÐ¸ÒÐ´Ð¾ÑÐ¸:</translation>
+        <translation>Миқдори:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Ð¡Ð¾Ð»Ð¸Ò:</translation>
+        <translation>Солиқ:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Ð¡Ð¾Ð»Ð¸ÒÐ´Ð°Ð½ ÑÑÐ½Ð³:</translation>
+        <translation>Солиқдан сўнг:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>ÐÐ·Ð³Ð°ÑÑÐ¸ÑÐ¸Ñ:</translation>
+        <translation>Ўзгартириш:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>ÐÐ³Ð°Ñ Ð±Ñ ÑÐ°Ð¾Ð»Ð»Ð°ÑÑÐ¸ÑÐ¸Ð»ÑÐ°, Ð°Ð¼Ð¼Ð¾ ÑÐ·Ð³Ð°ÑÑÐ¸ÑÐ¸Ð»Ð³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð» Ð±ÑÐ» ÑÐºÐ¸ Ð½Ð¾ÑÑÒÑÐ¸ Ð±ÑÐ»ÑÐ°, ÑÐ·Ð³Ð°ÑÐ¸Ñ ÑÐ½Ð³Ð¸ ÑÑÐ°ÑÐ¸Ð»Ð³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð³Ð° Ð¶ÑÐ½Ð°ÑÐ¸Ð»Ð°Ð´Ð¸.</translation>
+        <translation>Агар бу фаоллаштирилса, аммо ўзгартирилган манзил бўл ёки нотўғри бўлса, ўзгариш янги яратилган манзилга жўнатилади.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>ÐÐ¾ÑÒÐ° ÑÐ·Ð³Ð°ÑÑÐ¸ÑÐ¸Ð»Ð³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»</translation>
+        <translation>Бошқа ўзгартирилган манзил</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>ÐÑÐºÐ°Ð·Ð¼Ð° ÑÑÐ»Ð¾Ð²Ð¸</translation>
+        <translation>Ўтказма тўлови</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Ð¢Ð°Ð½Ð»Ð¾Ð²</translation>
+        <translation>Танлов</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>Ð¥Ð°Ñ ÐºÐ¸Ð»Ð¾Ð±Ð°Ð¹ÑÐ¸Ð³Ð°</translation>
+        <translation>Хар килобайтига</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Ð¢Ð°Ð²ÑÐ¸Ñ ÑÑÐ¸Ð»Ð³Ð°Ð½</translation>
+        <translation>Тавсия этилган</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>ÐÐ¾ÑÐ¼Ð°Ð»</translation>
+        <translation>Нормал</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>Ð¢ÐµÐ·ÐºÐ¾Ñ</translation>
+        <translation>Тезкор</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>ÐÐ¸ÑÐ´Ð°Ð½Ð¸Ð³Ð° Ð±Ð¸Ñ Ð½ÐµÑÑÐ° ÒÐ°Ð±ÑÐ» ÒÐ¸Ð»ÑÐ²ÑÐ¸Ð»Ð°ÑÐ³Ð° Ð¶ÑÐ½Ð°ÑÐ¸Ñ</translation>
+        <translation>Бирданига бир нечта қабул қилувчиларга жўнатиш</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Ð¨Ð°ÐºÐ»Ð½Ð¸Ð½Ð³ Ð±Ð°ÑÑÐ° Ð¼Ð°Ð¹Ð´Ð¾Ð½ÑÐ°Ð»Ð°ÑÐ¸Ð½Ð¸ ÑÐ¾Ð·Ð°Ð»Ð°Ñ</translation>
+        <translation>Шаклнинг барча майдончаларини тозалаш</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>ÐÑÐ»Ð°Ñ ÒÑÑÐ¸ÑÐ¸:</translation>
+        <translation>Ахлат қутиси:</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>ÐÐ°ÑÑÐ°ÑÐ¸Ð½Ð¸ &amp; Ð¢Ð¾Ð·Ð°Ð»Ð°Ñ</translation>
+        <translation>Барчасини &amp; Тозалаш</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>ÐÐ°Ð»Ð°Ð½Ñ</translation>
+        <translation>Баланс</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>ÐÑÐ½Ð°ÑÐ¸Ñ Ð°Ð¼Ð°Ð»Ð¸Ð½Ð¸ ÑÐ°ÑÐ´Ð¸ÒÐ»Ð°Ñ</translation>
+        <translation>Жўнатиш амалини тасдиқлаш</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>ÐÑ&amp;Ð½Ð°ÑÐ¸Ñ</translation>
+        <translation>Жў&amp;натиш</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;ÐÐ¸ÒÐ´Ð¾ÑÐ¸:</translation>
+        <translation>&amp;Миқдори:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>&amp;Ð¢ÑÐ»Ð¾Ð² Ð¾Ð»ÑÐ²ÑÐ¸:</translation>
+        <translation>&amp;Тўлов олувчи:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;ÐÑÐ»Ð¸Ò:</translation>
+        <translation>&amp;Ёрлиқ:</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>ÐÐ»Ð´Ð¸Ð½ ÑÐ¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ð»Ð³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð½Ð¸ ÑÐ°Ð½Ð»Ð°</translation>
+        <translation>Олдин фойдаланилган манзилни танла</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation>ÐÑ Ð½Ð¾ÑÐ¼Ð°Ð» ÑÑÐ»Ð¾Ð².</translation>
+        <translation>Бу нормал тўлов.</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1103,7 +1103,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>ÐÐ»Ð¸Ð¿Ð±Ð¾Ð°ÑÐ´Ð´Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð½Ð¸ ÒÑÐ¹Ð¸Ñ</translation>
+        <translation>Клипбоарддан манзилни қўйиш</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1111,11 +1111,11 @@
     </message>
     <message>
         <source>Message:</source>
-        <translation>Ð¥Ð°Ð±Ð°Ñ</translation>
+        <translation>Хабар</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Ð¢ÑÐ»Ð¾Ð² Ð¾Ð»ÑÐ²ÑÐ¸:</translation>
+        <translation>Тўлов олувчи:</translation>
     </message>
     </context>
 <context>
@@ -1128,7 +1128,7 @@
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Choose previously used address</source>
-        <translation>ÐÐ»Ð´Ð¸Ð½ ÑÐ¾Ð¹Ð´Ð°Ð»Ð°Ð½Ð¸Ð»Ð³Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð½Ð¸ ÑÐ°Ð½Ð»Ð°</translation>
+        <translation>Олдин фойдаланилган манзилни танла</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1136,7 +1136,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>ÐÐ»Ð¸Ð¿Ð±Ð¾Ð°ÑÐ´Ð´Ð°Ð½ Ð¼Ð°Ð½Ð·Ð¸Ð»Ð½Ð¸ ÒÑÐ¹Ð¸Ñ</translation>
+        <translation>Клипбоарддан манзилни қўйиш</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1144,11 +1144,11 @@
     </message>
     <message>
         <source>Signature</source>
-        <translation>ÐÐ¼Ð·Ð¾</translation>
+        <translation>Имзо</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>ÐÐ°ÑÑÐ°ÑÐ¸Ð½Ð¸ &amp; Ð¢Ð¾Ð·Ð°Ð»Ð°Ñ</translation>
+        <translation>Барчасини &amp; Тозалаш</translation>
     </message>
     </context>
 <context>
@@ -1168,7 +1168,7 @@
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ð£ÑÐ±Ñ Ð¾Ð¹Ð½Ð° Ð¾Ð¿ÐµÑÐ°ÑÐ¸ÑÐ½Ð¸Ð½Ð³ Ð±Ð°ÑÐ°ÑÑÐ¸Ð» ÑÐ°ÑÑÐ¸ÑÐ¸Ð½Ð¸ ÐºÑÑÑÐ°ÑÐ°Ð´Ð¸</translation>
+        <translation>Ушбу ойна операциянинг батафсил таърифини кўрсатади</translation>
     </message>
     </context>
 <context>
@@ -1193,19 +1193,19 @@
     <name>pirate-core</name>
     <message>
         <source>Options:</source>
-        <translation>Ð¢Ð°Ð½Ð»Ð°Ð¼Ð°Ð»Ð°Ñ:</translation>
+        <translation>Танламалар:</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>ÐÐ°ÑÐ»ÑÐ¼Ð¾ÑÐ»Ð°Ñ Ð´Ð¸ÑÐµÐºÑÐ¾ÑÐ¸ÑÑÐ¸Ð½Ð¸ ÐºÑÑÑÐ°ÑÐ¸Ð½Ð³</translation>
+        <translation>Маълумотлар директориясини кўрсатинг</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>ÐÑÐ¹ÑÑÒÐ»Ð°Ñ ÑÐ°ÑÑÐ¸ Ð²Ð° JSON-RPC Ð±ÑÐ¹ÑÑÒÐ»Ð°ÑÐ¸Ð³Ð° ÑÐ¾Ð·Ð¸ Ð±ÑÐ»Ð¸Ð½Ð³</translation>
+        <translation>Буйруқлар сатри ва JSON-RPC буйруқларига рози бўлинг</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>ÐÐµÐ¼Ð¾Ð½ ÑÐ¸ÑÐ°ÑÐ¸Ð´Ð° Ð¾ÑÒÐ° ÑÐ¾Ð½Ð´Ð° Ð¸ÑÐ³Ð° ÑÑÑÐ¸ÑÐ¸Ð½Ð³ Ð²Ð° Ð±ÑÐ¹ÑÑÒÐ»Ð°ÑÐ³Ð° ÑÐ¾Ð·Ð¸ Ð±ÑÐ»Ð¸Ð½Ð³</translation>
+        <translation>Демон сифатида орқа фонда ишга туширинг ва буйруқларга рози бўлинг</translation>
     </message>
     <message>
         <source>Pirate Core</source>
@@ -1213,51 +1213,51 @@
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Ð£Ð»Ð°Ð½Ð¸Ñ ÐºÑÑÑÐ°ÑÐºÐ¸ÑÐ»Ð°ÑÐ¸:</translation>
+        <translation>Уланиш кўрсаткичлари:</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>ÐÐ°ÑÐ»ÑÐ¼Ð¾Ñ</translation>
+        <translation>Маълумот</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>JSON-RPC ÑÐ»Ð°Ð½Ð¸ÑÐ»Ð°ÑÐ¸ ÑÑÑÐ½ ÑÐ¾Ð¹Ð´Ð°Ð»Ð°Ð½ÑÐ²ÑÐ¸ Ð½Ð¾Ð¼Ð¸</translation>
+        <translation>JSON-RPC уланишлари учун фойдаланувчи номи</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>ÐÐ¸ÒÒÐ°Ñ</translation>
+        <translation>Диққат</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>JSON-RPC ÑÐ»Ð°Ð½Ð¸ÑÐ»Ð°ÑÐ¸ ÑÑÑÐ½ Ð¿Ð°ÑÐ¾Ð»</translation>
+        <translation>JSON-RPC уланишлари учун парол</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>ÐÐ°Ð½Ð·Ð¸Ð»Ð»Ð°Ñ ÑÐºÐ»Ð°Ð½Ð¼Ð¾ÒÐ´Ð°...</translation>
+        <translation>Манзиллар юкланмоқда...</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>ÐÐ°Ð¼ Ð¼Ð¸ÒÐ´Ð¾Ñ</translation>
+        <translation>Кам миқдор</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Ð¢ÑÑÐ¸Ò Ð¸Ð½Ð´ÐµÐºÑÐ¸ ÑÐºÐ»Ð°Ð½Ð¼Ð¾ÒÐ´Ð°...</translation>
+        <translation>Тўсиқ индекси юкланмоқда...</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Ò²Ð°Ð¼ÑÐ½ ÑÐºÐ»Ð°Ð½Ð¼Ð¾ÒÐ´Ð°...</translation>
+        <translation>Ҳамён юкланмоқда...</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>ÒÐ°Ð¹ÑÐ° ÑÐµÐºÑÐ¸ÑÐ¸Ð± ÑÐ¸ÒÐ¸Ð»Ð¼Ð¾ÒÐ´Ð°...</translation>
+        <translation>Қайта текшириб чиқилмоқда...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Ð®ÐºÐ»Ð°Ñ ÑÐ°Ð¹ÑÑ</translation>
+        <translation>Юклаш тайёр</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Ð¥Ð°ÑÐ¾Ð»Ð¸Ðº</translation>
+        <translation>Хатолик</translation>
     </message>
 </context>
 </TS>

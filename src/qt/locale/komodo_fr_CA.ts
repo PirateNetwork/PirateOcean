@@ -3,11 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Create a new address</source>
-        <translation>CrÃ©er une nouvelle adresse</translation>
+        <translation>Créer une nouvelle adresse</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copier l'adresse surlignÃ© a votre presse-papier</translation>
+        <translation>Copier l'adresse surligné a votre presse-papier</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -29,7 +29,7 @@
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>RÃ©pÃ©ter Mot de Passe</translation>
+        <translation>Répéter Mot de Passe</translation>
     </message>
     </context>
 <context>
@@ -42,7 +42,7 @@
     <name>CoinControlDialog</name>
     <message>
         <source>(un)select all</source>
-        <translation>Toute sÃ©lectionner </translation>
+        <translation>Toute sélectionner </translation>
     </message>
     </context>
 <context>

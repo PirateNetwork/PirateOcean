@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Klikni desnim tasterom za ureÄivanje adrese ili oznake</translation>
+        <translation>Klikni desnim tasterom za uređivanje adrese ili oznake</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>BriÅ¡e trenutno izabranu adresu sa liste</translation>
+        <translation>Briše trenutno izabranu adresu sa liste</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -65,27 +65,27 @@
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Unesite novu pristupnu frazu u novÄanik. &lt;br/&gt;Molimo, koristite pristupnu frazu koja ima &lt;b&gt; deset ili viÅ¡e nasumiÄnih znakova&lt;/b&gt;, ili &lt;b&gt;osam ili viÅ¡e reÄi&lt;/b&gt;.</translation>
+        <translation>Unesite novu pristupnu frazu u novčanik. &lt;br/&gt;Molimo, koristite pristupnu frazu koja ima &lt;b&gt; deset ili više nasumičnih znakova&lt;/b&gt;, ili &lt;b&gt;osam ili više reči&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Å ifrujte novÄanik</translation>
+        <translation>Šifrujte novčanik</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Da biste otkljuÄali novÄanik potrebno je da unesete svoju pristupnu frazu.</translation>
+        <translation>Da biste otključali novčanik potrebno je da unesete svoju pristupnu frazu.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>OtkljuÄajte novÄanik</translation>
+        <translation>Otključajte novčanik</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Da biste deÅ¡ifrovali novÄanik, potrebno je da unesete svoju pristupnu frazu.</translation>
+        <translation>Da biste dešifrovali novčanik, potrebno je da unesete svoju pristupnu frazu.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>DeÅ¡ifrujte novÄanik</translation>
+        <translation>Dešifrujte novčanik</translation>
     </message>
     <message>
         <source>Change passphrase</source>
@@ -93,23 +93,23 @@
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Unesite u novÄanik staru pristupnu frazu i novu pristupnu frazu.</translation>
+        <translation>Unesite u novčanik staru pristupnu frazu i novu pristupnu frazu.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Potvrdite Å¡ifrovanje novÄanika</translation>
+        <translation>Potvrdite šifrovanje novčanika</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako Å¡ifrujete svoj novÄanik, i potom izgubite svoju pristupnu frazu &lt;b&gt;IZGUBIÄETE SVE SVOJE BITKOINE&lt;/b&gt;!</translation>
+        <translation>Upozorenje: Ako šifrujete svoj novčanik, i potom izgubite svoju pristupnu frazu &lt;b&gt;IZGUBIĆETE SVE SVOJE BITKOINE&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Da li ste sigurni da Å¾elite da Å¡ifrujete svoj novÄanik?</translation>
+        <translation>Da li ste sigurni da želite da šifrujete svoj novčanik?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>NovÄanik je Å¡ifrovan</translation>
+        <translation>Novčanik je šifrovan</translation>
     </message>
     </context>
 <context>
@@ -127,7 +127,7 @@
     <name>PirateOceanGUI</name>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>UsklaÄivanje sa mreÅ¾om...</translation>
+        <translation>Usklađivanje sa mrežom...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -135,7 +135,7 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>IskljuÄi aplikaciju</translation>
+        <translation>Isključi aplikaciju</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -159,7 +159,7 @@
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>PoÅ¡alji novÄiÄe na Pirate adresu</translation>
+        <translation>Pošalji novčiće na Pirate adresu</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -171,11 +171,11 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>NovÄanik</translation>
+        <translation>Novčanik</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;PoÅ¡alji</translation>
+        <translation>&amp;Pošalji</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -187,15 +187,15 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>PrikaÅ¾i ili sakrij glavni prozor</translation>
+        <translation>Prikaži ili sakrij glavni prozor</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;PodeÅ¡avanja</translation>
+        <translation>&amp;Podešavanja</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;PomoÄ</translation>
+        <translation>&amp;Pomoć</translation>
     </message>
     <message>
         <source>Error</source>
@@ -248,7 +248,7 @@
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>KoliÄina:</translation>
+        <translation>Količina:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -346,7 +346,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>KoliÄina:</translation>
+        <translation>Količina:</translation>
     </message>
     <message>
         <source>Amount:</source>

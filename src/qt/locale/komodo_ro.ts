@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>CreazÄ o nouÄ adresÄ</translation>
+        <translation>Crează o nouă adresă</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -15,31 +15,31 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>CopiazÄ Ã®n notiÈe adresa selectatÄ Ã®n prezent</translation>
+        <translation>Copiază în notițe adresa selectată în prezent</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>CopiazÄ</translation>
+        <translation>Copiază</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>Ãnchide</translation>
+        <translation>Închide</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Èterge adresa curentÄ selectata din listÄ</translation>
+        <translation>Șterge adresa curentă selectata din listă</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>ExportÄ datele din tabul curent in fisier</translation>
+        <translation>Exportă datele din tabul curent in fisier</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>ExportÄ</translation>
+        <translation>Exportă</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>Èterge</translation>
+        <translation>Șterge</translation>
     </message>
     </context>
 <context>
@@ -57,11 +57,11 @@
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Noua parolÄ</translation>
+        <translation>Noua parolă</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Repetati noua parolÄ</translation>
+        <translation>Repetati noua parolă</translation>
     </message>
     </context>
 <context>
@@ -72,18 +72,18 @@
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Blocat pÃ¢nÄ</translation>
+        <translation>Blocat până</translation>
     </message>
 </context>
 <context>
     <name>PirateOceanGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>SemneazÄ &amp;mesajul...</translation>
+        <translation>Semnează &amp;mesajul...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Se sincronizeazÄ cu reÈeaua</translation>
+        <translation>Se sincronizează cu rețeaua</translation>
     </message>
     <message>
         <source>Node</source>
@@ -91,19 +91,19 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>AratÄ o prezentare generalÄ a portofelului.</translation>
+        <translation>Arată o prezentare generală a portofelului.</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;TranzacÈii</translation>
+        <translation>&amp;Tranzacții</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>NavigheazÄ Ã®n istoricul tranzacÈiilor</translation>
+        <translation>Navighează în istoricul tranzacțiilor</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>PÄrÄseÈte aplicaÈia</translation>
+        <translation>Părăsește aplicația</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -111,15 +111,15 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>AratÄ informaÈii despre Qt</translation>
+        <translation>Arată informații despre Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;OpÈiuni...</translation>
+        <translation>&amp;Opțiuni...</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;CripteazÄ portofelul...</translation>
+        <translation>&amp;Criptează portofelul...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;SchimbÄ parola...</translation>
+        <translation>&amp;Schimbă parola...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
@@ -135,7 +135,7 @@
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;PrimeÈte adresele...</translation>
+        <translation>&amp;Primește adresele...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -143,15 +143,15 @@
     </message>
     <message>
         <source>Send coins to a Pirate address</source>
-        <translation>Trimite monedele cÄtre o adresÄ Komodo</translation>
+        <translation>Trimite monedele către o adresă Pirate</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>FÄ o copie de rezervÄ a portofelului Ã®ntr-o altÄ locaÈie</translation>
+        <translation>Fă o copie de rezervă a portofelului într-o altă locație</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>SchimbÄ parola folositÄ pentru criptarea portofelului</translation>
+        <translation>Schimbă parola folosită pentru criptarea portofelului</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -159,11 +159,11 @@
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>PorneÈte consola pentru depanare si diagnozÄ</translation>
+        <translation>Pornește consola pentru depanare si diagnoză</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;VerificÄ mesajul...</translation>
+        <translation>&amp;Verifică mesajul...</translation>
     </message>
     <message>
         <source>Pirate</source>
@@ -179,35 +179,35 @@
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;PrimeÈte</translation>
+        <translation>&amp;Primește</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;AratÄ/Ascunde</translation>
+        <translation>&amp;Arată/Ascunde</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>AratÄ sau ascunde fereastra principalÄ</translation>
+        <translation>Arată sau ascunde fereastra principală</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>CripteazÄ cheile private care aparÈin portofelului tÄu.</translation>
+        <translation>Criptează cheile private care aparțin portofelului tău.</translation>
     </message>
     <message>
         <source>Sign messages with your Pirate addresses to prove you own them</source>
-        <translation>SemneazÄ mesajele cu adresa ta de Pirate pentru a face dovada cÄ Ã®Èi aparÈin.</translation>
+        <translation>Semnează mesajele cu adresa ta de Pirate pentru a face dovada că îți aparțin.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Pirate addresses</source>
-        <translation>VerificÄ mesajele cu scopul de a asigura faptul cÄ au fost semnate cu adresa de Pirate specificatÄ.</translation>
+        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Pirate specificată.</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;FiÈier</translation>
+        <translation>&amp;Fișier</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;SetÄri</translation>
+        <translation>&amp;Setări</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -215,15 +215,15 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and Pirate: URIs)</source>
-        <translation>Cerere platÄ (genereazÄ coduri QR Èi Pirate: URIs)</translation>
+        <translation>Cerere plată (generează coduri QR și Pirate: URIs)</translation>
     </message>
     <message>
         <source>Open a Pirate: URI or payment request</source>
-        <translation>Deschide un Pirate: URI sau cerere de platÄ</translation>
+        <translation>Deschide un Pirate: URI sau cerere de plată</translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 Ã®n urmÄ</translation>
+        <translation>%1 în urmă</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
@@ -235,11 +235,11 @@
     </message>
     <message>
         <source>Warning</source>
-        <translation>AtenÈionare</translation>
+        <translation>Atenționare</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>InformaÈie</translation>
+        <translation>Informație</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -264,7 +264,7 @@
     <message>
         <source>Label: %1
 </source>
-        <translation>EtichetÄ: %1
+        <translation>Etichetă: %1
 </translation>
     </message>
     <message>
@@ -275,22 +275,22 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Trimite tranzacÈia</translation>
+        <translation>Trimite tranzacția</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Portofelul este &lt;b&gt;criptat&lt;/b&gt; Èi Ã®n prezent &lt;b&gt;deblocat&lt;/b&gt;</translation>
+        <translation>Portofelul este &lt;b&gt;criptat&lt;/b&gt; și în prezent &lt;b&gt;deblocat&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Portofelul este &lt;b&gt;criptat&lt;/b&gt; Èi Ã®n prezent &lt;b&gt;blocat&lt;/b&gt;</translation>
+        <translation>Portofelul este &lt;b&gt;criptat&lt;/b&gt; și în prezent &lt;b&gt;blocat&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>SelecÈia monedelor</translation>
+        <translation>Selecția monedelor</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -298,7 +298,7 @@
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>BiÈi:</translation>
+        <translation>Biți:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -310,11 +310,11 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>DupÄ taxÄ:</translation>
+        <translation>După taxă:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>SchimbÄ:</translation>
+        <translation>Schimbă:</translation>
     </message>
     <message>
         <source>Tree mode</source>
@@ -322,7 +322,7 @@
     </message>
     <message>
         <source>List mode</source>
-        <translation>Mod listÄ</translation>
+        <translation>Mod listă</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -338,7 +338,7 @@
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>ConfirmÄri</translation>
+        <translation>Confirmări</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -349,7 +349,7 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>ModificÄ adresa</translation>
+        <translation>Modifică adresa</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -364,7 +364,7 @@
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Directoriul existÄ deja. AdaugÄ %1 dacÄ ai intenÈionat sÄ creezi aici un directoriu nou.</translation>
+        <translation>Directoriul există deja. Adaugă %1 dacă ai intenționat să creezi aici un directoriu nou.</translation>
     </message>
     </context>
 <context>
@@ -379,7 +379,7 @@
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>PorneÈte minimalizat</translation>
+        <translation>Pornește minimalizat</translation>
     </message>
     </context>
 <context>
@@ -390,7 +390,7 @@
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>FoloseÈte directoriul pentru date din modul implicit.</translation>
+        <translation>Folosește directoriul pentru date din modul implicit.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -398,7 +398,7 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB de spaÈiu liber disponibil</numerusform><numerusform>%n GB de spaÈiu liber disponibil</numerusform><numerusform>%n GB de spaÈiu liber disponibil</numerusform></translation>
+        <translation><numerusform>%n GB de spațiu liber disponibil</numerusform><numerusform>%n GB de spațiu liber disponibil</numerusform><numerusform>%n GB de spațiu liber disponibil</numerusform></translation>
     </message>
     </context>
 <context>
@@ -419,7 +419,7 @@
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>OpÈiuni</translation>
+        <translation>Opțiuni</translation>
     </message>
     <message>
         <source>MB</source>
@@ -427,11 +427,11 @@
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>AcceptÄ conexiuni externe</translation>
+        <translation>Acceptă conexiuni externe</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>AcceptÄ conexiunea care soseÈte</translation>
+        <translation>Acceptă conexiunea care sosește</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -439,11 +439,11 @@
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;ReseteazÄ opÈiunile</translation>
+        <translation>&amp;Resetează opțiunile</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;ReÈea</translation>
+        <translation>&amp;Rețea</translation>
     </message>
     <message>
         <source>Expert</source>
@@ -483,31 +483,31 @@
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;AnuleazÄ</translation>
+        <translation>&amp;Anulează</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>iniÈial</translation>
+        <translation>inițial</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>fÄrÄ</translation>
+        <translation>fără</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>ConfirmÄ resetarea opÈiunilor</translation>
+        <translation>Confirmă resetarea opțiunilor</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Repornirea clientului este necesarÄ pentru ca schimbÄrile sÄ fie activate</translation>
+        <translation>Repornirea clientului este necesară pentru ca schimbările să fie activate</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Clientul va fi oprit. DoreÈti sa continui?</translation>
+        <translation>Clientul va fi oprit. Dorești sa continui?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>AceastÄ schimbare necesitÄ repornirea clientului.</translation>
+        <translation>Această schimbare necesită repornirea clientului.</translation>
     </message>
     </context>
 <context>
@@ -522,7 +522,7 @@
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>TranzacÈii recente</translation>
+        <translation>Tranzacții recente</translation>
     </message>
     </context>
 <context>
@@ -539,7 +539,7 @@
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 Èi %2</translation>
+        <translation>%1 și %2</translation>
     </message>
     </context>
 <context>
@@ -556,7 +556,7 @@
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;InformaÈii</translation>
+        <translation>&amp;Informații</translation>
     </message>
     <message>
         <source>Debug window</source>
@@ -568,7 +568,7 @@
     </message>
     <message>
         <source>Network</source>
-        <translation>ReÈea</translation>
+        <translation>Rețea</translation>
     </message>
     <message>
         <source>Name</source>
@@ -576,7 +576,7 @@
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>NumÄrul de conexiuni</translation>
+        <translation>Numărul de conexiuni</translation>
     </message>
     <message>
         <source>Received</source>
@@ -588,7 +588,7 @@
     </message>
     <message>
         <source>Direction</source>
-        <translation>DirecÈia</translation>
+        <translation>Direcția</translation>
     </message>
     <message>
         <source>Version</source>
@@ -604,7 +604,7 @@
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;ConsolÄ</translation>
+        <translation>&amp;Consolă</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
@@ -616,7 +616,7 @@
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 &amp;sÄptÄmÃ¢nÄ</translation>
+        <translation>1 &amp;săptămână</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
@@ -659,18 +659,18 @@
     </message>
     <message>
         <source>Show</source>
-        <translation>AratÄ</translation>
+        <translation>Arată</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>EliminÄ</translation>
+        <translation>Elimină</translation>
     </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;SalveazÄ imaginea...</translation>
+        <translation>&amp;Salvează imaginea...</translation>
     </message>
     </context>
 <context>
@@ -684,7 +684,7 @@
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>BiÈi:</translation>
+        <translation>Biți:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -696,11 +696,11 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>DupÄ taxÄ:</translation>
+        <translation>După taxă:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>SchimbÄ:</translation>
+        <translation>Schimbă:</translation>
     </message>
     </context>
 <context>
@@ -753,11 +753,11 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>InformaÈie</translation>
+        <translation>Informație</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>AtenÈionare</translation>
+        <translation>Atenționare</translation>
     </message>
     <message>
         <source>Error</source>
