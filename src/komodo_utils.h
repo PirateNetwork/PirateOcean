@@ -1757,23 +1757,16 @@ void komodo_args(char *argv0)
     SoftSetArg("-ac_reward", std::string("25600000000"));
     SoftSetArg("-ac_private", std::string("1"));
     SoftSetArg("-ac_halving", std::string("77777"));
+    
+    SoftSetArg("-consolidation", std::string("1"));
+    SoftSetArg("-deletetx", std::string("1"));
+    SoftSetArg("-deleteinterval", std::string("1"));
+    SoftSetArg("-keeptxnum", std::string("10"));
+    SoftSetArg("-keeptxfornblocks", std::string("100"));
+    
     SoftSetArg("-addnode", std::string("zero.kolo.supernet.org"));
-    SoftSetArg("-addnode", std::string("149.56.151.69"));
-    SoftSetArg("-addnode", std::string("66.70.180.144"));
-    SoftSetArg("-addnode", std::string("209.58.144.205"));
-    SoftSetArg("-addnode", std::string("45.77.207.1"));
-    SoftSetArg("-addnode", std::string("78.47.205.239"));
-    SoftSetArg("-addnode", std::string("136.243.58.134"));
-    SoftSetArg("-addnode", std::string("209.250.227.29"));
-    SoftSetArg("-addnode", std::string("195.201.230.227"));
-    SoftSetArg("-addnode", std::string("159.89.45.197"));
-    SoftSetArg("-addnode", std::string("67.207.94.69"));
-    SoftSetArg("-addnode", std::string("178.63.77.56"));
-    SoftSetArg("-addnode", std::string("94.45.155.6"));
-    SoftSetArg("-addnode", std::string("195.93.180.221"));
-    SoftSetArg("-addnode", std::string("51.83.3.42"));
-    SoftSetArg("-addnode", std::string("45.76.232.40"));
-    SoftSetArg("-addnode", std::string("139.99.208.174"));
+    vector<string> PIRATEnodes = { "136.243.58.134","209.250.227.29","195.201.230.227","159.89.45.197","67.207.94.69","178.63.77.56","94.45.155.6","195.93.180.221","51.83.3.42","45.76.232.40","139.99.208.174" };
+    mapMultiArgs["-addnode"] = PIRATEnodes;
     name = GetArg("-ac_name","");
     if ( argv0 != 0 )
     {
