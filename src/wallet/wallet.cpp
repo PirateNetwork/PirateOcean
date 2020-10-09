@@ -1465,7 +1465,7 @@ void CWallet::BuildWitnessCache(const CBlockIndex *pindex, bool witnessOnly)
         if (pblockindex->GetHeight() % 100 == 0 && pblockindex->GetHeight() < height - 5)
         {
             LogPrintf("Building Witnesses for block %i %.4f complete\n", pblockindex->GetHeight(), pblockindex->GetHeight() / double(height));
-            uiInterface.ShowProgress(_(("Rescanning - Building Witnesses for block " + std::to_string(pblockindex->GetHeight())).c_str()),(pblockindex->GetHeight() / double(height))*100, false);
+            uiInterface.InitMessage(_(("Rescanning - Building Witnesses for block " + std::to_string(pblockindex->GetHeight())).c_str()) + ((" " + std::to_string(((pblockindex->GetHeight() / double(height))*100))).c_str()) + ("%"));
         }
 
         SproutMerkleTree sproutTree;
@@ -3646,8 +3646,7 @@ void CWallet::DeleteWalletTransactions(const CBlockIndex* pindex) {
         DeleteTransactions(removeTxs);
         LogPrintf("Delete Tx - Total Transaction Count %i, Transactions Deleted %i\n ", txCount, int(removeTxs.size()));
         if (GetBoolArg("-deletetx", true))
-          uiInterface.ShowProgress(_(("Rescanning - Current Wallet Transaction Count " + std::to_string(txCount)).c_str()),scanperc, false);
-
+          uiInterface.InitMessage(_(("Rescanning - Current Wallet Transaction Count " + std::to_string(txCount)).c_str()) + ((" " + std::to_string(scanperc)).c_str()) + ("%"));
         //Compress Wallet
         if (runCompact)
           CWalletDB::Compact(bitdb,strWalletFile);
